@@ -1,0 +1,174 @@
+# ============================================================
+# 工程规范结构化索引库 — 结构规范定义 v2.1（当前权威）
+# ============================================================
+# 本文件是 v2.1 字段定义的权威参考。每个规范的正式交付为
+# 同目录下的 <标准编号>.yaml（含 standard / clauses / executable_rules 三段）。
+#
+# 修订要点（相对 v2.0）：
+#   - 新增规范级元数据 schema_version / last_reviewed_date（v2.1 §7 元数据增强）
+#   - 参数命名规范：禁出现 OCR 碎片（如"合下列规定"、"列规定m"、
+#     "气装置长度"、"指挥语音于"、"线时其壁厚"、"取防水措施"、
+#     "容器室长度"、"口之间距离"），必须是语义短语（v2.1 §2.1）
+#   - 单位词典：禁出现错配单位（m 当 mA、m 当 min、d 当 dB 等），
+#     电气电流用 mA / A；时间用 min / h；声学用 dB / dBA（v2.1 §2.2）
+#   - applicability.exceptions 风格统一：值仅填排除对象，
+#     不带"除…外" / "不适用于…"前缀（v2.1 §3）
+#   - 全文强制规范（GB 55xxx）下建标库源的非强条标注视为误标，
+#     全部归位 is_mandatory_clause=True（v2.1 §4）
+#   - parameter_table 的 content 改为结构化 {headers, rows}（v2.1 表格）
+# ============================================================
+
+# ---------- 第一层：规范元数据（standard） ----------
+standard:
+  code: "GB 50222-2017"          # 标准编号
+  name: "建筑内部装修设计防火规范"
+  version: "2017"
+  status: "现行"                 # 现行 / 局部修订 / 废止
+  is_abolished: false
+  effective_date: "2018-04-01"
+  abolished_date: null           # 规范整体废止日期；条文级废止见 clause 层
+  superseded_by: null
+  standard_category: "国家标准"  # 可由 code 前缀自动推断（GB→国标/JGJ→行标/DB→地标/T/→团标）
+  domain: ["防火", "建筑装修", "消防设计"]
+  region_scope: "全国"           # 地方标准填具体省市
+  region_codes: []
+  total_clauses: 48
+  has_mandatory_clauses: true
+  mandatory_clause_count: 18     # 标准真实强条数（含源提取缺失项）
+  # ---- v2.1 新增 ----
+  schema_version: "v2.1"         # 内容遵循的 schema 版本（v2.0 / v2.1 / ...）
+  last_reviewed_date: "YYYY-MM-DD"  # 上次人工或脚本复核日期；新增/修改条款后必更新
+  # ------------------
+  related_standards:
+    - code: "GB 55037-2022"
+      relationship: "上位通用规范（已废止本规范全部强制性条文效力）"
+  clauses:                        # 完整条文 ID 列表
+    - "GB 50222-2017#1.0.1"
+
+# ---------- 第二层：条文索引（clause，列表每项一个） ----------
+clause:
+  id: "GB 50222-2017#4.0.1"
+  standard_code: "GB 50222-2017"
+  chapter: "特别场所"
+  section: ""
+  clause_no: "4.0.1"
+  text: "建筑内部装修不应擅自减少、改动、拆除、遮挡消防设施……"
+  # 条文级废止
+  is_abolished: true
+  abolished_date: "2023-06-01"
+  superseded_by: "GB 55037-2022"
+  abolition_note: "被《建筑防火通用规范》GB 55037-2022 废止强制性效力"
+  # applicability.exceptions 风格统一（v2.1 §3）
+  #   - exceptions 元素仅写"被排除的对象"，不写"除…外"、"不适用于…"前缀
+  #   - 适用范围的"是/否"语义由字段名（exceptions）表意
+  applicability: {scope: "", conditions: [], exceptions: []}
+  constraint:
+    modal_level: "must"          # must(应/必须) / should(宜) / may(可) / null(无)
+    modal_words: ["不应"]
+    is_mandatory_clause: true
+    mandatory_basis: "公告第1632号强制性条文"
+  parameters:                     # 数值参数（v2.1 §2：name 必为语义短语，单位必合法）
+    - name: "距离"               # v2.1 §2.1：禁 OCR 碎片；必须是可读语义短语
+      min_value: 500
+      max_value: null
+      unit: "mm"                 # v2.1 §2.2：单位必须语义匹配（电流 mA/A；时间 min/h；声学 dB）
+      condition: null
+  tables:                         # 结构化表格（查表类 → parameter_table）
+    - id: "表5.2.1"
+      type: "parameter_table"
+      description: "高层民用建筑内部各部位装修材料的燃烧性能等级"
+      # v2.1 起：优先用结构化 headers + rows；旧字段 content（粘连字符串）仅作非结构化兜底
+      headers: ["建筑物及场所", "建筑规模、性质", "顶棚", "墙面", "地面", "隔断", "固定家具", "装饰织物", "其他装修装饰材料"]
+      rows:
+        - ["商店的营业厅", "每层建筑面积>1500㎡或总建筑面积>3000㎡", "A", "B1", "B1", "B1", "B1", "B1", "B2"]
+        # …… 逐行补齐（每格与官方原表核对：列数/等级符号/面积临界值）
+      content: null                # 旧兜底字段，结构化后可为 null
+  converted_tables: []            # 已转为文字的原表格内容
+  # 标准间引用
+  #   - target_standard : 被引用标准编号
+  #   - target_clause   : 被引用条文编号（null = 未指定具体条文）
+  #   - original_text   : 含该引用的原句片段（溯源用）
+  #   - resolution_status: unresolved(待确认) / resolved(已确认)
+  #   - resolution_note : 增强字段，记录确认说明
+  # 确认规则：编号合法 且（原句含《标准全称》或含引用动词）→ resolved；否则 unresolved。
+  references:
+    - target_standard: "GB 6566"
+      target_clause: null
+      original_text: "符合现行国家标准《建筑材料放射性核素限量》GB 6566的规定"
+      resolution_status: "resolved"
+      resolution_note: "规范性引用，出处明确；被引标准不在本库，待补录后确认参数"
+  related_objects:
+    component_types: ["IfcCovering", "IfcWall", "IfcCeiling", "IfcDoor"]
+    activity_types: ["内部装修防火设计"]
+  conflicts: []                   # 同概念多规范不同规定时记录来源，不裁决
+  _source: null                   # v2.1 留位：仅当文本源自特定外部源（建标库/OCR/PDF回填）
+                                  #         时标注，作为溯源；正文统一后该字段可置 null
+
+# ---------- 第三层：可执行规则（executable_rule，列表每项一个） ----------
+executable_rule:
+  rule_id: "R_GB50222_4_0_16_lamp_clearance"
+  source_clause: "GB 50222-2017#4.0.16"
+  rule_type: "constraint"         # constraint / validation / calculation
+  when:
+    - "near_soft_combustible_material == true"
+  not_when:                       # v2.1 新增：黑名单例外，命中任一即跳过本规则（用于把"禁止降级"等例外挂载到主规则）
+    - "space_area_m2 > 400"
+  then:
+    min_clearance_mm: 500
+  source_text: "与窗帘、幕布、软包等装修材料的距离不应小于500mm"
+  table_source: null
+
+# ---------- 表格转换原则 ----------
+#   qualitative_table  → convert_to_text   （资料清单/阶段要求）
+#   parameter_table    → convert_to_rules  （保护层厚度/燃烧等级查表）
+#   calculation_table  → preserve_structure（承载力查表，保留行列）
+#   parameter_table 的 content 改为结构化 {headers, rows} 矩阵（见 clause.tables 示例），
+#   弃用 lookup_matrix 等新类型，沿用现有 type 枚举，避免 schema 膨胀。
+
+# ---------- v2.1 字段规约（速查） ----------
+#
+# §1 文本字段
+#   - text 必须与官方原文逐字一致（OCR 截断/错别字必须在补丁中修复）
+#   - 修订时同时更新 last_reviewed_date
+#
+# §2.1 参数名（parameters[].name）
+#   禁出现以下 OCR 碎片（典型反词库，实际修复见 GB55024-2022 v2.1 升级）：
+#     "取防水措施" "容器室长度" "气装置长度" "指挥语音于"
+#     "线时其壁厚" "口之间距离" "合下列规定" "列规定m"
+#   命名规范：可读语义短语，最好包含主语+度量（如 "接闪带截面面积"、
+#     "金属导管壁厚"、"出口之间距离"、"防水台阶高度"）。
+#
+# §2.2 单位（parameters[].unit）
+#   强制词典：
+#     长度：mm / cm / m
+#     面积：mm² / m² / ㎡
+#     体积：m³ / L
+#     时间：s / min / h / d（天） / a（年）
+#     质量：kg / t
+#     力：N / kN
+#     电流：mA / A / kA
+#     电压：mV / V / kV
+#     频率：Hz
+#     声学：dB / dBA
+#     温度：℃ / K
+#     角度：° / rad
+#   错配示例：30mA 被标 m；15min 被标 m；12dB 被标 d。
+#
+# §3 applicability.exceptions
+#   - 元素为被排除对象的语义短语，例如 "桑拿浴加热器"、"塑料护套电线"、
+#     "民用建筑和变电所"、"本规范第7.2.4条的规定"
+#   - 不写"除…外"、"不适用于…"前缀
+#
+# §4 is_mandatory_clause
+#   - 全文强制规范（GB 55xxx）的所有 clause 必须 is_mandatory_clause=True
+#   - 来源标 _source=jianbiaoku_fulltext 且值为 false 的，应归位 true
+#   - 非全文强制的，仍以发布公告 / 注册表 mandatory_clauses 为准
+#
+# §5 IFC 映射（v2.1 不强制，本期先在 GB55024 做 Phase 1 验证）
+#   related_objects.component_types 引用 IFC 实体类型
+#   若对齐深圳标准 SJG 114-2022：实体类型用父类（如 IfcSwitchingDevice
+#   替代 IfcCircuitBreaker）；属性集加 SZ 后缀（如 Pset_SpaceSZ）
+#
+# §7 元数据
+#   standard.schema_version    必填，可选值 v2.0 / v2.1
+#   standard.last_reviewed_date 必填，YYYY-MM-DD 格式；脚本批量改字段后必须更新

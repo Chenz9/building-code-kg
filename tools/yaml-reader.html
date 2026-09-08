@@ -1,0 +1,1451 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>YAML 通用阅读器 · 离线无依赖</title>
+<style>
+:root{
+  --bg:#12151a; --panel:#171b22; --panel2:#1d2229; --panel3:#232a33;
+  --border:#2b323d; --text:#e6e9ef; --muted:#98a2b3; --dim:#6b7686;
+  --accent:#2bb89a; --accent2:#4a9eff; --purple:#a78bfa;
+  --danger:#e5534b; --warn:#d9a441; --ok:#2bb89a; --mark:#5b4b12;
+  --shadow:0 1px 2px rgba(0,0,0,.4);
+}
+[data-theme="light"]{
+  --bg:#f6f7f9; --panel:#ffffff; --panel2:#f2f4f7; --panel3:#e9edf2;
+  --border:#dfe4ea; --text:#1f2430; --muted:#5c6779; --dim:#8b95a5;
+  --accent:#0f9d76; --accent2:#1f6feb; --purple:#7c3aed;
+  --danger:#c92a2a; --warn:#b7791f; --ok:#0f9d76; --mark:#ffe9a8;
+  --shadow:0 1px 2px rgba(16,24,40,.06);
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0;background:var(--bg);color:var(--text);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei","PingFang SC",sans-serif;
+  font-size:16px;line-height:1.7;
+}
+button,input,select,textarea{font-family:inherit;font-size:inherit;color:inherit}
+::-webkit-scrollbar{width:10px;height:10px}
+::-webkit-scrollbar-thumb{background:var(--panel3);border-radius:6px}
+::-webkit-scrollbar-thumb:hover{background:var(--dim)}
+::-webkit-scrollbar-track{background:transparent}
+
+/* ---------- 顶栏 ---------- */
+.topbar{
+  position:sticky;top:0;z-index:50;display:flex;align-items:center;gap:.6rem;
+  padding:.55rem .9rem;background:var(--panel);border-bottom:1px solid var(--border);
+  box-shadow:var(--shadow);flex-wrap:wrap;
+}
+.brand{font-weight:700;letter-spacing:.3px;white-space:nowrap}
+.brand .sub{font-weight:400;font-size:.72rem;color:var(--dim);margin-left:.4rem}
+.tools{display:flex;align-items:center;gap:.4rem;flex-wrap:wrap;margin-left:auto}
+.btn,.seg button{
+  background:var(--panel2);border:1px solid var(--border);color:var(--text);
+  padding:.3rem .65rem;border-radius:6px;cursor:pointer;white-space:nowrap;font-size:.85rem;
+}
+.btn:hover,.seg button:hover{background:var(--panel3);border-color:var(--dim)}
+.btn.icon{padding:.3rem .5rem;min-width:2rem;text-align:center}
+.btn.on{background:var(--accent);border-color:var(--accent);color:#08120f;font-weight:600}
+.seg{display:flex;border:1px solid var(--border);border-radius:6px;overflow:hidden}
+.seg button{border:none;border-radius:0;background:transparent}
+.seg button+button{border-left:1px solid var(--border)}
+.search{
+  background:var(--panel2);border:1px solid var(--border);border-radius:6px;
+  padding:.32rem .6rem;min-width:230px;outline:none;
+}
+.search:focus{border-color:var(--accent)}
+.sel{background:var(--panel2);border:1px solid var(--border);border-radius:6px;padding:.3rem .4rem;max-width:230px}
+
+/* ---------- 布局 ---------- */
+.app{display:flex;flex-direction:column;height:100vh}
+.main{flex:1;display:flex;min-height:0}
+.sidebar{
+  width:320px;flex:0 0 320px;background:var(--panel);border-right:1px solid var(--border);
+  overflow:auto;padding:1rem .9rem 3rem;
+}
+.sidebar.narrow{width:0;flex-basis:0;padding:0;border:none;overflow:hidden}
+.content{flex:1;overflow:auto;padding:1.4rem 1.6rem 6rem;min-width:0}
+.side-toggle{
+  background:var(--panel2);border:1px solid var(--border);border-radius:6px;
+  padding:.3rem .5rem;cursor:pointer;
+}
+
+/* ---------- 欢迎 / 拖放 ---------- */
+.welcome{
+  position:absolute;inset:3.2rem 0 0 0;display:flex;align-items:center;justify-content:center;
+  background:var(--bg);z-index:20;
+}
+.drop{
+  border:2px dashed var(--border);border-radius:14px;padding:3rem 3.5rem;text-align:center;
+  background:var(--panel);max-width:640px;
+}
+.drop h2{margin:.2rem 0 .6rem;font-size:1.25rem}
+.drop p{color:var(--muted);margin:.3rem 0;font-size:.92rem}
+.drop.hot{border-color:var(--accent);background:var(--panel2)}
+.dropzone-tip{color:var(--dim);font-size:.8rem;margin-top:1rem}
+body.dragging .main{filter:brightness(.8)}
+
+/* ---------- 封面 ---------- */
+.cover{
+  background:var(--panel);border:1px solid var(--border);border-radius:12px;
+  padding:1.2rem 1.4rem;margin-bottom:1.2rem;
+}
+.cover h1{font-size:1.45rem;margin:0 0 .35rem;line-height:1.4}
+.cover .code{color:var(--accent);font-weight:700;letter-spacing:.5px}
+.cover .meta{color:var(--muted);font-size:.86rem;margin-top:.5rem;display:grid;grid-template-columns:auto 1fr;gap:.15rem .8rem}
+.cover .meta b{font-weight:600;color:var(--text)}
+
+/* ---------- 徽标 ---------- */
+.badge{
+  display:inline-block;padding:.05rem .45rem;border-radius:5px;font-size:.72rem;
+  line-height:1.6;font-weight:600;vertical-align:middle;white-space:nowrap;
+}
+.b-mand{background:var(--danger);color:#fff}
+.b-abol{background:#7a2e2e;color:#ffd9d9;border:1px solid var(--danger)}
+[data-theme="light"] .b-abol{background:#ffe3e3;color:#a02020}
+.b-ok{background:var(--ok);color:#06120f}
+.b-modal{background:var(--panel3);color:var(--text);border:1px solid var(--border)}
+.b-info{background:var(--accent2);color:#041426}
+.b-warn{background:var(--warn);color:#221703}
+.b-gray{background:var(--panel3);color:var(--muted);border:1px solid var(--border)}
+.b-purple{background:var(--purple);color:#150a2e}
+
+/* ---------- 统计条 ---------- */
+.stats{display:flex;gap:.5rem;flex-wrap:wrap;margin:.8rem 0 1rem}
+.stat{
+  background:var(--panel);border:1px solid var(--border);border-radius:9px;
+  padding:.45rem .9rem;min-width:88px;
+}
+.stat .n{font-size:1.35rem;font-weight:700;color:var(--accent);line-height:1.2}
+.stat .l{font-size:.72rem;color:var(--muted)}
+.filterbar{display:flex;gap:.35rem;flex-wrap:wrap;align-items:center;margin-bottom:1rem}
+.filterbar .lbl{font-size:.8rem;color:var(--muted);margin-right:.2rem}
+
+/* ---------- 侧栏目录 ---------- */
+.toc-h{font-size:.78rem;color:var(--dim);text-transform:uppercase;letter-spacing:.08em;margin:1.1rem 0 .4rem}
+.toc-ch{cursor:pointer;padding:.25rem .35rem;border-radius:6px;font-size:.88rem;display:flex;gap:.35rem;align-items:baseline}
+.toc-ch:hover{background:var(--panel2)}
+.toc-ch .caret{color:var(--dim);font-size:.7rem;width:.7rem;display:inline-block;transition:transform .15s}
+.toc-ch.open .caret{transform:rotate(90deg)}
+.toc-ch .cnt{margin-left:auto;color:var(--dim);font-size:.72rem}
+.toc-items{margin-left:1.1rem;border-left:1px solid var(--border);padding-left:.5rem}
+.toc-item{
+  display:flex;gap:.4rem;font-size:.8rem;padding:.1rem .3rem;border-radius:4px;
+  color:var(--muted);cursor:pointer;text-decoration:none;
+}
+.toc-item:hover{background:var(--panel2);color:var(--text)}
+.toc-item .no{font-family:ui-monospace,Consolas,monospace;color:var(--accent);min-width:3.4rem}
+.toc-item .t{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.toc-item.mand .no::after{content:"●";color:var(--danger);font-size:.6rem;vertical-align:top}
+.toc-item.abol .no{color:var(--warn)}
+
+/* ---------- 章节 ---------- */
+.chapter{margin:2.2rem 0 .8rem;padding-bottom:.35rem;border-bottom:2px solid var(--border)}
+.chapter:first-child{margin-top:.5rem}
+.chapter .chn{font-size:1.22rem;font-weight:700}
+.chapter .chc{color:var(--dim);font-size:.8rem;margin-left:.5rem}
+.section{margin:1.1rem 0 .4rem;font-size:1rem;font-weight:600;color:var(--accent)}
+
+/* ---------- 条文卡 ---------- */
+.clause{
+  background:var(--panel);border:1px solid var(--border);border-radius:10px;
+  padding:.85rem 1.05rem;margin:.7rem 0;position:relative;
+}
+.clause.mand{border-left:3px solid var(--danger)}
+.clause.abol{background:color-mix(in srgb,var(--panel) 88%,#7a2e2e)}
+.clause.commentary{opacity:.85;border-style:dashed}
+.clause.hit{border-color:var(--accent);box-shadow:0 0 0 2px color-mix(in srgb,var(--accent) 30%,transparent)}
+.cl-head{display:flex;align-items:center;gap:.4rem;flex-wrap:wrap;margin-bottom:.35rem}
+.cno{
+  font-family:ui-monospace,Consolas,monospace;font-weight:700;font-size:1.02rem;color:var(--accent);
+  background:var(--panel2);border:1px solid var(--border);border-radius:5px;padding:0 .4rem;
+}
+.cl-head .spacer{margin-left:auto}
+.linkbtn{
+  background:none;border:none;color:var(--dim);cursor:pointer;font-size:.75rem;padding:0 .25rem;
+}
+.linkbtn:hover{color:var(--accent)}
+.ctext{white-space:pre-wrap;word-break:break-word}
+.ctext mark,.kv mark,.rule mark{background:var(--mark);color:inherit;border-radius:2px}
+.clause.abol .ctext{text-decoration:line-through;text-decoration-color:color-mix(in srgb,var(--danger) 60%,transparent)}
+
+/* ---------- 结构化信息 ---------- */
+.struct{margin-top:.6rem;border-top:1px dashed var(--border);padding-top:.55rem;display:grid;gap:.45rem}
+.kv{display:flex;gap:.5rem;font-size:.85rem;align-items:flex-start}
+.kv .lbl{
+  flex:0 0 auto;color:var(--muted);background:var(--panel2);border:1px solid var(--border);
+  border-radius:5px;padding:0 .4rem;font-size:.76rem;line-height:1.7;white-space:nowrap;
+}
+.kv .val{flex:1;min-width:0;word-break:break-word}
+.chips{display:flex;flex-wrap:wrap;gap:.3rem}
+.chip{
+  font-size:.78rem;background:var(--panel2);border:1px solid var(--border);
+  border-radius:14px;padding:.05rem .6rem;
+}
+.chip.cond{border-color:color-mix(in srgb,var(--accent2) 50%,var(--border));color:var(--accent2)}
+.chip.exc{border-color:color-mix(in srgb,var(--warn) 50%,var(--border));color:var(--warn)}
+.chip.ref{border-color:color-mix(in srgb,var(--accent) 50%,var(--border));color:var(--accent)}
+.chip.ifc{border-color:var(--border);color:var(--purple);font-family:ui-monospace,Consolas,monospace;font-size:.74rem}
+.chip.act{border-color:var(--border);color:var(--text)}
+table.mini{
+  width:100%;border-collapse:collapse;font-size:.8rem;background:var(--panel2);
+  border:1px solid var(--border);border-radius:6px;overflow:hidden;
+}
+table.mini th,table.mini td{border-bottom:1px solid var(--border);padding:.22rem .5rem;text-align:left}
+table.mini th{background:var(--panel3);font-weight:600;color:var(--muted);font-size:.75rem}
+table.mini tr:last-child td{border-bottom:none}
+.tbwrap{overflow:auto;border:1px solid var(--border);border-radius:6px;background:var(--panel2)}
+table.data{width:100%;border-collapse:collapse;font-size:.8rem}
+table.data th,table.data td{border:1px solid var(--border);padding:.25rem .5rem;text-align:left;white-space:nowrap}
+table.data th{background:var(--panel3);font-weight:600}
+table.data caption{
+  caption-side:top;text-align:left;font-size:.78rem;color:var(--muted);padding:.25rem .4rem;
+}
+pre.raw{
+  background:var(--panel2);border:1px solid var(--border);border-radius:6px;
+  padding:.5rem .6rem;font-size:.75rem;overflow:auto;white-space:pre-wrap;margin:0;
+  font-family:ui-monospace,Consolas,monospace;color:var(--muted);
+}
+.rule{
+  background:var(--panel2);border:1px solid var(--border);border-left:3px solid var(--purple);
+  border-radius:6px;padding:.35rem .6rem;font-size:.8rem;
+}
+.rule .rw{color:var(--accent2)}
+.rule .rt{color:var(--danger);font-weight:600}
+.rule .rmeta{color:var(--dim);font-size:.72rem;margin-top:.15rem;font-family:ui-monospace,Consolas,monospace}
+.dimnote{color:var(--dim);font-size:.76rem;font-style:italic}
+details.rawbox summary{cursor:pointer;color:var(--dim);font-size:.78rem;user-select:none}
+details.rawbox summary:hover{color:var(--accent)}
+
+/* ---------- 树模式 ---------- */
+.tree{font-family:ui-monospace,Consolas,"Cascadia Mono",monospace;font-size:.83rem;line-height:1.75}
+.tnode{position:relative}
+.trow{
+  display:flex;align-items:flex-start;gap:.35rem;padding:.05rem .3rem;border-radius:4px;
+  border-left:2px solid transparent;
+}
+.trow:hover{background:var(--panel2)}
+.trow.sel{border-left-color:var(--accent);background:var(--panel2)}
+.tcaret{
+  width:1rem;flex:0 0 1rem;cursor:pointer;color:var(--dim);text-align:center;user-select:none;
+}
+.tcaret.leaf{cursor:default;color:transparent}
+.tkey{color:var(--accent2);cursor:pointer}
+.tkey.idx{color:var(--purple)}
+.tsep{color:var(--dim)}
+.tsum{color:var(--dim);font-size:.78rem}
+.v-str{color:var(--text)}
+.v-num{color:var(--warn)}
+.v-bool{color:var(--purple)}
+.v-null{color:var(--dim);font-style:italic}
+.tkids{margin-left:.95rem;border-left:1px dotted var(--border);padding-left:.4rem}
+.tcount{color:var(--dim);font-size:.75rem}
+.thead{
+  display:flex;justify-content:space-between;align-items:center;gap:.5rem;
+  margin-bottom:.6rem;flex-wrap:wrap;
+}
+.crumb{
+  background:var(--panel);border:1px solid var(--border);border-radius:6px;padding:.25rem .6rem;
+  font-size:.78rem;color:var(--muted);font-family:ui-monospace,Consolas,monospace;
+  word-break:break-all;position:sticky;top:0;z-index:5;margin-bottom:.5rem;
+}
+.err{
+  background:color-mix(in srgb,var(--danger) 15%,var(--panel));border:1px solid var(--danger);
+  border-radius:8px;padding:.8rem 1rem;color:var(--text);white-space:pre-wrap;font-size:.85rem;
+}
+.foot{color:var(--dim);font-size:.78rem;text-align:center;padding:2rem 0 1rem;border-top:1px solid var(--border);margin-top:2rem}
+@media (max-width:900px){
+  .sidebar{position:absolute;z-index:30;height:100%;box-shadow:0 0 30px rgba(0,0,0,.5)}
+  .sidebar.narrow{position:static}
+}
+</style>
+</head>
+<body>
+<div class="app">
+  <header class="topbar">
+    <button class="side-toggle" id="btnSide" title="显示/隐藏目录">☰</button>
+    <div class="brand">YAML 通用阅读器<span class="sub">离线 · 零外部依赖 · 标准书模式 / 通用树模式</span></div>
+    <div class="tools">
+      <label class="btn" title="可多选">选择文件
+        <input type="file" id="fileInput" multiple accept=".yaml,.yml,.json,.txt" hidden>
+      </label>
+      <label class="btn" title="加载整个目录（Chrome/Edge）">选择文件夹
+        <input type="file" id="dirInput" webkitdirectory multiple hidden>
+      </label>
+      <button class="btn" id="btnPaste">粘贴文本</button>
+      <select id="fileSel" class="sel" title="已加载文件"></select>
+      <input id="search" class="search" placeholder="搜索：条号 / 正文 / 参数 / 条件…">
+      <div class="seg" id="modeSeg">
+        <button data-mode="book" class="on">书模式</button>
+        <button data-mode="tree">树模式</button>
+      </div>
+      <button class="btn icon" id="btnExpand" title="展开层级 +1">⊞</button>
+      <button class="btn icon" id="btnCollapse" title="全部折叠">⊟</button>
+      <button class="btn icon" id="btnFontS" title="缩小字号">A-</button>
+      <button class="btn icon" id="btnFontL" title="放大字号">A+</button>
+      <button class="btn icon" id="btnTheme" title="切换主题">◐</button>
+    </div>
+  </header>
+
+  <div id="pasteBox" style="display:none;padding:.6rem .9rem;background:var(--panel);border-bottom:1px solid var(--border)">
+    <textarea id="pasteTa" rows="8" style="width:100%;background:var(--panel2);border:1px solid var(--border);border-radius:6px;padding:.5rem;font-family:ui-monospace,Consolas,monospace;font-size:.82rem" placeholder="在此粘贴 YAML / JSON 文本…"></textarea>
+    <div style="margin-top:.4rem;display:flex;gap:.4rem">
+      <button class="btn on" id="pasteOk">解析</button>
+      <button class="btn" id="pasteCancel">取消</button>
+      <span style="color:var(--dim);font-size:.8rem;align-self:center">也可以直接把文件拖到窗口任意位置</span>
+    </div>
+  </div>
+
+  <div class="main">
+    <aside id="side" class="sidebar"></aside>
+    <section id="content" class="content"></section>
+  </div>
+
+  <div id="welcome" class="welcome">
+    <div class="drop" id="drop">
+      <h2>把 YAML 文件拖到这里</h2>
+      <p>支持 .yaml / .yml / .json / .txt，可一次拖入多个文件</p>
+      <p>内置纯 JS 解析器，<b>不联网、不依赖任何外部库</b></p>
+      <div style="margin-top:1.1rem;display:flex;gap:.5rem;justify-content:center;flex-wrap:wrap">
+        <label class="btn on" style="padding:.45rem 1rem">选择文件
+          <input type="file" id="fileInput2" multiple accept=".yaml,.yml,.json,.txt" hidden>
+        </label>
+        <button class="btn" id="btnPaste2" style="padding:.45rem 1rem">粘贴文本</button>
+      </div>
+      <div class="dropzone-tip">检测到 standard + clauses 结构时自动进入「书模式」：章节目录 + 条文正文 + 适用范围 / 条件 / 例外 / 参数 / 表格 / 引用 / 规则</div>
+    </div>
+  </div>
+</div>
+
+<script>
+/* =========================================================================
+   1. 纯 JS YAML 解析器（无任何外部依赖）
+   支持：块映射 / 块序列 / 流式 [ ] { } / 单双引号 / 块标量 | > / 锚点 & 与别名 *
+        / 注释 / 多文档 --- / null·bool·数字 / BOM·CRLF
+   ========================================================================= */
+/* ==YAMLPARSER_START== */
+let anchors = Object.create(null);
+function YAMLParse(src){
+  anchors = Object.create(null);
+  const st = mkState(src);
+  const docs = [];
+  let guard = 0;
+  while(!eof(st) && guard++ < 100000){
+    skipNC(st);
+    if(eof(st)) break;
+    const l = st.lines[st.i];
+    const t = stripComment(l.text);
+    if((t === '---' || t === '...') && l.indent === 0){ st.i++; continue; }
+    const v = parseNode(st, 0);
+    if(v !== undefined) docs.push(v); else st.i++;
+  }
+  const res = docs.length === 1 ? docs[0] : (docs.length ? docs : null);
+  resolveAliases(res, anchors, new Set());
+  return res;
+}
+
+function mkState(src){
+  src = String(src).replace(/^﻿/, '').replace(/\r\n?/g, '\n');
+  const raws = src.split('\n');
+  const lines = raws.map(function(raw, idx){
+    const m = raw.match(/^([ \t]*)([\s\S]*)$/);
+    const indent = m[1].replace(/\t/g, '    ').length;
+    const text = m[2];
+    const trimmed = text.trim();
+    return {idx:idx, indent:indent, text:text, raw:raw,
+            empty:trimmed === '', comment:trimmed.charAt(0) === '#'};
+  });
+  return {lines:lines, i:0};
+}
+function eof(st){ return st.i >= st.lines.length; }
+function skipNC(st){ while(st.i < st.lines.length){ const l = st.lines[st.i]; if(l.empty || l.comment){ st.i++; continue; } break; } }
+
+function stripComment(s){
+  let q = null, out = '';
+  for(let i = 0; i < s.length; i++){
+    const c = s.charAt(i);
+    if(q){
+      out += c;
+      if(c === '\\' && q === '"'){ out += s.charAt(i + 1) || ''; i++; }
+      else if(c === q) q = null;
+      continue;
+    }
+    if(c === '"' || c === "'"){ q = c; out += c; continue; }
+    if(c === '#' && (i === 0 || /[\s]/.test(s.charAt(i - 1)))) break;
+    out += c;
+  }
+  return out.replace(/\s+$/, '');
+}
+function unquote(s){
+  s = s.trim();
+  if(s.length >= 2 && s.charAt(0) === '"' && s.charAt(s.length - 1) === '"'){
+    try { return JSON.parse(s); } catch(e){
+      return s.slice(1, -1).replace(/\\n/g, '\n').replace(/\\t/g, '\t').replace(/\\"/g, '"').replace(/\\\\/g, '\\');
+    }
+  }
+  if(s.length >= 2 && s.charAt(0) === "'" && s.charAt(s.length - 1) === "'"){
+    return s.slice(1, -1).replace(/''/g, "'");
+  }
+  return s;
+}
+function toScalar(v, quoted){
+  if(quoted) return v;
+  v = v.trim();
+  if(v === '' || v === '~' || v === 'null' || v === 'Null' || v === 'NULL') return null;
+  if(v === 'true' || v === 'True' || v === 'TRUE') return true;
+  if(v === 'false' || v === 'False' || v === 'FALSE') return false;
+  if(v === 'yes' || v === 'Yes' || v === 'YES' || v === 'on' || v === 'On' || v === 'ON') return true;
+  if(v === 'no' || v === 'No' || v === 'NO' || v === 'off' || v === 'Off' || v === 'OFF') return false;
+  if(/^[-+]?(\d+\.?\d*|\.\d+)([eE][-+]?\d+)?$/.test(v)) return Number(v);
+  if(/^0[xX][0-9a-fA-F]+$/.test(v)) return Number(v);
+  if(v === '.inf' || v === '.Inf' || v === '.INF') return Infinity;
+  if(v === '-.inf' || v === '-.Inf') return -Infinity;
+  if(v === '.nan' || v === '.NaN') return NaN;
+  return v;
+}
+function parseScalarToken(s){
+  s = s.trim();
+  const q0 = s.charAt(0);
+  if((q0 === '"' || q0 === "'") && s.length >= 2 && s.charAt(s.length - 1) === q0) return unquote(s);
+  return toScalar(s, false);
+}
+/* 在 depth==0 处寻找 "key: value" 的分隔冒号 */
+function splitKV(t){
+  let q = null, depth = 0;
+  for(let i = 0; i < t.length; i++){
+    const ch = t.charAt(i);
+    if(q){
+      if(ch === '\\' && q === '"'){ i++; continue; }
+      if(ch === q) q = null;
+      continue;
+    }
+    if(ch === '"' || ch === "'"){ q = ch; continue; }
+    if(ch === '[' || ch === '{'){ depth++; continue; }
+    if(ch === ']' || ch === '}'){ depth--; continue; }
+    if(ch === ':' && depth === 0){
+      if(i + 1 === t.length || t.charAt(i + 1) === ' ') return [t.slice(0, i), t.slice(i + 1)];
+    }
+  }
+  return null;
+}
+
+function isDash(t){ return t === '-' || (t.charAt(0) === '-' && t.charAt(1) === ' '); }
+function isDocMark(t){ return t === '---' || t === '...'; }
+
+/* 判断以 q 开头的引号标量是否已经闭合 */
+function closedQuoted(s, q){
+  let i = 1;
+  while(i < s.length){
+    const c = s.charAt(i);
+    if(q === '"'){
+      if(c === '\\'){ i += 2; continue; }
+      if(c === '"') return true;
+    } else {
+      if(c === "'" && s.charAt(i + 1) === "'"){ i += 2; continue; }
+      if(c === "'") return true;
+    }
+    i++;
+  }
+  return false;
+}
+/* 跨行「引号标量」：PyYAML 长文本会折行输出，需继续读到引号闭合为止 */
+function readQuotedCont(st, parentIndent, v, q){
+  let s = v, j = st.i, blanks = 0, guard = 0;
+  while(!closedQuoted(s, q) && j < st.lines.length && guard++ < 20000){
+    const l = st.lines[j];
+    if(l.empty){ blanks++; j++; continue; }
+    if(l.indent <= parentIndent) break;
+    s += (blanks > 0 ? '\n'.repeat(blanks) : ' ') + l.text;
+    blanks = 0; j++;
+  }
+  if(j > st.i) st.i = j;
+  return s;
+}
+/* 跨行「纯标量」：折行折叠为空格，空行折叠为换行 */
+function readPlainCont(st, parentIndent, v){
+  let s = v, j = st.i, blanks = 0, guard = 0;
+  while(j < st.lines.length && guard++ < 20000){
+    const l = st.lines[j];
+    if(l.empty){ blanks++; j++; continue; }
+    if(l.indent <= parentIndent) break;
+    if(l.comment) break;
+    const t = stripComment(l.text);
+    if(isDash(t) || splitKV(t) || t.charAt(0) === '[' || t.charAt(0) === '{' || isDocMark(t)) break;
+    s += (blanks > 0 ? '\n'.repeat(blanks) : ' ') + t;
+    blanks = 0; j++;
+  }
+  if(j > st.i) st.i = j;
+  return s;
+}
+/* 标量统一入口：先处理跨行，再解析类型 */
+function readScalarValue(st, parentIndent, v){
+  v = v.trim();
+  const q = v.charAt(0);
+  if(q === '"' || q === "'"){
+    const full = readQuotedCont(st, parentIndent, v, q);
+    const t = full.trim();
+    if(t.length >= 2 && t.charAt(t.length - 1) === q) return unquote(t);
+    return t.charAt(0) === q ? t.slice(1) : t;
+  }
+  return toScalar(readPlainCont(st, parentIndent, v), false);
+}
+
+function parseNode(st, minIndent){
+  skipNC(st);
+  if(eof(st)) return undefined;
+  const l = st.lines[st.i];
+  if(l.indent < minIndent) return undefined;
+  const t = stripComment(l.text);
+  if(isDocMark(t) && l.indent === 0) return undefined;
+  if(isDash(t)) return parseSeq(st, l.indent);
+  if(t.charAt(0) === '[' || t.charAt(0) === '{') return parseFlowValue(st, l.indent, t);
+  if(splitKV(t)) return parseMap(st, l.indent);
+  st.i++;
+  return readScalarValue(st, l.indent, t);
+}
+
+function parseMap(st, indent){
+  const obj = {};
+  let guard = 0;
+  while(guard++ < 2000000){
+    skipNC(st);
+    if(eof(st)) break;
+    const l = st.lines[st.i];
+    if(l.indent < indent) break;
+    const t = stripComment(l.text);
+    if(l.indent === indent && isDocMark(t)) break;
+    if(l.indent > indent){ st.i++; continue; }
+    if(isDash(t)) break;
+    const kv = splitKV(t);
+    if(!kv){ st.i++; continue; }
+    const k = String(unquote(kv[0].trim()));
+    st.i++;
+    obj[k] = parseValueAfter(st, indent, kv[1].trim());
+  }
+  return obj;
+}
+
+function parseSeq(st, indent){
+  const arr = [];
+  let guard = 0;
+  while(guard++ < 2000000){
+    skipNC(st);
+    if(eof(st)) break;
+    const l = st.lines[st.i];
+    if(l.indent < indent) break;
+    const t = stripComment(l.text);
+    if(l.indent === indent && isDocMark(t)) break;
+    if(l.indent > indent){ st.i++; continue; }
+    if(!isDash(t)) break;
+    let rest = t.slice(1).trim();
+    let anchor = null;
+    const am = rest.match(/^&([^\s]+)\s*([\s\S]*)$/);
+    if(am){ anchor = am[1]; rest = am[2].trim(); }
+    let val;
+    if(rest === ''){
+      st.i++;
+      val = parseChildBlock(st, indent);
+    } else {
+      if(rest.charAt(0) === '*'){
+        st.i++;
+        val = deref(rest.slice(1).trim(), anchors);
+      } else if(rest.charAt(0) === '[' || rest.charAt(0) === '{'){
+        st.i++;
+        val = parseFlowValue(st, indent, rest);
+      } else if(rest.charAt(0) === '"' || rest.charAt(0) === "'"){
+        st.i++;
+        val = readScalarValue(st, l.indent, rest);
+      } else if(isDash(rest) || splitKV(rest)){
+        l.indent = l.indent + 2;
+        l.text = rest;
+        val = parseNode(st, l.indent);
+      } else {
+        st.i++;
+        val = readScalarValue(st, l.indent, rest);
+      }
+    }
+    if(anchor) anchors[anchor] = val;
+    arr.push(val);
+  }
+  return arr;
+}
+
+function parseChildBlock(st, parentIndent){
+  const save = st.i;
+  skipNC(st);
+  if(eof(st)){ st.i = save; return null; }
+  const l = st.lines[st.i];
+  const t = stripComment(l.text);
+  if(isDocMark(t) && l.indent === 0){ st.i = save; return null; }
+  if(l.indent > parentIndent) return parseNode(st, l.indent);
+  if(l.indent === parentIndent && (isDash(t) || t.charAt(0) === '[' || t.charAt(0) === '{')) return parseNode(st, l.indent);
+  st.i = save;
+  return null;
+}
+
+function parseValueAfter(st, parentIndent, v){
+  v = v.trim();
+  /* 标签 */
+  const tm = v.match(/^!+[^\s]*\s+([\s\S]*)$/);
+  if(tm) v = tm[1].trim();
+  else if(/^!+[^\s]*$/.test(v)) v = '';
+  let anchor = null;
+  const am = v.match(/^&([^\s]+)\s*([\s\S]*)$/);
+  if(am){ anchor = am[1]; v = am[2].trim(); }
+  let val;
+  if(v === ''){
+    val = parseChildBlock(st, parentIndent);
+  } else if(v.charAt(0) === '*'){
+    val = deref(v.slice(1).trim(), anchors);
+  } else if(v.charAt(0) === '[' || v.charAt(0) === '{'){
+    val = parseFlowValue(st, parentIndent, v);
+  } else if(/^[|>][+-]?\d*$/.test(v)){
+    val = parseBlockScalar(st, parentIndent, v);
+  } else {
+    val = readScalarValue(st, parentIndent, v);
+  }
+  if(anchor) anchors[anchor] = val;
+  return val;
+}
+
+function parseBlockScalar(st, parentIndent, header){
+  const m = header.match(/^([|>])([+-]?)([0-9]*)$/);
+  const style = m[1], chomp = m[2], explicit = m[3] ? parseInt(m[3], 10) : 0;
+  const buf = [];
+  let contentIndent = explicit ? parentIndent + explicit : null;
+  let guard = 0;
+  while(st.i < st.lines.length && guard++ < 200000){
+    const l = st.lines[st.i];
+    if(l.empty){ buf.push(''); st.i++; continue; }
+    if(contentIndent === null){
+      if(l.indent <= parentIndent) break;
+      contentIndent = l.indent;
+    }
+    if(l.indent < contentIndent) break;
+    buf.push(l.raw.slice(contentIndent));
+    st.i++;
+  }
+  while(buf.length && buf[buf.length - 1] === '') buf.pop();
+  let out;
+  if(style === '|'){
+    out = buf.join('\n');
+  } else {
+    let s = '';
+    for(let i = 0; i < buf.length; i++){
+      if(buf[i] === ''){ s += '\n'; continue; }
+      if(i > 0 && s && s.charAt(s.length - 1) !== '\n') s += ' ';
+      s += buf[i];
+    }
+    out = s;
+  }
+  if(chomp === '-') return out;
+  if(chomp === '+') return out + '\n'.repeat(0);
+  return out + (buf.length ? '\n' : '');
+}
+
+function flowDepth(s){
+  let q = null, d = 0;
+  for(let i = 0; i < s.length; i++){
+    const c = s.charAt(i);
+    if(q){ if(c === '\\' && q === '"') i++; else if(c === q) q = null; continue; }
+    if(c === '"' || c === "'"){ q = c; continue; }
+    if(c === '[' || c === '{') d++;
+    else if(c === ']' || c === '}') d--;
+  }
+  return d;
+}
+function parseFlowValue(st, parentIndent, first){
+  let s = first;
+  let d = flowDepth(s), j = st.i, guard = 0;
+  while(d > 0 && j < st.lines.length && guard++ < 5000){
+    const l = st.lines[j];
+    if(l.empty || l.comment){ j++; continue; }
+    if(l.indent < parentIndent && d > 0) break;
+    s += ' ' + stripComment(l.text);
+    d = flowDepth(s);
+    j++;
+  }
+  st.i = Math.max(st.i, j);
+  try { return parseFlowStr(s); } catch(e){ return s; }
+}
+function parseFlowStr(s){
+  let i = 0, stopColon = false;
+  function ws(){ while(i < s.length && /\s/.test(s.charAt(i))) i++; }
+  function val(){
+    ws();
+    const c = s.charAt(i);
+    if(c === '['){
+      i++; const a = [];
+      ws(); if(s.charAt(i) === ']'){ i++; return a; }
+      while(i < s.length && s.charAt(i) !== ']'){
+        a.push(val()); ws();
+        if(s.charAt(i) === ','){ i++; continue; }
+        break;
+      }
+      if(s.charAt(i) === ']') i++;
+      return a;
+    }
+    if(c === '{'){
+      i++; const o = {};
+      ws(); if(s.charAt(i) === '}'){ i++; return o; }
+      while(i < s.length && s.charAt(i) !== '}'){
+        const prev = stopColon; stopColon = true;
+        const k = val();
+        stopColon = prev;
+        ws();
+        if(s.charAt(i) === ':'){ i++; o[String(k)] = val(); } else { o[String(k)] = null; }
+        ws();
+        if(s.charAt(i) === ','){ i++; continue; }
+        break;
+      }
+      if(s.charAt(i) === '}') i++;
+      return o;
+    }
+    if(c === '&'){
+      const m = s.slice(i).match(/^&([^\s,}\]]+)\s*/);
+      if(m){ i += m[0].length; return val(); }
+    }
+    if(c === '*'){
+      const m = s.slice(i).match(/^\*([^\s,}\]]+)/);
+      if(m){ i += m[0].length; return {__alias:m[1]}; }
+    }
+    let q = null, out = '', quoted = false;
+    while(i < s.length){
+      const ch = s.charAt(i);
+      if(q){
+        out += ch;
+        if(ch === '\\' && q === '"'){ out += s.charAt(i + 1) || ''; i++; }
+        else if(ch === q) q = null;
+        i++; continue;
+      }
+      if(ch === '"' || ch === "'"){ q = ch; quoted = true; out += ch; i++; continue; }
+      if(ch === ',' || ch === ']' || ch === '}') break;
+      if(stopColon && ch === ':' && (i + 1 >= s.length || /[\s,}\]]/.test(s.charAt(i + 1)))) break;
+      out += ch; i++;
+    }
+    const t = out.trim();
+    if(quoted && t.length >= 2) return unquote(t);
+    const q0 = t.charAt(0);
+    if((q0 === '"' || q0 === "'") && t.length >= 2 && t.charAt(t.length - 1) === q0) return unquote(t);
+    return toScalar(t, false);
+  }
+  const v = val();
+  return v;
+}
+function deref(name, anchors){
+  if(Object.prototype.hasOwnProperty.call(anchors, name)) return anchors[name];
+  return {__alias:name};
+}
+function isAlias(v){ return v && typeof v === 'object' && typeof v.__alias === 'string'; }
+function resolveAliases(node, anchors, seen){
+  if(node === null || typeof node !== 'object') return;
+  if(seen.has(node)) return;
+  seen.add(node);
+  if(Array.isArray(node)){
+    for(let i = 0; i < node.length; i++){
+      if(isAlias(node[i])) node[i] = anchors[node[i].__alias];
+      else resolveAliases(node[i], anchors, seen);
+    }
+  } else {
+    for(const k in node){
+      const v = node[k];
+      if(isAlias(v)) node[k] = anchors[v.__alias];
+      else resolveAliases(v, anchors, seen);
+    }
+  }
+}
+/* ==YAMLPARSER_END== */
+
+/* =========================================================================
+   2. 通用工具
+   ========================================================================= */
+function esc(s){
+  return String(s === null || s === undefined ? '' : s)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+}
+function escRe(s){ return String(s).replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }
+function hl(s, q){
+  let t = esc(s);
+  if(!q) return t;
+  try { t = t.replace(new RegExp('(' + escRe(esc(q)) + ')', 'gi'), '<mark>$1</mark>'); } catch(e){}
+  return t;
+}
+function typeOf(v){
+  if(v === null || v === undefined) return 'null';
+  if(Array.isArray(v)) return 'array';
+  return typeof v;
+}
+function isEmptyish(v){
+  if(v === null || v === undefined || v === '') return true;
+  if(Array.isArray(v)) return v.length === 0;
+  if(typeof v === 'object') return Object.keys(v).length === 0;
+  return false;
+}
+function arr(v){ return Array.isArray(v) ? v : (v === null || v === undefined || v === '' ? [] : [v]); }
+function asText(v){
+  if(v === null || v === undefined) return '';
+  if(typeof v === 'object'){ try { return JSON.stringify(v); } catch(e){ return String(v); } }
+  return String(v);
+}
+function preview(v){
+  const t = typeOf(v);
+  if(t === 'array') return '[' + v.length + ']';
+  if(t === 'object') return '{' + Object.keys(v).length + '}';
+  if(t === 'string'){
+    const s = v.length > 90 ? v.slice(0, 90) + '…' : v;
+    return '“' + s.replace(/\n/g, '⏎') + '”';
+  }
+  if(t === 'null') return 'null';
+  return String(v);
+}
+function short(s, n){ s = String(s); return s.length > n ? s.slice(0, n) + '…' : s; }
+/* 条件/例外标签可能是对象（如 {building_type: 古建筑}），展开为「键：值」可读文本 */
+function chipText(x){
+  if(x === null || x === undefined) return '';
+  if(typeof x !== 'object') return String(x);
+  if(Array.isArray(x)) return x.map(chipText).join('；');
+  return Object.keys(x).map(function(k){
+    const v = x[k];
+    return k + '：' + (v !== null && typeof v === 'object' ? JSON.stringify(v) : String(v));
+  }).join('；');
+}
+
+/* 阈值自然语言 */
+function paramLimit(p){
+  const mn = p.min_value, mx = p.max_value, u = p.unit ? ' ' + p.unit : '';
+  if(mn !== null && mn !== undefined && mx !== null && mx !== undefined) return mn + ' ≤ x ≤ ' + mx + u;
+  if(mn !== null && mn !== undefined) return '≥ ' + mn + u;
+  if(mx !== null && mx !== undefined) return '≤ ' + mx + u;
+  return '—';
+}
+
+/* =========================================================================
+   3. 应用状态
+   ========================================================================= */
+const S = {
+  files: [],            // {name, data, text}
+  cur: -1,
+  mode: 'book',
+  theme: 'dark',
+  fontSize: 16,
+  q: '',
+  filter: 'all',
+  treeDepth: 3,
+  expanded: new Set(),  // tree 展开路径
+  openCh: new Set(),    // 目录展开的章
+  showStruct: true,
+  rawClause: new Set(), // 显示原始结构的条文
+};
+
+const $ = function(id){ return document.getElementById(id); };
+const side = $('side'), content = $('content');
+
+/* =========================================================================
+   4. 通用树渲染
+   ========================================================================= */
+function treeHTML(key, val, path, depth, idxLabel){
+  const t = typeOf(val);
+  const isBranch = (t === 'array' || t === 'object') && !isEmptyish(val);
+  const opened = S.expanded.has(path) || (S.q && S.q.length > 0);
+  const kids = [];
+  let selfHit = false;
+  if(S.q){
+    const q = S.q.toLowerCase();
+    selfHit = (String(key).toLowerCase().indexOf(q) >= 0) ||
+              (asText(val).toLowerCase().indexOf(q) >= 0);
+  }
+  if(isBranch){
+    const items = Array.isArray(val)
+      ? val.map(function(v, i){ return [String(i), v]; })
+      : Object.keys(val).map(function(k){ return [k, val[k]]; });
+    for(const it of items){
+      const kk = it[0], vv = it[1];
+      const cp = path ? path + '.' + kk : kk;
+      const h = treeHTML(kk, vv, cp, depth + 1, Array.isArray(val) ? '[' + kk + ']' : '');
+      if(h) kids.push(h.html), selfHit = selfHit || h.hit;
+    }
+  }
+  if(S.q && !selfHit && kids.length === 0) return null;
+  if(S.q){ selfHit = true; }
+
+  let valHTML = '';
+  if(!isBranch){
+    if(t === 'string') valHTML = '<span class="v-str">' + hl(val, S.q) + '</span>';
+    else if(t === 'number') valHTML = '<span class="v-num">' + esc(val) + '</span>';
+    else if(t === 'boolean') valHTML = '<span class="v-bool">' + esc(val) + '</span>';
+    else valHTML = '<span class="v-null">null</span>';
+  } else if(!opened){
+    valHTML = '<span class="tsum">' + esc(preview(val)) + '</span>';
+  }
+
+  const caret = isBranch
+    ? '<span class="tcaret" data-tpath="' + esc(path) + '">' + (opened ? '▾' : '▸') + '</span>'
+    : '<span class="tcaret leaf">·</span>';
+
+  const keyHTML = (idxLabel && Array.isArray(val) === false && /^\d+$/.test(key))
+    ? '<span class="tkey idx" data-tpath="' + esc(path) + '">' + hl(key, S.q) + '</span>'
+    : '<span class="tkey" data-tpath="' + esc(path) + '">' + hl(key, S.q) + '</span>';
+
+  return {
+    hit: selfHit,
+    html: '<div class="tnode">' +
+      '<div class="trow" data-tpath="' + esc(path) + '">' + caret + keyHTML +
+        '<span class="tsep">:</span> ' + valHTML +
+        (isBranch && opened ? '' : '') +
+        (isBranch ? ' <span class="tcount">' + (Array.isArray(val) ? '[' + val.length + ']' : '{' + Object.keys(val).length + '}') + '</span>' : '') +
+      '</div>' +
+      (isBranch && opened ? '<div class="tkids">' + kids.join('') + '</div>' : '') +
+    '</div>'
+  };
+}
+function renderTree(root, pathRoot){
+  S.expanded = new Set();
+  (function walk(v, p, d){
+    if(d > S.treeDepth) return;
+    if(v === null || typeof v !== 'object') return;
+    S.expanded.add(p);
+    if(Array.isArray(v)){ if(v.length <= 40) v.forEach(function(x, i){ walk(x, p ? p + '.' + i : String(i), d + 1); }); }
+    else Object.keys(v).forEach(function(k){ walk(v[k], p ? p + '.' + k : k, d + 1); });
+  })(root, pathRoot || '', 0);
+
+  let html;
+  if(root !== null && typeof root === 'object' && !Array.isArray(root)){
+    html = Object.keys(root).map(function(k){
+      const h = treeHTML(k, root[k], k, 0, '');
+      return h ? h.html : '';
+    }).join('');
+  } else if(Array.isArray(root)){
+    html = root.map(function(v, i){
+      const h = treeHTML('[' + i + ']', v, String(i), 0, '');
+      return h ? h.html : '';
+    }).join('');
+  } else {
+    html = '<div class="trow">' + esc(asText(root)) + '</div>';
+  }
+  return '<div class="thead">' +
+      '<div style="font-size:.8rem;color:var(--muted)">共 <b>' + countNodes(root) + '</b> 个节点 · 当前展开层级 <b>' + S.treeDepth + '</b>（⊞ / ⊟ 调整）</div>' +
+    '</div>' +
+    '<div class="crumb" id="crumb">点击任意节点查看路径</div>' +
+    '<div class="tree">' + (html || '<div class="dimnote">（无匹配节点）</div>') + '</div>';
+}
+function countNodes(v){
+  if(v === null || typeof v !== 'object') return 1;
+  let n = 1;
+  if(Array.isArray(v)) v.forEach(function(x){ n += countNodes(x); });
+  else Object.keys(v).forEach(function(k){ n += countNodes(v[k]); });
+  return n;
+}
+function getByPath(root, path){
+  if(!path) return root;
+  const parts = path.split('.');
+  let cur = root;
+  for(const p of parts){
+    if(cur === null || cur === undefined) return undefined;
+    cur = cur[p];
+  }
+  return cur;
+}
+
+/* =========================================================================
+   5. 书模式渲染
+   ========================================================================= */
+function isStandardDoc(d){
+  return d && typeof d === 'object' && !Array.isArray(d) &&
+         d.standard && typeof d.standard === 'object' && Array.isArray(d.clauses);
+}
+
+function clauseKey(no){
+  const parts = String(no || '').split('.');
+  const k = parts.map(function(p){
+    const m = p.match(/^\d+/);
+    return m ? parseInt(m[0], 10) : 999;
+  });
+  while(k.length < 4) k.push(0);
+  return k;
+}
+function cmpClause(a, b){
+  const ka = clauseKey(a), kb = clauseKey(b);
+  for(let i = 0; i < 4; i++) if(ka[i] !== kb[i]) return ka[i] - kb[i];
+  return String(a).localeCompare(String(b));
+}
+
+function renderBook(d){
+  const std = d.standard || {};
+  const rules = Array.isArray(d.executable_rules) ? d.executable_rules : [];
+  const ruleMap = Object.create(null);
+  rules.forEach(function(r){ const k = r.source_clause || r.source || ''; (ruleMap[k] = ruleMap[k] || []).push(r); });
+
+  let clauses = (d.clauses || []).slice();
+  clauses.sort(function(x, y){ return cmpClause(x.clause_no, y.clause_no); });
+
+  /* ---- 统计 ---- */
+  let nMand = 0, nAbol = 0, nParam = 0, nCond = 0, nTable = 0, nRef = 0, nScope = 0;
+  clauses.forEach(function(c){
+    const ct = c.constraint || {};
+    const mand = ct.is_mandatory_clause === true || c.is_mandatory_clause === true;
+    if(mand) nMand++;
+    if(c.is_abolished) nAbol++;
+    if((c.parameters || []).length) nParam++;
+    if(((c.applicability || {}).conditions || []).length) nCond++;
+    if((c.tables || []).length) nTable++;
+    if((c.references || []).length) nRef++;
+    if((c.applicability || {}).scope) nScope++;
+  });
+
+  /* ---- 过滤 ---- */
+  const q = S.q.trim();
+  const ql = q.toLowerCase();
+  let visible = clauses.filter(function(c){
+    if(S.filter === 'mand' && !(c.constraint || {}).is_mandatory_clause && !c.is_mandatory_clause) return false;
+    if(S.filter === 'abol' && !c.is_abolished) return false;
+    if(S.filter === 'param' && !(c.parameters || []).length) return false;
+    if(S.filter === 'cond' && !((c.applicability || {}).conditions || []).length) return false;
+    if(S.filter === 'table' && !(c.tables || []).length) return false;
+    if(S.filter === 'ref' && !(c.references || []).length) return false;
+    if(S.filter === 'scope' && !(c.applicability || {}).scope) return false;
+    if(ql){
+      const ap = c.applicability || {};
+      const pool = [c.clause_no, c.text, c.chapter, c.section,
+        ap.scope, (ap.conditions || []).join(' '), (ap.exceptions || []).join(' '),
+        (c.parameters || []).map(function(p){ return p.name + ' ' + (p.unit || '') + ' ' + (p.condition || ''); }).join(' '),
+        (c.tables || []).map(function(t){ return t.id + ' ' + (t.description || ''); }).join(' '),
+        (c.references || []).map(function(r){ return r.target_standard + ' ' + (r.target_clause || ''); }).join(' ')
+      ].join(' ').toLowerCase();
+      if(pool.indexOf(ql) < 0) return false;
+    }
+    return true;
+  });
+
+  /* ---- 封面 ---- */
+  const relStd = arr(std.related_standards);
+  const cover = '<div class="cover">' +
+    '<h1><span class="code">' + esc(std.code || '') + '</span>《' + esc(std.name || '') + '》</h1>' +
+    '<div style="display:flex;gap:.35rem;flex-wrap:wrap;margin:.4rem 0">' +
+      '<span class="badge ' + (std.is_abolished ? 'b-abol' : 'b-ok') + '">' + esc(std.status || '—') + '</span>' +
+      (std.standard_category ? '<span class="badge b-gray">' + esc(std.standard_category) + '</span>' : '') +
+      (std.has_mandatory_clauses ? '<span class="badge b-mand">含强条 ' + esc(std.mandatory_clause_count || nMand) + '</span>' : '<span class="badge b-gray">无强条</span>') +
+      (std.schema_version ? '<span class="badge b-info">schema ' + esc(std.schema_version) + '</span>' : '') +
+      (std.region_scope ? '<span class="badge b-gray">' + esc(std.region_scope) + '</span>' : '') +
+      arr(std.domain).map(function(x){ return '<span class="badge b-purple">' + esc(x) + '</span>'; }).join('') +
+    '</div>' +
+    '<div class="meta">' +
+      '<b>实施日期</b><span>' + esc(std.effective_date || '—') + '</span>' +
+      (std.abolished_date ? '<b>废止日期</b><span>' + esc(std.abolished_date) + '</span>' : '') +
+      (std.superseded_by ? '<b>被替代</b><span>' + esc(std.superseded_by) + '</span>' : '') +
+      '<b>条文总数</b><span>' + esc(clauses.length) + '（登记 ' + esc(std.total_clauses || clauses.length) + '）</span>' +
+      (std.last_reviewed_date ? '<b>最后复核</b><span>' + esc(std.last_reviewed_date) + '</span>' : '') +
+      (std.name_note ? '<b>名称备注</b><span>' + esc(std.name_note) + '</span>' : '') +
+      (std.mandatory_note ? '<b>强条备注</b><span>' + esc(std.mandatory_note) + '</span>' : '') +
+      (relStd.length ? '<b>相关标准</b><span>' + relStd.map(function(r){
+          return esc(typeof r === 'string' ? r : (r.code || '') + (r.relationship ? '（' + r.relationship + '）' : ''));
+        }).join('　') + '</span>' : '') +
+    '</div>' +
+    (Array.isArray(d.extraction_notes) && d.extraction_notes.length
+      ? '<details style="margin-top:.6rem"><summary style="cursor:pointer;color:var(--muted);font-size:.82rem">提取说明 / 遗留问题（' + d.extraction_notes.length + ' 条）</summary>' +
+        '<ul style="font-size:.82rem;color:var(--muted);margin:.4rem 0 0;padding-left:1.2rem">' +
+        d.extraction_notes.map(function(n){ return '<li>' + esc(n) + '</li>'; }).join('') + '</ul></details>'
+      : '') +
+  '</div>';
+
+  /* ---- 统计条 + 过滤条 ---- */
+  const stats = '<div class="stats">' +
+    [['条文', clauses.length], ['强条', nMand], ['已废止', nAbol], ['含参数', nParam],
+     ['含条件', nCond], ['含表格', nTable], ['含引用', nRef], ['适用范围', nScope],
+     ['可执行规则', rules.length]]
+      .map(function(x){ return '<div class="stat"><div class="n">' + x[1] + '</div><div class="l">' + x[0] + '</div></div>'; }).join('') +
+  '</div>';
+  const filters = [['all', '全部'], ['mand', '仅强条'], ['abol', '仅已废止'], ['scope', '有适用范围'],
+                   ['cond', '有条件'], ['param', '有参数'], ['table', '有表格'], ['ref', '有引用']];
+  const filterBar = '<div class="filterbar"><span class="lbl">筛选</span>' +
+    filters.map(function(f){ return '<button class="btn' + (S.filter === f[0] ? ' on' : '') + '" data-filter="' + f[0] + '">' + f[1] + '</button>'; }).join('') +
+    '<span class="lbl" style="margin-left:.6rem">命中 <b style="color:var(--accent)">' + visible.length + '</b> / ' + clauses.length + '</span>' +
+    '<button class="btn" data-act="togglestruct" style="margin-left:auto">' + (S.showStruct ? '隐藏结构化信息' : '显示结构化信息') + '</button>' +
+  '</div>';
+
+  /* ---- 目录 ---- */
+  const chapters = [];
+  const chIndex = Object.create(null);
+  visible.forEach(function(c){
+    const ch = c.chapter || '未分章';
+    if(!chIndex[ch]){ chIndex[ch] = {name: ch, items: []}; chapters.push(chIndex[ch]); }
+    chIndex[ch].items.push(c);
+  });
+  const toc = '<div class="toc-h">目录 · 点击章名展开</div>' +
+    chapters.map(function(ch, i){
+      const open = S.openCh.has('ch' + i);
+      return '<div class="toc-ch' + (open ? ' open' : '') + '" data-ch="' + i + '">' +
+        '<span class="caret">▶</span><span>' + esc(ch.name) + '</span><span class="cnt">' + ch.items.length + '</span></div>' +
+        (open ? '<div class="toc-items">' + ch.items.map(function(c){
+            const ct = c.constraint || {};
+            const mand = ct.is_mandatory_clause === true || c.is_mandatory_clause === true;
+            return '<a class="toc-item' + (mand ? ' mand' : '') + (c.is_abolished ? ' abol' : '') + '" href="#c-' + esc(c.clause_no) + '">' +
+              '<span class="no">' + esc(c.clause_no) + '</span><span class="t">' + esc(short(c.text || '', 40)) + '</span></a>';
+          }).join('') + '</div>' : '');
+    }).join('');
+
+  side.innerHTML = cover.replace(/<details[\s\S]*?<\/details>/, '') + toc;
+
+  /* ---- 正文 ---- */
+  let body = '';
+  chapters.forEach(function(ch, i){
+    body += '<h2 class="chapter" id="ch-' + i + '"><span class="chn">' + esc(ch.name) + '</span><span class="chc">' + ch.items.length + ' 条</span></h2>';
+    let curSec = ' ';
+    ch.items.forEach(function(c){
+      const sec = c.section || '';
+      if(sec && sec !== curSec){ curSec = sec; body += '<h3 class="section">' + esc(sec) + '</h3>'; }
+      body += clauseHTML(c, ruleMap[c.id] || ruleMap[(c.standard_code || '') + '#' + c.clause_no] || [], ql);
+    });
+  });
+  content.innerHTML = cover + stats + filterBar +
+    (visible.length ? body : '<div class="dimnote">没有命中的条文，试试清空搜索或切换筛选。</div>') +
+    '<div class="foot">共 ' + visible.length + ' 条 · 由本地 YAML 阅读器渲染</div>';
+}
+
+function clauseHTML(c, crules, ql){
+  const ct = c.constraint || {};
+  const ap = c.applicability || {};
+  const mand = ct.is_mandatory_clause === true || c.is_mandatory_clause === true;
+  const abol = c.is_abolished === true;
+  const isCommentary = c._kind === 'commentary';
+  const cls = ['clause'];
+  if(mand) cls.push('mand');
+  if(abol) cls.push('abol');
+  if(isCommentary) cls.push('commentary');
+  if(ql) cls.push('hit');
+
+  let h = '<article class="' + cls.join(' ') + '" id="c-' + esc(c.clause_no) + '">';
+  h += '<div class="cl-head">' +
+    '<span class="cno">' + hl(c.clause_no, ql) + '</span>' +
+    (mand ? '<span class="badge b-mand">强条</span>' : '') +
+    (abol ? '<span class="badge b-abol">已废止' + (c.superseded_by ? ' → ' + esc(c.superseded_by) : '') + '</span>' : '') +
+    (isCommentary ? '<span class="badge b-gray">条文说明</span>' : '') +
+    (ct.modal_level ? '<span class="badge b-modal">' + esc(ct.modal_level) + '</span>' : '') +
+    arr(ct.modal_words).map(function(w){ return '<span class="badge b-modal">' + esc(w) + '</span>'; }).join('') +
+    '<span class="spacer"></span>' +
+    '<button class="linkbtn" data-raw="' + esc(c.clause_no) + '">原始结构</button>' +
+  '</div>';
+  h += '<div class="ctext">' + hl(c.text, ql) + '</div>';
+
+  if(S.showStruct){
+    const parts = [];
+    if(ap.scope) parts.push(kvHTML('适用范围', ap.scope, ql));
+    if(arr(ap.conditions).length)
+      parts.push('<div class="kv"><span class="lbl">适用条件</span><span class="val"><span class="chips">' +
+        arr(ap.conditions).map(function(x){ return '<span class="chip cond">' + hl(chipText(x), ql) + '</span>'; }).join('') + '</span></span></div>');
+    if(arr(ap.exceptions).length)
+      parts.push('<div class="kv"><span class="lbl">例外 / 排除</span><span class="val"><span class="chips">' +
+        arr(ap.exceptions).map(function(x){ return '<span class="chip exc">' + hl(chipText(x), ql) + '</span>'; }).join('') + '</span></span></div>');
+
+    const ps = arr(c.parameters);
+    if(ps.length){
+      parts.push('<div class="kv"><span class="lbl">参数阈值</span><span class="val" style="overflow:auto">' +
+        '<table class="mini"><thead><tr><th>参数</th><th>条件</th><th>阈值</th><th>单位</th></tr></thead><tbody>' +
+        ps.map(function(p){
+          return '<tr><td>' + hl(p.name, ql) + '</td><td>' + hl(chipText(p.condition) || '—', ql) + '</td>' +
+                 '<td><b style="color:var(--danger)">' + esc(paramLimit(p)) + '</b></td>' +
+                 '<td>' + esc(p.unit || '—') + '</td></tr>' +
+                 (p._v21_param_note ? '<tr><td colspan="4" class="dimnote">注：' + esc(p._v21_param_note) + '</td></tr>' : '');
+        }).join('') + '</tbody></table></span></div>');
+    }
+
+    arr(c.tables).forEach(function(t){
+      const heads = arr(t.headers), rows = arr(t.rows);
+      let th = '';
+      if(rows.length){
+        th += '<div class="kv"><span class="lbl">' + esc(t.type || 'table') + '</span><span class="val">' +
+          '<div class="tbwrap"><table class="data">' +
+          (t.id || t.description ? '<caption>' + esc(t.id || '') + ' ' + esc(t.description || '') + '</caption>' : '') +
+          (heads.length ? '<thead><tr>' + heads.map(function(x){ return '<th>' + esc(x) + '</th>'; }).join('') + '</tr></thead>' : '') +
+          '<tbody>' + rows.map(function(r){
+            if(Array.isArray(r)) return '<tr>' + r.map(function(x){ return '<td>' + esc(asText(x)) + '</td>'; }).join('') + '</tr>';
+            if(r && typeof r === 'object') return '<tr>' + Object.keys(r).map(function(k){ return '<td><b>' + esc(k) + '</b>：' + esc(asText(r[k])) + '</td>'; }).join('') + '</tr>';
+            return '<tr><td>' + esc(asText(r)) + '</td></tr>';
+          }).join('') + '</tbody></table></div></span></div>';
+      }
+      parts.push(th);
+    });
+
+    arr(c.converted_tables).forEach(function(t){
+      parts.push('<div class="kv"><span class="lbl">转换表</span><span class="val">' +
+        (typeof t === 'string' ? '<pre class="raw">' + esc(t) + '</pre>'
+          : '<pre class="raw">' + esc(t.raw || asText(t)) + '</pre>' + (t.note ? '<div class="dimnote">' + esc(t.note) + '</div>' : '')) +
+        '</span></div>');
+    });
+
+    arr(c.references).forEach(function(r){
+      if(typeof r === 'string'){ parts.push(kvHTML('引用', r, ql)); return; }
+      const st = r.resolution_status || '';
+      const bc = /已|ok|resolved/i.test(st) ? 'b-ok' : (/未|待|un/i.test(st) ? 'b-warn' : 'b-gray');
+      parts.push('<div class="kv"><span class="lbl">引用</span><span class="val"><span class="chips">' +
+        '<span class="chip ref">' + esc(r.target_standard || '') + (r.target_clause ? ' ' + esc(r.target_clause) : '') + '</span>' +
+        (st ? '<span class="badge ' + bc + '">' + esc(st) + '</span>' : '') +
+        (r.resolution_note ? '<span class="dimnote">' + esc(r.resolution_note) + '</span>' : '') +
+        (r.original_text ? '<div class="dimnote">原文：' + esc(r.original_text) + '</div>' : '') +
+        '</span></span></div>');
+    });
+
+    arr(c.conflicts).forEach(function(x){
+      parts.push(kvHTML('冲突', asText(x), ql));
+    });
+
+    const ro = c.related_objects || {};
+    const comps = arr(ro.component_types), acts = arr(ro.activity_types);
+    const extra = Object.keys(ro).filter(function(k){ return k !== 'component_types' && k !== 'activity_types'; });
+    if(comps.length || acts.length || extra.length){
+      parts.push('<div class="kv"><span class="lbl">关联对象</span><span class="val"><span class="chips">' +
+        comps.map(function(x){ return '<span class="chip ifc">' + esc(x) + '</span>'; }).join('') +
+        acts.map(function(x){ return '<span class="chip act">' + esc(x) + '</span>'; }).join('') +
+        extra.map(function(k){ return '<span class="chip">' + esc(k) + '：' + esc(short(asText(ro[k]), 60)) + '</span>'; }).join('') +
+        '</span></span></div>');
+    }
+
+    crules.forEach(function(r){
+      const whens = arr(r.when), then = r.then;
+      let thenTxt = '';
+      if(typeof then === 'string') thenTxt = then;
+      else if(then && typeof then === 'object'){
+        const p = then;
+        if(p.parameter !== undefined || p.min_value !== undefined || p.max_value !== undefined){
+          thenTxt = (p.parameter || '') + (p.condition ? '（' + p.condition + '）' : '') + ' ' +
+            (p.min_value !== null && p.min_value !== undefined ? '≥ ' + p.min_value : '') +
+            (p.max_value !== null && p.max_value !== undefined ? ' ≤ ' + p.max_value : '') +
+            (p.unit ? ' ' + p.unit : '');
+        } else {
+          thenTxt = Object.keys(p).map(function(k){
+            const v = p[k];
+            return k + '：' + (v !== null && typeof v === 'object' ? JSON.stringify(v) : String(v));
+          }).join('；');
+        }
+      }
+      parts.push('<div class="kv"><span class="lbl">' + esc(r.rule_type || '规则') + '</span><span class="val">' +
+        '<div class="rule">' +
+        (whens.length ? '<div class="rw"><b>当</b> ' + whens.map(function(w){ return esc(w); }).join('　<i style="color:var(--dim)">且</i>　') + '</div>' : '') +
+        '<div class="rt"><b>则</b> ' + esc(thenTxt) + '</div>' +
+        '<div class="rmeta">' + esc(r.rule_id || '') + (r.auto_generated ? ' · 自动生成的镜像规则' : '') + (r.note ? ' · ' + esc(r.note) : '') + '</div>' +
+        '</div></span></div>');
+    });
+
+    if(c.abolition_note) parts.push(kvHTML('废止说明', c.abolition_note, ql));
+    if(ct.mandatory_basis) parts.push(kvHTML('强条依据', ct.mandatory_basis, ql));
+
+    if(parts.length) h += '<div class="struct">' + parts.join('') + '</div>';
+  }
+
+  if(S.rawClause.has(c.clause_no)){
+    S.expanded = new Set(['']);
+    const sub = renderTree(c, '').replace(/<div class="thead">[\s\S]*?<\/div>/, '').replace(/<div class="crumb"[\s\S]*?<\/div>/, '');
+    h += '<details class="rawbox" open><summary>原始结构（YAML 树）</summary>' + sub + '</details>';
+  }
+  h += '</article>';
+  return h;
+}
+function kvHTML(label, val, ql){
+  return '<div class="kv"><span class="lbl">' + esc(label) + '</span><span class="val">' + hl(val, ql) + '</span></div>';
+}
+
+/* =========================================================================
+   6. 渲染入口 / 事件
+   ========================================================================= */
+function render(){
+  const f = S.files[S.cur];
+  if(!f){ return; }
+  if(S.mode === 'book' && isStandardDoc(f.data)){
+    side.classList.remove('narrow');
+    renderBook(f.data);
+  } else {
+    side.classList.add('narrow');
+    side.innerHTML = '';
+    let html;
+    try { html = renderTree(f.data, ''); }
+    catch(e){ html = '<div class="err">渲染失败：' + esc(e && e.message) + '</div>'; }
+    content.innerHTML = '<div style="font-size:.85rem;color:var(--muted);margin-bottom:.8rem">' +
+      '<b>' + esc(f.name) + '</b> · 通用树模式（' + (isStandardDoc(f.data) ? '标准文档，可切回书模式' : '非标准结构，仅树模式') + '）</div>' + html;
+  }
+  document.querySelectorAll('#modeSeg button').forEach(function(b){
+    b.classList.toggle('on', b.dataset.mode === S.mode);
+  });
+}
+function redraw(){ render(); }
+
+function addFiles(list){
+  const files = Array.prototype.slice.call(list).filter(function(f){ return f.size < 24 * 1024 * 1024; });
+  if(!files.length) return;
+  let pending = files.length;
+  files.forEach(function(file){
+    const fr = new FileReader();
+    fr.onload = function(){
+      const text = String(fr.result || '');
+      let data = null, err = null;
+      try { data = YAMLParse(text); } catch(e){ err = e; }
+      S.files.push({name: file.name, data: data, text: text, err: err ? String(err.message || err) : null});
+      if(--pending === 0) finishLoad();
+    };
+    fr.readAsText(file, 'utf-8');
+  });
+}
+function finishLoad(){
+  const sel = $('fileSel');
+  sel.innerHTML = S.files.map(function(f, i){
+    return '<option value="' + i + '">' + esc(f.name) + (f.err ? '（解析失败）' : '') + '</option>';
+  }).join('');
+  S.cur = S.files.length - 1;
+  sel.value = String(S.cur);
+  $('welcome').style.display = 'none';
+  const f = S.files[S.cur];
+  if(f.err){
+    content.innerHTML = '<div class="err"><b>' + esc(f.name) + '</b> 解析失败：\n' + esc(f.err) + '\n\n原始文本预览（前 2000 字）：\n' + esc(f.text.slice(0, 2000)) + '</div>';
+    side.innerHTML = '';
+    return;
+  }
+  S.mode = isStandardDoc(f.data) ? 'book' : 'tree';
+  S.filter = 'all'; S.q = ''; $('search').value = '';
+  render();
+}
+function loadText(name, text){
+  let data = null, err = null;
+  try { data = YAMLParse(text); } catch(e){ err = e; }
+  S.files.push({name: name, data: data, text: text, err: err ? String(err.message || err) : null});
+  finishLoad();
+}
+
+/* ---- 事件绑定 ---- */
+$('fileInput').addEventListener('change', function(e){ addFiles(e.target.files); e.target.value = ''; });
+$('fileInput2').addEventListener('change', function(e){ addFiles(e.target.files); e.target.value = ''; });
+$('dirInput').addEventListener('change', function(e){ addFiles(e.target.files); e.target.value = ''; });
+$('fileSel').addEventListener('change', function(e){
+  S.cur = parseInt(e.target.value, 10);
+  const f = S.files[S.cur];
+  S.mode = isStandardDoc(f.data) ? 'book' : 'tree';
+  S.filter = 'all'; S.q = ''; $('search').value = '';
+  render();
+});
+let searchTimer = null;
+$('search').addEventListener('input', function(e){
+  clearTimeout(searchTimer);
+  const v = e.target.value;
+  searchTimer = setTimeout(function(){ S.q = v; render(); }, 180);
+});
+$('modeSeg').addEventListener('click', function(e){
+  const b = e.target.closest('button'); if(!b) return;
+  S.mode = b.dataset.mode; render();
+});
+$('btnTheme').addEventListener('click', function(){
+  S.theme = S.theme === 'dark' ? 'light' : 'dark';
+  document.documentElement.setAttribute('data-theme', S.theme);
+});
+$('btnFontS').addEventListener('click', function(){
+  S.fontSize = Math.max(12, S.fontSize - 1); document.body.style.fontSize = S.fontSize + 'px';
+});
+$('btnFontL').addEventListener('click', function(){
+  S.fontSize = Math.min(26, S.fontSize + 1); document.body.style.fontSize = S.fontSize + 'px';
+});
+$('btnExpand').addEventListener('click', function(){ S.treeDepth = Math.min(12, S.treeDepth + 1); render(); });
+$('btnCollapse').addEventListener('click', function(){ S.treeDepth = 0; render(); });
+$('btnSide').addEventListener('click', function(){ side.classList.toggle('narrow'); });
+$('btnPaste').addEventListener('click', togglePaste);
+$('btnPaste2').addEventListener('click', togglePaste);
+function togglePaste(){
+  const b = $('pasteBox');
+  b.style.display = b.style.display === 'none' ? 'block' : 'none';
+  if(b.style.display === 'block') $('pasteTa').focus();
+}
+$('pasteCancel').addEventListener('click', function(){ $('pasteBox').style.display = 'none'; });
+$('pasteOk').addEventListener('click', function(){
+  const t = $('pasteTa').value;
+  if(!t.trim()) return;
+  $('pasteBox').style.display = 'none';
+  loadText('粘贴内容 ' + new Date().toLocaleTimeString(), t);
+});
+
+/* 内容区委托事件 */
+content.addEventListener('click', function(e){
+  const fb = e.target.closest('[data-filter]');
+  if(fb){ S.filter = fb.dataset.filter; render(); return; }
+  const act = e.target.closest('[data-act]');
+  if(act && act.dataset.act === 'togglestruct'){ S.showStruct = !S.showStruct; render(); return; }
+  const raw = e.target.closest('[data-raw]');
+  if(raw){
+    const no = raw.dataset.raw;
+    if(S.rawClause.has(no)) S.rawClause.delete(no); else S.rawClause.add(no);
+    render();
+    const el = document.getElementById('c-' + no);
+    if(el) el.scrollIntoView({block:'start'});
+    return;
+  }
+  const caret = e.target.closest('.tcaret[data-tpath]');
+  if(caret){
+    const p = caret.dataset.tpath;
+    if(S.expanded.has(p)) S.expanded.delete(p); else S.expanded.add(p);
+    render(); return;
+  }
+  const key = e.target.closest('.tkey[data-tpath]');
+  if(key){
+    const p = key.dataset.tpath;
+    if(S.expanded.has(p)) S.expanded.delete(p); else S.expanded.add(p);
+    render();
+    const cr = $('crumb');
+    if(cr){
+      const f = S.files[S.cur];
+      const v = getByPath(f.data, p);
+      cr.innerHTML = '<b>' + esc(p) + '</b>　' + esc(preview(v)) +
+        '　<button class="linkbtn" id="crumbCopy">复制值</button>';
+      const cb = $('crumbCopy');
+      if(cb) cb.addEventListener('click', function(){
+        const txt = (typeof v === 'object') ? JSON.stringify(v, null, 2) : String(v);
+        navigator.clipboard && navigator.clipboard.writeText(txt);
+        cb.textContent = '已复制';
+      });
+    }
+    return;
+  }
+  const row = e.target.closest('.trow[data-tpath]');
+  if(row){
+    document.querySelectorAll('.trow.sel').forEach(function(x){ x.classList.remove('sel'); });
+    row.classList.add('sel');
+    return;
+  }
+});
+
+/* 侧栏目录 */
+side.addEventListener('click', function(e){
+  const ch = e.target.closest('[data-ch]');
+  if(ch){
+    const k = 'ch' + ch.dataset.ch;
+    if(S.openCh.has(k)) S.openCh.delete(k); else S.openCh.add(k);
+    render();
+    const el = document.getElementById('ch-' + ch.dataset.ch);
+    if(el && S.openCh.has(k)) el.scrollIntoView({block:'start'});
+    return;
+  }
+  const relate = e.target.closest('a[href^="#c-"]');
+  if(relate){ /* 默认锚点跳转即可 */ }
+});
+
+/* 拖放 */
+['dragenter','dragover'].forEach(function(ev){
+  document.addEventListener(ev, function(e){ e.preventDefault(); document.body.classList.add('dragging'); $('drop') && $('drop').classList.add('hot'); });
+});
+['dragleave','drop'].forEach(function(ev){
+  document.addEventListener(ev, function(e){
+    e.preventDefault();
+    if(ev === 'drop' || e.target === document.documentElement){
+      document.body.classList.remove('dragging');
+      if($('drop')) $('drop').classList.remove('hot');
+    }
+  });
+});
+document.addEventListener('drop', function(e){
+  e.preventDefault();
+  document.body.classList.remove('dragging');
+  if($('drop')) $('drop').classList.remove('hot');
+  if(e.dataTransfer && e.dataTransfer.files && e.dataTransfer.files.length) addFiles(e.dataTransfer.files);
+});
+
+/* 主题跟随系统（默认深色） */
+document.documentElement.setAttribute('data-theme', S.theme);
+</script>
+</body>
+</html>

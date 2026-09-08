@@ -1,0 +1,178 @@
+# 建筑规范结构化知识库（Building Code Knowledge Base）
+
+把中文工程建设标准（国标 GB / 行标 JGJ 等）从 PDF/OCR 文本，**转成机器可读、可被设计软件与审查流程直接消费的 YAML 结构化数据**：条文编号、适用条件与例外、数值阈值、查表逻辑、强条与废止状态、IFC 对象映射、可执行规则。
+
+首册样板：**GB 50222-2017《建筑内部装修设计防火规范》**（全 49 条，含完整复核）。
+
+> ⚠️ 标准文本的权利声明与免责条款见 [DISCLAIMER.md](DISCLAIMER.md)，使用前请先阅读。
+
+---
+
+## 1. 为什么做这件事
+
+工程设计里最贵的一类错误，不是算错，而是**读漏**：一份建筑总说明里散落几十条引用规范，跨专业之间彼此矛盾的条文，往往到施工图审查或现场返工才被发现。
+
+要解决这个问题，规范的形态必须从「给人读的 PDF」变成「给程序读的数据结构」。本仓库做的事就是把每一条规范拆成可判定的最小单元：
+
+| 需求 | 结构化之后能做到 |
+|---|---|
+| 设计说明里的引用条文是否齐全 | 每条带 `standard_code` + `clause_no`，可精确比对清单 |
+| 这条规定对我这个部位适不适用 | `applicability.scope` / `conditions` / `exceptions` 三元组 |
+| 我的取值达标了吗 | `parameters[].min_value/max_value/unit` |
+| 该查哪张表 | `tables[].headers/rows`（本册 14 张表 226 行已结构化） |
+| 是不是强条 / 有没有被废止 | `constraint.is_mandatory_clause` + `is_abolished` + `superseded_by` |
+| 能不能进 BIM 审查 | `related_objects.component_types` 映射到 IFC 实体 |
+| 能不能直接被规则引擎跑 | `executable_rules`（when → then） |
+
+## 2. 仓库结构
+
+```
+.
+├── README.md                      # 你正在看的文件
+├── DISCLAIMER.md                  # 标准文本来源说明与免责条款
+├── LICENSE                        # MIT（仅覆盖代码与工具，不含标准文本）
+├── schema/
+│   └── SCHEMA_v2.1.yaml           # 数据结构定义（权威版本，带书写规约）
+├── standards/
+│   └── GB50222-2017.yaml          # 本册成果：49 条条文的结构化数据
+├── docs/
+│   ├── GB50222-2017_阅读视图.html  # 预渲染的阅读视图，浏览器双击即可看
+│   ├── 验收报告.md                 # 本册质量验收结论
+│   └── 复核差异清单.md             # 相对机器提取版的 38 处人工修正明细
+└── tools/
+    ├── yaml-reader.html           # 通用 YAML 阅读器（离线单文件，零依赖）
+    ├── gen_readview_html.py       # 由 YAML 生成静态阅读视图的脚本
+    └── strip_text.py              # 合规阀：一键剔除条文原文，仅留结构化元数据
+```
+
+## 3. 数据结构速览
+
+单份 YAML 由三层组成：`standard`（整本元数据）、`clauses`（逐条条文）、`executable_rules`（可判定规则）。完整字段定义与书写规约见 [`schema/SCHEMA_v2.1.yaml`](schema/SCHEMA_v2.1.yaml)。
+
+```yaml
+standard:                # 整本：编号、名称、实施/废止日期、强条数、相关规范、schema 版本
+  code: GB 50222-2017
+  clauses: [...]         # 条文 id 清单
+clauses:
+  - id: GB 50222-2017#3.0.4
+    clause_no: 3.0.4
+    chapter: 3 装修材料的分类和分级
+    text: 安装在金属龙骨上燃烧性能达到B1级的纸面石膏板、矿棉吸声板，可作为A级装修材料使用。
+    is_abolished: false
+    superseded_by: null
+    applicability:       # 「对谁有效」——主体 / 条件 / 排除
+      scope: 安装在金属龙骨上的纸面石膏板、矿棉吸声板
+      conditions: [燃烧性能达到 B1 级]
+      exceptions: []
+    constraint:          # 「多强」——情态动词 + 是否强条 + 依据
+      modal_level: may           # must / should / may
+      modal_words: [可]
+      is_mandatory_clause: false
+    parameters:          # 「到什么程度」——五字段统一签名
+      - name: 纸面石膏板/矿棉吸声板燃烧性能等级
+        unit: null
+        condition: 安装在金属龙骨上
+        min_value: null
+        max_value: null
+    tables: []           # 查表类条款：结构化 headers + rows
+    references: []       # 跨标准引用 + 处置状态（resolved / unresolved）
+    related_objects:     # IFC 实体与活动类型映射
+      component_types: [IfcCovering, IfcWall, IfcCeiling]
+      activity_types: [内部装修防火设计]
+executable_rules:        # 面向规则引擎：when 条件数组 → then 结论
+  - rule_id: R_GB50222_3_0_4_board_grade
+    when: ["material IN ['纸面石膏板','矿棉吸声板']", "fire_performance == 'B1'", "install == '金属龙骨'"]
+    then: { result_grade: A }
+```
+
+**几条立规矩的经验**（都是踩过坑才定下来的）：
+
+- **参数必须五字段齐名**：`name / unit / condition / min_value / max_value`，缺 unit 也要显式 `null`。这是所有下游脚本的字段签名。
+- **「除 X 外」不写进 `exceptions`**：那是 SQL 式排除思维。范围限定应并入 `scope`（限定主体）或 `conditions`（条件分支），`exceptions` 只放被排除对象本身。
+- **等级型/枚举型条款不是阈值约束**。像「B1 级可视同 A 级」这种等效规则，`>=` 数值比较是错的——参数层用 `condition` + `_v21_param_note` 说明，真正的换算逻辑放 `executable_rules`。
+- **不要发明新字段名**。`operator` / `value` 这类自定义键不会被任何脚本识别，也不会进规则镜像。
+
+## 4. 本册数据概况：GB 50222-2017
+
+| 项 | 值 |
+|---|---|
+| 标准号 / 名称 | GB 50222-2017《建筑内部装修设计防火规范》 |
+| 实施日期 | 2018-04-01 |
+| 领域 | 防火、建筑装修、消防设计 |
+| 条文总数 | 49 |
+| 强制性条文 | 18 条（**全部已被 GB 55037-2022 废止效力**，逐条标注 `superseded_by`） |
+| 适用范围填充 | 49 / 49（100%） |
+| 带适用条件的条文 | 34 |
+| 带例外的条文 | 9 |
+| 情态分布 | must 31 / may 11 |
+| 结构化表格 | 14 张，共 226 行（另有 2 张已转文本） |
+| 数值参数 | 5 |
+| 跨标准引用 | 2（GB 50016 协调、GB 8624 材料分级） |
+| 可执行规则 | 13 条（其中 4 条为参数自动镜像） |
+| 文件体积 | 77 KB |
+
+章节分布：总则 4 / 术语 4 / 装修材料的分类和分级 7 / 特别场所 20 / 民用建筑 9 / 厂房仓库 5。
+
+**上位替代关系**：GB 55037-2022《建筑防火通用规范》（全文强制）发布后，本规范全部强制性条文的效力已被废止——本册数据对此做了逐条标注，检索时不会被误导去执行已失效条文。
+
+## 5. 怎么用
+
+### 5.1 最省事：拖进阅读器
+
+打开 [`tools/yaml-reader.html`](tools/yaml-reader.html)（下载后双击，或在本仓库页面直接预览），把 `standards/GB50222-2017.yaml` 拖进窗口即可。
+
+- **零依赖**：内置纯 JS YAML 解析器，不联网、不需要 Python/Node，file:// 下直接可用
+- **书模式**：自动识别 `standard` + `clauses` 结构，渲染封面信息、章节目录、强条/废止徽标、适用范围/条件/例外、参数阈值表、原表格、引用与规则（「当…且… → 则…」）
+- **树模式**：任意 YAML 的通用层级树，支持路径面包屑与值复制
+- 支持多文件/整目录加载、实时搜索高亮、按强条/废止/参数/条件/表格/引用筛选、字号与深浅主题
+
+该解析器已与 PyYAML 对全库 34 份 YAML 做过**逐字段一致性比对，零差异**。
+
+### 5.2 同步态看：预渲染视图
+
+不想打开文件工具？直接浏览器打开 [`docs/GB50222-2017_阅读视图.html`](docs/GB50222-2017_阅读视图.html)，静态结果已在里面。
+
+### 5.3 用 Python 读数据
+
+```python
+import yaml
+d = yaml.safe_load(open('standards/GB50222-2017.yaml', encoding='utf-8'))
+
+for c in d['clauses']:
+    if c['constraint']['is_mandatory_clause'] and not c['is_abolished']:
+        print(c['clause_no'], c['text'])
+```
+
+重新生成静态阅读视图：
+
+```bash
+pip install pyyaml
+python tools/gen_readview_html.py standards/GB50222-2017.yaml docs/新阅读视图.html
+```
+
+## 6. 质量门禁
+
+结构化数据最怕「看起来齐了」。所以每一步都设有机器门禁，本册已全部通过：
+
+| 门禁 | 内容 | 结果 |
+|---|---|---|
+| **V1–V7** | 必填完整性、编号唯一性、 OCR 截断、弱提取、 适用性缺失、>、对象缺失 | 全 0 |
+| **v2.1 合规** | 参数名语义、单位词典、排除项书写风格、强条归位、本文、规则镜像一致性 | 全 0 |
+| **V4 适用范围** | 每条都人工回填「对谁有效」 | 49/49 |
+| **人工复核** | PDF 原文 120 DPI 渲染后逐页比对，38 处修正 | 见 `docs/复核差异清单.md` |
+
+详细结论见 [`docs/验收报告.md`](docs/验收报告.md)。
+
+> 提醒：验收报告里的「0 违规」指**结构层面的机器校验**，不等于内容语义零差错。涉及工程决策前请回源核对纸质/官方版本。
+
+## 7. 路线图
+
+- [ ] 陆续开源其余 30 余册（防火、防水、节能、无障碍、隔声、热工、门窗、玻璃、屋面、车库、剧场、展览、电气、消防设施、施工质控、数据中心等）
+- [ ] 提供 English field dictionary，便于国际工具链对接
+- [ ] 跨标准冲突检测（`conflicts` 字段目前尚未批量填充）
+- [ ] 与设计说明提取对接：自动比对「说明里写了」与「规范里要求」
+- [ ] IFC 属性集映射深化
+
+## 8. 引用
+
+如果这套结构对你的研究或产品有帮助，欢迎引用并提 issue 交流。仓库也接受 issue 形式的勘误——标准数据天然需要众人校对。

@@ -1,0 +1,24 @@
+# 大体积源 PDF / OCR 中间产物不入库（多为受版权保护的标准原文与扫描件）
+*.pdf
+*.png
+*.jpg
+*.jpeg
+OCR/
+01_引用标准_下载/
+00_源文件/
+
+# 回滚备份链（本地过程产物）
+*.bak*
+*.bak_*
+
+# 中间产物与缓存
+__pycache__/
+*.pyc
+_audit_*.json
+_audit_*.txt
+*.log
+
+# 系统
+.DS_Store
+Thumbs.db
+desktop.ini
