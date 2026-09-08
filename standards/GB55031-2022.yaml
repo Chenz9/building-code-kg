@@ -1,0 +1,5924 @@
+standard:
+  code: GB 55031-2022
+  name: 民用建筑通用规范
+  name_note: null
+  version: '2022'
+  status: 现行
+  is_abolished: false
+  effective_date: '2023-03-01'
+  abolished_date: null
+  superseded_by: null
+  standard_category: 国家标准
+  domain:
+  - 通用规范
+  - 全文强制
+  - 民用建筑
+  region_scope: 全国
+  region_codes: []
+  has_mandatory_clauses: true
+  mandatory_clause_count: 136
+  mandatory_note: null
+  total_clauses: 136
+  related_standards:
+  - code: GB 50352-2019
+    relationship: 废止其相关强条效力
+  - code: JGJ 100-2015
+    relationship: 废止其相关强条效力
+  - code: JGJ 113-2015
+    relationship: 废止其相关强条效力
+  clauses:
+  - GB 55031-2022#1.0.1
+  - GB 55031-2022#1.0.3
+  - GB 55031-2022#1.0.4
+  - GB 55031-2022#2.1.1
+  - GB 55031-2022#2.1.2
+  - GB 55031-2022#2.1.3
+  - GB 55031-2022#2.1.4
+  - GB 55031-2022#2.1.5
+  - GB 55031-2022#2.1.6
+  - GB 55031-2022#2.1.7
+  - GB 55031-2022#2.2.1
+  - GB 55031-2022#2.2.2
+  - GB 55031-2022#2.2.3
+  - GB 55031-2022#2.2.4
+  - GB 55031-2022#2.2.5
+  - GB 55031-2022#2.2.6
+  - GB 55031-2022#3.1.1
+  - GB 55031-2022#3.1.2
+  - GB 55031-2022#3.1.3
+  - GB 55031-2022#3.1.4
+  - GB 55031-2022#3.1.5
+  - GB 55031-2022#3.1.6
+  - GB 55031-2022#3.1.7
+  - GB 55031-2022#3.1.8
+  - GB 55031-2022#3.1.9
+  - GB 55031-2022#3.2.1
+  - GB 55031-2022#3.2.2
+  - GB 55031-2022#3.2.3
+  - GB 55031-2022#3.2.4
+  - GB 55031-2022#3.2.5
+  - GB 55031-2022#3.2.6
+  - GB 55031-2022#3.2.7
+  - GB 55031-2022#4.1.1
+  - GB 55031-2022#4.1.2
+  - GB 55031-2022#4.1.3
+  - GB 55031-2022#4.1.4
+  - GB 55031-2022#4.1.5
+  - GB 55031-2022#4.2.1
+  - GB 55031-2022#4.2.2
+  - GB 55031-2022#4.2.3
+  - GB 55031-2022#4.3.1
+  - GB 55031-2022#4.3.3
+  - GB 55031-2022#4.3.5
+  - GB 55031-2022#4.3.6
+  - GB 55031-2022#4.4.1
+  - GB 55031-2022#4.4.2
+  - GB 55031-2022#4.4.3
+  - GB 55031-2022#4.5.1
+  - GB 55031-2022#4.5.2
+  - GB 55031-2022#4.5.3
+  - GB 55031-2022#5.1.1
+  - GB 55031-2022#5.1.2
+  - GB 55031-2022#5.1.33
+  - GB 55031-2022#5.2.1
+  - GB 55031-2022#5.2.2
+  - GB 55031-2022#5.2.3
+  - GB 55031-2022#5.2.4
+  - GB 55031-2022#5.3.1
+  - GB 55031-2022#5.3.2
+  - GB 55031-2022#5.3.3
+  - GB 55031-2022#5.3.4
+  - GB 55031-2022#5.3.5
+  - GB 55031-2022#5.3.6
+  - GB 55031-2022#5.3.7
+  - GB 55031-2022#5.3.8
+  - GB 55031-2022#5.3.9
+  - GB 55031-2022#5.3.10
+  - GB 55031-2022#5.3.11
+  - GB 55031-2022#5.3.12
+  - GB 55031-2022#5.4.1
+  - GB 55031-2022#5.4.2
+  - GB 55031-2022#5.4.3
+  - GB 55031-2022#5.5.1
+  - GB 55031-2022#5.5.2
+  - GB 55031-2022#5.5.3
+  - GB 55031-2022#5.5.4
+  - GB 55031-2022#5.6.1
+  - GB 55031-2022#5.6.3
+  - GB 55031-2022#5.6.4
+  - GB 55031-2022#5.6.5
+  - GB 55031-2022#5.7.1
+  - GB 55031-2022#5.7.2
+  - GB 55031-2022#5.8.1
+  - GB 55031-2022#5.8.2
+  - GB 55031-2022#5.8.3
+  - GB 55031-2022#5.9.1
+  - GB 55031-2022#5.9.2
+  - GB 55031-2022#5.9.3
+  - GB 55031-2022#5.9.4
+  - GB 55031-2022#6.1.1
+  - GB 55031-2022#6.1.2
+  - GB 55031-2022#6.1.3
+  - GB 55031-2022#6.2.1
+  - GB 55031-2022#6.2.2
+  - GB 55031-2022#6.2.3
+  - GB 55031-2022#6.2.4
+  - GB 55031-2022#6.2.5
+  - GB 55031-2022#6.2.6
+  - GB 55031-2022#6.2.7
+  - GB 55031-2022#6.2.8
+  - GB 55031-2022#6.3.1
+  - GB 55031-2022#6.3.2
+  - GB 55031-2022#6.3.3
+  - GB 55031-2022#6.3.4
+  - GB 55031-2022#6.3.5
+  - GB 55031-2022#6.3.6
+  - GB 55031-2022#6.3.7
+  - GB 55031-2022#6.4.1
+  - GB 55031-2022#6.4.2
+  - GB 55031-2022#6.4.3
+  - GB 55031-2022#6.4.4
+  - GB 55031-2022#6.4.5
+  - GB 55031-2022#6.4.6
+  - GB 55031-2022#6.4.7
+  - GB 55031-2022#6.4.8
+  - GB 55031-2022#6.4.9
+  - GB 55031-2022#6.4.10
+  - GB 55031-2022#6.4.11
+  - GB 55031-2022#6.5.1
+  - GB 55031-2022#6.5.2
+  - GB 55031-2022#6.5.3
+  - GB 55031-2022#6.5.4
+  - GB 55031-2022#6.5.5
+  - GB 55031-2022#6.5.6
+  - GB 55031-2022#6.5.7
+  - GB 55031-2022#6.6.1
+  - GB 55031-2022#6.6.2
+  - GB 55031-2022#6.6.3
+  - GB 55031-2022#6.6.4
+  - GB 55031-2022#6.7.1
+  - GB 55031-2022#6.7.2
+  - GB 55031-2022#6.7.3
+  - GB 55031-2022#6.8.1
+  - GB 55031-2022#6.8.2
+  - GB 55031-2022#6.8.3
+  - GB 55031-2022#6.8.5
+  schema_version: v2.1
+  last_reviewed_date: '2026-09-08'
+clauses:
+- id: GB 55031-2022#1.0.1
+  standard_code: GB 55031-2022
+  chapter: 1 总则
+  section: ''
+  clause_no: 1.0.1
+  text: 为规范民用建筑空间与部位的基本尺度 技术性要求及通用技术措施 制定本规范。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑为规范民用建筑空间与部位的基本尺度 技术（总则）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 必须
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#1.0.2
+  standard_code: GB 55031-2022
+  chapter: 1 总则
+  section: ''
+  clause_no: 1.0.2
+  text: 民用建筑必须执行本规范。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑必须执行本规范（总则）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 必须
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#1.0.3
+  standard_code: GB 55031-2022
+  chapter: 1 总则
+  section: ''
+  clause_no: 1.0.3
+  text: 民用建筑的建设和使用维护应遵循下列基本原则：1 应按照可持续发展的原则，正确处理人、建筑与环境的相互关系，营建与使用功能匹配的合理空间；2 应贯彻节能、节地、节水、节材、保护环境的政策要求；3 应与所处环境协调，体现时代特色、地域文化。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑的建设和使用维护（总则）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#1.0.4
+  standard_code: GB 55031-2022
+  chapter: 1 总则
+  section: ''
+  clause_no: 1.0.4
+  text: 工程建设所采用的技术方法和措施是否符合本规范要求，由相关责任主体判定。其中，创新性的技术方法和措施，应进行论证并符合本规范中有关性能的要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑工程建设所采用的技术方法和措施是否符合本规范要求（总则）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#2.1.1
+  standard_code: GB 55031-2022
+  chapter: 2 基本规定
+  section: 2.1功能要求
+  clause_no: 2.1.1
+  text: 民用建筑建设应遵循安全、卫生、健康舒适的原则，为人们的生活、工作、交流等社会活动提供合理的使用空间，使用空间应满足人体工学的基本尺度要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑建设（基本规定）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#2.1.2
+  standard_code: GB 55031-2022
+  chapter: 2 基本规定
+  section: 2.1功能要求
+  clause_no: 2.1.2
+  text: 民用建筑选址应满足安全要求.。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑选址（基本规定）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#2.1.3
+  standard_code: GB 55031-2022
+  chapter: 2 基本规定
+  section: 2.1功能要求
+  clause_no: 2.1.3
+  text: 居住建筑应保障居住者生活安全及私密性，并应满足采光、通风和隔声等方面的要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑居住建筑（基本规定）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#2.1.4
+  standard_code: GB 55031-2022
+  chapter: 2 基本规定
+  section: 2.1功能要求
+  clause_no: 2.1.4
+  text: 教育、办公科研、商业服务、公众活动、交通、医疗及社会民生服务等公共建筑除应满足各类活动所需空间及使用需求外，还应满足交通、人员集散的要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 教育、办公科研、商业服务、公众活动、交通、医疗及社会民生服务等公共建筑
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#2.1.5
+  standard_code: GB 55031-2022
+  chapter: 2 基本规定
+  section: 2.1功能要求
+  clause_no: 2.1.5
+  text: 当民用建筑存在不同功能场所组合的情况时，除应满足上述条款的要求外，尚应符合下列规定：1各功能场所不应降低其他功能场所的基本安全、卫生标准；当产生污染、辐射的功能场所与其他功能场所组合时，应采取必要的安全防护措施；3当不同安全等级的功能场所组合时，应采取确保各功能场所使用安全的相应措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑（存在不同功能场所组合时）
+    conditions:
+    - 当民用建筑存在不同功能场所组合的情况时
+    - 第2款：当产生污染、辐射的功能场所与其他功能场所组合时
+    - 第3款：当不同安全等级的功能场所组合时
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#2.1.6
+  standard_code: GB 55031-2022
+  chapter: 2 基本规定
+  section: 2.1功能要求
+  clause_no: 2.1.6
+  text: 民用建筑应配置满足基本使用功能需要的设备设施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑（基本规定）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#2.1.7
+  standard_code: GB 55031-2022
+  chapter: 2 基本规定
+  section: 2.1功能要求
+  clause_no: 2.1.7
+  text: 民用建筑应设置相应的安全及导向标识系统。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑（基本规定）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#2.2.1
+  standard_code: GB 55031-2022
+  chapter: 2 基本规定
+  section: 2.2性能与措施
+  clause_no: 2.2.1
+  text: 民用建筑应综合采取防火、抗震、防洪、防空、抗风雪及防雷击等防灾安全措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑（基本规定）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#2.2.2
+  standard_code: GB 55031-2022
+  chapter: 2 基本规定
+  section: 2.2性能与措施
+  clause_no: 2.2.2
+  text: 民用建筑的结构应满足相应的设计工作年限要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑的结构（基本规定）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#2.2.3
+  standard_code: GB 55031-2022
+  chapter: 2 基本规定
+  section: 2.2性能与措施
+  clause_no: 2.2.3
+  text: 民用建筑应满足无障碍要求，且具有无障碍性能的设施设置应系统连贯。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑（基本规定）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#2.2.4
+  standard_code: GB 55031-2022
+  chapter: 2 基本规定
+  section: 2.2性能与措施
+  clause_no: 2.2.4
+  text: 室内外装修不应影响建筑物结构的安全性，且应选择安全环保型装修材料。装修材料、装饰面层或构配件与主体结构的连接应安全牢固。建筑物外墙装饰面层、构件、门窗等材料及构造应安全可靠，在设计工作年限内应满足功能和性能要求，使用期间应定期维护，防止坠落。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑室内外装修（基本规定）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#2.2.5
+  standard_code: GB 55031-2022
+  chapter: 2 基本规定
+  section: 2.2性能与措施
+  clause_no: 2.2.5
+  text: 装配式建筑应采用集成化、模块化、标准化及通用化的预制部品、部件。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑装配式建筑（基本规定）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#2.2.6
+  standard_code: GB 55031-2022
+  chapter: 2 基本规定
+  section: 2.2性能与措施
+  clause_no: 2.2.6
+  text: 民用建筑的室外公共场地、建筑空间、建筑部件及公共设备设施应定期进行日常保养、维修和监管。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑的室外公共场地、建筑空间、建筑部件及公共设备设施（基本规定）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#3.1.1
+  standard_code: GB 55031-2022
+  chapter: 3 建筑面积与高度
+  section: 3.1建筑面积
+  clause_no: 3.1.1
+  text: 建筑面积应按建筑每个自然层楼（地）》面处外围护结构外表面所围空间的水平投影面积计算。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑建筑面积（建筑面积与高度）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#3.1.2
+  standard_code: GB 55031-2022
+  chapter: 3 建筑面积与高度
+  section: 3.1建筑面积
+  clause_no: 3.1.2
+  text: 总建筑面积应按地上和地下建筑面积之和计算，地上和地下建筑面积应分别计算。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑总建筑面积（建筑面积与高度）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#3.1.3
+  standard_code: GB 55031-2022
+  chapter: 3 建筑面积与高度
+  section: 3.1建筑面积
+  clause_no: 3.1.3
+  text: 室外设计地坪以上的建筑空间，其建筑面积应计人地上建筑面积；室外设计地坪以下的建筑空间，其建筑面积应计人地下建筑面积。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑室外设计地坪以上的建筑空间，其建筑面积（建筑面积与高度）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#3.1.4
+  standard_code: GB 55031-2022
+  chapter: 3 建筑面积与高度
+  section: 3.1建筑面积
+  clause_no: 3.1.4
+  text: 永久性结构的建筑空间，有永久性顶盖、结构层高或斜面结构板顶高在2.20m及以上的，应按下列规定计算建筑面积：1有围护结构、封闭围合的建筑空间，应按其外围护结构外表面所围空间的水平投影面积计算；2无围护结构、以柱围合，或部分围护结构与柱共同围合，不封闭的建筑空间，应按其柱或外围护结构外表面所围空间的水平投影面积计算；3无围护结构、单排柱或独立柱、不封闭的建筑空间，应按其顶盖水平投影面积的1/2计算；4无围护结构、有围护设施、无柱、附属在建筑外围护结构、不封闭的建筑空间，应按其围护设施外表面所围空间水平投影面积的1/2计算。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑永久性结构的建筑空间（建筑面积与高度）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 构板顶高在
+    unit: m
+    condition: null
+    min_value: 2.2
+    max_value: 2.2
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#3.1.5
+  standard_code: GB 55031-2022
+  chapter: 3 建筑面积与高度
+  section: 3.1建筑面积
+  clause_no: 3.1.5
+  text: 阳台建筑面积应按围护设施外表面所围空间水平投影面积的1/2计算；当阳台封闭时，应按其外围护结构外表面所围空间的水平投影面积计算。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 阳台建筑面积
+    conditions:
+    - 当阳台封闭时
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#3.1.6
+  standard_code: GB 55031-2022
+  chapter: 3 建筑面积与高度
+  section: 3.1建筑面积
+  clause_no: 3.1.6
+  text: 下列空间与部位不应计算建筑面积：结构层高或斜面结构板顶高度小于2.20m的建筑空间；无顶盖的建筑空间；附属在建筑外围护结构上的构（配）件；建筑出挑部分的下部空间；建筑物中用作城市街巷通行的公共交通空间；独立于建筑物之外的各类构筑物。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 下列空间与部位（不应计算建筑面积）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 构板顶高度
+    unit: m
+    condition: null
+    min_value: null
+    max_value: 2.2
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#3.1.7
+  standard_code: GB 55031-2022
+  chapter: 3 建筑面积与高度
+  section: 3.1建筑面积
+  clause_no: 3.1.7
+  text: 功能空间使用面积应按功能空间墙体内表面所围合空间的水平投影面积计算。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑功能空间使用面积（建筑面积与高度）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#3.1.8
+  standard_code: GB 55031-2022
+  chapter: 3 建筑面积与高度
+  section: 3.1建筑面积
+  clause_no: 3.1.8
+  text: 功能单元使用面积应按功能单元内各功能空间使用面积之和计算。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑功能单元使用面积（建筑面积与高度）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#3.1.9
+  standard_code: GB 55031-2022
+  chapter: 3 建筑面积与高度
+  section: 3.1建筑面积
+  clause_no: 3.1.9
+  text: 功能单元建筑面积应按功能单元使用面积、功能单元墙体水平投影面积、功能单元内阳台面积之和计算。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑功能单元建筑面积（建筑面积与高度）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#3.2.1
+  standard_code: GB 55031-2022
+  chapter: 3 建筑面积与高度
+  section: 3.2建筑高度
+  clause_no: 3.2.1
+  text: 平屋顶建筑高度应按室外设计地坪至建筑物女儿墙顶点的高度计算，无女儿墙的建筑应按至其屋面檐口顶点的高度计算。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑平屋顶建筑高度（建筑面积与高度）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#3.2.2
+  standard_code: GB 55031-2022
+  chapter: 3 建筑面积与高度
+  section: 3.2建筑高度
+  clause_no: 3.2.2
+  text: 坡屋顶建筑应分别计算檐口及屋脊高度，檐口高度应按室外设计地坪至屋面檐口或坡屋面最低点的高度计算，屋脊高度应按室外设计地坪至屋脊的高度计算。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑坡屋顶建筑（建筑面积与高度）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#3.2.3
+  standard_code: GB 55031-2022
+  chapter: 3 建筑面积与高度
+  section: 3.2建筑高度
+  clause_no: 3.2.3
+  text: 当同一座建筑有多种屋面形式，或多个室外设计地坪时，建筑高度应分别计算后取其中最大值。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 同一座建筑（建筑高度计算）
+    conditions:
+    - 当同一座建筑有多种屋面形式，或多个室外设计地坪时
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#3.2.4
+  standard_code: GB 55031-2022
+  chapter: 3 建筑面积与高度
+  section: 3.2建筑高度
+  clause_no: 3.2.4
+  text: 机场、广播电视、电信、微波通信、气象台、卫星地面站、军事要塞等设施的技术作业控制区内及机场航线控制范围内的建筑，建筑高度应按建筑物室外设计地坪至建（构）筑物最高点计算。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑机场、广播电视、电信、微波通信、气象台、（建筑面积与高度）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#3.2.5
+  standard_code: GB 55031-2022
+  chapter: 3 建筑面积与高度
+  section: 3.2建筑高度
+  clause_no: 3.2.5
+  text: 历史建筑，历史文化名城名镇名村、历史文化街区、文物保护单位、风景名胜区、自然保护区的保护规划区内的建筑，建筑高度应按建筑物室外设计地坪至建（构）筑物最高点计算。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑历史建筑（建筑面积与高度）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#3.2.6
+  standard_code: GB 55031-2022
+  chapter: 3 建筑面积与高度
+  section: 3.2建筑高度
+  clause_no: 3.2.6
+  text: 本规范第3.2.4条、第3.2.5条规定以外的建筑，屋顶设备用房及其他局部突出屋面用房的总面积不超过屋面面积的1/4时，不应计人建筑高度。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 屋顶设备用房及其他局部突出屋面用房（建筑高度计算）
+    conditions:
+    - 屋顶设备用房及其他局部突出屋面用房的总面积不超过屋面面积的1/4时
+    exceptions:
+    - 本规范第3.2.4条、第3.2.5条规定以外的建筑
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#3.2.7
+  standard_code: GB 55031-2022
+  chapter: 3 建筑面积与高度
+  section: 3.2建筑高度
+  clause_no: 3.2.7
+  text: 建筑的室内净高应满足各类型功能场所空间净高的最低要求，地下室、局部夹层、公共走道、建筑避难区、架空层等有人员正常活动的场所最低处室内净高不应小于2.00m。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑建筑的室内净高（建筑面积与高度）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 处室内净高
+    unit: m
+    condition: null
+    min_value: 2.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#4.1.1
+  standard_code: GB 55031-2022
+  chapter: 4 建筑室外场地
+  section: 4.1环境与场地
+  clause_no: 4.1.1
+  text: 民用建筑应结合当地的自然环境特征集约利用资源，严格控制其对生态环境的不利影响。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑（结合自然环境集约利用资源）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#4.1.2
+  standard_code: GB 55031-2022
+  chapter: 4 建筑室外场地
+  section: 4.1环境与场地
+  clause_no: 4.1.2
+  text: 建筑周围环境的空气、土壤、水体等不应对人体健康构成危害。存在污染的建设场地应采取有效措施进行治理，并应达到建设用地土壤环境质量要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑场地建筑周围环境的空气、土壤、水体等（建筑室外场地）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#4.1.3
+  standard_code: GB 55031-2022
+  chapter: 4 建筑室外场地
+  section: 4.1环境与场地
+  clause_no: 4.1.3
+  text: 建筑在建设和使用过程中，应采取控制噪声、振动、眩光等污染的措施，产生的废物N废气、废水等污染物应妥善处理。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑场地建筑在建设和使用过程中，（建筑室外场地）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#4.1.4
+  standard_code: GB 55031-2022
+  chapter: 4 建筑室外场地
+  section: 4.1环境与场地
+  clause_no: 4.1.4
+  text: 建筑与危险化学品及易燃易爆品等危险源的距离，应满足有关安全规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑场地建筑与危险化学品及易燃易爆品等危险源的距离，（建筑室外场地）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#4.1.5
+  standard_code: GB 55031-2022
+  chapter: 4 建筑室外场地
+  section: 4.1环境与场地
+  clause_no: 4.1.5
+  text: 建筑场地应符合下列规定,1。有洪涝威胁的场地应采取可靠的防洪,防内涝措施,2、当场地标高低于市政道路标高时.应有防止客水进入场地的措施，3.场地设计标高应高于常年最高地下水位。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑场地
+    conditions:
+    - 第1款：有洪涝威胁的场地
+    - 第2款：当场地标高低于市政道路标高时
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#4.2.1
+  standard_code: GB 55031-2022
+  chapter: 4 建筑室外场地
+  section: 4.2建筑控制
+  clause_no: 4.2.1
+  text: 除建筑连接体、地铁相关设施以及管线、管沟、管廊等市政设施外，建筑物及其附属设施不应突出道路红线或用地红线。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑物及其附属设施（不含建筑连接体、地铁相关设施以及管线、管沟、管廊等市政设施；不应突出道路红线或用地红线）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#4.2.2
+  standard_code: GB 55031-2022
+  chapter: 4 建筑室外场地
+  section: 4.2建筑控制
+  clause_no: 4.2.2
+  text: 除地下室、地下车库出入口，以及窗井、台阶、坡道、雨篷、挑檐等设施外，建（构）筑物的主体不应突出建筑控制线。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建（构）筑物的主体（不含地下室、地下车库出入口，以及窗井、台阶、坡道、雨篷、挑檐等设施；不应突出建筑控制线）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#4.2.3
+  standard_code: GB 55031-2022
+  chapter: 4 建筑室外场地
+  section: 4.2建筑控制
+  clause_no: 4.2.3
+  text: 骑楼、建筑连接体、沿道路红线的悬挑建筑等，不应影响交通、环保及消防安全。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑场地骑楼、建筑连接体、沿道路红线的悬挑建筑等，（建筑室外场地）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#4.3.1
+  standard_code: GB 55031-2022
+  chapter: 4 建筑室外场地
+  section: 4.3基地道路
+  clause_no: 4.3.1
+  text: 建筑基地内的道路系统应顺畅,便捷 保障车辆 行人交通安全。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑场地建筑基地内的道路系统（建筑室外场地）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#4.3.2
+  standard_code: GB 55031-2022
+  chapter: 4 建筑室外场地
+  section: 4.3基地道路
+  clause_no: 4.3.2
+  text: 建筑基地道路应与外部道路相连接。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑场地建筑基地道路（建筑室外场地）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#4.3.3
+  standard_code: GB 55031-2022
+  chapter: 4 建筑室外场地
+  section: 4.3基地道路
+  clause_no: 4.3.3
+  text: 建筑基地内机动车车库出入口与连接道路间应设置缓冲段.。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑场地建筑基地内机动车车库出入口与连接道路间（建筑室外场地）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 口最近边缘
+    unit: m
+    condition: null
+    min_value: 20.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#4.3.4
+  standard_code: GB 55031-2022
+  chapter: 4 建筑室外场地
+  section: 4.3 基地道路
+  clause_no: 4.3.4
+  text: 建筑基地机动车出入口位置应符合下列规定。1,不应直接与城市快速路相连接,2，距周边中小学及幼儿园的出入口最近边缘不应小于20，0m。3 应有良好的视线。行车视距范围内不应有遮挡视线的障碍物。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑场地建筑基地机动车出入口位置（建筑室外场地）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制（GB 55031-2022 全部条文强制）
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: GB 55031-2022#4.3.5
+  standard_code: GB 55031-2022
+  chapter: 4 建筑室外场地
+  section: 4.3基地道路
+  clause_no: 4.3.5
+  text: 建筑基地内道路的设置应符合下列规定：基地内道路与城市道路连接处应设限速设施，道路应能通达建筑物的主要出入口；2当机动车道路改变方向时，路边绿化及建筑物应满足行车有效视距要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑基地内道路（设置）
+    conditions:
+    - 第2款：当机动车道路改变方向时
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#4.3.6
+  standard_code: GB 55031-2022
+  chapter: 4 建筑室外场地
+  section: 4.3基地道路
+  clause_no: 4.3.6
+  text: 建筑基地内机动车道路应符合下列规定：单车道宽度不应小于3.0m，兼作消防车道时不应小于4.0m;双车道宽度不应小于6.0m；尽端式道路长度大于120m时，应设置回车场地。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑基地内机动车道路（宽度、回车场地）
+    conditions:
+    - 兼作消防车道时
+    - 尽端式道路长度大于120m时
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 单车道宽度
+    unit: m
+    condition: null
+    min_value: 3.0
+    max_value: null
+  - name: 消防车道时
+    unit: m
+    condition: null
+    min_value: 4.0
+    max_value: null
+  - name: 双车道宽度
+    unit: m
+    condition: null
+    min_value: 6.0
+    max_value: null
+  - name: 式道路长度
+    unit: m
+    condition: null
+    min_value: 120.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#4.4.1
+  standard_code: GB 55031-2022
+  chapter: 4 建筑室外场地
+  section: 4.4场地铺装与水体
+  clause_no: 4.4.1
+  text: 场地内的人行道、广场等硬质铺装应保障人员通行的安全，且地面铺装面层应防滑。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑场地场地内的人行道、广场等硬质铺装（建筑室外场地）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#4.4.2
+  standard_code: GB 55031-2022
+  chapter: 4 建筑室外场地
+  section: 4.4场地铺装与水体
+  clause_no: 4.4.2
+  text: 允许车辆通行的广场，应满足车辆行驶、停放和载重的要求，且地面铺装面层应平整、防滑、耐磨。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑场地允许车辆通行的广场，（建筑室外场地）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#4.4.3
+  standard_code: GB 55031-2022
+  chapter: 4 建筑室外场地
+  section: 4.4场地铺装与水体
+  clause_no: 4.4.3
+  text: 人工水体岸边近2.0m范围内的水深大于0.50m时，应采取安全防护措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 人工水体岸边（安全防护措施）
+    conditions:
+    - 人工水体岸边近2.0m范围内的水深大于0.50m时
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 水体岸边近
+    unit: m
+    condition: null
+    min_value: 2.0
+    max_value: 2.0
+  - name: 围内的水深
+    unit: m
+    condition: null
+    min_value: 0.5
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#4.5.1
+  standard_code: GB 55031-2022
+  chapter: 4 建筑室外场地
+  section: 4.5构筑物与设施
+  clause_no: 4.5.1
+  text: 地下车库、地下室有污染性的排风口不应朝向邻近建筑的可开启外窗或取风口；当排风口与人员活动场所的距离小于10m时，朝向人员活动场所的排风口底部距人员活动场所地坪的高度不应小于2.5m。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 地下车库、地下室的排风口（朝向、高度）
+    conditions:
+    - 当排风口与人员活动场所的距离小于10m时
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 场所的距离
+    unit: m
+    condition: null
+    min_value: null
+    max_value: 10.0
+  - name: 地坪的高度
+    unit: m
+    condition: null
+    min_value: 2.5
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#4.5.2
+  standard_code: GB 55031-2022
+  chapter: 4 建筑室外场地
+  section: 4.5构筑物与设施
+  clause_no: 4.5.2
+  text: 当建筑物上设置太阳能热水或光伏发电系统、暖通空调设备、广告牌、外遮阳设施、装饰线脚等附属构件或设施时，应采取防止构件或设施坠落的安全防护措施，并应满足建筑结构及其他相应的安全性要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑物上设置的附属构件或设施（防止坠落）
+    conditions:
+    - 当建筑物上设置太阳能热水或光伏发电系统、暖通空调设备、广告牌、外遮阳设施、装饰线脚等附属构件或设施时
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#4.5.3
+  standard_code: GB 55031-2022
+  chapter: 4 建筑室外场地
+  section: 4.5构筑物与设施
+  clause_no: 4.5.3
+  text: 基地内的生活垃圾收集站房应符合下列规定：应配置上下水设施，地面、墙面应采用易清洁材料；应满足垃圾分类储存的要求；应设置满足垃圾车装载和运输要求的场地。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑场地基地内的生活垃圾收集站房（建筑室外场地）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#5.1.1
+  standard_code: GB 55031-2022
+  chapter: 5 建筑通用空间
+  section: 5.1出入口
+  clause_no: 5.1.1
+  text: 建筑出入口应根据场地条件、建筑使用功能、交通组织以及安全疏散等要求进行设置，并应安全、顺畅、便捷。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑建筑出入口（建筑通用空间）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#5.1.2
+  standard_code: GB 55031-2022
+  chapter: 5 建筑通用空间
+  section: 5.1出入口
+  clause_no: 5.1.2
+  text: 入口、门厅等人员通达部位采用落地玻璃时，应使用安全玻璃，并应设置防撞提示标识。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 入口、门厅等人员通达部位（落地玻璃）
+    conditions:
+    - 入口、门厅等人员通达部位采用落地玻璃时
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#5.1.3
+  standard_code: GB 55031-2022
+  chapter: 5 建筑通用空间
+  section: 5.1出入口
+  clause_no: 5.1.3
+  text: 建筑出入口处应采取防止室外雨水侵入室内的措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑建筑出入口处（建筑通用空间）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#5.2.1
+  standard_code: GB 55031-2022
+  chapter: 5 建筑通用空间
+  section: 5.2台阶、人行坡道
+  clause_no: 5.2.1
+  text: 当台阶、人行坡道总高度达到或超过0.70m时应在临空面采取防护措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 台阶、人行坡道（临空面防护措施）
+    conditions:
+    - 当台阶、人行坡道总高度达到或超过0.70m时
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 高度达到
+    unit: m
+    condition: null
+    min_value: 0.7
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#5.2.2
+  standard_code: GB 55031-2022
+  chapter: 5 建筑通用空间
+  section: 5.2台阶、人行坡道
+  clause_no: 5.2.2
+  text: 建筑物主人口的室外台阶踏步宽度不应小于0.30m，踏步高度不应大手0.15m。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑建筑物主人口的室外台阶踏步宽度（建筑通用空间）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 阶踏步宽度
+    unit: m
+    condition: null
+    min_value: 0.3
+    max_value: null
+  - name: 未识别对象
+    unit: m
+    condition: null
+    min_value: null
+    max_value: 0.15
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#5.2.3
+  standard_code: GB 55031-2022
+  chapter: 5 建筑通用空间
+  section: 5.2台阶、人行坡道
+  clause_no: 5.2.3
+  text: 台阶踏步数不应少于2级，当踏步数不足2级时，应按人行坡道设置。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 台阶踏步（设置）
+    conditions:
+    - 当踏步数不足2级时
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#5.2.4
+  standard_code: GB 55031-2022
+  chapter: 5 建筑通用空间
+  section: 5.2台阶、人行坡道
+  clause_no: 5.2.4
+  text: 台阶、人行坡道的铺装面层应采取防滑措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑台阶、人行坡道的铺装面层（建筑通用空间）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#5.3.1
+  standard_code: GB 55031-2022
+  chapter: 5 建筑通用空间
+  section: 5.3楼梯、走廊
+  clause_no: 5.3.1
+  text: 楼梯、走廊应安全、顺畅，并应满足人员通行、安全疏散等要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑楼梯、走廊（建筑通用空间）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#5.3.2
+  standard_code: GB 55031-2022
+  chapter: 5 建筑通用空间
+  section: 5.3楼梯、走廊
+  clause_no: 5.3.2
+  text: 供日常交通用的公共楼梯的梯段最小净宽应根据建筑物使用特征，按人流股数和每股人流宽度0.55m确定，并不应少于2股人流的宽度。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑供日常交通用的公共楼梯的梯段最小净宽（建筑通用空间）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 股人流宽度
+    unit: m
+    condition: null
+    min_value: 0.55
+    max_value: 0.55
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#5.3.3
+  standard_code: GB 55031-2022
+  chapter: 5 建筑通用空间
+  section: 5.3楼梯、走廊
+  clause_no: 5.3.3
+  text: 当公共楼梯单侧有扶手时，梯段净宽应按墙体装饰面至扶手中心线的水平距离计算。当公共楼梯两侧有扶手时，梯段净宽应按两侧扶手中心线之间的水平距离计算。当有凸出物时，梯段净宽应从凸出物表面算起。靠墙扶手边缘距墙面完成面净距不应小于40mm。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 公共楼梯梯段净宽（计算）
+    conditions:
+    - 当公共楼梯单侧有扶手时
+    - 当公共楼梯两侧有扶手时
+    - 当有凸出物时
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 完成面净距
+    unit: mm
+    condition: null
+    min_value: 40.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#5.3.4
+  standard_code: GB 55031-2022
+  chapter: 5 建筑通用空间
+  section: 5.3楼梯、走廊
+  clause_no: 5.3.4
+  text: 公共楼梯应至少于单侧设置扶手，梯段净宽达3股人流的宽度时应两侧设扶手。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑公共楼梯（建筑通用空间）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#5.3.5
+  standard_code: GB 55031-2022
+  chapter: 5 建筑通用空间
+  section: 5.3楼梯、走廊
+  clause_no: 5.3.5
+  text: 当梯段改变方向时，楼梯休息平台的最小宽度不应小于梯段净宽，并不应小于1.20m；当中间有实体墙时，扶手转向端处的平台净宽不应小于1.30m。直跑楼梯的中间平台宽度不应小于0.90m。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 楼梯休息平台（宽度）
+    conditions:
+    - 当梯段改变方向时
+    - 当中间有实体墙时
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 宽度
+    unit: m
+    condition: null
+    min_value: 1.2
+    max_value: null
+  - name: 平台净宽
+    unit: m
+    condition: null
+    min_value: 1.3
+    max_value: null
+  - name: 间平台宽度
+    unit: m
+    condition: null
+    min_value: 0.9
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#5.3.6
+  standard_code: GB 55031-2022
+  chapter: 5 建筑通用空间
+  section: 5.3楼梯、走廊
+  clause_no: 5.3.6
+  text: 公共楼梯正对（向上、向下）梯段设置的楼梯间门距踏步边缘的距离不应小于0.60m。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑公共楼梯正对（向上、向下）梯段设置的楼梯间门距踏步边缘的距离（建筑通用空间）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 边缘的距离
+    unit: m
+    condition: null
+    min_value: 0.6
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#5.3.7
+  standard_code: GB 55031-2022
+  chapter: 5 建筑通用空间
+  section: 5.3楼梯、走廊
+  clause_no: 5.3.7
+  text: 公共楼梯休息平台上部及下部过道处的净高不应小于2.00m，梯段净高不应小于2.20m。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑公共楼梯休息平台上部及下部过道处的净高（建筑通用空间）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 道处的净高
+    unit: m
+    condition: null
+    min_value: 2.0
+    max_value: null
+  - name: m梯段净高
+    unit: m
+    condition: null
+    min_value: 2.2
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#5.3.8
+  standard_code: GB 55031-2022
+  chapter: 5 建筑通用空间
+  section: 5.3楼梯、走廊
+  clause_no: 5.3.8
+  text: 公共楼梯每个梯段的踏步级数不应少于2级，且不应超过18级。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑公共楼梯每个梯段的踏步级数（建筑通用空间）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#5.3.9
+  standard_code: GB 55031-2022
+  chapter: 5 建筑通用空间
+  section: 5.3楼梯、走廊
+  clause_no: 5.3.9
+  text: 公共楼梯踏步的最小宽度和最大高度应符合表5.3.9的规定,螺旋楼梯和扇形踏步离内侧扶手中心0.25m处的踏步宽度不应小于0,22m。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑公共楼梯踏步的最小宽度和最大高度（建筑通用空间）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables:
+  - id: 表5.3.9
+    type: parameter_table
+    description: 楼梯踏步最小宽度和最大高度（m）
+    headers:
+    - 楼梯类别
+    - 最小宽度
+    - 最大高度
+    rows:
+    - - 以楼梯作为主要垂直交通的公共建筑、非住宅类居住建筑的楼梯
+      - '0.260'
+      - '0.165'
+    - - 住宅建筑公共楼梯
+      - '0.260'
+      - '0.175'
+    - - 以电梯作为主要垂直交通的多层公共建筑和高层建筑裙房的楼梯
+      - '0.260'
+      - '0.175'
+    - - 以电梯作为主要垂直交通的高层和超高层建筑楼梯
+      - '0.250'
+      - '0.180'
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#5.3.10
+  standard_code: GB 55031-2022
+  chapter: 5 建筑通用空间
+  section: 5.3楼梯、走廊
+  clause_no: 5.3.10
+  text: 每个梯段的踏步高度、宽度应一致，相邻梯段踏步高度差不应大于0.01m，且踏步面应采取防滑措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑每个梯段的踏步高度、宽度（建筑通用空间）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 高度差
+    unit: m
+    condition: null
+    min_value: 0.01
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#5.3.11
+  standard_code: GB 55031-2022
+  chapter: 5 建筑通用空间
+  section: 5.3楼梯、走廊
+  clause_no: 5.3.11
+  text: 当少年儿童专用活动场所的公共楼梯井净宽大于0.20m时，应采取防止少年儿童坠落的措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 少年儿童专用活动场所的公共场所楼梯井（防坠落）
+    conditions:
+    - 当少年儿童专用活动场所的公共楼梯井净宽大于0.20m时
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 楼梯井净宽
+    unit: m
+    condition: null
+    min_value: 0.2
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#5.3.12
+  standard_code: GB 55031-2022
+  chapter: 5 建筑通用空间
+  section: 5.3楼梯、走廊
+  clause_no: 5.3.12
+  text: 除住宅外，民用建筑的公共走廊净宽应满足各类型功能场所最小净宽要求，且不应小于1.30m。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑（非住宅）的公共走廊（净宽）；净宽应满足各类型功能场所最小净宽要求，且不应小于 1.30 m
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 净宽要求且
+    unit: m
+    condition: null
+    min_value: 1.3
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#5.4.1
+  standard_code: GB 55031-2022
+  chapter: 5 建筑通用空间
+  section: 5.4电梯、自动扶梯、自动人行道
+  clause_no: 5.4.1
+  text: 设置电梯,自动扶梯。自动人行道应满足安全使用要求 民用建筑应按相关规范要求设置消防及无障碍电梯。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑设置电梯,自动扶梯。自动人行道（建筑通用空间）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#5.4.2
+  standard_code: GB 55031-2022
+  chapter: 5 建筑通用空间
+  section: 5.4电梯、自动扶梯、自动人行道
+  clause_no: 5.4.2
+  text: 电梯设置应符合下列规定：1高层公共建筑和高层非住宅类居住建筑的电梯台数不应少于2 台；建筑内设有电梯时，至少应设置1台无障碍电梯；电梯井道和机房与有安静要求的用房贴邻布置时，应采取隔振、隔声措施；4电梯机房应采取隔热、通风、防尘等措施，不应直接将机房顶板作为水箱底板，不应在机房内直接穿越水管或蒸汽管。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 电梯（设置）
+    conditions:
+    - 第1款：高层公共建筑和高层非住宅类居住建筑
+    - 第2款：建筑内设有电梯时
+    - 第3款：电梯井道和机房与有安静要求的用房贴邻布置时
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#5.4.3
+  standard_code: GB 55031-2022
+  chapter: 5 建筑通用空间
+  section: 5.4电梯、自动扶梯、自动人行道
+  clause_no: 5.4.3
+  text: 自动扶梯、自动人行道设置应符合下列规定：1 出入口畅通区的宽度从扶手带端部算起不应小于2.50m；2 位于中庭中的自动扶梯或自动人行道临空部位应采取防止人员坠落的措施；两梯（道）相邻平行或交叉设置，当扶手带中心线与平行墙面或楼板（梁）开口边缘完成面之间的水平投影距离、两梯（道）之间扶手带中心线的水平距离小于0.50m时，应在产生的锐角口前部1.00m处范围内，设置具有防夹、防剪的保护设施或采取其他防止建筑障碍物伤害人员的措施；4 自动扶梯的梯级、自动人行道的踏板或传送带上空，垂直净高不应小于2.30m。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 自动扶梯、自动人行道（设置）
+    conditions:
+    - 第3款：当扶手带中心线与平行墙面或楼板（梁）开口边缘完成面之间的水平投影距离、两梯（道）之间扶手带中心线的水平距离小于0.50m时
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 带端部算起
+    unit: m
+    condition: null
+    min_value: 2.5
+    max_value: null
+  - name: 水平距离
+    unit: m
+    condition: null
+    min_value: null
+    max_value: 0.5
+  - name: 锐角口前部
+    unit: m
+    condition: null
+    min_value: 1.0
+    max_value: 1.0
+  - name: 空垂直净高
+    unit: m
+    condition: null
+    min_value: 2.3
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#5.5.1
+  standard_code: GB 55031-2022
+  chapter: 5 建筑通用空间
+  section: 5.5公共厨房
+  clause_no: 5.5.1
+  text: 公共厨房应符合食品卫生防疫安全和厨房工艺要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑公共厨房（建筑通用空间）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#5.5.2
+  standard_code: GB 55031-2022
+  chapter: 5 建筑通用空间
+  section: 5.5公共厨房
+  clause_no: 5.5.2
+  text: 厨房专间、备餐区等清洁操作区内不应设置排水明沟，地漏应能防止浊气逸出。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑厨房专间、备餐区等清洁操作区内（建筑通用空间）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#5.5.3
+  standard_code: GB 55031-2022
+  chapter: 5 建筑通用空间
+  section: 5.5公共厨房
+  clause_no: 5.5.3
+  text: 厨房区、食品库房等用房应采取防鼠、防虫和防其他动物的措施，以及防尘、防潮、防异味和通风的措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑厨房区、食品库房等用房（建筑通用空间）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#5.5.4
+  standard_code: GB 55031-2022
+  chapter: 5 建筑通用空间
+  section: 5.5公共厨房
+  clause_no: 5.5.4
+  text: 公共厨房应采取防止油烟、气味、噪声及废弃物等对紧邻建筑物或空间环境造成污染的措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑公共厨房（建筑通用空间）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#5.6.1
+  standard_code: GB 55031-2022
+  chapter: 5 建筑通用空间
+  section: 5.6公共厕所（卫生间）
+  clause_no: 5.6.1
+  text: 民用建筑应根据功能需求配置公共厕所 卫生间、并应设洗手设施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑（建筑通用空间）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#5.6.2
+  standard_code: GB 55031-2022
+  chapter: 5 建筑通用空间
+  section: 5.6公共厕所（卫生间）
+  clause_no: 5.6.2
+  text: 公共厕所、卫生间设置应符合下列规定：1 应根据建筑功能合理布局，位置、数量均应满足使用要求；2 不应布置在有严格卫生、安全要求房间的直接上层；3 应根据人体活动时所占的空间尺寸合理布置卫生洁具及其使用空间，管道应相对集中，便于更换维修。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑公共厕所、卫生间设置（建筑通用空间）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#5.6.3
+  standard_code: GB 55031-2022
+  chapter: 5 建筑通用空间
+  section: 5.6公共厕所（卫生间）
+  clause_no: 5.6.3
+  text: 公共厕所（卫生间）男女厕位的比例应根据使用特点、使用人数确定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑公共厕所（卫生间）男女厕位的比例（建筑通用空间）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#5.6.4
+  standard_code: GB 55031-2022
+  chapter: 5 建筑通用空间
+  section: 5.6公共厕所（卫生间）
+  clause_no: 5.6.4
+  text: 公共厕所,卫生间.隔间的平面净尺寸应根据使用特点合理确定，并不应小于表5.6.4的规定值。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑公共厕所,卫生间.隔间的平面净尺寸（建筑通用空间）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables:
+  - id: 表5.6.4
+    type: parameter_table
+    description: 公共厕所（卫生间）隔间的平面最小净尺寸
+    headers:
+    - 类别
+    - 平面最小净尺寸（净宽度m×净深度m）
+    rows:
+    - - 外开门的隔间
+      - 0.90×1.30（坐便）、0.90×1.20（蹲便）
+    - - 内开门的隔间
+      - 0.90×1.50（坐便）、0.90×1.40（蹲便）
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#5.6.5
+  standard_code: GB 55031-2022
+  chapter: 5 建筑通用空间
+  section: 5.6公共厕所（卫生间）
+  clause_no: 5.6.5
+  text: 公共厕所内通道净宽应符合下列规定：1厕所隔间外开门时，单排厕所隔间外通道净宽不应小于1.30m；双排厕所隔间之间通道净宽不应小于1.30m；隔问至对面小便器或小便槽外沿的通道净宽不应小于1.30m；2厕所隔间内开门时，通道净宽不应小于1.10m。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 公共厕所内通道净宽
+    conditions:
+    - 第1款：厕所隔间外开门时
+    - 第2款：厕所隔间内开门时
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 外通道净宽
+    unit: m
+    condition: null
+    min_value: 1.3
+    max_value: null
+  - name: 间通道净宽
+    unit: m
+    condition: null
+    min_value: 1.3
+    max_value: null
+  - name: 通道净宽
+    unit: m
+    condition: null
+    min_value: 1.3
+    max_value: null
+  - name: 时通道净宽
+    unit: m
+    condition: null
+    min_value: 1.1
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#5.7.1
+  standard_code: GB 55031-2022
+  chapter: 5 建筑通用空间
+  section: 5.7母婴室
+  clause_no: 5.7.1
+  text: 经常有母婴逗留的公共建筑内应设置母婴室。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑经常有母婴逗留的公共建筑内（建筑通用空间）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#5.7.2
+  standard_code: GB 55031-2022
+  chapter: 5 建筑通用空间
+  section: 5.7母婴室
+  clause_no: 5.7.2
+  text: 公共建筑应根据公共场所面积、人流量、母婴逗留情况等因素，合理确定母婴室的位置、数量、面积及配置设施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑公共建筑（建筑通用空间）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#5.8.1
+  standard_code: GB 55031-2022
+  chapter: 5 建筑通用空间
+  section: 5.8设备用房
+  clause_no: 5.8.1
+  text: 建筑应按正常运行需要设置燃气、热力给水排水、通风、空调、电力、通信等设备用房，设备用房应按功能需要满足安全、防火、隔声、降噪、减振、防水等要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑建筑应按正常运行需要设置燃气、热力给水排（建筑通用空间）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#5.8.2
+  standard_code: GB 55031-2022
+  chapter: 5 建筑通用空间
+  section: 5.8设备用房
+  clause_no: 5.8.2
+  text: 设备用房、设备层的层高和垂直运输交通应满足设备荷载、安装、维修的要求，并应留有能满足最大设备安装、检修的进出口及检修通道。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑设备用房、设备层的层高和垂直运输交通（建筑通用空间）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#5.8.3
+  standard_code: GB 55031-2022
+  chapter: 5 建筑通用空间
+  section: 5.8设备用房
+  clause_no: 5.8.3
+  text: 设备机房应采取有效措施防止其对其他公共区域。邻近建筑或环境造成污染。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑设备机房（建筑通用空间）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#5.9.1
+  standard_code: GB 55031-2022
+  chapter: 5 建筑通用空间
+  section: 5.8设备用房
+  clause_no: 5.9.1
+  text: 地下室、半地下室的出入口坡道）、窗井、风井，下沉庭院（下沉式广场）、地下管道（沟）、地下坑井等应采取必要的截水、挡水及排水等防止涌水、倒灌的措施，并应满足内涝防治要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑地下室、半地下室的出入口坡道）、窗井、风井（建筑通用空间）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#5.9.2
+  standard_code: GB 55031-2022
+  chapter: 5 建筑通用空间
+  section: 5.8设备用房
+  clause_no: 5.9.2
+  text: 地下室、半地下室与土壤接触的底板、顶板以及侧墙外壁，应满足防水、防潮要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑地下室、半地下室与土壤接触的底板、顶板以及侧墙外壁，（建筑通用空间）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#5.9.3
+  standard_code: GB 55031-2022
+  chapter: 5 建筑通用空间
+  section: 5.8设备用房
+  clause_no: 5.9.3
+  text: 当地下室顶板作为室外场地使用时，设计应满足日常使用的最大荷载要求，后期使用荷载不能超过设计的最大荷载要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 地下室顶板（作为室外场地使用）
+    conditions:
+    - 当地下室顶板作为室外场地使用时
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#5.9.4
+  standard_code: GB 55031-2022
+  chapter: 5 建筑通用空间
+  section: 5.8设备用房
+  clause_no: 5.9.4
+  text: 窗井、风井、下沉庭院的顶部周边应设置安全防护设施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑窗井、风井、下沉庭院的顶部周边（建筑通用空间）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#6.1.1
+  standard_code: GB 55031-2022
+  chapter: 6 建筑部件与构造
+  section: 6.1屋面
+  clause_no: 6.1.1
+  text: 屋面应合理采取保温、隔热、防水等措施。屋面防水应按排水与防水相结合的原则，根据建筑物的重要程度及使用功能，结合工程特点、气候条件等按不同等级设置防水层。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑屋面应合理采取保温、隔热、防水等措施。屋面防水（建筑部件与构造）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#6.1.2
+  standard_code: GB 55031-2022
+  chapter: 6 建筑部件与构造
+  section: 6.1屋面
+  clause_no: 6.1.2
+  text: 屋面应符合下列规定：屋面应设置坡度，且坡度不应小于2%；屋面设计应进行排水计算，天沟、檐沟断面及雨水立管管径、数量应通过计算合理确定;3装配式屋面应进行抗风揭设计，各构造层均应采取相应的固定措施；4严寒和寒冷地区的屋面应采取防止冰雪融坠的安全措施；5坡度大于45°瓦屋面，以及强风多发或抗震设防烈度为7度及以上地区的瓦屋面，应采取防止瓦材滑落、风揭的措施；6种植屋面应满足种植荷载及耐根穿刺的构造要求；上人屋面应满足人员活动荷载，临空处应设置安全防护设施；8屋面应方便维修、检修，大型公共建筑的屋面应设置检修口或检修通道。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑屋面应符合下列规定：屋面（建筑部件与构造）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 坡度且坡度
+    unit: '%'
+    condition: null
+    min_value: 2.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#6.1.3
+  standard_code: GB 55031-2022
+  chapter: 6 建筑部件与构造
+  section: 6.1屋面
+  clause_no: 6.1.3
+  text: 建筑采光顶采用玻璃时，面向室内一侧应采用夹层玻璃；建筑雨篷采用玻璃时，应采用夹层玻璃。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑采光顶、建筑雨篷（采用玻璃时）
+    conditions:
+    - 建筑采光顶采用玻璃时
+    - 建筑雨篷采用玻璃时
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#6.2.1
+  standard_code: GB 55031-2022
+  chapter: 6 建筑部件与构造
+  section: 6.2内墙、外墙
+  clause_no: 6.2.1
+  text: 墙体应根据其在建筑物中的位置、作用和受力状态确定厚度、材料及构造做法，材料的选择应因地制宜。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑墙体应根据其在建筑物中的位置、作用和受力（建筑部件与构造）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#6.2.2
+  standard_code: GB 55031-2022
+  chapter: 6 建筑部件与构造
+  section: 6.2内墙、外墙
+  clause_no: 6.2.2
+  text: 外墙应根据气候条件和建筑使用要求，采取保温隔热、隔声、防火、防水、防潮和防结露等措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑外墙应根据气候条件和建筑使用要求（建筑部件与构造）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#6.2.3
+  standard_code: GB 55031-2022
+  chapter: 6 建筑部件与构造
+  section: 6.2内墙、外墙
+  clause_no: 6.2.3
+  text: 墙体防潮、防水应符合下列规定：1砌筑墙体应在室外地面以上、室内地面垫层处设置连续的水平防潮层，室内相邻地面有高差时，应在高差处贴邻土壤一侧加设防潮层；2有防潮要求的室内墙面迎水面应设防潮层，有防水要求的室内墙面迎水面应采取防水措施；3有配水点的墙面应采取防水措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 墙体（防潮、防水）
+    conditions:
+    - 第1款：室内相邻地面有高差时
+    - 第2款：有防潮要求的室内墙面迎水面
+    - 第2款：有防水要求的室内墙面迎水面
+    - 第3款：有配水点的墙面
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#6.2.4
+  standard_code: GB 55031-2022
+  chapter: 6 建筑部件与构造
+  section: 6.2内墙、外墙
+  clause_no: 6.2.4
+  text: 外墙的洞口、门窗等处应采取防止墙体产生变形裂缝的加强措施。外窗台应采取排水、防水构造措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑外墙的洞口、门窗等处（建筑部件与构造）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#6.2.5
+  standard_code: GB 55031-2022
+  chapter: 6 建筑部件与构造
+  section: 6.2内墙、外墙
+  clause_no: 6.2.5
+  text: 设置在墙上的内、外保温系统与墙体、梁、柱的连接应安全可靠。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑设置在墙上的内、外保温系统与墙体、梁、柱的连接（建筑部件与构造）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#6.2.6
+  standard_code: GB 55031-2022
+  chapter: 6 建筑部件与构造
+  section: 6.2内墙、外墙
+  clause_no: 6.2.6
+  text: 安装固定在墙体上的设备或管道系统应安全可靠，并应具有防止雨水、雪水渗漏到室内的可靠措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑安装固定在墙体上的设备或管道系统（建筑部件与构造）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#6.2.7
+  standard_code: GB 55031-2022
+  chapter: 6 建筑部件与构造
+  section: 6.2内墙、外墙
+  clause_no: 6.2.7
+  text: 安装在易于受到人体或物体碰撞部位的玻璃面板，应采取防护措施，并应设置提示标识。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑安装在易于受到人体或物体碰撞部位的玻璃面板，（建筑部件与构造）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#6.2.8
+  standard_code: GB 55031-2022
+  chapter: 6 建筑部件与构造
+  section: 6.2内墙、外墙
+  clause_no: 6.2.8
+  text: 建筑幕墙应综合考虑建筑类别、使用功能、高度、所在地域的地理气候、环境等因素，合理选择幕墙形式和面板材料，并应符合下列规定：X应具有承受自重、风、地震温度作用的承载能力和变形能力，且应便于制作安装、维护保养及局部更换面板等构件；2应满足建筑需求的水密、气密、保温隔热、隔声、采光、耐撞击、防火、防雷等性能要求；3幕墙与主体结构的连接应牢固可靠，与主体结构的连接锚固件不应直接设置在填充砌体中；4幕墙外开窗的开启扇应采取防脱落措施；5玻璃幕墙的玻璃面板应采用安全玻璃，斜幕墙的玻璃面板应采用夹层玻璃；6超高层建筑的幕墙工程应设置幕墙维护和更换所需的装置；7外倾斜、水平倒挂的石材或脆性材质面板应采取防坠落措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑幕墙（建筑部件与构造）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#6.3.1
+  standard_code: GB 55031-2022
+  chapter: 6 建筑部件与构造
+  section: 6.3楼面、地面
+  clause_no: 6.3.1
+  text: 楼面、地面应根据建筑使用功能，满足隔声、保温、防水、防火等要求，其铺装面层应平整、防滑、耐磨、易清洁。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑楼面、地面（建筑部件与构造）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#6.3.2
+  standard_code: GB 55031-2022
+  chapter: 6 建筑部件与构造
+  section: 6.3楼面、地面
+  clause_no: 6.3.2
+  text: 地面应根据需要采取防潮、防止地基土冻胀或膨胀、防止不均匀沉陷等措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑地面应根据需要采取防潮、防止地基土冻胀或（建筑部件与构造）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#6.3.3
+  standard_code: GB 55031-2022
+  chapter: 6 建筑部件与构造
+  section: 6.3楼面、地面
+  clause_no: 6.3.3
+  text: 建筑内的厕所（卫生间）、浴室、公共厨房、垃圾间等场所的楼面、地面，开式外廊、阳台的楼面应设防水层。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑内的厕所（卫生间）、浴室、公共厨房、（建筑部件与构造）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#6.3.4
+  standard_code: GB 55031-2022
+  chapter: 6 建筑部件与构造
+  section: 6.3楼面、地面
+  clause_no: 6.3.4
+  text: 有易燃易爆物质的场所、有对静电敏感的电气或电子元件.组件。设备的场所，以及可能因人体静电放电对产品质量或人身安全带来危害的场所，应采用导，防,静电面层。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑有易燃易爆物质的场所、有对静电敏感的电气或电子元件.组件（建筑部件与构造）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#6.3.5
+  standard_code: GB 55031-2022
+  chapter: 6 建筑部件与构造
+  section: 6.3楼面、地面
+  clause_no: 6.3.5
+  text: 机动车库的楼面地面应采用高强度且具有耐磨、防滑性能的材料。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑机动车库的楼面地面（建筑部件与构造）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#6.3.6
+  standard_code: GB 55031-2022
+  chapter: 6 建筑部件与构造
+  section: 6.3楼面、地面
+  clause_no: 6.3.6
+  text: 存放食品、食料或药物的房间，楼面入地面面层应采用无污染、无异味、符合卫生防疫条件的环保材料。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑存放食品、食料或药物的房间，楼面入地面面层（建筑部件与构造）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#6.3.7
+  standard_code: GB 55031-2022
+  chapter: 6 建筑部件与构造
+  section: 6.3楼面、地面
+  clause_no: 6.3.7
+  text: 地板玻璃应采用夹层玻璃，点支承地板玻璃应采用钢化夹层玻璃。钢化玻璃应进行均质处理。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑地板玻璃（建筑部件与构造）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#6.4.1
+  standard_code: GB 55031-2022
+  chapter: 6 建筑部件与构造
+  section: 6.4顶棚、吊顶
+  clause_no: 6.4.1
+  text: 建筑顶棚应满足防坠落、防火、抗震等安全要求，并应采取保障其安全使用的可靠技术措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑顶棚（建筑部件与构造）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#6.4.2
+  standard_code: GB 55031-2022
+  chapter: 6 建筑部件与构造
+  section: 6.4顶棚、吊顶
+  clause_no: 6.4.2
+  text: 吊顶与主体结构的吊挂应采取安全构造措施。重量大于3kg的物体，以及有振动的设备应直接吊挂在建筑承重结构上。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑吊顶与主体结构的吊挂（建筑部件与构造）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 造措施重量
+    unit: kg
+    condition: null
+    min_value: 3.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#6.4.3
+  standard_code: GB 55031-2022
+  chapter: 6 建筑部件与构造
+  section: 6.4顶棚、吊顶
+  clause_no: 6.4.3
+  text: 吊杆长度大于1.50m时，应设置反支撑。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 吊顶吊杆（反支撑）
+    conditions:
+    - 吊杆长度大于1.50m时
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 吊杆长度
+    unit: m
+    condition: null
+    min_value: 1.5
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#6.4.4
+  standard_code: GB 55031-2022
+  chapter: 6 建筑部件与构造
+  section: 6.4顶棚、吊顶
+  clause_no: 6.4.4
+  text: 吊杆、反支撑及钢结构转换层与主体结构的连接应安全牢固，且不应降低主体结构的安全性。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑吊杆、反支撑及钢结构转换层与主体结构的连接（建筑部件与构造）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#6.4.5
+  standard_code: GB 55031-2022
+  chapter: 6 建筑部件与构造
+  section: 6.4顶棚、吊顶
+  clause_no: 6.4.5
+  text: 管线较多的吊顶内应留有检修空间。当空间受限不能进人检修时，应采用便于拆卸的装配式吊顶或设置检修孔。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 管线较多的吊顶内（检修空间）
+    conditions:
+    - 当空间受限不能进入检修时
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#6.4.6
+  standard_code: GB 55031-2022
+  chapter: 6 建筑部件与构造
+  section: 6.4顶棚、吊顶
+  clause_no: 6.4.6
+  text: 面板为脆性材料的吊顶，应采取防坠落措施。玻璃吊顶应采用安全玻璃。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑面板为脆性材料的吊顶，（建筑部件与构造）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#6.4.7
+  standard_code: GB 55031-2022
+  chapter: 6 建筑部件与构造
+  section: 6.4顶棚、吊顶
+  clause_no: 6.4.7
+  text: 设置永久马道的，马道应单独吊挂在建筑承重结构上。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑设置永久马道的，马道（建筑部件与构造）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#6.4.8
+  standard_code: GB 55031-2022
+  chapter: 6 建筑部件与构造
+  section: 6.4顶棚、吊顶
+  clause_no: 6.4.8
+  text: 吊顶系统不应吊挂在吊顶内的设备管线或设施上。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑吊顶系统（建筑部件与构造）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#6.4.9
+  standard_code: GB 55031-2022
+  chapter: 6 建筑部件与构造
+  section: 6.4顶棚、吊顶
+  clause_no: 6.4.9
+  text: 吊顶内敷设水管应采取防止产生冷凝水的措施.。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑吊顶内敷设水管（建筑部件与构造）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#6.4.10
+  standard_code: GB 55031-2022
+  chapter: 6 建筑部件与构造
+  section: 6.4顶棚、吊顶
+  clause_no: 6.4.10
+  text: 结露、防滴水及排放冷凝水的措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑结露、防滴水及排放冷凝水的措施（建筑部件与构造）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#6.4.11
+  standard_code: GB 55031-2022
+  chapter: 6 建筑部件与构造
+  section: 6.4顶棚、吊顶
+  clause_no: 6.4.11
+  text: 室外吊顶应采取抗风揭措施；面板及支承结构表面应采取防腐措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑室外吊顶（建筑部件与构造）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#6.5.1
+  standard_code: GB 55031-2022
+  chapter: 6 建筑部件与构造
+  section: 6.5门窗
+  clause_no: 6.5.1
+  text: 门窗选用应根据建筑使用功能、节能要求、所在地区气候条件等因素综合确定，应满足抗风、水密、气密等性能要求，并应综合考虑安全、采光节能、通风、防火、隔声等要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑门窗选用（建筑部件与构造）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#6.5.2
+  standard_code: GB 55031-2022
+  chapter: 6 建筑部件与构造
+  section: 6.5门窗
+  clause_no: 6.5.2
+  text: 门窗与墙体应连接牢固，不同材料的门窗与墙体连接处应采取适宜的连接构造和密封措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑门窗与墙体（建筑部件与构造）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#6.5.3
+  standard_code: GB 55031-2022
+  chapter: 6 建筑部件与构造
+  section: 6.5门窗
+  clause_no: 6.5.3
+  text: 门的设置应符合下列规定：1门应开启方便、使用安全、坚固耐用；2手动升启的大门扇应有制动装置，推拉门应采取防脱轨的措施；非透明双向弹簧门应在可视高度部位安装透明玻璃。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑门的设置（建筑部件与构造）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#6.5.4
+  standard_code: GB 55031-2022
+  chapter: 6 建筑部件与构造
+  section: 6.5门窗
+  clause_no: 6.5.4
+  text: 窗的设置应符合下列规定：窗扇的开启形式应能保障使用安全，且应启闭方便，易于维修、清洗；2开向公共走道的窗扇开启不应影响人员通行，其底面距走道地面的高度不应小于2.00m；3外开窗扇应采取防脱落措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑窗的设置（建筑部件与构造）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 地面的高度
+    unit: m
+    condition: null
+    min_value: 2.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#6.5.5
+  standard_code: GB 55031-2022
+  chapter: 6 建筑部件与构造
+  section: 6.5门窗
+  clause_no: 6.5.5
+  text: 全玻璃的门和落地窗应选用安全玻璃，并应设防撞提示标识。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑全玻璃的门和落地窗（建筑部件与构造）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#6.5.6
+  standard_code: GB 55031-2022
+  chapter: 6 建筑部件与构造
+  section: 6.5门窗
+  clause_no: 6.5.6
+  text: 民用建筑（除住宅外）临空窗的窗台距楼地面的净高低于0.80m时应设置防护设施，防护高度由楼地面（或可踏面）起计算不应小于0.80m。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑（非住宅）临空窗（防护设施）
+    conditions:
+    - 临空窗的窗台距楼地面的净高低于0.80m时
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 地面的净高
+    unit: m
+    condition: null
+    min_value: null
+    max_value: 0.8
+  - name: 踏面起计算
+    unit: m
+    condition: null
+    min_value: 0.8
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#6.5.7
+  standard_code: GB 55031-2022
+  chapter: 6 建筑部件与构造
+  section: 6.5门窗
+  clause_no: 6.5.7
+  text: 天窗的设置应符合下列规定：1采光天窗应采用防破碎坠落的透光材料，当采用玻璃时，应使用夹层玻璃或夹层中空玻璃；2天窗应设置冷凝水导泄装置，采取防冷凝水产生的措施，多雪地区应考虑积雪对天窗的影响；3天窗的连接应牢固、安全，开启扇启闭应方便可靠。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 天窗（设置）
+    conditions:
+    - 第1款：当采用玻璃时
+    - 第2款：多雪地区
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#6.6.1
+  standard_code: GB 55031-2022
+  chapter: 6 建筑部件与构造
+  section: 6.6栏杆、栏板
+  clause_no: 6.6.1
+  text: 阳台、外廊、室内回廊、中庭^内天井、上人屋面及楼梯等处的临空部位应设置防护栏杆（栏板），并应符合下列规定：1栏杆（栏板）应以坚固、耐久的材料制作，应安装牢固，并应能承受相应的水平荷载2栏杆（栏板）垂直高度不应小于1.10m栏杆（栏板）高度应按所在楼地面或屋面至扶手顶面的垂直高度计算，如底面有宽度大于或等于0.22m，且高度不大于0.45m的可踏部位，应按可踏部位顶面至扶手顶面的垂直高度计算。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑阳台、外廊、室内回廊、中庭^内天井、上人（建筑部件与构造）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 板垂直高度
+    unit: m
+    condition: null
+    min_value: 1.1
+    max_value: null
+  - name: 底面有宽度
+    unit: m
+    condition: null
+    min_value: 0.22
+    max_value: null
+  - name: m且高度
+    unit: m
+    condition: null
+    min_value: 0.45
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#6.6.2
+  standard_code: GB 55031-2022
+  chapter: 6 建筑部件与构造
+  section: 6.6栏杆、栏板
+  clause_no: 6.6.2
+  text: 楼梯、阳台、平台、走道和中庭等临空部位的玻璃栏板应采用夹层玻璃。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑楼梯、阳台、平台、走道和中庭等临空部位的玻璃栏板（建筑部件与构造）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#6.6.3
+  standard_code: GB 55031-2022
+  chapter: 6 建筑部件与构造
+  section: 6.6栏杆、栏板
+  clause_no: 6.6.3
+  text: 少年儿童专用活动场所的栏杆应采取防止攀滑措施，当采用垂直杆件做栏杆时，其杆件净间距不应大于0.11m。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 少年儿童专用活动场所的栏杆
+    conditions:
+    - 当采用垂直杆件做栏杆时
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 净间距
+    unit: m
+    condition: null
+    min_value: 0.11
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#6.6.4
+  standard_code: GB 55031-2022
+  chapter: 6 建筑部件与构造
+  section: 6.6栏杆、栏板
+  clause_no: 6.6.4
+  text: 公共场所的临空且下部有人员活动部位的栏杆（栏板），在地面以上0.10m高度范围内不应留空。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑公共场所的临空且下部有人员活动部位的栏杆（栏板）（建筑部件与构造）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 在地面以上
+    unit: m
+    condition: null
+    min_value: 0.1
+    max_value: 0.1
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#6.7.1
+  standard_code: GB 55031-2022
+  chapter: 6 建筑部件与构造
+  section: 6.7管道井、烟道、通风道
+  clause_no: 6.7.1
+  text: 管道并的设置应符合下列规定：1安全、防火或卫生等方面互有影响的管线不应敷设在同一管道井内；2管道井的断面尺寸应满足管道安装、检修所需空间的要求；管道井与楼板的缝隙应采取封堵措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑管道并的设置（建筑部件与构造）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#6.7.2
+  standard_code: GB 55031-2022
+  chapter: 6 建筑部件与构造
+  section: 6.7管道井、烟道、通风道
+  clause_no: 6.7.2
+  text: 管道井、烟道和通风道应独立设置。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑管道井、烟道和通风道（建筑部件与构造）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#6.7.3
+  standard_code: GB 55031-2022
+  chapter: 6 建筑部件与构造
+  section: 6.7管道井、烟道、通风道
+  clause_no: 6.7.3
+  text: 伸出屋面的烟道或排风道，其伸出高度应根据屋面形式排出口周围遮挡物的高度和距离、屋面积雪深度等因素合理确定，应有利于烟气扩散和防止烟气倒灌。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑伸出屋面的烟道或排风道，其伸出高度（建筑部件与构造）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#6.8.1
+  standard_code: GB 55031-2022
+  chapter: 6 建筑部件与构造
+  section: 6.8变形缝
+  clause_no: 6.8.1
+  text: 变形缝应根据建筑使用要求合理设置，并应采取防水、防火、保温、隔声等构造措施，各种措施应具有防老化、防腐蚀和防脱落等性能。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑变形缝应根据建筑使用要求合理设置，并（建筑部件与构造）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#6.8.2
+  standard_code: GB 55031-2022
+  chapter: 6 建筑部件与构造
+  section: 6.8变形缝
+  clause_no: 6.8.2
+  text: 变形缝设置应能保障建筑物在产生位移或变形时不受阻，且不产生破坏。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑变形缝设置（建筑部件与构造）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#6.8.3
+  standard_code: GB 55031-2022
+  chapter: 6 建筑部件与构造
+  section: 6.8变形缝
+  clause_no: 6.8.3
+  text: 厕所,卫生间。盥洗室和浴室等防水设防区域不应跨越变形缝。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑厕所,卫生间。盥洗室和浴室等防水设防区域（建筑部件与构造）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 严禁
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#6.8.4
+  standard_code: GB 55031-2022
+  chapter: 6 建筑部件与构造
+  section: 6.8变形缝
+  clause_no: 6.8.4
+  text: 配电间及其他严禁有漏水的房间不应跨越变形缝。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑配电间及其他（建筑部件与构造）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 严禁
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+- id: GB 55031-2022#6.8.5
+  standard_code: GB 55031-2022
+  chapter: 6 建筑部件与构造
+  section: 6.8变形缝
+  clause_no: 6.8.5
+  text: 门不应跨越变形缝设置。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑门不应跨越变形缝设置（建筑部件与构造）
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcWall
+    - IfcWindow
+    - IfcStair
+    - IfcRamp
+    activity_types:
+    - 民用建筑设计
+  conflicts: []
+executable_rules:
+- rule_id: R_GB550312022_3_1_4_1
+  source_clause: GB 55031-2022#3.1.4
+  rule_type: constraint
+  when:
+  - activity_type == '民用建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcWall', 'IfcWindow', 'IfcStair', 'IfcRamp']
+  then:
+    parameter: 构板顶高在
+    unit: m
+    condition: null
+    min_value: 2.2
+    max_value: 2.2
+  source_text: 永久性结构的建筑空间，有永久性顶盖、结构层高或斜面结构板顶高在2.20m及以上的，应按下列规定计算建筑面积：1有围护结构、封闭围合的建筑空间，应按其外围护结构外表面所围空间的水平投影面积计算；2无围护结构、以柱围合，或部分围护结构与柱共同围合，不封闭的建筑空间，应按其柱或外围护结
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550312022_3_1_6_1
+  source_clause: GB 55031-2022#3.1.6
+  rule_type: constraint
+  when:
+  - activity_type == '民用建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcWall', 'IfcWindow', 'IfcStair', 'IfcRamp']
+  then:
+    parameter: 构板顶高度
+    unit: m
+    condition: null
+    max_value: 2.2
+  source_text: 下列空间与部位不应计算建筑面积：结构层高或斜面结构板顶高度小于2.20m的建筑空间；无顶盖的建筑空间；附属在建筑外围护结构上的构（配）件；建筑出挑部分的下部空间；建筑物中用作城市街巷通行的公共交通空间；独立于建筑物之外的各类构筑物。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550312022_3_2_7_1
+  source_clause: GB 55031-2022#3.2.7
+  rule_type: constraint
+  when:
+  - activity_type == '民用建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcWall', 'IfcWindow', 'IfcStair', 'IfcRamp']
+  then:
+    parameter: 处室内净高
+    unit: m
+    condition: null
+    min_value: 2.0
+  source_text: 建筑的室内净高应满足各类型功能场所空间净高的最低要求，地下室、局部夹层、公共走道、建筑避难区、架空层等有人员正常活动的场所最低处室内净高不应小于2.00m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550312022_4_3_3_1
+  source_clause: GB 55031-2022#4.3.3
+  rule_type: constraint
+  when:
+  - activity_type == '民用建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcWall', 'IfcWindow', 'IfcStair', 'IfcRamp']
+  then:
+    parameter: 口最近边缘
+    unit: m
+    condition: null
+    min_value: 20.0
+  source_text: 建筑基地内机动车车库出人口与连接道路间应设置缓冲段。4.3. 4建筑基地机动车出人口位置应符合下列规定？不应直接与城市快速路相连接；距周边中小学及幼儿园的出人口最近边缘不应小于 20.0m；应有良好的视线，行车视距范围内不应有遮挡视线的障碍物。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550312022_4_3_6_1
+  source_clause: GB 55031-2022#4.3.6
+  rule_type: constraint
+  when:
+  - activity_type == '民用建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcWall', 'IfcWindow', 'IfcStair', 'IfcRamp']
+  then:
+    parameter: 单车道宽度
+    unit: m
+    condition: null
+    min_value: 3.0
+  source_text: 建筑基地内机动车道路应符合下列规定：单车道宽度不应小于3.0m，兼作消防车道时不应小于4.0m;双车道宽度不应小于6.0m；尽端式道路长度大于120m时，应设置回车场地。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550312022_4_3_6_2
+  source_clause: GB 55031-2022#4.3.6
+  rule_type: constraint
+  when:
+  - activity_type == '民用建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcWall', 'IfcWindow', 'IfcStair', 'IfcRamp']
+  then:
+    parameter: 消防车道时
+    unit: m
+    condition: null
+    min_value: 4.0
+  source_text: 建筑基地内机动车道路应符合下列规定：单车道宽度不应小于3.0m，兼作消防车道时不应小于4.0m;双车道宽度不应小于6.0m；尽端式道路长度大于120m时，应设置回车场地。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550312022_4_3_6_3
+  source_clause: GB 55031-2022#4.3.6
+  rule_type: constraint
+  when:
+  - activity_type == '民用建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcWall', 'IfcWindow', 'IfcStair', 'IfcRamp']
+  then:
+    parameter: 双车道宽度
+    unit: m
+    condition: null
+    min_value: 6.0
+  source_text: 建筑基地内机动车道路应符合下列规定：单车道宽度不应小于3.0m，兼作消防车道时不应小于4.0m;双车道宽度不应小于6.0m；尽端式道路长度大于120m时，应设置回车场地。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550312022_4_3_6_4
+  source_clause: GB 55031-2022#4.3.6
+  rule_type: constraint
+  when:
+  - activity_type == '民用建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcWall', 'IfcWindow', 'IfcStair', 'IfcRamp']
+  then:
+    parameter: 式道路长度
+    unit: m
+    condition: null
+    min_value: 120.0
+  source_text: 建筑基地内机动车道路应符合下列规定：单车道宽度不应小于3.0m，兼作消防车道时不应小于4.0m;双车道宽度不应小于6.0m；尽端式道路长度大于120m时，应设置回车场地。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550312022_4_4_3_1
+  source_clause: GB 55031-2022#4.4.3
+  rule_type: constraint
+  when:
+  - activity_type == '民用建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcWall', 'IfcWindow', 'IfcStair', 'IfcRamp']
+  then:
+    parameter: 水体岸边近
+    unit: m
+    condition: null
+    min_value: 2.0
+    max_value: 2.0
+  source_text: 人工水体岸边近2.0m范围内的水深大于0.50m时，应采取安全防护措施。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550312022_4_4_3_2
+  source_clause: GB 55031-2022#4.4.3
+  rule_type: constraint
+  when:
+  - activity_type == '民用建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcWall', 'IfcWindow', 'IfcStair', 'IfcRamp']
+  then:
+    parameter: 围内的水深
+    unit: m
+    condition: null
+    min_value: 0.5
+  source_text: 人工水体岸边近2.0m范围内的水深大于0.50m时，应采取安全防护措施。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550312022_4_5_1_1
+  source_clause: GB 55031-2022#4.5.1
+  rule_type: constraint
+  when:
+  - activity_type == '民用建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcWall', 'IfcWindow', 'IfcStair', 'IfcRamp']
+  then:
+    parameter: 场所的距离
+    unit: m
+    condition: null
+    max_value: 10.0
+  source_text: 地下车库、地下室有污染性的排风口不应朝向邻近建筑的可开启外窗或取风口；当排风口与人员活动场所的距离小于10m时，朝向人员活动场所的排风口底部距人员活动场所地坪的高度不应小于2.5m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550312022_4_5_1_2
+  source_clause: GB 55031-2022#4.5.1
+  rule_type: constraint
+  when:
+  - activity_type == '民用建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcWall', 'IfcWindow', 'IfcStair', 'IfcRamp']
+  then:
+    parameter: 地坪的高度
+    unit: m
+    condition: null
+    min_value: 2.5
+  source_text: 地下车库、地下室有污染性的排风口不应朝向邻近建筑的可开启外窗或取风口；当排风口与人员活动场所的距离小于10m时，朝向人员活动场所的排风口底部距人员活动场所地坪的高度不应小于2.5m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550312022_5_2_1_1
+  source_clause: GB 55031-2022#5.2.1
+  rule_type: constraint
+  when:
+  - activity_type == '民用建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcWall', 'IfcWindow', 'IfcStair', 'IfcRamp']
+  then:
+    parameter: 高度达到
+    unit: m
+    condition: null
+    min_value: 0.7
+  source_text: 当台阶、人行坡道总高度达到或超过0.70m时应在临空面采取防护措施。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550312022_5_2_2_1
+  source_clause: GB 55031-2022#5.2.2
+  rule_type: constraint
+  when:
+  - activity_type == '民用建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcWall', 'IfcWindow', 'IfcStair', 'IfcRamp']
+  then:
+    parameter: 阶踏步宽度
+    unit: m
+    condition: null
+    min_value: 0.3
+  source_text: 建筑物主人口的室外台阶踏步宽度不应小于0.30m，踏步高度不应大手0.15m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550312022_5_3_2_1
+  source_clause: GB 55031-2022#5.3.2
+  rule_type: constraint
+  when:
+  - activity_type == '民用建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcWall', 'IfcWindow', 'IfcStair', 'IfcRamp']
+  then:
+    parameter: 股人流宽度
+    unit: m
+    condition: null
+    min_value: 0.55
+    max_value: 0.55
+  source_text: 供日常交通用的公共楼梯的梯段最小净宽应根据建筑物使用特征，按人流股数和每股人流宽度0.55m确定，并不应少于2股人流的宽度。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550312022_5_3_3_1
+  source_clause: GB 55031-2022#5.3.3
+  rule_type: constraint
+  when:
+  - activity_type == '民用建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcWall', 'IfcWindow', 'IfcStair', 'IfcRamp']
+  then:
+    parameter: 完成面净距
+    unit: mm
+    condition: null
+    min_value: 40.0
+  source_text: 当公共楼梯单侧有扶手时，梯段净宽应按墙体装饰面至扶手中心线的水平距离计算。当公共楼梯两侧有扶手时，梯段净宽应按两侧扶手中心线之间的水平距离计算。当有凸出物时，梯段净宽应从凸出物表面算起。靠墙扶手边缘距墙面完成面净距不应小于40mm。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550312022_5_3_5_1
+  source_clause: GB 55031-2022#5.3.5
+  rule_type: constraint
+  when:
+  - activity_type == '民用建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcWall', 'IfcWindow', 'IfcStair', 'IfcRamp']
+  then:
+    parameter: 宽度
+    unit: m
+    condition: null
+    min_value: 1.2
+  source_text: 当梯段改变方向时，楼梯休息平台的最小宽度不应小于梯段净宽，并不应小于1.20m；当中间有实体墙时，扶手转向端处的平台净宽不应小于1.30m。直跑楼梯的中间平台宽度不应小于0.90m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550312022_5_3_5_2
+  source_clause: GB 55031-2022#5.3.5
+  rule_type: constraint
+  when:
+  - activity_type == '民用建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcWall', 'IfcWindow', 'IfcStair', 'IfcRamp']
+  then:
+    parameter: 平台净宽
+    unit: m
+    condition: null
+    min_value: 1.3
+  source_text: 当梯段改变方向时，楼梯休息平台的最小宽度不应小于梯段净宽，并不应小于1.20m；当中间有实体墙时，扶手转向端处的平台净宽不应小于1.30m。直跑楼梯的中间平台宽度不应小于0.90m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550312022_5_3_5_3
+  source_clause: GB 55031-2022#5.3.5
+  rule_type: constraint
+  when:
+  - activity_type == '民用建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcWall', 'IfcWindow', 'IfcStair', 'IfcRamp']
+  then:
+    parameter: 间平台宽度
+    unit: m
+    condition: null
+    min_value: 0.9
+  source_text: 当梯段改变方向时，楼梯休息平台的最小宽度不应小于梯段净宽，并不应小于1.20m；当中间有实体墙时，扶手转向端处的平台净宽不应小于1.30m。直跑楼梯的中间平台宽度不应小于0.90m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550312022_5_3_6_1
+  source_clause: GB 55031-2022#5.3.6
+  rule_type: constraint
+  when:
+  - activity_type == '民用建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcWall', 'IfcWindow', 'IfcStair', 'IfcRamp']
+  then:
+    parameter: 边缘的距离
+    unit: m
+    condition: null
+    min_value: 0.6
+  source_text: 公共楼梯正对（向上、向下）梯段设置的楼梯间门距踏步边缘的距离不应小于0.60m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550312022_5_3_7_1
+  source_clause: GB 55031-2022#5.3.7
+  rule_type: constraint
+  when:
+  - activity_type == '民用建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcWall', 'IfcWindow', 'IfcStair', 'IfcRamp']
+  then:
+    parameter: 道处的净高
+    unit: m
+    condition: null
+    min_value: 2.0
+  source_text: 公共楼梯休息平台上部及下部过道处的净高不应小于2.00m，梯段净高不应小于2.20m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550312022_5_3_7_2
+  source_clause: GB 55031-2022#5.3.7
+  rule_type: constraint
+  when:
+  - activity_type == '民用建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcWall', 'IfcWindow', 'IfcStair', 'IfcRamp']
+  then:
+    parameter: m梯段净高
+    unit: m
+    condition: null
+    min_value: 2.2
+  source_text: 公共楼梯休息平台上部及下部过道处的净高不应小于2.00m，梯段净高不应小于2.20m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550312022_5_3_10_1
+  source_clause: GB 55031-2022#5.3.10
+  rule_type: constraint
+  when:
+  - activity_type == '民用建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcWall', 'IfcWindow', 'IfcStair', 'IfcRamp']
+  then:
+    parameter: 高度差
+    unit: m
+    condition: null
+    min_value: 0.01
+  source_text: 每个梯段的踏步高度、宽度应一致，相邻梯段踏步高度差不应大于0.01m，且踏步面应采取防滑措施。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550312022_5_3_11_1
+  source_clause: GB 55031-2022#5.3.11
+  rule_type: constraint
+  when:
+  - activity_type == '民用建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcWall', 'IfcWindow', 'IfcStair', 'IfcRamp']
+  then:
+    parameter: 楼梯井净宽
+    unit: m
+    condition: null
+    min_value: 0.2
+  source_text: 当少年儿童专用活动场所的公共楼梯井净宽大于0.20m时，应采取防止少年儿童坠落的措施。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550312022_5_3_12_1
+  source_clause: GB 55031-2022#5.3.12
+  rule_type: constraint
+  when:
+  - activity_type == '民用建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcWall', 'IfcWindow', 'IfcStair', 'IfcRamp']
+  then:
+    parameter: 净宽要求且
+    unit: m
+    condition: null
+    min_value: 1.3
+  source_text: 除住宅外，民用建筑的公共走廊净宽应满足各类型功能场所最小净宽要求，且不应小于1.30m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550312022_5_4_3_1
+  source_clause: GB 55031-2022#5.4.3
+  rule_type: constraint
+  when:
+  - activity_type == '民用建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcWall', 'IfcWindow', 'IfcStair', 'IfcRamp']
+  then:
+    parameter: 带端部算起
+    unit: m
+    condition: null
+    min_value: 2.5
+  source_text: 白动扶梯、白动人行道设置应符合下列规定：1出人口畅通区的宽度从扶手带端部算起不应小于2.50m；2位于中庭中的自动扶梯或自动人行道临空部位应采取防止人员坠落的措施；两梯（道）相邻平行或交叉设置，当扶手带中心线与平行墙面或楼板（梁）开口边缘完成面之间的水平投影距离、两梯（道）之间扶
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550312022_5_4_3_2
+  source_clause: GB 55031-2022#5.4.3
+  rule_type: constraint
+  when:
+  - activity_type == '民用建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcWall', 'IfcWindow', 'IfcStair', 'IfcRamp']
+  then:
+    parameter: 水平距离
+    unit: m
+    condition: null
+    max_value: 0.5
+  source_text: 白动扶梯、白动人行道设置应符合下列规定：1出人口畅通区的宽度从扶手带端部算起不应小于2.50m；2位于中庭中的自动扶梯或自动人行道临空部位应采取防止人员坠落的措施；两梯（道）相邻平行或交叉设置，当扶手带中心线与平行墙面或楼板（梁）开口边缘完成面之间的水平投影距离、两梯（道）之间扶
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550312022_5_4_3_3
+  source_clause: GB 55031-2022#5.4.3
+  rule_type: constraint
+  when:
+  - activity_type == '民用建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcWall', 'IfcWindow', 'IfcStair', 'IfcRamp']
+  then:
+    parameter: 锐角口前部
+    unit: m
+    condition: null
+    min_value: 1.0
+    max_value: 1.0
+  source_text: 白动扶梯、白动人行道设置应符合下列规定：1出人口畅通区的宽度从扶手带端部算起不应小于2.50m；2位于中庭中的自动扶梯或自动人行道临空部位应采取防止人员坠落的措施；两梯（道）相邻平行或交叉设置，当扶手带中心线与平行墙面或楼板（梁）开口边缘完成面之间的水平投影距离、两梯（道）之间扶
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550312022_5_4_3_4
+  source_clause: GB 55031-2022#5.4.3
+  rule_type: constraint
+  when:
+  - activity_type == '民用建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcWall', 'IfcWindow', 'IfcStair', 'IfcRamp']
+  then:
+    parameter: 空垂直净高
+    unit: m
+    condition: null
+    min_value: 2.3
+  source_text: 白动扶梯、白动人行道设置应符合下列规定：1出人口畅通区的宽度从扶手带端部算起不应小于2.50m；2位于中庭中的自动扶梯或自动人行道临空部位应采取防止人员坠落的措施；两梯（道）相邻平行或交叉设置，当扶手带中心线与平行墙面或楼板（梁）开口边缘完成面之间的水平投影距离、两梯（道）之间扶
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550312022_5_6_5_1
+  source_clause: GB 55031-2022#5.6.5
+  rule_type: constraint
+  when:
+  - activity_type == '民用建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcWall', 'IfcWindow', 'IfcStair', 'IfcRamp']
+  then:
+    parameter: 外通道净宽
+    unit: m
+    condition: null
+    min_value: 1.3
+  source_text: 公共厕所内通道净宽应符合下列规定：1厕所隔间外开门时，单排厕所隔间外通道净宽不应小于1.30m；双排厕所隔间之间通道净宽不应小于1.30m；隔问至对面小便器或小便槽外沿的通道净宽不应小于1.30m；2厕所隔间内开门时，通道净宽不应小于1.10m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550312022_5_6_5_2
+  source_clause: GB 55031-2022#5.6.5
+  rule_type: constraint
+  when:
+  - activity_type == '民用建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcWall', 'IfcWindow', 'IfcStair', 'IfcRamp']
+  then:
+    parameter: 间通道净宽
+    unit: m
+    condition: null
+    min_value: 1.3
+  source_text: 公共厕所内通道净宽应符合下列规定：1厕所隔间外开门时，单排厕所隔间外通道净宽不应小于1.30m；双排厕所隔间之间通道净宽不应小于1.30m；隔问至对面小便器或小便槽外沿的通道净宽不应小于1.30m；2厕所隔间内开门时，通道净宽不应小于1.10m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550312022_5_6_5_3
+  source_clause: GB 55031-2022#5.6.5
+  rule_type: constraint
+  when:
+  - activity_type == '民用建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcWall', 'IfcWindow', 'IfcStair', 'IfcRamp']
+  then:
+    parameter: 通道净宽
+    unit: m
+    condition: null
+    min_value: 1.3
+  source_text: 公共厕所内通道净宽应符合下列规定：1厕所隔间外开门时，单排厕所隔间外通道净宽不应小于1.30m；双排厕所隔间之间通道净宽不应小于1.30m；隔问至对面小便器或小便槽外沿的通道净宽不应小于1.30m；2厕所隔间内开门时，通道净宽不应小于1.10m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550312022_5_6_5_4
+  source_clause: GB 55031-2022#5.6.5
+  rule_type: constraint
+  when:
+  - activity_type == '民用建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcWall', 'IfcWindow', 'IfcStair', 'IfcRamp']
+  then:
+    parameter: 时通道净宽
+    unit: m
+    condition: null
+    min_value: 1.1
+  source_text: 公共厕所内通道净宽应符合下列规定：1厕所隔间外开门时，单排厕所隔间外通道净宽不应小于1.30m；双排厕所隔间之间通道净宽不应小于1.30m；隔问至对面小便器或小便槽外沿的通道净宽不应小于1.30m；2厕所隔间内开门时，通道净宽不应小于1.10m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550312022_6_1_2_1
+  source_clause: GB 55031-2022#6.1.2
+  rule_type: constraint
+  when:
+  - activity_type == '民用建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcWall', 'IfcWindow', 'IfcStair', 'IfcRamp']
+  then:
+    parameter: 坡度且坡度
+    unit: '%'
+    condition: null
+    min_value: 2.0
+  source_text: 屋面应符合下列规定：屋面应设置坡度，且坡度不应小于2%；屋面设计应进行排水计算，天沟、檐沟断面及雨水立管管径、数量应通过计算合理确定;3装配式屋面应进行抗风揭设计，各构造层均应采取相应的固定措施；4严寒和寒冷地区的屋面应采取防止冰雪融坠的安全措施；5坡度大于45°瓦屋面，以及强风
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550312022_6_4_2_1
+  source_clause: GB 55031-2022#6.4.2
+  rule_type: constraint
+  when:
+  - activity_type == '民用建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcWall', 'IfcWindow', 'IfcStair', 'IfcRamp']
+  then:
+    parameter: 造措施重量
+    unit: kg
+    condition: null
+    min_value: 3.0
+  source_text: 吊顶与主体结构的吊挂应采取安全构造措施。重量大于3kg的物体，以及有振动的设备应直接吊挂在建筑承重结构上。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550312022_6_4_3_1
+  source_clause: GB 55031-2022#6.4.3
+  rule_type: constraint
+  when:
+  - activity_type == '民用建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcWall', 'IfcWindow', 'IfcStair', 'IfcRamp']
+  then:
+    parameter: 吊杆长度
+    unit: m
+    condition: null
+    min_value: 1.5
+  source_text: 吊杆长度大于1.50m时，应设置反支撑。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550312022_6_5_4_1
+  source_clause: GB 55031-2022#6.5.4
+  rule_type: constraint
+  when:
+  - activity_type == '民用建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcWall', 'IfcWindow', 'IfcStair', 'IfcRamp']
+  then:
+    parameter: 地面的高度
+    unit: m
+    condition: null
+    min_value: 2.0
+  source_text: 窗的设置应符合下列规定：窗扇的开启形式应能保障使用安全，且应启闭方便，易于维修、清洗；2开向公共走道的窗扇开启不应影响人员通行，其底面距走道地面的高度不应小于2.00m；3外开窗扇应采取防脱落措施。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550312022_6_5_6_1
+  source_clause: GB 55031-2022#6.5.6
+  rule_type: constraint
+  when:
+  - activity_type == '民用建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcWall', 'IfcWindow', 'IfcStair', 'IfcRamp']
+  then:
+    parameter: 地面的净高
+    unit: m
+    condition: null
+    max_value: 0.8
+  source_text: 民用建筑（除住宅外）临空窗的窗台距楼地面的净高低于0.80m时应设置防护设施，防护高度由楼地面（或可踏面）起计算不应小于0.80m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550312022_6_5_6_2
+  source_clause: GB 55031-2022#6.5.6
+  rule_type: constraint
+  when:
+  - activity_type == '民用建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcWall', 'IfcWindow', 'IfcStair', 'IfcRamp']
+  then:
+    parameter: 踏面起计算
+    unit: m
+    condition: null
+    min_value: 0.8
+  source_text: 民用建筑（除住宅外）临空窗的窗台距楼地面的净高低于0.80m时应设置防护设施，防护高度由楼地面（或可踏面）起计算不应小于0.80m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550312022_6_6_1_1
+  source_clause: GB 55031-2022#6.6.1
+  rule_type: constraint
+  when:
+  - activity_type == '民用建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcWall', 'IfcWindow', 'IfcStair', 'IfcRamp']
+  then:
+    parameter: 板垂直高度
+    unit: m
+    condition: null
+    min_value: 1.1
+  source_text: 阳台、外廊、室内回廊、中庭^内天井、上人屋面及楼梯等处的临空部位应设置防护栏杆（栏板），并应符合下列规定：1栏杆（栏板）应以坚固、耐久的材料制作，应安装牢固，并应能承受相应的水平荷载2栏杆（栏板）垂直高度不应小于1.10m栏杆（栏板）高度应按所在楼地面或屋面至扶手顶面的垂直高度计
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550312022_6_6_1_2
+  source_clause: GB 55031-2022#6.6.1
+  rule_type: constraint
+  when:
+  - activity_type == '民用建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcWall', 'IfcWindow', 'IfcStair', 'IfcRamp']
+  then:
+    parameter: 底面有宽度
+    unit: m
+    condition: null
+    min_value: 0.22
+  source_text: 阳台、外廊、室内回廊、中庭^内天井、上人屋面及楼梯等处的临空部位应设置防护栏杆（栏板），并应符合下列规定：1栏杆（栏板）应以坚固、耐久的材料制作，应安装牢固，并应能承受相应的水平荷载2栏杆（栏板）垂直高度不应小于1.10m栏杆（栏板）高度应按所在楼地面或屋面至扶手顶面的垂直高度计
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550312022_6_6_1_3
+  source_clause: GB 55031-2022#6.6.1
+  rule_type: constraint
+  when:
+  - activity_type == '民用建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcWall', 'IfcWindow', 'IfcStair', 'IfcRamp']
+  then:
+    parameter: m且高度
+    unit: m
+    condition: null
+    min_value: 0.45
+  source_text: 阳台、外廊、室内回廊、中庭^内天井、上人屋面及楼梯等处的临空部位应设置防护栏杆（栏板），并应符合下列规定：1栏杆（栏板）应以坚固、耐久的材料制作，应安装牢固，并应能承受相应的水平荷载2栏杆（栏板）垂直高度不应小于1.10m栏杆（栏板）高度应按所在楼地面或屋面至扶手顶面的垂直高度计
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550312022_6_6_3_1
+  source_clause: GB 55031-2022#6.6.3
+  rule_type: constraint
+  when:
+  - activity_type == '民用建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcWall', 'IfcWindow', 'IfcStair', 'IfcRamp']
+  then:
+    parameter: 净间距
+    unit: m
+    condition: null
+    min_value: 0.11
+  source_text: 少年儿童专用活动场所的栏杆应采取防止攀滑措施，当采用垂直杆件做栏杆时，其杆件净间距不应大于0.11m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550312022_6_6_4_1
+  source_clause: GB 55031-2022#6.6.4
+  rule_type: constraint
+  when:
+  - activity_type == '民用建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcWall', 'IfcWindow', 'IfcStair', 'IfcRamp']
+  then:
+    parameter: 在地面以上
+    unit: m
+    condition: null
+    min_value: 0.1
+    max_value: 0.1
+  source_text: 公共场所的临空且下部有人员活动部位的栏杆（栏板），在地面以上0.10m高度范围内不应留空。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+extraction_notes:
+- 全文强制性工程建设规范，全部条文必须严格执行。

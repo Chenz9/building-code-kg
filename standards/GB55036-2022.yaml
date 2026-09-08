@@ -1,0 +1,4816 @@
+standard:
+  code: GB 55036-2022
+  name: 消防设施通用规范
+  name_note: null
+  version: '2022'
+  status: 现行
+  is_abolished: false
+  effective_date: '2023-03-01'
+  abolished_date: null
+  superseded_by: null
+  standard_category: 国家标准
+  domain:
+  - 通用规范
+  - 全文强制
+  - 消防设施
+  - 灭火系统
+  region_scope: 全国
+  region_codes: []
+  has_mandatory_clauses: true
+  mandatory_clause_count: 120
+  mandatory_note: null
+  total_clauses: 120
+  related_standards:
+  - code: GB 50084-2017
+    relationship: 废止其相关强条效力（不在库内）
+  - code: GB 50116-2013
+    relationship: 废止其相关强条效力（不在库内）
+  - code: GB 50140-2005
+    relationship: 废止其相关强条效力（不在库内）
+  - code: GB 50151-2021
+    relationship: 废止其相关强条效力（不在库内）
+  - code: GB 50166-2019
+    relationship: 废止其相关强条效力（不在库内）
+  - code: GB 50219-2014
+    relationship: 废止其相关强条效力（不在库内）
+  - code: GB 50261-2017
+    relationship: 废止其相关强条效力（不在库内）
+  - code: GB 50263-2007
+    relationship: 废止其相关强条效力（不在库内）
+  - code: GB 50338-2003
+    relationship: 废止其相关强条效力（不在库内）
+  - code: GB 50347-2004
+    relationship: 废止其相关强条效力（不在库内）
+  - code: GB 50370-2005
+    relationship: 废止其相关强条效力（不在库内）
+  - code: GB 50440-2007
+    relationship: 废止其相关强条效力（不在库内）
+  - code: GB 50444-2008
+    relationship: 废止其相关强条效力（不在库内）
+  - code: GB 50498-2009
+    relationship: 废止其相关强条效力（不在库内）
+  - code: GB 50898-2013
+    relationship: 废止其相关强条效力（不在库内）
+  - code: GB 50974-2014
+    relationship: 废止其相关强条效力（不在库内）
+  - code: GB 51251-2017
+    relationship: 废止其相关强条效力（不在库内）
+  - code: GB 51309-2018
+    relationship: 废止其相关强条效力（不在库内）
+  - code: GB 51427-2021
+    relationship: 废止其相关强条效力（不在库内）
+  - code: GB/T 50110-1987
+    relationship: 由GBJ 110-1987转推荐性
+  - code: GB/T 50163-1992
+    relationship: 由GB 50163-1992转推荐性
+  - code: GB/T 50193-1993
+    relationship: 由GB 50193-1993转推荐性
+  clauses:
+  - GB 55036-2022#1.0.1
+  - GB 55036-2022#1.0.2
+  - GB 55036-2022#1.0.3
+  - GB 55036-2022#2.0.1
+  - GB 55036-2022#2.0.2
+  - GB 55036-2022#2.0.3
+  - GB 55036-2022#2.0.4
+  - GB 55036-2022#2.0.5
+  - GB 55036-2022#2.0.6
+  - GB 55036-2022#2.0.7
+  - GB 55036-2022#2.0.8
+  - GB 55036-2022#2.0.9
+  - GB 55036-2022#2.0.10
+  - GB 55036-2022#3.0.1
+  - GB 55036-2022#3.0.2
+  - GB 55036-2022#3.0.3
+  - GB 55036-2022#3.0.4
+  - GB 55036-2022#3.0.5
+  - GB 55036-2022#3.0.6
+  - GB 55036-2022#3.0.7
+  - GB 55036-2022#3.0.8
+  - GB 55036-2022#3.0.9
+  - GB 55036-2022#3.0.10
+  - GB 55036-2022#3.0.11
+  - GB 55036-2022#3.0.12
+  - GB 55036-2022#3.0.13
+  - GB 55036-2022#4.0.1
+  - GB 55036-2022#4.0.2
+  - GB 55036-2022#4.0.3
+  - GB 55036-2022#4.0.4
+  - GB 55036-2022#4.0.5
+  - GB 55036-2022#4.0.6
+  - GB 55036-2022#4.0.7
+  - GB 55036-2022#5.0.1
+  - GB 55036-2022#5.0.2
+  - GB 55036-2022#5.0.3
+  - GB 55036-2022#5.0.4
+  - GB 55036-2022#5.0.5
+  - GB 55036-2022#5.0.6
+  - GB 55036-2022#5.0.7
+  - GB 55036-2022#5.0.8
+  - GB 55036-2022#5.0.9
+  - GB 55036-2022#6.0.1
+  - GB 55036-2022#6.0.2
+  - GB 55036-2022#6.0.3
+  - GB 55036-2022#6.0.4
+  - GB 55036-2022#6.0.5
+  - GB 55036-2022#6.0.6
+  - GB 55036-2022#6.0.7
+  - GB 55036-2022#6.0.8
+  - GB 55036-2022#7.0.1
+  - GB 55036-2022#7.0.2
+  - GB 55036-2022#7.0.3
+  - GB 55036-2022#7.0.4
+  - GB 55036-2022#7.0.5
+  - GB 55036-2022#7.0.6
+  - GB 55036-2022#7.0.7
+  - GB 55036-2022#7.0.8
+  - GB 55036-2022#7.0.9
+  - GB 55036-2022#7.0.10
+  - GB 55036-2022#7.0.11
+  - GB 55036-2022#8.0.1
+  - GB 55036-2022#8.0.2
+  - GB 55036-2022#8.0.3
+  - GB 55036-2022#8.0.4
+  - GB 55036-2022#8.0.5
+  - GB 55036-2022#8.0.6
+  - GB 55036-2022#8.0.7
+  - GB 55036-2022#8.0.8
+  - GB 55036-2022#8.0.10
+  - GB 55036-2022#9.0.1
+  - GB 55036-2022#9.0.3
+  - GB 55036-2022#9.0.4
+  - GB 55036-2022#9.0.5
+  - GB 55036-2022#9.0.6
+  - GB 55036-2022#9.0.7
+  - GB 55036-2022#9.0.8
+  - GB 55036-2022#10.0.1
+  - GB 55036-2022#10.0.2
+  - GB 55036-2022#10.0.3
+  - GB 55036-2022#10.0.4
+  - GB 55036-2022#10.0.5
+  - GB 55036-2022#10.0.6
+  - GB 55036-2022#10.0.7
+  - GB 55036-2022#10.0.8
+  - GB 55036-2022#11.1.1
+  - GB 55036-2022#11.1.2
+  - GB 55036-2022#11.1.3
+  - GB 55036-2022#11.1.4
+  - GB 55036-2022#11.1.5
+  - GB 55036-2022#11.2.1
+  - GB 55036-2022#11.2.2
+  - GB 55036-2022#11.2.3
+  - GB 55036-2022#11.2.4
+  - GB 55036-2022#11.2.5
+  - GB 55036-2022#11.2.6
+  - GB 55036-2022#11.3.1
+  - GB 55036-2022#11.3.2
+  - GB 55036-2022#11.3.3
+  - GB 55036-2022#11.3.4
+  - GB 55036-2022#11.3.5
+  - GB 55036-2022#11.3.6
+  - GB 55036-2022#12.0.1
+  - GB 55036-2022#12.0.2
+  - GB 55036-2022#12.0.3
+  - GB 55036-2022#12.0.4
+  - GB 55036-2022#12.0.5
+  - GB 55036-2022#12.0.6
+  - GB 55036-2022#12.0.7
+  - GB 55036-2022#12.0.8
+  - GB 55036-2022#12.0.9
+  - GB 55036-2022#12.0.10
+  - GB 55036-2022#12.0.11
+  - GB 55036-2022#12.0.12
+  - GB 55036-2022#12.0.13
+  - GB 55036-2022#12.0.14
+  - GB 55036-2022#12.0.15
+  - GB 55036-2022#12.0.16
+  - GB 55036-2022#12.0.17
+  - GB 55036-2022#12.0.18
+  schema_version: v2.1
+  last_reviewed_date: '2026-09-07'
+clauses:
+- id: GB 55036-2022#1.0.1
+  standard_code: GB 55036-2022
+  chapter: 1 总则
+  section: ''
+  clause_no: 1.0.1
+  text: 为使建设工程中的消防设施有效发挥作用，减少火灾危害，依据有关法律、法规，制定本规范。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#1.0.2
+  standard_code: GB 55036-2022
+  chapter: 1 总则
+  section: ''
+  clause_no: 1.0.2
+  text: 建设工程中消防设施的设计、施工、验收、使用和维护必须执行本规范。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 必须
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#1.0.3
+  standard_code: GB 55036-2022
+  chapter: 1 总则
+  section: ''
+  clause_no: 1.0.3
+  text: 工程建设所采用的技术方法和措施是否符合本规范要求，由相关责任主体判定、其中 创新性的技术方法和措施应进行论证并符合本规范中有关性能的要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#2.0.1
+  standard_code: GB 55036-2022
+  chapter: 2 基本规定
+  section: ''
+  clause_no: 2.0.1
+  text: 用于控火、灭火的消防设施，应能有效地控制或扑救建（构）筑物的火灾；用于防护冷却或防火分隔的消防设施，应能在规定时间内阻止火灾蔓延。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#2.0.2
+  standard_code: GB 55036-2022
+  chapter: 2 基本规定
+  section: ''
+  clause_no: 2.0.2
+  text: 消防给水与灭火设施应具有在火灾时可靠动作，并按照设定要求持续运行的性能；与火灾自动报警系统联动的灭火设施，其火灾探测与联动控制系统应能联动灭火设施及时启动。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#2.0.3
+  standard_code: GB 55036-2022
+  chapter: 2 基本规定
+  section: ''
+  clause_no: 2.0.3
+  text: 消防给水与灭火设施的性能和防护措施应与防护对象、防护目的及应用环境条件相适应，满足消防给水与灭火设施稳定和可靠运行的要求。)
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#2.0.4
+  standard_code: GB 55036-2022
+  chapter: 2 基本规定
+  section: ''
+  clause_no: 2.0.4
+  text: 消防给水与灭火设施中位于爆炸危险性环境的供水管道及其他灭火介质输送管道和组件，应采取静电防护措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#2.0.5
+  standard_code: GB 55036-2022
+  chapter: 2 基本规定
+  section: ''
+  clause_no: 2.0.5
+  text: 消防设施的施工现场应满足施工的要求。消防设施的安装过程应进行质量控制，每道工序结束后应进行质量检查。隐蔽工程在隐蔽前应进行验收；其他工程在施工完成后，应对其安装质量、系统与设备的功能进行检查、测试。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#2.0.6
+  standard_code: GB 55036-2022
+  chapter: 2 基本规定
+  section: ''
+  clause_no: 2.0.6
+  text: 消防给水与灭火设施中的供水管道及其他灭火剂输送管道，在安装后应进行强度试验、严密性试验和冲洗。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#2.0.7
+  standard_code: GB 55036-2022
+  chapter: 2 基本规定
+  section: ''
+  clause_no: 2.0.7
+  text: 消防设施的安装工程应进行工程质量和消防设施功能验收，验收结果应有明确的合格与不合格的结论。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#2.0.8
+  standard_code: GB 55036-2022
+  chapter: 2 基本规定
+  section: ''
+  clause_no: 2.0.8
+  text: 消防设施施工、验收过程应有相应的记录，并应存档。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#2.0.9
+  standard_code: GB 55036-2022
+  chapter: 2 基本规定
+  section: ''
+  clause_no: 2.0.9
+  text: 消防设施投入使用后，应定期进行巡查、检查和维护，并应保证其处于正常运行或工作状态，不应擅自关停、拆改或移动。超过有效期的灭火介质、消防设施或经检验不符合继续使用要求的管道、组件和压力容器不应使用。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#2.0.10
+  standard_code: GB 55036-2022
+  chapter: 2 基本规定
+  section: ''
+  clause_no: 2.0.10
+  text: 消防设施上或附近应设置区别于环境的明显标识，说明文字应准确、清楚且易于识别，颜色、符号或标志应规范。手动操作按钮等装置处应采取防止误操作或被损坏的防护措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#3.0.1
+  standard_code: GB 55036-2022
+  chapter: 3 消防给水与消火栓系统
+  section: ''
+  clause_no: 3.0.1
+  text: 消防给水系统应满足水消防系统在设计持续供水时间内所需水量、流量和水压的要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#3.0.2
+  standard_code: GB 55036-2022
+  chapter: 3 消防给水与消火栓系统
+  section: ''
+  clause_no: 3.0.2
+  text: 低压消防给水系统的系统工作压力应大于或等于0.60MPa。高压和临时高压消防给水系统的系统工作压力应符合下列规定：1 对于采用高位消防水池、水塔供水的高压消防给水系统，应为高位消防水池、水塔的最大静压；2 对于采用市政给水管网直接供水的高压消防给水系统，应根据市政给水管网的工作压力确定；3 对于采用高位消防水箱稳压的临时高压消防给水系统，应为消防水泵零流量时的压力与消防水泵吸水口的最大静压之和；4 对于采用稳压泵稳压的临时高压消防给水系统，应为消防水泵零流量时的水压与消防水泵吸水口的最大静压之和、稳压泵在维持消防给水系统压力时的压力两者的较大值。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 消防给水系统的系统工作压力确定（低压/高压/临时高压系统）
+    conditions:
+    - 当为低压消防给水系统时，系统工作压力应大于或等于0.60MPa
+    - 当为高压或临时高压消防给水系统时，按供水方式（高位消防水池水塔/市政直供/高位消防水箱稳压/稳压泵稳压）分别确定
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 系统工作压力
+    unit: MPa
+    condition: 低压消防给水系统
+    min_value: 0.6
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#3.0.3
+  standard_code: GB 55036-2022
+  chapter: 3 消防给水与消火栓系统
+  section: ''
+  clause_no: 3.0.3
+  text: 设置市政消火栓的市政给水管网，平时运行工作压力应大于或等于0.14MPa，应保证市政消火栓用于消防救援时的出水流量大于或等于15L/s，供水压力（从地面算起)大于或等于0.10MPa。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#3.0.4
+  standard_code: GB 55036-2022
+  chapter: 3 消防给水与消火栓系统
+  section: ''
+  clause_no: 3.0.4
+  text: 室外消火栓系统应符合下列规定：1 室外消火栓的设置间距、室外消火栓与建（构）筑物外墙、外边缘和道路路沿的距离，应满足消防车在消防救援时安全、方便取水和供水的要求；2 当室外消火栓系统的室外消防给水引入管设置倒流防止器时，应在该倒流防止器前增设1个室外消火栓；3 室外消火栓的流量应满足相应建（构）筑物在火灾延续时间内灭火、控火、冷却和防火分隔的要求；4 当室外消火栓直接用于灭火且室外消防给水设计流量大于30L/s时，应采用高压或临时高压消防给水系统。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 室外消火栓系统
+    conditions:
+    - 第2款：当室外消火栓系统的室外消防给水引入管设置倒流防止器时
+    - 第4款：当室外消火栓直接用于灭火且室外消防给水设计流量大于30L/s时
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#3.0.5
+  standard_code: GB 55036-2022
+  chapter: 3 消防给水与消火栓系统
+  section: ''
+  clause_no: 3.0.5
+  text: 室内消火栓系统应符合下列规定：1 室内消火栓的流量和压力应满足相应建（构）筑物在火灾延续时间内灭火、控火的要求；2 环状消防给水管道应至少有2条进水管与室外供水管网连接，当其中一条进水管关闭时，其余进水管应仍能保证全部室内消防用水量；3 在设置室内消火栓的场所内，包括设备层在内的各层均应设置消火栓；4 室内消火栓的设置应方便使用和维护。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 室内消火栓系统
+    conditions:
+    - 第2款：当其中一条进水管关闭时
+    - 第3款：在设置室内消火栓的场所内
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#3.0.6
+  standard_code: GB 55036-2022
+  chapter: 3 消防给水与消火栓系统
+  section: ''
+  clause_no: 3.0.6
+  text: 室内消防给水系统由生活、生产给水系统管网直接供水时，应在引入管处采取防止倒流的措施。当采用有空气隔断的倒流防止器时，该倒流防止器应设置在清洁卫生的场所，其排水口应采取防止被水淹没的措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 室内消防给水系统由生活、生产给水系统管网直接供水的倒流防止措施
+    conditions:
+    - 室内消防给水系统由生活、生产给水系统管网直接供水时
+    - 当采用有空气隔断的倒流防止器时
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#3.0.7
+  standard_code: GB 55036-2022
+  chapter: 3 消防给水与消火栓系统
+  section: ''
+  clause_no: 3.0.7
+  text: 消防水源应符合下列规定：水量应满足水基消防设施在设计持续供水时间内的最大用水量要求；并或人工水池、水塔等，应采取保障消防车安全取水与通行的技术措施，消防车取水的最大吸水高度应满足消防车可靠吸水的要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#3.0.8
+  standard_code: GB 55036-2022
+  chapter: 3 消防给水与消火栓系统
+  section: ''
+  clause_no: 3.0.8
+  text: 消防水池应符合下列规定：1 消防水池的有效容积应满足设计持续供水时间内的消防用水量要求；当消防水池采用两路消防供水且在火灾中连续补水能满足消防用水量要求时，在仅设置室内消火栓系统的情况下，有效容积应大于或等于50m³，其他情况下应大于或等于100m³；2 消防用水与其他用水共用的水池，应采取保证水池中的消防用水量不作他用的技术措施；3 消防水池的出水管应保证消防水池有效容积内的水能被全部利用，水池的最低有效水位或消防水泵吸水口的淹没深度应满足消防水泵在最低水位运行安全和实现设计出水量的要求；4 消防水池的水位应能就地和在消防控制室显示，消防水池应设置高低水位报警装置；5 消防水池应设置溢流水管和排水设施，并应采用间接排水。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 消防水池
+    conditions:
+    - 第1款：当消防水池采用两路消防供水且在火灾中连续补水能满足消防用水量要求时，在仅设置室内消火栓系统的情况下
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 有效容积
+    unit: m²
+    condition: null
+    min_value: 50.0
+    max_value: null
+  - name: 他情况下
+    unit: m
+    condition: null
+    min_value: 100.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#3.0.9
+  standard_code: GB 55036-2022
+  chapter: 3 消防给水与消火栓系统
+  section: ''
+  clause_no: 3.0.9
+  text: 高层民用建筑、3层及以上单体总建筑面积大于10000m²的其他公共建筑，当室内采用临时高压消防给水系统时，应设置高位消防水箱。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 高位消防水箱（高层民用建筑、3层及以上单体总建筑面积大于10000m²的其他公共建筑）
+    conditions:
+    - 当室内采用临时高压消防给水系统时
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 总建筑面积
+    unit: m²
+    condition: null
+    min_value: 10000.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#3.0.10
+  standard_code: GB 55036-2022
+  chapter: 3 消防给水与消火栓系统
+  section: ''
+  clause_no: 3.0.10
+  text: 高位消防水箱应符合下列规定：压力应能保证初期灭火所需水量；取防止被随意关闭的保护措施；于5℃；
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#3.0.11
+  standard_code: GB 55036-2022
+  chapter: 3 消防给水与消火栓系统
+  section: ''
+  clause_no: 3.0.11
+  text: 消防水泵应符合下列规定：制，不应自动停泵。要求。能曲线上任何一点运行所需功率的要求。的消防水泵，在其出水管上应设置有空气隔断的倒流防止器。足消防水泵随时自动启泵和在设计持续供水时间内持续运行的要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#3.0.12
+  standard_code: GB 55036-2022
+  chapter: 3 消防给水与消火栓系统
+  section: ''
+  clause_no: 3.0.12
+  text: 消防水泵控制柜应位于消防水泵控制室或消防水泵房内。其性能应符合下列规定：1 消防水泵控制柜位于消防水泵控制室内时，其防护等级不应低于IP30；位于消防水泵房内时，其防护等级不应低于IP55；2 消防水泵控制柜在平时应使消防水泵处于自动启泵状态；3 消防水泵控制柜应具有机械应急启泵功能，且机械应急启泵时，消防水泵应能在接受火警后5min内进入正常运行状态。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 消防水泵控制柜
+    conditions:
+    - 第1款：位于消防水泵控制室内时
+    - 第1款：位于消防水泵房内时
+    - 第3款：机械应急启泵时
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 接受火警后
+    unit: m
+    condition: null
+    min_value: 5.0
+    max_value: 5.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#3.0.13
+  standard_code: GB 55036-2022
+  chapter: 3 消防给水与消火栓系统
+  section: ''
+  clause_no: 3.0.13
+  text: 稳压泵的公称流量不应小于消防给水系统管网的正常泄漏量，且应小于系统自动启动流量·公称压力应满足系统自动启动和管网充满水的要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#4.0.1
+  standard_code: GB 55036-2022
+  chapter: 4 自动喷水灭火系统
+  section: ''
+  clause_no: 4.0.1
+  text: 自动喷水灭火系统的系统选型、喷水强度、作用面积、持续喷水时间等参数，应与防护对象的火灾特性、火灾危险等级、室内净空高度及储物高度等相适应。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#4.0.2
+  standard_code: GB 55036-2022
+  chapter: 4 自动喷水灭火系统
+  section: ''
+  clause_no: 4.0.2
+  text: 自动喷水灭火系统的选型应符合下列规定：高于或等于4℃且低于或等于70℃的场所，应采用湿式系统。或严禁管道充水的场所，应采用预作用系统。1)火灾蔓延速度快、闭式喷头的开启不能及时使喷水有效覆盖着火区域的场所或部位;2)室内净空高度超过闭式系统应用高度，且必须迅速扑救初期火灾的场所或部位；3）严重危险级Ⅱ级场所。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 必须
+    - 严禁
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#4.0.3
+  standard_code: GB 55036-2022
+  chapter: 4 自动喷水灭火系统
+  section: ''
+  clause_no: 4.0.3
+  text: 自动喷水灭火系统的喷水强度和作用面积应满足灭火、控火、防护冷却或防火分隔的要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#4.0.4
+  standard_code: GB 55036-2022
+  chapter: 4 自动喷水灭火系统
+  section: ''
+  clause_no: 4.0.4
+  text: 自动喷水灭火系统的持续喷水时间应符合下列规定：1 用于灭火时，应大于或等于1.0h；对于局部应用系统，应大于或等于0.5h；2 用于防护冷却时，应大于或等于设计所需防火冷却时间；3 用于防火分隔时，应大于或等于防火分隔处的设计耐火时间。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 自动喷水灭火系统的持续喷水时间
+    conditions:
+    - 第1款：用于灭火时
+    - 第1款：对于局部应用系统
+    - 第2款：用于防护冷却时
+    - 第3款：用于防火分隔时
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 自动喷水灭火系统持续喷水时间（局部应用系统）
+    unit: h
+    condition: null
+    min_value: 0.5
+    max_value: null
+    _v21_param_note: 原名 '合下列规定' 为 OCR 碎片，已回源条文正文更正
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#4.0.5
+  standard_code: GB 55036-2022
+  chapter: 4 自动喷水灭火系统
+  section: ''
+  clause_no: 4.0.5
+  text: 洒水喷头应符合下列规定：1 喷头间距应满足有效喷水和使可燃物或保护对象被全部覆盖的要求；2 喷头周围不应有遮挡或影响洒水效果的障碍物；3 系统水力计算最不利点处喷头的工作压力应大于或等于0.05MPa；4 腐蚀性场所和易产生粉尘、纤维等的场所内的喷头，应采取防止喷头堵塞的措施；5 建筑高度大于100m的公共建筑，其高层主体内设置的自动喷水灭火系统应采用快速响应喷头；6 局部应用系统应采用快速响应喷头。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#4.0.6
+  standard_code: GB 55036-2022
+  chapter: 4 自动喷水灭火系统
+  section: ''
+  clause_no: 4.0.6
+  text: 每个报警阀组控制的供水管网水力计算最不利点洒水喷头处应设置末端试水装置，其他防火分区、楼层均应设置DN25的试水阀。末端试水装置应具有压力显示功能，并应设置相应的排水设施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#4.0.7
+  standard_code: GB 55036-2022
+  chapter: 4 自动喷水灭火系统
+  section: ''
+  clause_no: 4.0.7
+  text: 自动喷水灭火系统环状供水管网及报警阀进出口采用的控制阀，应为信号阀或具有确保阀位处于常开状态的措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#5.0.1
+  standard_code: GB 55036-2022
+  chapter: 5 泡沫灭火系统
+  section: ''
+  clause_no: 5.0.1
+  text: 泡沫灭火系统的工作压力、泡沫混合液的供给强度和连续供给时间，应满足有效灭火或控火的要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#5.0.2
+  standard_code: GB 55036-2022
+  chapter: 5 泡沫灭火系统
+  section: ''
+  clause_no: 5.0.2
+  text: 保护场所中所用泡沫液应与灭火系统的类型、扑救的可燃物性质、供水水质等相适应，并应符合下列规定：沫灭火系统，应使用氟蛋白或水成膜泡沫液；灾的低倍数泡沫灭火系统，应使用抗溶水成膜、抗溶氟蛋白或低黏度抗溶氟蛋白泡沫液，沫-水喷淋系统泡沫枪系统、泡沫炮系统，应使用3%型水成膜泡沫液；沫液。储罐的低倍数泡沫灭火系统类型应符合下列规定：
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 系统应使用
+    unit: '%'
+    condition: null
+    min_value: 3.0
+    max_value: 3.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#5.0.3
+  standard_code: GB 55036-2022
+  chapter: 5 泡沫灭火系统
+  section: ''
+  clause_no: 5.0.3
+  text: 储罐的低倍数泡沫灭火系统类型应符合下列规定：1 对于水溶性可燃液体和对普通泡沫有破坏作用的可燃液体固定顶储罐，应为液上喷射系统；2 对于外浮顶和内浮顶储罐，应为液上喷射系统；3 对于非水溶性可燃液体的外浮顶储罐和内浮顶储罐、直径大于18m的非水溶性可燃液体固定顶储罐、水溶性可燃液体立式储罐，当设置泡沫炮时，泡沫炮应为辅助灭火设施；4 对于高度大于7m或直径大于9m的固定顶储罐，当设置泡沫枪时，泡沫枪应为辅助灭火设施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 泡沫灭火系统（对保护对象的作用方式）
+    conditions:
+    - 第3款：当设置泡沫炮时
+    - 第4款：当设置泡沫枪时
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 上喷射系统
+    unit: m
+    condition: null
+    min_value: 18.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#5.0.4
+  standard_code: GB 55036-2022
+  chapter: 5 泡沫灭火系统
+  section: ''
+  clause_no: 5.0.4
+  text: 储罐或储罐区低倍数泡沫灭火系统扑救一次火灾的泡沫:10:混合液设计用量，应大于或等于罐内用量、该罐辅助泡沫枪用量、管道剩余量三者之和最大的一个储罐所需泡沫混合液用量。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#5.0.5
+  standard_code: GB 55036-2022
+  chapter: 5 泡沫灭火系统
+  section: ''
+  clause_no: 5.0.5
+  text: 固定顶储罐的低倍数液上喷射泡沫灭火系统，每个泡沫产生器应设置独立的混合液管道引至防火堤外，除立管外，其他泡沫混合液管道不应设置在罐壁上。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 固定顶储罐的低倍数液上喷射泡沫灭火系统（泡沫混合液管道）
+    conditions: []
+    exceptions:
+    - 立管
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#5.0.6
+  standard_code: GB 55036-2022
+  chapter: 5 泡沫灭火系统
+  section: ''
+  clause_no: 5.0.6
+  text: 储罐或储罐区固定式低倍数泡沫灭火系统，自泡沫消防水泵启动至泡沫混合液或泡沫输送到保护对象的时间应小于或等于5min。当储罐或储罐区设置泡沫站时，泡沫站应符合下列规定：1 室内泡沫站的耐火等级不应低于二级；2 泡沫站严禁设置在防火堤、围堰、泡沫灭火系统保护区或其他火灾及爆炸危险区域内；3 靠近防火堤设置的泡沫站应具备远程控制功能，与可燃液体储罐罐壁的水平距离应大于或等于20m。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 储罐或储罐区固定式低倍数泡沫灭火系统（泡沫站）
+    conditions:
+    - 当储罐或储罐区设置泡沫站时
+    exceptions:
+    - 第2款：泡沫站严禁设置在防火堤、围堰、泡沫灭火系统保护区或其他火灾及爆炸危险区域内
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 象的时间
+    unit: m
+    condition: null
+    min_value: null
+    max_value: 5.0
+  - name: 水平距离
+    unit: m
+    condition: null
+    min_value: 20.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#5.0.7
+  standard_code: GB 55036-2022
+  chapter: 5 泡沫灭火系统
+  section: ''
+  clause_no: 5.0.7
+  text: 设置中倍数或高倍数全淹没泡沫灭火系统的防护区应符合下列规定：X计灭火时间内阻止泡沫流失的性能；生的泡沫损失；位置应能防止燃烧产物或其他有害气体回流到泡沫产生器进气口。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#5.0.8
+  standard_code: GB 55036-2022
+  chapter: 5 泡沫灭火系统
+  section: ''
+  clause_no: 5.0.8
+  text: 对于中倍数或高倍数泡沫灭火系统，全淹没系统应具有自动控制、手动控制和机械应急操作的启动方式，自动控制的固定式局部应用系统应具有手动和机械应急操作的启动方式，手动控制的固定式局部应用系统应具有机械应急操作的启动方式。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#5.0.9
+  standard_code: GB 55036-2022
+  chapter: 5 泡沫灭火系统
+  section: ''
+  clause_no: 5.0.9
+  text: 泡沫液泵的工作压力和流量应满足泡沫灭火系统设计要求，同时应保证在设计流量范围内泡沫液供给压力大于供水压力。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#6.0.1
+  standard_code: GB 55036-2022
+  chapter: 6 水喷雾、细水雾灭火系统
+  section: ''
+  clause_no: 6.0.1
+  text: 水喷雾灭火系统和细水雾灭火系统的工作压力、供给强度、持续供给时间和响应时间，应满足系统有效灭火、控火、防护冷却或防火分隔的要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#6.0.2
+  standard_code: GB 55036-2022
+  chapter: 6 水喷雾、细水雾灭火系统
+  section: ''
+  clause_no: 6.0.2
+  text: 水喷雾灭火系统和细水雾灭火系统水源的水量与水质，应满足系统灭火、控火、防护冷却或防火分隔以及可靠运行和持续喷雾的要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#6.0.3
+  standard_code: GB 55036-2022
+  chapter: 6 水喷雾、细水雾灭火系统
+  section: ''
+  clause_no: 6.0.3
+  text: 水喷雾灭火系统和细水雾灭火系统的管道应为具有相应耐腐蚀性能的金属管道。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#6.0.4
+  standard_code: GB 55036-2022
+  chapter: 6 水喷雾、细水雾灭火系统
+  section: ''
+  clause_no: 6.0.4
+  text: 自动控制的水喷雾灭火系统和细水雾灭火系统应具有自动控制、手动控制和机械应急操作的启动方式。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#6.0.5
+  standard_code: GB 55036-2022
+  chapter: 6 水喷雾、细水雾灭火系统
+  section: ''
+  clause_no: 6.0.5
+  text: 水喷雾灭火系统的水雾喷头应符合下列规定：1 应能使水雾直接喷射和覆盖保护对象；2 与保护对象的距离应小于或等于水雾喷头的有效射程；3 用于电气火灾场所时，应为离心雾化型水雾喷头；4 水雾喷头的工作压力：用于灭火时，应大于或等于0.35MPa；用于防护冷却时，应大于或等于0.15MPa。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 水喷雾灭火系统的水雾喷头
+    conditions:
+    - 第3款：用于电气火灾场所时
+    - 第4款：用于灭火时
+    - 第4款：用于防护冷却时
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#6.0.6
+  standard_code: GB 55036-2022
+  chapter: 6 水喷雾、细水雾灭火系统
+  section: ''
+  clause_no: 6.0.6
+  text: 细水雾灭火系统的细水雾喷头应符合下列规定：应保证细水雾喷放均匀并完全覆盖保护区域；水雾，不能保证时应采取补偿措施；防护措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#6.0.7
+  standard_code: GB 55036-2022
+  chapter: 6 水喷雾、细水雾灭火系统
+  section: ''
+  clause_no: 6.0.7
+  text: 细水雾灭火系统的持续喷雾时间应符合下列规定：库、资料库、档案库、文物库、电缆隧道和电缆夹层等场所，应大于或等于30min；滑油站、燃油锅炉房等含有可燃液体的机械设备间，应大于或等于 20min;应大于或等于15s，且冷却水持续喷放时间应大于或等于15min。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 层等场所
+    unit: m
+    condition: null
+    min_value: 30.0
+    max_value: null
+  - name: 械设备间
+    unit: m
+    condition: null
+    min_value: 20.0
+    max_value: null
+  - name: 喷放时间
+    unit: m
+    condition: null
+    min_value: 15.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#6.0.8
+  standard_code: GB 55036-2022
+  chapter: 6 水喷雾、细水雾灭火系统
+  section: ''
+  clause_no: 6.0.8
+  text: 细水雾灭火系统中过滤器的材质应为不锈钢、铜合金，或其他耐腐蚀性能不低于不锈钢、铜合金的金属材料。滤器的网孔孔径与喷头最小喷孔孔径的比值应小于或等于0.8。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#7.0.1
+  standard_code: GB 55036-2022
+  chapter: 7 固定消防炮、自动跟踪定位射流灭火系统
+  section: ''
+  clause_no: 7.0.1
+  text: 固定消防炮、自动跟踪定位射流灭火系统的类型和灭火剂应满足扑灭和控制保护对象火灾的要求水炮灭火系统和泡沫炮灭火系统不应用于扑救遇水发生化学反应会引起燃烧或爆炸等物质的火灾。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#7.0.2
+  standard_code: GB 55036-2022
+  chapter: 7 固定消防炮、自动跟踪定位射流灭火系统
+  section: ''
+  clause_no: 7.0.2
+  text: 室内固定水炮灭火系统应采用湿式给水系统，且消防炮安装处应设置消防水泵启动按钮。/为水炮和泡沫炮灭火系统供水的临时高压消防给水系统应具有自动启动功能。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#7.0.3
+  standard_code: GB 55036-2022
+  chapter: 7 固定消防炮、自动跟踪定位射流灭火系统
+  section: ''
+  clause_no: 7.0.3
+  text: 室内固定消防炮的设置应保证消防炮的射流不受建筑结构或设施的遮挡。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#7.0.4
+  standard_code: GB 55036-2022
+  chapter: 7 固定消防炮、自动跟踪定位射流灭火系统
+  section: ''
+  clause_no: 7.0.4
+  text: 室外固定消防炮应符合下列规定：强度应满足灭火或冷却的要求；护水幕的总流量应大于或等于6L/s。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#7.0.5
+  standard_code: GB 55036-2022
+  chapter: 7 固定消防炮、自动跟踪定位射流灭火系统
+  section: ''
+  clause_no: 7.0.5
+  text: 固定消防炮平台和炮塔应具有与环境条件相适应的耐腐蚀性能或防腐蚀措施，其结构应能同时承受消防炮喷射反力和使用场所最大风力，满足消防炮正常操作使用的要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#7.0.6
+  standard_code: GB 55036-2022
+  chapter: 7 固定消防炮、自动跟踪定位射流灭火系统
+  section: ''
+  clause_no: 7.0.6
+  text: 固定水炮、泡沫炮灭火系统从启动至炮口喷射水或泡沫的时间应小于或等于5min，固定干粉炮灭火系统从启动至炮口喷射干粉的时间应小于或等于2min。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 沫的时间
+    unit: m
+    condition: null
+    min_value: null
+    max_value: 5.0
+  - name: 粉的时间
+    unit: m
+    condition: null
+    min_value: null
+    max_value: 2.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#7.0.7
+  standard_code: GB 55036-2022
+  chapter: 7 固定消防炮、自动跟踪定位射流灭火系统
+  section: ''
+  clause_no: 7.0.7
+  text: 固定水炮灭火系统的水炮射程、供给强度、流量、连续供水时间等应符合下列规定：1.0h；对于室外火灾，应大于或等于2.0h。和灭火、控火的要求。启的水炮流量之和、灭火用水计算总流量与冷却用水计算总流量之和两者的较大值。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 固定水炮灭火系统连续供水时间
+    unit: h
+    condition: null
+    min_value: 1.0
+    max_value: null
+    _v21_param_note: 原名 '合下列规定' 为 OCR 碎片，已回源条文正文更正
+  - name: 室外火灾
+    unit: h
+    condition: null
+    min_value: 2.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#7.0.8
+  standard_code: GB 55036-2022
+  chapter: 7 固定消防炮、自动跟踪定位射流灭火系统
+  section: ''
+  clause_no: 7.0.8
+  text: 固定泡沫炮灭火系统的泡沫混合液流量，泡沫液储存量等应符合下列规定、1.泡沫混合液的总流量应大于或等于系统中需要同时开启的泡沫炮流量之和,灭火面积与供给强度的乘积两者的较大值 2,泡沫液的储存总量应大于或等于其计算总量的1 2倍，3，泡沫比例混合装置应具有在规定流量范围内自动控制混合比的功能。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#7.0.9
+  standard_code: GB 55036-2022
+  chapter: 7 固定消防炮、自动跟踪定位射流灭火系统
+  section: ''
+  clause_no: 7.0.9
+  text: 合下列规定：干粉储存罐应为压力储罐，并应满足在最高使用温度下安全使用的要求；应大于或等于15MPa；
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#7.0.10
+  standard_code: GB 55036-2022
+  chapter: 7 固定消防炮、自动跟踪定位射流灭火系统
+  section: ''
+  clause_no: 7.0.10
+  text: 固定消防炮灭火系统中的阀门应设置工作位置锁定装置和明显的指示标志。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#7.0.11
+  standard_code: GB 55036-2022
+  chapter: 7 固定消防炮、自动跟踪定位射流灭火系统
+  section: ''
+  clause_no: 7.0.11
+  text: 自动跟踪定位射流灭火系统应符合下列规定：1 自动消防炮灭火系统中单台炮的流量，对于民用建筑，不应小于20L/s；对于工业建筑，不应小于30L/s；2 持续喷水时间不应小于1.0h；3 系统应具有自动控制、消防控制室手动控制和现场手动控制的启动方式，消防控制室手动控制和现场手动控制相对于自动控制应具有优先权；4 自动消防炮灭火系统和喷射型自动射流灭火系统在自动控制状态下，当探测到火源后，应至少有2台灭火装置对火源扫描定位和至少1台且最多2台灭火装置自动开启射流，且射流应能到达火源；5 喷洒型自动射流灭火系统在自动控制状态下，当探测到火源后，对应火源探测装置的灭火装置应自动开启射流、且其中应至少有一组灭火装置的射流能到达火源。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 自动跟踪定位射流灭火系统
+    conditions:
+    - 第1款：对于民用建筑
+    - 第1款：对于工业建筑
+    - 第4款：当探测到火源后
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#8.0.1
+  standard_code: GB 55036-2022
+  chapter: 8 气体灭火系统
+  section: ''
+  clause_no: 8.0.1
+  text: 全淹没气体灭火系统的防护区应符合下列规定：
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#8.0.2
+  standard_code: GB 55036-2022
+  chapter: 8 气体灭火系统
+  section: ''
+  clause_no: 8.0.2
+  text: 防护区围护结构的耐超压性能，应满足在灭火剂释放和设计浸渍时间内保持围护结构完整的要求；间内保持防护区内灭火剂浓度不低于设计灭火浓度或设计惰化浓度的要求；功能。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#8.0.3
+  standard_code: GB 55036-2022
+  chapter: 8 气体灭火系统
+  section: ''
+  clause_no: 8.0.3
+  text: 全淹没气体灰火系统的设计灭火浓度或设计惰化浓度应符合下列规定：浓度的1.7倍，且应大于或等于34%（体积百分比浓度）；浓度的1.3倍，设计惰化浓度应大于或等于惰化浓度的1.1倍；于人体的有毒性反应浓度。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 度的倍且
+    unit: '%'
+    condition: null
+    min_value: 34.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#8.0.4
+  standard_code: GB 55036-2022
+  chapter: 8 气体灭火系统
+  section: ''
+  clause_no: 8.0.4
+  text: 一个组合分配气体灭火系统中的灭火剂储存量，应大于或等于该系统所保护的全部防护区中需要灭火剂储存量的最大者。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#8.0.5
+  standard_code: GB 55036-2022
+  chapter: 8 气体灭火系统
+  section: ''
+  clause_no: 8.0.5
+  text: 灭火剂的喷放时间和浸渍时间应满足有效灭火或情化的要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#8.0.6
+  standard_code: GB 55036-2022
+  chapter: 8 气体灭火系统
+  section: ''
+  clause_no: 8.0.6
+  text: 用于保护同一防护区的多套气体灭火系统应能在灭火时同时启动，相互间的动作响应时差应小于或等于2s。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#8.0.7
+  standard_code: GB 55036-2022
+  chapter: 8 气体灭火系统
+  section: ''
+  clause_no: 8.0.7
+  text: 全淹没气体灭火系统的喷头布置应满足灭火剂在防护区:17:内均匀分布的要求，其射流方向不应直接朝向可燃液体的表面。局部应用气体灭火系统的喷头布置应能保证保护对象全部处于灭火剂的淹没范围内。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#8.0.8
+  standard_code: GB 55036-2022
+  chapter: 8 气体灭火系统
+  section: ''
+  clause_no: 8.0.8
+  text: 用于扑救可燃、助燃气体火灾的气体灭火系统，在其启动前应能联动和手动切断可燃、助燃气体的气源。件的公称压力，不应小于系统运行时所需承受的最大工作压力。灭火剂的储存容器或容器阀应具有安全泄压和压力显示的功能，管网系统中的封闭管段上应具有安全泄压装置。安全泄压装置应能在设定压力下正常工作，泄压方向不应朝向操作面或人员疏散通道。低压二氧化碳灭火系统的安全泄压装置应通过专用泄压管将泄压气体直接排至室外。高压二氧化碳储存容器应设置二氧化碳泄漏监测装置。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#8.0.9
+  standard_code: GB 55036-2022
+  chapter: 8 气体灭火系统
+  section: ''
+  clause_no: 8.0.9
+  text: 气体灭火系统的管道和组件,灭火剂的储存容器及其他组件的公称压力、不应小于系统运行时需承受的最大工作压力，灭火剂的储存容器或容器阀应具有安全泄压和压力显示的功能.管网系统中的封闭管段上应具有安全泄压装置。安全泄压装置应能在设定压力下正常工作,泄压方向不应朝向操作面或人员疏散通道。低压二氧化碳灭火系统的安全泄压装置应通过专用泄压管将泄压气体直接排至室外。高压二氧化碳储存容器应设置二氧化碳泄漏监测装置。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制（GB 55036-2022 全部条文强制）
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: GB 55036-2022#8.0.10
+  standard_code: GB 55036-2022
+  chapter: 8 气体灭火系统
+  section: ''
+  clause_no: 8.0.10
+  text: 管网式气体灭火系统应具有自动控制、手动控制和机械应急操作的启动方式。预制式气体灭火系统应具有自动控制和手动控制的启动方式。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#9.0.1
+  standard_code: GB 55036-2022
+  chapter: 9 干粉灭火系统
+  section: ''
+  clause_no: 9.0.1
+  text: 全淹没干粉灭火系统的防护区应符合下列规定：于楼地板面的位置，其总面积应小于或等于该防护区总内表面积的 15% ;防护区的门应向疏散方向开启，并应具有自行关闭的功能。局部应用干粉灭火系统的保护对象应符合下列规定：
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 未识别对象
+    unit: '%'
+    condition: null
+    min_value: null
+    max_value: 15.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#9.0.2
+  standard_code: GB 55036-2022
+  chapter: 9 干粉灭火系统
+  section: ''
+  clause_no: 9.0.2
+  text: 局部应用干粉灭火系统的保护对象应符合下列规定：1 保护对象周围的空气流速应小于或等于2m/s；2 在喷头与保护对象之间的喷头喷射角范围内不应有遮挡物；3 可燃液体保护对象的液面至容器缘口的距离应大于或等于150mm。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#9.0.3
+  standard_code: GB 55036-2022
+  chapter: 9 干粉灭火系统
+  section: ''
+  clause_no: 9.0.3
+  text: 禾粉灭火系统应保证系统动作后在防护区内或保护对象周围形成设计灭火浓度，并应符合下列规定：对于全没干粉灭火系统，干粉持续喷放时间不应大于30s；小于60s；喷放时间不应小于60s；对于其他室内局部应用干粉灭火系统，干粉持续喷放时间不应小于30s。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#9.0.4
+  standard_code: GB 55036-2022
+  chapter: 9 干粉灭火系统
+  section: ''
+  clause_no: 9.0.4
+  text: 用于保护同一防护区或保护对象的多套干粉灭火系统应能在灭火时同时启动，相互间的动作响应时差应小于或等于2S。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#9.0.5
+  standard_code: GB 55036-2022
+  chapter: 9 干粉灭火系统
+  section: ''
+  clause_no: 9.0.5
+  text: 组合分配干粉灭火系统的灭火剂储存量，应大于或等于该系统所保护的全部防护区中需要灭火剂储存量的最大者。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#9.0.6
+  standard_code: GB 55036-2022
+  chapter: 9 干粉灭火系统
+  section: ''
+  clause_no: 9.0.6
+  text: 干粉灭火系统的管道及附件、干粉储存容器和驱动气体储.19:瓶的性能应满足在系统最大工作压力和相应环境条件下正常工作的要求，喷头的单孔直径应大于或等于6mm。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 单孔直径
+    unit: mm
+    condition: null
+    min_value: 6.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#9.0.7
+  standard_code: GB 55036-2022
+  chapter: 9 干粉灭火系统
+  section: ''
+  clause_no: 9.0.7
+  text: 干粉灭火系统应具有在启动前或同时联动切断防护区或保护对象的气体、液体供应源的功能。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#9.0.8
+  standard_code: GB 55036-2022
+  chapter: 9 干粉灭火系统
+  section: ''
+  clause_no: 9.0.8
+  text: 用于经常有人停留场所的局部应用干粉灭火系统应具有手动控制和机械应急操作的启动方式，其他情况的全淹没和局部应用干粉灭火系统均应具有自动控制、手动控制和机械应急操作的启动方式。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#10.0.1
+  standard_code: GB 55036-2022
+  chapter: 10 灭火器
+  section: ''
+  clause_no: 10.0.1
+  text: 灭火器的配置类型应与配置场所的火灾种类和危险等级相适应，并应符合下列规定：1A类火灾场所应选择同时适用于A类、E类火灾的灭火器。2B类火灾场所应选择适用于B类火灾的灭火器。B类火灾场所存在水溶性可燃液体（极性溶剂)且选择水基型灭火器时，应选用抗溶性的灭火器。一3C类火灾场所应选择适用于C类火灾的灭火器。4D类火灾场所应根据金属的种类、物态及其特性选择适用于特定金属的专用灭火器。5E类火灾场所应选择适用于E类火灾的灭火器。带电设备电压超过1kV且灭火时不能断电的场所不应使用灭火器带电扑救。F类火灾场所应选择适用于E类、F类火灾的灭火器。当配置场所存在多种火灾时，应选用能同时适用扑救该场所所有种类火灾的灭火器。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 灭火器（配置类型）
+    conditions:
+    - 第2款：B类火灾场所存在水溶性可燃液体（极性溶剂）且选择水基型灭火器时
+    - 当配置场所存在多种火灾时
+    exceptions:
+    - 带电设备电压超过1kV且灭火时不能断电的场所不应使用灭火器带电扑救
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#10.0.2
+  standard_code: GB 55036-2022
+  chapter: 10 灭火器
+  section: ''
+  clause_no: 10.0.2
+  text: 灭火器设置点的位置和数量应根据被保护对象的情况和灭火器的最大保护距离确定，并应保证最不利点至少在1具灭火器的保护范围内。灭火器的最大保护距离和最低配置基准应与配置场所的火灾危险等级相适应。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#10.0.3
+  standard_code: GB 55036-2022
+  chapter: 10 灭火器
+  section: ''
+  clause_no: 10.0.3
+  text: 灭火器配置场所应按计算单元计算与配置灭火器，并应符合下列规定：配置场所内的可燃物分布情况确定。所有设置点配置的灭火器灭火级别之和不应小于该计算单元的保护面积与单位灭火级别最大保护面积的比值。少于2具。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#10.0.4
+  standard_code: GB 55036-2022
+  chapter: 10 灭火器
+  section: ''
+  clause_no: 10.0.4
+  text: 灭火器应设置在位置明显和便于取用的地点，且不应影响人员安全疏散。当确需设置在有视线障碍的设置点时，应设置指示灭火器位置的醒目标志。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 灭火器（设置位置）
+    conditions:
+    - 当确需设置在有视线障碍的设置点时
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#10.0.5
+  standard_code: GB 55036-2022
+  chapter: 10 灭火器
+  section: ''
+  clause_no: 10.0.5
+  text: 灭火器不应设置在可能超出其使用温度范围的场所，并应采取与设置场所环境条件相适应的防护措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#10.0.6
+  standard_code: GB 55036-2022
+  chapter: 10 灭火器
+  section: ''
+  clause_no: 10.0.6
+  text: 当灭火器配置场所的火灾种类、危险等级和建（构）筑物总平面布局或平面布置等发生变化时·应校核或重新配置灭火器。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 灭火器（配置）
+    conditions:
+    - 当灭火器配置场所的火灾种类、危险等级和建（构）筑物总平面布局或平面布置等发生变化时
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#10.0.7
+  standard_code: GB 55036-2022
+  chapter: 10 灭火器
+  section: ''
+  clause_no: 10.0.7
+  text: 灭火器应定期维护、维修和报废。灭火器报废后，应按照等效替代的原则更换。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#10.0.8
+  standard_code: GB 55036-2022
+  chapter: 10 灭火器
+  section: ''
+  clause_no: 10.0.8
+  text: 符合下列情形之一的灭火器应报废：1 筒体锈蚀面积大于或等于筒体总表面积的1/3，表面有凹坑；2 筒体明显变形，机械损伤严重；3 器头存在裂纹、无泄压机构；4 存在筒体为平底等结构不合理现象；5 没有间歇喷射机构的手提式灭火器；6 不能确认生产单位名称和出厂时间，包括铭牌脱落，铭牌模糊、不能分辨生产单位名称，出厂时间钢印无法识别等；7 筒体有锡焊、铜焊或补缀等修补痕迹；8 被火烧过；9 出厂时间达到或超过表10.0.8规定的最大报废期限。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables:
+  - id: 表10.0.8
+    type: parameter_table
+    description: 灭火器的最大报废期限
+    headers:
+    - 灭火器类型
+    - 报废期限（年）
+    rows:
+    - - 水基型灭火器
+      - '6'
+    - - 干粉灭火器
+      - '10'
+    - - 手提式、推车式洁净气体灭火器
+      - '10'
+    - - 二氧化碳灭火器
+      - '12'
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#11.1.1
+  standard_code: GB 55036-2022
+  chapter: 11 防烟与排烟系统
+  section: 11.1 一般规定
+  clause_no: 11.1.1
+  text: 防烟、排烟系统应满足控制建设工程内火灾烟气的蔓延、保障人员安全疏散、有利于消防救援的要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#11.1.2
+  standard_code: GB 55036-2022
+  chapter: 11 防烟与排烟系统
+  section: 11.1 一般规定
+  clause_no: 11.1.2
+  text: 防烟、排烟系统应具有保证系统正常工作的技术措施，系统中的管道、阀门和组件的性能应满足其在加压送风或排烟过程中正常使用的要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#11.1.3
+  standard_code: GB 55036-2022
+  chapter: 11 防烟与排烟系统
+  section: 11.1 一般规定
+  clause_no: 11.1.3
+  text: 机械加压送风管道和机械排烟管道均应采用不燃性材料，且管道的内表面应光滑，管道的密闭性能应满足火灾时加压送风或排烟的要求。)
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#11.1.4
+  standard_code: GB 55036-2022
+  chapter: 11 防烟与排烟系统
+  section: 11.1 一般规定
+  clause_no: 11.1.4
+  text: 加压送风机和排烟风机的公称风量，在计算风压条件下不应小于计算所需风量的1.2倍。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#11.1.5
+  standard_code: GB 55036-2022
+  chapter: 11 防烟与排烟系统
+  section: 11.1 一般规定
+  clause_no: 11.1.5
+  text: 加压送风机、排烟风机补风机应具有现场手动启动、与火灾自动报警系统联动启动和在消防控制室手动启动的功能。当系统中任一常闭加压送风口开启时，相应的加压风机均应能联动启动；当任一排烟阀或排烟口开启时，相应的排烟风机、补风机均应能联动启动。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 加压送风机、排烟风机、补风机
+    conditions:
+    - 当系统中任一常闭加压送风口开启时
+    - 当任一排烟阀或排烟口开启时
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#11.2.1
+  standard_code: GB 55036-2022
+  chapter: 11 防烟与排烟系统
+  section: 11.2 防烟
+  clause_no: 11.2.1
+  text: 下列建筑的防烟楼梯间及其前室、消防电梯的前室和合用前室应设置机械加压送风系统：建筑高度大于100m的住宅；建筑高度大于50m的公共建筑；建筑高度大于50m的工业建筑。机械加压送风系统应符合下列规定：
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 统建筑高度
+    unit: m
+    condition: null
+    min_value: 100.0
+    max_value: null
+  - name: 未识别对象
+    unit: m
+    condition: null
+    min_value: 50.0
+    max_value: null
+  - name: 筑建筑高度
+    unit: m
+    condition: null
+    min_value: 50.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#11.2.2
+  standard_code: GB 55036-2022
+  chapter: 11 防烟与排烟系统
+  section: 11.2 防烟
+  clause_no: 11.2.2
+  text: 机械加压送风系统应符合下列规定：1 对于采用合用前室的防烟楼梯间，当楼梯间和前室均设置机械加压送风系统时，楼梯间、合用前室的机械加压送风系统应分别独立设置；2 对于在梯段之间采用防火隔墙隔开的剪刀楼梯间，当楼梯间和前室（包括共用前室和合用前室）均设置机械加压送风系统时，每个楼梯间、共用前室或合用前室的机械加压送风系统均应分别独立设置；3 对于建筑高度大于100m的建筑中的防烟楼梯间及其前室，其机械加压送风系统应竖向分段独立设置，且每段的系统服务高度不应大于100m。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 机械加压送风系统
+    conditions:
+    - 第1款：对于采用合用前室的防烟楼梯间，当楼梯间和前室均设置机械加压送风系统时
+    - 第2款：对于在梯段之间采用防火隔墙隔开的剪刀楼梯间，当楼梯间和前室（包括共用前室和合用前室）均设置机械加压送风系统时
+    - 第3款：对于建筑高度大于100m的建筑中的防烟楼梯间及其前室
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 务高度
+    unit: m
+    condition: null
+    min_value: 100.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#11.2.3
+  standard_code: GB 55036-2022
+  chapter: 11 防烟与排烟系统
+  section: ''
+  clause_no: 11.2.3
+  text: 采用自然通风方式防烟的防烟楼梯间前室、消防电梯前室应具有面积大于或等于2.0m的可开启外窗或开口，共用前室和合用前室应具有面积大于或等于3.0m²的可开启外窗或开口。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 具有面积
+    unit: m
+    condition: null
+    min_value: 2.0
+    max_value: null
+  - name: 具有面积
+    unit: m²
+    condition: null
+    min_value: 3.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#11.2.4
+  standard_code: GB 55036-2022
+  chapter: 11 防烟与排烟系统
+  section: ''
+  clause_no: 11.2.4
+  text: 采用自然通风方式防烟的避难层中的避难区，应具有不同朝向的可开启外窗或开口，其可开启有效面积应大于或等于避难区地面面积的2%,且每个朝向的面积均应大于或等于2.0m²。避难间应至少有一侧外墙具有可开启外窗，其可开启有效面积应大于或等于该避难间地面面积的2%，并应大于或等于2.0m²。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 面积
+    unit: '%'
+    condition: null
+    min_value: 2.0
+    max_value: null
+  - name: 面积均
+    unit: m²
+    condition: null
+    min_value: 2.0
+    max_value: null
+  - name: 积
+    unit: '%'
+    condition: null
+    min_value: 2.0
+    max_value: null
+  - name: 面积的并
+    unit: m²
+    condition: null
+    min_value: 2.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#11.2.5
+  standard_code: GB 55036-2022
+  chapter: 11 防烟与排烟系统
+  section: ''
+  clause_no: 11.2.5
+  text: 机械加压送风系统的送风量应满足不同部位的余压值要求。不同部位的余压值应符合下列规定：之间的压差应为25Pa～30Pa；
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#11.2.6
+  standard_code: GB 55036-2022
+  chapter: 11 防烟与排烟系统
+  section: ''
+  clause_no: 11.2.6
+  text: 机械加压送风系统应与火灾自动报警系统联动，并应能在防火分区内的火灾信号确认后15s内联动同时开启该防火分区的全部疏散楼梯间、该防火分区所在着火层及其相邻上下各一层疏散楼梯间及其前室或合用前室的常闭加压送风口和加压送风机。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#11.3.1
+  standard_code: GB 55036-2022
+  chapter: 11 防烟与排烟系统
+  section: 11.3 排烟
+  clause_no: 11.3.1
+  text: 同一个防烟分区应采用同一种排烟方式。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#11.3.2
+  standard_code: GB 55036-2022
+  chapter: 11 防烟与排烟系统
+  section: 11.3 排烟
+  clause_no: 11.3.2
+  text: 设置机械排烟系统的场所应结合该场所的空间特性和功能分区划分防烟分区。防烟分区及其分隔应满足有效蓄积烟气和阻止烟气向相邻防烟分区蔓延的要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#11.3.3
+  standard_code: GB 55036-2022
+  chapter: 11 防烟与排烟系统
+  section: 11.3 排烟
+  clause_no: 11.3.3
+  text: 机械排烟系统应符合下列规定：1 沿水平方向布置时，应按不同防火分区独立设置；2 建筑高度大于50m的公共建筑和工业建筑、建筑高度大于100m的住宅建筑，其机械排烟系统应竖向分段独立设置，且公共建筑和工业建筑中每段的系统服务高度应小于或等于50m，住宅建筑中每段的系统服务高度应小于或等于100m。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 机械排烟系统
+    conditions:
+    - 第1款：沿水平方向布置时
+    - 第2款：建筑高度大于50m的公共建筑和工业建筑、建筑高度大于100m的住宅建筑
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 独立设置于
+    unit: m
+    condition: null
+    min_value: 100.0
+    max_value: 100.0
+  - name: 服务高度
+    unit: m
+    condition: null
+    min_value: null
+    max_value: 50.0
+  - name: 服务高度
+    unit: m
+    condition: null
+    min_value: null
+    max_value: 100.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#11.3.4
+  standard_code: GB 55036-2022
+  chapter: 11 防烟与排烟系统
+  section: ''
+  clause_no: 11.3.4
+  text: 兼作排烟的通风或空气调节系统，其性能应满足机械排烟系统的要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#11.3.5
+  standard_code: GB 55036-2022
+  chapter: 11 防烟与排烟系统
+  section: ''
+  clause_no: 11.3.5
+  text: 下列部位应设置排烟防火阀，排烟防火阀应具有在280℃时自行关闭和联锁关闭相应排烟风机、补风机的功能：段上；个排烟系统负担多个防烟分区的排烟支管上；排烟管道穿越防火分区处。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#11.3.6
+  standard_code: GB 55036-2022
+  chapter: 11 防烟与排烟系统
+  section: ''
+  clause_no: 11.3.6
+  text: 除地上建筑的走道或地上建筑面积小于500m²的房间外，设置排烟系统的场所应能直接从室外引人空气补风，且补风量和补风口的风速应满足排烟系统有效排烟的要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 设置排烟系统的场所（补风）
+    conditions:
+    - 设置排烟系统的场所
+    exceptions:
+    - 地上建筑的走道或地上建筑面积小于500m²的房间
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 上建筑面积
+    unit: m²
+    condition: null
+    min_value: null
+    max_value: 500.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#12.0.1
+  standard_code: GB 55036-2022
+  chapter: 12 火灾自动报警系统
+  section: ''
+  clause_no: 12.0.1
+  text: 火灾自动报警系统应设置自动和手动触发报警装置，系统应具有火灾自动探测报警或人工辅助报警控制相关系统设备应急启动并接收其动作反馈信号的功能。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#12.0.2
+  standard_code: GB 55036-2022
+  chapter: 12 火灾自动报警系统
+  section: ''
+  clause_no: 12.0.2
+  text: 火灾自动报警系统各设备之间应具有兼容的通信接口和通信协议。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#12.0.3
+  standard_code: GB 55036-2022
+  chapter: 12 火灾自动报警系统
+  section: ''
+  clause_no: 12.0.3
+  text: 火灾报警区域的划分应满足相关受控系统联动控制的工作要求，火灾探测区域的划分应满足确定火灾报警部位的工作要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#12.0.4
+  standard_code: GB 55036-2022
+  chapter: 12 火灾自动报警系统
+  section: ''
+  clause_no: 12.0.4
+  text: 火灾自动报警系统总线上应设置总线短路隔离器，每只总线短路隔离器保护的火灾探测器、手动火灾报警按钮和模块等设备的总数不应大于32点。总线在穿越防火分区处应设置总线短路隔离器。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#12.0.5
+  standard_code: GB 55036-2022
+  chapter: 12 火灾自动报警系统
+  section: ''
+  clause_no: 12.0.5
+  text: 火灾自动报警系统应设置火灾声 光警报器。火灾声。光警报器应符合下列规定。1,火灾声 光警报器的设置应满足人员及时接受火警信号的要求.每个报警区域内的火灾警报器的声压级应高于背景噪声15dB.且不应低于60dB。2,在确认火灾后。系统应能启动所有火灾声.光警报器.3,系统应同时启动 停止所有火灾声警报器工作。4 具有语音提示功能的火灾声警报器应具有语音同步的功能。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 声压级
+    unit: d
+    condition: null
+    min_value: 15.0
+    max_value: null
+  - name: 未识别对象
+    unit: d
+    condition: null
+    min_value: 60.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#12.0.6
+  standard_code: GB 55036-2022
+  chapter: 12 火灾自动报警系统
+  section: ''
+  clause_no: 12.0.6
+  text: 火灾探测器的选择应满足设置场所火灾初期特征参数的探测报警要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#12.0.7
+  standard_code: GB 55036-2022
+  chapter: 12 火灾自动报警系统
+  section: ''
+  clause_no: 12.0.7
+  text: 手动报警按钮的设置应满足人员快速报警的要求，每个防火分区或楼层应至少设置1个手动火灾报警按钮。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#12.0.8
+  standard_code: GB 55036-2022
+  chapter: 12 火灾自动报警系统
+  section: ''
+  clause_no: 12.0.8
+  text: 除消防控制室设置的火灾报警控制器和消防联动控制器外，每台控制器直接连接的火灾探测器、手动报警按钮和模块等设备不应跨越避难层。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 火灾报警控制器和消防联动控制器（每台控制器直接连接的设备）
+    conditions: []
+    exceptions:
+    - 消防控制室设置的火灾报警控制器和消防联动控制器
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#12.0.9
+  standard_code: GB 55036-2022
+  chapter: 12 火灾自动报警系统
+  section: ''
+  clause_no: 12.0.9
+  text: 集中报警系统和控制中心报警系统应设置消防应急广播。具有消防应急广播功能的多用途公共广播系统，应具有强制切入消防应急广播的功能。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#12.0.10
+  standard_code: GB 55036-2022
+  chapter: 12 火灾自动报警系统
+  section: ''
+  clause_no: 12.0.10
+  text: 消防控制室内应设置消防专用电话总机和可直接报火警的外线电话，消防专用电话网络应为独立的消防通信系统。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#12.0.11
+  standard_code: GB 55036-2022
+  chapter: 12 火灾自动报警系统
+  section: ''
+  clause_no: 12.0.11
+  text: 消防联动控制应符合下列规定：信号应为两个独立的报警触发装置报警信号的“与”逻辑组合；备发出联动控制信号，并接受其联动反馈信号；动控制信号匹配。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#12.0.12
+  standard_code: GB 55036-2022
+  chapter: 12 火灾自动报警系统
+  section: ''
+  clause_no: 12.0.12
+  text: 联动控制模块严禁设置在配电柜（箱）内，一个报警区域内的模块不应控制其他报警区域的设备。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 严禁
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#12.0.13
+  standard_code: GB 55036-2022
+  chapter: 12 火灾自动报警系统
+  section: ''
+  clause_no: 12.0.13
+  text: 可燃气体探测报警系统应独立组成，可燃气体探测器不应直接接入火灾报警控制器的报警总线。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#12.0.14
+  standard_code: GB 55036-2022
+  chapter: 12 火灾自动报警系统
+  section: ''
+  clause_no: 12.0.14
+  text: 电气火灾监控系统应独立组成，电气火灾监控探测器的设置不应影响所在场所供配电系统的正常工作。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#12.0.15
+  standard_code: GB 55036-2022
+  chapter: 12 火灾自动报警系统
+  section: ''
+  clause_no: 12.0.15
+  text: 火灾自动报警系统应单独布线，相同用途的导线颜色应一致，且系统内不同电压等级、不同电流类别的线路应敷设在不同线管内或同一线槽的不同槽孔内。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#12.0.16
+  standard_code: GB 55036-2022
+  chapter: 12 火灾自动报警系统
+  section: ''
+  clause_no: 12.0.16
+  text: 火灾自动报警系统的供电线路、消防联动控制线路应采用燃烧性能不低于B2级的耐火铜芯电线电缆，报警总线、消防应急广播和消防专用电话等传输线路应采用燃烧性能不低于B2级的铜芯电线电缆。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#12.0.17
+  standard_code: GB 55036-2022
+  chapter: 12 火灾自动报警系统
+  section: ''
+  clause_no: 12.0.17
+  text: 火灾自动报警系统中控制与显示类设备的主电源应直接与消防电源连接，不应使用电源插头。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+- id: GB 55036-2022#12.0.18
+  standard_code: GB 55036-2022
+  chapter: 12 火灾自动报警系统
+  section: ''
+  clause_no: 12.0.18
+  text: 火灾自动报警系统设备的防护等级应满足在设置场所环境条件下正常工作的要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 消防设施设计
+  conflicts: []
+executable_rules:
+- rule_id: R_GB550362022_3_0_2_1
+  source_clause: GB 55036-2022#3.0.2
+  rule_type: validation
+  when:
+  - activity_type == '消防设施设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  - system_type == '低压消防给水系统'
+  then:
+    type: threshold
+    param: 系统工作压力
+    operator: '>='
+    value: 0.6
+    unit: MPa
+  source_text: 低压消防给水系统的系统工作压力应大于或等于0.60MPa。
+  table_source: null
+  auto_generated: false
+  note: 方案A模式①简单阈值；依据《建筑规范数值关系运算的结构化表达方案对比与建议.md》§五模板，2026-09-08人工精修（回源建标库文本核验）
+- rule_id: R_GB550362022_3_0_2_2
+  source_clause: GB 55036-2022#3.0.2
+  rule_type: validation
+  when:
+  - activity_type == '消防设施设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  - system_type IN ['高压消防给水系统', '临时高压消防给水系统']
+  then:
+    type: conditional
+    branches:
+    - when:
+        supply_mode: 高位消防水池/水塔供水
+      then:
+        type: ref
+        param: 高位消防水池、水塔的最大静压
+        unit: MPa
+    - when:
+        supply_mode: 市政给水管网直接供水
+      then:
+        type: ref
+        param: 市政给水管网的工作压力
+        unit: MPa
+    - when:
+        supply_mode: 高位消防水箱稳压
+      then:
+        type: arithmetic
+        operator: +
+        operands:
+        - ref: 消防水泵零流量时的压力
+          unit: MPa
+        - ref: 消防水泵吸水口的最大静压
+          unit: MPa
+        result_unit: MPa
+    - when:
+        supply_mode: 稳压泵稳压
+      then:
+        type: extreme
+        function: max
+        candidates:
+        - type: arithmetic
+          operator: +
+          operands:
+          - ref: 消防水泵零流量时的水压
+            unit: MPa
+          - ref: 消防水泵吸水口的最大静压
+            unit: MPa
+        - ref: 稳压泵在维持消防给水系统压力时的压力
+          unit: MPa
+        compare:
+          operator: '>='
+          param: 系统工作压力
+          unit: MPa
+  source_text: 高压和临时高压消防给水系统的系统工作压力应符合下列规定：1 对于采用高位消防水池、水塔供水的高压消防给水系统，应为高位消防水池、水塔的最大静压；2 对于采用市政给水管网直接供水的高压消防给水系统，应根据市政给水管网的工作压力确定；3 对于采用高位消防水箱稳压的临时高压消防给水系统，应为消防水泵零流量时的压力与消防水泵吸水口的最大静压之和；4 对于采用稳压泵稳压的临时高压消防给水系统，应为消防水泵零流量时的水压与消防水泵吸水口的最大静压之和、稳压泵在维持消防给水系统压力时的压力两者的较大值。
+  table_source: null
+  auto_generated: false
+  note: 方案A模式④条件分支 + ③算术组合 + ②多值取极值（嵌套示范）；依据《建筑规范数值关系运算的结构化表达方案对比与建议.md》§五模板，2026-09-08人工精修（回源建标库文本核验）
+- rule_id: R_GB550362022_3_0_8_1
+  source_clause: GB 55036-2022#3.0.8
+  rule_type: validation
+  when:
+  - activity_type == '消防设施设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 有效容积
+    unit: m²
+    condition: null
+    min_value: 50.0
+  source_text: 消防水池应符合下列规定：用水量要求，当消防水池采用两路消防供水且在火灾中连续补水能满足消防用水量要求时，在仅设置室内消火栓系统的情况下，有效容积应大于或等于50m²，其他情况下应大于或等于100m"；防用水量不作他用的技术措施；全部利用，水池的最低有效水位或消防水泵吸水口的淹没深
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550362022_3_0_8_2
+  source_clause: GB 55036-2022#3.0.8
+  rule_type: validation
+  when:
+  - activity_type == '消防设施设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 他情况下
+    unit: m
+    condition: null
+    min_value: 100.0
+  source_text: 消防水池应符合下列规定：用水量要求，当消防水池采用两路消防供水且在火灾中连续补水能满足消防用水量要求时，在仅设置室内消火栓系统的情况下，有效容积应大于或等于50m²，其他情况下应大于或等于100m"；防用水量不作他用的技术措施；全部利用，水池的最低有效水位或消防水泵吸水口的淹没深
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550362022_3_0_9_1
+  source_clause: GB 55036-2022#3.0.9
+  rule_type: validation
+  when:
+  - activity_type == '消防设施设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 总建筑面积
+    unit: m²
+    condition: null
+    min_value: 10000.0
+  source_text: 高层民用建筑、3层及以上单体总建筑面积大于10000m²的其他公共建筑，当室内采用临时高压消防给水系统时，应设置高位消防水箱。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550362022_3_0_12_1
+  source_clause: GB 55036-2022#3.0.12
+  rule_type: validation
+  when:
+  - activity_type == '消防设施设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 接受火警后
+    unit: m
+    condition: null
+    min_value: 5.0
+    max_value: 5.0
+  source_text: 消防水泵控制柜应位于消防水泵控制室或消防水泵房内，其性能应符合下列规定：应低于IP30；位于消防水泵房内时，其防护等级不应低于IP55。泵时，消防水泵应能在接受火警后5min内进人正常运行状态。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550362022_4_0_4_1
+  source_clause: GB 55036-2022#4.0.4
+  rule_type: validation
+  when:
+  - activity_type == '消防设施设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 自动喷水灭火系统持续喷水时间（局部应用系统）
+    unit: h
+    condition: null
+    min_value: 0.5
+    max_value: null
+  source_text: 自动喷水灭火系统的持续喷水时间应符合下列规定：大于或等于0.5h；用于防护冷却时，应大于或等于设计所需防火冷却时间；用于防火分隔时，应大于或等于防火分隔处的设计耐火时间。洒水喷头应符合下列规定：
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+  _rule_synced: 20260908-133903
+- rule_id: R_GB550362022_5_0_2_1
+  source_clause: GB 55036-2022#5.0.2
+  rule_type: validation
+  when:
+  - activity_type == '消防设施设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 系统应使用
+    unit: '%'
+    condition: null
+    min_value: 3.0
+    max_value: 3.0
+  source_text: 保护场所中所用泡沫液应与灭火系统的类型、扑救的可燃物性质、供水水质等相适应，并应符合下列规定：沫灭火系统，应使用氟蛋白或水成膜泡沫液；灾的低倍数泡沫灭火系统，应使用抗溶水成膜、抗溶氟蛋白或低黏度抗溶氟蛋白泡沫液，沫-水喷淋系统泡沫枪系统、泡沫炮系统，应使用3%型水成膜泡沫液；沫液
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550362022_5_0_3_1
+  source_clause: GB 55036-2022#5.0.3
+  rule_type: validation
+  when:
+  - activity_type == '消防设施设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 上喷射系统
+    unit: m
+    condition: null
+    min_value: 18.0
+  source_text: 体本固定顶储罐，应为液上喷射系统；大于18m的非水溶性可燃液体固定顶储罐、水溶性可燃液体立式储罐，当设置泡沫炮时，泡沫炮应为辅助灭火设施；泡沫枪时，泡沫枪应为辅助灭火设施。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550362022_5_0_6_1
+  source_clause: GB 55036-2022#5.0.6
+  rule_type: validation
+  when:
+  - activity_type == '消防设施设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 象的时间
+    unit: m
+    condition: null
+    max_value: 5.0
+  source_text: 储罐或储罐区固定式低倍数泡沫灭火系统，自泡沫消防水泵启动至泡沫混合液或泡沫输送到保护对象的时间应小于或等于5min。当储罐或储罐区设置泡沫站时，泡沫站应符合下列规定：其他火灾及爆炸危险区域内；体储罐罐壁的水平距离应大于或等于20m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550362022_5_0_6_2
+  source_clause: GB 55036-2022#5.0.6
+  rule_type: validation
+  when:
+  - activity_type == '消防设施设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 水平距离
+    unit: m
+    condition: null
+    min_value: 20.0
+  source_text: 储罐或储罐区固定式低倍数泡沫灭火系统，自泡沫消防水泵启动至泡沫混合液或泡沫输送到保护对象的时间应小于或等于5min。当储罐或储罐区设置泡沫站时，泡沫站应符合下列规定：其他火灾及爆炸危险区域内；体储罐罐壁的水平距离应大于或等于20m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550362022_6_0_7_1
+  source_clause: GB 55036-2022#6.0.7
+  rule_type: validation
+  when:
+  - activity_type == '消防设施设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 层等场所
+    unit: m
+    condition: null
+    min_value: 30.0
+  source_text: 细水雾灭火系统的持续喷雾时间应符合下列规定：库、资料库、档案库、文物库、电缆隧道和电缆夹层等场所，应大于或等于30min；滑油站、燃油锅炉房等含有可燃液体的机械设备间，应大于或等于 20min;应大于或等于15s，且冷却水持续喷放时间应大于或等于15min。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550362022_6_0_7_2
+  source_clause: GB 55036-2022#6.0.7
+  rule_type: validation
+  when:
+  - activity_type == '消防设施设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 械设备间
+    unit: m
+    condition: null
+    min_value: 20.0
+  source_text: 细水雾灭火系统的持续喷雾时间应符合下列规定：库、资料库、档案库、文物库、电缆隧道和电缆夹层等场所，应大于或等于30min；滑油站、燃油锅炉房等含有可燃液体的机械设备间，应大于或等于 20min;应大于或等于15s，且冷却水持续喷放时间应大于或等于15min。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550362022_6_0_7_3
+  source_clause: GB 55036-2022#6.0.7
+  rule_type: validation
+  when:
+  - activity_type == '消防设施设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 喷放时间
+    unit: m
+    condition: null
+    min_value: 15.0
+  source_text: 细水雾灭火系统的持续喷雾时间应符合下列规定：库、资料库、档案库、文物库、电缆隧道和电缆夹层等场所，应大于或等于30min；滑油站、燃油锅炉房等含有可燃液体的机械设备间，应大于或等于 20min;应大于或等于15s，且冷却水持续喷放时间应大于或等于15min。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550362022_7_0_6_1
+  source_clause: GB 55036-2022#7.0.6
+  rule_type: validation
+  when:
+  - activity_type == '消防设施设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 沫的时间
+    unit: m
+    condition: null
+    max_value: 5.0
+  source_text: 固定水炮、泡沫炮灭火系统从启动至炮口喷射水或泡沫的时间应小于或等于5min，固定干粉炮灭火系统从启动至炮口喷射干粉的时间应小于或等于2min。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550362022_7_0_6_2
+  source_clause: GB 55036-2022#7.0.6
+  rule_type: validation
+  when:
+  - activity_type == '消防设施设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 粉的时间
+    unit: m
+    condition: null
+    max_value: 2.0
+  source_text: 固定水炮、泡沫炮灭火系统从启动至炮口喷射水或泡沫的时间应小于或等于5min，固定干粉炮灭火系统从启动至炮口喷射干粉的时间应小于或等于2min。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550362022_7_0_7_1
+  source_clause: GB 55036-2022#7.0.7
+  rule_type: validation
+  when:
+  - activity_type == '消防设施设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 固定水炮灭火系统连续供水时间
+    unit: h
+    condition: null
+    min_value: 1.0
+    max_value: null
+  source_text: 固定水炮灭火系统的水炮射程、供给强度、流量、连续供水时间等应符合下列规定：1.0h；对于室外火灾，应大于或等于2.0h。和灭火、控火的要求。启的水炮流量之和、灭火用水计算总流量与冷却用水计算总流量之和两者的较大值。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+  _rule_synced: 20260908-133903
+- rule_id: R_GB550362022_7_0_7_2
+  source_clause: GB 55036-2022#7.0.7
+  rule_type: validation
+  when:
+  - activity_type == '消防设施设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 室外火灾
+    unit: h
+    condition: null
+    min_value: 2.0
+  source_text: 固定水炮灭火系统的水炮射程、供给强度、流量、连续供水时间等应符合下列规定：1.0h；对于室外火灾，应大于或等于2.0h。和灭火、控火的要求。启的水炮流量之和、灭火用水计算总流量与冷却用水计算总流量之和两者的较大值。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550362022_8_0_3_1
+  source_clause: GB 55036-2022#8.0.3
+  rule_type: validation
+  when:
+  - activity_type == '消防设施设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 度的倍且
+    unit: '%'
+    condition: null
+    min_value: 34.0
+  source_text: 全淹没气体灰火系统的设计灭火浓度或设计惰化浓度应符合下列规定：浓度的1.7倍，且应大于或等于34%（体积百分比浓度）；浓度的1.3倍，设计惰化浓度应大于或等于惰化浓度的1.1倍；于人体的有毒性反应浓度。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550362022_9_0_6_1
+  source_clause: GB 55036-2022#9.0.6
+  rule_type: validation
+  when:
+  - activity_type == '消防设施设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 单孔直径
+    unit: mm
+    condition: null
+    min_value: 6.0
+  source_text: 干粉灭火系统的管道及附件、干粉储存容器和驱动气体储.19:瓶的性能应满足在系统最大工作压力和相应环境条件下正常工作的要求，喷头的单孔直径应大于或等于6mm。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550362022_11_2_1_1
+  source_clause: GB 55036-2022#11.2.1
+  rule_type: validation
+  when:
+  - activity_type == '消防设施设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 统建筑高度
+    unit: m
+    condition: null
+    min_value: 100.0
+  source_text: 下列建筑的防烟楼梯间及其前室、消防电梯的前室和合用前室应设置机械加压送风系统：建筑高度大于100m的住宅；建筑高度大于50m的公共建筑；建筑高度大于50m的工业建筑。机械加压送风系统应符合下列规定：
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550362022_11_2_1_3
+  source_clause: GB 55036-2022#11.2.1
+  rule_type: validation
+  when:
+  - activity_type == '消防设施设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 筑建筑高度
+    unit: m
+    condition: null
+    min_value: 50.0
+  source_text: 下列建筑的防烟楼梯间及其前室、消防电梯的前室和合用前室应设置机械加压送风系统：建筑高度大于100m的住宅；建筑高度大于50m的公共建筑；建筑高度大于50m的工业建筑。机械加压送风系统应符合下列规定：
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550362022_11_2_2_1
+  source_clause: GB 55036-2022#11.2.2
+  rule_type: validation
+  when:
+  - activity_type == '消防设施设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 务高度
+    unit: m
+    condition: null
+    min_value: 100.0
+  source_text: 机械加压送风系统应符合下列规定：1 对于采用合用前室的防烟楼梯间，当楼梯间和前室均设置机械加压送风系统时，楼梯间、合用前室的机械加压送风系统应分别独立设置；2 对于在梯段之间采用防火隔墙隔开的剪刀楼梯间，当楼梯间和前室（包括共用前室和合用前室）均设置机械加压送风系统时，每个楼梯间、共用前室或合用前室的机械加压送风系统均应分别独立设置；3 对于建筑高度大于100m的建筑中的防烟楼梯间及其前室，其机械加压送风系统应竖向分段独立设置，且每段的系统服务高度不应大于100m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550362022_11_2_3_1
+  source_clause: GB 55036-2022#11.2.3
+  rule_type: validation
+  when:
+  - activity_type == '消防设施设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 具有面积
+    unit: m
+    condition: null
+    min_value: 2.0
+  source_text: 采用自然通风方式防烟的防烟楼梯间前室、消防电梯前室应具有面积大于或等于2.0m的可开启外窗或开口，共用前室和合用前室应具有面积大于或等于3.0m²的可开启外窗或开口。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550362022_11_2_3_2
+  source_clause: GB 55036-2022#11.2.3
+  rule_type: validation
+  when:
+  - activity_type == '消防设施设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 具有面积
+    unit: m²
+    condition: null
+    min_value: 3.0
+  source_text: 采用自然通风方式防烟的防烟楼梯间前室、消防电梯前室应具有面积大于或等于2.0m的可开启外窗或开口，共用前室和合用前室应具有面积大于或等于3.0m²的可开启外窗或开口。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550362022_11_2_4_1
+  source_clause: GB 55036-2022#11.2.4
+  rule_type: validation
+  when:
+  - activity_type == '消防设施设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 面积
+    unit: '%'
+    condition: null
+    min_value: 2.0
+  source_text: 采用自然通风方式防烟的避难层中的避难区，应具有不同朝向的可开启外窗或开口，其可开启有效面积应大于或等于避难区地面面积的2%,且每个朝向的面积均应大于或等于2.0m²。避难间应至少有一侧外墙具有可开启外窗，其可开启有效面积应大于或等于该避难间地面面积的2%，并应大于或等于2.0m²
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550362022_11_2_4_2
+  source_clause: GB 55036-2022#11.2.4
+  rule_type: validation
+  when:
+  - activity_type == '消防设施设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 面积均
+    unit: m²
+    condition: null
+    min_value: 2.0
+  source_text: 采用自然通风方式防烟的避难层中的避难区，应具有不同朝向的可开启外窗或开口，其可开启有效面积应大于或等于避难区地面面积的2%,且每个朝向的面积均应大于或等于2.0m²。避难间应至少有一侧外墙具有可开启外窗，其可开启有效面积应大于或等于该避难间地面面积的2%，并应大于或等于2.0m²
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550362022_11_2_4_3
+  source_clause: GB 55036-2022#11.2.4
+  rule_type: validation
+  when:
+  - activity_type == '消防设施设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 积
+    unit: '%'
+    condition: null
+    min_value: 2.0
+  source_text: 采用自然通风方式防烟的避难层中的避难区，应具有不同朝向的可开启外窗或开口，其可开启有效面积应大于或等于避难区地面面积的2%,且每个朝向的面积均应大于或等于2.0m²。避难间应至少有一侧外墙具有可开启外窗，其可开启有效面积应大于或等于该避难间地面面积的2%，并应大于或等于2.0m²
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550362022_11_2_4_4
+  source_clause: GB 55036-2022#11.2.4
+  rule_type: validation
+  when:
+  - activity_type == '消防设施设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 面积的并
+    unit: m²
+    condition: null
+    min_value: 2.0
+  source_text: 采用自然通风方式防烟的避难层中的避难区，应具有不同朝向的可开启外窗或开口，其可开启有效面积应大于或等于避难区地面面积的2%,且每个朝向的面积均应大于或等于2.0m²。避难间应至少有一侧外墙具有可开启外窗，其可开启有效面积应大于或等于该避难间地面面积的2%，并应大于或等于2.0m²
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550362022_11_3_3_1
+  source_clause: GB 55036-2022#11.3.3
+  rule_type: validation
+  when:
+  - activity_type == '消防设施设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 独立设置于
+    unit: m
+    condition: null
+    min_value: 100.0
+    max_value: 100.0
+  source_text: 机械排烟系统应符合下列规定：沿水平方向布置时，应按不同防火分区独立设置于100m的住宅建筑，其机械排烟系统应竖向分段独立设置，且公共建筑和工业建筑中每段的系统服务高度应小于或等于50m，住宅建筑中每段的系统服务高度应小于或等于100m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550362022_11_3_3_2
+  source_clause: GB 55036-2022#11.3.3
+  rule_type: validation
+  when:
+  - activity_type == '消防设施设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 服务高度
+    unit: m
+    condition: null
+    max_value: 50.0
+  source_text: 机械排烟系统应符合下列规定：沿水平方向布置时，应按不同防火分区独立设置于100m的住宅建筑，其机械排烟系统应竖向分段独立设置，且公共建筑和工业建筑中每段的系统服务高度应小于或等于50m，住宅建筑中每段的系统服务高度应小于或等于100m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550362022_11_3_3_3
+  source_clause: GB 55036-2022#11.3.3
+  rule_type: validation
+  when:
+  - activity_type == '消防设施设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 服务高度
+    unit: m
+    condition: null
+    max_value: 100.0
+  source_text: 机械排烟系统应符合下列规定：沿水平方向布置时，应按不同防火分区独立设置于100m的住宅建筑，其机械排烟系统应竖向分段独立设置，且公共建筑和工业建筑中每段的系统服务高度应小于或等于50m，住宅建筑中每段的系统服务高度应小于或等于100m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550362022_11_3_6_1
+  source_clause: GB 55036-2022#11.3.6
+  rule_type: validation
+  when:
+  - activity_type == '消防设施设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 上建筑面积
+    unit: m²
+    condition: null
+    max_value: 500.0
+  source_text: '除地上建筑的走道或地上建筑面积小于500m²的房间外，设置排烟系统的场所应能直接从室外引人空气补风，且补风量和补风口的风速应满足排烟系统有效排烟的要求。:25:'
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550362022_12_0_5_1
+  source_clause: GB 55036-2022#12.0.5
+  rule_type: validation
+  when:
+  - activity_type == '消防设施设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 声压级
+    unit: d
+    condition: null
+    min_value: 15.0
+  source_text: 火灾自动报警系统应设置火灾声、光警报器，火灾声、光警报器应符合下列规定：要求，每个报警区域内的火灾警报器的声压级应高于背景噪声15dB，且不应低于60dB；系统应同时启动、停止所有火灾声警报器工作；具有语音提示功能的火灾声警报器应具有语音同步的
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+extraction_notes:
+- 全文强制性工程建设规范，全部条文必须严格执行（2023-03-01 实施）。台账已登记。

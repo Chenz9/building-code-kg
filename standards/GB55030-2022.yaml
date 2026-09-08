@@ -1,0 +1,5329 @@
+standard:
+  code: GB 55030-2022
+  name: 建筑与市政工程防水通用规范
+  name_note: null
+  version: '2022'
+  status: 现行
+  is_abolished: false
+  effective_date: '2023-04-01'
+  abolished_date: null
+  superseded_by: null
+  standard_category: 国家标准
+  domain:
+  - 防水
+  - 通用规范
+  - 全文强制
+  region_scope: 全国
+  region_codes: []
+  has_mandatory_clauses: true
+  mandatory_clause_count: 114
+  mandatory_note: null
+  total_clauses: 114
+  related_standards:
+  - code: GB 50108-2008
+    relationship: 废止其相关强条效力
+  - code: GB 50345-2012
+    relationship: 废止其相关强条效力
+  - code: JGJ 155-2013
+    relationship: 废止其相关强条效力
+  - code: JGJ 230-2010
+    relationship: 废止其相关强条效力
+  clauses:
+  - GB 55030-2022#1.0.1
+  - GB 55030-2022#1.0.2
+  - GB 55030-2022#1.0.3
+  - GB 55030-2022#2.0.1
+  - GB 55030-2022#2.0.3
+  - GB 55030-2022#2.0.5
+  - GB 55030-2022#2.0.7
+  - GB 55030-2022#3.1.3
+  - GB 55030-2022#3.2.1
+  - GB 55030-2022#3.2.2
+  - GB 55030-2022#3.2.3
+  - GB 55030-2022#3.3.1
+  - GB 55030-2022#3.3.2
+  - GB 55030-2022#3.3.3
+  - GB 55030-2022#3.3.4
+  - GB 55030-2022#3.3.5
+  - GB 55030-2022#3.3.6
+  - GB 55030-2022#3.3.74
+  - GB 55030-2022#3.3.8
+  - GB 55030-2022#3.3.9
+  - GB 55030-2022#3.3.10
+  - GB 55030-2022#3.3.11
+  - GB 55030-2022#3.3.12
+  - GB 55030-2022#3.4.3
+  - GB 55030-2022#3.5.1
+  - GB 55030-2022#3.5.2
+  - GB 55030-2022#3.6.1
+  - GB 55030-2022#4.1.1
+  - GB 55030-2022#4.1.4
+  - GB 55030-2022#4.1.7
+  - GB 55030-2022#4.2.2
+  - GB 55030-2022#4.2.6
+  - GB 55030-2022#4.4.2
+  - GB 55030-2022#4.4.3
+  - GB 55030-2022#4.4.6
+  - GB 55030-2022#4.4.7
+  - GB 55030-2022#4.4.8
+  - GB 55030-2022#4.4.9
+  - GB 55030-2022#4.5.1
+  - GB 55030-2022#4.5.2
+  - GB 55030-2022#4.5.3
+  - GB 55030-2022#4.5.4
+  - GB 55030-2022#4.5.5
+  - GB 55030-2022#4.5.6
+  - GB 55030-2022#4.5.7
+  - GB 55030-2022#4.6.1
+  - GB 55030-2022#4.6.2
+  - GB 55030-2022#4.6.3
+  - GB 55030-2022#4.6.4
+  - GB 55030-2022#4.6.7
+  - GB 55030-2022#4.6.8
+  - GB 55030-2022#4.7.1
+  - GB 55030-2022#4.7.2
+  - GB 55030-2022#4.7.3
+  - GB 55030-2022#4.7.4
+  - GB 55030-2022#4.7.5
+  - GB 55030-2022#4.8.1
+  - GB 55030-2022#4.8.2
+  - GB 55030-2022#4.8.3
+  - GB 55030-2022#4.8.4
+  - GB 55030-2022#4.8.5
+  - GB 55030-2022#5.1.1
+  - GB 55030-2022#5.1.3
+  - GB 55030-2022#5.1.4
+  - GB 55030-2022#5.1.5
+  - GB 55030-2022#5.1.7
+  - GB 55030-2022#5.1.8
+  - GB 55030-2022#5.1.10
+  - GB 55030-2022#5.1.11
+  - GB 55030-2022#5.1.13
+  - GB 55030-2022#5.2.1
+  - GB 55030-2022#5.2.2
+  - GB 55030-2022#5.2.3
+  - GB 55030-2022#5.2.6
+  - GB 55030-2022#5.3.1
+  - GB 55030-2022#5.3.2
+  - GB 55030-2022#5.3.3
+  - GB 55030-2022#5.3.4
+  - GB 55030-2022#5.3.5
+  - GB 55030-2022#5.3.6
+  - GB 55030-2022#5.4.1
+  - GB 55030-2022#5.4.3
+  - GB 55030-2022#5.4.4
+  - GB 55030-2022#5.4.5
+  - GB 55030-2022#5.5.1
+  - GB 55030-2022#5.5.3
+  - GB 55030-2022#5.5.4
+  - GB 55030-2022#5.6.1
+  - GB 55030-2022#5.7.2
+  - GB 55030-2022#5.7.3
+  - GB 55030-2022#5.8.3
+  - GB 55030-2022#5.8.4
+  - GB 55030-2022#6.0.1
+  - GB 55030-2022#6.0.5
+  - GB 55030-2022#6.0.7
+  - GB 55030-2022#6.0.8
+  - GB 55030-2022#6.0.4
+  - GB 55030-2022#6.0.10
+  - GB 55030-2022#6.0.11
+  - GB 55030-2022#6.0.12
+  - GB 55030-2022#6.0.13
+  - GB 55030-2022#7.1.1
+  - GB 55030-2022#7.1.2
+  - GB 55030-2022#7.1.3
+  - GB 55030-2022#7.1.4
+  - GB 55030-2022#7.2.1
+  - GB 55030-2022#7.2.2
+  - GB 55030-2022#7.2.3
+  - GB 55030-2022#7.2.4
+  - GB 55030-2022#7.2.5
+  - GB 55030-2022#7.3.1
+  - GB 55030-2022#7.3.2
+  - GB 55030-2022#7.3.3
+  - GB 55030-2022#7.3.4
+  schema_version: v2.1
+  last_reviewed_date: '2026-09-07'
+clauses:
+- id: GB 55030-2022#1.0.1
+  standard_code: GB 55030-2022
+  chapter: 1 总则
+  section: ''
+  clause_no: 1.0.1
+  text: 为规范建筑与市政工程防水性能，保障人身健康和生命财产安全、生态环境安全、防水工程质量，满足经济社会管理需要，依据有关法律、法规，制定本规范。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#1.0.2
+  standard_code: GB 55030-2022
+  chapter: 1 总则
+  section: ''
+  clause_no: 1.0.2
+  text: 建筑与市政工程防水必须执行本规范。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 必须
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#1.0.3
+  standard_code: GB 55030-2022
+  chapter: 1 总则
+  section: ''
+  clause_no: 1.0.3
+  text: 工程建设所采用的技术方法和措施是否符合本规范要求，由相关责任主体判定。其中，创新性的技术方法和措施，应进行论证并符合本规范中有关性能的要求住房城乡建饣
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#2.0.1
+  standard_code: GB 55030-2022
+  chapter: 2 基本规定
+  section: ''
+  clause_no: 2.0.1
+  text: 工程防水应遵循因地制宜、以防为主、防排结合综合治理的原则。2.0. 2工程防水设计工作年限应符合下列规定：地下工程防水设计工作年限不应低于工程结构设计工作年限；屋面工程防水设计工作年限不应低于20年；室内工程防水设计工作年限不应低于25年；桥梁工程桥面防水设计工作年限不应低于桥面铺装设计工作年限；5非侵蚀性介质蓄水类工程内壁防水层设计工作年限不应低于10年。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#2.0.3
+  standard_code: GB 55030-2022
+  chapter: 2 基本规定
+  section: ''
+  clause_no: 2.0.3
+  text: 工程按其防水功能重要程度分为甲类V乙类和丙类，具体划分应符合
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables:
+  - table_id: 表2.0.3
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表2.0.3的规定。表2.0.3工程防水类别工程防水类别工程类型丙类对渗漏不敏感的物有人员活动的民用建除甲类和丙类以外地下品、设备使用或贮存筑地下室，对渗漏敏感的建筑地下工程场所，不影响正常使的建筑地下工程用的建筑地下工程民用建筑和对渗漏敏除甲类和丙类以外对渗漏不敏感的工工程感的工业建筑屋面的建筑屋面业建筑屋面外墙民用建筑和对渗漏敏渗漏不影响正常使工程感的工业建筑外墙用的工业建筑外墙民用建筑和对渗漏敏室内感的工业建筑室内楼地工程面和墙面续表2.0.3工程防水类别工程类型甲类乙类丙类对渗漏不敏感的物地下对渗漏敏感的市政地除甲类和丙类以外品、设备使用或贮存下工程的市政地下工程场所，不影响正常使用的市政地下工程特大桥、大桥，城市快速路、主干路上的桥除甲类以外的城市道桥梁，交通量较大的城市桥梁工程；工程次干路上的桥梁，钢桥道路隧道工程面板桥梁建筑室内水池、对渗蓄水漏水敏感的室外游泳池除甲类和丙类以外对渗漏水无严格要类工和嬉水池。市政给水池的蓄水类工程求的蓄水类工程和污水池、侵蚀性介质贮液池等工程2.0. 4工程防水使用环境类别划分应符合表2.0.4的规定。表2.0. 4工程防水使用环境类别划分工程防水使用环境类别工程类型I类Ⅱ类抗浮设防水位标高与抗浮设防水位标地下地下结构板底标高高差高与地下结构板底H≥0m标高高差H<0m屋面400mm年降年降水量P>1300mm年降水量P<400mm工程水量P<1300mm外墙400mm≤年降年降水量P>1300mm年降水量P<400mm工程水量P<1300mm室内频繁遇水场合，或长偶发渗漏水可能造成间歇遇水场合工程期相对湿度RH≥90%明显损失的场合续表2.0.4工程防水使用环境类别工程类型I类Ⅱ类抗浮设防水位标高与抗浮设防水位标地下地下结构板底标高高差高与地下结构板底工程①H≥>0m标高高差H<0m严寒地区，使用化冰道桥盐地区，酸雨、盐雾等除I类环境外的工程不良气候地区的使用其他使用环境环境冻融环境，海洋、除除I类环境外，长期蓄水类除【类环境外，冰盐氯化物环境，化学浸水、长期湿润环境，工程天湿交替环境腐蚀环境非干湿交替的环境注：①仅适用于明挖法地下工程。
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#2.0.5
+  standard_code: GB 55030-2022
+  chapter: 2 基本规定
+  section: ''
+  clause_no: 2.0.5
+  text: 工程防水使用环境类别为Ⅱ类的明挖法地下工程，当该工程所在地年降水量大于400mm时，应按I类防水使用环境选用。2.0. 6工程防水等级应依据工程类别和工程防水使用环境类别分为一级、二级、三级。暗挖法地下工程防水等级应根据工程类别、工程地质条件和施工条件等因素确定，其他工程防水等级不应低于下列规定：1一级防水：I类、Ⅱ类防水使用环境下的甲类工程；I类防水使用环境下的乙类工程。2二级防水：Ⅲ类防水使用环境下的甲类工程；Ⅱ类防水使用环境下的乙类工程；I类防水使用环境下的丙类工程。3三级防水：Ⅲ类防水使用环境下的乙类工程；Ⅱ类、Ⅲ类防水使用环境下的丙类工程。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 地年降水量
+    unit: mm
+    condition: null
+    min_value: 400.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#2.0.7
+  standard_code: GB 55030-2022
+  chapter: 2 基本规定
+  section: ''
+  clause_no: 2.0.7
+  text: 工程使用的防水材料应满足耐久性要求，卷材防水层应满足接缝剥离强度和搭接缝不透水性要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#3.1.3
+  standard_code: GB 55030-2022
+  chapter: 3 材料工程要求
+  section: 3.1一般规定
+  clause_no: 3.1.3
+  text: 外露使用防水材料的燃烧性能等级不应低于B2级。3.2X防水混凝土
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#3.2.1
+  standard_code: GB 55030-2022
+  chapter: 3 材料工程要求
+  section: 3.1一般规定
+  clause_no: 3.2.1
+  text: 防水混凝土的施工配合比应通过试验确定，其强度等级不应低于C257试配混凝土的抗渗等级应比设计要求提高 0.2MPa。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#3.2.2
+  standard_code: GB 55030-2022
+  chapter: 3 材料工程要求
+  section: 3.1一般规定
+  clause_no: 3.2.2
+  text: 本条要求防水混凝土应采取减少开裂的技术措施.抗开裂的技术措施包括但不限于，采用优化级配和高品质的骨料,调整水泥及其他胶凝材料种类.细度及用量.使用外加剂 控制水胶比.用水量 等配合比设计，合理配筋.控制结构厚度、优化浇筑振捣工艺、减少结构内外温差及加强养护等。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#3.2.3
+  standard_code: GB 55030-2022
+  chapter: 3 材料工程要求
+  section: 3.1一般规定
+  clause_no: 3.2.3
+  text: 防水混凝土除应满足抗压、抗渗和抗裂要求外，尚应满足工程所处环境和工作条件的耐久性要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#3.3.1
+  standard_code: GB 55030-2022
+  chapter: 3 材料工程要求
+  section: 3.3防水卷材和防水涂料
+  clause_no: 3.3.1
+  text: 防水材料耐水性测试试验应按不低于23℃×14d的条件进行，试验后不应出现裂纹、分层、起泡和破碎等现象。当用于地下工程时，浸水试验条件不应低于23℃×7d，防水卷材吸水率不应大于4%；防水涂料与基层的粘结强度浸水后保持率不应小于80%，非固化橡胶沥青防水涂料应为内聚破坏。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 试验应按
+    unit: d
+    condition: null
+    min_value: null
+    max_value: 14.0
+  - name: 验条件
+    unit: d
+    condition: null
+    min_value: null
+    max_value: 7.0
+  - name: 吸水率
+    unit: '%'
+    condition: null
+    min_value: 4.0
+    max_value: null
+  - name: 水后保持率
+    unit: '%'
+    condition: null
+    min_value: 80.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#3.3.2
+  standard_code: GB 55030-2022
+  chapter: 3 材料工程要求
+  section: 3.3防水卷材和防水涂料
+  clause_no: 3.3.2
+  text: 沥青类材料的热老化测试试验应按不低于70℃×14d的条件进行，高分子类材料的热老化测试试验应按不低于80℃×14d的条件进行，试验后材料的低温柔性或低温弯折性温度升高不应超过热老化前标准值2℃。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 试验应按
+    unit: d
+    condition: null
+    min_value: null
+    max_value: 14.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#3.3.3
+  standard_code: GB 55030-2022
+  chapter: 3 材料工程要求
+  section: 3.3防水卷材和防水涂料
+  clause_no: 3.3.3
+  text: 外露使用防水材料的人工气候加速老化试验应采用氙弧灯进行，340nm波长处的累计辐照能量不应小于5040kJ/（m²：nm），外露单层使用防水卷材的累计辐照能量不应小于10080kJ/（m²nm)，试验后材料不应出现开裂、分层、起泡、粘结和孔洞等现象。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#3.3.4
+  standard_code: GB 55030-2022
+  chapter: 3 材料工程要求
+  section: 3.3防水卷材和防水涂料
+  clause_no: 3.3.4
+  text: 防水卷材接缝剥离强度应符合
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables:
+  - table_id: 表3.3.4
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表3.3.4的规定，热老化试验条件不应低于70℃×7d，浸水试验条件不应低于23℃×7d。表3.3.4防水卷材接缝剥离强度接缝剥离强度(N/mm)防水卷材类型搭接工艺无处理时热老化浸水≥1.2≥1.5≥>1.2聚合物改性沥青类防水卷材自粘、胶粘≥0.8≥0.8焊接≥3.0或卷材破坏合成高分子类防水卷材及塑自粘、胶粘≥1.0≥0.8≥0.8料防水板K≥0.5√胶带≥0.6≥0.5
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#3.3.5
+  standard_code: GB 55030-2022
+  chapter: 3 材料工程要求
+  section: 3.3防水卷材和防水涂料
+  clause_no: 3.3.5
+  text: 防水卷材搭接缝不透水性应符合
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables:
+  - table_id: 表3.3.5
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表3.3.5的规定，热老化试验条件不应低于 70℃×7d，浸水试验条件不应低于23℃×7d表3.3.5防水卷材搭接缝不透水性搭接缝不透水性防水卷材类型搭接工艺无处理时热老化浸水热熔聚合物改性沥青类防水卷材自粘、胶粘0.2MPa，30min不透水焊接合成高分子类防水卷材及塑料防水板自粘、胶粘、胶带
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#3.3.6
+  standard_code: GB 55030-2022
+  chapter: 3 材料工程要求
+  section: 3.3防水卷材和防水涂料
+  clause_no: 3.3.6
+  text: 用于混凝土桥面防水工程的防水材料与混凝土基层在23℃时的粘结强度不应小于0.25MPa。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#3.3.74
+  standard_code: GB 55030-2022
+  chapter: 3 材料工程要求
+  section: 3.3防水卷材和防水涂料
+  clause_no: 3.3.74
+  text: 钢桥面防水粘结层的材料性能应能保障在交通荷载、温度作用等疲劳荷载作用下的正常使用和耐久性要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#3.3.8
+  standard_code: GB 55030-2022
+  chapter: 3 材料工程要求
+  section: 3.3防水卷材和防水涂料
+  clause_no: 3.3.8
+  text: 耐根穿刺防水材料应通过耐根穿刺试验。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#3.3.9
+  standard_code: GB 55030-2022
+  chapter: 3 材料工程要求
+  section: 3.3防水卷材和防水涂料
+  clause_no: 3.3.9
+  text: 长期处于腐蚀性环境中的防水卷材或防水涂料，应通过腐蚀性介质耐久性试验。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#3.3.10
+  standard_code: GB 55030-2022
+  chapter: 3 材料工程要求
+  section: 3.3防水卷材和防水涂料
+  clause_no: 3.3.10
+  text: 卷材防水层最小厚度应符合
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables:
+  - table_id: 表3.3.10
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表3.3.10的规定。卷材防水层最小厚度表3.3.10卷材防水层最小厚度防水卷材类型(uu)热熔法施工聚合物改性防水卷材3.0聚合物热沥青粘结和胶粘法施工聚合物改性防水卷材3.0改性沥预铺反粘防水卷材（聚酯胎类）青类防3.0水卷材聚酯胎类自粘聚合物改性防水卷材(含湿铺)无胎类及高分子膜基1.5均质型、带纤维背衬型、织物内增强型1.2合成高双面复合型主体片材芯材0.5分子类塑料类1.2防水预铺反粘防水卷材卷材橡胶类1.5塑料防水板1.2
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#3.3.11
+  standard_code: GB 55030-2022
+  chapter: 3 材料工程要求
+  section: 3.3防水卷材和防水涂料
+  clause_no: 3.3.11
+  text: 反应型高分子类防水涂料、聚合物乳液类防水涂料和水性聚合物沥青类防水涂料等涂料防水层最小厚度不应小于1.5mm，热熔施工橡胶沥青类防水涂料防水层最小厚度不应小于 2.0mm。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 层最小厚度
+    unit: mm
+    condition: null
+    min_value: 1.5
+    max_value: null
+  - name: 层最小厚度
+    unit: mm
+    condition: null
+    min_value: 2.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#3.3.12
+  standard_code: GB 55030-2022
+  chapter: 3 材料工程要求
+  section: 3.3防水卷材和防水涂料
+  clause_no: 3.3.12
+  text: 当热熔施工橡胶沥青类防水涂料与防水卷材配套使用作为一道防水层时，其厚度不应小于1.5mm。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 层时其厚度
+    unit: mm
+    condition: null
+    min_value: 1.5
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#3.4.3
+  standard_code: GB 55030-2022
+  chapter: 3 材料工程要求
+  section: 3.4水泥基防水材料
+  clause_no: 3.4.3
+  text: 地下工程使用时，聚合物水泥防水砂浆防水层的厚度不应小于6.0mm，掺外加剂、防水剂的砂浆防水层的厚度不应小于 18.0mm。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 水层的厚度
+    unit: mm
+    condition: null
+    min_value: 6.0
+    max_value: null
+  - name: 水层的厚度
+    unit: mm
+    condition: null
+    min_value: 18.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#3.5.1
+  standard_code: GB 55030-2022
+  chapter: 3 材料工程要求
+  section: 3.5密封材料
+  clause_no: 3.5.1
+  text: 非结构粘结用建筑密封胶质量损失率，硅酮不应大于8%，改性硅酮不应大于5%，聚氨酯不应大于7%，聚硫不应大于5%。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 率硅酮
+    unit: '%'
+    condition: null
+    min_value: 8.0
+    max_value: null
+  - name: 酮
+    unit: '%'
+    condition: null
+    min_value: 5.0
+    max_value: null
+  - name: 硅酮
+    unit: '%'
+    condition: null
+    min_value: 7.0
+    max_value: null
+  - name: 聚氨酯
+    unit: '%'
+    condition: null
+    min_value: 5.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#3.5.2
+  standard_code: GB 55030-2022
+  chapter: 3 材料工程要求
+  section: 3.5密封材料
+  clause_no: 3.5.2
+  text: 橡胶止水带、橡胶密封垫和遇水膨胀橡胶制品的性能应符合现行国家标准《高分子防水材料第2部分：止水带》GB/T18173.2、《高分子防水材料第3部分：遇水膨胀橡胶》GB/T18173.3和《高分子防水材料第4部分：盾构法隧道管片用橡胶密封垫》GB/T18173.4的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB/T 18173.2
+    target_clause: null
+    original_text: 橡胶止水带、橡胶密封垫和遇水膨胀橡胶制品的性能应符合现行国家标准《高分子防水材料第2部分：止水带》GB/T18173.2、《高分子防水材料第3部分：遇水膨胀橡胶》GB/T18173.3和《高分子防水材
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  - target_standard: GB/T 18173.4
+    target_clause: null
+    original_text: 3部分：遇水膨胀橡胶》GB/T18173.3和《高分子防水材料第4部分：盾构法隧道管片用橡胶密封垫》GB/T18173.4的规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#3.6.1
+  standard_code: GB 55030-2022
+  chapter: 3 材料工程要求
+  section: 3.6其他材料
+  clause_no: 3.6.1
+  text: 天然钠基膨润土防水毯的单位面积干重不应小于5.0kg/m²且天然钠基膨润土防水毯的耐久性指标应符合
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 位面积干重
+    unit: kg/m²
+    condition: null
+    min_value: 5.0
+    max_value: null
+  tables:
+  - table_id: 表3.6.1
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表3.6.1的规定。表3.6.1天然钠基膨润土防水毯的耐久性指标项目性能指标（mL/2g)膨胀指数>20膨润土耐久性（0.1%CaCl2溶液，7d）3.6. 2屋面压型金属板的厚度应由结构设计确定，且应符合下列规定：压型铝合金面层板的公称厚度不应小于0.9mm；压型钢板面层板的公称厚度不应小于0.6mm;压型不锈钢面层板的公称厚度不应小于0.5mm。浏览专南住房城乡
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#4.1.1
+  standard_code: GB 55030-2022
+  chapter: 4 设计
+  section: 4.1一般规定
+  clause_no: 4.1.1
+  text: 工程防水应进行专项防水设计。4.1. 2下列构造层不应作为一道防水层：混凝土屋面板；塑料排水板；不具备防水功能的装饰瓦和不搭接瓦；注浆加固。4.1. 3种植屋面和地下建（构）筑物种植顶板工程防水等级应为一级，并应至少设置^道具有耐根穿刺性能的防水层，其上应设置保护层。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#4.1.4
+  standard_code: GB 55030-2022
+  chapter: 4 设计
+  section: 4.1一般规定
+  clause_no: 4.1.4
+  text: 不同材料之间,材料与基层之间应具备材性和施工工艺的相容性,即在施工和使用过程中不得产生有害的化学反应,后道工序不得破坏已完成的防水层 相容性包括但不局限于下列场合.1、基层处理剂与防水涂料或卷材,2。采用两种防水材料复合使用时,3,卷材。涂膜防水层收头节点部位选用的密封材料。4，防水层与保护层 5.耐根穿刺层防水层与普通防水层，6，防水材料与保温隔热材料 7，酸性密封胶对金属基材的腐蚀性。8，聚合物改性沥青防水卷材热熔施工时。火焰对基层可能产生的破坏。9.反应型高分子类防水涂料与塑料管材接触时有害物质的迁移。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 土结构厚度
+    unit: mm
+    condition: null
+    min_value: 250.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#4.1.7
+  standard_code: GB 55030-2022
+  chapter: 4 设计
+  section: 4.1一般规定
+  clause_no: 4.1.7
+  text: 排水设施应具备汇集、流径、排放等功能。地下工程集水坑和排水沟应做防水处理，排水沟的纵向坡度不应小于0.2%。4.1. 8防水节点构造设计应符合下列规定：附加防水层采用防水涂料时，应设置胎体增强材料；结构变形缝设置的橡胶止水带应满足结构允许的最大变形量；穿墙管设置防水套管时，防水套管与穿墙管之间应密封。4.2明挖法地下工程4.2. 1明挖法地下工程现浇混凝王结构防水做法应符合下列规定：主体结构防水做法应符合
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 纵向坡度
+    unit: '%'
+    condition: null
+    min_value: 0.2
+    max_value: null
+  tables:
+  - table_id: 表4.2.1
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表4.2.1的规定。表4.2.1主体结构防水做法外设防水层防水等级防水混凝土防水做法水泥基防防水卷材防水涂料水材料不应少于为1道，不少于2道；13道应选防水卷材或防水涂料不应少于1道不应少于为1道，不少于1道；二级2道应选任选不应少于为1道，三级1道应选注：水泥基防水材料指防水砂浆、外涂型水泥基渗透结晶防水材料。2叠合式结构的侧墙等工程部位，外设防水层应采用水泥基防水材料。
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#4.2.2
+  standard_code: GB 55030-2022
+  chapter: 4 设计
+  section: 4.1一般规定
+  clause_no: 4.2.2
+  text: 装配式地下结构构件的连接接头设计应满足防水及耐久性要求。明挖法地下工程防水混凝土的最低抗渗等级应符合4.2. 3
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables:
+  - table_id: 表4.2.3
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表4.2.3的规定。表4.2.3明挖法地下工程防水混凝土最低抗渗等级防水等级市政工程现浇混凝土结构建筑工程现浇混凝土结构装配式衬砌一级P8P8P10二级P6P8P10三级P8P64.2. 4明挖法地下工程结构接缝的防水设防措施应符合表4.2.4的规定。表 4.2. 4明挖法地下工程结构接缝的防水设防措施施工缝变形缝诱导缝后浇带溉基渗透结歇型防水林料预埋注浆管遇水膨胀止水条或止水胶中埋式业水带外贴式止水带中埋式中孔型橡胶止水带外贴式中孔型止水带可卸式止水带密封嵌缝材料外贴防水卷材或外涂防水涂料补偿收缩混凝土预埋注浆管中埋式止水带遇水膨胀止水条或止水胶外贴式止水带中埋式中孔型橡胶止水带密封嵌缝材料外贴式止水带外贴防水卷材或外涂防水涂料混凝汁界面处理剂或外除型水不应少于不应少于2种应选不应少于2种应选不应少于1种应选1种4.2. 5盖挖逆作法工程防水做法应符合下列规定：外设防水做法应符合本规范第4.2.1条的规定。支护结构与主体结构顶板采用刚接时，连接面防水应采用外涂型水泥基渗透结晶型防水材料。
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#4.2.6
+  standard_code: GB 55030-2022
+  chapter: 4 设计
+  section: 4.1一般规定
+  clause_no: 4.2.6
+  text: 肥槽回填质量对明挖法地下工程防水工程质量有较大影响,肥槽如处理不当。不但可能造成侧墙防水层被破坏。更是将肥槽变成贮水空间。增加渗漏风险、当回填层的渗透系数大于周边相邻土层时,基坑底部易形成积水、而底板与侧墙交接处是防水的薄弱环节，因此提出基坑底部区域回填层的压实系数要求，基坑底部区域指基坑底部至结构底板上表面以上500mm。或基坑底部至结构底板纵向水平施工缝以上500mm的范围，顶板防水层以上采用渗透系数小的回填层有利于阻挡降水对地下工程防水的影响 同时对回填层作一定厚度的密实性要求、有助于对防水层的保护，压实系数取值参考了现行国家标准。建筑地基基础设计规范 GB,50007的相关规定.。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 构底板以上
+    unit: mm
+    condition: null
+    min_value: 500.0
+    max_value: 500.0
+  - name: 构顶板以上
+    unit: mm
+    condition: null
+    min_value: 500.0
+    max_value: null
+  - name: 超出的高度
+    unit: mm
+    condition: null
+    min_value: 300.0
+    max_value: null
+  - name: 覆土或场地
+    unit: mm
+    condition: null
+    min_value: 500.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#4.4.2
+  standard_code: GB 55030-2022
+  chapter: 4 设计
+  section: 4.4建筑屋面工程
+  clause_no: 4.4.2
+  text: 种植屋面工程的排（蓄）水层应结合屋面排水系统设计，不应作为耐根穿刺防水层使用，并应设置将雨水排向屋面排水系统的有组织排水通道。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#4.4.3
+  standard_code: GB 55030-2022
+  chapter: 4 设计
+  section: 4.4建筑屋面工程
+  clause_no: 4.4.3
+  text: 屋面排水坡度应根据屋顶结构形式、屋面基层类别、防水构造形式、材料性能及使用环境等条件确定，并应符合下列规定:1屋面排水坡度应符合
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables:
+  - table_id: 表4.4.3
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表4.4.3的规定。表4.43屋面排水坡度屋面类型屋面排水坡度（%）平屋面XA块瓦≥30波形瓦≥20瓦屋面沥青瓦≥20金属瓦-≥20压型金属板、金属夹芯板金属屋面单层防水卷材金属屋面种植屋面≥2玻璃采光顶≥5当屋面采用结构找坡时，其坡度不应小于3%。混凝土屋面檐沟、天沟的纵向坡度不应小于1%。屋面应设置独立的雨水收集或排水系统。4.4. 5屋面工程防水构造设计应符合下列规定：当设备放置在防水层上时，应设附加层。天沟、檐沟、天窗、雨水管和伸出屋面的管井管道等部位泛水处的防水层应设附加层或进行多重防水处理。3屋面雨水天沟、檐沟不应跨越变形缝，屋面变形缝泛水处的防水层应设附加层，防水层应铺贴或涂刷至变形缝挡墙顶面。高低跨变形缝在立墙泛水处，应采用有足够变形能力的材料和构造作密封处理。
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#4.4.6
+  standard_code: GB 55030-2022
+  chapter: 4 设计
+  section: 4.4建筑屋面工程
+  clause_no: 4.4.6
+  text: 非外露防水材料暴露使用时应设有保护层。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#4.4.7
+  standard_code: GB 55030-2022
+  chapter: 4 设计
+  section: 4.4建筑屋面工程
+  clause_no: 4.4.7
+  text: 瓦屋面、金属屋面和种植屋面等应根据工程所在地的基本风压、地震设防烈度和屋面坡度等条件，采取抗风揭和抗滑落的加强固定措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#4.4.8
+  standard_code: GB 55030-2022
+  chapter: 4 设计
+  section: 4.4建筑屋面工程
+  clause_no: 4.4.8
+  text: 屋面天沟和封闭阳台外露顶板等处的工程防水等级应与建筑屋面防水等级一致。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#4.4.9
+  standard_code: GB 55030-2022
+  chapter: 4 设计
+  section: 4.4建筑屋面工程
+  clause_no: 4.4.9
+  text: 混凝土结构屋面防水卷材采用水泥基材料搭接粘结时，防水层长边不应大于45m
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 层长边
+    unit: m
+    condition: null
+    min_value: 45.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#4.5.1
+  standard_code: GB 55030-2022
+  chapter: 4 设计
+  section: 4.5建筑外墙工程
+  clause_no: 4.5.1
+  text: 建筑外墙防水应根据工程所在地区的工程防水使用环境类别进行整体防水设计。建筑外墙门窗洞口、雨篷、阳台、女儿墙、室外挑板、变形缝、穿墙套管和预埋件等节点应采取防水构造措施，并应根据工程防水等级设置墙面防水层。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#4.5.2
+  standard_code: GB 55030-2022
+  chapter: 4 设计
+  section: 4.5建筑外墙工程
+  clause_no: 4.5.2
+  text: 墙面防水层做法应符合下列规定：防水等级为一级的框架填充或砌体结构外墙，应设置2道及以上防水层。防水等级为二级的框架填充或砌体结构外墙，应设置1道及以上防水层。当采用2道防水时，应设置1道防水砂浆，及1道防水涂料或其他防水材料。2防水等级为一级的现浇混凝土外墙、装配式混凝土外墙板应设置1道及以上防水层。3封闭式幕墙应达到一级防水要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#4.5.3
+  standard_code: GB 55030-2022
+  chapter: 4 设计
+  section: 4.5建筑外墙工程
+  clause_no: 4.5.3
+  text: 门窗洞口节点构造防水和门窗性能应符合下列规定：1门窗框与墙体间连接处的缝隙应采用防水密封材料嵌填和密封；2门窗洞口上应设置滴水线；3门窗性能和安装质量应满足水密性要求；4窗台处应设置排水板和滴水线等排水构造措施，排水坡度不应小于5%。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 施排水坡度
+    unit: '%'
+    condition: null
+    min_value: 5.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#4.5.4
+  standard_code: GB 55030-2022
+  chapter: 4 设计
+  section: 4.5建筑外墙工程
+  clause_no: 4.5.4
+  text: 雨篷、阳台、室外挑板等防水做法应符合下列规定：1雨篷应设置外排水，坡度不应小于1%，且外口下沿应做滴水线。雨篷与外墙交接处的防水层应连续，且防水层应沿外口下翻至滴水线。2开式外廊和阳台的楼面应设防水层，阳台坡向水落口的排水坡度不应小于1%，并应通过雨水立管接入排水系统，水落口周边应留槽嵌填密封材料。阳台外口下沿应做滴水线。3室外挑板与墙体连接处应采取防雨水倒灌措施和节点构造防水措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 外排水坡度
+    unit: '%'
+    condition: null
+    min_value: 1.0
+    max_value: null
+  - name: 排水坡度
+    unit: '%'
+    condition: null
+    min_value: 1.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#4.5.5
+  standard_code: GB 55030-2022
+  chapter: 4 设计
+  section: 4.5建筑外墙工程
+  clause_no: 4.5.5
+  text: 外墙变形缝、穿墙管道、预埋件等节点防水做法应符合下列规定：1变形缝部位应采取防水加强措施。当采用增设卷材附加层措施时，卷材两端应满粘于墙体，满粘的宽度不应小于150mm，并应钉压固定，卷材收头应采用密封材料密封。2，穿墙管道应采取避免雨水流入措施和内外防水密封措施。3／外墙预埋件和预制部件四周应采用防水密封材料连续封闭。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 满粘的宽度
+    unit: mm
+    condition: null
+    min_value: 150.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#4.5.6
+  standard_code: GB 55030-2022
+  chapter: 4 设计
+  section: 4.5建筑外墙工程
+  clause_no: 4.5.6
+  text: 使用环境为I类且强风频发地区的建筑外墙门窗洞口、雨篷、阳台、穿墙管道、变形缝等处的节点构造应采取加强措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#4.5.7
+  standard_code: GB 55030-2022
+  chapter: 4 设计
+  section: 4.5建筑外墙工程
+  clause_no: 4.5.7
+  text: 装配式混凝土结构外墙接缝以及门窗框与墙体连接处应采用密封材料、止水材料和专用防水配件等进行密封。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#4.6.1
+  standard_code: GB 55030-2022
+  chapter: 4 设计
+  section: 4.6建筑室内工程
+  clause_no: 4.6.1
+  text: 室内楼地面防水做法应符合
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables:
+  - table_id: 表4.6.1
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表4.6.1条的规定。表4.6.1室内楼地面防水做法防水层防水等级防水做法防水卷材防水涂料水泥基防水材料一级不应少于2道防水涂料或防水卷材不应少于1道二级不应少于1道任选
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#4.6.2
+  standard_code: GB 55030-2022
+  chapter: 4 设计
+  section: 4.6建筑室内工程
+  clause_no: 4.6.2
+  text: 室内墙面防水层不应少于1道。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#4.6.3
+  standard_code: GB 55030-2022
+  chapter: 4 设计
+  section: 4.6建筑室内工程
+  clause_no: 4.6.3
+  text: 有防水要求的楼地面应设排水坡，并应坡向地漏或排水设施，排水坡度不应小于1.0%。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 施排水坡度
+    unit: '%'
+    condition: null
+    min_value: 1.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#4.6.4
+  standard_code: GB 55030-2022
+  chapter: 4 设计
+  section: 4.6建筑室内工程
+  clause_no: 4.6.4
+  text: 用水空间与非用水空间楼地面交接处应有防止水流入非用水房间的措施。淋浴区墙面防水层翻起高度不应小于2000mm，且不低于淋浴喷淋口高度。盟洗池盆等用水处墙面防水层翻起高度不应小于1200mm墙面其他部位泛水翻起高度不应小于250mm。4.6. 5潮湿空间的顶棚应设置防潮层或采用防潮材料。4.6. 6室内工程的防水构造设计应符合下列规定：地漏的管道根部应采取密封防水措施；2穿过楼板或墙体的管道套管与管道间应采用防水密封材料嵌填压实；3穿过楼板的防水套管应高出装饰层完成面，且高度不应小天20mm。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 层翻起高度
+    unit: mm
+    condition: null
+    min_value: 2000.0
+    max_value: null
+  - name: 层翻起高度
+    unit: mm
+    condition: null
+    min_value: 1200.0
+    max_value: null
+  - name: 水翻起高度
+    unit: mm
+    condition: null
+    min_value: 250.0
+    max_value: null
+  - name: 度不应小天
+    unit: mm
+    condition: null
+    min_value: 20.0
+    max_value: 20.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#4.6.7
+  standard_code: GB 55030-2022
+  chapter: 4 设计
+  section: 4.6建筑室内工程
+  clause_no: 4.6.7
+  text: 室内需进行防水设防的区域不应跨越变形缝等可能出现较大变形的部位。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#4.6.8
+  standard_code: GB 55030-2022
+  chapter: 4 设计
+  section: 4.6建筑室内工程
+  clause_no: 4.6.8
+  text: 采用整体装配式卫浴间的结构楼地面应采取防排水措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#4.7.1
+  standard_code: GB 55030-2022
+  chapter: 4 设计
+  section: 4.7道桥工程
+  clause_no: 4.7.1
+  text: 桥梁工程桥面应设防水层，并应有完善的防水、排水系统，沥青混凝土桥面铺装还应设置渗水引流系统。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#4.7.2
+  standard_code: GB 55030-2022
+  chapter: 4 设计
+  section: 4.7道桥工程
+  clause_no: 4.7.2
+  text: 桥面防水材料应根据桥梁结构特点、交通荷载、环境气候、施工条件等因素进行选择。当选择防水卷材或防水涂料时，材料的高温稳定性、低温柔性和耐老化性还应与工程应用条件相适应。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#4.7.3
+  standard_code: GB 55030-2022
+  chapter: 4 设计
+  section: 4.7道桥工程
+  clause_no: 4.7.3
+  text: 桥面铺装防水系统应根据桥梁结构形式、桥面铺装面层材料、防水环境类别等确定，并应符合下列规定：1当混凝土桥面铺装材料为沥青混凝土面层时，防水层应选用防水卷材或防水涂料。防水等级为一级的桥梁，卷材防水层上铺装的沥青混凝土面层厚度不应小于80mm。2当混凝土桥面铺装材料为水泥混凝土面层时，防水层不应选用防水卷材。3在正交异性钢桥面的钢板与铺装材料之间，应设置防腐层和防水粘结层。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 土面层厚度
+    unit: mm
+    condition: null
+    min_value: 80.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#4.7.4
+  standard_code: GB 55030-2022
+  chapter: 4 设计
+  section: 4.7道桥工程
+  clause_no: 4.7.4
+  text: 桥梁桥面防水的节点构造设计应包括面层结构缝、桥梁伸缩缝、排水口装置等部位，并符合下列规定：1水泥混凝土铺装面层或桥面板上混凝土整平层的结构缝内应填满防水密封材料。2桥梁伸缩缝两侧的防水层端部与伸缩缝槽后浇混凝土之间应采用防水密封材料封闭。3桥面排水口装置内应设置排渗水孔洞，其下缘应低于防水层位置并覆盖土工布。防水层与排水口装置周边的连接处应采用防水密封材料封闭。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#4.7.5
+  standard_code: GB 55030-2022
+  chapter: 4 设计
+  section: 4.7道桥工程
+  clause_no: 4.7.5
+  text: '>道桥工程应设置满足雨水设计重现期的排水系统。'
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#4.8.1
+  standard_code: GB 55030-2022
+  chapter: 4 设计
+  section: 4.8蓄水类工程
+  clause_no: 4.8.1
+  text: 混凝土结构蓄水类工程防水应采用结构防水混凝土加外设防水层的构造方式，并应符合下列规定：1处于非侵蚀性介质环境的混凝土结构蓄水类工程，防水混凝土的强度等级不应低于C25，防水混凝土的设计抗渗等级、最小厚度、充许裂缝宽度、最小钢筋保护层厚度应符合
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables:
+  - table_id: 表4.8.1
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表4.8.1的规定。当蓄水类工程为地下结构时，其顶板厚度不应小于 250mm。表4.8.1混凝土结构蓄水类工程防水混凝土要求顶板最小底板及侧墙最大允许最小钢筋设计抗渗防水等级厚度最小厚度裂缝宽度保护层厚度等级(u)(u)一级≥P80.20二级、三级≥P60.202防水等级为一级的蓄水类工程，应至少在内壁设置1道防水层。防水等级为二级的蓄水类工程应在内壁设置1道防水层。防水材料应选用防水卷材、防水涂料或水泥基防水材料。3对蓄水水质有卫生要求的混凝土结构蓄水类工程，应增加外壁防水层，至少应设置1道防水卷材、防水涂料或水泥基防水材料防水层。
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#4.8.2
+  standard_code: GB 55030-2022
+  chapter: 4 设计
+  section: 4.8蓄水类工程
+  clause_no: 4.8.2
+  text: 混凝土结构蓄水类工程的防水节点构造设计应包括变形缝、诱导缝、施工缝、后浇带、穿墙管道、孔口等部位，并应符合下列规定：1混凝土结构的变形缝、诱导缝、施工缝、后浇带的防水构造应符合本规范第4.2.4条的规定；2管件穿墙部位应设置防水套管，套管直径应大于管道直径50mm，套管与管道之间的空隙应密封，端口周边应填塞密封胶；3地下水池通向地面的各种孔口应采取防倒灌措施，孔口高出室外地坪高程不应小于300mm。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 套管直径
+    unit: mm
+    condition: null
+    min_value: 50.0
+    max_value: null
+  - name: 外地坪高程
+    unit: mm
+    condition: null
+    min_value: 300.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#4.8.3
+  standard_code: GB 55030-2022
+  chapter: 4 设计
+  section: 4.8蓄水类工程
+  clause_no: 4.8.3
+  text: 蓄水类工程不应采用遇水浸蚀材料制成的砌块或空心砌块砌筑。最冷月平均气温低于一3℃的地区，外露蓄水类工程不应采用砌体结构。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#4.8.4
+  standard_code: GB 55030-2022
+  chapter: 4 设计
+  section: 4.8蓄水类工程
+  clause_no: 4.8.4
+  text: 需设置防渗层的景观水体，防渗层应采用黏土、柔性防水材料或天然钠基膨润土防水毯等材料铺设，且不应少于1道。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#4.8.5
+  standard_code: GB 55030-2022
+  chapter: 4 设计
+  section: 4.8蓄水类工程
+  clause_no: 4.8.5
+  text: 需同时防范有害物质的防渗衬层，当采用黏土作为1道防渗衬层时，应符合下列规定：饱和渗透系数不应大于1.0×10-7cm/s；2当单独采用黏土作为防渗衬层时，黏土厚度不应小于2m;3当采用黏土与人工合成材料的复合防渗衬层时，黏土厚度不应小于0.75m。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 透系数
+    unit: cm
+    condition: null
+    min_value: 7.0
+    max_value: null
+  - name: 时黏土厚度
+    unit: m
+    condition: null
+    min_value: 2.0
+    max_value: null
+  - name: 时黏土厚度
+    unit: m
+    condition: null
+    min_value: 0.75
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#5.1.1
+  standard_code: GB 55030-2022
+  chapter: 5 施工
+  section: 5.1一般规定
+  clause_no: 5.1.1
+  text: 防水专项施工方案是防水施工的依据、是工程信息和设计文件,规范标准的具体体现，是防水工程质量的重要保证措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#5.1.3
+  standard_code: GB 55030-2022
+  chapter: 5 施工
+  section: 5.1一般规定
+  clause_no: 5.1.3
+  text: 防水材料及配套辅助材料进场时应提供产品合格证、质量检验报告、使用说明书、进场复验报告。防水卷材进场复验报告应包含无处理时卷材接缝剥离强度和搭接缝不透水性检测结果。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#5.1.4
+  standard_code: GB 55030-2022
+  chapter: 5 施工
+  section: 5.1一般规定
+  clause_no: 5.1.4
+  text: 防水施工前应确认基层已验收合格，基层质量应符合防水材料施工要求。》
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#5.1.5
+  standard_code: GB 55030-2022
+  chapter: 5 施工
+  section: 5.1一般规定
+  clause_no: 5.1.5
+  text: 铺贴防水卷材或涂刷防水涂料的阴阳角部位应做成圆弧状或进行倒角处理。5.1. 6防水混凝土施工应符合下列规定运输与浇筑过程中严禁加水，应及时进行保湿养护，养护期不应少于14d；后浇带部位的混凝土施工前，交界面应做糙面处理，并应清除积水和杂物。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 严禁
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 期不应少于
+    unit: d
+    condition: null
+    min_value: 14.0
+    max_value: 14.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#5.1.7
+  standard_code: GB 55030-2022
+  chapter: 5 施工
+  section: 5.1一般规定
+  clause_no: 5.1.7
+  text: 防水卷材最小搭接宽度应符合
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables:
+  - table_id: 表5.1.7
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表5.1.7的规定。表5.1.7防水卷材最小搭接宽度（mm）防水卷材类型搭接方式搭接宽度热熔法、热沥青≥100聚合物改性沥青类防水卷材自粘搭接(含湿铺）≥80合成高分子类胶粘剂、粘结料≥100防水卷材胶粘带、自粘胶≥80续表5.1.7防水卷材类型搭接方式搭接宽度单缝焊≥60，有效焊接宽度不应小于25合成高分子类双缝焊≥80，有效焊接宽度10×2+空腔宽防水卷材塑料防水板双缝焊≥100，有效焊接宽度10×2+空腔宽
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#5.1.8
+  standard_code: GB 55030-2022
+  chapter: 5 施工
+  section: 5.1一般规定
+  clause_no: 5.1.8
+  text: 防水卷材施工应符合下列规定：1卷材铺贴应平整顺直，不应有起鼓、张口、翘边等现象。2同层相邻两幅卷材短边搭接错缝距离不应小于500mm。卷材双层铺贴时，上下两层和相邻两幅卷材的接缝应错开至少1/3幅宽，且不应互相垂直铺贴。同层卷材搭接不应超过3层。卷材收头应固定密封。Z5.1. 9防水涂料施工应符合下列规定：涂布应均匀，厚度应符合设计要求，且不应起鼓；接宽度不应小于100mm；当遇有降雨时，未完全固化的涂膜应覆盖保护；当设置胎体时，胎体应铺贴平整，涂料应浸透胎体，且胎体不应外露。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 接错缝距离
+    unit: mm
+    condition: null
+    min_value: 500.0
+    max_value: null
+  - name: 起鼓接宽度
+    unit: mm
+    condition: null
+    min_value: 100.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#5.1.10
+  standard_code: GB 55030-2022
+  chapter: 5 施工
+  section: 5.1一般规定
+  clause_no: 5.1.10
+  text: 管件穿越有防水要求的结构时应设置套管，套管止水环与套管应满焊。穿管后应将套管与管道之间的缝隙填塞密实，端口周边应填塞密封胶。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#5.1.11
+  standard_code: GB 55030-2022
+  chapter: 5 施工
+  section: 5.1一般规定
+  clause_no: 5.1.11
+  text: 穿结构管道 埋设件等应在防水层施工前埋设完成。以免埋设件在防水层施工后施工 对防水层造成损坏。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#5.1.13
+  standard_code: GB 55030-2022
+  chapter: 5 施工
+  section: 5.1一般规定
+  clause_no: 5.1.13
+  text: 中埋式止水带是变形缝最主要的防水措施.其安装固定质量对保证变形缝密封防水具有重要作用、本条规定了变形缝中埋式止水带施工应遵守的基本原则,包括定位、固定.临时保护等。此外还应包括接头的处置，通常采用专用设备现场热硫化搭接,中埋式止水带的固定方法包括附加钢筋固定 专用卡具固定.铅丝和模板固定等.。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#5.2.1
+  standard_code: GB 55030-2022
+  chapter: 5 施工
+  section: 5.2明挖法地下工程
+  clause_no: 5.2.1
+  text: 地下连续墙墙幅接缝渗漏应采取注浆、嵌填等措施进行止水处理。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#5.2.2
+  standard_code: GB 55030-2022
+  chapter: 5 施工
+  section: 5.2明挖法地下工程
+  clause_no: 5.2.2
+  text: 桩头应涂刷外涂型水泥基渗透结晶型防水材料，涂刷层与大面防水层的搭接宽度不应小于300mm。防水层应在桩头根部进行密封处理。1》
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 搭接宽度
+    unit: mm
+    condition: null
+    min_value: 300.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#5.2.3
+  standard_code: GB 55030-2022
+  chapter: 5 施工
+  section: 5.2明挖法地下工程
+  clause_no: 5.2.3
+  text: 本条规定对于有防水要求的地下结构应采用防水对拉螺杆栓套具。原因在于这种套具具有施工简便.穿墙螺杆孔容易封闭,防水功能可靠等优势，防水对拉螺栓套具的性能应符合现行行业标准。建筑用穿墙防水对拉螺栓套具 JG.T、478的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 粘搭接长度
+    unit: mm
+    condition: null
+    min_value: 80.0
+    max_value: null
+  - name: 时搭接长度
+    unit: mm
+    condition: null
+    min_value: 50.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#5.2.6
+  standard_code: GB 55030-2022
+  chapter: 5 施工
+  section: 5.2明挖法地下工程
+  clause_no: 5.2.6
+  text: 基坑回填时应采取防水层保护措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#5.3.1
+  standard_code: GB 55030-2022
+  chapter: 5 施工
+  section: 5.3暗挖法地下工程
+  clause_no: 5.3.1
+  text: 矿山法地下工程防水层应在初期支护结构基本稳定，并经隐蔽工程检验合格后进行施工。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#5.3.2
+  standard_code: GB 55030-2022
+  chapter: 5 施工
+  section: 5.3暗挖法地下工程
+  clause_no: 5.3.2
+  text: 初期支护基层表面应平整、无尖锐凸起。防水层与初期支护之间设置的缓冲层搭接宽度不应小于50mm，并应采用配套的暗钉圈进行固定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 层搭接宽度
+    unit: mm
+    condition: null
+    min_value: 50.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#5.3.3
+  standard_code: GB 55030-2022
+  chapter: 5 施工
+  section: 5.3暗挖法地下工程
+  clause_no: 5.3.3
+  text: 当矿山法隧道采用预铺反粘高分子类防水卷材时，卷材搭接应牢固；采用塑料防水板时，应设置分区注浆系统。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#5.3.4
+  standard_code: GB 55030-2022
+  chapter: 5 施工
+  section: 5.3暗挖法地下工程
+  clause_no: 5.3.4
+  text: 矿山法隧道铺设塑料防水板时，下部防水板应压住上部防水板。塑料防水板施工过程中，应采取防止焊接损伤和机械损伤的措施，并应设专人检查。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#5.3.5
+  standard_code: GB 55030-2022
+  chapter: 5 施工
+  section: 5.3暗挖法地下工程
+  clause_no: 5.3.5
+  text: 盾构法隧道管片的防水密封垫应粘贴牢固、位置准确。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#5.3.6
+  standard_code: GB 55030-2022
+  chapter: 5 施工
+  section: 5.3暗挖法地下工程
+  clause_no: 5.3.6
+  text: 隧道管片螺拧紧前，应确保螺栓孔密封圈位置准确，并与螺栓孔沟槽相贴合。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#5.4.1
+  standard_code: GB 55030-2022
+  chapter: 5 施工
+  section: 5.4建筑屋面工程
+  clause_no: 5.4.1
+  text: 耐根穿刺防水卷材的作用机理主要有物理阻根和化学阻根 影响卷材防水层耐根穿刺性能的材料相关因素包括厚度,物理力学性能。施工工艺.搭接质量和节点处理等、同种卷材的搭接工艺不同.搭接边质量会有差异,故应严格按照耐根穿刺防水材料在检测报告中提供的施工方式进行施工。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 屋面坡度
+    unit: '%'
+    condition: null
+    min_value: 30.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#5.4.3
+  standard_code: GB 55030-2022
+  chapter: 5 施工
+  section: 5.4建筑屋面工程
+  clause_no: 5.4.3
+  text: 施工过程中应采取防止杂物堵塞排水系统的措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#5.4.4
+  standard_code: GB 55030-2022
+  chapter: 5 施工
+  section: 5.4建筑屋面工程
+  clause_no: 5.4.4
+  text: 防水层和保护层施工完成后，屋面应进行淋水试验或雨后观察，檐沟、天沟、雨水口等应进行蓄水试验，并应在检验合格后再进行下一道工序施工。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#5.4.5
+  standard_code: GB 55030-2022
+  chapter: 5 施工
+  section: 5.4建筑屋面工程
+  clause_no: 5.4.5
+  text: 防水层施工完成后，后续工序施工不应损害防水层，在防水层上堆放材料应采取防护隔离措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#5.5.1
+  standard_code: GB 55030-2022
+  chapter: 5 施工
+  section: 5.5建筑外墙工程
+  clause_no: 5.5.1
+  text: 外墙防水层的基层应平整、坚实、牢固。5.5. 2外门窗框与门窗洞口之间的缝隙应填充密实，接缝密封。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#5.5.3
+  standard_code: GB 55030-2022
+  chapter: 5 施工
+  section: 5.5建筑外墙工程
+  clause_no: 5.5.3
+  text: 砂浆防水层分格缝嵌填密封材料前应清理干净，密封材料应嵌填密实。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#5.5.4
+  standard_code: GB 55030-2022
+  chapter: 5 施工
+  section: 5.5建筑外墙工程
+  clause_no: 5.5.4
+  text: 装配式混凝土结构外墙板接缝密封防水施工应符合下列规定：施工前应将板缝空腔清理十净；板缝空腔应按设计要求填塞背衬材料；密封材料嵌填应饱满、密实、均勾、连续、表面平滑，厚度应符合设计要求。5.6建筑室内工程
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#5.6.1
+  standard_code: GB 55030-2022
+  chapter: 5 施工
+  section: 5.5建筑外墙工程
+  clause_no: 5.6.1
+  text: 管根、地漏与基层交接部位应进行防水密封处理。墙面装饰层应与防水层粘结牢固。5.6. 25.6. 3室内装修改造施工应保证防水层完整，出现损坏时应修补。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#5.7.2
+  standard_code: GB 55030-2022
+  chapter: 5 施工
+  section: 5.7道桥工程
+  clause_no: 5.7.2
+  text: 防水施工前，桥面基层混凝土应进行表面粗糙度处理，基层表面的浮灰应清除干净。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#5.7.3
+  standard_code: GB 55030-2022
+  chapter: 5 施工
+  section: 5.7道桥工程
+  clause_no: 5.7.3
+  text: 桥面防水层应直接铺设在混凝土结构表面，不应在二者间加铺砂浆找平层。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#5.8.3
+  standard_code: GB 55030-2022
+  chapter: 5 施工
+  section: 5.8蓄水类工程
+  clause_no: 5.8.3
+  text: 混凝土结构蓄水类工程在浇筑预留孔洞、预理埋管、预埋件及止水带周边混凝土时，应采取保证混凝土密实的措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#5.8.4
+  standard_code: GB 55030-2022
+  chapter: 5 施工
+  section: 5.8蓄水类工程
+  clause_no: 5.8.4
+  text: 混凝土结构蓄水类工程应在结构施工完成后按照设计要求进行功能性满水试验，满水试验合格后方可进行外设防水层施工。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#6.0.1
+  standard_code: GB 55030-2022
+  chapter: 6 验收
+  section: ''
+  clause_no: 6.0.1
+  text: 防水工程施工完成后应按规定程序和组织方式进行质量验收。6.0. 2防水工程验收时，应核验下列文件和记录：设计施工图、图纸会审记录、设计变更文件；材料的产品合格证、质量检验报告、进场材料复验报告；施工方案；隐蔽工程验收记录；工程质量检验记录渗漏水处理记录；淋水、蓄水或水池满水试验记录；施工记录；1质量验收记录。6.0. 3防水工程质量检验合格判定标准应符合
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables:
+  - table_id: 表6.0.3
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表6.0.3的规定。表6.0.3防水工程质量检验合格判定标准工程防水类别工程类型丙类不应有线流、漏泥不应有滴漏、线地下不应有渗水，结构背砂，结构背水面可有漏，结构背水面可有水面无湿渍少量湿渍、流挂或零星分布的湿渍滴漏屋面不应有渗水，结构背不应有渗水，结构不应有渗水，结构工程水面无湿渍背水面无湿渍背水面无湿渍不应有渗水，结构背不应有渗水，结构工程水面无湿渍背水面无湿渍室内不应有渗水，结构背工程水面无湿渍续表6.0.3工程防水类别工程类型甲类乙类丙类不应有线流、漏泥不应有线漏，结构地下不应有渗水，结构背砂，结构背水面可有背水面可有零星分布水面无湿渍少量湿渍、流挂或的湿渍和流挂道桥不应有渗水不应有滴漏、线漏工程AN不应有线流、漏泥不应有滴漏，线蓄水类不应有渗水，结构背砂，结构背水面可有漏，结构背水面可有工程水面无湿渍少量的湿渍、流挂或零星分布的湿渍滴漏6.0. 4地下工程、建筑屋面建筑室内、道桥工程等排水系统应通畅。
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#6.0.5
+  standard_code: GB 55030-2022
+  chapter: 6 验收
+  section: ''
+  clause_no: 6.0.5
+  text: 防水隐蔽工程应留存现场影像资料，形成隐蔽工程验收记录，防水隐蔽工程检验内容应符合
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables:
+  - table_id: 表6.0.5
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表6.0.5的规定。表6.0.5隐蔽工程检验内容工程类型隐蔽工程检验内容防水层的基层；防水层及附加防水层；防水混凝土结构的施工缝、变形缝、后浇带、诱导缝等接缝明挖法地下防水构造；工程防水混凝土结构的穿墙管、埋设件、预留通道接头、桩头、格构柱、抗浮锚索（杆）等节点防水构造；基坑的回填防水层的基层；防水层及附加防水层；暗挖法地下二次衬砌结构的施工缝、变形缝等接缝防水构造；工程二次衬砌结构的穿墙管、埋设件、预留通道接头等节点防水构造；续表6.0.5工程类型隐蔽工程检验内容预埋注浆系统；暗挖法地下排水系统；工程预制装配式衬砌接缝密封；顶管、箱涵接头防水防水层的基层；防水层及附加防水层；建筑屋面工程檐口、檐沟、天沟、水落口、泛水、天窗、变形缝、女儿墙压顶和出屋面设施等节点防水构造防水层的基层；防水层及附加防水层，建筑外墙工程门窗洞口、雨篷、阳台、变形缝、穿墙管道、预埋件、分格缝及女儿墙压顶预制构件接缝等节点防水构造防水层的基层；防水层及附加防水层；建筑室内工程3地漏、防水层铺设范围内的穿楼板或穿墙管道及预埋件等节点防水构造防水层的基层；防水层、防水粘结层；沥青混凝土、防水层、混凝土基层之间的粘结；道桥工程沥青混凝土、防水粘结层、防腐层、钢桥面板之间的粘结；桥面结构缝、桥梁伸缩缝、排水口装置等节点的防水密封构造防水层的基层；防水层及附加防水层；蓄水类工程混凝土结构水池的变形缝、施工缝、后浇带、穿墙管道、孔口等节点防水构造；
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#6.0.7
+  standard_code: GB 55030-2022
+  chapter: 6 验收
+  section: ''
+  clause_no: 6.0.7
+  text: 分项工程质量验收合格应符合下列规定：分项工程所含检验批的质量均应验收合格；分项工程所含检验批的质量验收记录应完整。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#6.0.8
+  standard_code: GB 55030-2022
+  chapter: 6 验收
+  section: ''
+  clause_no: 6.0.8
+  text: 分部或子分部工程质量验收合格应符合下列规定：所含分项工程的质量均应验收合格：质量控制资料应完整；安全与功能抽样检验应符合本规范第6.0.3条和第
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#6.0.4
+  standard_code: GB 55030-2022
+  chapter: 6 验收
+  section: ''
+  clause_no: 6.0.4
+  text: 条的规定；观感质量应合格。工程质量检验；无降水要求的暗挖法地下工程应在二次衬砌结构完成后进行防水工程质量检验。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#6.0.10
+  standard_code: GB 55030-2022
+  chapter: 6 验收
+  section: ''
+  clause_no: 6.0.10
+  text: 建筑屋面工程在屋面防水层和节点防水完成后，应进行雨后观察或淋水、蓄水试验，并应符合下列规定：1采用雨后观察时，降雨应达到中雨量级标准；2采用淋水试验时，持续淋水时间不应少于2h；檐沟、天沟、雨水口等应进行蓄水试验，其最小蓄水高度不应小于20mm，蓄水时间不应少于24h。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 间不应少于
+    unit: h
+    condition: null
+    min_value: 2.0
+    max_value: 2.0
+  - name: 小蓄水高度
+    unit: mm
+    condition: null
+    min_value: 20.0
+    max_value: null
+  - name: 未识别对象
+    unit: h
+    condition: null
+    min_value: null
+    max_value: 24.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#6.0.11
+  standard_code: GB 55030-2022
+  chapter: 6 验收
+  section: ''
+  clause_no: 6.0.11
+  text: 建筑外墙工程墙面防水层和节点防水完成后应进行淋水试验，并应符合下列规定：1持续淋水时间不应少于30min;2仅进行门窗等节点部位防水的建筑外墙，可只对门窗等节点进行淋水试验。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 间不应少于
+    unit: m
+    condition: null
+    min_value: 30.0
+    max_value: 30.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#6.0.12
+  standard_code: GB 55030-2022
+  chapter: 6 验收
+  section: ''
+  clause_no: 6.0.12
+  text: 建筑室内工程在防水层完成后，应进行淋水、蓄水试验，并应符合下列规定：1楼、地面最小蓄水高度不应小于20mm，蓄水时间不应少于24h;2有防水要求的墙面应进行淋水试验，淋水时间不应小于30min;3独立水容器应进行满池蓄水试验，蓄水时间不应少于24h；4室内工程厕浴间楼地面防水层和饰面层完成后，均应进行蓄水试验。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 小蓄水高度
+    unit: mm
+    condition: null
+    min_value: 20.0
+    max_value: null
+  - name: 未识别对象
+    unit: h
+    condition: null
+    min_value: null
+    max_value: 24.0
+  - name: 验淋水时间
+    unit: m
+    condition: null
+    min_value: 30.0
+    max_value: null
+  - name: 间不应少于
+    unit: h
+    condition: null
+    min_value: 24.0
+    max_value: 24.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#6.0.13
+  standard_code: GB 55030-2022
+  chapter: 6 验收
+  section: ''
+  clause_no: 6.0.13
+  text: 混凝土结构蓄水类工程完工后，应进行水池满池蓄水试验，蓄水时间不应少于24h。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 间不应少于
+    unit: h
+    condition: null
+    min_value: 24.0
+    max_value: 24.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#7.1.1
+  standard_code: GB 55030-2022
+  chapter: 7 运行维护
+  section: 7.1一般规定
+  clause_no: 7.1.1
+  text: 建筑或市政工程使用说明书和质量保证书应包含防水工程的保修责任、保修范围和保修期限等。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#7.1.2
+  standard_code: GB 55030-2022
+  chapter: 7 运行维护
+  section: 7.1一般规定
+  clause_no: 7.1.2
+  text: 应保存与防水工程相关的竣工图纸和技术资料，保存期限不应少于工程防水设计工作年限。运行维护单位更替时，相关资料和图纸应同时移交。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#7.1.3
+  standard_code: GB 55030-2022
+  chapter: 7 运行维护
+  section: 7.1一般规定
+  clause_no: 7.1.3
+  text: 应按规定核对交工资料中与防水工程相关的技术资料，确保齐全和准确，当发现问题时，应提请建设单位处理。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#7.1.4
+  standard_code: GB 55030-2022
+  chapter: 7 运行维护
+  section: 7.1一般规定
+  clause_no: 7.1.4
+  text: 保修期满后，应对防水工程的总体情况进行检查。防水工程达到设计工作年限时应进行防水功能技术评审。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#7.2.1
+  standard_code: GB 55030-2022
+  chapter: 7 运行维护
+  section: 7.2管理
+  clause_no: 7.2.1
+  text: 应建立防水工程维护管理制度，并应定期巡检和维护。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#7.2.2
+  standard_code: GB 55030-2022
+  chapter: 7 运行维护
+  section: 7.2管理
+  clause_no: 7.2.2
+  text: 地下程和蓄水类工程应建立渗漏应急预案。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#7.2.3
+  standard_code: GB 55030-2022
+  chapter: 7 运行维护
+  section: 7.2管理
+  clause_no: 7.2.3
+  text: 工程发生渗漏时，应进行现场勘查、确定渗漏原因、制定维修方案，并应在治理完成后进行专项验收。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#7.2.4
+  standard_code: GB 55030-2022
+  chapter: 7 运行维护
+  section: 7.2管理
+  clause_no: 7.2.4
+  text: 应建立防水维修档案，保证维修质量可追溯。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#7.2.5
+  standard_code: GB 55030-2022
+  chapter: 7 运行维护
+  section: 7.2管理
+  clause_no: 7.2.5
+  text: 维修后防水层的防水性能、整体强度、与下层粘结强度和耐久性等指标应满足设计要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#7.3.1
+  standard_code: GB 55030-2022
+  chapter: 7 运行维护
+  section: 7.3维护
+  clause_no: 7.3.1
+  text: 建筑与市政工程使用期间应确保排水通道通畅且不应损伤防水系统。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#7.3.2
+  standard_code: GB 55030-2022
+  chapter: 7 运行维护
+  section: 7.3维护
+  clause_no: 7.3.2
+  text: 防水工程维修用材料和工艺之间不应产生有害的物理和化学作用。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#7.3.3
+  standard_code: GB 55030-2022
+  chapter: 7 运行维护
+  section: 7.3维护
+  clause_no: 7.3.3
+  text: 现场防水维护或维修作业，应制定高空作业、动火和有限空间作业的安全质量保证措施。阵风5级及以上时，不应进行户外高空作业及动火作业。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#7.3.4
+  standard_code: GB 55030-2022
+  chapter: 7 运行维护
+  section: 7.3维护
+  clause_no: 7.3.4
+  text: 渗漏水治理使用的材料应符合环保要求。引用标准名录《高分子防水材料第2部分：止水带》GB/T18173.27《高分子防水材料第3部分：遇水膨胀橡胶》GB/T18173.3《高分子防水材料第4部分：盾构法隧道管片用橡胶密封垫》GB/T18173.4《水泥基渗透结晶型防水材料》GB18445
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB/T 18173.27
+    target_clause: null
+    original_text: 渗漏水治理使用的材料应符合环保要求。引用标准名录《高分子防水材料第2部分：止水带》GB/T18173.27《高分子防水材料第3部分：遇水膨胀橡胶》GB/T18173.3《高分子防水材料第
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcRoof
+    - IfcWall
+    - IfcSlab
+    - IfcBasement
+    activity_types:
+    - 防水设计
+  conflicts: []
+- id: GB 55030-2022#4.2.1
+  standard_code: GB 55030-2022
+  chapter: 4 设计
+  section: 4.2 明挖法地下工程
+  clause_no: 4.2.1
+  text: 本条主要针对地下工程现浇混凝土结构迎水面外设防水层进行规定、防水混凝土是地下工程防水的基础。在各个防水等级中均把防水混凝土作为应选措施.当防水等级要求较高时 除了设置防水混凝土,还应设置外设防水层 1。外设防水层一般设置于主体结构的迎水面 即底板,侧墙，顶板的外侧 目的是从迎水面隔绝主体结构与地下水的联系,并通过封闭混凝土结构的接缝、贯穿性裂缝等可能的渗漏水通道。获得预期的防水功能,刚柔相济.是国内外地下工程防水设防的基本原则 表4.2.1正是这一原则的具体体现。对于防水等级为一级的地下工程 使用功能对渗漏水敏感。考虑现浇混凝土的接缝，混凝土自身的收缩以及建、构,筑物的沉降变形 允许范围内.等因素，而水泥基适应变形能力不足 因此要求2道外设防水层中至少应有1道防水卷材或防水涂料 防水涂料,防水涂料的防水做法应采取厚度和用量双重质量控制措施,目前工程中仅限于聚氨酯 聚脲等反应型高分子类防水涂料,对于防水等级为二级的地下工程、外设防水层材料可在规定的品种中任选、根据材料特性、水泥基防水材料应直接作用于结构混凝土表面。其中外涂型水泥基渗透结晶防水材料适于在潮湿环境中使用、当与其他防水层结合使用时，应保证与混凝土结构基层和其他防水材料的粘结性能 天然钠基膨润土防水毯归属本表中的.防水卷材 2、支护结构与主体结构侧墙之间的形式有分离式，复合式和叠合式三种,从整体防水效果考虑.分离式和复合式结构侧墙.具备外设防水层施工条件、应设置与底板,顶板连续的外设防水层 叠合式主体结构侧墙与支护结构之间不具备连续设置柔性防水层的条件，一般采用在支护结构表面涂刷外涂型水泥基渗透结晶型防水材料 支护结构采用地下连续墙时。连续墙墙幅接头仍是防水的薄弱之处、需要单独做防水处理达到接缝无渗漏的要求.
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+  _kind: commentary
+  _commentary_note: 条文说明混入（非规范正文）：文本以'本条主要针对…'/'为避免…故规定…'开头，属于规范的条文释义而非强制性条文。已从强条审计豁免。需回源 PDF 补录4.2.1的真实条文文本。
+- id: GB 55030-2022#4.2.5
+  standard_code: GB 55030-2022
+  chapter: 4 设计
+  section: 4.2 明挖法地下工程
+  clause_no: 4.2.5
+  text: 盖挖逆作法工程顶板与支护结构之间的连接分为铰接和刚接两种形式 铰接形式的顶板与支护结构冠梁之间无钢筋连接，防水层可以由顶板顺延铺设通过支护结构顶部至侧墙甩槎、刚接形式的顶板与支护结构冠梁之间有钢筋连接 此部位柔性防水层无法连续 同时、为避免对结构受力造成影响 刚接部位区域通常仅采用外涂型水泥基渗透结晶型防水材料进行过渡.
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+  _kind: commentary
+  _commentary_note: 条文说明混入（非规范正文）：文本以'本条主要针对…'/'为避免…故规定…'开头，属于规范的条文释义而非强制性条文。已从强条审计豁免。需回源 PDF 补录4.2.5的真实条文文本。
+- id: GB 55030-2022#4.2.7
+  standard_code: GB 55030-2022
+  chapter: 4 设计
+  section: 4.2 明挖法地下工程
+  clause_no: 4.2.7
+  text: 当地下工程防水层收头低于室外地坪时。降水.积水等可能从收头部位下渗而造成渗漏 故规定防水设防范围应高出室外地坪300mm以上。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+  _kind: commentary
+  _commentary_note: 条文说明混入（非规范正文）：文本以'本条主要针对…'/'为避免…故规定…'开头，属于规范的条文释义而非强制性条文。已从强条审计豁免。需回源 PDF 补录4.2.7的真实条文文本。
+- id: GB 55030-2022#4.4.4
+  standard_code: GB 55030-2022
+  chapter: 4 设计
+  section: 4.4 建筑屋面工程
+  clause_no: 4.4.4
+  text: 排水系统是屋面系统防水功能的重要组成部分、通常需要根据当地的年降雨量 屋面排水坡度,汇水面积等因素 设计雨水汇集，排出系统 包括天沟或檐沟宽度,深度.坡度。以及溢流口的位置 间距.数量 水位和荷载等.
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+  _kind: commentary
+  _commentary_note: 条文说明混入（非规范正文）：文本以'本条主要针对…'/'为避免…故规定…'开头，属于规范的条文释义而非强制性条文。已从强条审计豁免。需回源 PDF 补录4.4.4的真实条文文本。
+- id: GB 55030-2022#4.6.5
+  standard_code: GB 55030-2022
+  chapter: 4 设计
+  section: 4.6 建筑室内工程
+  clause_no: 4.6.5
+  text: 为避免水蒸气导致顶棚发霉。破坏装修等情况发生，规定可能存在冷凝水的顶棚部位应增设防水或防潮措施的要求、长期潮湿且内表面存在冷凝水的建筑有游泳馆、洗浴中心.温泉馆等。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+  _kind: commentary
+  _commentary_note: 条文说明混入（非规范正文）：文本以'本条主要针对…'/'为避免…故规定…'开头，属于规范的条文释义而非强制性条文。已从强条审计豁免。需回源 PDF 补录4.6.5的真实条文文本。
+- id: GB 55030-2022#4.6.6
+  standard_code: GB 55030-2022
+  chapter: 4 设计
+  section: 4.6 建筑室内工程
+  clause_no: 4.6.6
+  text: 对地漏及管根等部位应采取密封防水措施。套管与管道间既要做到防水可靠。又要确保管道的变形和更换需要.
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+  _kind: commentary
+  _commentary_note: 条文说明混入（非规范正文）：文本以'本条主要针对…'/'为避免…故规定…'开头，属于规范的条文释义而非强制性条文。已从强条审计豁免。需回源 PDF 补录4.6.6的真实条文文本。
+- id: GB 55030-2022#5.4.2
+  standard_code: GB 55030-2022
+  chapter: 5 施工
+  section: 5.4 建筑屋面工程
+  clause_no: 5.4.2
+  text: 在坡度大于30。的屋面上施工。为防止材料下滑及保证施工安全、应采取防滑措施 如材料的满粘.机械固定 表面防滑处理 施工人员做好防护及防坠落措施等。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+  _kind: commentary
+  _commentary_note: 条文说明混入（非规范正文）：文本以'本条主要针对…'/'为避免…故规定…'开头，属于规范的条文释义而非强制性条文。已从强条审计豁免。需回源 PDF 补录5.4.2的真实条文文本。
+- id: GB 55030-2022#5.6.2
+  standard_code: GB 55030-2022
+  chapter: 5 施工
+  section: 5.6 建筑室内工程
+  clause_no: 5.6.2
+  text: 室内墙面装饰层由于经常与墙面防水层粘结不牢而脱落 本条强调在墙面防水材料选择和防水层施工时 应选择与墙面饰面层粘结牢固的材料和做法。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+  _kind: commentary
+  _commentary_note: 条文说明混入（非规范正文）：文本以'本条主要针对…'/'为避免…故规定…'开头，属于规范的条文释义而非强制性条文。已从强条审计豁免。需回源 PDF 补录5.6.2的真实条文文本。
+- id: GB 55030-2022#6.0.3
+  standard_code: GB 55030-2022
+  chapter: 6 验收
+  section: ''
+  clause_no: 6.0.3
+  text: 本规范第2.0.3条依据防水功能的重要性划分了工程防水类别，故仍将按照防水工程质量对防水功能的满足程度进行质量验收、本条规定了不同防水类别工程的工程质量检验合格判定标准，是安全。功能和质量的重要评价指标,建筑与市政地下防水工程的质量主要从结构背水面的渗漏水现象。个数,渗漏水量。水质等方面进行定性或定量判定 现行国家标准对此有细化的规定。考虑到不同使用环境、建造方法和使用功能的地下工程对渗漏水定量控制指标有差异、本规范对地下防水工程质量验收按照工程防水类别仅提出定性规定 建筑屋面，外墙和室内防水工程无论何种工程防水类别.均不应发生渗漏.这是国内外相关标准长期以来遵循的基本原则、故规定工程质量应达到,不应有渗水，结构背水面无湿渍、的标准、市政道桥防水工程的主要功能是防止水渗入桥体而影响桥梁结构的耐久性.对于甲类工程,要求合格标准为,不应有渗水，对于乙类工程其结构设计工作年限为30年或50年，见现行强制性工程建设规范。城市道路交通工程项目规范 GB，55011,耐久性要求略低.故规定合格判定标准为，不应有滴漏。线漏,蓄水类防水工程质量关系到工程的工作年限。使用功能。工程的工作状态与地下防水工程相似.故参考地下防水工程质量验收合格标准,定性规定了不同防水类别蓄水类工程的检验合格判定标准 防水工程质量检验均应在结构背水面进行、本条所列渗漏水现象的定义和标识符号见减少渗漏水产生风险.因此 在工程质量验收时.应确保其功能满足设计要求，排水畅通.
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+  _kind: commentary
+  _commentary_note: 条文说明混入（非规范正文）：文本以'本条主要针对…'/'为避免…故规定…'开头，属于规范的条文释义而非强制性条文。已从强条审计豁免。需回源 PDF 补录6.0.3的真实条文文本。
+executable_rules:
+- rule_id: R_GB550302022_2_0_5_1
+  source_clause: GB 55030-2022#2.0.5
+  rule_type: constraint
+  when:
+  - activity_type == '防水设计'
+  - component_type IN ['IfcRoof', 'IfcWall', 'IfcSlab', 'IfcBasement']
+  then:
+    parameter: 地年降水量
+    unit: mm
+    condition: null
+    min_value: 400.0
+  source_text: 工程防水使用环境类别为Ⅱ类的明挖法地下工程，当该工程所在地年降水量大于400mm时，应按I类防水使用环境选用。2.0. 6工程防水等级应依据工程类别和工程防水使用环境类别分为一级、二级、三级。暗挖法地下工程防水等级应根据工程类别、工程地质条件和施工条件等因素确定，其他工程防水等级
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550302022_3_3_1_1
+  source_clause: GB 55030-2022#3.3.1
+  rule_type: constraint
+  when:
+  - activity_type == '防水设计'
+  - component_type IN ['IfcRoof', 'IfcWall', 'IfcSlab', 'IfcBasement']
+  then:
+    parameter: 试验应按
+    unit: d
+    condition: null
+    max_value: 14.0
+  source_text: 防水材料耐水性测试试验应按不低于23℃×14d的条件进行，试验后不应出现裂纹、分层、起泡和破碎等现象。当用于地下工程时，浸水试验条件不应低于23℃×7d，防水卷材吸水率不应大于4%；防水涂料与基层的粘结强度浸水后保持率不应小于80%，非固化橡胶沥青防水涂料应为内聚破坏。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550302022_3_3_1_2
+  source_clause: GB 55030-2022#3.3.1
+  rule_type: constraint
+  when:
+  - activity_type == '防水设计'
+  - component_type IN ['IfcRoof', 'IfcWall', 'IfcSlab', 'IfcBasement']
+  then:
+    parameter: 验条件
+    unit: d
+    condition: null
+    max_value: 7.0
+  source_text: 防水材料耐水性测试试验应按不低于23℃×14d的条件进行，试验后不应出现裂纹、分层、起泡和破碎等现象。当用于地下工程时，浸水试验条件不应低于23℃×7d，防水卷材吸水率不应大于4%；防水涂料与基层的粘结强度浸水后保持率不应小于80%，非固化橡胶沥青防水涂料应为内聚破坏。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550302022_3_3_1_3
+  source_clause: GB 55030-2022#3.3.1
+  rule_type: constraint
+  when:
+  - activity_type == '防水设计'
+  - component_type IN ['IfcRoof', 'IfcWall', 'IfcSlab', 'IfcBasement']
+  then:
+    parameter: 吸水率
+    unit: '%'
+    condition: null
+    min_value: 4.0
+  source_text: 防水材料耐水性测试试验应按不低于23℃×14d的条件进行，试验后不应出现裂纹、分层、起泡和破碎等现象。当用于地下工程时，浸水试验条件不应低于23℃×7d，防水卷材吸水率不应大于4%；防水涂料与基层的粘结强度浸水后保持率不应小于80%，非固化橡胶沥青防水涂料应为内聚破坏。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550302022_3_3_1_4
+  source_clause: GB 55030-2022#3.3.1
+  rule_type: constraint
+  when:
+  - activity_type == '防水设计'
+  - component_type IN ['IfcRoof', 'IfcWall', 'IfcSlab', 'IfcBasement']
+  then:
+    parameter: 水后保持率
+    unit: '%'
+    condition: null
+    min_value: 80.0
+  source_text: 防水材料耐水性测试试验应按不低于23℃×14d的条件进行，试验后不应出现裂纹、分层、起泡和破碎等现象。当用于地下工程时，浸水试验条件不应低于23℃×7d，防水卷材吸水率不应大于4%；防水涂料与基层的粘结强度浸水后保持率不应小于80%，非固化橡胶沥青防水涂料应为内聚破坏。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550302022_3_3_2_1
+  source_clause: GB 55030-2022#3.3.2
+  rule_type: constraint
+  when:
+  - activity_type == '防水设计'
+  - component_type IN ['IfcRoof', 'IfcWall', 'IfcSlab', 'IfcBasement']
+  then:
+    parameter: 试验应按
+    unit: d
+    condition: null
+    max_value: 14.0
+  source_text: 沥青类材料的热老化测试试验应按不低于70℃×14d的条件进行，高分子类材料的热老化测试试验应按不低于80℃×14d的条件进行，试验后材料的低温柔性或低温弯折性温度升高不应超过热老化前标准值2℃。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550302022_3_3_11_1
+  source_clause: GB 55030-2022#3.3.11
+  rule_type: constraint
+  when:
+  - activity_type == '防水设计'
+  - component_type IN ['IfcRoof', 'IfcWall', 'IfcSlab', 'IfcBasement']
+  then:
+    parameter: 层最小厚度
+    unit: mm
+    condition: null
+    min_value: 1.5
+  source_text: 反应型高分子类防水涂料、聚合物乳液类防水涂料和水性聚合物沥青类防水涂料等涂料防水层最小厚度不应小于1.5mm，热熔施工橡胶沥青类防水涂料防水层最小厚度不应小于 2.0mm。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550302022_3_3_11_2
+  source_clause: GB 55030-2022#3.3.11
+  rule_type: constraint
+  when:
+  - activity_type == '防水设计'
+  - component_type IN ['IfcRoof', 'IfcWall', 'IfcSlab', 'IfcBasement']
+  then:
+    parameter: 层最小厚度
+    unit: mm
+    condition: null
+    min_value: 2.0
+  source_text: 反应型高分子类防水涂料、聚合物乳液类防水涂料和水性聚合物沥青类防水涂料等涂料防水层最小厚度不应小于1.5mm，热熔施工橡胶沥青类防水涂料防水层最小厚度不应小于 2.0mm。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550302022_3_3_12_1
+  source_clause: GB 55030-2022#3.3.12
+  rule_type: constraint
+  when:
+  - activity_type == '防水设计'
+  - component_type IN ['IfcRoof', 'IfcWall', 'IfcSlab', 'IfcBasement']
+  then:
+    parameter: 层时其厚度
+    unit: mm
+    condition: null
+    min_value: 1.5
+  source_text: 当热熔施工橡胶沥青类防水涂料与防水卷材配套使用作为一道防水层时，其厚度不应小于1.5mm。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550302022_3_4_3_1
+  source_clause: GB 55030-2022#3.4.3
+  rule_type: constraint
+  when:
+  - activity_type == '防水设计'
+  - component_type IN ['IfcRoof', 'IfcWall', 'IfcSlab', 'IfcBasement']
+  then:
+    parameter: 水层的厚度
+    unit: mm
+    condition: null
+    min_value: 6.0
+  source_text: 地下工程使用时，聚合物水泥防水砂浆防水层的厚度不应小于6.0mm，掺外加剂、防水剂的砂浆防水层的厚度不应小于 18.0mm。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550302022_3_4_3_2
+  source_clause: GB 55030-2022#3.4.3
+  rule_type: constraint
+  when:
+  - activity_type == '防水设计'
+  - component_type IN ['IfcRoof', 'IfcWall', 'IfcSlab', 'IfcBasement']
+  then:
+    parameter: 水层的厚度
+    unit: mm
+    condition: null
+    min_value: 18.0
+  source_text: 地下工程使用时，聚合物水泥防水砂浆防水层的厚度不应小于6.0mm，掺外加剂、防水剂的砂浆防水层的厚度不应小于 18.0mm。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550302022_3_5_1_1
+  source_clause: GB 55030-2022#3.5.1
+  rule_type: constraint
+  when:
+  - activity_type == '防水设计'
+  - component_type IN ['IfcRoof', 'IfcWall', 'IfcSlab', 'IfcBasement']
+  then:
+    parameter: 率硅酮
+    unit: '%'
+    condition: null
+    min_value: 8.0
+  source_text: 非结构粘结用建筑密封胶质量损失率，硅酮不应大于8%，改性硅酮不应大于5%，聚氨酯不应大于7%，聚硫不应大于5%。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550302022_3_5_1_2
+  source_clause: GB 55030-2022#3.5.1
+  rule_type: constraint
+  when:
+  - activity_type == '防水设计'
+  - component_type IN ['IfcRoof', 'IfcWall', 'IfcSlab', 'IfcBasement']
+  then:
+    parameter: 酮
+    unit: '%'
+    condition: null
+    min_value: 5.0
+  source_text: 非结构粘结用建筑密封胶质量损失率，硅酮不应大于8%，改性硅酮不应大于5%，聚氨酯不应大于7%，聚硫不应大于5%。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550302022_3_5_1_3
+  source_clause: GB 55030-2022#3.5.1
+  rule_type: constraint
+  when:
+  - activity_type == '防水设计'
+  - component_type IN ['IfcRoof', 'IfcWall', 'IfcSlab', 'IfcBasement']
+  then:
+    parameter: 硅酮
+    unit: '%'
+    condition: null
+    min_value: 7.0
+  source_text: 非结构粘结用建筑密封胶质量损失率，硅酮不应大于8%，改性硅酮不应大于5%，聚氨酯不应大于7%，聚硫不应大于5%。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550302022_3_5_1_4
+  source_clause: GB 55030-2022#3.5.1
+  rule_type: constraint
+  when:
+  - activity_type == '防水设计'
+  - component_type IN ['IfcRoof', 'IfcWall', 'IfcSlab', 'IfcBasement']
+  then:
+    parameter: 聚氨酯
+    unit: '%'
+    condition: null
+    min_value: 5.0
+  source_text: 非结构粘结用建筑密封胶质量损失率，硅酮不应大于8%，改性硅酮不应大于5%，聚氨酯不应大于7%，聚硫不应大于5%。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550302022_3_6_1_1
+  source_clause: GB 55030-2022#3.6.1
+  rule_type: constraint
+  when:
+  - activity_type == '防水设计'
+  - component_type IN ['IfcRoof', 'IfcWall', 'IfcSlab', 'IfcBasement']
+  then:
+    parameter: 位面积干重
+    unit: kg/m²
+    condition: null
+    min_value: 5.0
+  source_text: 天然钠基膨润土防水毯的单位面积干重不应小于5.0kg/m²且天然钠基膨润土防水毯的耐久性指标应符合
+  table_source: 表3.6.1
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550302022_4_1_4_1
+  source_clause: GB 55030-2022#4.1.4
+  rule_type: constraint
+  when:
+  - activity_type == '防水设计'
+  - component_type IN ['IfcRoof', 'IfcWall', 'IfcSlab', 'IfcBasement']
+  then:
+    parameter: 土结构厚度
+    unit: mm
+    condition: null
+    min_value: 250.0
+  source_text: 相邻材料间及其施工工艺不应产生有害的物理和化学作用。4.1. 5地下工程迎水面主体结构应采用防水混凝土，并应符合下列规定：防水混凝土应满足抗渗等级要求；防水混凝土结构厚度不应小于250mm；防水混凝土的裂缝宽度不应大于结构允许限值，并不应贯通；寒冷地区抗冻设防段防水混凝土抗渗等级
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550302022_4_1_7_1
+  source_clause: GB 55030-2022#4.1.7
+  rule_type: constraint
+  when:
+  - activity_type == '防水设计'
+  - component_type IN ['IfcRoof', 'IfcWall', 'IfcSlab', 'IfcBasement']
+  then:
+    parameter: 纵向坡度
+    unit: '%'
+    condition: null
+    min_value: 0.2
+  source_text: 排水设施应具备汇集、流径、排放等功能。地下工程集水坑和排水沟应做防水处理，排水沟的纵向坡度不应小于0.2%。4.1. 8防水节点构造设计应符合下列规定：附加防水层采用防水涂料时，应设置胎体增强材料；结构变形缝设置的橡胶止水带应满足结构允许的最大变形量；穿墙管设置防水套管时，防水套
+  table_source: 表4.2.1
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550302022_4_2_6_1
+  source_clause: GB 55030-2022#4.2.6
+  rule_type: constraint
+  when:
+  - activity_type == '防水设计'
+  - component_type IN ['IfcRoof', 'IfcWall', 'IfcSlab', 'IfcBasement']
+  then:
+    parameter: 构底板以上
+    unit: mm
+    condition: null
+    min_value: 500.0
+    max_value: 500.0
+  source_text: 基底至结构底板以上500mm范围及结构顶板以上不小于500mm范围的回填层压实系数不应小于0.94。4.2. 7附建式全地下或半地下工程的防水设防范围应高出室外地坪，其超出的高度不应小于300mm。4.2. 8民用建筑地下室顶板防水设计应符合下列规定：应将覆土中积水排至周边土体或
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550302022_4_2_6_2
+  source_clause: GB 55030-2022#4.2.6
+  rule_type: constraint
+  when:
+  - activity_type == '防水设计'
+  - component_type IN ['IfcRoof', 'IfcWall', 'IfcSlab', 'IfcBasement']
+  then:
+    parameter: 构顶板以上
+    unit: mm
+    condition: null
+    min_value: 500.0
+  source_text: 基底至结构底板以上500mm范围及结构顶板以上不小于500mm范围的回填层压实系数不应小于0.94。4.2. 7附建式全地下或半地下工程的防水设防范围应高出室外地坪，其超出的高度不应小于300mm。4.2. 8民用建筑地下室顶板防水设计应符合下列规定：应将覆土中积水排至周边土体或
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550302022_4_2_6_3
+  source_clause: GB 55030-2022#4.2.6
+  rule_type: constraint
+  when:
+  - activity_type == '防水设计'
+  - component_type IN ['IfcRoof', 'IfcWall', 'IfcSlab', 'IfcBasement']
+  then:
+    parameter: 超出的高度
+    unit: mm
+    condition: null
+    min_value: 300.0
+  source_text: 基底至结构底板以上500mm范围及结构顶板以上不小于500mm范围的回填层压实系数不应小于0.94。4.2. 7附建式全地下或半地下工程的防水设防范围应高出室外地坪，其超出的高度不应小于300mm。4.2. 8民用建筑地下室顶板防水设计应符合下列规定：应将覆土中积水排至周边土体或
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550302022_4_2_6_4
+  source_clause: GB 55030-2022#4.2.6
+  rule_type: constraint
+  when:
+  - activity_type == '防水设计'
+  - component_type IN ['IfcRoof', 'IfcWall', 'IfcSlab', 'IfcBasement']
+  then:
+    parameter: 覆土或场地
+    unit: mm
+    condition: null
+    min_value: 500.0
+  source_text: 基底至结构底板以上500mm范围及结构顶板以上不小于500mm范围的回填层压实系数不应小于0.94。4.2. 7附建式全地下或半地下工程的防水设防范围应高出室外地坪，其超出的高度不应小于300mm。4.2. 8民用建筑地下室顶板防水设计应符合下列规定：应将覆土中积水排至周边土体或
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550302022_4_4_9_1
+  source_clause: GB 55030-2022#4.4.9
+  rule_type: constraint
+  when:
+  - activity_type == '防水设计'
+  - component_type IN ['IfcRoof', 'IfcWall', 'IfcSlab', 'IfcBasement']
+  then:
+    parameter: 层长边
+    unit: m
+    condition: null
+    min_value: 45.0
+  source_text: 混凝土结构屋面防水卷材采用水泥基材料搭接粘结时，防水层长边不应大于45m
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550302022_4_5_3_1
+  source_clause: GB 55030-2022#4.5.3
+  rule_type: constraint
+  when:
+  - activity_type == '防水设计'
+  - component_type IN ['IfcRoof', 'IfcWall', 'IfcSlab', 'IfcBasement']
+  then:
+    parameter: 施排水坡度
+    unit: '%'
+    condition: null
+    min_value: 5.0
+  source_text: 门窗洞口节点构造防水和门窗性能应符合下列规定：1门窗框与墙体间连接处的缝隙应采用防水密封材料嵌填和密封；2门窗洞口上应设置滴水线；3门窗性能和安装质量应满足水密性要求；4窗台处应设置排水板和滴水线等排水构造措施，排水坡度不应小于5%。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550302022_4_5_4_1
+  source_clause: GB 55030-2022#4.5.4
+  rule_type: constraint
+  when:
+  - activity_type == '防水设计'
+  - component_type IN ['IfcRoof', 'IfcWall', 'IfcSlab', 'IfcBasement']
+  then:
+    parameter: 外排水坡度
+    unit: '%'
+    condition: null
+    min_value: 1.0
+  source_text: 雨篷、阳台、室外挑板等防水做法应符合下列规定：1雨篷应设置外排水，坡度不应小于1%，且外口下沿应做滴水线。雨篷与外墙交接处的防水层应连续，且防水层应沿外口下翻至滴水线。2开式外廊和阳台的楼面应设防水层，阳台坡向水落口的排水坡度不应小于1%，并应通过雨水立管接入排水系统，水落口周边
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550302022_4_5_4_2
+  source_clause: GB 55030-2022#4.5.4
+  rule_type: constraint
+  when:
+  - activity_type == '防水设计'
+  - component_type IN ['IfcRoof', 'IfcWall', 'IfcSlab', 'IfcBasement']
+  then:
+    parameter: 排水坡度
+    unit: '%'
+    condition: null
+    min_value: 1.0
+  source_text: 雨篷、阳台、室外挑板等防水做法应符合下列规定：1雨篷应设置外排水，坡度不应小于1%，且外口下沿应做滴水线。雨篷与外墙交接处的防水层应连续，且防水层应沿外口下翻至滴水线。2开式外廊和阳台的楼面应设防水层，阳台坡向水落口的排水坡度不应小于1%，并应通过雨水立管接入排水系统，水落口周边
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550302022_4_5_5_1
+  source_clause: GB 55030-2022#4.5.5
+  rule_type: constraint
+  when:
+  - activity_type == '防水设计'
+  - component_type IN ['IfcRoof', 'IfcWall', 'IfcSlab', 'IfcBasement']
+  then:
+    parameter: 满粘的宽度
+    unit: mm
+    condition: null
+    min_value: 150.0
+  source_text: 外墙变形缝、穿墙管道、预埋件等节点防水做法应符合下列规定：1变形缝部位应采取防水加强措施。当采用增设卷材附加层措施时，卷材两端应满粘于墙体，满粘的宽度不应小于150mm，并应钉压固定，卷材收头应采用密封材料密封。2，穿墙管道应采取避免雨水流入措施和内外防水密封措施。3／外墙预埋件
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550302022_4_6_3_1
+  source_clause: GB 55030-2022#4.6.3
+  rule_type: constraint
+  when:
+  - activity_type == '防水设计'
+  - component_type IN ['IfcRoof', 'IfcWall', 'IfcSlab', 'IfcBasement']
+  then:
+    parameter: 施排水坡度
+    unit: '%'
+    condition: null
+    min_value: 1.0
+  source_text: 有防水要求的楼地面应设排水坡，并应坡向地漏或排水设施，排水坡度不应小于1.0%。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550302022_4_6_4_1
+  source_clause: GB 55030-2022#4.6.4
+  rule_type: constraint
+  when:
+  - activity_type == '防水设计'
+  - component_type IN ['IfcRoof', 'IfcWall', 'IfcSlab', 'IfcBasement']
+  then:
+    parameter: 层翻起高度
+    unit: mm
+    condition: null
+    min_value: 2000.0
+  source_text: 用水空间与非用水空间楼地面交接处应有防止水流入非用水房间的措施。淋浴区墙面防水层翻起高度不应小于2000mm，且不低于淋浴喷淋口高度。盟洗池盆等用水处墙面防水层翻起高度不应小于1200mm墙面其他部位泛水翻起高度不应小于250mm。4.6. 5潮湿空间的顶棚应设置防潮层或采用防潮
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550302022_4_6_4_2
+  source_clause: GB 55030-2022#4.6.4
+  rule_type: constraint
+  when:
+  - activity_type == '防水设计'
+  - component_type IN ['IfcRoof', 'IfcWall', 'IfcSlab', 'IfcBasement']
+  then:
+    parameter: 层翻起高度
+    unit: mm
+    condition: null
+    min_value: 1200.0
+  source_text: 用水空间与非用水空间楼地面交接处应有防止水流入非用水房间的措施。淋浴区墙面防水层翻起高度不应小于2000mm，且不低于淋浴喷淋口高度。盟洗池盆等用水处墙面防水层翻起高度不应小于1200mm墙面其他部位泛水翻起高度不应小于250mm。4.6. 5潮湿空间的顶棚应设置防潮层或采用防潮
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550302022_4_6_4_3
+  source_clause: GB 55030-2022#4.6.4
+  rule_type: constraint
+  when:
+  - activity_type == '防水设计'
+  - component_type IN ['IfcRoof', 'IfcWall', 'IfcSlab', 'IfcBasement']
+  then:
+    parameter: 水翻起高度
+    unit: mm
+    condition: null
+    min_value: 250.0
+  source_text: 用水空间与非用水空间楼地面交接处应有防止水流入非用水房间的措施。淋浴区墙面防水层翻起高度不应小于2000mm，且不低于淋浴喷淋口高度。盟洗池盆等用水处墙面防水层翻起高度不应小于1200mm墙面其他部位泛水翻起高度不应小于250mm。4.6. 5潮湿空间的顶棚应设置防潮层或采用防潮
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550302022_4_6_4_4
+  source_clause: GB 55030-2022#4.6.4
+  rule_type: constraint
+  when:
+  - activity_type == '防水设计'
+  - component_type IN ['IfcRoof', 'IfcWall', 'IfcSlab', 'IfcBasement']
+  then:
+    parameter: 度不应小天
+    unit: mm
+    condition: null
+    min_value: 20.0
+    max_value: 20.0
+  source_text: 用水空间与非用水空间楼地面交接处应有防止水流入非用水房间的措施。淋浴区墙面防水层翻起高度不应小于2000mm，且不低于淋浴喷淋口高度。盟洗池盆等用水处墙面防水层翻起高度不应小于1200mm墙面其他部位泛水翻起高度不应小于250mm。4.6. 5潮湿空间的顶棚应设置防潮层或采用防潮
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550302022_4_7_3_1
+  source_clause: GB 55030-2022#4.7.3
+  rule_type: constraint
+  when:
+  - activity_type == '防水设计'
+  - component_type IN ['IfcRoof', 'IfcWall', 'IfcSlab', 'IfcBasement']
+  then:
+    parameter: 土面层厚度
+    unit: mm
+    condition: null
+    min_value: 80.0
+  source_text: 桥面铺装防水系统应根据桥梁结构形式、桥面铺装面层材料、防水环境类别等确定，并应符合下列规定：1当混凝土桥面铺装材料为沥青混凝土面层时，防水层应选用防水卷材或防水涂料。防水等级为一级的桥梁，卷材防水层上铺装的沥青混凝土面层厚度不应小于80mm。2当混凝土桥面铺装材料为水泥混凝土面层
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550302022_4_8_2_1
+  source_clause: GB 55030-2022#4.8.2
+  rule_type: constraint
+  when:
+  - activity_type == '防水设计'
+  - component_type IN ['IfcRoof', 'IfcWall', 'IfcSlab', 'IfcBasement']
+  then:
+    parameter: 套管直径
+    unit: mm
+    condition: null
+    min_value: 50.0
+  source_text: 混凝土结构蓄水类工程的防水节点构造设计应包括变形缝、诱导缝、施工缝、后浇带、穿墙管道、孔口等部位，并应符合下列规定：1混凝土结构的变形缝、诱导缝、施工缝、后浇带的防水构造应符合本规范第4.2.4条的规定；2管件穿墙部位应设置防水套管，套管直径应大于管道直径50mm，套管与管道之间
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550302022_4_8_2_2
+  source_clause: GB 55030-2022#4.8.2
+  rule_type: constraint
+  when:
+  - activity_type == '防水设计'
+  - component_type IN ['IfcRoof', 'IfcWall', 'IfcSlab', 'IfcBasement']
+  then:
+    parameter: 外地坪高程
+    unit: mm
+    condition: null
+    min_value: 300.0
+  source_text: 混凝土结构蓄水类工程的防水节点构造设计应包括变形缝、诱导缝、施工缝、后浇带、穿墙管道、孔口等部位，并应符合下列规定：1混凝土结构的变形缝、诱导缝、施工缝、后浇带的防水构造应符合本规范第4.2.4条的规定；2管件穿墙部位应设置防水套管，套管直径应大于管道直径50mm，套管与管道之间
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550302022_4_8_5_1
+  source_clause: GB 55030-2022#4.8.5
+  rule_type: constraint
+  when:
+  - activity_type == '防水设计'
+  - component_type IN ['IfcRoof', 'IfcWall', 'IfcSlab', 'IfcBasement']
+  then:
+    parameter: 透系数
+    unit: cm
+    condition: null
+    min_value: 7.0
+  source_text: 需同时防范有害物质的防渗衬层，当采用黏土作为1道防渗衬层时，应符合下列规定：饱和渗透系数不应大于1.0×10-7cm/s；2当单独采用黏土作为防渗衬层时，黏土厚度不应小于2m;3当采用黏土与人工合成材料的复合防渗衬层时，黏土厚度不应小于0.75m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550302022_4_8_5_2
+  source_clause: GB 55030-2022#4.8.5
+  rule_type: constraint
+  when:
+  - activity_type == '防水设计'
+  - component_type IN ['IfcRoof', 'IfcWall', 'IfcSlab', 'IfcBasement']
+  then:
+    parameter: 时黏土厚度
+    unit: m
+    condition: null
+    min_value: 2.0
+  source_text: 需同时防范有害物质的防渗衬层，当采用黏土作为1道防渗衬层时，应符合下列规定：饱和渗透系数不应大于1.0×10-7cm/s；2当单独采用黏土作为防渗衬层时，黏土厚度不应小于2m;3当采用黏土与人工合成材料的复合防渗衬层时，黏土厚度不应小于0.75m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550302022_4_8_5_3
+  source_clause: GB 55030-2022#4.8.5
+  rule_type: constraint
+  when:
+  - activity_type == '防水设计'
+  - component_type IN ['IfcRoof', 'IfcWall', 'IfcSlab', 'IfcBasement']
+  then:
+    parameter: 时黏土厚度
+    unit: m
+    condition: null
+    min_value: 0.75
+  source_text: 需同时防范有害物质的防渗衬层，当采用黏土作为1道防渗衬层时，应符合下列规定：饱和渗透系数不应大于1.0×10-7cm/s；2当单独采用黏土作为防渗衬层时，黏土厚度不应小于2m;3当采用黏土与人工合成材料的复合防渗衬层时，黏土厚度不应小于0.75m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550302022_5_1_5_1
+  source_clause: GB 55030-2022#5.1.5
+  rule_type: constraint
+  when:
+  - activity_type == '防水设计'
+  - component_type IN ['IfcRoof', 'IfcWall', 'IfcSlab', 'IfcBasement']
+  then:
+    parameter: 期不应少于
+    unit: d
+    condition: null
+    min_value: 14.0
+    max_value: 14.0
+  source_text: 铺贴防水卷材或涂刷防水涂料的阴阳角部位应做成圆弧状或进行倒角处理。5.1. 6防水混凝土施工应符合下列规定运输与浇筑过程中严禁加水，应及时进行保湿养护，养护期不应少于14d；后浇带部位的混凝土施工前，交界面应做糙面处理，并应清除积水和杂物。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550302022_5_1_8_1
+  source_clause: GB 55030-2022#5.1.8
+  rule_type: constraint
+  when:
+  - activity_type == '防水设计'
+  - component_type IN ['IfcRoof', 'IfcWall', 'IfcSlab', 'IfcBasement']
+  then:
+    parameter: 接错缝距离
+    unit: mm
+    condition: null
+    min_value: 500.0
+  source_text: 防水卷材施工应符合下列规定：1卷材铺贴应平整顺直，不应有起鼓、张口、翘边等现象。2同层相邻两幅卷材短边搭接错缝距离不应小于500mm。卷材双层铺贴时，上下两层和相邻两幅卷材的接缝应错开至少1/3幅宽，且不应互相垂直铺贴。同层卷材搭接不应超过3层。卷材收头应固定密封。Z5.1. 9
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550302022_5_1_8_2
+  source_clause: GB 55030-2022#5.1.8
+  rule_type: constraint
+  when:
+  - activity_type == '防水设计'
+  - component_type IN ['IfcRoof', 'IfcWall', 'IfcSlab', 'IfcBasement']
+  then:
+    parameter: 起鼓接宽度
+    unit: mm
+    condition: null
+    min_value: 100.0
+  source_text: 防水卷材施工应符合下列规定：1卷材铺贴应平整顺直，不应有起鼓、张口、翘边等现象。2同层相邻两幅卷材短边搭接错缝距离不应小于500mm。卷材双层铺贴时，上下两层和相邻两幅卷材的接缝应错开至少1/3幅宽，且不应互相垂直铺贴。同层卷材搭接不应超过3层。卷材收头应固定密封。Z5.1. 9
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550302022_5_2_2_1
+  source_clause: GB 55030-2022#5.2.2
+  rule_type: constraint
+  when:
+  - activity_type == '防水设计'
+  - component_type IN ['IfcRoof', 'IfcWall', 'IfcSlab', 'IfcBasement']
+  then:
+    parameter: 搭接宽度
+    unit: mm
+    condition: null
+    min_value: 300.0
+  source_text: 桩头应涂刷外涂型水泥基渗透结晶型防水材料，涂刷层与大面防水层的搭接宽度不应小于300mm。防水层应在桩头根部进行密封处理。1》
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550302022_5_2_3_1
+  source_clause: GB 55030-2022#5.2.3
+  rule_type: constraint
+  when:
+  - activity_type == '防水设计'
+  - component_type IN ['IfcRoof', 'IfcWall', 'IfcSlab', 'IfcBasement']
+  then:
+    parameter: 粘搭接长度
+    unit: mm
+    condition: null
+    min_value: 80.0
+  source_text: 有防水要求的地下结构墙体应采用穿墙防水对拉螺杆栓套具。5.2. 4中埋式止水带施工应符合下列规定1钢板止水带采用焊接连接时应满焊；2橡胶止水带应采用热硫化连接，连接接头不应设在结构转角部位，转角部位应呈圆弧状；3自粘丁基橡胶钢板止水带自粘搭接长度不应小于80mm，当采用机械固定搭
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550302022_5_2_3_2
+  source_clause: GB 55030-2022#5.2.3
+  rule_type: constraint
+  when:
+  - activity_type == '防水设计'
+  - component_type IN ['IfcRoof', 'IfcWall', 'IfcSlab', 'IfcBasement']
+  then:
+    parameter: 时搭接长度
+    unit: mm
+    condition: null
+    min_value: 50.0
+  source_text: 有防水要求的地下结构墙体应采用穿墙防水对拉螺杆栓套具。5.2. 4中埋式止水带施工应符合下列规定1钢板止水带采用焊接连接时应满焊；2橡胶止水带应采用热硫化连接，连接接头不应设在结构转角部位，转角部位应呈圆弧状；3自粘丁基橡胶钢板止水带自粘搭接长度不应小于80mm，当采用机械固定搭
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550302022_5_3_2_1
+  source_clause: GB 55030-2022#5.3.2
+  rule_type: constraint
+  when:
+  - activity_type == '防水设计'
+  - component_type IN ['IfcRoof', 'IfcWall', 'IfcSlab', 'IfcBasement']
+  then:
+    parameter: 层搭接宽度
+    unit: mm
+    condition: null
+    min_value: 50.0
+  source_text: 初期支护基层表面应平整、无尖锐凸起。防水层与初期支护之间设置的缓冲层搭接宽度不应小于50mm，并应采用配套的暗钉圈进行固定。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550302022_5_4_1_1
+  source_clause: GB 55030-2022#5.4.1
+  rule_type: constraint
+  when:
+  - activity_type == '防水设计'
+  - component_type IN ['IfcRoof', 'IfcWall', 'IfcSlab', 'IfcBasement']
+  then:
+    parameter: 屋面坡度
+    unit: '%'
+    condition: null
+    min_value: 30.0
+  source_text: 耐根穿刺防水卷材的施工方法应与耐根穿刺检测报告中注明的施工方法一致。5.4. 2当屋面坡度大于30%时，施工过程中应采取防滑措施。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550302022_6_0_10_1
+  source_clause: GB 55030-2022#6.0.10
+  rule_type: constraint
+  when:
+  - activity_type == '防水设计'
+  - component_type IN ['IfcRoof', 'IfcWall', 'IfcSlab', 'IfcBasement']
+  then:
+    parameter: 间不应少于
+    unit: h
+    condition: null
+    min_value: 2.0
+    max_value: 2.0
+  source_text: 建筑屋面工程在屋面防水层和节点防水完成后，应进行雨后观察或淋水、蓄水试验，并应符合下列规定：1采用雨后观察时，降雨应达到中雨量级标准；2采用淋水试验时，持续淋水时间不应少于2h；檐沟、天沟、雨水口等应进行蓄水试验，其最小蓄水高度不应小于20mm，蓄水时间不应少于24h。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550302022_6_0_10_2
+  source_clause: GB 55030-2022#6.0.10
+  rule_type: constraint
+  when:
+  - activity_type == '防水设计'
+  - component_type IN ['IfcRoof', 'IfcWall', 'IfcSlab', 'IfcBasement']
+  then:
+    parameter: 小蓄水高度
+    unit: mm
+    condition: null
+    min_value: 20.0
+  source_text: 建筑屋面工程在屋面防水层和节点防水完成后，应进行雨后观察或淋水、蓄水试验，并应符合下列规定：1采用雨后观察时，降雨应达到中雨量级标准；2采用淋水试验时，持续淋水时间不应少于2h；檐沟、天沟、雨水口等应进行蓄水试验，其最小蓄水高度不应小于20mm，蓄水时间不应少于24h。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550302022_6_0_11_1
+  source_clause: GB 55030-2022#6.0.11
+  rule_type: constraint
+  when:
+  - activity_type == '防水设计'
+  - component_type IN ['IfcRoof', 'IfcWall', 'IfcSlab', 'IfcBasement']
+  then:
+    parameter: 间不应少于
+    unit: m
+    condition: null
+    min_value: 30.0
+    max_value: 30.0
+  source_text: 建筑外墙工程墙面防水层和节点防水完成后应进行淋水试验，并应符合下列规定：1持续淋水时间不应少于30min;2仅进行门窗等节点部位防水的建筑外墙，可只对门窗等节点进行淋水试验。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550302022_6_0_12_1
+  source_clause: GB 55030-2022#6.0.12
+  rule_type: constraint
+  when:
+  - activity_type == '防水设计'
+  - component_type IN ['IfcRoof', 'IfcWall', 'IfcSlab', 'IfcBasement']
+  then:
+    parameter: 小蓄水高度
+    unit: mm
+    condition: null
+    min_value: 20.0
+  source_text: 建筑室内工程在防水层完成后，应进行淋水、蓄水试验，并应符合下列规定：1楼、地面最小蓄水高度不应小于20mm，蓄水时间不应少于24h;2有防水要求的墙面应进行淋水试验，淋水时间不应小于30min;3独立水容器应进行满池蓄水试验，蓄水时间不应少于24h；4室内工程厕浴间楼地面防水层和
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550302022_6_0_12_3
+  source_clause: GB 55030-2022#6.0.12
+  rule_type: constraint
+  when:
+  - activity_type == '防水设计'
+  - component_type IN ['IfcRoof', 'IfcWall', 'IfcSlab', 'IfcBasement']
+  then:
+    parameter: 验淋水时间
+    unit: m
+    condition: null
+    min_value: 30.0
+  source_text: 建筑室内工程在防水层完成后，应进行淋水、蓄水试验，并应符合下列规定：1楼、地面最小蓄水高度不应小于20mm，蓄水时间不应少于24h;2有防水要求的墙面应进行淋水试验，淋水时间不应小于30min;3独立水容器应进行满池蓄水试验，蓄水时间不应少于24h；4室内工程厕浴间楼地面防水层和
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550302022_6_0_12_4
+  source_clause: GB 55030-2022#6.0.12
+  rule_type: constraint
+  when:
+  - activity_type == '防水设计'
+  - component_type IN ['IfcRoof', 'IfcWall', 'IfcSlab', 'IfcBasement']
+  then:
+    parameter: 间不应少于
+    unit: h
+    condition: null
+    min_value: 24.0
+    max_value: 24.0
+  source_text: 建筑室内工程在防水层完成后，应进行淋水、蓄水试验，并应符合下列规定：1楼、地面最小蓄水高度不应小于20mm，蓄水时间不应少于24h;2有防水要求的墙面应进行淋水试验，淋水时间不应小于30min;3独立水容器应进行满池蓄水试验，蓄水时间不应少于24h；4室内工程厕浴间楼地面防水层和
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550302022_6_0_13_1
+  source_clause: GB 55030-2022#6.0.13
+  rule_type: constraint
+  when:
+  - activity_type == '防水设计'
+  - component_type IN ['IfcRoof', 'IfcWall', 'IfcSlab', 'IfcBasement']
+  then:
+    parameter: 间不应少于
+    unit: h
+    condition: null
+    min_value: 24.0
+    max_value: 24.0
+  source_text: 混凝土结构蓄水类工程完工后，应进行水池满池蓄水试验，蓄水时间不应少于24h。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+extraction_notes:
+- 疑似残缺/误标条文 GB 55030-2022#7.2.1：'应建立防水工程维护管理制度，并应定期巡检和维护。'，建议核对源 PDF 重提取。
+- 疑似残缺/误标条文 GB 55030-2022#7.2.4：'应建立防水维修档案，保证维修质量可追溯。'，建议核对源 PDF 重提取。
+- 全文强制性工程建设规范，全部条文必须严格执行。

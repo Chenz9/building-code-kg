@@ -1,0 +1,5851 @@
+standard:
+  code: GB 50067-2014
+  name: 汽车库、修车库、停车场设计防火规范
+  name_note: null
+  version: '2014'
+  status: 现行
+  is_abolished: false
+  effective_date: '2015-08-01'
+  abolished_date: null
+  superseded_by: null
+  standard_category: 国家标准
+  domain:
+  - 防火
+  - 消防设计
+  - 车库
+  region_scope: 全国
+  region_codes: []
+  has_mandatory_clauses: true
+  mandatory_clause_count: 25
+  mandatory_note: 源为扫描/OCR，黑体强条未自动检测；已按 GB 55037-2022 公告核对 25 条废止强条（4.2.5、9.0.7 回源补录）。
+  total_clauses: 118
+  related_standards:
+  - code: GB 55037-2022
+    relationship: 上位通用规范（全文强制，已废止本规范强制性条文效力）
+  - code: GB 50016
+    relationship: 协调（建筑设计防火规范）
+  clauses:
+  - GB 50067-2014#1.0.1
+  - GB 50067-2014#1.0.2
+  - GB 50067-2014#1.0.3
+  - GB 50067-2014#1.0.4
+  - GB 50067-2014#2.0.1
+  - GB 50067-2014#2.0.2
+  - GB 50067-2014#2.0.3
+  - GB 50067-2014#2.0.4
+  - GB 50067-2014#2.0.5
+  - GB 50067-2014#2.0.6
+  - GB 50067-2014#2.0.7
+  - GB 50067-2014#2.0.8
+  - GB 50067-2014#2.0.9
+  - GB 50067-2014#3.0.1
+  - GB 50067-2014#3.0.2
+  - GB 50067-2014#3.0.3
+  - GB 50067-2014#4.1.1
+  - GB 50067-2014#4.1.2
+  - GB 50067-2014#4.1.3
+  - GB 50067-2014#4.1.4
+  - GB 50067-2014#4.1.5
+  - GB 50067-2014#4.1.6
+  - GB 50067-2014#4.1.7
+  - GB 50067-2014#4.1.9
+  - GB 50067-2014#4.1.10
+  - GB 50067-2014#4.1.11
+  - GB 50067-2014#4.1.12
+  - GB 50067-2014#4.2.1
+  - GB 50067-2014#4.2.2
+  - GB 50067-2014#4.2.3
+  - GB 50067-2014#4.2.4
+  - GB 50067-2014#4.2.5
+  - GB 50067-2014#4.2.6
+  - GB 50067-2014#4.2.8
+  - GB 50067-2014#4.2.9
+  - GB 50067-2014#4.3.1
+  - GB 50067-2014#4.3.2
+  - GB 50067-2014#4.3.3
+  - GB 50067-2014#5.1.1
+  - GB 50067-2014#5.1.2
+  - GB 50067-2014#5.1.3
+  - GB 50067-2014#5.1.4
+  - GB 50067-2014#5.1.5
+  - GB 50067-2014#5.1.6
+  - GB 50067-2014#5.1.7
+  - GB 50067-2014#5.1.8
+  - GB 50067-2014#5.1.9
+  - GB 50067-2014#5.2.1
+  - GB 50067-2014#5.2.3
+  - GB 50067-2014#5.2.4
+  - GB 50067-2014#5.2.5
+  - GB 50067-2014#5.2.6
+  - GB 50067-2014#5.2.7
+  - GB 50067-2014#5.3.1
+  - GB 50067-2014#5.3.2
+  - GB 50067-2014#5.3.3
+  - GB 50067-2014#5.3.4
+  - GB 50067-2014#6.0.1
+  - GB 50067-2014#6.0.2
+  - GB 50067-2014#6.0.3
+  - GB 50067-2014#6.0.4
+  - GB 50067-2014#6.0.5
+  - GB 50067-2014#6.0.6
+  - GB 50067-2014#6.0.7
+  - GB 50067-2014#6.0.8
+  - GB 50067-2014#6.0.9
+  - GB 50067-2014#6.0.10
+  - GB 50067-2014#6.0.11
+  - GB 50067-2014#6.0.12
+  - GB 50067-2014#6.0.13
+  - GB 50067-2014#6.0.14
+  - GB 50067-2014#6.0.15
+  - GB 50067-2014#6.0.16
+  - GB 50067-2014#7.1.1
+  - GB 50067-2014#7.1.2
+  - GB 50067-2014#7.1.3
+  - GB 50067-2014#7.1.4
+  - GB 50067-2014#7.1.5
+  - GB 50067-2014#7.1.6
+  - GB 50067-2014#7.1.7
+  - GB 50067-2014#7.1.8
+  - GB 50067-2014#7.1.9
+  - GB 50067-2014#7.1.10
+  - GB 50067-2014#7.1.11
+  - GB 50067-2014#7.1.124
+  - GB 50067-2014#7.1.13
+  - GB 50067-2014#7.1.14
+  - GB 50067-2014#7.1.15
+  - GB 50067-2014#7.1.16
+  - GB 50067-2014#7.1.17
+  - GB 50067-2014#7.2.1
+  - GB 50067-2014#7.2.2
+  - GB 50067-2014#7.2.3
+  - GB 50067-2014#7.2.4
+  - GB 50067-2014#7.2.5
+  - GB 50067-2014#7.2.6
+  - GB 50067-2014#8.1.4
+  - GB 50067-2014#8.1.5
+  - GB 50067-2014#8.1.6
+  - GB 50067-2014#8.2.1
+  - GB 50067-2014#8.2.2
+  - GB 50067-2014#8.2.3
+  - GB 50067-2014#8.2.4
+  - GB 50067-2014#8.2.5
+  - GB 50067-2014#8.2.6
+  - GB 50067-2014#8.2.7
+  - GB 50067-2014#8.2.8
+  - GB 50067-2014#8.2.9
+  - GB 50067-2014#8.2.10
+  - GB 50067-2014#9.0.1
+  - GB 50067-2014#9.0.2
+  - GB 50067-2014#9.0.3
+  - GB 50067-2014#9.0.4
+  - GB 50067-2014#9.0.5
+  - GB 50067-2014#9.0.6
+  - GB 50067-2014#9.0.7
+  - GB 50067-2014#9.0.8
+  - GB 50067-2014#9.0.9
+  schema_version: v2.1
+  last_reviewed_date: '2026-09-07'
+clauses:
+- id: GB 50067-2014#1.0.1
+  standard_code: GB 50067-2014
+  chapter: 1 总则
+  section: ''
+  clause_no: 1.0.1
+  text: 为了防止和减少汽车库、修车库、停车场的火灾危险和危害，保护人身和财产的安全，制定本规范。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#1.0.2
+  standard_code: GB 50067-2014
+  chapter: 1 总则
+  section: ''
+  clause_no: 1.0.2
+  text: 本规范适用于新建、扩建和改建的汽车库、修车库、停车场的防火设计，不适用于消防站的汽车库修车库、停车场的防火设计。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions:
+    - 本规范适用于新建、扩建和改建的汽车库、修车库、停车场的防火设计，不适用于消防站的汽车库修车库、停车场的防火设计。
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#1.0.3
+  standard_code: GB 50067-2014
+  chapter: 1 总则
+  section: ''
+  clause_no: 1.0.3
+  text: 汽车库、修车库、停车场的防火设计，应结合汽车库、修车库、停车场的特点，采取有效的防火措施，并应做到安全可靠、技术先进、经济合理。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#1.0.4
+  standard_code: GB 50067-2014
+  chapter: 1 总则
+  section: ''
+  clause_no: 1.0.4
+  text: 汽车库、修车库、停车场的防火设计，除应符合本规范外，尚应符合国家现行有关标准的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 汽车库、修车库、停车场的防火设计
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#2.0.1
+  standard_code: GB 50067-2014
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.1
+  text: 汽车库garage用于停放由内燃机驱动且无轨道的客车、货车、工程车等汽车的建筑物。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#2.0.2
+  standard_code: GB 50067-2014
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.2
+  text: 修车库motor repair shop用于保养、修理由内燃机驱动且无轨道的客车、货车、工程车等汽车的建（构)筑物。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#2.0.3
+  standard_code: GB 50067-2014
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.3
+  text: 停车场parking lot专用于停放由内燃机驱动且无轨道的客车、货车、工程车等汽车的露天场地或构筑物。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#2.0.4
+  standard_code: GB 50067-2014
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.4
+  text: 地下汽车库underground garage地下室内地坪面与室外地坪面的高度之差大于该层车库净高1/2的汽车库。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#2.0.5
+  standard_code: GB 50067-2014
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.5
+  text: _半地下汽车库semi-underground garage【地下室内地坪面与室外地坪面的高度之差大于该层车库净高1/3且不大于1/2的汽车库。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#2.0.6
+  standard_code: GB 50067-2014
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.6
+  text: 多层汽车库multi-storey garage建筑高度小于或等于24m的两层及以上的汽车库或设在多层建筑内地面层以上楼层的汽车库。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: e建筑高度
+    unit: m
+    condition: null
+    min_value: null
+    max_value: 24.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#2.0.7
+  standard_code: GB 50067-2014
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.7
+  text: 高层汽车库high-rise garage建筑高度大于24m的汽车库或设在高层建筑内地面层以上楼层的汽车库。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: e建筑高度
+    unit: m
+    condition: null
+    min_value: 24.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#2.0.8
+  standard_code: GB 50067-2014
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.8
+  text: 机械式汽车库mechanical garage采用机械设备进行垂直或水平移动等形式停放汽车的汽车库。.2.
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#2.0.9
+  standard_code: GB 50067-2014
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.9
+  text: 敞开式汽车库 open garage：任一层车库外墙敞开面积大于该层四周外墙体总面积的25%，敞开区域均匀布置在外墙上且其长度不小于车库周长的50%的汽车库。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 开面积
+    unit: '%'
+    condition: null
+    min_value: 25.0
+    max_value: null
+  - name: 上且其长度
+    unit: '%'
+    condition: null
+    min_value: 50.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#3.0.1
+  standard_code: GB 50067-2014
+  chapter: 3 分类和耐火等级
+  section: ''
+  clause_no: 3.0.1
+  text: 汽车库.修车库,停车场的分类应根据停车、车位，数量和总建筑面积确定，并应符合表3.0.1的规定.修车库，停车场的分类 注。1 当屋面露天停车场与下部汽车库共用汽车坡道时 其停车数量应计算在汽车库的车辆总数内，2 室外坡道，屋面露天停车场的建筑面积可不计入汽车库的建筑面积之内。3。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 汽车库、修车库、停车场的分类（停车数量与总建筑面积的确定）
+    conditions:
+    - 当屋面露天停车场与下部汽车库共用汽车坡道时（其停车数量应计算在汽车库的车辆总数内）
+    exceptions:
+    - 室外坡道
+    - 屋面露天停车场的建筑面积（可不计入汽车库的建筑面积）
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表3.0.1
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    description: 汽车库、修车库、停车场的分类
+    headers:
+    - 名称
+    - Ⅰ类
+    - Ⅱ类
+    - Ⅲ类
+    - Ⅳ类
+    rows:
+    - - 汽车库
+      - 停车数量 >300辆 或 总建筑面积 S>10000m²
+      - 停车数量 151～300辆 或 总建筑面积 5000<S≤10000m²
+      - 停车数量 51～150辆 或 总建筑面积 2000<S≤5000m²
+      - 停车数量 ≤50辆 或 总建筑面积 S≤2000m²
+    - - 修车库
+      - 车位数 >15个
+      - 车位数 6～15个
+      - 车位数 3～5个
+      - 车位数 ≤2个
+    - - 停车场
+      - 停车数量 >400辆
+      - 停车数量 251～400辆
+      - 停车数量 101～250辆
+      - 停车数量 ≤100辆
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#3.0.2
+  standard_code: GB 50067-2014
+  chapter: 3 分类和耐火等级
+  section: ''
+  clause_no: 3.0.2
+  text: 汽车库 修车库的耐火等级应分为一级,二级和三级。其构件的燃烧性能和耐火极限均不应低于表3.0.2的规定.修车库构件的燃烧性能和耐火极限,h，注、预制钢筋混凝土构件的节点缝隙或金属承重构件的外露部位应加设防火保护层、其耐火极限不应低于表中相应构件的规定。
+  is_abolished: true
+  abolished_date: '2023-06-01'
+  superseded_by: GB 55037-2022
+  abolition_note: 被《建筑防火通用规范》GB 55037-2022 废止强制性条文效力（住建部公告，2023-06-01 起实施）
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 住建部公告2014年第595号强制性条文
+  parameters: []
+  tables:
+  - table_id: 表3.0.2
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    description: 汽车库、修车库构件的燃烧性能和耐火极限（h）
+    headers:
+    - 建筑构件名称
+    - 一级
+    - 二级
+    - 三级
+    rows:
+    - - 防火墙
+      - 不燃性 3.00
+      - 不燃性 3.00
+      - 不燃性 3.00
+    - - 承重墙
+      - 不燃性 3.00
+      - 不燃性 2.50
+      - 不燃性 2.00
+    - - 楼梯间和前室的墙、防火隔墙
+      - 不燃性 2.00
+      - 不燃性 2.00
+      - 不燃性 2.00
+    - - 隔墙、非承重外墙
+      - 不燃性 1.00
+      - 不燃性 1.00
+      - 不燃性 0.50
+    - - 楼板
+      - 不燃性 1.50
+      - 不燃性 1.00
+      - 不燃性 0.50
+    - - 疏散楼梯、坡道
+      - 不燃性 1.50
+      - 不燃性 ≥1.00
+      - 不燃性 1.00
+    - - 屋顶承重构件
+      - 不燃性 1.50
+      - 不燃性 1.00
+      - 可燃性 0.50
+    - - 吊顶（包括吊顶格栅）
+      - 不燃性 0.25
+      - 不燃性 0.25
+      - 难燃性 0.15
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#3.0.3
+  standard_code: GB 50067-2014
+  chapter: 3 分类和耐火等级
+  section: ''
+  clause_no: 3.0.3
+  text: 汽车库和修车库的耐火等级应符合下列规定地下、半地下和高层汽车库应为一级；甲、乙类物品运输车的汽车库、修车库和I类汽车库、修车库，应为一级；Ⅱ、Ⅲ类汽车库、修车库的耐火等级不应低于二级；类汽车库、修车库的耐火等级不应低于三级。
+  is_abolished: true
+  abolished_date: '2023-06-01'
+  superseded_by: GB 55037-2022
+  abolition_note: 被《建筑防火通用规范》GB 55037-2022 废止强制性条文效力（住建部公告，2023-06-01 起实施）
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 住建部公告2014年第595号强制性条文
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#4.1.1
+  standard_code: GB 50067-2014
+  chapter: 4 总平面布局和平面布置
+  section: 4.1一般规定
+  clause_no: 4.1.1
+  text: 汽车库、修车库、停车场的选址和总平面设计，应根据城市规划要求，合理确定汽车库、修车库、停车场的位置、防火间距、消防车道和消防水源等。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#4.1.2
+  standard_code: GB 50067-2014
+  chapter: 4 总平面布局和平面布置
+  section: 4.1一般规定
+  clause_no: 4.1.2
+  text: 汽车库、修车库、停车场不应布置在易燃、可燃液体或可燃气体的生产装置区和贮存区内。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#4.1.3
+  standard_code: GB 50067-2014
+  chapter: 4 总平面布局和平面布置
+  section: 4.1一般规定
+  clause_no: 4.1.3
+  text: 汽车库不应与火灾危险性为甲、乙类的厂房、仓库贴邻或组合建造。
+  is_abolished: true
+  abolished_date: '2023-06-01'
+  superseded_by: GB 55037-2022
+  abolition_note: 被《建筑防火通用规范》GB 55037-2022 废止强制性条文效力（住建部公告，2023-06-01 起实施）
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 住建部公告2014年第595号强制性条文
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#4.1.4
+  standard_code: GB 50067-2014
+  chapter: 4 总平面布局和平面布置
+  section: 4.1一般规定
+  clause_no: 4.1.4
+  text: 汽车库不应与托儿所、幼儿园，老年人建筑，中小学校的教学楼，病房楼等组合建造。当符合下列要求时，汽车库可设置在托儿所、幼儿园，老年人建筑，中小学校的教学楼，病房楼等的地下部分：1汽车库与托儿所、幼儿园，老年人建筑，中小学校的教学楼，病房楼等建筑之间，应采用耐火极限不低于2.00h的楼板完全分隔；2汽车库与托儿所、幼儿园，老年人建筑，中小学校的教学楼，病房楼等的安全出口和蔬散楼梯应分别独立设置。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 汽车库（与托儿所、幼儿园、老年人建筑、中小学校教学楼、病房楼等组合建造或设置在其地下部分）
+    conditions:
+    - 当符合下列要求时，汽车库可设置在托儿所、幼儿园、老年人建筑、中小学校教学楼、病房楼等的地下部分：（1）采用耐火极限不低于2.00h的楼板完全分隔；（2）安全出口和疏散楼梯分别独立设置
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 耐火极限
+    unit: h
+    condition: null
+    min_value: null
+    max_value: 2.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#4.1.5
+  standard_code: GB 50067-2014
+  chapter: 4 总平面布局和平面布置
+  section: 4.1一般规定
+  clause_no: 4.1.5
+  text: 甲、乙类物品运输车的汽车库、修车库应为单层建筑，且应独立建造。当停车数量不大于3辆时，可与一、二级耐火等级的IV类汽车库贴邻，但应采用防火墙隔开。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 甲、乙类物品运输车的汽车库、修车库（与IV类汽车库贴邻）
+    conditions:
+    - 当停车数量不大于3辆时（可与一、二级耐火等级的IV类汽车库贴邻，但应采用防火墙隔开）
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#4.1.6
+  standard_code: GB 50067-2014
+  chapter: 4 总平面布局和平面布置
+  section: 4.1一般规定
+  clause_no: 4.1.6
+  text: I类修车库应单独建造；IⅡI、ⅢI、IV类修车库可设置在一、二级耐火等级建筑的首层或与其贴邻，但不得与甲、乙类厂房、仓库，明火作业的车间或托儿所、幼儿园、中小学校的教学楼，老年人建筑，病房楼及人员密集场所组合建造或贴邻。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: Ⅱ、Ⅲ、IV类修车库（设置在一、二级耐火等级建筑的首层或与其贴邻）
+    conditions:
+    - 可设置在一、二级耐火等级建筑的首层或与其贴邻时
+    exceptions:
+    - 甲、乙类厂房、仓库
+    - 明火作业的车间
+    - 托儿所、幼儿园、中小学校的教学楼
+    - 老年人建筑
+    - 病房楼
+    - 人员密集场所
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#4.1.7
+  standard_code: GB 50067-2014
+  chapter: 4 总平面布局和平面布置
+  section: 4.1一般规定
+  clause_no: 4.1.7
+  text: 为汽车库 修车库服务的下列附属建筑，可与汽车库.修车库贴邻，但应采用防火墙隔开。并应设置直通室外的安全出口、1 贮存量不大于1，0t的甲类物品库房、2 总安装容量不大于5，0m3,h的乙炔发生器间和贮存量不超过5个标准钢瓶的乙炔气瓶库.3,1个车位的非封闭喷漆间或不大于2个车位的封闭喷漆间。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 为汽车库、修车库服务的附属建筑（与汽车库、修车库贴邻）
+    conditions:
+    - 贮存量不大于1.0t的甲类物品库房
+    - 总安装容量不大于5.0m³/h的乙炔发生器间和贮存量不超过5个标准钢瓶的乙炔气瓶库
+    - 1个车位的非封闭喷漆间或不大于2个车位的封闭喷漆间
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 安装容量
+    unit: m
+    condition: null
+    min_value: 5.0
+    max_value: null
+  - name: 建筑面积
+    unit: m
+    condition: null
+    min_value: 200.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#4.1.9
+  standard_code: GB 50067-2014
+  chapter: 4 总平面布局和平面布置
+  section: 4.1一般规定
+  clause_no: 4.1.9
+  text: 汽车库和修车库内不应设置汽油罐、加油机、液化石油气或液化天然气储罐、加气机。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#4.1.10
+  standard_code: GB 50067-2014
+  chapter: 4 总平面布局和平面布置
+  section: 4.1一般规定
+  clause_no: 4.1.10
+  text: 停放易燃液体。液化石油气罐车的汽车库内。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#4.1.11
+  standard_code: GB 50067-2014
+  chapter: 4 总平面布局和平面布置
+  section: 4.1一般规定
+  clause_no: 4.1.11
+  text: 燃油或燃气锅炉、油浸变压器、充有可燃油的高压电容器和多油开关等，不应设置在汽车库、修车库内。当受条件限制必须贴邻汽车库、修车库布置时，应符合现行国家标准《建筑设计防火规范》GB50016的有关规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 燃油或燃气锅炉、油浸变压器、充有可燃油的高压电容器和多油开关（贴邻汽车库、修车库布置）
+    conditions:
+    - 当受条件限制必须贴邻汽车库、修车库布置时（应符合GB50016的有关规定）
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 必须
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50016
+    target_clause: null
+    original_text: 当受条件限制必须贴邻汽车库、修车库布置时，应符合现行国家标准《建筑设计防火规范》GB50016的有关规定。
+    resolution_status: resolved
+    resolution_note: 库内标准（GB 50016-2014），可交叉引用并确认具体参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#4.1.12
+  standard_code: GB 50067-2014
+  chapter: 4 总平面布局和平面布置
+  section: 4.1一般规定
+  clause_no: 4.1.12
+  text: I、Ⅱ类汽车库、停车场宜设置耐火等级不低于二级的灭火器材间。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: should
+    modal_words:
+    - 宜
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#4.2.1
+  standard_code: GB 50067-2014
+  chapter: 4 总平面布局和平面布置
+  section: 4.2防火间距
+  clause_no: 4.2.1
+  text: 除本规范另有规定外，汽车库 修车库 停车场之间及汽车库.修车库.停车场与除甲类物品仓库外的其他建筑物的防火间距 不应小于表4.2.1的规定。其中.高层汽车库与其他建筑物 汽车库.修车库与高层建筑的防火间距应按表4.2.1的规定值增加3m 汽车库，修车库与甲类厂房的防火间距应按表4.2.1的规定值增加2m、修车库 停车场之间及汽车库,修车库。停车场与除甲类物品仓库外的其他建筑物的防火间距，m、注、1、防火间距应按相邻建筑物外墙的最近距离算起。如外墙有凸出的可燃物构件时。则应从其凸出部分外缘算起.停车场从靠近建筑物的最近停车位置边缘算起，2 厂房、仓库的火灾危险性分类应符合现行国家标准。建筑设计防火规范。GB。
+  is_abolished: true
+  abolished_date: '2023-06-01'
+  superseded_by: GB 55037-2022
+  abolition_note: 被《建筑防火通用规范》GB 55037-2022 废止强制性条文效力（住建部公告，2023-06-01 起实施）
+  applicability:
+    scope: 汽车库、修车库、停车场之间及与除甲类物品仓库外的其他建筑物之间的防火间距
+    conditions: []
+    exceptions:
+    - 本规范另有规定的情形
+    - 甲类物品仓库
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 住建部公告2014年第595号强制性条文
+  parameters: []
+  tables:
+  - table_id: 表4.2.1
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    description: 汽车库、修车库、停车场之间及与除甲类物品仓库外的其他建筑物的防火间距（m）（表头依数据推定）
+    headers:
+    - 名称和耐火等级
+    - 一、二级
+    - 三级
+    - 四级
+    rows:
+    - - 汽车库、修车库 一、二级
+      - '10'
+      - '12'
+      - '14'
+    - - 汽车库、修车库 三级
+      - '12'
+      - '14'
+      - '16'
+    - - 停车场
+      - '6'
+      - '8'
+      - '10'
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#4.2.2
+  standard_code: GB 50067-2014
+  chapter: 4 总平面布局和平面布置
+  section: 4.2防火间距
+  clause_no: 4.2.2
+  text: 汽车库.修车库之间或汽车库。修车库与其他建筑之间的防火间距可适当减少，但应符合下列规定.1、当两座建筑相邻较高一面外墙为无门,窗 洞口的防火墙或当较高一面外墙比较低一座一，二级耐火等级建筑屋面高15m及以下范围内的外墙为无门，窗 洞口的防火墙时,其防火间距可不限.2 当两座建筑相邻较高一面外墙上.同较低建筑等高的以下范围内的墙为无门 窗，洞口的防火墙时。其防火间距可按本规范表4.2.1的规定值减小50。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 汽车库、修车库之间或与其他建筑之间的防火间距（可适当减少的情形）
+    conditions:
+    - 当两座建筑相邻较高一面外墙为无门、窗、洞口的防火墙，或较高一面外墙比较低一座一、二级耐火等级建筑屋面高15m及以下范围内的外墙为无门、窗、洞口的防火墙时（防火间距可不限）
+    - 当两座建筑相邻较高一面外墙上同较低建筑等高的以下范围内的墙为无门、窗、洞口的防火墙时（防火间距可减小50%）
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 建筑屋面高
+    unit: m
+    condition: null
+    min_value: 15.0
+    max_value: 15.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#4.2.3
+  standard_code: GB 50067-2014
+  chapter: 4 总平面布局和平面布置
+  section: 4.2防火间距
+  clause_no: 4.2.3
+  text: 停车场与相邻的一、二级耐火等级建筑之间，当相邻建筑的外墙为无门、窗、洞口的防火墙，或比停车部位高15m范围以下的外墙均为无门、窗、洞口的防火墙时，防火间距可不限。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 停车场与相邻的一、二级耐火等级建筑之间的防火间距
+    conditions:
+    - 当相邻建筑的外墙为无门、窗、洞口的防火墙，或比停车部位高15m范围以下的外墙均为无门、窗、洞口的防火墙时
+    exceptions: []
+  constraint:
+    modal_level: may
+    modal_words:
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 停车部位高
+    unit: m
+    condition: null
+    min_value: 15.0
+    max_value: 15.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#4.2.4
+  standard_code: GB 50067-2014
+  chapter: 4 总平面布局和平面布置
+  section: 4.2防火间距
+  clause_no: 4.2.4
+  text: 汽车库，修车库、停车场与甲类物品仓库的防火间距不应小于表4.2.4的规定,修车库 停车场与甲类物品仓库的防火间距.m,注 1 甲类物品的分项应符合现行国家标准。建筑设计防火规范 GB.50016的有关规定、2,甲，乙类物品运输车的汽车库,修车库，停车场与甲类物品仓库的防火间距应按本表的规定值增加5m。
+  is_abolished: true
+  abolished_date: '2023-06-01'
+  superseded_by: GB 55037-2022
+  abolition_note: 被《建筑防火通用规范》GB 55037-2022 废止强制性条文效力（住建部公告，2023-06-01 起实施）
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 住建部公告2014年第595号强制性条文
+  parameters: []
+  tables:
+  - table_id: 表4.2.4
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    description: 汽车库、修车库、停车场与甲类物品仓库的防火间距（m）（表头依数据推定）
+    headers:
+    - 名称
+    - 总容量(t)
+    - 3、4项 甲类物品仓库(m)
+    - 1、2、5、6项 甲类物品仓库(m)
+    rows:
+    - - 汽车库、修车库（一、二级）
+      - ≤10
+      - '20'
+      - '15'
+    - - 汽车库、修车库（一、二级）
+      - '>10'
+      - '25'
+      - '20'
+    - - 汽车库、修车库（三级）
+      - ≤10
+      - '20'
+      - '15'
+    - - 汽车库、修车库（三级）
+      - '>10'
+      - '25'
+      - '20'
+    - - 停车场
+      - ≤10
+      - '15'
+      - '10'
+    - - 停车场
+      - '>10'
+      - '20'
+      - '15'
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#4.2.5
+  standard_code: GB 50067-2014
+  chapter: 4 总平面布局和平面布置
+  section: 4.2防火间距
+  clause_no: 4.2.5
+  text: 甲、乙类物品运输车的汽车库、修车库、停车场与民用建筑的防火间距不应小于25m，与重要公共建筑的防火间距不应小于50m。甲类物品运输车的汽车库、修车库、停车场与明火或散发火花地点的防火间距不应小于30m，与厂房、仓库的防火间距应按本规范表4.2.1的规定值增加2m。
+  is_abolished: true
+  abolished_date: '2023-06-01'
+  superseded_by: GB 55037-2022
+  abolition_note: 被《建筑防火通用规范》GB 55037-2022 废止强制性条文效力（住建部公告，2023-06-01 起实施）
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 原黑体强制性条文（已废止）
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#4.2.6
+  standard_code: GB 50067-2014
+  chapter: 4 总平面布局和平面布置
+  section: 4.2防火间距
+  clause_no: 4.2.6
+  text: 汽车库,修车库.停车场与易燃.可燃液体储罐 可燃气体储罐、以及液化石油气储罐的防火间距,不应小于表4.2.6的规定 停车场与易燃 可燃液体储罐、可燃气体储罐,以及液化石油气储罐的防火间距。m，注,1,防火间距应从距汽车库。修车库、停车场最近的储罐外壁算起,但设有防火堤的储罐,其防火堤外侧基脚线距汽车库,修车库。停车场的距离不应小于10m.2，计算易燃、可燃液体储罐区总容量时。1m3的易燃液体按5m3的可燃液体计算,3，干式可燃气体储罐与汽车库.修车库,停车场的防火间距、当可燃气体的密度比空气大时.应按本表对湿式可燃气体储罐的规定增加25.当可燃气体的密度比空气小时.可执行本表对湿式可燃气体储罐的规定，固定容积的可燃气体储罐与汽车库.修车库、停车场的防火间距。不应小于本表对湿式可燃气体储罐的规定 固定容积的可燃气体储罐的总容积按储罐几何容积，m3、和设计储存压力,绝对压力.105Pa，的乘积计算。4 容积小于1m3的易燃液体储罐或小于5m3的可燃液体储罐与汽车库,修车库。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 汽车库、修车库、停车场与易燃、可燃液体储罐、可燃气体储罐、液化石油气储罐的防火间距
+    conditions:
+    - 当可燃气体的密度比空气大时（按湿式储罐的规定增加25%）
+    - 当可燃气体的密度比空气小时（可执行湿式储罐的规定）
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表4.2.6
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    description: 汽车库、修车库、停车场与易燃、可燃液体储罐、可燃气体储罐、液化石油气储罐的防火间距（m）（数值源缺失，待核印刷版；容量分级依 content 推定）
+    headers:
+    - 储罐类型（总容量/积）
+    - 汽车库、修车库 一、二级
+    - 汽车库、修车库 三级
+    - 停车场
+    rows:
+    - - 易燃液体储罐 1～50 m³
+      - ''
+      - ''
+      - ''
+    - - 易燃液体储罐 51～200 m³
+      - ''
+      - ''
+      - ''
+    - - 易燃液体储罐 201～1000 m³
+      - ''
+      - ''
+      - ''
+    - - 易燃液体储罐 1001～5000 m³
+      - ''
+      - ''
+      - ''
+    - - 可燃液体储罐 5～250 m³
+      - ''
+      - ''
+      - ''
+    - - 可燃液体储罐 251～1000 m³
+      - ''
+      - ''
+      - ''
+    - - 可燃液体储罐 1001～5000 m³
+      - ''
+      - ''
+      - ''
+    - - 可燃液体储罐 5001～25000 m³
+      - ''
+      - ''
+      - ''
+    - - 湿式可燃气体储罐 ≤1000 m³
+      - ''
+      - ''
+      - ''
+    - - 湿式可燃气体储罐 1001～10000 m³
+      - ''
+      - ''
+      - ''
+    - - 湿式可燃气体储罐 >10000 m³
+      - ''
+      - ''
+      - ''
+    - - 液化石油气储罐 1～30 m³
+      - ''
+      - ''
+      - ''
+    - - 液化石油气储罐 31～200 m³
+      - ''
+      - ''
+      - ''
+    - - 液化石油气储罐 >200 m³
+      - ''
+      - ''
+      - ''
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#4.2.7
+  standard_code: GB 50067-2014
+  chapter: 4 总平面布局和平面布置
+  section: ''
+  clause_no: 4.2.7
+  text: 汽车库.修车库 停车场与可燃材料露天、半露天堆场的防火间距不应小于表4.2.7的规定。修车库,停车场与可燃材料露天,半露天堆场的防火间距.m.
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: GB 50067-2014#4.2.8
+  standard_code: GB 50067-2014
+  chapter: 4 总平面布局和平面布置
+  section: 4.2防火间距
+  clause_no: 4.2.8
+  text: 汽车库、修车库、停车场与燃气调压站、液化石油气的瓶装供应站的防火间距，应符合现行国家标准《城镇燃气设计规范》GB50028的有关规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50028
+    target_clause: null
+    original_text: 汽车库、修车库、停车场与燃气调压站、液化石油气的瓶装供应站的防火间距，应符合现行国家标准《城镇燃气设计规范》GB50028的有关规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#4.2.9
+  standard_code: GB 50067-2014
+  chapter: 4 总平面布局和平面布置
+  section: 4.2防火间距
+  clause_no: 4.2.9
+  text: 汽车库、修车库、停车场与石油库。汽车加油加气站的防火间距 应符合现行国家标准,石油库设计规范、GB 50074和.汽车加油加气站设计与施工规范 GB,50156的有关规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 防火间距
+    unit: m
+    condition: null
+    min_value: 6.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50074
+    target_clause: null
+    original_text: 汽车库、修车库、停车场与石油库、汽车加油加气站的防火间距，应符合现行国家标准《石油库设计规范》GB50074和《汽车加油加气站设计与施工规范》GB50156的有关规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  - target_standard: GB 50156
+    target_clause: null
+    original_text: 汽车库、修车库、停车场与石油库、汽车加油加气站的防火间距，应符合现行国家标准《石油库设计规范》GB50074和《汽车加油加气站设计与施工规范》GB50156的有关规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#4.2.10
+  standard_code: GB 50067-2014
+  chapter: 4 总平面布局和平面布置
+  section: ''
+  clause_no: 4.2.10
+  text: 停车场的汽车宜分组停放.每组的停车数量不宜大于50辆，组之间的防火间距不应小于6m。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: GB 50067-2014#4.3.1
+  standard_code: GB 50067-2014
+  chapter: 4 总平面布局和平面布置
+  section: 4.3消防车道
+  clause_no: 4.3.1
+  text: 汽车库、修车库周围应设置消防车道。
+  is_abolished: true
+  abolished_date: '2023-06-01'
+  superseded_by: GB 55037-2022
+  abolition_note: 被《建筑防火通用规范》GB 55037-2022 废止强制性条文效力（住建部公告，2023-06-01 起实施）
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 住建部公告2014年第595号强制性条文
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#4.3.2
+  standard_code: GB 50067-2014
+  chapter: 4 总平面布局和平面布置
+  section: 4.3消防车道
+  clause_no: 4.3.2
+  text: 消防车道的设置应符合下列要求：除IV类汽车库和修车库以外，消防车道应为环形，当设置环形车道有困难时，可沿建筑物的一个长边和另一边设置；2尽头式消防车道应设置回车道或回车场，回车场的面积不应小于12m×12m；消防车道的宽度不应小于4m。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 汽车库、修车库的消防车道
+    conditions:
+    - 当设置环形车道有困难时（可沿建筑物的一个长边和另一边设置）
+    exceptions:
+    - IV类汽车库和修车库（消防车道可不为环形）
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 车场的面积
+    unit: m
+    condition: null
+    min_value: 12.0
+    max_value: null
+  - name: 车道的宽度
+    unit: m
+    condition: null
+    min_value: 4.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#4.3.3
+  standard_code: GB 50067-2014
+  chapter: 4 总平面布局和平面布置
+  section: 4.3消防车道
+  clause_no: 4.3.3
+  text: 穿过汽车库，修车库，停车场的消防车道,其净空高度和净宽度均不应小于4m,当消防车道上空遇有障碍物时.路面与障碍物之间的净空高度不应小于4m. 5.防火分隔和建筑构造5。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 穿过汽车库、修车库、停车场的消防车道
+    conditions:
+    - 当消防车道上空遇有障碍物时（路面与障碍物之间的净空高度不应小于4m）
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 和净宽度均
+    unit: m
+    condition: null
+    min_value: 4.0
+    max_value: null
+  - name: 净空高度
+    unit: m
+    condition: null
+    min_value: 4.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#5.1.1
+  standard_code: GB 50067-2014
+  chapter: 5 防火分隔和建筑构造
+  section: 5.1防火分隔
+  clause_no: 5.1.1
+  text: 汽车库防火分区的最大允许建筑面积应符合表5.1.1的规定,其中 敞开式，错层式。斜楼板式汽车库的上下连通层面积应叠加计算.每个防火分区的最大允许建筑面积不应大于表5.1.1规定的2、0倍.室内有车道且有人员停留的机械式汽车库,其防火分区最大允许建筑面积应按表5.1.1的规定减少35、注.除本规范另有规定外、防火分区之间应采用符合本规范规定的防火墙，防火卷帘等分隔。
+  is_abolished: true
+  abolished_date: '2023-06-01'
+  superseded_by: GB 55037-2022
+  abolition_note: 被《建筑防火通用规范》GB 55037-2022 废止强制性条文效力（住建部公告，2023-06-01 起实施）
+  applicability:
+    scope: 汽车库防火分区的最大允许建筑面积
+    conditions:
+    - 敞开式、错层式、斜楼板式汽车库的上下连通层面积应叠加计算（每个防火分区最大允许建筑面积不应大于表5.1.1规定的2.0倍）
+    - 室内有车道且有人员停留的机械式汽车库（其防火分区最大允许建筑面积应按表5.1.1的规定减少35%）
+    exceptions:
+    - 本规范另有规定的情形（防火分区之间的分隔方式）
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 住建部公告2014年第595号强制性条文
+  parameters: []
+  tables:
+  - table_id: 表5.1.1
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    description: 汽车库防火分区的最大允许建筑面积（m²）
+    headers:
+    - 耐火等级
+    - 单层汽车库
+    - 多层汽车库、半地下汽车库
+    - 地下汽车库、高层汽车库
+    rows:
+    - - 一、二级
+      - '3000'
+      - '2500'
+      - '2000'
+    - - 三级
+      - '1000'
+      - 不允许
+      - 不允许
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#5.1.2
+  standard_code: GB 50067-2014
+  chapter: 5 防火分隔和建筑构造
+  section: 5.1防火分隔
+  clause_no: 5.1.2
+  text: ×设置自动灭火系统的汽车库，其每个防火分区的最大允许建筑面积不应大于本规范第5.1.1条规定的2.0倍。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#5.1.3
+  standard_code: GB 50067-2014
+  chapter: 5 防火分隔和建筑构造
+  section: 5.1防火分隔
+  clause_no: 5.1.3
+  text: 室内无车道且无人员停留的机械式汽车库，应符合下列规定：1当停车数量超过100辆时，应采用无门、窗、洞口的防火墙分隔为多个停车数量不大于100辆的区域，但当采用防火隔墙和耐火极限不低于1.00h的不燃性楼板分隔成多个停车单元，且停车单元内的停车数量不大于3辆时，应分隔为停车数量不大于300辆的区域；2汽车库内应设置火灾自动报警系统和自动喷水灭火系统，自动喷水灭火系统应选用快速响应喷头；:13:3楼梯间及停车区的检修通道上应设置室内消火栓；4汽车库内应设置排烟设施，排烟口应设置在运输车辆的通道顶部。
+  is_abolished: true
+  abolished_date: '2023-06-01'
+  superseded_by: GB 55037-2022
+  abolition_note: 被《建筑防火通用规范》GB 55037-2022 废止强制性条文效力（住建部公告，2023-06-01 起实施）
+  applicability:
+    scope: 室内无车道且无人员停留的机械式汽车库
+    conditions:
+    - 当停车数量超过100辆时（应采用无门、窗、洞口的防火墙分隔为多个停车数量不大于100辆的区域）
+    - 当采用防火隔墙和耐火极限不低于1.00h的不燃性楼板分隔成多个停车单元，且停车单元内的停车数量不大于3辆时（应分隔为停车数量不大于300辆的区域）
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 住建部公告2014年第595号强制性条文
+  parameters:
+  - name: 耐火极限
+    unit: h
+    condition: null
+    min_value: null
+    max_value: 1.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#5.1.4
+  standard_code: GB 50067-2014
+  chapter: 5 防火分隔和建筑构造
+  section: 5.1防火分隔
+  clause_no: 5.1.4
+  text: 甲、乙类物品运输车的汽车库、修车库，每个防火分区的最大充许建筑面积不应大于500m²。
+  is_abolished: true
+  abolished_date: '2023-06-01'
+  superseded_by: GB 55037-2022
+  abolition_note: 被《建筑防火通用规范》GB 55037-2022 废止强制性条文效力（住建部公告，2023-06-01 起实施）
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 住建部公告2014年第595号强制性条文
+  parameters:
+  - name: 筑面积
+    unit: m²
+    condition: null
+    min_value: 500.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#5.1.5
+  standard_code: GB 50067-2014
+  chapter: 5 防火分隔和建筑构造
+  section: 5.1防火分隔
+  clause_no: 5.1.5
+  text: 修车库每个防火分区的最大充许建筑面积不应大于2000m²，当修车部位与相邻使用有机溶剂的清洗和喷漆工段采用防火墙分隔时，每个防火分区的最大允许建筑面积不应大于4000m²。
+  is_abolished: true
+  abolished_date: '2023-06-01'
+  superseded_by: GB 55037-2022
+  abolition_note: 被《建筑防火通用规范》GB 55037-2022 废止强制性条文效力（住建部公告，2023-06-01 起实施）
+  applicability:
+    scope: 修车库每个防火分区的最大允许建筑面积
+    conditions:
+    - 当修车部位与相邻使用有机溶剂的清洗和喷漆工段采用防火墙分隔时（不应大于4000m²）
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 住建部公告2014年第595号强制性条文
+  parameters:
+  - name: 筑面积
+    unit: m²
+    condition: null
+    min_value: 2000.0
+    max_value: null
+  - name: 筑面积
+    unit: m²
+    condition: null
+    min_value: 4000.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#5.1.6
+  standard_code: GB 50067-2014
+  chapter: 5 防火分隔和建筑构造
+  section: 5.1防火分隔
+  clause_no: 5.1.6
+  text: 汽车库、修车库与其他建筑合建时，应符合下列规定：当贴邻建造时，应采用防火墙隔开；设在建筑物内的汽车库（包括屋顶停车场）、修车库与其他部位之间，应采用防火墙和耐火极限不低于2.00h的不燃性楼板分隔；3汽车库、修车库的外墙门、洞口的上方，应设置耐火极限不低于1.00h、宽度不小于1.0m、长度不小于开口宽度的不燃性防火挑檐；4汽车库、修车库的外墙上、下层开口之间墙的高度，不应小于1.2m或设置耐火极限不低于1.00h、宽度不小于1.0m的不燃性防火挑檐。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 汽车库、修车库与其他建筑合建（的情形）
+    conditions:
+    - 当贴邻建造时（应采用防火墙隔开）
+    - 设在建筑物内的汽车库（包括屋顶停车场）、修车库与其他部位之间（应采用防火墙和耐火极限不低于2.00h的不燃性楼板分隔）
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 耐火极限
+    unit: h
+    condition: null
+    min_value: null
+    max_value: 2.0
+  - name: 耐火极限
+    unit: h
+    condition: null
+    min_value: null
+    max_value: 1.0
+  - name: 低于h宽度
+    unit: m
+    condition: null
+    min_value: 1.0
+    max_value: null
+  - name: 间墙的高度
+    unit: m
+    condition: null
+    min_value: 1.2
+    max_value: null
+  - name: 未识别对象
+    unit: h
+    condition: null
+    min_value: null
+    max_value: 1.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#5.1.7
+  standard_code: GB 50067-2014
+  chapter: 5 防火分隔和建筑构造
+  section: 5.1防火分隔
+  clause_no: 5.1.7
+  text: 汽车库内设置修理车位时，停车部位与修车部位之间应采用防火墙和耐火极限不低于2.00h的不燃性楼板分隔。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 汽车库内设置的修理车位（停车部位与修车部位之间）
+    conditions:
+    - 当汽车库内设置修理车位时
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 耐火极限
+    unit: h
+    condition: null
+    min_value: null
+    max_value: 2.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#5.1.8
+  standard_code: GB 50067-2014
+  chapter: 5 防火分隔和建筑构造
+  section: 5.1防火分隔
+  clause_no: 5.1.8
+  text: 修车库内使用有机溶剂清洗和喷漆的工段，当超过3个车位时，均应采用防火隔墙等分隔措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 修车库内使用有机溶剂清洗和喷漆的工段
+    conditions:
+    - 当超过3个车位时
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#5.1.9
+  standard_code: GB 50067-2014
+  chapter: 5 防火分隔和建筑构造
+  section: 5.1防火分隔
+  clause_no: 5.1.9
+  text: 附设在汽车库、修车库内的消防控制室、自动灭火系统的设备室、消防水泵房和排烟、通风空气调节机房等，应采用防火隔墙和耐火极限不低于1.50h的不燃性楼板相互隔开或与相邻部位分隔。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 耐火极限
+    unit: h
+    condition: null
+    min_value: null
+    max_value: 1.5
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#5.2.1
+  standard_code: GB 50067-2014
+  chapter: 5 防火分隔和建筑构造
+  section: 5.2防火墙、防火隔墙和防火卷帘
+  clause_no: 5.2.1
+  text: 防火墙应直接设置在建筑的基础或框架、梁等承重结构上 框架,梁等承重结构的耐火极限不应低于防火墙的耐火极限,防火墙，防火隔墙应从楼地面基层隔断至梁 楼板或屋面结构层的底面。
+  is_abolished: true
+  abolished_date: '2023-06-01'
+  superseded_by: GB 55037-2022
+  abolition_note: 被《建筑防火通用规范》GB 55037-2022 废止强制性条文效力（住建部公告，2023-06-01 起实施）
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 住建部公告2014年第595号强制性条文
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#5.2.2
+  standard_code: GB 50067-2014
+  chapter: 5 防火分隔和建筑构造
+  section: ''
+  clause_no: 5.2.2
+  text: 当汽车库，修车库的屋面板为不燃材料且耐火极限不低于0,50h时、防火墙。防火隔墙可砌至屋面基层的底部.
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 汽车库、修车库的防火墙、防火隔墙（砌至屋面基层底部）
+    conditions:
+    - 当屋面板为不燃材料且耐火极限不低于0.50h时
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: GB 50067-2014#5.2.3
+  standard_code: GB 50067-2014
+  chapter: 5 防火分隔和建筑构造
+  section: 5.2防火墙、防火隔墙和防火卷帘
+  clause_no: 5.2.3
+  text: 三级耐火等级汽车库、修车库的防火墙、防火隔墙应截断其屋顶结构，并应高出其不燃性屋面不小于0.4m；高出可燃性或难燃性屋面不小于0.5m。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 燃性屋面
+    unit: m
+    condition: null
+    min_value: 0.4
+    max_value: null
+  - name: 难燃性屋面
+    unit: m
+    condition: null
+    min_value: 0.5
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#5.2.4
+  standard_code: GB 50067-2014
+  chapter: 5 防火分隔和建筑构造
+  section: 5.2防火墙、防火隔墙和防火卷帘
+  clause_no: 5.2.4
+  text: 防火墙不宜设在汽车库、修车库的内转角处。当设在转角处时，内转角处两侧墙上的门、窗、洞口之间的水平距离不应小于4m。防火墙两侧的门、窗、洞口之间最近边缘的水平距离不应小于2m。当防火墙两侧设置固定乙级防火窗时，可不受距离的限制。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 汽车库、修车库内的防火墙（设在转角处时及两侧门、窗、洞口）
+    conditions:
+    - 当防火墙设在转角处时（内转角两侧墙上门、窗、洞口水平距离不应小于4m）
+    - 当防火墙两侧设置固定乙级防火窗时（门、窗、洞口最近边缘水平距离可不受2m限制）
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 水平距离
+    unit: m
+    condition: null
+    min_value: 4.0
+    max_value: null
+  - name: 水平距离
+    unit: m
+    condition: null
+    min_value: 2.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#5.2.5
+  standard_code: GB 50067-2014
+  chapter: 5 防火分隔和建筑构造
+  section: 5.2防火墙、防火隔墙和防火卷帘
+  clause_no: 5.2.5
+  text: 可燃气体和甲乙类液体管道严禁穿过防火墙，防火墙内不应设置排气道。防火墙或防火隔墙上不应设置通风孔道，也不用防火封堵材料将孔洞周围的空隙紧密填塞。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 严禁
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#5.2.6
+  standard_code: GB 50067-2014
+  chapter: 5 防火分隔和建筑构造
+  section: 5.2防火墙、防火隔墙和防火卷帘
+  clause_no: 5.2.6
+  text: 防火墙或防火隔墙上不宜开设门、窗、洞口，当必须开设时，应设置甲级防火门、窗或耐火极限不低于3.00h的防火卷帘。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 防火墙或防火隔墙上的门、窗、洞口
+    conditions:
+    - 当必须开设门、窗、洞口时
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 必须
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 耐火极限
+    unit: h
+    condition: null
+    min_value: null
+    max_value: 3.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#5.2.7
+  standard_code: GB 50067-2014
+  chapter: 5 防火分隔和建筑构造
+  section: 5.2防火墙、防火隔墙和防火卷帘
+  clause_no: 5.2.7
+  text: ／设置在车道上的防火卷帘的耐火极限，应符合现行国家标准《门和卷帘的耐火试验方法》GB/T7633有关耐火完整性的判定标准；设置在停车区域上的防火卷帘的耐火极限，应符合现行国家标准《门和卷帘的耐火试验方法》GB/T7633有关耐火完整性和耐火隔热性的判定标准。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB/T 7633
+    target_clause: null
+    original_text: ／设置在车道上的防火卷帘的耐火极限，应符合现行国家标准《门和卷帘的耐火试验方法》GB/T7633有关耐火完整性的判定标准；设置在停车区域上的防火卷帘的耐火极限，应符合现行国家标
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#5.3.1
+  standard_code: GB 50067-2014
+  chapter: 5 防火分隔和建筑构造
+  section: 5.3电梯井、管道井和其他防火构造
+  clause_no: 5.3.1
+  text: 电梯井、管道井、电缆井和楼梯间应分别独立设置。管道并、电缆并的并壁应采用不燃材料，且耐火极限不应低于1.00h；电梯井的并壁应采用不燃材料，且耐火极限不应低于2.00h。
+  is_abolished: true
+  abolished_date: '2023-06-01'
+  superseded_by: GB 55037-2022
+  abolition_note: 被《建筑防火通用规范》GB 55037-2022 废止强制性条文效力（住建部公告，2023-06-01 起实施）
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 住建部公告2014年第595号强制性条文
+  parameters:
+  - name: 火极限
+    unit: h
+    condition: null
+    min_value: null
+    max_value: 1.0
+  - name: 火极限
+    unit: h
+    condition: null
+    min_value: null
+    max_value: 2.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#5.3.2
+  standard_code: GB 50067-2014
+  chapter: 5 防火分隔和建筑构造
+  section: 5.3电梯井、管道井和其他防火构造
+  clause_no: 5.3.2
+  text: 电缆井、管道井应在每层楼板处采用不燃材料或防火封堵材料进行分隔，且分隔后的耐火极限不应低于楼板的耐火极限，井壁上的检查门应采用丙级防火门。
+  is_abolished: true
+  abolished_date: '2023-06-01'
+  superseded_by: GB 55037-2022
+  abolition_note: 被《建筑防火通用规范》GB 55037-2022 废止强制性条文效力（住建部公告，2023-06-01 起实施）
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 住建部公告2014年第595号强制性条文
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#5.3.3
+  standard_code: GB 50067-2014
+  chapter: 5 防火分隔和建筑构造
+  section: 5.3电梯井、管道井和其他防火构造
+  clause_no: 5.3.3
+  text: 除开式汽车库、斜楼板式汽车库外，其他汽车库内的汽车坡道两侧应采用防火墙与停车区隔开，坡道的出入口应采用水幕、防火卷帘或甲级防火门等与停车区隔开；但当汽车库和汽车坡道上均设置自动灭火系统时，坡道的出人口可不设置水幕、防火卷帘或甲级防火门。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 汽车库内的汽车坡道（两侧及出入口与停车区的分隔）
+    conditions:
+    - 当汽车库和汽车坡道上均设置自动灭火系统时（坡道出入口可不设置水幕、防火卷帘或甲级防火门）
+    exceptions:
+    - 开式汽车库
+    - 斜楼板式汽车库
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#5.3.4
+  standard_code: GB 50067-2014
+  chapter: 5 防火分隔和建筑构造
+  section: 5.3电梯井、管道井和其他防火构造
+  clause_no: 5.3.4
+  text: 汽车库、修车库的内部装修，应符合现行国家标准《建筑内部装修设计防火规范》GB50222的有关规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50222
+    target_clause: null
+    original_text: 汽车库、修车库的内部装修，应符合现行国家标准《建筑内部装修设计防火规范》GB50222的有关规定。
+    resolution_status: resolved
+    resolution_note: 库内标准（GB 50222-2017），可交叉引用并确认具体参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#6.0.1
+  standard_code: GB 50067-2014
+  chapter: 6 安全疏散和救援设施
+  section: ''
+  clause_no: 6.0.1
+  text: 汽车库、修车库的人员安全出口和汽车疏散出口应分开设置。设置在工业与民用建筑内的汽车库，其车辆疏散出口应与其他场所的人员安全出口分开设置。
+  is_abolished: true
+  abolished_date: '2023-06-01'
+  superseded_by: GB 55037-2022
+  abolition_note: 被《建筑防火通用规范》GB 55037-2022 废止强制性条文效力（住建部公告，2023-06-01 起实施）
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 住建部公告2014年第595号强制性条文
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#6.0.2
+  standard_code: GB 50067-2014
+  chapter: 6 安全疏散和救援设施
+  section: ''
+  clause_no: 6.0.2
+  text: 除室内无车道且无人员停留的机械式汽车库外，汽车库、修车库内每个防火分区的人员安全出口不应少于2个，V类汽车库和Ⅲ、IV类修车库可设置1个。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 汽车库、修车库内每个防火分区的人员安全出口
+    conditions:
+    - V类汽车库和Ⅲ、IV类修车库（可设置1个）
+    exceptions:
+    - 室内无车道且无人员停留的机械式汽车库
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#6.0.3
+  standard_code: GB 50067-2014
+  chapter: 6 安全疏散和救援设施
+  section: ''
+  clause_no: 6.0.3
+  text: 汽车库、修车库的疏散楼梯应符合下列规定：1建筑高度大于32m的高层汽车库、室内地面与室外出入口地坪的高差大于10m的地下汽车库应采用防烟楼梯间，其他汽车库、修车库应采用封闭楼梯间；2楼梯间和前室的门应采用乙级防火门，并应向疏散方向开启；疏散楼梯的宽度不应小于1.1m。
+  is_abolished: true
+  abolished_date: '2023-06-01'
+  superseded_by: GB 55037-2022
+  abolition_note: 被《建筑防火通用规范》GB 55037-2022 废止强制性条文效力（住建部公告，2023-06-01 起实施）
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 住建部公告2014年第595号强制性条文
+  parameters:
+  - name: 定建筑高度
+    unit: m
+    condition: null
+    min_value: 32.0
+    max_value: null
+  - name: 地坪的高差
+    unit: m
+    condition: null
+    min_value: 10.0
+    max_value: null
+  - name: 楼梯的宽度
+    unit: m
+    condition: null
+    min_value: 1.1
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#6.0.4
+  standard_code: GB 50067-2014
+  chapter: 6 安全疏散和救援设施
+  section: ''
+  clause_no: 6.0.4
+  text: 除室内无车道且无人员停留的机械式汽车库外，建筑高度大于32m的汽车库应设置消防电梯。消防电梯的设置应符合现行国家标准《建筑设计防火规范》GB50016的有关规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑高度大于32m的汽车库的消防电梯
+    conditions:
+    - 建筑高度大于32m时
+    exceptions:
+    - 室内无车道且无人员停留的机械式汽车库
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 外建筑高度
+    unit: m
+    condition: null
+    min_value: 32.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50016
+    target_clause: null
+    original_text: 消防电梯的设置应符合现行国家标准《建筑设计防火规范》GB50016的有关规定。
+    resolution_status: resolved
+    resolution_note: 库内标准（GB 50016-2014），可交叉引用并确认具体参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#6.0.5
+  standard_code: GB 50067-2014
+  chapter: 6 安全疏散和救援设施
+  section: ''
+  clause_no: 6.0.5
+  text: 室外蔬散楼梯可采用金属楼梯，并应符合下列规定：倾斜角度不应大于45°，栏杆扶手的高度不应小于1.1m；每层楼梯平台应采用耐火极限不低于1.00h的不燃材料制作；3在室外楼梯周围2m范围内的墙面上，不应开设除疏散门外的其他门、窗、洞口；通向室外楼梯的门应采用乙级防火门。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 室外疏散楼梯（周围墙面及通向楼梯的门）
+    conditions: []
+    exceptions:
+    - 疏散门（室外楼梯周围2m范围内墙面上可开设）
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 扶手的高度
+    unit: m
+    condition: null
+    min_value: 1.1
+    max_value: null
+  - name: 耐火极限
+    unit: h
+    condition: null
+    min_value: null
+    max_value: 1.0
+  - name: 外楼梯周围
+    unit: m
+    condition: null
+    min_value: 2.0
+    max_value: 2.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#6.0.6
+  standard_code: GB 50067-2014
+  chapter: 6 安全疏散和救援设施
+  section: ''
+  clause_no: 6.0.6
+  text: 汽车库室内任一点至最近人员安全出口的疏散距离不应:17:大于45m，当设置自动灭火系统时，其距离不应大于60m。对于单层或设置在建筑首层的汽车库，室内任一点至室外最近出口的疏散距离不应大于60m。
+  is_abolished: true
+  abolished_date: '2023-06-01'
+  superseded_by: GB 55037-2022
+  abolition_note: 被《建筑防火通用规范》GB 55037-2022 废止强制性条文效力（住建部公告，2023-06-01 起实施）
+  applicability:
+    scope: 汽车库室内任一点至最近人员安全出口的疏散距离
+    conditions:
+    - 当设置自动灭火系统时（距离不应大于60m）
+    - 对于单层或设置在建筑首层的汽车库（至室外最近出口疏散距离不应大于60m）
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 住建部公告2014年第595号强制性条文
+  parameters:
+  - name: 散距离
+    unit: m
+    condition: null
+    min_value: 45.0
+    max_value: null
+  - name: 其距离
+    unit: m
+    condition: null
+    min_value: 60.0
+    max_value: null
+  - name: 散距离
+    unit: m
+    condition: null
+    min_value: 60.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#6.0.7
+  standard_code: GB 50067-2014
+  chapter: 6 安全疏散和救援设施
+  section: ''
+  clause_no: 6.0.7
+  text: 与住宅地下室相连通的地下汽车库、半地下汽车库，人员疏散可借用住宅部分的疏散楼梯；当不能直接进人住宅部分的疏散楼梯间时，应在汽车库与住宅部分的疏散楼梯之间设置连通走道，走道应采用防火隔墙分隔，汽车库开向该走道的门均应采用甲级防火门。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 与住宅地下室相连通的地下、半地下汽车库的人员疏散
+    conditions:
+    - 当不能直接进入住宅部分的疏散楼梯间时（应设置连通走道，走道采用防火隔墙分隔，开向走道的门采用甲级防火门）
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#6.0.8
+  standard_code: GB 50067-2014
+  chapter: 6 安全疏散和救援设施
+  section: ''
+  clause_no: 6.0.8
+  text: 室内无车道且无人员停留的机械式汽车库可不设置人员安全出口，但应按下列规定设置供灭灭救援用的楼梯间：1每个停车区域当停车数量大于100辆时，应至少设置1个楼梯间；2楼梯间与停车区域之间应采用防火隔墙进行分隔，楼梯间的门应采用乙级防火门：3楼梯的净宽不应小于0.9m。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 室内无车道且无人员停留的机械式汽车库的灭火救援用楼梯间
+    conditions:
+    - 每个停车区域当停车数量大于100辆时（应至少设置1个楼梯间）
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 楼梯的净宽
+    unit: m
+    condition: null
+    min_value: 0.9
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#6.0.9
+  standard_code: GB 50067-2014
+  chapter: 6 安全疏散和救援设施
+  section: ''
+  clause_no: 6.0.9
+  text: 除本规范另有规定外，汽车库、修车库的汽车疏散出口总数不应少于2个,且应分散布置。
+  is_abolished: true
+  abolished_date: '2023-06-01'
+  superseded_by: GB 55037-2022
+  abolition_note: 被《建筑防火通用规范》GB 55037-2022 废止强制性条文效力（住建部公告，2023-06-01 起实施）
+  applicability:
+    scope: 汽车库、修车库的汽车疏散出口总数
+    conditions: []
+    exceptions:
+    - 本规范另有规定的情形
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 住建部公告2014年第595号强制性条文
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#6.0.10
+  standard_code: GB 50067-2014
+  chapter: 6 安全疏散和救援设施
+  section: ''
+  clause_no: 6.0.10
+  text: 当符合下列条件之一时，汽车库修车库的汽车疏散出口可设置1个：1V类汽车库；设置双车道汽车疏散出口的Ⅲ类地上汽车库；设置双车道汽车疏散出口、停车数量小于或等于100辆且建筑面积小于4000m²的地下或半地下汽车库；4Ⅱ、Ⅲ、IV类修车库。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 汽车库、修车库的汽车疏散出口（可设置1个的情形）
+    conditions:
+    - V类汽车库
+    - 设置双车道汽车疏散出口的Ⅲ类地上汽车库
+    - 设置双车道汽车疏散出口、停车数量小于或等于100辆且建筑面积小于4000m²的地下或半地下汽车库
+    - Ⅱ、Ⅲ、IV类修车库
+    exceptions: []
+  constraint:
+    modal_level: may
+    modal_words:
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 未识别对象
+    unit: m²
+    condition: null
+    min_value: null
+    max_value: 4000.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#6.0.11
+  standard_code: GB 50067-2014
+  chapter: 6 安全疏散和救援设施
+  section: ''
+  clause_no: 6.0.11
+  text: I、Ⅱ类地上汽车库和停车数量大于100辆的地下、半地下汽车库，当采用错层或斜楼板式，坡道为双车道且设置自动喷水灭火系统时，其首层或地下一层至室外的汽车疏散出口不应少于2个，汽车库内其他楼层的汽车疏散坡道可设置1个。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: I、Ⅱ类地上汽车库和停车数量大于100辆的地下、半地下汽车库的汽车疏散出口
+    conditions:
+    - 当采用错层或斜楼板式，坡道为双车道且设置自动喷水灭火系统时（首层或地下一层至室外出口不应少于2个，其他楼层坡道可设1个）
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#6.0.12
+  standard_code: GB 50067-2014
+  chapter: 6 安全疏散和救援设施
+  section: ''
+  clause_no: 6.0.12
+  text: IV类汽车库设置汽车坡道有困难时，可采用汽车专用升:18:降机作汽车疏散出口，升降机的数量不应少于2台，停车数量少于25辆时，可设置1台。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: IV类汽车库采用汽车专用升降机作汽车疏散出口
+    conditions:
+    - IV类汽车库设置汽车坡道有困难时（可采用汽车专用升降机）
+    - 停车数量少于25辆时（升降机可设置1台）
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#6.0.13
+  standard_code: GB 50067-2014
+  chapter: 6 安全疏散和救援设施
+  section: ''
+  clause_no: 6.0.13
+  text: 汽车疏散坡道的净宽度，单车道不应小于3.0m，双车道不应小于5.5m。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 宽度单车道
+    unit: m
+    condition: null
+    min_value: 3.0
+    max_value: null
+  - name: 未识别对象
+    unit: m
+    condition: null
+    min_value: 5.5
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#6.0.14
+  standard_code: GB 50067-2014
+  chapter: 6 安全疏散和救援设施
+  section: ''
+  clause_no: 6.0.14
+  text: 除室内无车道且无人员停留的机械式汽车库外，相邻两个汽车疏散出口之间的水平距离不应小于10m；毗邻设置的两个汽车坡道应采用防火隔墙分隔。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 相邻两个汽车疏散出口之间的水平距离；毗邻设置的两个汽车坡道
+    conditions: []
+    exceptions:
+    - 室内无车道且无人员停留的机械式汽车库
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 水平距离
+    unit: m
+    condition: null
+    min_value: 10.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#6.0.15
+  standard_code: GB 50067-2014
+  chapter: 6 安全疏散和救援设施
+  section: ''
+  clause_no: 6.0.15
+  text: 停车场的汽车疏散出口不应少于2个；停车数量不大于50辆时，可设置1个。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 停车场的汽车疏散出口
+    conditions:
+    - 停车数量不大于50辆时（可设置1个）
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#6.0.16
+  standard_code: GB 50067-2014
+  chapter: 6 安全疏散和救援设施
+  section: ''
+  clause_no: 6.0.16
+  text: 除室内无车道且无人员停留的机械式汽车库外，汽车库内汽车之间和汽车与墙.柱之间的水平距离,不应小于表6.0.16的规定.m,注,当墙、柱外有暖气片等突出物时，汽车与墙,柱之间的水平距离应从其凸出部分外缘算起. 7，消防给水和灭火设施7,1。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 汽车库内汽车之间和汽车与墙、柱之间的水平距离
+    conditions:
+    - 当墙、柱外有暖气片等突出物时（水平距离从凸出部分外缘算起）
+    exceptions:
+    - 室内无车道且无人员停留的机械式汽车库
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表6.0.16
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    description: 汽车之间和汽车与墙、柱之间的水平距离（m）
+    headers:
+    - 项目
+    - 车长≤6m
+    - 6m<车长≤8m
+    - 8m<车长≤12m
+    - 车长>12m
+    rows:
+    - - 汽车之间
+      - '0.5'
+      - '0.7'
+      - '0.8'
+      - '0.9'
+    - - 汽车与墙
+      - '0.5'
+      - '0.5'
+      - '0.5'
+      - '0.5'
+    - - 汽车与柱
+      - '0.3'
+      - '0.3'
+      - '0.4'
+      - '0.4'
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#7.1.1
+  standard_code: GB 50067-2014
+  chapter: 7 消防给水和灭火设施
+  section: 7.1消防给水
+  clause_no: 7.1.1
+  text: 汽车库、修车库、停车场应设置消防给水系统。消防给水可由市政给水管道、消防水池或天然水源供给。利用天然水源时，应设置可靠的取水设施和通向天然水源的道路，并应在枯水期最低水位时，确保消防用水量。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 汽车库、修车库、停车场的消防给水系统
+    conditions:
+    - 利用天然水源时（应设置可靠的取水设施和通向天然水源的道路，并应在枯水期最低水位时确保消防用水量）
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#7.1.2
+  standard_code: GB 50067-2014
+  chapter: 7 消防给水和灭火设施
+  section: 7.1消防给水
+  clause_no: 7.1.2
+  text: 符合下列条件之一的汽车库、修车库、停车场，可不设置消防给水系统：耐火等级为一、二级且停车数量不大于5辆的汽车库；耐火等级为一、二级的IV类修车库；停车数量不大于5辆的停车场。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: may
+    modal_words:
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#7.1.3
+  standard_code: GB 50067-2014
+  chapter: 7 消防给水和灭火设施
+  section: 7.1消防给水
+  clause_no: 7.1.3
+  text: 当室外消防给水采用高压或临时高压给水系统时，汽车库、修车库、停车场消防给水管道内的压力应保证在消防用水量达到最大时，最不利点水枪的充实水柱不小于10m；当室外消防给水采用低压给水系统时，消防给水管道内的压力应保证灭火时最不利点消火栓的水压不小于0.1MPa（从室外地面算起）。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 汽车库、修车库、停车场消防给水管道内的压力
+    conditions:
+    - 当室外消防给水采用高压或临时高压给水系统时（最不利点水枪充实水柱不小于10m）
+    - 当室外消防给水采用低压给水系统时（最不利点消火栓水压不小于0.1MPa）
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 充实水柱
+    unit: m
+    condition: null
+    min_value: 10.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#7.1.4
+  standard_code: GB 50067-2014
+  chapter: 7 消防给水和灭火设施
+  section: 7.1消防给水
+  clause_no: 7.1.4
+  text: ／汽车库、修车库的消防用水量应按室内、外消防用水量之和计算。其中，汽车库、修车库内设置消火栓、自动喷水、泡沫等灭火系统时，其室内消防用水量应按需要同时开启的灭火系统用水量之和计算。
+  is_abolished: true
+  abolished_date: '2023-06-01'
+  superseded_by: GB 55037-2022
+  abolition_note: 被《建筑防火通用规范》GB 55037-2022 废止强制性条文效力（住建部公告，2023-06-01 起实施）
+  applicability:
+    scope: 汽车库、修车库的消防用水量
+    conditions:
+    - 当汽车库、修车库内设置消火栓、自动喷水、泡沫等灭火系统时（室内消防用水量应按需要同时开启的灭火系统用水量之和计算）
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 住建部公告2014年第595号强制性条文
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#7.1.5
+  standard_code: GB 50067-2014
+  chapter: 7 消防给水和灭火设施
+  section: 7.1消防给水
+  clause_no: 7.1.5
+  text: 除本规范另有规定外，汽车库、修车库、停车场应设置室外消火栓系统，其室外消防用水量应按消防用水量最大的一座计算，并应符合下列规定：1I、Ⅱ类汽车库、修车库、停车场，不应小于20L/s;Ⅱ类汽车库、修车库、停车场，不应小于15L/s；V类汽车库、修车库、停车场，不应小于10L/s。
+  is_abolished: true
+  abolished_date: '2023-06-01'
+  superseded_by: GB 55037-2022
+  abolition_note: 被《建筑防火通用规范》GB 55037-2022 废止强制性条文效力（住建部公告，2023-06-01 起实施）
+  applicability:
+    scope: 汽车库、修车库、停车场的室外消火栓系统
+    conditions: []
+    exceptions:
+    - 本规范另有规定的情形
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 住建部公告2014年第595号强制性条文
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#7.1.6
+  standard_code: GB 50067-2014
+  chapter: 7 消防给水和灭火设施
+  section: 7.1消防给水
+  clause_no: 7.1.6
+  text: 汽车库、修车库、停车场的室外消防给水管道、室外消火栓、消防泵房的设置，应符合现行国家标准《消防给水及消火栓系统技术规范》GB50974的有关规定。停车场的室外消火栓宜沿停车场周边设置，且距离最近一排汽车不宜小于7m，距加油站或油库不宜小于15m。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 排汽车
+    unit: m
+    condition: null
+    min_value: null
+    max_value: 7.0
+  - name: 未识别对象
+    unit: m
+    condition: null
+    min_value: null
+    max_value: 15.0
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50974
+    target_clause: null
+    original_text: 汽车库、修车库、停车场的室外消防给水管道、室外消火栓、消防泵房的设置，应符合现行国家标准《消防给水及消火栓系统技术规范》GB50974的有关规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#7.1.7
+  standard_code: GB 50067-2014
+  chapter: 7 消防给水和灭火设施
+  section: 7.1消防给水
+  clause_no: 7.1.7
+  text: 室外消火栓的保护半径不应大于150m，在市政消火栓保护半径150m范围内的汽车库、修车库、停车场，市政消火栓可计人建筑室外消火栓的数量。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 护半径
+    unit: m
+    condition: null
+    min_value: 150.0
+    max_value: null
+  - name: 栓保护半径
+    unit: m
+    condition: null
+    min_value: 150.0
+    max_value: 150.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#7.1.8
+  standard_code: GB 50067-2014
+  chapter: 7 消防给水和灭火设施
+  section: 7.1消防给水
+  clause_no: 7.1.8
+  text: 除本规范另有规定外，汽车库、修车库应设置室内消火栓系统，其消防用水量应符合下列规定：1I、Ⅱ、Ⅱ类汽车库及I、Ⅱ类修车库的用水量不应小于10L/s，系统管道内的压力应保证相邻两个消火栓的水枪充实水柱同时到达室内任何部位；2V类汽车库及Ⅲ、V类修车库的用水量不应小于5L/s，系统管道内的压力应保证一个消火栓的水枪充实水柱到达室内任何部位。
+  is_abolished: true
+  abolished_date: '2023-06-01'
+  superseded_by: GB 55037-2022
+  abolition_note: 被《建筑防火通用规范》GB 55037-2022 废止强制性条文效力（住建部公告，2023-06-01 起实施）
+  applicability:
+    scope: 汽车库、修车库的室内消火栓系统
+    conditions: []
+    exceptions:
+    - 本规范另有规定的情形
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 住建部公告2014年第595号强制性条文
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#7.1.9
+  standard_code: GB 50067-2014
+  chapter: 7 消防给水和灭火设施
+  section: 7.1消防给水
+  clause_no: 7.1.9
+  text: 室内消火栓水枪的充实水柱不应小于10m。同层相邻室内消火栓的间距不应大于50m，高层汽车库和地下汽车库、半地下汽车库室内消火栓的间距不应大于30m。【室内消火栓应设置在易于取用的明显地点，栓口距离地面宜为1.1m，其出水方向宜向下或与设置消火栓的墙面垂直。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 充实水柱
+    unit: m
+    condition: null
+    min_value: 10.0
+    max_value: null
+  - name: 间距
+    unit: m
+    condition: null
+    min_value: 50.0
+    max_value: null
+  - name: 间距
+    unit: m
+    condition: null
+    min_value: 30.0
+    max_value: null
+  - name: 距离地面
+    unit: m
+    condition: null
+    min_value: 1.1
+    max_value: 1.1
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#7.1.10
+  standard_code: GB 50067-2014
+  chapter: 7 消防给水和灭火设施
+  section: 7.1消防给水
+  clause_no: 7.1.10
+  text: 汽车库、修车库的室内消火栓数量超过10个时，室内消防管道应布置成环状，并应有两条进水管与室外管道相连接。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 汽车库、修车库的室内消防管道
+    conditions:
+    - 当室内消火栓数量超过10个时（应布置成环状，并应有两条进水管与室外管道相连接）
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#7.1.11
+  standard_code: GB 50067-2014
+  chapter: 7 消防给水和灭火设施
+  section: 7.1消防给水
+  clause_no: 7.1.11
+  text: 室内消防管道应采用阀门分成若干独立段，每段内消火栓不应超过5个。高层汽车库内管道阀门的布置，应保证检修管道时关闭的竖管不超过1根，当竖管超过4根时，可关闭不相邻的2根。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 汽车库、修车库的室内消防管道阀门布置
+    conditions:
+    - 当竖管超过4根时（可关闭不相邻的2根）
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#7.1.13
+  standard_code: GB 50067-2014
+  chapter: 7 消防给水和灭火设施
+  section: 7.1消防给水
+  clause_no: 7.1.13
+  text: 设置高压给水系统的汽车库、修车库，当能保证最不利点消火栓和自动喷水灭火系统等的水量和水压时，可不设置消防水箱。设置临时高压消防给水系统的汽车库、修车库，应设置屋顶消防水箱，其容量不应小于12m"，并应符合现行国家标准《消防给水及消火栓系统技术规范》GB50974的有关规定。消防用水与其他用水合用的水箱，应采取保证消防用水不作他用的技术措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 汽车库、修车库的消防水箱
+    conditions:
+    - 设置高压给水系统且能保证最不利点消火栓和自动喷水灭火系统等的水量和水压时（可不设置消防水箱）
+    - 设置临时高压消防给水系统时（应设置屋顶消防水箱，容量不应小于12m³）
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 水箱其容量
+    unit: m
+    condition: null
+    min_value: 12.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50974
+    target_clause: null
+    original_text: 设置临时高压消防给水系统的汽车库、修车库，应设置屋顶消防水箱，其容量不应小于12m"，并应符合现行国家标准《消防给水及消火栓系统技术规范》GB50974的有关规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#7.1.14
+  standard_code: GB 50067-2014
+  chapter: 7 消防给水和灭火设施
+  section: 7.1消防给水
+  clause_no: 7.1.14
+  text: 采用临时高压消防给水系统的汽车库、修车库 其消防水泵的控制应符合现行国家标准,消防给水及消火栓系统技术规范、GB，50974的有关规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50974
+    target_clause: null
+    original_text: 采用临时高压消防给水系统的汽车库、修车库，其消防水泵的控制应符合现行国家标准《消防给水及消火栓系统技术规范》GB50974的有关规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#7.1.15
+  standard_code: GB 50067-2014
+  chapter: 7 消防给水和灭火设施
+  section: 7.1消防给水
+  clause_no: 7.1.15
+  text: 采用消防水池作为消防水源时,其有效容量应满足火灾延续时间内室内 外消防用水量之和的要求。
+  is_abolished: true
+  abolished_date: '2023-06-01'
+  superseded_by: GB 55037-2022
+  abolition_note: 被《建筑防火通用规范》GB 55037-2022 废止强制性条文效力（住建部公告，2023-06-01 起实施）
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 住建部公告2014年第595号强制性条文
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#7.1.16
+  standard_code: GB 50067-2014
+  chapter: 7 消防给水和灭火设施
+  section: 7.1消防给水
+  clause_no: 7.1.16
+  text: 火灾延续时间应按2.00h计算，但自动喷水灭火系统可按1.00h计算，泡沫灭火系统可按0.50h计算。当室外给水管网能确保连续补水时，消防水池的有效容量可减去火灾延续时间内连续补充的水量。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 火灾延续时间及消防水池有效容量
+    conditions:
+    - 当室外给水管网能确保连续补水时（消防水池有效容量可减去火灾延续时间内连续补充的水量）
+    exceptions:
+    - 自动喷水灭火系统（可按1.00h计算）
+    - 泡沫灭火系统（可按0.50h计算）
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 续时间应按
+    unit: h
+    condition: null
+    min_value: 2.0
+    max_value: 2.0
+  - name: 火系统可按
+    unit: h
+    condition: null
+    min_value: 1.0
+    max_value: 1.0
+  - name: 火系统可按
+    unit: h
+    condition: null
+    min_value: 0.5
+    max_value: 0.5
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#7.1.17
+  standard_code: GB 50067-2014
+  chapter: 7 消防给水和灭火设施
+  section: 7.1消防给水
+  clause_no: 7.1.17
+  text: 供消防车取水的消防水池应设置取水口或取水井，其水深应保证消防车的消防水泵吸水高度不大于6m。消防用水与其他用水共用的水池，应采取保证消防用水不作他用的技术措施。严寒或寒冷地区的消防水池应采取防冻措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 吸水高度
+    unit: m
+    condition: null
+    min_value: 6.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#7.1.124
+  standard_code: GB 50067-2014
+  chapter: 7 消防给水和灭火设施
+  section: 7.1消防给水
+  clause_no: 7.1.124
+  text: 层以上的多层汽车库、高层汽车库和地下、半地下汽车库，其室内消防给水管网应设置水泵接合器。水泵接合器的数量应按室内消防用水量计算确定，每个水泵接合器的流量应按10L/s～15L/s计算。水泵接合器应设置明显的标志，并应设置在:21:便于消防车停靠和安全使用的地点，其周围15m～40m范围内应设室外消火栓或消防水池。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 地点其周围
+    unit: m
+    condition: null
+    min_value: 15.0
+    max_value: 15.0
+  - name: 点其周围m
+    unit: m
+    condition: null
+    min_value: 40.0
+    max_value: 40.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#7.2.1
+  standard_code: GB 50067-2014
+  chapter: 7 消防给水和灭火设施
+  section: 7.2自动灭火系统
+  clause_no: 7.2.1
+  text: 除开式汽车库、屋面停车场外，下列汽车库、修车库应设置自动灭火系统：I、Ⅱ、Ⅲ类地上汽车库；停车数大于10辆的地下、半地下汽车库；机械式汽车库；:22:4采用汽车专用升降机作汽车疏散出口的汽车库；5I类修车库。
+  is_abolished: true
+  abolished_date: '2023-06-01'
+  superseded_by: GB 55037-2022
+  abolition_note: 被《建筑防火通用规范》GB 55037-2022 废止强制性条文效力（住建部公告，2023-06-01 起实施）
+  applicability:
+    scope: 应设置自动灭火系统的汽车库、修车库
+    conditions:
+    - I、Ⅱ、Ⅲ类地上汽车库
+    - 停车数大于10辆的地下、半地下汽车库
+    - 机械式汽车库
+    - 采用汽车专用升降机作汽车疏散出口的汽车库
+    - I类修车库
+    exceptions:
+    - 开式汽车库
+    - 屋面停车场
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 住建部公告2014年第595号强制性条文
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#7.2.2
+  standard_code: GB 50067-2014
+  chapter: 7 消防给水和灭火设施
+  section: 7.2自动灭火系统
+  clause_no: 7.2.2
+  text: 对于需要设置自动灭火系统的场所 除符合本规范第7.2.3条。第7.2.4条的规定可采用相应类型的灭火系统外,应采用自动喷水灭火系统。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 需要设置自动灭火系统的场所（灭火系统类型）
+    conditions: []
+    exceptions:
+    - 符合本规范第7.2.3条、第7.2.4条规定的场所（可采用相应类型的灭火系统）
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#7.2.3
+  standard_code: GB 50067-2014
+  chapter: 7 消防给水和灭火设施
+  section: 7.2自动灭火系统
+  clause_no: 7.2.3
+  text: 条、第7.2.4条的规定可采用相应类型的灭火系统外，应采用自动喷水灭火系统。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 下列汽车库、修车库宜采用泡沫一水喷淋系统，泡沫一水喷淋系统的设计应符合现行国家标准《泡沫灭火系统设计规范》GB50151的有关规定：1I类地下、半地下汽车库；I类修车库；停车数大于100辆的室内无车道且无人员停留的机械式汽车库。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#7.2.4
+  standard_code: GB 50067-2014
+  chapter: 7 消防给水和灭火设施
+  section: 7.2自动灭火系统
+  clause_no: 7.2.4
+  text: 地下、半地下汽车库可采用高倍数泡沫灭火系统。停车数量不大于50辆的室内无车道且无人员停留的机械式汽车库，可采用二氧化碳等气体灭火系统。高倍数泡沫灭火系统、二氧化碳等气体灭火系统的设计，应符合现行国家标准《泡沫灭火系统设计规范》GB50151《氧化碳灭火系统设计规范》GB50193和《气体灭火系统设计规范》GB50370的有关规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50151
+    target_clause: null
+    original_text: 高倍数泡沫灭火系统、二氧化碳等气体灭火系统的设计，应符合现行国家标准《泡沫灭火系统设计规范》GB50151《氧化碳灭火系统设计规范》GB50193和《气体灭火系统设计规范》GB50370的有关规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  - target_standard: GB 50193
+    target_clause: null
+    original_text: 高倍数泡沫灭火系统、二氧化碳等气体灭火系统的设计，应符合现行国家标准《泡沫灭火系统设计规范》GB50151《氧化碳灭火系统设计规范》GB50193和《气体灭火系统设计规范》GB50370的有关规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  - target_standard: GB 50370
+    target_clause: null
+    original_text: 高倍数泡沫灭火系统、二氧化碳等气体灭火系统的设计，应符合现行国家标准《泡沫灭火系统设计规范》GB50151《氧化碳灭火系统设计规范》GB50193和《气体灭火系统设计规范》GB50370的有关规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#7.2.5
+  standard_code: GB 50067-2014
+  chapter: 7 消防给水和灭火设施
+  section: 7.2自动灭火系统
+  clause_no: 7.2.5
+  text: 环境温度低于4℃时间较短的非严寒或寒冷地区，可采用湿式自动喷水灭火系统，但应采取防冻措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 环境温度低于4℃时间较短的非严寒或寒冷地区的自动喷水灭火系统
+    conditions:
+    - 环境温度低于4℃时间较短的非严寒或寒冷地区（可采用湿式自动喷水灭火系统）
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#7.2.6
+  standard_code: GB 50067-2014
+  chapter: 7 消防给水和灭火设施
+  section: 7.2自动灭火系统
+  clause_no: 7.2.6
+  text: 设置在汽车库 修车库内的自动喷水灭火系统,其设计除应符合现行国家标准 自动喷水灭火系统设计规范 GB、50084的有关规定外。喷头布置还应符合下列规定.1.应设置在汽车库停车位的上方或侧上方,对于机械式汽车库,尚应按停车的载车板分层布置、且应在喷头的上方设置集热板,2.错层式.斜楼板式汽车库的车道、坡道上方均应设置喷头。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 设置在汽车库、修车库内的自动喷水灭火系统的喷头布置
+    conditions:
+    - 错层式、斜楼板式汽车库的车道、坡道上方（均应设置喷头）
+    exceptions:
+    - 符合《自动喷水灭火系统设计规范》GB50084有关规定的设计内容
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50084
+    target_clause: null
+    original_text: 设置在汽车库、修车库内的自动喷水灭火系统，其设计除应符合现行国家标准《自动喷水灭火系统设计规范》GB50084的有关规定外，喷头布置还应符合下列规定：1应设置在汽车库停车位的上方或侧上方，对
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  - target_standard: GB 50140
+    target_clause: null
+    original_text: 灭火器的配置设计应符合现行国家标准《建筑灭火器配置设计规范》GB50140的有关规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#8.1.4
+  standard_code: GB 50067-2014
+  chapter: 8 供暖、通风和排烟
+  section: 8.1供暖和通风
+  clause_no: 8.1.4
+  text: 喷漆间、电瓶间均应设置独立的排气系统。乙炔站的通风系统设计，应符合现行国家标准《乙炔站设计规范》GB50031的有关规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50031
+    target_clause: null
+    original_text: 乙炔站的通风系统设计，应符合现行国家标准《乙炔站设计规范》GB50031的有关规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#8.1.5
+  standard_code: GB 50067-2014
+  chapter: 8 供暖、通风和排烟
+  section: 8.1供暖和通风
+  clause_no: 8.1.5
+  text: _设置通风系统的汽车库，其通风系统宜独立设置。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: should
+    modal_words:
+    - 宜
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#8.1.6
+  standard_code: GB 50067-2014
+  chapter: 8 供暖、通风和排烟
+  section: 8.1供暖和通风
+  clause_no: 8.1.6
+  text: 风管应采用不燃材料制作，且不应穿过防火墙、防火隔墙，当必须穿过时，除应符合本规范第5.2.5条的规定外，尚应符合下列规定：1应在穿过处设置防火阀，防火阀的动作温度宜为70℃；2位于防火墙、防火隔墙两侧各2m范围内的风管绝热材料应为不燃材料。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 汽车库、修车库内的风管（穿过防火墙、防火隔墙）
+    conditions:
+    - 当风管必须穿过防火墙、防火隔墙时（应在穿过处设置防火阀，动作温度宜为70℃；两侧各2m范围内风管绝热材料应为不燃材料）
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 必须
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 隔墙两侧各
+    unit: m
+    condition: null
+    min_value: 2.0
+    max_value: 2.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#8.2.1
+  standard_code: GB 50067-2014
+  chapter: 8 供暖、通风和排烟
+  section: 8.2排烟
+  clause_no: 8.2.1
+  text: 除敲开式汽车库、建筑面积小于1000m²的地下一层汽车库和修车库外，汽车库、修车库应设置排烟系统，并应划分防烟分区。
+  is_abolished: true
+  abolished_date: '2023-06-01'
+  superseded_by: GB 55037-2022
+  abolition_note: 被《建筑防火通用规范》GB 55037-2022 废止强制性条文效力（住建部公告，2023-06-01 起实施）
+  applicability:
+    scope: 应设置排烟系统的汽车库、修车库
+    conditions: []
+    exceptions:
+    - 开式汽车库
+    - 建筑面积小于1000m²的地下一层汽车库和修车库
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 住建部公告2014年第595号强制性条文
+  parameters:
+  - name: 库建筑面积
+    unit: m²
+    condition: null
+    min_value: null
+    max_value: 1000.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#8.2.2
+  standard_code: GB 50067-2014
+  chapter: 8 供暖、通风和排烟
+  section: 8.2排烟
+  clause_no: 8.2.2
+  text: 防烟分区的建筑面积不宜大于2000m²，且防烟分区不应跨越防火分区。防烟分区可采用挡烟垂壁、隔墙或从顶棚下突出不小于0.5m的梁划分。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 筑面积
+    unit: m²
+    condition: null
+    min_value: 2000.0
+    max_value: null
+  - name: 顶棚下突出
+    unit: m
+    condition: null
+    min_value: 0.5
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#8.2.3
+  standard_code: GB 50067-2014
+  chapter: 8 供暖、通风和排烟
+  section: 8.2排烟
+  clause_no: 8.2.3
+  text: 排烟系统可采用自然排烟方式或机械排烟方式。机械排烟系统可与人防、卫生等的排气、通风系统合用。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: may
+    modal_words:
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#8.2.4
+  standard_code: GB 50067-2014
+  chapter: 8 供暖、通风和排烟
+  section: 8.2排烟
+  clause_no: 8.2.4
+  text: 当采用自然排烟方式时，可采用手动排烟窗自动排烟窗、孔洞等作为自然排烟口，并应符合下列规定：自然排烟口的总面积不应小于室内地面面积的2%；2自然排烟口应设置在外墙上方或屋顶上，并应设置方便开启的装置；3房间外墙上的排烟口（窗）宜沿外墙周长方向均匀分布，排烟口（窗）的下沿不应低于室内净高的1/2，并应沿气流方向开启。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 采用自然排烟方式的汽车库、修车库的排烟口
+    conditions:
+    - 当采用自然排烟方式时
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 口的总面积
+    unit: '%'
+    condition: null
+    min_value: 2.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#8.2.5
+  standard_code: GB 50067-2014
+  chapter: 8 供暖、通风和排烟
+  section: 8.2排烟
+  clause_no: 8.2.5
+  text: 汽车库。修车库内每个防烟分区排烟风机的排烟量不应小于表8.2.5的规定.建筑空间净高位于表中两个高度之间的.按线性插值法取值。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表8.2.5
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    description: 汽车库、修车库内每个防烟分区排烟风机的排烟量（数值依标准惯例推定，待核印刷版）
+    headers:
+    - 汽车库、修车库的净高(m)
+    - 汽车库排烟量(m³/h)
+    - 修车库排烟量(m³/h)
+    rows:
+    - - ≤3
+      - '30000'
+      - '30000'
+    - - 3<净高≤6
+      - '36000'
+      - ''
+    - - 6<净高≤9
+      - '45000'
+      - ''
+    - - '>9'
+      - '54000'
+      - ''
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#8.2.6
+  standard_code: GB 50067-2014
+  chapter: 8 供暖、通风和排烟
+  section: 9.0以上
+  clause_no: 8.2.6
+  text: 每个防烟分区应设置排烟口，排烟口宜设在顶棚或靠近顶棚的墙面上。排烟口距该防烟分区内最远点的水平距离不应大于30m。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 平距离
+    unit: m
+    condition: null
+    min_value: 30.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#8.2.7
+  standard_code: GB 50067-2014
+  chapter: 8 供暖、通风和排烟
+  section: 9.0以上
+  clause_no: 8.2.7
+  text: 排烟风机可采用离心风机或排烟轴流风机，并应保证280℃时能连续工作30min。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 能连续工作
+    unit: m
+    condition: null
+    min_value: 30.0
+    max_value: 30.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#8.2.8
+  standard_code: GB 50067-2014
+  chapter: 8 供暖、通风和排烟
+  section: 9.0以上
+  clause_no: 8.2.8
+  text: 在穿过不同防烟分区的排烟支管上应设置烟气温度大于.25:280℃时能自动关闭的排烟防火阀，排烟防火阀应联锁关闭相应的排烟风机。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#8.2.9
+  standard_code: GB 50067-2014
+  chapter: 8 供暖、通风和排烟
+  section: 9.0以上
+  clause_no: 8.2.9
+  text: 机械排烟管道的风速，采用金属管道时不应大于20m/s采用内表面光滑的非金属材料风道时，不应大于15m/s。排烟口的风速不宜大于10m/s。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 机械排烟管道及排烟口的风速
+    conditions:
+    - 采用金属管道时（不应大于20m/s）
+    - 采用内表面光滑的非金属材料风道时（不应大于15m/s）
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 管道时
+    unit: m
+    condition: null
+    min_value: 20.0
+    max_value: null
+  - name: 风道时
+    unit: m
+    condition: null
+    min_value: 15.0
+    max_value: null
+  - name: 风速
+    unit: m
+    condition: null
+    min_value: 10.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#8.2.10
+  standard_code: GB 50067-2014
+  chapter: 8 供暖、通风和排烟
+  section: 9.0以上
+  clause_no: 8.2.10
+  text: 汽车库内无直接通向室外的汽车疏散出口的防火分区，当设置机械排烟系统时，应同时设置补风系统，且补风量不宜小于排烟量的50%。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 汽车库内无直接通向室外的汽车疏散出口的防火分区（机械排烟系统）
+    conditions:
+    - 当汽车库内无直接通向室外的汽车疏散出口的防火分区设置机械排烟系统时（应同时设置补风系统，补风量不宜小于排烟量的50%）
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 补风量
+    unit: '%'
+    condition: null
+    min_value: null
+    max_value: 50.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#9.0.1
+  standard_code: GB 50067-2014
+  chapter: 9 电气
+  section: ''
+  clause_no: 9.0.1
+  text: 消防水泵、火灾自动报警系统、自动灭火系统、防排烟设备、电动防火卷帘、电动防火门、消防应急照明和疏散指示标志等消防用电设备，以及采用汽车专用升降机作车辆疏散出口的升降机用电，应符合下列规定：1I类汽车库、采用汽车专用升降机作车辆疏散出口的升降机用电应按一级负荷供电；一Ⅱ、Ⅲ类汽车库和I类修车库应按二级负荷供电；IV类汽车库和I、ⅢIV类修车库可采用三级负荷供电。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#9.0.2
+  standard_code: GB 50067-2014
+  chapter: 9 电气
+  section: ''
+  clause_no: 9.0.2
+  text: 按一、二级负荷供电的消防用电设备的两个电源或两个回路，应能在最末一级配电箱处自动切换。消防用电设备的配电线路应与其他动力、照明等配电线路分开设置。消防用电设备应采用专用供电回路,其配电设备应有明显标志。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#9.0.3
+  standard_code: GB 50067-2014
+  chapter: 9 电气
+  section: ''
+  clause_no: 9.0.3
+  text: 消防用电的配电线路应满足火灾时连续供电的要求，其敷设应符合现行国家标准《建筑设计防火规范》GB50016的有关规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50016
+    target_clause: null
+    original_text: 消防用电的配电线路应满足火灾时连续供电的要求，其敷设应符合现行国家标准《建筑设计防火规范》GB50016的有关规定。
+    resolution_status: resolved
+    resolution_note: 库内标准（GB 50016-2014），可交叉引用并确认具体参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#9.0.4
+  standard_code: GB 50067-2014
+  chapter: 9 电气
+  section: ''
+  clause_no: 9.0.4
+  text: 除停车数量不大于50辆的汽车库，以及室内无车道且无人员停留的机械式汽车库外，汽车库内应设置消防应急照明和蔬散指示标志。用于蔬散走道上的消防应急照明和疏散指示标志，可采用蓄电池作备用电源，但其连续供电时间不应小于30min。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 汽车库内应设置消防应急照明和疏散指示标志
+    conditions: []
+    exceptions:
+    - 停车数量不大于50辆的汽车库
+    - 室内无车道且无人员停留的机械式汽车库
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 续供电时间
+    unit: m
+    condition: null
+    min_value: 30.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#9.0.5
+  standard_code: GB 50067-2014
+  chapter: 9 电气
+  section: ''
+  clause_no: 9.0.5
+  text: 消防应急照明灯宜设置在墙面或顶棚上，其地面最低水平照度不应低于1.0Lx。安全出口标志宜设置在疏散出口的顶部；疏散指示标志宜设置在疏散通道及其转角处，且距地面高度1m以下的墙面上。通道上的指示标志，其间距不宜大于20m。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 距地面高度
+    unit: m
+    condition: null
+    min_value: 1.0
+    max_value: 1.0
+  - name: 其间距
+    unit: m
+    condition: null
+    min_value: 20.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#9.0.6
+  standard_code: GB 50067-2014
+  chapter: 9 电气
+  section: ''
+  clause_no: 9.0.6
+  text: 甲,乙类物品运输车的汽车库、修车库以及修车库内的喷漆间,电瓶间.乙炔间等室内电气设备的防爆要求，均应符合现行国家标准。爆炸危险环境电力装置设计规范。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50058
+    target_clause: null
+    original_text: '甲、乙类物品运输车的汽车库、修车库以及修车库内的喷: 27:漆间、电瓶间、乙炔间等室内电气设备的防爆要求，均应符合现行国家标准《爆炸危险环境电力装置设计规范》GB50058的有关规定。'
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#9.0.7
+  standard_code: GB 50067-2014
+  chapter: 9 电气
+  section: ''
+  clause_no: 9.0.7
+  text: 除开敞式汽车库、屋面停车场外，下列汽车库、修车库应设置火灾自动报警系统：1 I类汽车库、修车库；2 Ⅱ类地下、半地下汽车库、修车库；3 Ⅱ类高层汽车库、修车库；4 机械式汽车库；5 采用汽车专用升降机作汽车疏散出口的汽车库。
+  is_abolished: true
+  abolished_date: '2023-06-01'
+  superseded_by: GB 55037-2022
+  abolition_note: 被《建筑防火通用规范》GB 55037-2022 废止强制性条文效力（住建部公告，2023-06-01 起实施）
+  applicability:
+    scope: 应设置火灾自动报警系统的汽车库、修车库
+    conditions:
+    - I类汽车库、修车库
+    - Ⅱ类地下、半地下汽车库、修车库
+    - Ⅱ类高层汽车库、修车库
+    - 机械式汽车库
+    - 采用汽车专用升降机作汽车疏散出口的汽车库
+    exceptions:
+    - 开敞式汽车库
+    - 屋面停车场
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 原黑体强制性条文（已废止）
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#9.0.8
+  standard_code: GB 50067-2014
+  chapter: 9 电气
+  section: ''
+  clause_no: 9.0.8
+  text: 气体灭火系统、泡沫一水喷淋系统、高倍数泡沫灭火系统以及设置防火卷帘、防烟排烟系统的联动控制设计，应符合现行国家标准《火灾自动报警系统设计规范》GB50116等的有关规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50116
+    target_clause: null
+    original_text: 气体灭火系统、泡沫一水喷淋系统、高倍数泡沫灭火系统以及设置防火卷帘、防烟排烟系统的联动控制设计，应符合现行国家标准《火灾自动报警系统设计规范》GB50116等的有关规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+- id: GB 50067-2014#9.0.9
+  standard_code: GB 50067-2014
+  chapter: 9 电气
+  section: ''
+  clause_no: 9.0.9
+  text: 设置火灾自动报警系统和自动灭火系统的汽车库，修车库、应设置消防控制室。消防控制室宜独立设置 也可与其他控制室、值班室组合设置、 本规范用词说明1 为便于在执行本规范条文时区别对待 对要求严格程度不同的用词说明如下.1、表示很严格，非这样做不可的，正面词采用。必须 反面词采用.严禁。2.表示严格、在正常情况下均应这样做的 正面词采用 应 反面词采用 不应、或、不得、3、表示允许稍有选择，在条件许可时首先应这样做的。正面词采用。宜、反面词采用、不宜.4。表示有选择，在一定条件下可以这样做的。采用、可、2.条文中指明应按其他有关标准执行的写法为。应符合、的规定，或、应按，执行， 引用标准名录，建筑设计防火规范,GB，50016。城镇燃气设计规范.GB。50028，乙炔站设计规范 GB。50031 爆炸危险环境电力装置设计规范、GB、50058、石油库设计规范,GB,50074。自动喷水灭火系统设计规范。GB，50084.火灾自动报警系统设计规范.GB、50116.建筑灭火器配置设计规范，GB 50140、泡沫灭火系统设计规范，GB。50151.汽车加油加气站设计与施工规范,GB 50156,二氧化碳灭火系统设计规范.GB 50193.建筑内部装修设计防火规范。GB，50222。气体灭火系统设计规范.GB、50370、消防给水及消火栓系统技术规范，GB、50974、门和卷帘的耐火试验方法、GB。T、7633 中华人民共和国国家标准汽车库、修车库，停车场设计防火规范GB、50067,2014条文说明修订说明、汽车库,修车库。停车场设计防火规范，GB 50067。2014,经住房城乡建设部2014年12月2日以第595号公告批准发布。原 汽车库。修车库 停车场设计防火规范,GB,50067.97同时废止、本规范上一版的主编单位是上海市消防局。参编单位是上海市建筑设计研究院 上海市公共交通总公司建筑设计院、主要起草人是徐耀标。张永杰。纪武功,曾杰 潘丽,徐武歆,周秋琴 华清梅 南江林 为便于广大设计.施工、科研 学校等单位有关人员在使用本规范时能正确理解和执行条文规定，汽车库、修车库.停车场设计防火规范 编制组按章 节。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 应设置消防控制室的汽车库、修车库
+    conditions:
+    - 设置火灾自动报警系统和自动灭火系统时
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 必须
+    - 严禁
+    - 不应
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50016
+    target_clause: null
+    original_text: 行的写法为“应符合..….的规定”或“应按执行”。浏览住房城:29:引用标准名录《建筑设计防火规范》GB50016《城镇燃气设计规范》GB50028《乙炔站设计规范》GB50031《爆炸危险环境
+    resolution_status: resolved
+    resolution_note: 库内标准（GB 50016-2014），可交叉引用并确认具体参数
+  - target_standard: GB 50028
+    target_clause: null
+    original_text: 或“应按执行”。浏览住房城:29:引用标准名录《建筑设计防火规范》GB50016《城镇燃气设计规范》GB50028《乙炔站设计规范》GB50031《爆炸危险环境电力装置设计规范》GB50058《
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  - target_standard: GB 50031
+    target_clause: null
+    original_text: :引用标准名录《建筑设计防火规范》GB50016《城镇燃气设计规范》GB50028《乙炔站设计规范》GB50031《爆炸危险环境电力装置设计规范》GB50058《石油库设计规范》GB50074《
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库防火设计
+  conflicts: []
+executable_rules:
+- rule_id: R_GB500672014_2_0_6_1
+  source_clause: GB 50067-2014#2.0.6
+  rule_type: validation
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: e建筑高度
+    unit: m
+    condition: null
+    max_value: 24.0
+  source_text: 多层汽车库multi-storey garage建筑高度小于或等于24m的两层及以上的汽车库或设在多层建筑内地面层以上楼层的汽车库。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_2_0_7_1
+  source_clause: GB 50067-2014#2.0.7
+  rule_type: validation
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: e建筑高度
+    unit: m
+    condition: null
+    min_value: 24.0
+  source_text: 高层汽车库high-rise garage建筑高度大于24m的汽车库或设在高层建筑内地面层以上楼层的汽车库。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_2_0_9_1
+  source_clause: GB 50067-2014#2.0.9
+  rule_type: validation
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 开面积
+    unit: '%'
+    condition: null
+    min_value: 25.0
+  source_text: 敬开式汽车库open garage任一层车库外墙散开面积大于该层四周外墙体总面积的25%，开区域均匀布置在外墙上且其长度不小于车库周长的50%的汽车库。分类和耐火等级
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_2_0_9_2
+  source_clause: GB 50067-2014#2.0.9
+  rule_type: validation
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 上且其长度
+    unit: '%'
+    condition: null
+    min_value: 50.0
+  source_text: 敬开式汽车库open garage任一层车库外墙散开面积大于该层四周外墙体总面积的25%，开区域均匀布置在外墙上且其长度不小于车库周长的50%的汽车库。分类和耐火等级
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_4_1_4_1
+  source_clause: GB 50067-2014#4.1.4
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 耐火极限
+    unit: h
+    condition: null
+    max_value: 2.0
+  source_text: 汽车库不应与托儿所、幼儿园，老年人建筑，中小学校的教学楼，病房楼等组合建造。当符合下列要求时，汽车库可设置在托儿所、幼儿园，老年人建筑，中小学校的教学楼，病房楼等的地下部分：1汽车库与托儿所、幼儿园，老年人建筑，中小学校的教学楼，病房楼等建筑之间，应采用耐火极限不低于2.00h的
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_4_1_7_1
+  source_clause: GB 50067-2014#4.1.7
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 安装容量
+    unit: m
+    condition: null
+    min_value: 5.0
+  source_text: 为汽车库、修车库服务的下列附属建筑，可与汽车库、修车库贴邻，但应采用防火墙隔开，并应设置直通室外的安全出口：贮存量不大于1.0t的甲类物品库房；2总安装容量不大于5.0m/h的乙炔发生器间和贮存量不超过5个标准钢瓶的乙炔气瓶库；31个车位的非封闭喷漆间或不大于2个车位的封闭喷漆间
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_4_1_7_2
+  source_clause: GB 50067-2014#4.1.7
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 建筑面积
+    unit: m
+    condition: null
+    min_value: 200.0
+  source_text: 为汽车库、修车库服务的下列附属建筑，可与汽车库、修车库贴邻，但应采用防火墙隔开，并应设置直通室外的安全出口：贮存量不大于1.0t的甲类物品库房；2总安装容量不大于5.0m/h的乙炔发生器间和贮存量不超过5个标准钢瓶的乙炔气瓶库；31个车位的非封闭喷漆间或不大于2个车位的封闭喷漆间
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_4_2_2_1
+  source_clause: GB 50067-2014#4.2.2
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 建筑屋面高
+    unit: m
+    condition: null
+    min_value: 15.0
+    max_value: 15.0
+  source_text: 汽车库、修车库之间或汽车库、修车库与其他建筑之间的防火间距可适当减少，但应符合下列规定：1当两座建筑相邻较高一面外墙为无门、窗洞口的防火墙或当较高一面外墙比较低一座一、二级耐火等级建筑屋面高15m及以下范围内的外墙为无门、窗、洞口的防火墙时，其防火间距可不限；2_当两座建筑相邻较
+  table_source: 表4.2.1
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_4_2_3_1
+  source_clause: GB 50067-2014#4.2.3
+  rule_type: validation
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 停车部位高
+    unit: m
+    condition: null
+    min_value: 15.0
+    max_value: 15.0
+  source_text: 停车场与相邻的一、二级耐火等级建筑之间，当相邻建筑的外墙为无门、窗、洞口的防火墙，或比停车部位高15m范围以下的外墙均为无门、窗、洞口的防火墙时，防火间距可不限。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_4_2_9_1
+  source_clause: GB 50067-2014#4.2.9
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 防火间距
+    unit: m
+    condition: null
+    min_value: 6.0
+  source_text: 汽车库、修车库、停车场与石油库、汽车加油加气站的防火间距，应符合现行国家标准《石油库设计规范》GB50074和《汽车加油加气站设计与施工规范》GB50156的有关规定。4.2. 10停车场的汽车宜分组停放，每组的停车数量不宜大于50辆，组之间的防火间距不应小于6m。4.2. 11
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_4_3_2_1
+  source_clause: GB 50067-2014#4.3.2
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 车场的面积
+    unit: m
+    condition: null
+    min_value: 12.0
+  source_text: 消防车道的设置应符合下列要求：除IV类汽车库和修车库以外，消防车道应为环形，当设置环形车道有困难时，可沿建筑物的一个长边和另一边设置；2尽头式消防车道应设置回车道或回车场，回车场的面积不应小于12m×12m；消防车道的宽度不应小于4m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_4_3_2_2
+  source_clause: GB 50067-2014#4.3.2
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 车道的宽度
+    unit: m
+    condition: null
+    min_value: 4.0
+  source_text: 消防车道的设置应符合下列要求：除IV类汽车库和修车库以外，消防车道应为环形，当设置环形车道有困难时，可沿建筑物的一个长边和另一边设置；2尽头式消防车道应设置回车道或回车场，回车场的面积不应小于12m×12m；消防车道的宽度不应小于4m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_4_3_3_1
+  source_clause: GB 50067-2014#4.3.3
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 和净宽度均
+    unit: m
+    condition: null
+    min_value: 4.0
+  source_text: '穿过汽车库、修车库、停车场的消防车道，其净空高度和净宽度均不应小于4m；当消防车道上空遇有障碍物时，路面与障碍物之间的净空高度不应小于4m。住房城乡建:12:'
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_4_3_3_2
+  source_clause: GB 50067-2014#4.3.3
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 净空高度
+    unit: m
+    condition: null
+    min_value: 4.0
+  source_text: '穿过汽车库、修车库、停车场的消防车道，其净空高度和净宽度均不应小于4m；当消防车道上空遇有障碍物时，路面与障碍物之间的净空高度不应小于4m。住房城乡建:12:'
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_5_1_3_1
+  source_clause: GB 50067-2014#5.1.3
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 耐火极限
+    unit: h
+    condition: null
+    max_value: 1.0
+  source_text: 室内无车道且无人员停留的机械式汽车库，应符合下列规定：1当停车数量超过100辆时，应采用无门、窗、洞口的防火墙分隔为多个停车数量不大于100辆的区域，但当采用防火隔墙和耐火极限不低于1.00h的不燃性楼板分隔成多个停车单元，且停车单元内的停车数量不大于3辆时，应分隔为停车数量不大
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_5_1_4_1
+  source_clause: GB 50067-2014#5.1.4
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 筑面积
+    unit: m²
+    condition: null
+    min_value: 500.0
+  source_text: 甲、乙类物品运输车的汽车库、修车库，每个防火分区的最大充许建筑面积不应大于500m²。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_5_1_5_1
+  source_clause: GB 50067-2014#5.1.5
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 筑面积
+    unit: m²
+    condition: null
+    min_value: 2000.0
+  source_text: 修车库每个防火分区的最大充许建筑面积不应大于2000m²，当修车部位与相邻使用有机溶剂的清洗和喷漆工段采用防火墙分隔时，每个防火分区的最大允许建筑面积不应大于4000m²。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_5_1_5_2
+  source_clause: GB 50067-2014#5.1.5
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 筑面积
+    unit: m²
+    condition: null
+    min_value: 4000.0
+  source_text: 修车库每个防火分区的最大充许建筑面积不应大于2000m²，当修车部位与相邻使用有机溶剂的清洗和喷漆工段采用防火墙分隔时，每个防火分区的最大允许建筑面积不应大于4000m²。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_5_1_6_1
+  source_clause: GB 50067-2014#5.1.6
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 耐火极限
+    unit: h
+    condition: null
+    max_value: 2.0
+  source_text: 汽车库、修车库与其他建筑合建时，应符合下列规定：当贴邻建造时，应采用防火墙隔开；设在建筑物内的汽车库（包括屋顶停车场）、修车库与其他部位之间，应采用防火墙和耐火极限不低于2.00h的不燃性楼板分隔；3汽车库、修车库的外墙门、洞口的上方，应设置耐火极限不低于1.00h、宽度不小于1
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_5_1_6_2
+  source_clause: GB 50067-2014#5.1.6
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 耐火极限
+    unit: h
+    condition: null
+    max_value: 1.0
+  source_text: 汽车库、修车库与其他建筑合建时，应符合下列规定：当贴邻建造时，应采用防火墙隔开；设在建筑物内的汽车库（包括屋顶停车场）、修车库与其他部位之间，应采用防火墙和耐火极限不低于2.00h的不燃性楼板分隔；3汽车库、修车库的外墙门、洞口的上方，应设置耐火极限不低于1.00h、宽度不小于1
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_5_1_6_3
+  source_clause: GB 50067-2014#5.1.6
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 低于h宽度
+    unit: m
+    condition: null
+    min_value: 1.0
+  source_text: 汽车库、修车库与其他建筑合建时，应符合下列规定：当贴邻建造时，应采用防火墙隔开；设在建筑物内的汽车库（包括屋顶停车场）、修车库与其他部位之间，应采用防火墙和耐火极限不低于2.00h的不燃性楼板分隔；3汽车库、修车库的外墙门、洞口的上方，应设置耐火极限不低于1.00h、宽度不小于1
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_5_1_6_4
+  source_clause: GB 50067-2014#5.1.6
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 间墙的高度
+    unit: m
+    condition: null
+    min_value: 1.2
+  source_text: 汽车库、修车库与其他建筑合建时，应符合下列规定：当贴邻建造时，应采用防火墙隔开；设在建筑物内的汽车库（包括屋顶停车场）、修车库与其他部位之间，应采用防火墙和耐火极限不低于2.00h的不燃性楼板分隔；3汽车库、修车库的外墙门、洞口的上方，应设置耐火极限不低于1.00h、宽度不小于1
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_5_1_7_1
+  source_clause: GB 50067-2014#5.1.7
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 耐火极限
+    unit: h
+    condition: null
+    max_value: 2.0
+  source_text: 汽车库内设置修理车位时，停车部位与修车部位之间应采用防火墙和耐火极限不低于2.00h的不燃性楼板分隔。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_5_1_9_1
+  source_clause: GB 50067-2014#5.1.9
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 耐火极限
+    unit: h
+    condition: null
+    max_value: 1.5
+  source_text: 附设在汽车库、修车库内的消防控制室、自动灭火系统的设备室、消防水泵房和排烟、通风空气调节机房等，应采用防火隔墙和耐火极限不低于1.50h的不燃性楼板相互隔开或与相邻部位分隔。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_5_2_3_1
+  source_clause: GB 50067-2014#5.2.3
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 燃性屋面
+    unit: m
+    condition: null
+    min_value: 0.4
+  source_text: 三级耐火等级汽车库、修车库的防火墙、防火隔墙应截断其屋顶结构，并应高出其不燃性屋面不小于0.4m；高出可燃性或难燃性屋面不小于0.5m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_5_2_3_2
+  source_clause: GB 50067-2014#5.2.3
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 难燃性屋面
+    unit: m
+    condition: null
+    min_value: 0.5
+  source_text: 三级耐火等级汽车库、修车库的防火墙、防火隔墙应截断其屋顶结构，并应高出其不燃性屋面不小于0.4m；高出可燃性或难燃性屋面不小于0.5m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_5_2_4_1
+  source_clause: GB 50067-2014#5.2.4
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 水平距离
+    unit: m
+    condition: null
+    min_value: 4.0
+  source_text: 防火墙不宜设在汽车库、修车库的内转角处。当设在转角处时，内转角处两侧墙上的门、窗、洞口之间的水平距离不应小于4m。防火墙两侧的门、窗、洞口之间最近边缘的水平距离不应小于2m。当防火墙两侧设置固定乙级防火窗时，可不受距离的限制。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_5_2_4_2
+  source_clause: GB 50067-2014#5.2.4
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 水平距离
+    unit: m
+    condition: null
+    min_value: 2.0
+  source_text: 防火墙不宜设在汽车库、修车库的内转角处。当设在转角处时，内转角处两侧墙上的门、窗、洞口之间的水平距离不应小于4m。防火墙两侧的门、窗、洞口之间最近边缘的水平距离不应小于2m。当防火墙两侧设置固定乙级防火窗时，可不受距离的限制。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_5_2_6_1
+  source_clause: GB 50067-2014#5.2.6
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 耐火极限
+    unit: h
+    condition: null
+    max_value: 3.0
+  source_text: 防火墙或防火隔墙上不宜开设门、窗、洞口，当必须开设时，应设置甲级防火门、窗或耐火极限不低于3.00h的防火卷帘。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_5_3_1_1
+  source_clause: GB 50067-2014#5.3.1
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 火极限
+    unit: h
+    condition: null
+    max_value: 1.0
+  source_text: '电梯井、管道井、电缆井和楼梯间应分别独立设置。管道并、电缆并的并壁应采用不燃材料，且耐火极限不应低于1.00h；电梯井的并壁应采用不燃材料，且耐火极限不应低于2.00h。:15:'
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_5_3_1_2
+  source_clause: GB 50067-2014#5.3.1
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 火极限
+    unit: h
+    condition: null
+    max_value: 2.0
+  source_text: '电梯井、管道井、电缆井和楼梯间应分别独立设置。管道并、电缆并的并壁应采用不燃材料，且耐火极限不应低于1.00h；电梯井的并壁应采用不燃材料，且耐火极限不应低于2.00h。:15:'
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_6_0_3_1
+  source_clause: GB 50067-2014#6.0.3
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 定建筑高度
+    unit: m
+    condition: null
+    min_value: 32.0
+  source_text: 汽车库、修车库的疏散楼梯应符合下列规定：1建筑高度大于32m的高层汽车库、室内地面与室外出入口地坪的高差大于10m的地下汽车库应采用防烟楼梯间，其他汽车库、修车库应采用封闭楼梯间；2楼梯间和前室的门应采用乙级防火门，并应向疏散方向开启；疏散楼梯的宽度不应小于1.1m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_6_0_3_2
+  source_clause: GB 50067-2014#6.0.3
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 地坪的高差
+    unit: m
+    condition: null
+    min_value: 10.0
+  source_text: 汽车库、修车库的疏散楼梯应符合下列规定：1建筑高度大于32m的高层汽车库、室内地面与室外出入口地坪的高差大于10m的地下汽车库应采用防烟楼梯间，其他汽车库、修车库应采用封闭楼梯间；2楼梯间和前室的门应采用乙级防火门，并应向疏散方向开启；疏散楼梯的宽度不应小于1.1m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_6_0_3_3
+  source_clause: GB 50067-2014#6.0.3
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 楼梯的宽度
+    unit: m
+    condition: null
+    min_value: 1.1
+  source_text: 汽车库、修车库的疏散楼梯应符合下列规定：1建筑高度大于32m的高层汽车库、室内地面与室外出入口地坪的高差大于10m的地下汽车库应采用防烟楼梯间，其他汽车库、修车库应采用封闭楼梯间；2楼梯间和前室的门应采用乙级防火门，并应向疏散方向开启；疏散楼梯的宽度不应小于1.1m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_6_0_4_1
+  source_clause: GB 50067-2014#6.0.4
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 外建筑高度
+    unit: m
+    condition: null
+    min_value: 32.0
+  source_text: 除室内无车道且无人员停留的机械式汽车库外，建筑高度大于32m的汽车库应设置消防电梯。消防电梯的设置应符合现行国家标准《建筑设计防火规范》GB50016的有关规定。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_6_0_5_1
+  source_clause: GB 50067-2014#6.0.5
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 扶手的高度
+    unit: m
+    condition: null
+    min_value: 1.1
+  source_text: 室外蔬散楼梯可采用金属楼梯，并应符合下列规定：倾斜角度不应大于45°，栏杆扶手的高度不应小于1.1m；每层楼梯平台应采用耐火极限不低于1.00h的不燃材料制作；3在室外楼梯周围2m范围内的墙面上，不应开设除疏散门外的其他门、窗、洞口；通向室外楼梯的门应采用乙级防火门。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_6_0_5_2
+  source_clause: GB 50067-2014#6.0.5
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 耐火极限
+    unit: h
+    condition: null
+    max_value: 1.0
+  source_text: 室外蔬散楼梯可采用金属楼梯，并应符合下列规定：倾斜角度不应大于45°，栏杆扶手的高度不应小于1.1m；每层楼梯平台应采用耐火极限不低于1.00h的不燃材料制作；3在室外楼梯周围2m范围内的墙面上，不应开设除疏散门外的其他门、窗、洞口；通向室外楼梯的门应采用乙级防火门。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_6_0_5_3
+  source_clause: GB 50067-2014#6.0.5
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 外楼梯周围
+    unit: m
+    condition: null
+    min_value: 2.0
+    max_value: 2.0
+  source_text: 室外蔬散楼梯可采用金属楼梯，并应符合下列规定：倾斜角度不应大于45°，栏杆扶手的高度不应小于1.1m；每层楼梯平台应采用耐火极限不低于1.00h的不燃材料制作；3在室外楼梯周围2m范围内的墙面上，不应开设除疏散门外的其他门、窗、洞口；通向室外楼梯的门应采用乙级防火门。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_6_0_6_1
+  source_clause: GB 50067-2014#6.0.6
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 散距离
+    unit: m
+    condition: null
+    min_value: 45.0
+  source_text: 汽车库室内任一点至最近人员安全出口的疏散距离不应:17:大于45m，当设置自动灭火系统时，其距离不应大于60m。对于单层或设置在建筑首层的汽车库，室内任一点至室外最近出口的疏散距离不应大于60m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_6_0_6_2
+  source_clause: GB 50067-2014#6.0.6
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 其距离
+    unit: m
+    condition: null
+    min_value: 60.0
+  source_text: 汽车库室内任一点至最近人员安全出口的疏散距离不应:17:大于45m，当设置自动灭火系统时，其距离不应大于60m。对于单层或设置在建筑首层的汽车库，室内任一点至室外最近出口的疏散距离不应大于60m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_6_0_6_3
+  source_clause: GB 50067-2014#6.0.6
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 散距离
+    unit: m
+    condition: null
+    min_value: 60.0
+  source_text: 汽车库室内任一点至最近人员安全出口的疏散距离不应:17:大于45m，当设置自动灭火系统时，其距离不应大于60m。对于单层或设置在建筑首层的汽车库，室内任一点至室外最近出口的疏散距离不应大于60m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_6_0_8_1
+  source_clause: GB 50067-2014#6.0.8
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 楼梯的净宽
+    unit: m
+    condition: null
+    min_value: 0.9
+  source_text: 室内无车道且无人员停留的机械式汽车库可不设置人员安全出口，但应按下列规定设置供灭灭救援用的楼梯间：1每个停车区域当停车数量大于100辆时，应至少设置1个楼梯间；2楼梯间与停车区域之间应采用防火隔墙进行分隔，楼梯间的门应采用乙级防火门：3楼梯的净宽不应小于0.9m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_6_0_13_1
+  source_clause: GB 50067-2014#6.0.13
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 宽度单车道
+    unit: m
+    condition: null
+    min_value: 3.0
+  source_text: 汽车疏散坡道的净宽度，单车道不应小于3.0m，双车道不应小于5.5m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_6_0_14_1
+  source_clause: GB 50067-2014#6.0.14
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 水平距离
+    unit: m
+    condition: null
+    min_value: 10.0
+  source_text: 除室内无车道且无人员停留的机械式汽车库外，相邻两个汽车疏散出口之间的水平距离不应小于10m；毗邻设置的两个汽车坡道应采用防火隔墙分隔。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_7_1_3_1
+  source_clause: GB 50067-2014#7.1.3
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 充实水柱
+    unit: m
+    condition: null
+    min_value: 10.0
+  source_text: 当室外消防给水采用高压或临时高压给水系统时，汽车库、修车库、停车场消防给水管道内的压力应保证在消防用水量达到最大时，最不利点水枪的充实水柱不小于10m；当室外消防给水采用低压给水系统时，消防给水管道内的压力应保证灭火时最不利点消火栓的水压不小于0.1MPa（从室外地面算起）。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_7_1_6_1
+  source_clause: GB 50067-2014#7.1.6
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 排汽车
+    unit: m
+    condition: null
+    max_value: 7.0
+  source_text: 汽车库、修车库、停车场的室外消防给水管道、室外消火栓、消防泵房的设置，应符合现行国家标准《消防给水及消火栓系统技术规范》GB50974的有关规定。停车场的室外消火栓宜沿停车场周边设置，且距离最近一排汽车不宜小于7m，距加油站或油库不宜小于15m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_7_1_7_1
+  source_clause: GB 50067-2014#7.1.7
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 护半径
+    unit: m
+    condition: null
+    min_value: 150.0
+  source_text: 室外消火栓的保护半径不应大于150m，在市政消火栓保护半径150m范围内的汽车库、修车库、停车场，市政消火栓可计人建筑室外消火栓的数量。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_7_1_7_2
+  source_clause: GB 50067-2014#7.1.7
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 栓保护半径
+    unit: m
+    condition: null
+    min_value: 150.0
+    max_value: 150.0
+  source_text: 室外消火栓的保护半径不应大于150m，在市政消火栓保护半径150m范围内的汽车库、修车库、停车场，市政消火栓可计人建筑室外消火栓的数量。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_7_1_9_1
+  source_clause: GB 50067-2014#7.1.9
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 充实水柱
+    unit: m
+    condition: null
+    min_value: 10.0
+  source_text: 室内消火栓水枪的充实水柱不应小于10m。同层相邻室内消火栓的间距不应大于50m，高层汽车库和地下汽车库、半地下汽车库室内消火栓的间距不应大于30m。【室内消火栓应设置在易于取用的明显地点，栓口距离地面宜为1.1m，其出水方向宜向下或与设置消火栓的墙面垂直。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_7_1_9_2
+  source_clause: GB 50067-2014#7.1.9
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 间距
+    unit: m
+    condition: null
+    min_value: 50.0
+  source_text: 室内消火栓水枪的充实水柱不应小于10m。同层相邻室内消火栓的间距不应大于50m，高层汽车库和地下汽车库、半地下汽车库室内消火栓的间距不应大于30m。【室内消火栓应设置在易于取用的明显地点，栓口距离地面宜为1.1m，其出水方向宜向下或与设置消火栓的墙面垂直。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_7_1_9_3
+  source_clause: GB 50067-2014#7.1.9
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 间距
+    unit: m
+    condition: null
+    min_value: 30.0
+  source_text: 室内消火栓水枪的充实水柱不应小于10m。同层相邻室内消火栓的间距不应大于50m，高层汽车库和地下汽车库、半地下汽车库室内消火栓的间距不应大于30m。【室内消火栓应设置在易于取用的明显地点，栓口距离地面宜为1.1m，其出水方向宜向下或与设置消火栓的墙面垂直。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_7_1_9_4
+  source_clause: GB 50067-2014#7.1.9
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 距离地面
+    unit: m
+    condition: null
+    min_value: 1.1
+    max_value: 1.1
+  source_text: 室内消火栓水枪的充实水柱不应小于10m。同层相邻室内消火栓的间距不应大于50m，高层汽车库和地下汽车库、半地下汽车库室内消火栓的间距不应大于30m。【室内消火栓应设置在易于取用的明显地点，栓口距离地面宜为1.1m，其出水方向宜向下或与设置消火栓的墙面垂直。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_7_1_124_1
+  source_clause: GB 50067-2014#7.1.124
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 地点其周围
+    unit: m
+    condition: null
+    min_value: 15.0
+    max_value: 15.0
+  source_text: 层以上的多层汽车库、高层汽车库和地下、半地下汽车库，其室内消防给水管网应设置水泵接合器。水泵接合器的数量应按室内消防用水量计算确定，每个水泵接合器的流量应按10L/s～15L/s计算。水泵接合器应设置明显的标志，并应设置在:21:便于消防车停靠和安全使用的地点，其周围15m～40
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_7_1_124_2
+  source_clause: GB 50067-2014#7.1.124
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 点其周围m
+    unit: m
+    condition: null
+    min_value: 40.0
+    max_value: 40.0
+  source_text: 层以上的多层汽车库、高层汽车库和地下、半地下汽车库，其室内消防给水管网应设置水泵接合器。水泵接合器的数量应按室内消防用水量计算确定，每个水泵接合器的流量应按10L/s～15L/s计算。水泵接合器应设置明显的标志，并应设置在:21:便于消防车停靠和安全使用的地点，其周围15m～40
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_7_1_13_1
+  source_clause: GB 50067-2014#7.1.13
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 水箱其容量
+    unit: m
+    condition: null
+    min_value: 12.0
+  source_text: 设置高压给水系统的汽车库、修车库，当能保证最不利点消火栓和自动喷水灭火系统等的水量和水压时，可不设置消防水箱。设置临时高压消防给水系统的汽车库、修车库，应设置屋顶消防水箱，其容量不应小于12m"，并应符合现行国家标准《消防给水及消火栓系统技术规范》GB50974的有关规定。消防用
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_7_1_16_1
+  source_clause: GB 50067-2014#7.1.16
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 续时间应按
+    unit: h
+    condition: null
+    min_value: 2.0
+    max_value: 2.0
+  source_text: 火灾延续时间应按2.00h计算，但自动喷水灭火系统可按1.00h计算，泡沫灭火系统可按0.50h计算。当室外给水管网能确保连续补水时，消防水池的有效容量可减去火灾延续时间内连续补充的水量。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_7_1_16_2
+  source_clause: GB 50067-2014#7.1.16
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 火系统可按
+    unit: h
+    condition: null
+    min_value: 1.0
+    max_value: 1.0
+  source_text: 火灾延续时间应按2.00h计算，但自动喷水灭火系统可按1.00h计算，泡沫灭火系统可按0.50h计算。当室外给水管网能确保连续补水时，消防水池的有效容量可减去火灾延续时间内连续补充的水量。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_7_1_16_3
+  source_clause: GB 50067-2014#7.1.16
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 火系统可按
+    unit: h
+    condition: null
+    min_value: 0.5
+    max_value: 0.5
+  source_text: 火灾延续时间应按2.00h计算，但自动喷水灭火系统可按1.00h计算，泡沫灭火系统可按0.50h计算。当室外给水管网能确保连续补水时，消防水池的有效容量可减去火灾延续时间内连续补充的水量。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_7_1_17_1
+  source_clause: GB 50067-2014#7.1.17
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 吸水高度
+    unit: m
+    condition: null
+    min_value: 6.0
+  source_text: 供消防车取水的消防水池应设置取水口或取水井，其水深应保证消防车的消防水泵吸水高度不大于6m。消防用水与其他用水共用的水池，应采取保证消防用水不作他用的技术措施。严寒或寒冷地区的消防水池应采取防冻措施。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_8_1_6_1
+  source_clause: GB 50067-2014#8.1.6
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 隔墙两侧各
+    unit: m
+    condition: null
+    min_value: 2.0
+    max_value: 2.0
+  source_text: 风管应采用不燃材料制作，且不应穿过防火墙、防火隔墙，当必须穿过时，除应符合本规范第5.2.5条的规定外，尚应符合下列规定：1应在穿过处设置防火阀，防火阀的动作温度宜为70℃；2位于防火墙、防火隔墙两侧各2m范围内的风管绝热材料应为不燃材料。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_8_2_1_1
+  source_clause: GB 50067-2014#8.2.1
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 库建筑面积
+    unit: m²
+    condition: null
+    max_value: 1000.0
+  source_text: '除敲开式汽车库、建筑面积小于1000m²的地下一层汽车库和修车库外，汽车库、修车库应设置排烟系统，并应划分防烟分区。. 24 :'
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_8_2_2_1
+  source_clause: GB 50067-2014#8.2.2
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 筑面积
+    unit: m²
+    condition: null
+    min_value: 2000.0
+  source_text: 防烟分区的建筑面积不宜大于2000m²，且防烟分区不应跨越防火分区。防烟分区可采用挡烟垂壁、隔墙或从顶棚下突出不小于0.5m的梁划分。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_8_2_2_2
+  source_clause: GB 50067-2014#8.2.2
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 顶棚下突出
+    unit: m
+    condition: null
+    min_value: 0.5
+  source_text: 防烟分区的建筑面积不宜大于2000m²，且防烟分区不应跨越防火分区。防烟分区可采用挡烟垂壁、隔墙或从顶棚下突出不小于0.5m的梁划分。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_8_2_4_1
+  source_clause: GB 50067-2014#8.2.4
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 口的总面积
+    unit: '%'
+    condition: null
+    min_value: 2.0
+  source_text: 当采用自然排烟方式时，可采用手动排烟窗自动排烟窗、孔洞等作为自然排烟口，并应符合下列规定：自然排烟口的总面积不应小于室内地面面积的2%；2自然排烟口应设置在外墙上方或屋顶上，并应设置方便开启的装置；3房间外墙上的排烟口（窗）宜沿外墙周长方向均匀分布，排烟口（窗）的下沿不应低于室内
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_8_2_6_1
+  source_clause: GB 50067-2014#8.2.6
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 平距离
+    unit: m
+    condition: null
+    min_value: 30.0
+  source_text: 每个防烟分区应设置排烟口，排烟口宜设在顶棚或靠近顶棚的墙面上。排烟口距该防烟分区内最远点的水平距离不应大于30m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_8_2_7_1
+  source_clause: GB 50067-2014#8.2.7
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 能连续工作
+    unit: m
+    condition: null
+    min_value: 30.0
+    max_value: 30.0
+  source_text: 排烟风机可采用离心风机或排烟轴流风机，并应保证280℃时能连续工作30min。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_8_2_9_1
+  source_clause: GB 50067-2014#8.2.9
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 管道时
+    unit: m
+    condition: null
+    min_value: 20.0
+  source_text: 机械排烟管道的风速，采用金属管道时不应大于20m/s采用内表面光滑的非金属材料风道时，不应大于15m/s。排烟口的风速不宜大于10m/s。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_8_2_9_2
+  source_clause: GB 50067-2014#8.2.9
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 风道时
+    unit: m
+    condition: null
+    min_value: 15.0
+  source_text: 机械排烟管道的风速，采用金属管道时不应大于20m/s采用内表面光滑的非金属材料风道时，不应大于15m/s。排烟口的风速不宜大于10m/s。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_8_2_9_3
+  source_clause: GB 50067-2014#8.2.9
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 风速
+    unit: m
+    condition: null
+    min_value: 10.0
+  source_text: 机械排烟管道的风速，采用金属管道时不应大于20m/s采用内表面光滑的非金属材料风道时，不应大于15m/s。排烟口的风速不宜大于10m/s。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_8_2_10_1
+  source_clause: GB 50067-2014#8.2.10
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 补风量
+    unit: '%'
+    condition: null
+    max_value: 50.0
+  source_text: '汽车库内无直接通向室外的汽车疏散出口的防火分区，当设置机械排烟系统时，应同时设置补风系统，且补风量不宜小于排烟量的50%。:26:'
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_9_0_4_1
+  source_clause: GB 50067-2014#9.0.4
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 续供电时间
+    unit: m
+    condition: null
+    min_value: 30.0
+  source_text: 除停车数量不大于50辆的汽车库，以及室内无车道且无人员停留的机械式汽车库外，汽车库内应设置消防应急照明和蔬散指示标志。用于蔬散走道上的消防应急照明和疏散指示标志，可采用蓄电池作备用电源，但其连续供电时间不应小于30min。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_9_0_5_1
+  source_clause: GB 50067-2014#9.0.5
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 距地面高度
+    unit: m
+    condition: null
+    min_value: 1.0
+    max_value: 1.0
+  source_text: 消防应急照明灯宜设置在墙面或顶棚上，其地面最低水平照度不应低于1.0Lx。安全出口标志宜设置在疏散出口的顶部；疏散指示标志宜设置在疏散通道及其转角处，且距地面高度1m以下的墙面上。通道上的指示标志，其间距不宜大于20m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB500672014_9_0_5_2
+  source_clause: GB 50067-2014#9.0.5
+  rule_type: constraint
+  when:
+  - activity_type == '车库防火设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 其间距
+    unit: m
+    condition: null
+    min_value: 20.0
+  source_text: 消防应急照明灯宜设置在墙面或顶棚上，其地面最低水平照度不应低于1.0Lx。安全出口标志宜设置在疏散出口的顶部；疏散指示标志宜设置在疏散通道及其转角处，且距地面高度1m以下的墙面上。通道上的指示标志，其间距不宜大于20m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）

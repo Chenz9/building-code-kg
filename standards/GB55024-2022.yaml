@@ -1,0 +1,8510 @@
+standard:
+  code: GB 55024-2022
+  name: 建筑电气与智能化通用规范
+  name_note: null
+  version: '2022'
+  status: 现行
+  is_abolished: false
+  effective_date: '2022-10-01'
+  abolished_date: null
+  superseded_by: null
+  standard_category: 国家标准
+  domain:
+  - 通用规范
+  - 全文强制
+  - 建筑电气
+  - 智能化
+  region_scope: 全国
+  region_codes: []
+  has_mandatory_clauses: true
+  mandatory_clause_count: 186
+  mandatory_note: null
+  total_clauses: 186
+  related_standards:
+  - code: GB 50303-2015
+    relationship: 废止其相关强条效力（不在库内）
+  - code: GB 50314-2015
+    relationship: 废止其相关强条效力（不在库内）
+  - code: GB 50339-2013
+    relationship: 废止其相关强条效力（不在库内）
+  - code: GB 50601-2010
+    relationship: 废止其相关强条效力（不在库内）
+  - code: GB 50575-2010
+    relationship: 废止其相关强条效力（不在库内）
+  - code: GB 50606-2010
+    relationship: 废止其相关强条效力（不在库内）
+  - code: GB 50617-2010
+    relationship: 废止其相关强条效力（不在库内）
+  - code: GB 51017-2014
+    relationship: 废止其相关强条效力（不在库内）
+  - code: GB 51348-2019
+    relationship: 废止其相关强条效力（不在库内）
+  - code: JGJ 232-2011
+    relationship: 废止其相关强条效力（不在库内）
+  - code: JGJ 354-2014
+    relationship: 废止其相关强条效力（不在库内）
+  - code: JGJ 392-2016
+    relationship: 废止其相关强条效力（不在库内）
+  clauses:
+  - GB 55024-2022#1.0.1
+  - GB 55024-2022#1.0.2
+  - GB 55024-2022#1.0.3
+  - GB 55024-2022#2.0.1
+  - GB 55024-2022#2.0.3
+  - GB 55024-2022#2.0.4
+  - GB 55024-2022#2.0.5
+  - GB 55024-2022#2.0.6
+  - GB 55024-2022#2.0.7
+  - GB 55024-2022#2.0.8
+  - GB 55024-2022#2.0.9
+  - GB 55024-2022#3.1.1
+  - GB 55024-2022#3.1.2
+  - GB 55024-2022#3.1.3
+  - GB 55024-2022#3.1.4
+  - GB 55024-2022#3.1.5
+  - GB 55024-2022#3.1.8
+  - GB 55024-2022#3.1.9
+  - GB 55024-2022#3.1.10
+  - GB 55024-2022#3.2.1
+  - GB 55024-2022#3.2.2
+  - GB 55024-2022#3.2.3
+  - GB 55024-2022#3.2.4
+  - GB 55024-2022#3.2.5
+  - GB 55024-2022#4.1.5
+  - GB 55024-2022#4.2.1
+  - GB 55024-2022#4.2.2
+  - GB 55024-2022#4.2.3
+  - GB 55024-2022#4.2.4
+  - GB 55024-2022#4.3.1
+  - GB 55024-2022#4.3.2
+  - GB 55024-2022#4.3.3
+  - GB 55024-2022#4.3.4
+  - GB 55024-2022#4.3.5
+  - GB 55024-2022#4.3.6
+  - GB 55024-2022#4.3.7
+  - GB 55024-2022#4.3.8
+  - GB 55024-2022#4.3.9
+  - GB 55024-2022#4.3.10
+  - GB 55024-2022#4.4.1
+  - GB 55024-2022#4.4.3
+  - GB 55024-2022#4.5.1
+  - GB 55024-2022#4.5.2
+  - GB 55024-2022#4.5.4
+  - GB 55024-2022#4.5.5
+  - GB 55024-2022#4.5.6
+  - GB 55024-2022#4.5.7
+  - GB 55024-2022#4.5.8
+  - GB 55024-2022#4.5.9
+  - GB 55024-2022#4.6.1
+  - GB 55024-2022#4.6.2
+  - GB 55024-2022#4.6.3
+  - GB 55024-2022#4.6.4
+  - GB 55024-2022#4.6.5
+  - GB 55024-2022#4.6.6
+  - GB 55024-2022#4.6.7
+  - GB 55024-2022#4.6.8
+  - GB 55024-2022#4.6.9
+  - GB 55024-2022#4.6.10
+  - GB 55024-2022#5.1.1
+  - GB 55024-2022#5.1.2
+  - GB 55024-2022#5.1.3
+  - GB 55024-2022#5.1.4
+  - GB 55024-2022#5.1.5
+  - GB 55024-2022#5.1.6
+  - GB 55024-2022#5.1.7
+  - GB 55024-2022#5.2.2
+  - GB 55024-2022#5.2.3
+  - GB 55024-2022#5.2.4
+  - GB 55024-2022#5.2.5
+  - GB 55024-2022#5.3.1
+  - GB 55024-2022#5.3.3
+  - GB 55024-2022#5.3.4
+  - GB 55024-2022#5.3.5
+  - GB 55024-2022#5.3.6
+  - GB 55024-2022#5.3.7
+  - GB 55024-2022#5.3.8
+  - GB 55024-2022#6.1.1
+  - GB 55024-2022#6.1.2
+  - GB 55024-2022#6.1.3
+  - GB 55024-2022#6.1.4
+  - GB 55024-2022#6.2.1
+  - GB 55024-2022#6.2.3
+  - GB 55024-2022#6.2.4
+  - GB 55024-2022#6.2.5
+  - GB 55024-2022#6.2.6
+  - GB 55024-2022#6.2.7
+  - GB 55024-2022#6.2.8
+  - GB 55024-2022#6.3.1
+  - GB 55024-2022#6.3.2
+  - GB 55024-2022#7.1.1
+  - GB 55024-2022#7.1.2
+  - GB 55024-2022#7.1.3
+  - GB 55024-2022#7.1.4
+  - GB 55024-2022#7.1.5
+  - GB 55024-2022#7.1.6
+  - GB 55024-2022#7.1.7
+  - GB 55024-2022#7.1.8
+  - GB 55024-2022#7.1.9
+  - GB 55024-2022#7.2.1
+  - GB 55024-2022#7.2.2
+  - GB 55024-2022#7.2.3
+  - GB 55024-2022#7.2.5
+  - GB 55024-2022#7.2.6
+  - GB 55024-2022#7.2.7
+  - GB 55024-2022#7.2.8
+  - GB 55024-2022#7.2.9
+  - GB 55024-2022#7.2.10
+  - GB 55024-2022#7.2.11
+  - GB 55024-2022#7.2.12
+  - GB 55024-2022#7.3.1
+  - GB 55024-2022#7.3.3
+  - GB 55024-2022#8.1.1
+  - GB 55024-2022#8.1.2
+  - GB 55024-2022#8.1.3
+  - GB 55024-2022#8.2.1
+  - GB 55024-2022#8.2.2
+  - GB 55024-2022#8.2.3
+  - GB 55024-2022#8.2.4
+  - GB 55024-2022#8.2.5
+  - GB 55024-2022#8.2.6
+  - GB 55024-2022#8.2.7
+  - GB 55024-2022#8.2.8
+  - GB 55024-2022#8.3.1
+  - GB 55024-2022#8.3.2
+  - GB 55024-2022#8.3.3
+  - GB 55024-2022#8.4.1
+  - GB 55024-2022#8.4.2
+  - GB 55024-2022#8.4.3
+  - GB 55024-2022#8.4.4
+  - GB 55024-2022#8.4.5
+  - GB 55024-2022#8.5.1
+  - GB 55024-2022#8.5.2
+  - GB 55024-2022#8.5.3
+  - GB 55024-2022#8.5.4
+  - GB 55024-2022#8.5.5
+  - GB 55024-2022#8.6.1
+  - GB 55024-2022#8.6.2
+  - GB 55024-2022#8.6.3
+  - GB 55024-2022#8.6.4
+  - GB 55024-2022#8.7.1
+  - GB 55024-2022#8.7.2
+  - GB 55024-2022#8.7.3
+  - GB 55024-2022#8.7.4
+  - GB 55024-2022#8.7.5
+  - GB 55024-2022#8.7.6
+  - GB 55024-2022#8.7.7
+  - GB 55024-2022#8.7.8
+  - GB 55024-2022#8.7.9
+  - GB 55024-2022#8.7.10
+  - GB 55024-2022#8.8.2
+  - GB 55024-2022#8.8.3
+  - GB 55024-2022#8.8.4
+  - GB 55024-2022#8.8.5
+  - GB 55024-2022#8.8.6
+  - GB 55024-2022#8.8.7
+  - GB 55024-2022#8.8.8
+  - GB 55024-2022#9.1.1
+  - GB 55024-2022#9.1.2
+  - GB 55024-2022#9.2.1
+  - GB 55024-2022#9.2.3
+  - GB 55024-2022#9.2.4
+  - GB 55024-2022#9.3.1
+  - GB 55024-2022#9.3.2
+  - GB 55024-2022#9.4.1
+  - GB 55024-2022#9.4.2
+  - GB 55024-2022#9.4.3
+  - GB 55024-2022#9.5.1
+  - GB 55024-2022#9.5.2
+  - GB 55024-2022#9.5.3
+  - GB 55024-2022#9.5.4
+  - GB 55024-2022#9.5.5
+  - GB 55024-2022#9.5.6
+  - GB 55024-2022#9.5.7
+  - GB 55024-2022#10.1.1
+  - GB 55024-2022#10.1.2
+  - GB 55024-2022#10.2.1
+  - GB 55024-2022#10.2.3
+  - GB 55024-2022#10.3.2
+  - GB 55024-2022#10.3.3
+  - GB 55024-2022#10.3.4
+  - GB 55024-2022#10.3.5
+  - GB 55024-2022#10.3.6
+  - GB 55024-2022#10.4.1
+  - GB 55024-2022#10.4.3
+  - GB 55024-2022#10.4.4
+  schema_version: v2.1
+  last_reviewed_date: '2026-09-07'
+clauses:
+- id: GB 55024-2022#1.0.1
+  standard_code: GB 55024-2022
+  chapter: 1 总则
+  section: ''
+  clause_no: 1.0.1
+  text: 为在建筑电气与智能化系统工程建设中保障人身健康和生命财产安全、国家安全、生态环境安全，满足经济社会管理基本需要，依据有关法律、法规，制定本规范。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#1.0.2
+  standard_code: GB 55024-2022
+  chapter: 1 总则
+  section: ''
+  clause_no: 1.0.2
+  text: 供电电压不超过35kV的工业与民用建筑和市政工程电气与智能化系统必须执行本规范。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 必须
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#1.0.3
+  standard_code: GB 55024-2022
+  chapter: 1 总则
+  section: ''
+  clause_no: 1.0.3
+  text: 工程建设所采用的技术方法和措施是否符合本规范要求，由相关责任主体判定。其中，创新性的技术方法和措施，应进行论证并符合本规范中有关性能的要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#2.0.1
+  standard_code: GB 55024-2022
+  chapter: 2 基本规定
+  section: ''
+  clause_no: 2.0.1
+  text: 建筑电气工程应能向电气设备输送和分配电能。当供配电系统或电气设备发生故障危及人身安全时、应具备在规定的时间内切断其电源的功能。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑电气工程
+    conditions:
+    - 当供配电系统或电气设备发生故障危及人身安全时
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#2.0.2
+  standard_code: GB 55024-2022
+  chapter: 2 基本规定
+  section: ''
+  clause_no: 2.0.2
+  text: 建筑智能化系统工程应具备为建筑物内的人员和有通信要求的设备提供信息服务的功能，当智能化系统发生故障时，应具备在规定的时间内报警的功能。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑智能化系统工程的信息服务与故障报警功能
+    conditions:
+    - 当智能化系统发生故障时
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#2.0.3
+  standard_code: GB 55024-2022
+  chapter: 2 基本规定
+  section: ''
+  clause_no: 2.0.3
+  text: 建筑物电气设备用房和智能化设备用房应符合下列规定：1 不应设在卫生间、浴室等经常积水场所的直接下一层，当与其贴邻时，应采取防水措施；2 地面或门槛应高出本层楼地面，其标高差值不应小于0.10m，设在地下层时不应小于0.15m；3 无关的管道和线路不得穿越；4 电气设备的正上方不应设置水管道；5 变电所、柴油发电机房、智能化系统机房不应有变形缝穿越；6 楼地面应满足电气设备和智能化设备荷载的要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑物电气设备用房和智能化设备用房
+    conditions:
+    - 当与其贴邻时
+    - 设在地下层时
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 防水台阶高度
+    unit: m
+    condition: null
+    min_value: 0.1
+    max_value: 0.1
+  - name: 地下层时防水台阶高度
+    unit: m
+    condition: 设在地下层时
+    min_value: 0.15
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#2.0.4
+  standard_code: GB 55024-2022
+  chapter: 2 基本规定
+  section: ''
+  clause_no: 2.0.4
+  text: 电气设备用房和智能化设备用房的面积及设备布置，应满足布线间距及工作人员操作维护电气设备所必需的安全距离。电气设备和智能化设备用房的环境条件应满足电气与智能化系统的运行要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#2.0.5
+  standard_code: GB 55024-2022
+  chapter: 2 基本规定
+  section: ''
+  clause_no: 2.0.5
+  text: 母线槽、电缆桥架和导管穿越建筑物变形缝处时，应设置补偿装置。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 母线槽、电缆桥架和导管
+    conditions:
+    - 穿越建筑物变形缝处时
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#2.0.6
+  standard_code: GB 55024-2022
+  chapter: 2 基本规定
+  section: ''
+  clause_no: 2.0.6
+  text: 建筑电气工程和智能化系统工程的施工验收必须坚持设备运行安全、用电安全的原则，强化过程验收控制。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 必须
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#2.0.7
+  standard_code: GB 55024-2022
+  chapter: 2 基本规定
+  section: ''
+  clause_no: 2.0.7
+  text: 建筑电气和智能化系统使用时，应当制定运行维护方案，并应严格执行。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑电气和智能化系统
+    conditions:
+    - 使用时
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#2.0.8
+  standard_code: GB 55024-2022
+  chapter: 2 基本规定
+  section: ''
+  clause_no: 2.0.8
+  text: 建筑电气工程和智能化系统工程中采用的电气设备和电线电缆，应为符合相应产品标准的合格产品。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#2.0.9
+  standard_code: GB 55024-2022
+  chapter: 2 基本规定
+  section: ''
+  clause_no: 2.0.9
+  text: 建筑电气及智能化系统工程中采用的节能技术和产品，应在满足建筑功能要求的前提下，提高建筑设备及系统的能源利用效率，降低能耗。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#3.1.1
+  standard_code: GB 55024-2022
+  chapter: 3 电源及用房设计
+  section: 3.1 电源及用电负荷分级
+  clause_no: 3.1.1
+  text: 民用建筑主要用电负荷的分级应符合表3.1.1的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables:
+  - id: 表3.1.1
+    type: parameter_table
+    description: 民用建筑主要用电负荷分级
+    headers:
+    - 用电负荷级别
+    - 用电负荷分级依据
+    - 适用建筑物示例
+    - 用电负荷名称
+    rows:
+    - - 特级
+      - 1）中断供电将危害人身安全、造成人身重大伤亡；2）中断供电将在经济上造成特别重大损失；3）在建筑中具有特别重要作用及重要场所中不允许中断供电的负荷
+      - 高度150m及以上的一类高层公共建筑
+      - 安全防范系统、航空障碍照明等
+    - - 一级
+      - 1）中断供电将造成人身伤害；2）中断供电将在经济上造成重大损失；3）中断供电将影响重要用电单位的正常工作，或造成人员密集的公共场所秩序严重混乱
+      - 一类高层建筑
+      - 安全防范系统、航空障碍照明、值班照明、警卫照明、客梯、排水泵、生活给水泵等
+    - - 二级
+      - 1）中断供电将在经济上造成较大损失；2）中断供电将影响较重要用电单位的正常工作或造成公共场所秩序混乱
+      - 二类高层建筑
+      - 安全防范系统、客梯、排水泵、生活给水泵等；一类和二类高层建筑主要通道、走道及楼梯间照明等
+    - - 三级
+      - 不属于特级、一级和二级的用电负荷
+      - —
+      - —
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#3.1.2
+  standard_code: GB 55024-2022
+  chapter: 3 电源及用房设计
+  section: ''
+  clause_no: 3.1.2
+  text: 当一个电源发生故障时，另一个电源不应同时受到损坏；每个电源的容量应满足全部一级、特级用电负荷的供电要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 电源（双重电源）
+    conditions:
+    - 当一个电源发生故障时
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#3.1.3
+  standard_code: GB 55024-2022
+  chapter: 3 电源及用房设计
+  section: ''
+  clause_no: 3.1.3
+  text: 特级用电负荷应由3个电源供电，并应符合下列规定：1 3个电源应由满足一级负荷要求的两个电源和一个应急电源组成；2 应急电源的容量应满足同时工作最大特级用电负荷的供电要求；3 应急电源的切换时间，应满足特级用电负荷允许最短中断供电时间的要求；4 应急电源的供电时间，应满足特级用电负荷最长持续运行时间的要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#3.1.4
+  standard_code: GB 55024-2022
+  chapter: 3 电源及用房设计
+  section: ''
+  clause_no: 3.1.4
+  text: 应急电源应由符合下列条件之一的电源组成：独立于正常工作电源的，由专用馈电线路输送的城市电网电源；独立于正常工作电源的发电机组；蓄电池组。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#3.1.5
+  standard_code: GB 55024-2022
+  chapter: 3 电源及用房设计
+  section: ''
+  clause_no: 3.1.5
+  text: 当符合下列条件之一时，用电单位应设置自备电源：的规定;提供的第二电源不能满足一级负荷要求；两个电源切换时间不能满足用电设备充许中断供电时间要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 用电单位
+    conditions:
+    - 提供的第二电源不能满足一级负荷要求
+    - 两个电源切换时间不能满足用电设备允许中断供电时间要求
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#3.1.6
+  standard_code: GB 55024-2022
+  chapter: 3 电源及用房设计
+  section: ''
+  clause_no: 3.1.6
+  text: 建筑高度150m及以上的建筑应设置自备柴油发电机组。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#3.1.7
+  standard_code: GB 55024-2022
+  chapter: 3 电源及用房设计
+  section: 3.1 电源及用电负荷分级
+  clause_no: 3.1.7
+  text: 用于应急供电的发电机组应处于自启动状态，当城市电网电源中断时，发电机组应能在规定的时间内启动。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 用于应急供电的发电机组
+    conditions:
+    - 当城市电网电源中断时
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制（GB 55024-2022 全部条文强制）
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: GB 55024-2022#3.1.8
+  standard_code: GB 55024-2022
+  chapter: 3 电源及用房设计
+  section: ''
+  clause_no: 3.1.8
+  text: 与电网并网的光伏发电系统应具有相应的并网保护及隔离功能。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#3.1.9
+  standard_code: GB 55024-2022
+  chapter: 3 电源及用房设计
+  section: ''
+  clause_no: 3.1.9
+  text: 光伏发电系统在并网处应设置并网控制装置，并应设置专用标识和提示性文字符号。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#3.1.10
+  standard_code: GB 55024-2022
+  chapter: 3 电源及用房设计
+  section: ''
+  clause_no: 3.1.10
+  text: 人员可触及的可导电的光伏组件部位应采取电击安全防护措施并设警示标识。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#3.2.1
+  standard_code: GB 55024-2022
+  chapter: 3 电源及用房设计
+  section: 3.2 电气装置用房
+  clause_no: 3.2.1
+  text: 变电所布置应符合下列规定：配电室、电容器室长度大于7m时，应至少设置两个出入口。当成排布置的电气装置长度大于6m时，电气装置后面的通道应至少设置两个出口；当低压电气装置后面通道的两个出口之间距离大于15m时，尚应增加出口。为甲级防火门并应向外开启。额定电压确定其安全净距；电气装置间距及通道宽度应满足安全净距的要求。措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 变电所
+    conditions:
+    - 配电室、电容器室长度大于7m时
+    - 当成排布置的电气装置长度大于6m时
+    - 当低压电气装置后面通道的两个出口之间距离大于15m时
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 电容器室长度
+    unit: m
+    condition: null
+    min_value: 7.0
+    max_value: null
+  - name: 电气装置长度
+    unit: m
+    condition: null
+    min_value: 6.0
+    max_value: null
+  - name: 出口之间距离
+    unit: m
+    condition: null
+    min_value: 15.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#3.2.2
+  standard_code: GB 55024-2022
+  chapter: 3 电源及用房设计
+  section: ''
+  clause_no: 3.2.2
+  text: ×民用建筑内设置的变电所，除应满足本规范第3.2.1条要求外，尚应符合下列规定：不应设置裸露带电导体或装置；不应设置带可燃性油的变压器和电气设备。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑内设置的变电所
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#3.2.3
+  standard_code: GB 55024-2022
+  chapter: 3 电源及用房设计
+  section: ''
+  clause_no: 3.2.3
+  text: 变电所设有裸露带电导体时，除应满足本规范第3.2.1条要求外，尚应符合下列规定：低压裸露带电导体距地面的高度不应低于2.5m；23kV～35kV电气装置间距及通道宽度应满足安全净距的要求;和电力线路或管线跨越。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 变电所
+    conditions:
+    - 设有裸露带电导体时
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 高度
+    unit: m
+    condition: null
+    min_value: null
+    max_value: 2.5
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#3.2.4
+  standard_code: GB 55024-2022
+  chapter: 3 电源及用房设计
+  section: ''
+  clause_no: 3.2.4
+  text: 柴油发电机房布置应符合下列规定：足设备运输、就地操作、维护维修及布置辅助设备的需要；出入口。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#3.2.5
+  standard_code: GB 55024-2022
+  chapter: 3 电源及用房设计
+  section: ''
+  clause_no: 3.2.5
+  text: 专用蓄电池室应采用防爆型灯具，室内不得装设普通型开关和电源插座。应急电源与非应急电源之间，应采取防止并列运行的措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不得
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#4.1.1
+  standard_code: GB 55024-2022
+  chapter: 4 供配电设计
+  section: 4.1 一般规定
+  clause_no: 4.1.1
+  text: 应急电源与非应急电源之间。应采取防止并列运行的措施.
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制（GB 55024-2022 全部条文强制）
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: GB 55024-2022#4.1.2
+  standard_code: GB 55024-2022
+  chapter: 4 供配电设计
+  section: 4.1 一般规定
+  clause_no: 4.1.2
+  text: 两个供电电源之间的切换时间应满足用电设备允许中断供电时间的要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制（GB 55024-2022 全部条文强制）
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: GB 55024-2022#4.1.3
+  standard_code: GB 55024-2022
+  chapter: 4 供配电设计
+  section: 4.1 一般规定
+  clause_no: 4.1.3
+  text: 备用电源应满足用电设备连续供电时间和供电容量的要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制（GB 55024-2022 全部条文强制）
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: GB 55024-2022#4.1.4
+  standard_code: GB 55024-2022
+  chapter: 4 供配电设计
+  section: 4.1 一般规定
+  clause_no: 4.1.4
+  text: 备用电源和应急电源共用柴油发电机组时，应符合下列规定：1 备用电源和应急电源应有各自的供电母线段及回路；2 备用电源的用电负荷不应接入应急电源供电回路。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 备用电源与应急电源共用柴油发电机组时的配电配置
+    conditions:
+    - 备用电源和应急电源共用柴油发电机组时
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制（GB 55024-2022 全部条文强制）
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: GB 55024-2022#4.1.5
+  standard_code: GB 55024-2022
+  chapter: 4 供配电设计
+  section: 4.1 一般规定
+  clause_no: 4.1.5
+  text: 当民用建筑的消防负荷和非消防负荷共用柴油发电机组时，应符合下列规定：消防负荷应设置专用的回路：应具备火灾时切除非消防负荷的功能；应具备储油量低位报警或显示的功能。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑的柴油发电机组
+    conditions:
+    - 当民用建筑的消防负荷和非消防负荷共用柴油发电机组时
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#4.2.1
+  standard_code: GB 55024-2022
+  chapter: 4 供配电设计
+  section: 4.2 高压配电系统
+  clause_no: 4.2.1
+  text: 继电保护装置应满足可靠性、灵敏性、速动性和选择性的要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#4.2.2
+  standard_code: GB 55024-2022
+  chapter: 4 供配电设计
+  section: 4.2 高压配电系统
+  clause_no: 4.2.2
+  text: 高压配电系统的短路故障保护应具备可靠、快速且有选择地切除被保护设备和线路的短路故障的功能。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 高压配电系统的短路故障保护
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#4.2.3
+  standard_code: GB 55024-2022
+  chapter: 4 供配电设计
+  section: 4.2 高压配电系统
+  clause_no: 4.2.3
+  text: 进户断路器应具有过负荷和短路电流延时速断保护功能。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#4.2.4
+  standard_code: GB 55024-2022
+  chapter: 4 供配电设计
+  section: 4.2 高压配电系统
+  clause_no: 4.2.4
+  text: 配电断路器应具有过负荷和短路电流速断保护功能。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#4.3.1
+  standard_code: GB 55024-2022
+  chapter: 4 供配电设计
+  section: 4.3 低压配电系统
+  clause_no: 4.3.1
+  text: 由建筑物外引人的低压电源线路，应在总配电箱（柜）的受电端装设具有隔离功能的电器。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#4.3.2
+  standard_code: GB 55024-2022
+  chapter: 4 供配电设计
+  section: 4.3 低压配电系统
+  clause_no: 4.3.2
+  text: 避难区域的用电设备应采用专用的供电回路。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 严禁
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#4.3.3
+  standard_code: GB 55024-2022
+  chapter: 4 供配电设计
+  section: 4.3 低压配电系统
+  clause_no: 4.3.3
+  text: 电气设备外露可导电部分和外界可导电部分，保护接地中性导体（PEN）。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#4.3.4
+  standard_code: GB 55024-2022
+  chapter: 4 供配电设计
+  section: 4.3 低压配电系统
+  clause_no: 4.3.4
+  text: 在TN-C系统中，严禁断开保护接地中性导体（PEN)，且不得装设断开保护接地中性导体（PEN）的任何电器。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 严禁
+    - 不得
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#4.3.5
+  standard_code: GB 55024-2022
+  chapter: 4 供配电设计
+  section: 4.3 低压配电系统
+  clause_no: 4.3.5
+  text: 供配电系统中，隔离电器不得采用半导体器件；功能性开关电器不得采用隔离器、熔断器和连接片。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不得
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#4.3.6
+  standard_code: GB 55024-2022
+  chapter: 4 供配电设计
+  section: 4.3 低压配电系统
+  clause_no: 4.3.6
+  text: 低压配电回路应设置短路保护，并应在短路电流造成危害前切断电源。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#4.3.7
+  standard_code: GB 55024-2022
+  chapter: 4 供配电设计
+  section: 4.3 低压配电系统
+  clause_no: 4.3.7
+  text: 对于因过负荷引起断电而造成更大损失的供电回路，过负荷保护应作用于信号报警，不应切断电源。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#4.3.8
+  standard_code: GB 55024-2022
+  chapter: 4 供配电设计
+  section: 4.3 低压配电系统
+  clause_no: 4.3.8
+  text: 交流电动机应装设短路保护和接地故障保护。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#4.3.9
+  standard_code: GB 55024-2022
+  chapter: 4 供配电设计
+  section: 4.3 低压配电系统
+  clause_no: 4.3.9
+  text: 当交流电动机反转会引起危险时，应有防止反转的安全措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 交流电动机
+    conditions:
+    - 当交流电动机反转会引起危险时
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#4.3.10
+  standard_code: GB 55024-2022
+  chapter: 4 供配电设计
+  section: 4.3 低压配电系统
+  clause_no: 4.3.10
+  text: 当被控用电设备需要设置急停按钮时，急停按钮应设置在被控用电设备附近便于操作和观察处，且不得自动复位。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 被控用电设备的急停按钮
+    conditions:
+    - 当被控用电设备需要设置急停按钮时
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 不得
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#4.4.1
+  standard_code: GB 55024-2022
+  chapter: 4 供配电设计
+  section: 4.4 特低电压配电系统
+  clause_no: 4.4.1
+  text: 特低电压配电系统的电压不应超过交流50V或直流120V。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#4.4.2
+  standard_code: GB 55024-2022
+  chapter: 4 供配电设计
+  section: 4.4 特低电压配电系统
+  clause_no: 4.4.2
+  text: 特低电压配电回路的布线应符合下列规定：1 特低电压配电回路的线缆应选用铜芯导体；2 铜芯导体应满足最小截面面积和机械强度的要求；3 当特低电压配电回路与低压配电回路敷设在同一金属槽盒内时，应采用带接地的金属隔离措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 特低电压配电回路的布线
+    conditions:
+    - 第3款：当特低电压配电回路与低压配电回路敷设在同一金属槽盒内时
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#4.4.3
+  standard_code: GB 55024-2022
+  chapter: 4 供配电设计
+  section: 4.4 特低电压配电系统
+  clause_no: 4.4.3
+  text: 采用安全特低电压（SELV）供电的照明回路应设置过负荷和短路保护。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#4.5.1
+  standard_code: GB 55024-2022
+  chapter: 4 供配电设计
+  section: 4.5 电气照明系统
+  clause_no: 4.5.1
+  text: 建筑物应设置照明供配电系统。照明配电终端回路应设短路保护、过负荷保护和接地故障保护，室外照明配电终端回路还应设置剩余电流动作保护电器作为附加防护。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#4.5.2
+  standard_code: GB 55024-2022
+  chapter: 4 供配电设计
+  section: 4.5 电气照明系统
+  clause_no: 4.5.2
+  text: 允许人员进入的水池，安装在水下的灯具应选用防触电等级为Ⅲ类的灯具，供电电源应符合本规范第4.6.7条的规定。应低于IP67，水下灯具的防护等级不应低于IP68。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#4.5.3
+  standard_code: GB 55024-2022
+  chapter: 4 供配电设计
+  section: 4.5 电气照明系统
+  clause_no: 4.5.3
+  text: 室外灯具防护等级不应低于IP54，埋地灯具防护等级不应低于IP67，水下灯具的防护等级不应低于IP68。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#4.5.4
+  standard_code: GB 55024-2022
+  chapter: 4 供配电设计
+  section: 4.5 电气照明系统
+  clause_no: 4.5.4
+  text: 当正常照明灯具安装高度在2.5m及以下，且灯具采用交流低压供电时，应设置剩余电流动作保护电器作为附加防护。疏散照明和疏散指示标志灯安装高度在2.5m及以下时，应采用安全特低电压供电。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 照明灯具
+    conditions:
+    - 当正常照明灯具安装高度在2.5m及以下，且灯具采用交流低压供电时
+    - 疏散照明和疏散指示标志灯安装高度在2.5m及以下时
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 安装高度在
+    unit: m
+    condition: null
+    min_value: 2.5
+    max_value: 2.5
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#4.5.5
+  standard_code: GB 55024-2022
+  chapter: 4 供配电设计
+  section: 4.5 电气照明系统
+  clause_no: 4.5.5
+  text: 疏散照明及疏散指示标志灯具的供配电设计应符合下列规定：下应保持充电状态，火灾情况下应保证蓄电池组的供电时间满足安全疏散要求。<集中控制型系统，其主电源应由消防电源供电。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 疏散照明及疏散指示标志灯具的供配电设计
+    conditions:
+    - 火灾情况下
+    - 集中控制型系统
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#4.5.6
+  standard_code: GB 55024-2022
+  chapter: 4 供配电设计
+  section: ''
+  clause_no: 4.5.6
+  text: 消防应急照明回路严禁接入消防应急照明系统以外的开关装置、电源插座及其他负载。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 消防应急照明回路
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 严禁
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#4.5.7
+  standard_code: GB 55024-2022
+  chapter: 4 供配电设计
+  section: ''
+  clause_no: 4.5.7
+  text: 设有消防控制室的公共建筑，消防疏散照明和疏散指示系统应能在消防控制室集中控制和状态监视。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#4.5.8
+  standard_code: GB 55024-2022
+  chapter: 4 供配电设计
+  section: ''
+  clause_no: 4.5.8
+  text: 人员密集场所的公共大厅和主要走道的一般照明应采取下列措施之一：时，应具备手动控制功能。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 人员密集场所的公共大厅和主要走道的一般照明
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#4.5.9
+  standard_code: GB 55024-2022
+  chapter: 4 供配电设计
+  section: ''
+  clause_no: 4.5.9
+  text: 安装在人员密集场所的吊装灯具玻璃罩，应采取防止玻璃破碎向下溅落的措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#4.6.1
+  standard_code: GB 55024-2022
+  chapter: 4 供配电设计
+  section: 4.6 低压电击防护
+  clause_no: 4.6.1
+  text: 电气设备应按外界影响条件分别采用以下一种或多种低压电击故障防护措施：自动切断电源；双重绝缘或加强绝缘；信息公电气分隔；特低电压。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#4.6.2
+  standard_code: GB 55024-2022
+  chapter: 4 供配电设计
+  section: 4.6 低压电击防护
+  clause_no: 4.6.2
+  text: 当电气设备采用保护电器自动切断电源作为低压电击故障防护措施时，对于线对地标称电压为交流220V的TN系统和TT系统，额定电流不超过63A的电源插座回路及额定电流不超过32A固定连接的电气设备的终端回路，切断电源的最长时间应符合下列规定：1TN系统切断电源的最长时间应为0.4s2TT系统切断电源的最长时间应为0.2s；当TT系统采用过电流保护电器切断电源，且采取保护等电位联结措施时，其切断电源的最长时间应为0.4s。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 电气设备采用保护电器自动切断电源作为低压电击故障防护措施
+    conditions:
+    - 当电气设备采用保护电器自动切断电源作为低压电击故障防护措施时
+    - 对于线对地标称电压为交流220V的TN系统和TT系统
+    - 额定电流不超过63A的电源插座回路
+    - 额定电流不超过32A固定连接的电气设备的终端回路
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#4.6.3
+  standard_code: GB 55024-2022
+  chapter: 4 供配电设计
+  section: 4.6 低压电击防护
+  clause_no: 4.6.3
+  text: 当电气设备采用双重绝缘或加强绝缘作为低压电击故障防护措施时，其绝缘外护物里的可导电部分严禁接地，且应有双重绝缘/加强绝缘的标识。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 电气设备绝缘外护物里的可导电部分
+    conditions:
+    - 当电气设备采用双重绝缘或加强绝缘作为低压电击故障防护措施时
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 严禁
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#4.6.4
+  standard_code: GB 55024-2022
+  chapter: 4 供配电设计
+  section: 4.6 低压电击防护
+  clause_no: 4.6.4
+  text: 当电气分隔采用一台隔离变压器为一台用电设备供电时，应符合下列规定：隔离变压器不应功能接地；用电设备外露可导电部分严禁接地；被分隔回路不应与地或其他回路保护导体及外露可导电部分连接。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 电气分隔（一台隔离变压器为一台用电设备供电）
+    conditions:
+    - 当电气分隔采用一台隔离变压器为一台用电设备供电时
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 严禁
+    - 不应
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#4.6.5
+  standard_code: GB 55024-2022
+  chapter: 4 供配电设计
+  section: 4.6 低压电击防护
+  clause_no: 4.6.5
+  text: 当采用剩余电流动作保护电器作为电击防护附加防护措施时，应符合下列规定：护电器：1）供一般人员使用的电源插座回路；2）室内移动电气设备；3）人员可触及的室外电气设备。剩余电流动作保护电器不应作为唯一的保护措施。采用剩余电流动作保护电器时应装设保护接地导体(PE)。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 剩余电流动作保护电器（电击防护附加防护）
+    conditions:
+    - 当采用剩余电流动作保护电器作为电击防护附加防护措施时
+    - 供一般人员使用的电源插座回路
+    - 室内移动电气设备
+    - 人员可触及的室外电气设备
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#4.6.6
+  standard_code: GB 55024-2022
+  chapter: 4 供配电设计
+  section: ''
+  clause_no: 4.6.6
+  text: 装有固定浴盆或淋浴场所的电击防护措施应符合下列规定：30V的安全特低电压（SELV）防护，供电电源装置应安装在0区和1区之外；方式；联结作为附加防护。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 装有固定浴盆或淋浴场所
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 条～第4.6.9条的规定检查电气安全防护措施。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#4.6.7
+  standard_code: GB 55024-2022
+  chapter: 4 供配电设计
+  section: ''
+  clause_no: 4.6.7
+  text: 游泳池、戏水池及供人员游泳、戏水或其他类似活动场所的电击防护措施应符合下列规定：或直流3OV的安全特低电压（SELV）供电，供电电源装置应安装在0区和1区之外；设备；线盒；防护。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 游泳池、戏水池及供人员游泳、戏水或其他类似活动场所
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#4.6.8
+  standard_code: GB 55024-2022
+  chapter: 4 供配电设计
+  section: ''
+  clause_no: 4.6.8
+  text: 允许人员进入的喷泉水池和积水处，应按游泳池的0区和1区的规定和要求执行。不允许人员进入的喷泉场所，其电击防护措施应符合下列规定：1）采用安全特低电压（SELV）防护，且供电电源装置安装在0区和1区之外；2）采用剩余电流动作保护电器作为附加防护；3）采用符合本规范第4.6.4条的电气分隔措施，且供电电源装置安装在0区和1区之外。应采取符合本规范第4.6.7条第3款和第4款规定的措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 喷泉水池和积水处
+    conditions:
+    - 允许人员进入的喷泉水池和积水处
+    - 不允许人员进入的喷泉场所
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#4.6.9
+  standard_code: GB 55024-2022
+  chapter: 4 供配电设计
+  section: ''
+  clause_no: 4.6.9
+  text: 装有桑拿浴加热器场所的电击防护措施应符合下列规定：1，区域1内应只能安装桑拿浴加热器及其附件。2，不应设置电源插座，3，除桑拿浴加热器外。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 装有桑拿浴加热器场所
+    conditions:
+    - 区域1内
+    exceptions:
+    - 桑拿浴加热器
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 额定剩余电流动作值
+    unit: mA
+    condition: null
+    min_value: 30.0
+    max_value: 30.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#4.6.10
+  standard_code: GB 55024-2022
+  chapter: 4 供配电设计
+  section: ''
+  clause_no: 4.6.10
+  text: 加热电缆辐射供暖设备、公共厨房用电设备，电辅助加热的太阳能热水器、升降停车设备、人员可触及的室外金属电动门等用电设备的电击防护应设置附加防护，并应符合下列规定：1，应采用额定剩余电流动作值不大于30mA的剩余电流动作保护电器。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#5.1.1
+  standard_code: GB 55024-2022
+  chapter: 5 智能化系统设计
+  section: 5.1 信息设施系统
+  clause_no: 5.1.1
+  text: 信息接入系统设计应符合下列规定：信息接入的功能，通信网、有线电视网应接人有需求的建筑物内，并合理配置信息接人系统设施用房必须采用光纤到用户或光纤到用户单元的方式建设。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 必须
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#5.1.2
+  standard_code: GB 55024-2022
+  chapter: 5 智能化系统设计
+  section: ''
+  clause_no: 5.1.2
+  text: 建筑物应设置信息网络系统，信息网络系统应满足建筑使用功能，业务需求及信息传输的要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#5.1.3
+  standard_code: GB 55024-2022
+  chapter: 5 智能化系统设计
+  section: ''
+  clause_no: 5.1.3
+  text: 通信系统设计应符合下列规定：梯轿厢内。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#5.1.4
+  standard_code: GB 55024-2022
+  chapter: 5 智能化系统设计
+  section: ''
+  clause_no: 5.1.4
+  text: ×有线电视系统设计应符合下列规定：自设前端的用户应设置节目源监控设施；电平的要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#5.1.5
+  standard_code: GB 55024-2022
+  chapter: 5 智能化系统设计
+  section: ''
+  clause_no: 5.1.5
+  text: 公共广播系统设计应符合下列规定：广播系统具有多种语音广播用途时，应有一个广播传声器处于最高广播优先级。电源的连续供电时间应与消防疏散指示标志照明备用电源的连续供电时间一致。相关广播区播放警示信号（含警笛）、警报语音或实时指挥语音。于12dB。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 公共广播系统设计
+    conditions:
+    - 广播系统具有多种语音广播用途时
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 信噪比差值
+    unit: dB
+    condition: null
+    min_value: 12.0
+    max_value: 12.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#5.1.6
+  standard_code: GB 55024-2022
+  chapter: 5 智能化系统设计
+  section: ''
+  clause_no: 5.1.6
+  text: 厅堂扩声系统设计应符合下列规定：噪声污染；机械噪声。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#5.1.7
+  standard_code: GB 55024-2022
+  chapter: 5 智能化系统设计
+  section: ''
+  clause_no: 5.1.7
+  text: 会议系统和会议同声传译系统应具备与火灾自动报警系统联动的功能。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#5.2.2
+  standard_code: GB 55024-2022
+  chapter: 5 智能化系统设计
+  section: ''
+  clause_no: 5.2.2
+  text: 设有建筑设备管理系统的地下机动车库应设置与排风设备联动的一氧化碳浓度监测装置。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#5.2.3
+  standard_code: GB 55024-2022
+  chapter: 5 智能化系统设计
+  section: ''
+  clause_no: 5.2.3
+  text: 当通风空调系统采用电加热器时，建筑设备管理系统应具有电加热器与送风机连锁、电加热器无风断电、超温断电保护及报警装置的监控功能，并具有对相应风机系统延时运行后再停机的监控功能。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑设备管理系统（对通风空调电加热器的监控）
+    conditions:
+    - 当通风空调系统采用电加热器时
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#5.2.4
+  standard_code: GB 55024-2022
+  chapter: 5 智能化系统设计
+  section: ''
+  clause_no: 5.2.4
+  text: 建筑能效监管系统的设置不应影响用能系统与设备的功能，不应降低用能系统与设备的技术指标。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#5.2.5
+  standard_code: GB 55024-2022
+  chapter: 5 智能化系统设计
+  section: ''
+  clause_no: 5.2.5
+  text: 建筑设备管理系统应建立信息数据库，并应具备根据需要形成运行记录的功能。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#5.3.1
+  standard_code: GB 55024-2022
+  chapter: 5 智能化系统设计
+  section: 5.3 公共安全系统
+  clause_no: 5.3.1
+  text: 消防水泵、防烟和排烟风机应采用联动/连锁控制方式，还应在消防控制室设置手动控制消防水泵启动装置。消防控制室应预留向上级消防监控中心报警的通信接口。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#5.3.2
+  standard_code: GB 55024-2022
+  chapter: 5 智能化系统设计
+  section: 5.3 公共安全系统
+  clause_no: 5.3.2
+  text: 消防控制室应预留向上级消防监控中心报警的通信接口。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制（GB 55024-2022 全部条文强制）
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: GB 55024-2022#5.3.3
+  standard_code: GB 55024-2022
+  chapter: 5 智能化系统设计
+  section: 5.3 公共安全系统
+  clause_no: 5.3.3
+  text: 安防监控中心应具有防止非正常进入的安全防护措施及对外的通信功能，且应预留向上级接处警中心报警的通信接口。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#5.3.4
+  standard_code: GB 55024-2022
+  chapter: 5 智能化系统设计
+  section: 5.3 公共安全系统
+  clause_no: 5.3.4
+  text: 安防监控中心应采用专用回路供电，安全防范系统应按其负荷等级供电。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#5.3.5
+  standard_code: GB 55024-2022
+  chapter: 5 智能化系统设计
+  section: 5.3 公共安全系统
+  clause_no: 5.3.5
+  text: 安全防范系统应具有防破坏的报警功能；安全防范系统的线缆应敷设在导管或电缆槽盒内。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#5.3.6
+  standard_code: GB 55024-2022
+  chapter: 5 智能化系统设计
+  section: 5.3 公共安全系统
+  clause_no: 5.3.6
+  text: 出入口控制系统、停车库（场）管理系统应能接收消防联动控制信号，并应具有解除门禁控制的功能。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 出入口控制系统、停车库（场）管理系统
+    conditions:
+    - 接收消防联动控制信号时
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#5.3.7
+  standard_code: GB 55024-2022
+  chapter: 5 智能化系统设计
+  section: 5.3 公共安全系统
+  clause_no: 5.3.7
+  text: 视频监控摄像机的探测灵敏度应与监控区域的环境最低照度相适应。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#5.3.8
+  standard_code: GB 55024-2022
+  chapter: 5 智能化系统设计
+  section: 5.3 公共安全系统
+  clause_no: 5.3.8
+  text: 公共建筑自动扶梯上下端口处，应设视频监控摄像机。电力线缆、控制线缆和智能化线缆敷设应符合下列规定：
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#6.1.1
+  standard_code: GB 55024-2022
+  chapter: 6 布线系统设计
+  section: 6.1 一般规定
+  clause_no: 6.1.1
+  text: 不同电压等级的电力线缆不应共用同一导管或电缆桥架布线；电力线缆和智能化线缆不应共用同一导管或电缆桥架布线；材料的导管或电缆槽盒保护。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#6.1.2
+  standard_code: GB 55024-2022
+  chapter: 6 布线系统设计
+  section: ''
+  clause_no: 6.1.2
+  text: 导管和电缆槽盒内配电电线的总截面面积不应超过导管或电缆槽盒内截面面积的40%；电缆槽盒内控制线缆的总截面面积不应超过电缆槽盒内截面面积的50%。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 未识别对象
+    unit: '%'
+    condition: null
+    min_value: 40.0
+    max_value: null
+  - name: 面积
+    unit: '%'
+    condition: null
+    min_value: 50.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#6.1.3
+  standard_code: GB 55024-2022
+  chapter: 6 布线系统设计
+  section: ''
+  clause_no: 6.1.3
+  text: 民用建筑红线内的室外供配电线路不应采用架空线敷设方式。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#6.1.4
+  standard_code: GB 55024-2022
+  chapter: 6 布线系统设计
+  section: ''
+  clause_no: 6.1.4
+  text: 在隧道、管廊、竖井、夹层等封闭式电缆通道中，不得布置热力管道和输送可燃气体或可燃液体管道。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不得
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#6.2.1
+  standard_code: GB 55024-2022
+  chapter: 6 布线系统设计
+  section: 6.2 室内布线
+  clause_no: 6.2.1
+  text: 室内干燥场所的线缆采用导管布线时，应符合下列规定：采用金属导管布线时，其壁厚不应小于1.5mm；采用塑料导管暗敷布线时，应选用不低于中型的导管。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 线缆导管布线
+    conditions:
+    - 室内干燥场所
+    - 线缆采用导管布线时
+    - 采用金属导管布线时
+    - 采用塑料导管暗敷布线时
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 金属导管壁厚
+    unit: mm
+    condition: null
+    min_value: 1.5
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#6.2.2
+  standard_code: GB 55024-2022
+  chapter: 6 布线系统设计
+  section: 6.2 室内布线
+  clause_no: 6.2.2
+  text: 室内潮湿场所的线缆明敷时，应符合下列规定：1 应采用防潮防腐材料制造的导管或电缆桥架；2 当采取金属导管或电缆桥架时，应采取防潮防腐措施，且金属导管壁厚不应小于2.0mm；3 当采用可弯曲金属导管时，应选用防水重型的导管。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 室内潮湿场所的线缆明敷
+    conditions:
+    - 室内潮湿场所的线缆明敷时
+    - 第2款：当采取金属导管或电缆桥架时
+    - 第3款：当采用可弯曲金属导管时
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#6.2.3
+  standard_code: GB 55024-2022
+  chapter: 6 布线系统设计
+  section: ''
+  clause_no: 6.2.3
+  text: 交建筑物底层及地面层以下外墙内的线缆采用导管暗敷布线时，应符合下列规定：采用金属导管布线时，其壁厚不应小于2.0mm；采用可弯曲金属导管布线时，应选用防水重型的导管；采用塑料导管布线时，应选用重型的导管。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 线缆导管暗敷布线
+    conditions:
+    - 建筑物底层及地面层以下外墙内
+    - 线缆采用导管暗敷布线时
+    - 采用金属导管布线时
+    - 采用可弯曲金属导管布线时
+    - 采用塑料导管布线时
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 金属导管壁厚
+    unit: mm
+    condition: null
+    min_value: 2.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#6.2.4
+  standard_code: GB 55024-2022
+  chapter: 6 布线系统设计
+  section: ''
+  clause_no: 6.2.4
+  text: 线缆采用导管暗敷布线时，应符合下列规定：1 不应穿过设备基础；2 当穿过建筑物外墙时，应采取止水措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 线缆导管暗敷布线
+    conditions:
+    - 线缆采用导管暗敷布线时
+    - 当穿过建筑物外墙时
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#6.2.5
+  standard_code: GB 55024-2022
+  chapter: 6 布线系统设计
+  section: ''
+  clause_no: 6.2.5
+  text: 火灾自动报警系统的电源和联动线路应采用金属导管或金属槽盒保护。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#6.2.6
+  standard_code: GB 55024-2022
+  chapter: 6 布线系统设计
+  section: ''
+  clause_no: 6.2.6
+  text: 民用建筑内电力线缆、控制线缆和智能化线缆敷设应符合下列规定：不应采用裸露带电导体布线；除塑料护套电线外，其他电线不应采用直敷布线方式；明敷的导管、电缆桥架，应选择燃烧性能不低于B1级的难燃材料制品或不燃材料制品。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 民用建筑内电力线缆、控制线缆和智能化线缆敷设
+    conditions: []
+    exceptions:
+    - 塑料护套电线
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#6.2.7
+  standard_code: GB 55024-2022
+  chapter: 6 布线系统设计
+  section: ''
+  clause_no: 6.2.7
+  text: 除民用建筑和变电所外，其他建筑内低压裸露带电导体距地面的高度应符合下列规定：2X采用防护等级不低于IP2X的网孔遮护时，裸露带电导体至地面的距离不应小于2.5m；
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 低压裸露带电导体距地面的高度
+    conditions:
+    - 采用防护等级不低于IP2X的网孔遮护时
+    exceptions:
+    - 民用建筑和变电所
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 地面的距离
+    unit: m
+    condition: null
+    min_value: 2.5
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#6.2.8
+  standard_code: GB 55024-2022
+  chapter: 6 布线系统设计
+  section: ''
+  clause_no: 6.2.8
+  text: 电气及智能化竖井的位置和数量应根据建筑物高度、建筑物变形缝位置、防火分区、系统要求、供电回路半径等因素确定，并应符合下列规定：
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#6.3.1
+  standard_code: GB 55024-2022
+  chapter: 6 布线系统设计
+  section: 6.3 室外布线
+  clause_no: 6.3.1
+  text: 电力线缆、控制线缆和智能化线缆室外布线应符合下列规定：缆和智能化线缆应采用护套线、电缆或光缆，并应采取相应的保护措施。平行布置在地下管道的正上方或正下方。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#6.3.2
+  standard_code: GB 55024-2022
+  chapter: 6 布线系统设计
+  section: ''
+  clause_no: 6.3.2
+  text: 当采用电缆排管布线时，在线路转角、分支处以及变更敷设方式处，应设电缆人（手）孔井。电缆人（手孔井不应设置在建筑物散水内。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 电缆排管布线
+    conditions:
+    - 当采用电缆排管布线时
+    - 在线路转角、分支处以及变更敷设方式处
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#7.1.1
+  standard_code: GB 55024-2022
+  chapter: 7 防雷与接地设计
+  section: 7.1 雷电防护
+  clause_no: 7.1.1
+  text: 各类防雷建筑物应设接闪器、引下线、接地装置，并应采取防闪电电涌侵人的措施。建筑物的雷电防护分类应符合下列规定：1）高度超过20m，且不高于100m的建筑物；2）预计雷击次数大于或等于0.05次/a，且小于或等于3）在平均雷暴日大于15d/a的地区，高度在>15m及以上的烟窗、水塔等孤立的高建筑物；在平均雷暴日小于或等于15d/a的地区，高度在20m及以上的烟肉、水塔等孤立的高耸建筑物。2）预计雷击次数大于0.25次/a的建筑物。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 列规定高度
+    unit: m
+    condition: null
+    min_value: 20.0
+    max_value: null
+  - name: 超过m且
+    unit: m
+    condition: null
+    min_value: 100.0
+    max_value: null
+  - name: 平均雷暴日
+    unit: d
+    condition: null
+    min_value: 15.0
+    max_value: null
+  - name: 日
+    unit: m
+    condition: null
+    min_value: 15.0
+    max_value: null
+  - name: 平均雷暴日
+    unit: d
+    condition: null
+    min_value: null
+    max_value: 15.0
+  - name: 于
+    unit: m
+    condition: null
+    min_value: 20.0
+    max_value: 20.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#7.1.2
+  standard_code: GB 55024-2022
+  chapter: 7 防雷与接地设计
+  section: ''
+  clause_no: 7.1.2
+  text: 第三类防雷建筑物的雷电防护措施应符合下列规定：20m或24m×16m；当采用滚球法保护时，滚球法保护半径不应大于60m。物应在顶端和底端与防雷装置连接。闭合环路，中间层应在每间隔不超过20m的楼层连成闭合环路。闭合环路应与本楼层结构钢筋和所有专用引下线连接。直接或通过预埋件与防雷装置相连，高度60m及以上水平突出的墙体应设置接闪器并与防雷装置相连。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 第三类防雷建筑物
+    conditions:
+    - 当采用滚球法保护时
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 第三类防雷接闪网格尺寸
+    unit: m
+    condition: null
+    min_value: 20.0
+    max_value: 20.0
+  - name: 第三类防雷接闪网格尺寸
+    unit: m
+    condition: null
+    min_value: 24.0
+    max_value: 24.0
+  - name: 规定m或m
+    unit: m
+    condition: null
+    min_value: 16.0
+    max_value: 16.0
+  - name: 护半径
+    unit: m
+    condition: null
+    min_value: 60.0
+    max_value: null
+  - name: 在每间隔
+    unit: m
+    condition: null
+    min_value: 20.0
+    max_value: null
+  - name: 置相连高度
+    unit: m
+    condition: null
+    min_value: 60.0
+    max_value: 60.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#7.1.3
+  standard_code: GB 55024-2022
+  chapter: 7 防雷与接地设计
+  section: ''
+  clause_no: 7.1.3
+  text: 第二类防雷建筑物的雷电防护措施应符合下列规定10m或12m×8m；当采用滚球法保护时，滚球法保护半径不应大于45m。物应在顶端和底端与防雷装置连接，并应在高度100m～250m区域内每间隔不超过50m与防雷装置连接一处，高度0～100m区域内在100m附近楼层与防雷装置连接。直接或通过预埋件与防雷装置相连，高度45m及以上水平突出的墙体应设置接闪器并与防雷装置相连。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 第二类防雷建筑物
+    conditions:
+    - 当采用滚球法保护时
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 第二类防雷接闪网格尺寸
+    unit: m
+    condition: null
+    min_value: 10.0
+    max_value: 10.0
+  - name: 第二类防雷接闪网格尺寸
+    unit: m
+    condition: null
+    min_value: 12.0
+    max_value: 12.0
+  - name: 规定m或m
+    unit: m
+    condition: null
+    min_value: 8.0
+    max_value: 8.0
+  - name: 护半径
+    unit: m
+    condition: null
+    min_value: 45.0
+    max_value: null
+  - name: 并应在高度
+    unit: m
+    condition: null
+    min_value: 100.0
+    max_value: 100.0
+  - name: 在高度m
+    unit: m
+    condition: null
+    min_value: 250.0
+    max_value: 250.0
+  - name: 内每间隔
+    unit: m
+    condition: null
+    min_value: 50.0
+    max_value: null
+  - name: 接一处高度
+    unit: m
+    condition: null
+    min_value: 100.0
+    max_value: 100.0
+  - name: m区域内在
+    unit: m
+    condition: null
+    min_value: 100.0
+    max_value: 100.0
+  - name: 置相连高度
+    unit: m
+    condition: null
+    min_value: 45.0
+    max_value: 45.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#7.1.4
+  standard_code: GB 55024-2022
+  chapter: 7 防雷与接地设计
+  section: ''
+  clause_no: 7.1.4
+  text: 高度超过250m或雷击次数大于0.42次/a的第二类防雷建筑物的雷电防护措施应符合下列规定或6m×4m；当采用滚球法保护时，滚球法保护半径不应大于130m。物应在顶端和底端与防雷装置连接，并应在高度250m以上区域每间隔不超过20m与防雷装置连接一处，在高度100m～250m区域内每间隔不超过50m连接一处，高度0～100m区域内在100m附近楼层与防雷装置连接。路应与本楼层结构钢筋和所有专用引下线连接；高度250m以下区域应按本规范第7.1.2条第4款的规定执行。直接或通过预埋件与防雷装置相连，高度30m及以上水平突出的墙体应设置接闪器并与防雷装置相连。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 第二类防雷建筑物
+    conditions:
+    - 高度超过250m
+    - 雷击次数大于0.42次/a
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 高度
+    unit: m
+    condition: null
+    min_value: 250.0
+    max_value: null
+  - name: 下列规定
+    unit: m
+    condition: null
+    min_value: 6.0
+    max_value: 6.0
+  - name: 列规定或m
+    unit: m
+    condition: null
+    min_value: 4.0
+    max_value: 4.0
+  - name: 护半径
+    unit: m
+    condition: null
+    min_value: 130.0
+    max_value: null
+  - name: 并应在高度
+    unit: m
+    condition: null
+    min_value: 250.0
+    max_value: 250.0
+  - name: 域每间隔
+    unit: m
+    condition: null
+    min_value: 20.0
+    max_value: null
+  - name: 一处在高度
+    unit: m
+    condition: null
+    min_value: 100.0
+    max_value: 100.0
+  - name: 处在高度m
+    unit: m
+    condition: null
+    min_value: 250.0
+    max_value: 250.0
+  - name: 内每间隔
+    unit: m
+    condition: null
+    min_value: 50.0
+    max_value: null
+  - name: 隔
+    unit: m
+    condition: null
+    min_value: 100.0
+    max_value: null
+  - name: m区域内在
+    unit: m
+    condition: null
+    min_value: 100.0
+    max_value: 100.0
+  - name: 线连接高度
+    unit: m
+    condition: null
+    min_value: 250.0
+    max_value: 250.0
+  - name: 置相连高度
+    unit: m
+    condition: null
+    min_value: 30.0
+    max_value: 30.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#7.1.5
+  standard_code: GB 55024-2022
+  chapter: 7 防雷与接地设计
+  section: ''
+  clause_no: 7.1.5
+  text: 各类防雷建筑物除应符合本规范第7.1.2条～第7.1.4条的规定外，尚应符合下列规定：置做防雷等电位连接：1）建筑物结构钢筋及金属构件；2）进出建筑物处的金属管道和线路应在设计时将建筑物的金属支撑物、金属框架或结构钢筋等自然构件、金属管道、配电的保护接地系统等与防雷装置组成一个接地系统。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 各类防雷建筑物
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#7.1.6
+  standard_code: GB 55024-2022
+  chapter: 7 防雷与接地设计
+  section: ''
+  clause_no: 7.1.6
+  text: 进出防雷建筑物的线路应采取防雷电波侵人措施。进出防雷建筑物的低压电气系统和智能化系统应装设电涌保护器，并应符合下列规定：线路上时，应选择I级试验的电涌保护器；使用。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 进出防雷建筑物的线路；进出防雷建筑物的低压电气系统和智能化系统
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#7.1.7
+  standard_code: GB 55024-2022
+  chapter: 7 防雷与接地设计
+  section: ''
+  clause_no: 7.1.7
+  text: 防雷建筑物设置的接闪器应符合以下规定：1 当建筑物采用接闪带保护时，接闪带应装设在建筑物易受雷击的屋角、屋脊、女儿墙及屋檐等部位；2 当接闪带采用热镀锌圆钢或扁钢制成时，其截面面积不应小于50mm²；3 当接闪杆采用热镀锌圆钢或钢管制成时，热镀锌圆钢的直径不应小于20mm，热镀锌钢管的直径不应小于40mm；4 当采用金属屋面作为接闪器时，金属板应无绝缘层覆盖；5 当双层彩钢板屋面作为接闪器时，其夹层中的保温材料必须为不燃或难燃材料。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 防雷建筑物设置的接闪器
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 必须
+    - 严禁
+    - 不应
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 接闪带截面面积
+    unit: mm²
+    condition: null
+    min_value: 50
+    max_value: null
+  - name: 热镀锌圆钢直径
+    unit: mm
+    condition: 用作接闪杆
+    min_value: 20
+    max_value: null
+  - name: 热镀锌钢管直径
+    unit: mm
+    condition: 用作接闪杆
+    min_value: 40
+    max_value: 40
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#7.1.8
+  standard_code: GB 55024-2022
+  chapter: 7 防雷与接地设计
+  section: ''
+  clause_no: 7.1.8
+  text: 防雷建筑物的防雷引下线应符合下列规定；1Z且不应少于2根。专用引下线或专设引下线应沿建筑物外轮廓均匀设置。当无结构钢筋或钢结构柱可利用时，应设置专设引下线。不应小于10mm。端应与防雷接地装置可靠连接。应采用下列一种或两种方法，防止跨步电压，接触电压和旁侧闪络电压对人员造成伤害：1）外露引下线在高2.7m以下部分应穿能耐受100kV冲击电压（1.2/50us波形）的绝缘保护管；应设立阻止人员进入的带警示牌的护栏，护栏与引下线水平距离不应小于3m。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 防雷建筑物的防雷引下线
+    conditions:
+    - 当无结构钢筋或钢结构柱可利用时
+    - 外露引下线在高2.7m以下部分
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 专设引下线
+    unit: mm
+    condition: null
+    min_value: 10.0
+    max_value: null
+  - name: 引下线在高
+    unit: m
+    condition: null
+    min_value: 2.7
+    max_value: 2.7
+  - name: 线水平距离
+    unit: m
+    condition: null
+    min_value: 3.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#7.1.9
+  standard_code: GB 55024-2022
+  chapter: 7 防雷与接地设计
+  section: ''
+  clause_no: 7.1.9
+  text: 防雷建筑物防雷的接地装置应符合下列规定：装置时，钢筋或圆钢的直径不应小于10mm；基础内钢筋网作为防雷接地装置。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 防雷建筑物防雷的接地装置
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 圆钢的直径
+    unit: mm
+    condition: null
+    min_value: 10.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#7.2.1
+  standard_code: GB 55024-2022
+  chapter: 7 防雷与接地设计
+  section: 7.2 接地系统
+  clause_no: 7.2.1
+  text: TN接地系统的保护接地中性导体（PEN）或保护接地导体（PE）对地应有效可靠连接，并应符合下列规定：1TN-C-S接地系统的PEN从某点分为中性导体（N）和PE后不应再合并或相互接触，且N不应再接地；2TN-S接地系统的N与PE应分别设置。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#7.2.2
+  standard_code: GB 55024-2022
+  chapter: 7 防雷与接地设计
+  section: 7.2 接地系统
+  clause_no: 7.2.2
+  text: TT接地系统的电气设备外露可导电部分所连接的接地装置不应与变压器中性点的接地装置相连接。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#7.2.3
+  standard_code: GB 55024-2022
+  chapter: 7 防雷与接地设计
+  section: 7.2 接地系统
+  clause_no: 7.2.3
+  text: IT接地系统电源侧所有带电部分应与地隔离或某一点通过高阻抗接地，电气设备的外露可导电部分应直接接地。下列电气设备外露可导电部分严禁接地：
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 严禁
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#7.2.4
+  standard_code: GB 55024-2022
+  chapter: 7 防雷与接地设计
+  section: 7.2 接地系统
+  clause_no: 7.2.4
+  text: 下列电气设备外露可导电部分严禁接地：1 采用设置非导电场所保护方式的电气设备外露可导电部分；2 采用不接地的等电位联结保护方式的电气设备外露可导电部分。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 严禁
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#7.2.5
+  standard_code: GB 55024-2022
+  chapter: 7 防雷与接地设计
+  section: 7.2 接地系统
+  clause_no: 7.2.5
+  text: 除本规范第7.2.4条的规定外，交流电气设备的外露可导电部分应进行保护性接地。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 交流电气设备的外露可导电部分
+    conditions: []
+    exceptions:
+    - 本规范第7.2.4条的规定
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#7.2.6
+  standard_code: GB 55024-2022
+  chapter: 7 防雷与接地设计
+  section: 7.2 接地系统
+  clause_no: 7.2.6
+  text: 除本规范第7.2.4条的规定外，智能化系统的接地应符合下列规定：S 或 TN-CS接地系统；X智能化系统及机房内电气设备和智能化设备的外露可导电部分、外界可导电部分、建筑物金属结构应等电位联结并接地；25mm²的铜材。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 智能化系统的接地
+    conditions: []
+    exceptions:
+    - 本规范第7.2.4条的规定
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 联结并接地
+    unit: mm²
+    condition: null
+    min_value: 25.0
+    max_value: 25.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#7.2.7
+  standard_code: GB 55024-2022
+  chapter: 7 防雷与接地设计
+  section: ''
+  clause_no: 7.2.7
+  text: 除另有要求外，接地系统应采用共用接地装置，共用接地装置的电阻值应满足各种接地的最小电阻值的要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 接地系统
+    conditions: []
+    exceptions:
+    - 另有要求
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#7.2.8
+  standard_code: GB 55024-2022
+  chapter: 7 防雷与接地设计
+  section: ''
+  clause_no: 7.2.8
+  text: 接地装置应符合下列规定：筋或圆钢的直径不应小于10mm；管道作为电气设备的保护接地导体(PE)和接地极；接导体。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 圆钢的直径
+    unit: mm
+    condition: null
+    min_value: 10.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#7.2.9
+  standard_code: GB 55024-2022
+  chapter: 7 防雷与接地设计
+  section: ''
+  clause_no: 7.2.9
+  text: 保护导体应符合下列规定：导体应确保自身可靠连接；地导体（PE）；除国家现行产品标准允许外，电气设备的外露可导电部分不得用作保护接地导体(PE)
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 保护导体
+    conditions: []
+    exceptions:
+    - 国家现行产品标准允许
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不得
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#7.2.10
+  standard_code: GB 55024-2022
+  chapter: 7 防雷与接地设计
+  section: ''
+  clause_no: 7.2.10
+  text: 单独敷设的保护接地导体(PE)最小截面面积应符合下列规定：应小于16mm。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 下列规定
+    unit: mm
+    condition: null
+    min_value: null
+    max_value: 16.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#7.2.11
+  standard_code: GB 55024-2022
+  chapter: 7 防雷与接地设计
+  section: ''
+  clause_no: 7.2.11
+  text: 变电所接地装置的接触电压和跨步电压不应超过允许值。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#7.2.12
+  standard_code: GB 55024-2022
+  chapter: 7 防雷与接地设计
+  section: ''
+  clause_no: 7.2.12
+  text: 各种输送可燃气体、易燃液体的金属工艺设备、容器和管道，以及安装在易燃、易爆环境的风管必须设置静电防护措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 必须
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#7.3.1
+  standard_code: GB 55024-2022
+  chapter: 7 防雷与接地设计
+  section: 7.3 等电位联结
+  clause_no: 7.3.1
+  text: 建筑物内的接地导体、总接地端子和下列可导电部分应实施保护等电位联结：便于利用的钢结构中的钢构件及钢筋混凝土结构中的钢筋。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#7.3.2
+  standard_code: GB 55024-2022
+  chapter: 7 防雷与接地设计
+  section: 7.3 等电位联结
+  clause_no: 7.3.2
+  text: 接到总接地端子的保护联结导体的截面面积，其最小值应符合表7.3.2的规定。由等电位箱接至电气装置单独敷设的保护联结导体最小截面面积应符合本规范第7.2.10条的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制（GB 55024-2022 全部条文强制）
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: GB 55024-2022#7.3.3
+  standard_code: GB 55024-2022
+  chapter: 7 防雷与接地设计
+  section: ''
+  clause_no: 7.3.3
+  text: 辅助等电位的联结导体应与区域内的下列可导电部分相连接：界可导电部分；保护接地导体；安装非安全特低电压供电的电动阀门的金属管道。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#8.1.1
+  standard_code: GB 55024-2022
+  chapter: 8 施工
+  section: 8.1 高压设备安装
+  clause_no: 8.1.1
+  text: 对预充氮气的气体绝缘组合电气设备GIS）箱体，其组件安装前应经过排氮处理，并应对箱体内充干燥空气至氧气含量达到18%以上时，安装人员方可进入GIS箱体内部进行检查或安装。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 预充氮气的气体绝缘组合电气设备（GIS）箱体
+    conditions:
+    - 组件安装前
+    - 箱体内充干燥空气至氧气含量达到18%以上时
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 气含量达到
+    unit: '%'
+    condition: null
+    min_value: 18.0
+    max_value: 18.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#8.1.2
+  standard_code: GB 55024-2022
+  chapter: 8 施工
+  section: 8.1 高压设备安装
+  clause_no: 8.1.2
+  text: 六氟化硫断路器或GIS投运前应进行检查，并应符合下列规定：常，分、合闸指示应正确辅助开关动作应准确；准确；六氟化硫气体压力、泄漏率和含水量应符合使用说明书的要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#8.1.3
+  standard_code: GB 55024-2022
+  chapter: 8 施工
+  section: ''
+  clause_no: 8.1.3
+  text: 真空断路器和高压开关柜投运前应进行检查，并应符合下列规定：确，辅助开关动作应准确；
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#8.2.1
+  standard_code: GB 55024-2022
+  chapter: 8 施工
+  section: 8.2 变压器、互感器安装
+  clause_no: 8.2.1
+  text: 充干燥气体运输的变压器油箱内的气体压力应保持在0.01MPa～0.03MPa；干燥气体露点必须低丁40℃；每台变压器必须配有可以随时补气的纯净、干燥气体瓶，始终保持变压器内为正压力，并设有压力表进行监视。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 必须
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#8.2.2
+  standard_code: GB 55024-2022
+  chapter: 8 施工
+  section: 8.2 变压器、互感器安装
+  clause_no: 8.2.2
+  text: 充氮的变压器需吊罩检查时，器身必须在空气中暴露15min以上，待氮气充分扩散后进行。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 充氮的变压器
+    conditions:
+    - 需吊罩检查时
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 必须
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 空气中暴露
+    unit: min
+    condition: null
+    min_value: 15.0
+    max_value: 15.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#8.2.3
+  standard_code: GB 55024-2022
+  chapter: 8 施工
+  section: 8.2 变压器、互感器安装
+  clause_no: 8.2.3
+  text: 油浸变压器在装卸和运输过程中，不应有严重冲击和振动，当出现异常情况时，应进行现场器身检查或返厂进行检查和处理。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 油浸变压器
+    conditions:
+    - 在装卸和运输过程中
+    - 当出现异常情况时
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#8.2.4
+  standard_code: GB 55024-2022
+  chapter: 8 施工
+  section: 8.2 变压器、互感器安装
+  clause_no: 8.2.4
+  text: 油浸变压器进行器身检查时必须符合以下规定：气，不得进行器身检查；氧量达到18%以上时，人员方可进入；燥空气，应保持含氧量不低于18%，相对湿度不大于20%。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 油浸变压器器身检查
+    conditions:
+    - 进行器身检查时
+    - 氧量达到18%以上时
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 必须
+    - 不得
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 查氧量达到
+    unit: '%'
+    condition: null
+    min_value: 18.0
+    max_value: 18.0
+  - name: 持含氧量
+    unit: '%'
+    condition: null
+    min_value: null
+    max_value: 18.0
+  - name: 相对湿度
+    unit: '%'
+    condition: null
+    min_value: 20.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#8.2.5
+  standard_code: GB 55024-2022
+  chapter: 8 施工
+  section: ''
+  clause_no: 8.2.5
+  text: 绝缘油必须试验合格后，方可注入变压器内。不同牌号的绝缘油或同牌号的新油与运行过的油混合使用前，必须做混油试验。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 必须
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#8.2.6
+  standard_code: GB 55024-2022
+  chapter: 8 施工
+  section: ''
+  clause_no: 8.2.6
+  text: 油浸变压器试运行前应进行全面检查，确认符合运行条件时，方可投入试运行，并应符合下列规定：1，事故排油设施应完好，消防设施应齐全；2 铁芯和夹件的接地引出套管，套管的末屏接地，套管顶部结构的接触及密封应完好。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 油浸变压器试运行前的全面检查与投入试运行
+    conditions:
+    - 油浸变压器试运行前
+    - 确认符合运行条件时
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#8.2.7
+  standard_code: GB 55024-2022
+  chapter: 8 施工
+  section: ''
+  clause_no: 8.2.7
+  text: 中性点接地的变压器，在进行冲击合闸前，中性点必须接地并应检查合格。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 必须
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#8.2.8
+  standard_code: GB 55024-2022
+  chapter: 8 施工
+  section: ''
+  clause_no: 8.2.8
+  text: 互感器的接地应符合下列规定：接地可靠；电容式电压互感器的接地应合格；互感器的外壳应接地可靠；电流互感器的备用二次绕组端子应先短路后接地；倒装式电流互感器二次绕组的金属导管应接地可靠。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#8.3.1
+  standard_code: GB 55024-2022
+  chapter: 8 施工
+  section: 8.3 应急电源安装
+  clause_no: 8.3.1
+  text: 柴油发电机馈电线路连接后，相序应与原供电系统的相序一致。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#8.3.2
+  standard_code: GB 55024-2022
+  chapter: 8 施工
+  section: 8.3 应急电源安装
+  clause_no: 8.3.2
+  text: 当柴油发电机组为消防负荷和非消防负荷同时供电时，应验证消防负荷设有专用的回路，当火灾条件时应具备能自动切除该发电机组所带的非消防负荷的功能。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 柴油发电机组
+    conditions:
+    - 当柴油发电机组为消防负荷和非消防负荷同时供电时
+    - 当火灾条件时
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#8.3.3
+  standard_code: GB 55024-2022
+  chapter: 8 施工
+  section: 8.3 应急电源安装
+  clause_no: 8.3.3
+  text: EPS/UPS应进行下列技术参数检查：初装容量；输入回路断路器的过载和短路电流整定值：蓄电池备用时间及应急电源装置的允许过载能力；对控制回路进行动作试验，检验EPS/UPS的电源切换时间；投运前，应核对EPS/UPS各输出回路的负荷量，且不应超过EPS/UPS的额定最大输出容量。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#8.4.1
+  standard_code: GB 55024-2022
+  chapter: 8 施工
+  section: 8.4 配电箱（柜）安装
+  clause_no: 8.4.1
+  text: 配电箱（柜）的机械闭锁、电气闭锁应动作准确、可靠。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#8.4.2
+  standard_code: GB 55024-2022
+  chapter: 8 施工
+  section: 8.4 配电箱（柜）安装
+  clause_no: 8.4.2
+  text: 变电所低压配电柜的保护接地导体与接地干线应采用螺栓连接，防松零件应齐全。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#8.4.3
+  standard_code: GB 55024-2022
+  chapter: 8 施工
+  section: 8.4 配电箱（柜）安装
+  clause_no: 8.4.3
+  text: 配电箱Y（柜）安装应符合下列规定200mm的底座上，底座周围应采取封闭措施；配电箱（柜）不应设置在水管接头的下方。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 配电箱底座高出地坪高度
+    unit: mm
+    condition: null
+    min_value: 200.0
+    max_value: 200.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#8.4.4
+  standard_code: GB 55024-2022
+  chapter: 8 施工
+  section: ''
+  clause_no: 8.4.4
+  text: 当配电箱（柜）内设有中性导体（N）和保护接地导体（PE）母排或端子板时，应符合下列规定：1N母排或N端子板必须与金属电器安装板做绝缘隔离，PE母排或PE端子板必须与金属电器安装板做电气连接；2PE线必须通过PE母排或PE端子板连接；不同回路的N线或PE线不应连接在母排同一孔上或端子上。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 配电箱（柜）内的中性导体（N）和保护接地导体（PE）母排或端子板
+    conditions:
+    - 当配电箱（柜）内设有中性导体（N）和保护接地导体（PE）母排或端子板时
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 必须
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#8.4.5
+  standard_code: GB 55024-2022
+  chapter: 8 施工
+  section: ''
+  clause_no: 8.4.5
+  text: 电气设备安装应牢固可靠，且锁紧零件齐全。落地安装的电气设备应安装在基础上或支座上。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#8.5.1
+  standard_code: GB 55024-2022
+  chapter: 8 施工
+  section: 8.5 用电设备安装
+  clause_no: 8.5.1
+  text: 用电设备安装在室外或潮湿场所时，其接线口或接线盒应采取防水防潮措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 用电设备的接线口或接线盒
+    conditions:
+    - 用电设备安装在室外或潮湿场所时
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#8.5.2
+  standard_code: GB 55024-2022
+  chapter: 8 施工
+  section: 8.5 用电设备安装
+  clause_no: 8.5.2
+  text: 电动机接线应符合下列规定：缘防护措施；电动机电源线与接线端子紧固时不应损伤电动机引出线套管。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#8.5.3
+  standard_code: GB 55024-2022
+  chapter: 8 施工
+  section: ''
+  clause_no: 8.5.3
+  text: 灯具的安装应符合下列规定：灯具的固定应牢固可靠，在砌体和混凝土结构上严禁使用木楔、尼龙塞和塑料塞固定；人2I类灯具的外露可导电部分必须与保护接地导体可靠连接，连接处应设置接地标识管保护，不得裸露，柔性导管与灯具壳体应采用专用接头连接；且不应小于1mm；应与灯具的防护等级相同，且盒内导线接头应做防水绝缘处理；落的措施；当采用表面温度大于60℃的灯具且无围栏防护时，灯具距地面高度应大于2.5m，灯具的金属构架及金属保护管应分别与保护导体采用焊接或螺栓连接，连接处应设置接地标识；热、散热防火保护措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 灯具的安装
+    conditions:
+    - 在砌体和混凝土结构上
+    - Ⅱ类灯具
+    - 当采用表面温度大于60℃的灯具且无围栏防护时
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 必须
+    - 严禁
+    - 不应
+    - 不得
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 接头连接且
+    unit: mm
+    condition: null
+    min_value: 1.0
+    max_value: null
+  - name: 地面高度
+    unit: m
+    condition: null
+    min_value: 2.5
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#8.5.4
+  standard_code: GB 55024-2022
+  chapter: 8 施工
+  section: ''
+  clause_no: 8.5.4
+  text: 标志灯安装在疏散走道或通道的地面上时，应符合下列规定：标志灯管线的连接处应密封；标志灯表面应与地面平顺，且不应高于地面3mm。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 标志灯（疏散走道或通道地面安装）
+    conditions:
+    - 标志灯安装在疏散走道或通道的地面上时
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 平顺且
+    unit: mm
+    condition: null
+    min_value: 3.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#8.5.5
+  standard_code: GB 55024-2022
+  chapter: 8 施工
+  section: ''
+  clause_no: 8.5.5
+  text: 电源插座及开关安装应符合下列规定：电源插座接线应正确；同一场所的三相电源插座，其接线的相序应一致；保护接地导体（PE）在电源插座之间不应串联连接；相线与中性导体（N）不得利用电源插座本体的接线端子转接供电；导线不得裸露在装饰层内。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 不得
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#8.6.1
+  standard_code: GB 55024-2022
+  chapter: 8 施工
+  section: 8.6 智能化设备安装
+  clause_no: 8.6.1
+  text: 智能化设备的安装应牢固、可靠，安装件必须能承受设备的重量及使用、维修时附加的外力。吊装或壁装设备应采取防坠落措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 必须
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#8.6.2
+  standard_code: GB 55024-2022
+  chapter: 8 施工
+  section: 8.6 智能化设备安装
+  clause_no: 8.6.2
+  text: 在搬动架设显示屏单元过程中应断开电源和信号连接线缆，严禁带电操作。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 严禁
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#8.6.3
+  standard_code: GB 55024-2022
+  chapter: 8 施工
+  section: 8.6 智能化设备安装
+  clause_no: 8.6.3
+  text: 大型扬声器系统应单独固定、并应避免扬声器系统工作时引起墙面和吊顶产生共振。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#8.6.4
+  standard_code: GB 55024-2022
+  chapter: 8 施工
+  section: 8.6 智能化设备安装
+  clause_no: 8.6.4
+  text: 设在建筑物屋顶上的共用天线应采取防止设备或其部件损坏后坠落伤人的安全防护措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#8.7.1
+  standard_code: GB 55024-2022
+  chapter: 8 施工
+  section: 8.7 布线系统
+  clause_no: 8.7.1
+  text: 电缆桥架本体之间的连接应牢固可靠，金属电缆桥架与保护导体的连接应符合下列规定：可靠连接；全长大于30m时，每隔20m～30m应增加一个连接点，起始端和终点端均应可靠接地；导体，保护联结导体的截面面积应符合设计要求；每端不应少于2个有防松螺帽或防松垫圈的连接固定螺栓。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 金属电缆桥架与保护导体的连接
+    conditions:
+    - 全长大于30m时
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 靠连接全长
+    unit: m
+    condition: null
+    min_value: 30.0
+    max_value: null
+  - name: 靠连接全长
+    unit: m
+    condition: null
+    min_value: 20.0
+    max_value: null
+  - name: 全长
+    unit: m
+    condition: null
+    min_value: 30.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#8.7.2
+  standard_code: GB 55024-2022
+  chapter: 8 施工
+  section: ''
+  clause_no: 8.7.2
+  text: 室外的电缆桥架进入室内或配电箱（柜）时应有防雨水进入的措施，电缆槽盒底部应有泄水孔。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#8.7.3
+  standard_code: GB 55024-2022
+  chapter: 8 施工
+  section: ''
+  clause_no: 8.7.3
+  text: 母线槽的金属外壳等外露可导电部分应与保护导体可靠连接。并应符合下列规定 1.每段母线槽的金属外壳间应连接可靠。母线槽全长应有不少于2处与保护导体可靠连接、2 母线槽的金属外壳末端应与保护导体可靠连接 3。连接导体的材质。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#8.7.4
+  standard_code: GB 55024-2022
+  chapter: 8 施工
+  section: ''
+  clause_no: 8.7.4
+  text: 栓搭接时，各螺栓的受力应均匀，不应使电器或设备的接线端子受额外的应力。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 螺栓搭接
+    conditions:
+    - 螺栓搭接时
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#8.7.5
+  standard_code: GB 55024-2022
+  chapter: 8 施工
+  section: ''
+  clause_no: 8.7.5
+  text: 导管敷设应符合下列规定：500mm的承重墙体内剔槽埋设。或等于2mm的钢导管，不得采用套管熔焊连接。在盒、箱内或导管端部设置防水弯。严禁将柔性导管直埋于墙体内或楼（地）面内。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 严禁
+    - 不得
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 剔槽墙体截面长边限值
+    unit: mm
+    condition: null
+    min_value: 500.0
+    max_value: 500.0
+  - name: 剔槽埋设
+    unit: mm
+    condition: null
+    min_value: 2.0
+    max_value: 2.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#8.7.6
+  standard_code: GB 55024-2022
+  chapter: 8 施工
+  section: ''
+  clause_no: 8.7.6
+  text: 电缆敷设应符合下列规定：度相同；架上或电缆桥架内敷设时，应在每个支架上固定；口应采取防止电缆损伤的措施；额外应力；耐火性能。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 电缆敷设
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#8.7.7
+  standard_code: GB 55024-2022
+  chapter: 8 施工
+  section: ''
+  clause_no: 8.7.7
+  text: 交流单芯电缆或分相后的每相电缆敷设应符合下列规定：不应单独穿钢导管、钢筋混凝土楼板或墙体；不应单独进出导磁材料制成的配电箱（柜）、电缆桥架等；不应单独用铁磁夹具与金属支架固定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#8.7.8
+  standard_code: GB 55024-2022
+  chapter: 8 施工
+  section: ''
+  clause_no: 8.7.8
+  text: 电线敷设应符合下列规定：同一交流回路的电线应敷设于同金属电缆槽盒或金属导管内；盒及配电箱（柜）应采取防止电线损伤的措施；灰层内、保温层内、装饰面内或可燃物表面。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#8.7.9
+  standard_code: GB 55024-2022
+  chapter: 8 施工
+  section: ''
+  clause_no: 8.7.9
+  text: 导线连接应符合下列规定：经绝缘处理后设置在各自的专用接线盒（箱）或器具内；接器或缠绕塘锡连接；母排的连接，除设备、器具自带插接式端子外，应加装接线端子；导线接线端子与电气器具连接不得采取降容连接。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 导线连接
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不得
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#8.7.10
+  standard_code: GB 55024-2022
+  chapter: 8 施工
+  section: ''
+  clause_no: 8.7.10
+  text: 电线或电缆敷设应有标识，并应符合下列规定：高压线路应设有明显的警示标识；电缆首端、末端、检修孔和分支处应设置永久性标识，直埋电缆应设置标示桩；标识。接闪器必须与防雷专设或专用引下线焊接或卡接器连接。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 必须
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#8.8.2
+  standard_code: GB 55024-2022
+  chapter: 8 施工
+  section: 8.8 防雷与接地
+  clause_no: 8.8.2
+  text: 专设引下线与可燃材料的墙壁或墙体保温层间距应大于0.1m。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 温层间距
+    unit: m
+    condition: null
+    min_value: 0.1
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#8.8.3
+  standard_code: GB 55024-2022
+  chapter: 8 施工
+  section: 8.8 防雷与接地
+  clause_no: 8.8.3
+  text: 防雷引下线、接地干线、接地装置的连接应符合下列规定：接地装置应采用焊接或螺栓连接；地装置引出的接地线与接地干线、接地干线与接地干线应采用焊接或螺栓连接；连接。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#8.8.4
+  standard_code: GB 55024-2022
+  chapter: 8 施工
+  section: ''
+  clause_no: 8.8.4
+  text: 接地干线穿过墙体基础、楼板等处时应采用金属导管保护。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#8.8.5
+  standard_code: GB 55024-2022
+  chapter: 8 施工
+  section: ''
+  clause_no: 8.8.5
+  text: 接地体（线）采用搭接焊时，其搭接长度必须符合下列规定：扁钢不应小于其宽度的2倍，且应至少三面施焊；圆钢不应小于其直径的6倍，且应两面施焊；圆钢与扁钢连接时，其长度不应小于圆钢直径的6倍，且应两面施焊；角钢应紧贴角钢外侧两面施焊。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 接地体（线）搭接焊
+    conditions:
+    - 采用搭接焊时
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 必须
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#8.8.6
+  standard_code: GB 55024-2022
+  chapter: 8 施工
+  section: ''
+  clause_no: 8.8.6
+  text: 电气设备或电气线路的外露可导电部分应与保护导体直接连接，不应串联连接。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#8.8.7
+  standard_code: GB 55024-2022
+  chapter: 8 施工
+  section: ''
+  clause_no: 8.8.7
+  text: 金属电缆支架与保护导体应可靠连接。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#8.8.8
+  standard_code: GB 55024-2022
+  chapter: 8 施工
+  section: ''
+  clause_no: 8.8.8
+  text: 严禁利用金属软管、管道保温层的金属外皮或金属网、电线电缆金属护层作为保护导体。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 严禁
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#9.1.1
+  standard_code: GB 55024-2022
+  chapter: 9 检验和验收
+  section: 9.1 一般规定
+  clause_no: 9.1.1
+  text: 当设备、材料、成品和半成品进场后，因产品质量问题有异议或现场无条件做检测时，应送有资质的实验室做检测。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 设备、材料、成品和半成品
+    conditions:
+    - 因产品质量问题有异议时
+    - 现场无条件做检测时
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#9.1.2
+  standard_code: GB 55024-2022
+  chapter: 9 检验和验收
+  section: 9.1 一般规定
+  clause_no: 9.1.2
+  text: 应采用核查、检定或校准等方式，确认用于工程施工验收的检验检测仪器设备满足检验检测要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#9.2.1
+  standard_code: GB 55024-2022
+  chapter: 9 检验和验收
+  section: 9.2 电气设备检验
+  clause_no: 9.2.1
+  text: 高压的电气装置、布线系统以及继电保护系统应做交接试验，且应合格。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#9.2.2
+  standard_code: GB 55024-2022
+  chapter: 9 检验和验收
+  section: 9.2 电气设备检验
+  clause_no: 9.2.2
+  text: 高压电动机和100kW以上低压电动机应做交接试验且应合格.
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制（GB 55024-2022 全部条文强制）
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: GB 55024-2022#9.2.3
+  standard_code: GB 55024-2022
+  chapter: 9 检验和验收
+  section: 9.2 电气设备检验
+  clause_no: 9.2.3
+  text: 低压配电箱（柜）内的剩余电流动作保护电器应按比例在施加额定剩余动作电流（In）的情况下测试动作时间，且测试值应符合限值要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 低压配电箱（柜）内的剩余电流动作保护电器
+    conditions:
+    - 施加额定剩余动作电流（In）的情况下
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#9.2.4
+  standard_code: GB 55024-2022
+  chapter: 9 检验和验收
+  section: 9.2 电气设备检验
+  clause_no: 9.2.4
+  text: 质量大于10kg的灯具，固定装置和悬吊装置应按灯具质量的5倍恒定均布荷载做强度试验，且不得大于固定点的设计最大荷载，持续时间不得少于15min。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不得
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 质量
+    unit: kg
+    condition: null
+    min_value: 10.0
+    max_value: null
+  - name: 持续时间
+    unit: min
+    condition: null
+    min_value: 15.0
+    max_value: 15.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#9.3.1
+  standard_code: GB 55024-2022
+  chapter: 9 检验和验收
+  section: 9.3 智能化系统检测
+  clause_no: 9.3.1
+  text: 施工前应检查吊装、壁装设备的各种预理件的安全性和防腐处理等情况。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#9.3.2
+  standard_code: GB 55024-2022
+  chapter: 9 检验和验收
+  section: 9.3 智能化系统检测
+  clause_no: 9.3.2
+  text: 公共广播系统的检测应符合下列规定：具有最高优先权，并应以现场环境噪声为基准，检测紧急广播的信噪比；线缆、电缆槽盒和导管的防火保护措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#9.4.1
+  standard_code: GB 55024-2022
+  chapter: 9 检验和验收
+  section: 9.4 线路检测
+  clause_no: 9.4.1
+  text: 布线工程施工后，必须进行回路的绝缘电阻检测。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 必须
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#9.4.2
+  standard_code: GB 55024-2022
+  chapter: 9 检验和验收
+  section: 9.4 线路检测
+  clause_no: 9.4.2
+  text: 当配电箱（柜）内终端用电回路中，所设过电流保护电器兼作故障防护时，应在回路终端测量接地故障回路阻抗。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 配电箱（柜）内终端用电回路
+    conditions:
+    - 当终端用电回路中所设过电流保护电器兼作故障防护时
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#9.4.3
+  standard_code: GB 55024-2022
+  chapter: 9 检验和验收
+  section: 9.4 线路检测
+  clause_no: 9.4.3
+  text: 接地装置的接地电阻值应经检测合格。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#9.5.1
+  standard_code: GB 55024-2022
+  chapter: 9 检验和验收
+  section: 9.5 验收
+  clause_no: 9.5.1
+  text: 实行生产许可证或强制性认证的产品，应查验生产许可证或认证的认证范围、有效性及真实性。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#9.5.2
+  standard_code: GB 55024-2022
+  chapter: 9 检验和验收
+  section: 9.5 验收
+  clause_no: 9.5.2
+  text: 施工过程应严格按本规范第8章及第9章的相关条款施工和检验，并逐项做好检查，安装完成后必须做好相关记录。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 必须
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#9.5.3
+  standard_code: GB 55024-2022
+  chapter: 9 检验和验收
+  section: 9.5 验收
+  clause_no: 9.5.3
+  text: 高压电气交接试验应由具有专业调试条件的单位完成，并应出具调试报告。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#9.5.4
+  standard_code: GB 55024-2022
+  chapter: 9 检验和验收
+  section: 9.5 验收
+  clause_no: 9.5.4
+  text: 过程验收应在施工单位自检合格的基础上，由建设单位或监理单位组织验收，并做好验收记录。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#9.5.5
+  standard_code: GB 55024-2022
+  chapter: 9 检验和验收
+  section: 9.5 验收
+  clause_no: 9.5.5
+  text: 竣工验收应检查系统运行的符合性、稳定性和安全性，应以资料审查和目视检查为主，以实测实量为辅。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#9.5.6
+  standard_code: GB 55024-2022
+  chapter: 9 检验和验收
+  section: 9.5 验收
+  clause_no: 9.5.6
+  text: 竣工验收时应检查下列工程质量控制记录：设计文件和图纸会审记录及设计变更与工程洽商记录；主要设备、器具、材料的合格证和进场验收记录；隐蔽工程检查记录；电气设备交接试验检验记录；电动机检查（抽芯）记录；接地电阻测试记录；绝缘电阻测试记录；接地故障回路阻抗测试记录；剩余电流动作保护电器测试记录；UPS应急持续供电时间记录；灯具固定装置及悬吊装置的载荷强度试验记录；建筑照明通电试运行记录；吊装、壁装智能化设备安装预埋件安全性检查记录；紧急广播系统检测记录；过程验收记录。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#9.5.7
+  standard_code: GB 55024-2022
+  chapter: 9 检验和验收
+  section: ''
+  clause_no: 9.5.7
+  text: 竣工验收应抽测下列工程安全和功能检验项目，抽测结果应符合本规范的规定，1。各类电源自动切换或通断装置动作情况、2，馈电线路的绝缘电阻。3，接地故障回路阻抗.4 开关插座接线的正确性.。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#10.1.1
+  standard_code: GB 55024-2022
+  chapter: 10 运行维护
+  section: 10.1 一般规定
+  clause_no: 10.1.1
+  text: 建筑电气与智能化系统运行维护工作应符合下列规定：不得带电作业；应采取安全预防措施；或更换时，必须断开电源，不得带电作业；合闸、有人工作”标志牌，停送电必须由专人负责。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑电气与智能化系统运行维护工作
+    conditions:
+    - 更换或检修时
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 必须
+    - 不得
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#10.1.2
+  standard_code: GB 55024-2022
+  chapter: 10 运行维护
+  section: ''
+  clause_no: 10.1.2
+  text: 建筑电气及智能化系统运行维护应建立资料管理制度，并应符合下列规定：1，运行维护资料应包含建筑电气及智能化系统的原始技术资料和动态管理资料，2，原始技术资料在该建筑电气及智能化系统使用期间应长期保存；3 动态管理资料的保存时间不应少于5年。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#10.2.1
+  standard_code: GB 55024-2022
+  chapter: 10 运行维护
+  section: 10.2 运行
+  clause_no: 10.2.1
+  text: 人员密集场所的建筑电气与智能化系统的运行应制定应急预案。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#10.2.2
+  standard_code: GB 55024-2022
+  chapter: 10 运行维护
+  section: 10.2 运行
+  clause_no: 10.2.2
+  text: 高压配电室、变压器室、低压配电室、控制室、柴油发电机房、智能化系统机房等的运行应符合下列规定：1，对外出入口应有防止无关人员擅自出入的措施；2，房间内的通道应保持畅通，且房间内除了放置用于操作和维修的用具、设备外不得作其他储存用途；3 设有通风装置的房间应保证其通风装置运行正常。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 高压配电室、变压器室、低压配电室、控制室、柴油发电机房、智能化系统机房
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制（GB 55024-2022 全部条文强制）
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: GB 55024-2022#10.2.3
+  standard_code: GB 55024-2022
+  chapter: 10 运行维护
+  section: ''
+  clause_no: 10.2.3
+  text: 安装在用户处，用于供电企业结算用的电能计量装置运行应符合下列规定：应保持电能计量装置封印完好，装置本身不受损坏或丢失；发现电能计量装置故障时，应及时通知供电企业进行处理。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 安装在用户处、用于供电企业结算用的电能计量装置
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#10.3.1
+  standard_code: GB 55024-2022
+  chapter: 10 运行维护
+  section: 10.3 维护
+  clause_no: 10.3.1
+  text: 变压器、柴油发电机组、蓄电池组应定期进行维护，并应符合下列规定：1，作为应急电源的柴油发电机组运行停止后应检查储油箱内的油量报警装置和油量，确保满足应急运行时间要求，油位显示应正常；2，作为应急电源的蓄电池组应定期做放电测试，以确保满足全部应急负荷的应急供电时间。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制（GB 55024-2022 全部条文强制）
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: GB 55024-2022#10.3.2
+  standard_code: GB 55024-2022
+  chapter: 10 运行维护
+  section: ''
+  clause_no: 10.3.2
+  text: 剩余电流动作保护电器的维护应符合下列规定：钮操作，检查其动作特性是否正常；雷击活动期和用电高峰期应增加试验次数；电器，应在每次使用前进行试验按钮操作；变化，运行维护单位应配置专用测试仪器，定期做动作特性试验。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#10.3.3
+  standard_code: GB 55024-2022
+  chapter: 10 运行维护
+  section: ''
+  clause_no: 10.3.3
+  text: 公共区域内装有固定浴盆或淋浴的场所、游泳池和其他水池，装有桑拿加热器的房间等特殊场所在运营前应按本规范第4.6.6条、第4.6.9条的规定检查电气安全防护措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#10.3.4
+  standard_code: GB 55024-2022
+  chapter: 10 运行维护
+  section: ''
+  clause_no: 10.3.4
+  text: 公共区域电气照明装置以及其他公众可触及的用电设备应定期进行维护。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#10.3.5
+  standard_code: GB 55024-2022
+  chapter: 10 运行维护
+  section: ''
+  clause_no: 10.3.5
+  text: 下列固定电气设备应定期进行检测，当测试结果不满足使用要求时，应进行缺陷修复：电气设备；
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 固定电气设备
+    conditions:
+    - 当测试结果不满足使用要求时
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#10.3.6
+  standard_code: GB 55024-2022
+  chapter: 10 运行维护
+  section: ''
+  clause_no: 10.3.6
+  text: 建筑物防雷装置×接地装置和等电位联结应定期进行维护，建筑物遭受雷击后应增加防雷装置和接地装置的检查、测试，当测试结果不满足使用要求时，应进行缺陷修复。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑物防雷装置、接地装置和等电位联结
+    conditions:
+    - 建筑物遭受雷击后
+    - 当测试结果不满足使用要求时
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#10.4.1
+  standard_code: GB 55024-2022
+  chapter: 10 运行维护
+  section: 10.4 维修
+  clause_no: 10.4.1
+  text: 建筑电气与智能化系统出现故障时应及时进行维修，具备应急功能的电气与智能化系统在维修期间应采取相应的应急措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#10.4.2
+  standard_code: GB 55024-2022
+  chapter: 10 运行维护
+  section: 10.4 维修
+  clause_no: 10.4.2
+  text: 建筑电气系统在维修过程中，更换元器件应符合下列规定：1 更换工作不应危及现有电气装置的安全；2 更换电气装置内断路器、熔断器、热继电器、剩余电流保护电器等保护性元器件时必须满足设计要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 必须
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#10.4.3
+  standard_code: GB 55024-2022
+  chapter: 10 运行维护
+  section: 10.4 维修
+  clause_no: 10.4.3
+  text: 建筑电气与智能化系统遭遇水淹和火灾后，当需要继续使用时，必须进行全面检测，并应根据检测结果进行处理，以实现正常使用。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑电气与智能化系统
+    conditions:
+    - 遭遇水淹和火灾后
+    - 当需要继续使用时
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 必须
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+- id: GB 55024-2022#10.4.4
+  standard_code: GB 55024-2022
+  chapter: 10 运行维护
+  section: 10.4 维修
+  clause_no: 10.4.4
+  text: 拆除建筑电气和智能化系统应符合下列规定：隔离；露的带电部分进行电气安全防护；取安全措施，设备处理应按国家相关规定执行。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 建筑电气和智能化系统（拆除）
+    conditions:
+    - 拆除时
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSystem
+    activity_types:
+    - 建筑电气设计
+    - 智能化设计
+  conflicts: []
+executable_rules:
+- rule_id: R_GB550242022_2_0_3_1
+  source_clause: GB 55024-2022#2.0.3
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 防水台阶高度
+    unit: m
+    condition: null
+    min_value: 0.1
+    max_value: 0.1
+  source_text: 建筑物电气设备用房和智能化设备用房应符合下列规定：当与其贴邻时，应采取防水措施；0.10m，设在地下层时不应小于0.15m；电气设备的正上方不应设置水管道变电所、柴油发电机房、智能化系统机房不应有变形缝穿越;楼地面应满足电气设备和智能化设备荷载的要求。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+  _rule_synced: 20260908-133903
+- rule_id: R_GB550242022_2_0_3_2
+  source_clause: GB 55024-2022#2.0.3
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 在地下层时
+    unit: m
+    condition: null
+    min_value: 0.15
+  source_text: 建筑物电气设备用房和智能化设备用房应符合下列规定：当与其贴邻时，应采取防水措施；0.10m，设在地下层时不应小于0.15m；电气设备的正上方不应设置水管道变电所、柴油发电机房、智能化系统机房不应有变形缝穿越;楼地面应满足电气设备和智能化设备荷载的要求。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550242022_3_2_1_1
+  source_clause: GB 55024-2022#3.2.1
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 电容器室长度
+    unit: m
+    condition: null
+    min_value: 7.0
+    max_value: null
+  source_text: 变电所布置应符合下列规定：配电室、电容器室长度大于7m时，应至少设置两个出入口。当成排布置的电气装置长度大于6m时，电气装置后面的通道应至少设置两个出口；当低压电气装置后面通道的两个出口之间距离大于15m时，尚应增加出口。为甲级防火门并应向外开启。额定电压确定其安全净距；电气装置
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+  _rule_synced: 20260908-133903
+- rule_id: R_GB550242022_3_2_1_2
+  source_clause: GB 55024-2022#3.2.1
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 电气装置长度
+    unit: m
+    condition: null
+    min_value: 6.0
+    max_value: null
+  source_text: 变电所布置应符合下列规定：配电室、电容器室长度大于7m时，应至少设置两个出入口。当成排布置的电气装置长度大于6m时，电气装置后面的通道应至少设置两个出口；当低压电气装置后面通道的两个出口之间距离大于15m时，尚应增加出口。为甲级防火门并应向外开启。额定电压确定其安全净距；电气装置
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+  _rule_synced: 20260908-133903
+- rule_id: R_GB550242022_3_2_1_3
+  source_clause: GB 55024-2022#3.2.1
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 出口之间距离
+    unit: m
+    condition: null
+    min_value: 15.0
+    max_value: null
+  source_text: 变电所布置应符合下列规定：配电室、电容器室长度大于7m时，应至少设置两个出入口。当成排布置的电气装置长度大于6m时，电气装置后面的通道应至少设置两个出口；当低压电气装置后面通道的两个出口之间距离大于15m时，尚应增加出口。为甲级防火门并应向外开启。额定电压确定其安全净距；电气装置
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+  _rule_synced: 20260908-133903
+- rule_id: R_GB550242022_3_2_3_1
+  source_clause: GB 55024-2022#3.2.3
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 高度
+    unit: m
+    condition: null
+    max_value: 2.5
+  source_text: 变电所设有裸露带电导体时，除应满足本规范第3.2.1条要求外，尚应符合下列规定：低压裸露带电导体距地面的高度不应低于2.5m；23kV～35kV电气装置间距及通道宽度应满足安全净距的要求;和电力线路或管线跨越。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550242022_4_5_4_1
+  source_clause: GB 55024-2022#4.5.4
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 安装高度在
+    unit: m
+    condition: null
+    min_value: 2.5
+    max_value: 2.5
+  source_text: 当正常照明灯具安装高度在2.5m及以下，且灯具采用交流低压供电时，应设置剩余电流动作保护电器作为附加防护。疏散照明和疏散指示标志灯安装高度在2.5m及以下时，应采用安全特低电压供电。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550242022_4_6_9_1
+  source_clause: GB 55024-2022#4.6.9
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 额定剩余电流动作值
+    unit: mA
+    condition: null
+    min_value: 30.0
+    max_value: 30.0
+  source_text: 装有桑拿浴加热器场所的电击防护措施应符合下列规定：区域1内应只能安装桑拿浴加热器及其附件，不应设置电源插座；除桑拿浴加热器外，场所内配电回路均应采用额定剩余电流动作值不大30mA的剩余电流动作保护电器作为附加
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+  _rule_synced: 20260908-133903
+- rule_id: R_GB550242022_5_1_5_1
+  source_clause: GB 55024-2022#5.1.5
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 信噪比差值
+    unit: dB
+    condition: null
+    min_value: 12.0
+    max_value: 12.0
+  source_text: 公共广播系统设计应符合下列规定：广播系统具有多种语音广播用途时，应有一个广播传声器处于最高广播优先级。电源的连续供电时间应与消防疏散指示标志照明备用电源的连续供电时间一致。相关广播区播放警示信号（含警笛）、警报语音或实时指挥语音。于12dB。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+  _rule_synced: 20260908-133903
+- rule_id: R_GB550242022_6_1_2_2
+  source_clause: GB 55024-2022#6.1.2
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 面积
+    unit: '%'
+    condition: null
+    min_value: 50.0
+  source_text: 导管和电缆槽盒内配电电线的总截面面积不应超过导管或电缆槽盒内截面面积的40%；电缆槽盒内控制线缆的总截面面积不应超过电缆槽盒内截面面积的50%。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550242022_6_2_1_1
+  source_clause: GB 55024-2022#6.2.1
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 金属导管壁厚
+    unit: mm
+    condition: null
+    min_value: 1.5
+    max_value: null
+  source_text: 室内干燥场所的线缆采用导管布线时，应符合下列规定：采用金属导管布线时，其壁厚不应小于1.5mm；采用塑料导管暗敷布线时，应选用不低于中型的导管。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+  _rule_synced: 20260908-133903
+- rule_id: R_GB550242022_6_2_3_1
+  source_clause: GB 55024-2022#6.2.3
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 金属导管壁厚
+    unit: mm
+    condition: null
+    min_value: 2.0
+    max_value: null
+  source_text: 交建筑物底层及地面层以下外墙内的线缆采用导管暗敷布线时，应符合下列规定：采用金属导管布线时，其壁厚不应小于2.0mm；采用可弯曲金属导管布线时，应选用防水重型的导管；采用塑料导管布线时，应选用重型的导管。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+  _rule_synced: 20260908-133903
+- rule_id: R_GB550242022_6_2_7_1
+  source_clause: GB 55024-2022#6.2.7
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 地面的距离
+    unit: m
+    condition: null
+    min_value: 2.5
+  source_text: 除民用建筑和变电所外，其他建筑内低压裸露带电导体距地面的高度应符合下列规定：2X采用防护等级不低于IP2X的网孔遮护时，裸露带电导体至地面的距离不应小于2.5m；
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550242022_7_1_1_1
+  source_clause: GB 55024-2022#7.1.1
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 列规定高度
+    unit: m
+    condition: null
+    min_value: 20.0
+  source_text: 各类防雷建筑物应设接闪器、引下线、接地装置，并应采取防闪电电涌侵人的措施。建筑物的雷电防护分类应符合下列规定：1）高度超过20m，且不高于100m的建筑物；2）预计雷击次数大于或等于0.05次/a，且小于或等于3）在平均雷暴日大于15d/a的地区，高度在>15m及以上的烟窗、水塔
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550242022_7_1_1_2
+  source_clause: GB 55024-2022#7.1.1
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 超过m且
+    unit: m
+    condition: null
+    min_value: 100.0
+  source_text: 各类防雷建筑物应设接闪器、引下线、接地装置，并应采取防闪电电涌侵人的措施。建筑物的雷电防护分类应符合下列规定：1）高度超过20m，且不高于100m的建筑物；2）预计雷击次数大于或等于0.05次/a，且小于或等于3）在平均雷暴日大于15d/a的地区，高度在>15m及以上的烟窗、水塔
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550242022_7_1_1_3
+  source_clause: GB 55024-2022#7.1.1
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 平均雷暴日
+    unit: d
+    condition: null
+    min_value: 15.0
+  source_text: 各类防雷建筑物应设接闪器、引下线、接地装置，并应采取防闪电电涌侵人的措施。建筑物的雷电防护分类应符合下列规定：1）高度超过20m，且不高于100m的建筑物；2）预计雷击次数大于或等于0.05次/a，且小于或等于3）在平均雷暴日大于15d/a的地区，高度在>15m及以上的烟窗、水塔
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550242022_7_1_1_4
+  source_clause: GB 55024-2022#7.1.1
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 日
+    unit: m
+    condition: null
+    min_value: 15.0
+  source_text: 各类防雷建筑物应设接闪器、引下线、接地装置，并应采取防闪电电涌侵人的措施。建筑物的雷电防护分类应符合下列规定：1）高度超过20m，且不高于100m的建筑物；2）预计雷击次数大于或等于0.05次/a，且小于或等于3）在平均雷暴日大于15d/a的地区，高度在>15m及以上的烟窗、水塔
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550242022_7_1_1_5
+  source_clause: GB 55024-2022#7.1.1
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 平均雷暴日
+    unit: d
+    condition: null
+    max_value: 15.0
+  source_text: 各类防雷建筑物应设接闪器、引下线、接地装置，并应采取防闪电电涌侵人的措施。建筑物的雷电防护分类应符合下列规定：1）高度超过20m，且不高于100m的建筑物；2）预计雷击次数大于或等于0.05次/a，且小于或等于3）在平均雷暴日大于15d/a的地区，高度在>15m及以上的烟窗、水塔
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550242022_7_1_1_6
+  source_clause: GB 55024-2022#7.1.1
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 于
+    unit: m
+    condition: null
+    min_value: 20.0
+    max_value: 20.0
+  source_text: 各类防雷建筑物应设接闪器、引下线、接地装置，并应采取防闪电电涌侵人的措施。建筑物的雷电防护分类应符合下列规定：1）高度超过20m，且不高于100m的建筑物；2）预计雷击次数大于或等于0.05次/a，且小于或等于3）在平均雷暴日大于15d/a的地区，高度在>15m及以上的烟窗、水塔
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550242022_7_1_2_1
+  source_clause: GB 55024-2022#7.1.2
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 第三类防雷接闪网格尺寸
+    unit: m
+    condition: null
+    min_value: 20.0
+    max_value: 20.0
+  source_text: 第三类防雷建筑物的雷电防护措施应符合下列规定：20m或24m×16m；当采用滚球法保护时，滚球法保护半径不应大于60m。物应在顶端和底端与防雷装置连接。闭合环路，中间层应在每间隔不超过20m的楼层连成闭合环路。闭合环路应与本楼层结构钢筋和所有专用引下线连接。直接或通过预埋件与防雷
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+  _rule_synced: 20260908-133903
+- rule_id: R_GB550242022_7_1_2_2
+  source_clause: GB 55024-2022#7.1.2
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 第三类防雷接闪网格尺寸
+    unit: m
+    condition: null
+    min_value: 24.0
+    max_value: 24.0
+  source_text: 第三类防雷建筑物的雷电防护措施应符合下列规定：20m或24m×16m；当采用滚球法保护时，滚球法保护半径不应大于60m。物应在顶端和底端与防雷装置连接。闭合环路，中间层应在每间隔不超过20m的楼层连成闭合环路。闭合环路应与本楼层结构钢筋和所有专用引下线连接。直接或通过预埋件与防雷
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+  _rule_synced: 20260908-133903
+- rule_id: R_GB550242022_7_1_2_3
+  source_clause: GB 55024-2022#7.1.2
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 规定m或m
+    unit: m
+    condition: null
+    min_value: 16.0
+    max_value: 16.0
+  source_text: 第三类防雷建筑物的雷电防护措施应符合下列规定：20m或24m×16m；当采用滚球法保护时，滚球法保护半径不应大于60m。物应在顶端和底端与防雷装置连接。闭合环路，中间层应在每间隔不超过20m的楼层连成闭合环路。闭合环路应与本楼层结构钢筋和所有专用引下线连接。直接或通过预埋件与防雷
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550242022_7_1_2_4
+  source_clause: GB 55024-2022#7.1.2
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 护半径
+    unit: m
+    condition: null
+    min_value: 60.0
+  source_text: 第三类防雷建筑物的雷电防护措施应符合下列规定：20m或24m×16m；当采用滚球法保护时，滚球法保护半径不应大于60m。物应在顶端和底端与防雷装置连接。闭合环路，中间层应在每间隔不超过20m的楼层连成闭合环路。闭合环路应与本楼层结构钢筋和所有专用引下线连接。直接或通过预埋件与防雷
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550242022_7_1_2_5
+  source_clause: GB 55024-2022#7.1.2
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 在每间隔
+    unit: m
+    condition: null
+    min_value: 20.0
+  source_text: 第三类防雷建筑物的雷电防护措施应符合下列规定：20m或24m×16m；当采用滚球法保护时，滚球法保护半径不应大于60m。物应在顶端和底端与防雷装置连接。闭合环路，中间层应在每间隔不超过20m的楼层连成闭合环路。闭合环路应与本楼层结构钢筋和所有专用引下线连接。直接或通过预埋件与防雷
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550242022_7_1_2_6
+  source_clause: GB 55024-2022#7.1.2
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 置相连高度
+    unit: m
+    condition: null
+    min_value: 60.0
+    max_value: 60.0
+  source_text: 第三类防雷建筑物的雷电防护措施应符合下列规定：20m或24m×16m；当采用滚球法保护时，滚球法保护半径不应大于60m。物应在顶端和底端与防雷装置连接。闭合环路，中间层应在每间隔不超过20m的楼层连成闭合环路。闭合环路应与本楼层结构钢筋和所有专用引下线连接。直接或通过预埋件与防雷
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550242022_7_1_3_1
+  source_clause: GB 55024-2022#7.1.3
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 第二类防雷接闪网格尺寸
+    unit: m
+    condition: null
+    min_value: 10.0
+    max_value: 10.0
+  source_text: 第二类防雷建筑物的雷电防护措施应符合下列规定10m或12m×8m；当采用滚球法保护时，滚球法保护半径不应大于45m。物应在顶端和底端与防雷装置连接，并应在高度100m～250m区域内每间隔不超过50m与防雷装置连接一处，高度0～100m区域内在100m附近楼层与防雷装置连接。直接
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+  _rule_synced: 20260908-133903
+- rule_id: R_GB550242022_7_1_3_2
+  source_clause: GB 55024-2022#7.1.3
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 第二类防雷接闪网格尺寸
+    unit: m
+    condition: null
+    min_value: 12.0
+    max_value: 12.0
+  source_text: 第二类防雷建筑物的雷电防护措施应符合下列规定10m或12m×8m；当采用滚球法保护时，滚球法保护半径不应大于45m。物应在顶端和底端与防雷装置连接，并应在高度100m～250m区域内每间隔不超过50m与防雷装置连接一处，高度0～100m区域内在100m附近楼层与防雷装置连接。直接
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+  _rule_synced: 20260908-133903
+- rule_id: R_GB550242022_7_1_3_3
+  source_clause: GB 55024-2022#7.1.3
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 规定m或m
+    unit: m
+    condition: null
+    min_value: 8.0
+    max_value: 8.0
+  source_text: 第二类防雷建筑物的雷电防护措施应符合下列规定10m或12m×8m；当采用滚球法保护时，滚球法保护半径不应大于45m。物应在顶端和底端与防雷装置连接，并应在高度100m～250m区域内每间隔不超过50m与防雷装置连接一处，高度0～100m区域内在100m附近楼层与防雷装置连接。直接
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550242022_7_1_3_4
+  source_clause: GB 55024-2022#7.1.3
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 护半径
+    unit: m
+    condition: null
+    min_value: 45.0
+  source_text: 第二类防雷建筑物的雷电防护措施应符合下列规定10m或12m×8m；当采用滚球法保护时，滚球法保护半径不应大于45m。物应在顶端和底端与防雷装置连接，并应在高度100m～250m区域内每间隔不超过50m与防雷装置连接一处，高度0～100m区域内在100m附近楼层与防雷装置连接。直接
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550242022_7_1_3_5
+  source_clause: GB 55024-2022#7.1.3
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 并应在高度
+    unit: m
+    condition: null
+    min_value: 100.0
+    max_value: 100.0
+  source_text: 第二类防雷建筑物的雷电防护措施应符合下列规定10m或12m×8m；当采用滚球法保护时，滚球法保护半径不应大于45m。物应在顶端和底端与防雷装置连接，并应在高度100m～250m区域内每间隔不超过50m与防雷装置连接一处，高度0～100m区域内在100m附近楼层与防雷装置连接。直接
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550242022_7_1_3_6
+  source_clause: GB 55024-2022#7.1.3
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 在高度m
+    unit: m
+    condition: null
+    min_value: 250.0
+    max_value: 250.0
+  source_text: 第二类防雷建筑物的雷电防护措施应符合下列规定10m或12m×8m；当采用滚球法保护时，滚球法保护半径不应大于45m。物应在顶端和底端与防雷装置连接，并应在高度100m～250m区域内每间隔不超过50m与防雷装置连接一处，高度0～100m区域内在100m附近楼层与防雷装置连接。直接
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550242022_7_1_3_7
+  source_clause: GB 55024-2022#7.1.3
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 内每间隔
+    unit: m
+    condition: null
+    min_value: 50.0
+  source_text: 第二类防雷建筑物的雷电防护措施应符合下列规定10m或12m×8m；当采用滚球法保护时，滚球法保护半径不应大于45m。物应在顶端和底端与防雷装置连接，并应在高度100m～250m区域内每间隔不超过50m与防雷装置连接一处，高度0～100m区域内在100m附近楼层与防雷装置连接。直接
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550242022_7_1_3_8
+  source_clause: GB 55024-2022#7.1.3
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 接一处高度
+    unit: m
+    condition: null
+    min_value: 100.0
+    max_value: 100.0
+  source_text: 第二类防雷建筑物的雷电防护措施应符合下列规定10m或12m×8m；当采用滚球法保护时，滚球法保护半径不应大于45m。物应在顶端和底端与防雷装置连接，并应在高度100m～250m区域内每间隔不超过50m与防雷装置连接一处，高度0～100m区域内在100m附近楼层与防雷装置连接。直接
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550242022_7_1_3_9
+  source_clause: GB 55024-2022#7.1.3
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: m区域内在
+    unit: m
+    condition: null
+    min_value: 100.0
+    max_value: 100.0
+  source_text: 第二类防雷建筑物的雷电防护措施应符合下列规定10m或12m×8m；当采用滚球法保护时，滚球法保护半径不应大于45m。物应在顶端和底端与防雷装置连接，并应在高度100m～250m区域内每间隔不超过50m与防雷装置连接一处，高度0～100m区域内在100m附近楼层与防雷装置连接。直接
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550242022_7_1_3_10
+  source_clause: GB 55024-2022#7.1.3
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 置相连高度
+    unit: m
+    condition: null
+    min_value: 45.0
+    max_value: 45.0
+  source_text: 第二类防雷建筑物的雷电防护措施应符合下列规定10m或12m×8m；当采用滚球法保护时，滚球法保护半径不应大于45m。物应在顶端和底端与防雷装置连接，并应在高度100m～250m区域内每间隔不超过50m与防雷装置连接一处，高度0～100m区域内在100m附近楼层与防雷装置连接。直接
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550242022_7_1_4_1
+  source_clause: GB 55024-2022#7.1.4
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 高度
+    unit: m
+    condition: null
+    min_value: 250.0
+  source_text: 高度超过250m或雷击次数大于0.42次/a的第二类防雷建筑物的雷电防护措施应符合下列规定或6m×4m；当采用滚球法保护时，滚球法保护半径不应大于130m。物应在顶端和底端与防雷装置连接，并应在高度250m以上区域每间隔不超过20m与防雷装置连接一处，在高度100m～250m区域
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550242022_7_1_4_2
+  source_clause: GB 55024-2022#7.1.4
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 下列规定
+    unit: m
+    condition: null
+    min_value: 6.0
+    max_value: 6.0
+  source_text: 高度超过250m或雷击次数大于0.42次/a的第二类防雷建筑物的雷电防护措施应符合下列规定或6m×4m；当采用滚球法保护时，滚球法保护半径不应大于130m。物应在顶端和底端与防雷装置连接，并应在高度250m以上区域每间隔不超过20m与防雷装置连接一处，在高度100m～250m区域
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550242022_7_1_4_3
+  source_clause: GB 55024-2022#7.1.4
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 列规定或m
+    unit: m
+    condition: null
+    min_value: 4.0
+    max_value: 4.0
+  source_text: 高度超过250m或雷击次数大于0.42次/a的第二类防雷建筑物的雷电防护措施应符合下列规定或6m×4m；当采用滚球法保护时，滚球法保护半径不应大于130m。物应在顶端和底端与防雷装置连接，并应在高度250m以上区域每间隔不超过20m与防雷装置连接一处，在高度100m～250m区域
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550242022_7_1_4_4
+  source_clause: GB 55024-2022#7.1.4
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 护半径
+    unit: m
+    condition: null
+    min_value: 130.0
+  source_text: 高度超过250m或雷击次数大于0.42次/a的第二类防雷建筑物的雷电防护措施应符合下列规定或6m×4m；当采用滚球法保护时，滚球法保护半径不应大于130m。物应在顶端和底端与防雷装置连接，并应在高度250m以上区域每间隔不超过20m与防雷装置连接一处，在高度100m～250m区域
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550242022_7_1_4_5
+  source_clause: GB 55024-2022#7.1.4
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 并应在高度
+    unit: m
+    condition: null
+    min_value: 250.0
+    max_value: 250.0
+  source_text: 高度超过250m或雷击次数大于0.42次/a的第二类防雷建筑物的雷电防护措施应符合下列规定或6m×4m；当采用滚球法保护时，滚球法保护半径不应大于130m。物应在顶端和底端与防雷装置连接，并应在高度250m以上区域每间隔不超过20m与防雷装置连接一处，在高度100m～250m区域
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550242022_7_1_4_6
+  source_clause: GB 55024-2022#7.1.4
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 域每间隔
+    unit: m
+    condition: null
+    min_value: 20.0
+  source_text: 高度超过250m或雷击次数大于0.42次/a的第二类防雷建筑物的雷电防护措施应符合下列规定或6m×4m；当采用滚球法保护时，滚球法保护半径不应大于130m。物应在顶端和底端与防雷装置连接，并应在高度250m以上区域每间隔不超过20m与防雷装置连接一处，在高度100m～250m区域
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550242022_7_1_4_7
+  source_clause: GB 55024-2022#7.1.4
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 一处在高度
+    unit: m
+    condition: null
+    min_value: 100.0
+    max_value: 100.0
+  source_text: 高度超过250m或雷击次数大于0.42次/a的第二类防雷建筑物的雷电防护措施应符合下列规定或6m×4m；当采用滚球法保护时，滚球法保护半径不应大于130m。物应在顶端和底端与防雷装置连接，并应在高度250m以上区域每间隔不超过20m与防雷装置连接一处，在高度100m～250m区域
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550242022_7_1_4_8
+  source_clause: GB 55024-2022#7.1.4
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 处在高度m
+    unit: m
+    condition: null
+    min_value: 250.0
+    max_value: 250.0
+  source_text: 高度超过250m或雷击次数大于0.42次/a的第二类防雷建筑物的雷电防护措施应符合下列规定或6m×4m；当采用滚球法保护时，滚球法保护半径不应大于130m。物应在顶端和底端与防雷装置连接，并应在高度250m以上区域每间隔不超过20m与防雷装置连接一处，在高度100m～250m区域
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550242022_7_1_4_9
+  source_clause: GB 55024-2022#7.1.4
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 内每间隔
+    unit: m
+    condition: null
+    min_value: 50.0
+  source_text: 高度超过250m或雷击次数大于0.42次/a的第二类防雷建筑物的雷电防护措施应符合下列规定或6m×4m；当采用滚球法保护时，滚球法保护半径不应大于130m。物应在顶端和底端与防雷装置连接，并应在高度250m以上区域每间隔不超过20m与防雷装置连接一处，在高度100m～250m区域
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550242022_7_1_4_10
+  source_clause: GB 55024-2022#7.1.4
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 隔
+    unit: m
+    condition: null
+    min_value: 100.0
+  source_text: 高度超过250m或雷击次数大于0.42次/a的第二类防雷建筑物的雷电防护措施应符合下列规定或6m×4m；当采用滚球法保护时，滚球法保护半径不应大于130m。物应在顶端和底端与防雷装置连接，并应在高度250m以上区域每间隔不超过20m与防雷装置连接一处，在高度100m～250m区域
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550242022_7_1_4_11
+  source_clause: GB 55024-2022#7.1.4
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: m区域内在
+    unit: m
+    condition: null
+    min_value: 100.0
+    max_value: 100.0
+  source_text: 高度超过250m或雷击次数大于0.42次/a的第二类防雷建筑物的雷电防护措施应符合下列规定或6m×4m；当采用滚球法保护时，滚球法保护半径不应大于130m。物应在顶端和底端与防雷装置连接，并应在高度250m以上区域每间隔不超过20m与防雷装置连接一处，在高度100m～250m区域
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550242022_7_1_4_12
+  source_clause: GB 55024-2022#7.1.4
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 线连接高度
+    unit: m
+    condition: null
+    min_value: 250.0
+    max_value: 250.0
+  source_text: 高度超过250m或雷击次数大于0.42次/a的第二类防雷建筑物的雷电防护措施应符合下列规定或6m×4m；当采用滚球法保护时，滚球法保护半径不应大于130m。物应在顶端和底端与防雷装置连接，并应在高度250m以上区域每间隔不超过20m与防雷装置连接一处，在高度100m～250m区域
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550242022_7_1_4_13
+  source_clause: GB 55024-2022#7.1.4
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 置相连高度
+    unit: m
+    condition: null
+    min_value: 30.0
+    max_value: 30.0
+  source_text: 高度超过250m或雷击次数大于0.42次/a的第二类防雷建筑物的雷电防护措施应符合下列规定或6m×4m；当采用滚球法保护时，滚球法保护半径不应大于130m。物应在顶端和底端与防雷装置连接，并应在高度250m以上区域每间隔不超过20m与防雷装置连接一处，在高度100m～250m区域
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550242022_7_1_7_2
+  source_clause: GB 55024-2022#7.1.7
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 热镀锌圆钢直径
+    unit: mm
+    condition: 用作接闪杆
+    min_value: 20
+    max_value: null
+  source_text: '>防雷建筑物设置的接闪器应符合以下规定：受雷击的屋角、屋脊、女儿墙及屋檐等部位。应小于50mm。直径不应小于20mm，热镀锌钢管的直径不应小丁40mm。当采用金属屋面作为接闪器时，金属板应无绝缘层覆盖。必须为不燃或难燃材料。构成的屋顶上安装接闪器时，接闪器的支撑架应采用隔热层与可'
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+  _rule_synced: 20260908-133903
+- rule_id: R_GB550242022_7_1_7_3
+  source_clause: GB 55024-2022#7.1.7
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 热镀锌钢管直径
+    unit: mm
+    condition: 用作接闪杆
+    min_value: 40
+    max_value: 40
+  source_text: '>防雷建筑物设置的接闪器应符合以下规定：受雷击的屋角、屋脊、女儿墙及屋檐等部位。应小于50mm。直径不应小于20mm，热镀锌钢管的直径不应小丁40mm。当采用金属屋面作为接闪器时，金属板应无绝缘层覆盖。必须为不燃或难燃材料。构成的屋顶上安装接闪器时，接闪器的支撑架应采用隔热层与可'
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+  _rule_synced: 20260908-133903
+- rule_id: R_GB550242022_7_1_8_1
+  source_clause: GB 55024-2022#7.1.8
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 专设引下线
+    unit: mm
+    condition: null
+    min_value: 10.0
+  source_text: 防雷建筑物的防雷引下线应符合下列规定；1Z且不应少于2根。专用引下线或专设引下线应沿建筑物外轮廓均匀设置。当无结构钢筋或钢结构柱可利用时，应设置专设引下线。不应小于10mm。端应与防雷接地装置可靠连接。应采用下列一种或两种方法，防止跨步电压，接触电压和旁侧闪络电压对人员造成伤害：
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550242022_7_1_8_2
+  source_clause: GB 55024-2022#7.1.8
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 引下线在高
+    unit: m
+    condition: null
+    min_value: 2.7
+    max_value: 2.7
+  source_text: 防雷建筑物的防雷引下线应符合下列规定；1Z且不应少于2根。专用引下线或专设引下线应沿建筑物外轮廓均匀设置。当无结构钢筋或钢结构柱可利用时，应设置专设引下线。不应小于10mm。端应与防雷接地装置可靠连接。应采用下列一种或两种方法，防止跨步电压，接触电压和旁侧闪络电压对人员造成伤害：
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550242022_7_1_8_3
+  source_clause: GB 55024-2022#7.1.8
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 线水平距离
+    unit: m
+    condition: null
+    min_value: 3.0
+  source_text: 防雷建筑物的防雷引下线应符合下列规定；1Z且不应少于2根。专用引下线或专设引下线应沿建筑物外轮廓均匀设置。当无结构钢筋或钢结构柱可利用时，应设置专设引下线。不应小于10mm。端应与防雷接地装置可靠连接。应采用下列一种或两种方法，防止跨步电压，接触电压和旁侧闪络电压对人员造成伤害：
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550242022_7_1_9_1
+  source_clause: GB 55024-2022#7.1.9
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 圆钢的直径
+    unit: mm
+    condition: null
+    min_value: 10.0
+  source_text: 防雷建筑物防雷的接地装置应符合下列规定：装置时，钢筋或圆钢的直径不应小于10mm；基础内钢筋网作为防雷接地装置。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550242022_7_2_6_1
+  source_clause: GB 55024-2022#7.2.6
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 联结并接地
+    unit: mm²
+    condition: null
+    min_value: 25.0
+    max_value: 25.0
+  source_text: 除本规范第7V2.4条的规定外，智能化系统的接地应符合下列规定：S 或 TN-CS接地系统;X智能化系统及机房内电气设备和智能化设备的外露可导电部分、外界可导电部分、建筑物金属结构应等电位联结并接地；25mm²的铜材。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550242022_7_2_8_1
+  source_clause: GB 55024-2022#7.2.8
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 圆钢的直径
+    unit: mm
+    condition: null
+    min_value: 10.0
+  source_text: 接地装置应符合下列规定：筋或圆钢的直径不应小于10mm；管道作为电气设备的保护接地导体(PE)和接地极；接导体。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550242022_7_2_10_1
+  source_clause: GB 55024-2022#7.2.10
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 下列规定
+    unit: mm
+    condition: null
+    max_value: 16.0
+  source_text: 单独敷设的保护接地导体(PE)最小截面面积应符合下列规定：应小于16mm。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550242022_8_1_1_1
+  source_clause: GB 55024-2022#8.1.1
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 气含量达到
+    unit: '%'
+    condition: null
+    min_value: 18.0
+    max_value: 18.0
+  source_text: 对预充氮气的气体绝缘组合电气设备GIS）箱体，其组件安装前应经过排氮处理，并应对箱体内充干燥空气至氧气含量达到18%以上时，安装人员方可进入GIS箱体内部进行检查或安装。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550242022_8_2_2_1
+  source_clause: GB 55024-2022#8.2.2
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 空气中暴露
+    unit: m
+    condition: null
+    min_value: 15.0
+    max_value: 15.0
+  source_text: 充氮的变压器需吊罩检查时，器身必须在空气中暴露15min以上，待氮气充分扩散后进行。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550242022_8_2_4_1
+  source_clause: GB 55024-2022#8.2.4
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 查氧量达到
+    unit: '%'
+    condition: null
+    min_value: 18.0
+    max_value: 18.0
+  source_text: 油浸变压器进行器身检查时必须符合以下规定：气，不得进行器身检查；氧量达到18%以上时，人员方可进入；燥空气，应保持含氧量不低于18%，相对湿度不大于20%。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550242022_8_2_4_2
+  source_clause: GB 55024-2022#8.2.4
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 持含氧量
+    unit: '%'
+    condition: null
+    max_value: 18.0
+  source_text: 油浸变压器进行器身检查时必须符合以下规定：气，不得进行器身检查；氧量达到18%以上时，人员方可进入；燥空气，应保持含氧量不低于18%，相对湿度不大于20%。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550242022_8_2_4_3
+  source_clause: GB 55024-2022#8.2.4
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 相对湿度
+    unit: '%'
+    condition: null
+    min_value: 20.0
+  source_text: 油浸变压器进行器身检查时必须符合以下规定：气，不得进行器身检查；氧量达到18%以上时，人员方可进入；燥空气，应保持含氧量不低于18%，相对湿度不大于20%。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550242022_8_4_3_1
+  source_clause: GB 55024-2022#8.4.3
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 配电箱底座高出地坪高度
+    unit: mm
+    condition: null
+    min_value: 200.0
+    max_value: 200.0
+  source_text: 配电箱Y（柜）安装应符合下列规定200mm的底座上，底座周围应采取封闭措施；配电箱（柜）不应设置在水管接头的下方。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+  _rule_synced: 20260908-133903
+- rule_id: R_GB550242022_8_5_3_1
+  source_clause: GB 55024-2022#8.5.3
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 接头连接且
+    unit: mm
+    condition: null
+    min_value: 1.0
+  source_text: 灯具的安装应符合下列规定：灯具的固定应牢固可靠，在砌体和混凝土结构上严禁使用木楔、尼龙塞和塑料塞固定；人2I类灯具的外露可导电部分必须与保护接地导体可靠连接，连接处应设置接地标识管保护，不得裸露，柔性导管与灯具壳体应采用专用接头连接；且不应小于1mm；应与灯具的防护等级相同，且盒
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550242022_8_5_3_2
+  source_clause: GB 55024-2022#8.5.3
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 地面高度
+    unit: m
+    condition: null
+    min_value: 2.5
+  source_text: 灯具的安装应符合下列规定：灯具的固定应牢固可靠，在砌体和混凝土结构上严禁使用木楔、尼龙塞和塑料塞固定；人2I类灯具的外露可导电部分必须与保护接地导体可靠连接，连接处应设置接地标识管保护，不得裸露，柔性导管与灯具壳体应采用专用接头连接；且不应小于1mm；应与灯具的防护等级相同，且盒
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550242022_8_5_4_1
+  source_clause: GB 55024-2022#8.5.4
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 平顺且
+    unit: mm
+    condition: null
+    min_value: 3.0
+  source_text: 标志灯安装在疏散走道或通道的地面上时，应符合下列规定：标志灯管线的连接处应密封；标志灯表面应与地面平顺，且不应高于地面3mm。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550242022_8_7_1_1
+  source_clause: GB 55024-2022#8.7.1
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 靠连接全长
+    unit: m
+    condition: null
+    min_value: 30.0
+  source_text: 电缆桥架本体之间的连接应牢固可靠，金属电缆桥架与保护导体的连接应符合下列规定：可靠连接；全长大于30m时，每隔20m～30m应增加一个连接点，起始端和终点端均应可靠接地；导体，保护联结导体的截面面积应符合设计要求；每端不应少于2个有防松螺帽或防松垫圈的连接固定螺栓。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550242022_8_7_1_2
+  source_clause: GB 55024-2022#8.7.1
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 靠连接全长
+    unit: m
+    condition: null
+    min_value: 20.0
+  source_text: 电缆桥架本体之间的连接应牢固可靠，金属电缆桥架与保护导体的连接应符合下列规定：可靠连接；全长大于30m时，每隔20m～30m应增加一个连接点，起始端和终点端均应可靠接地；导体，保护联结导体的截面面积应符合设计要求；每端不应少于2个有防松螺帽或防松垫圈的连接固定螺栓。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550242022_8_7_1_3
+  source_clause: GB 55024-2022#8.7.1
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 全长
+    unit: m
+    condition: null
+    min_value: 30.0
+  source_text: 电缆桥架本体之间的连接应牢固可靠，金属电缆桥架与保护导体的连接应符合下列规定：可靠连接；全长大于30m时，每隔20m～30m应增加一个连接点，起始端和终点端均应可靠接地；导体，保护联结导体的截面面积应符合设计要求；每端不应少于2个有防松螺帽或防松垫圈的连接固定螺栓。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550242022_8_7_5_1
+  source_clause: GB 55024-2022#8.7.5
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 剔槽墙体截面长边限值
+    unit: mm
+    condition: null
+    min_value: 500.0
+    max_value: 500.0
+  source_text: 导管敷设应符合下列规定：500mm的承重墙体内剔槽埋设。或等于2mm的钢导管，不得采用套管熔焊连接。在盒、箱内或导管端部设置防水弯。严禁将柔性导管直埋于墙体内或楼（地）面内。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+  _rule_synced: 20260908-133903
+- rule_id: R_GB550242022_8_7_5_2
+  source_clause: GB 55024-2022#8.7.5
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 剔槽埋设
+    unit: mm
+    condition: null
+    min_value: 2.0
+    max_value: 2.0
+  source_text: 导管敷设应符合下列规定：500mm的承重墙体内剔槽埋设。或等于2mm的钢导管，不得采用套管熔焊连接。在盒、箱内或导管端部设置防水弯。严禁将柔性导管直埋于墙体内或楼（地）面内。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550242022_8_8_2_1
+  source_clause: GB 55024-2022#8.8.2
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 温层间距
+    unit: m
+    condition: null
+    min_value: 0.1
+  source_text: 专设引下线与可燃材料的墙壁或墙体保温层间距应大于0.1m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550242022_9_2_4_1
+  source_clause: GB 55024-2022#9.2.4
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 质量
+    unit: kg
+    condition: null
+    min_value: 10.0
+  source_text: 质量大于10kg的灯具，固定装置和悬吊装置应按灯具质量的5倍恒定均布荷载做强度试验，且不得大于固定点的设计最大荷载，持续时间不得少于15min。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550242022_9_2_4_2
+  source_clause: GB 55024-2022#9.2.4
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 持续时间
+    unit: min
+    condition: null
+    min_value: 15.0
+    max_value: 15.0
+  source_text: 质量大于10kg的灯具，固定装置和悬吊装置应按灯具质量的5倍恒定均布荷载做强度试验，且不得大于固定点的设计最大荷载，持续时间不得少于15min。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+  _rule_synced: 20260908-133903
+- rule_id: R_GB550242022_7_1_7_1
+  source_clause: GB 55024-2022#7.1.7
+  rule_type: validation
+  when:
+  - activity_type == '建筑电气设计'
+  - component_type IN ['IfcBuilding', 'IfcSystem']
+  then:
+    parameter: 接闪带截面面积
+    unit: mm²
+    condition: null
+    max_value: null
+    min_value: 50.0
+  source_text: '>防雷建筑物设置的接闪器应符合以下规定：受雷击的屋角、屋脊、女儿墙及屋檐等部位。应小于50mm。直径不应小于20mm，热镀锌钢管的直径不应小丁40mm。当采用金属屋面作为接闪器时，金属板应无绝缘层覆盖。必须为不燃或难燃材料。构成的屋顶上安装接闪器时，接闪器的支撑架应采用隔热层与可'
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+  _rule_restored: 20260908-134115
+  _rule_note: 原名 '檐等部位' 为 OCR 碎片，已按条文语义更正（上一轮误删回补）
+extraction_notes:
+- 全文强制性工程建设规范，全部条文必须严格执行（2022-10-01 实施）。台账已登记。

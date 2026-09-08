@@ -1,0 +1,6555 @@
+standard:
+  code: JGJ 100-2015
+  name: 车库建筑设计规范
+  name_note: null
+  version: '2015'
+  status: 现行
+  is_abolished: false
+  effective_date: null
+  abolished_date: null
+  superseded_by: null
+  standard_category: 行业标准
+  domain:
+  - 车库
+  - 建筑设计
+  region_scope: 全国
+  region_codes: []
+  has_mandatory_clauses: true
+  mandatory_clause_count: 2
+  mandatory_note: null
+  total_clauses: 155
+  related_standards:
+  - code: GB 55031-2022
+    relationship: 上位通用规范（已废止本规范相关强条效力）
+  - code: GB 50067
+    relationship: 协调（车库防火）
+  clauses:
+  - JGJ 100-2015#1.0.1
+  - JGJ 100-2015#1.0.2
+  - JGJ 100-2015#1.0.4
+  - JGJ 100-2015#1.0.5
+  - JGJ 100-2015#1.0.6
+  - JGJ 100-2015#2.0.1
+  - JGJ 100-2015#2.0.2
+  - JGJ 100-2015#2.0.3
+  - JGJ 100-2015#2.0.4
+  - JGJ 100-2015#2.0.5
+  - JGJ 100-2015#2.0.6
+  - JGJ 100-2015#2.0.7
+  - JGJ 100-2015#2.0.8
+  - JGJ 100-2015#2.0.10
+  - JGJ 100-2015#2.0.11
+  - JGJ 100-2015#2.0.12
+  - JGJ 100-2015#2.0.13
+  - JGJ 100-2015#2.0.14
+  - JGJ 100-2015#2.0.15
+  - JGJ 100-2015#2.0.16
+  - JGJ 100-2015#2.0.17
+  - JGJ 100-2015#2.0.18
+  - JGJ 100-2015#2.0.19
+  - JGJ 100-2015#2.0.20
+  - JGJ 100-2015#2.0.21
+  - JGJ 100-2015#2.0.22
+  - JGJ 100-2015#2.0.23
+  - JGJ 100-2015#2.0.24
+  - JGJ 100-2015#2.0.25
+  - JGJ 100-2015#2.0.26
+  - JGJ 100-2015#2.0.27
+  - JGJ 100-2015#2.0.28
+  - JGJ 100-2015#2.0.29
+  - JGJ 100-2015#2.0.30
+  - JGJ 100-2015#2.0.31
+  - JGJ 100-2015#2.0.32
+  - JGJ 100-2015#2.0.33
+  - JGJ 100-2015#2.0.34
+  - JGJ 100-2015#2.0.35
+  - JGJ 100-2015#2.0.36
+  - JGJ 100-2015#2.0.37
+  - JGJ 100-2015#2.0.38
+  - JGJ 100-2015#2.0.39
+  - JGJ 100-2015#3.1.1
+  - JGJ 100-2015#3.1.2
+  - JGJ 100-2015#3.1.3
+  - JGJ 100-2015#3.1.4
+  - JGJ 100-2015#3.1.5
+  - JGJ 100-2015#3.1.6
+  - JGJ 100-2015#3.1.7
+  - JGJ 100-2015#3.2.1
+  - JGJ 100-2015#3.2.2
+  - JGJ 100-2015#3.2.3
+  - JGJ 100-2015#3.2.4
+  - JGJ 100-2015#3.2.5
+  - JGJ 100-2015#3.2.6
+  - JGJ 100-2015#3.2.7
+  - JGJ 100-2015#3.2.8
+  - JGJ 100-2015#3.2.9
+  - JGJ 100-2015#3.2.10
+  - JGJ 100-2015#3.2.11
+  - JGJ 100-2015#3.2.12
+  - JGJ 100-2015#3.2.13
+  - JGJ 100-2015#3.2.14
+  - JGJ 100-2015#4.1.2
+  - JGJ 100-2015#4.1.5
+  - JGJ 100-2015#4.1.6
+  - JGJ 100-2015#4.1.7
+  - JGJ 100-2015#4.1.8
+  - JGJ 100-2015#4.1.9
+  - JGJ 100-2015#4.1.10
+  - JGJ 100-2015#4.1.11
+  - JGJ 100-2015#4.2.1
+  - JGJ 100-2015#4.2.2
+  - JGJ 100-2015#4.2.3
+  - JGJ 100-2015#4.2.4
+  - JGJ 100-2015#4.2.5
+  - JGJ 100-2015#4.2.6
+  - JGJ 100-2015#4.2.8
+  - JGJ 100-2015#4.2.9
+  - JGJ 100-2015#4.2.10
+  - JGJ 100-2015#4.3.1
+  - JGJ 100-2015#4.3.2
+  - JGJ 100-2015#4.3.3
+  - JGJ 100-2015#4.3.4
+  - JGJ 100-2015#4.3.5
+  - JGJ 100-2015#4.3.6
+  - JGJ 100-2015#4.3.7
+  - JGJ 100-2015#4.3.8
+  - JGJ 100-2015#4.3.10
+  - JGJ 100-2015#4.3.11
+  - JGJ 100-2015#4.4.1
+  - JGJ 100-2015#4.4.2
+  - JGJ 100-2015#4.4.3
+  - JGJ 100-2015#4.4.4
+  - JGJ 100-2015#4.4.5
+  - JGJ 100-2015#4.4.6
+  - JGJ 100-2015#4.4.7
+  - JGJ 100-2015#4.4.8
+  - JGJ 100-2015#4.4.10
+  - JGJ 100-2015#5.1.1
+  - JGJ 100-2015#5.1.2
+  - JGJ 100-2015#5.1.3
+  - JGJ 100-2015#5.1.4
+  - JGJ 100-2015#5.1.5
+  - JGJ 100-2015#5.2.1
+  - JGJ 100-2015#5.2.2
+  - JGJ 100-2015#5.3.1
+  - JGJ 100-2015#5.3.2
+  - JGJ 100-2015#5.3.3
+  - JGJ 100-2015#5.3.4
+  - JGJ 100-2015#5.3.6
+  - JGJ 100-2015#5.3.7
+  - JGJ 100-2015#5.3.8
+  - JGJ 100-2015#5.4.1
+  - JGJ 100-2015#5.4.2
+  - JGJ 100-2015#6.1.1
+  - JGJ 100-2015#6.1.2
+  - JGJ 100-2015#6.1.3
+  - JGJ 100-2015#6.1.4
+  - JGJ 100-2015#6.2.1
+  - JGJ 100-2015#6.2.2
+  - JGJ 100-2015#6.2.4
+  - JGJ 100-2015#6.2.5
+  - JGJ 100-2015#6.2.6
+  - JGJ 100-2015#6.3.1
+  - JGJ 100-2015#6.3.3
+  - JGJ 100-2015#6.4.1
+  - JGJ 100-2015#6.4.2
+  - JGJ 100-2015#6.4.3
+  - JGJ 100-2015#6.4.6
+  - JGJ 100-2015#7.1.1
+  - JGJ 100-2015#7.2.1
+  - JGJ 100-2015#7.2.2
+  - JGJ 100-2015#7.2.3
+  - JGJ 100-2015#7.2.4
+  - JGJ 100-2015#7.2.5
+  - JGJ 100-2015#7.2.6
+  - JGJ 100-2015#7.2.7
+  - JGJ 100-2015#7.3.1
+  - JGJ 100-2015#7.3.2
+  - JGJ 100-2015#7.3.3
+  - JGJ 100-2015#7.3.4
+  - JGJ 100-2015#7.3.9
+  - JGJ 100-2015#7.4.1
+  - JGJ 100-2015#7.4.2
+  - JGJ 100-2015#7.4.3
+  - JGJ 100-2015#7.4.4
+  - JGJ 100-2015#7.4.5
+  - JGJ 100-2015#7.4.6
+  - JGJ 100-2015#7.4.7
+  - JGJ 100-2015#7.4.8
+  - JGJ 100-2015#7.4.9
+  - JGJ 100-2015#7.4.10
+  - JGJ 100-2015#7.4.11
+  schema_version: v2.1
+  last_reviewed_date: '2026-09-07'
+clauses:
+- id: JGJ 100-2015#1.0.1
+  standard_code: JGJ 100-2015
+  chapter: 1 总则
+  section: ''
+  clause_no: 1.0.1
+  text: 为适应城镇建设发展需要，使车库建筑设计符合适用、安全、卫生、经济、环保、节能等基本要求，制定本规范。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#1.0.2
+  standard_code: JGJ 100-2015
+  chapter: 1 总则
+  section: ''
+  clause_no: 1.0.2
+  text: 本规范适用于新建、扩建和改建的机动车库和非机动车库的建筑设计。按建设方式可划分为独立式和附建式。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 本规范适用于新建、扩建和改建的机动车库和非机动车库的建筑设计。
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: may
+    modal_words:
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#1.0.4
+  standard_code: JGJ 100-2015
+  chapter: 1 总则
+  section: ''
+  clause_no: 1.0.4
+  text: 机动车车库建筑规模应按停车当量数划分为特大型、大型、中型、小型，非机动车库应按停车当量数划分为大型、中型、小型。车库建筑规模及停车当量数应符合
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表1.0.4
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表1.0.4的规定。表1.0.4车库建筑规模及停车当量数当量数特大型大型中型小型类型机动车库停车当量数>1000301~100051～300非机动车库停车当量数>500251~500≤250
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#1.0.5
+  standard_code: JGJ 100-2015
+  chapter: 1 总则
+  section: ''
+  clause_no: 1.0.5
+  text: 车库建筑设计应使用方便、安全可靠、技术先进、经济合理，并应满足所在城市及地区交通管理的要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#1.0.6
+  standard_code: JGJ 100-2015
+  chapter: 1 总则
+  section: ''
+  clause_no: 1.0.6
+  text: 车库建筑设计，除应符合本规范外，尚应符合国家现行有关标准的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#2.0.1
+  standard_code: JGJ 100-2015
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.1
+  text: 车库parkinggarage停放机动车、非机动车的建筑物。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#2.0.2
+  standard_code: JGJ 100-2015
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.2
+  text: 机动车motor vehicle以动力装置驱动或牵引，在道路上行驶的，供人员乘用或用于运送物品以及进行工程专项作业的轮式车辆。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#2.0.3
+  standard_code: JGJ 100-2015
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.3
+  text: 非机动车non-motor vehicle以人力驱动，在道路上行驶的交通工具以及虽有动力装置驱动但设计最高时速、空车质量外形尺寸符合国家有关标准的电动自行车、残疾人机动轮椅车等交通工具。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#2.0.4
+  standard_code: JGJ 100-2015
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.4
+  text: 机动车库motor vehicle garage览专停放机动车的建筑物。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#2.0.5
+  standard_code: JGJ 100-2015
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.5
+  text: 非机动车库　non-motor vehicle garage停放非机动车的建筑物。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#2.0.6
+  standard_code: JGJ 100-2015
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.6
+  text: 地下车库　underground garage室内地坪低于室外地坪高度超过该层净高1/2的车库。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#2.0.7
+  standard_code: JGJ 100-2015
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.7
+  text: 独立式车库　detached garage单独建造的，具有独立完整的建筑主体结构与设备系统的车库。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#2.0.8
+  standard_code: JGJ 100-2015
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.8
+  text: 附建式车库 garage attached to building 与其他建筑物或构筑物结合建造，并共用或部分共用建筑主 体结构与设备系统的车库。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#2.0.10
+  standard_code: JGJ 100-2015
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.10
+  text: 开式机动车库open motor vehicle garage任一层车库外墙敬开面积超过该层四周外墙体总面积的25%，且开区域均匀布置在外墙上且其长度不小于车库周长的50%的机动车库。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 开面积
+    unit: '%'
+    condition: null
+    min_value: 25.0
+    max_value: null
+  - name: 上且其长度
+    unit: '%'
+    condition: null
+    min_value: 50.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#2.0.11
+  standard_code: JGJ 100-2015
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.11
+  text: 机械式机动车库mechanicalmotorvehiclegarage采用机械式停车设备存取、停放机动车的车库。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#2.0.12
+  standard_code: JGJ 100-2015
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.12
+  text: 全自动机动车库fully automaticmechanical motorvehicle garage室内无车道，且无驾驶员进出的机械式机动车库。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#2.0.13
+  standard_code: JGJ 100-2015
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.13
+  text: 停车当量equivalent parking ynit用于协调各种不同车型，便于统计与计算停车数量、停车位大小等数据而设定的标准参考车型单元。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#2.0.14
+  standard_code: JGJ 100-2015
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.14
+  text: 停车位 parkingstalN车库中为停放车辆而划分的停车空间或机械式停车设备中停放车辆的独立单元，由车辆本身的尺寸加四周所需的距离组成。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#2.0.15
+  standard_code: JGJ 100-2015
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.15
+  text: 停车区域parking area车库中车辆行驶与停放的空间，主要由停车位与通车道组成。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#2.0.16
+  standard_code: JGJ 100-2015
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.16
+  text: 坡道式出入口　entrance/exit of ramp机动车库中通过坡道进行室内外车辆交通联系的部位。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#2.0.17
+  standard_code: JGJ 100-2015
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.17
+  text: ，升降梯式出入口　entrance/exit of elevator机动车库中通过升降梯进行室内外车辆交通联系的部位。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#2.0.18
+  standard_code: JGJ 100-2015
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.18
+  text: 平人式出口　entrance/exit of straight-in机动车库中由室外场地直接出入停车区域的部位。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#2.0.19
+  standard_code: JGJ 100-2015
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.19
+  text: 车道lane在车行道路上供单一纵列车辆行驶的部分。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#2.0.20
+  standard_code: JGJ 100-2015
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.20
+  text: 缓坡段transition slope当坡道坡度较大时，为避免机动车的底部在坡道两端碰擦地面而设置的缓和坡段。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#2.0.21
+  standard_code: JGJ 100-2015
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.21
+  text: 弯道超高super elevation at curve为平衡机动车在弯道上行驶所产生的离心力所设置的弯道横向坡度而形成的高差。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#2.0.22
+  standard_code: JGJ 100-2015
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.22
+  text: 机动车最小转弯半径vehicularminimumturningradius机动车回转时，当转向盘转到极限位置，机动车以最低稳定车速转向行驶时，外侧转向轮的中心平面在支承平面上滚过的轨迹圆半径，表示机动车能够通过狭窄弯曲地带或绕过不可越过的障碍物的能力。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: may
+    modal_words:
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#2.0.23
+  standard_code: JGJ 100-2015
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.23
+  text: 机动车环形外半径circularouterradiusofvehicle以回转圆心为参考点，机动车回转时其外侧最远端循圆曲线行走轨迹的半径。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#2.0.24
+  standard_code: JGJ 100-2015
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.24
+  text: 机动车环形内半径　circularinner radius of vehicle以回转圆心为参考点，机动车回转时其内侧最近端循圆曲线行走轨迹的半径。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#2.0.25
+  standard_code: JGJ 100-2015
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.25
+  text: 环形车道外半径，outer radius of the circular lane以回转圆心为参考点，机动车回转时其外侧最远端循圆曲线行走的轨迹半径加上机动车最远端至环形车道外边的安全距离。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#2.0.26
+  standard_code: JGJ 100-2015
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.26
+  text: 环形车道内半径　inner radius of the circular lane以回转圆心为参考点，机动车回转时其内侧最近端循圆曲线行走的轨迹半径减去机动车最近端至环形车道外边的安全距离。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#2.0.27
+  standard_code: JGJ 100-2015
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.27
+  text: 机动车道路转弯半径turning radius of the vehicle lane能够保持机动车辆正常行驶与转弯状态下的弯道内侧道路边缘处半径。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#2.0.28
+  standard_code: JGJ 100-2015
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.28
+  text: 机械式停车设备mechanicalparkingdevices采用机械方法存取、停放机动车的机械装置或设备系统。简称停车设备。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#2.0.29
+  standard_code: JGJ 100-2015
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.29
+  text: 升降横移类停车设备lift-sliding mechanicalparking system利用存车板或其他载车装置升降和横向平移存取汽车的机械式停车设备。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#2.0.30
+  standard_code: JGJ 100-2015
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.30
+  text: 垂直循环类停车设备vertical liftingmechanicalparking system使用垂直循环机构使车位产生垂直循环运动到达出入口层而存取汽车的机械式停车设备。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#2.0.31
+  standard_code: JGJ 100-2015
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.31
+  text: 水平循环类停车设备horizontalcirculatingmechanicalparking system使用水平循环机构使车位产生水平循环运动到达升降机或出入口而存取汽车的机械式停车设备。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#2.0.32
+  standard_code: JGJ 100-2015
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.32
+  text: 多层循环类停车设备multi-tiercirculatingmechanicalparking system用循环运动的车位系统存取停放多层车辆的机械式停车设备。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#2.0.33
+  standard_code: JGJ 100-2015
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.33
+  text: 平面移动类停车设备Hhorizontal shifting mechanicalparking system在同一水平层上用搬运器平面移动汽车或载车板，实现存取汽车的机械式停车设备多层平面移动类机械式停车设备还需使用升降机来实现不同层间的升降。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#2.0.34
+  standard_code: JGJ 100-2015
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.34
+  text: 巷道堆垛类停车设备stacking mechanical parking system使用巷道堆垛机，将汽车水平且垂直移动到停车位旁，并用存取交接机构存取汽车的机械式停车设备。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#2.0.35
+  standard_code: JGJ 100-2015
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.35
+  text: 垂直升降类停车设备vertical lifting mechanical parkingsystem使用升降机将汽车升降到指定层，并用存取交接机构存取汽车的机械式停车设备。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#2.0.36
+  standard_code: JGJ 100-2015
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.36
+  text: 简易升降类停车设备parkinglift使用升降或俯仰机构使汽车存入或取出的机械式停车设备。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#2.0.37
+  standard_code: JGJ 100-2015
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.37
+  text: 机动车专用升降机liftforvehicle用于停车库出入口至不同停车楼层间升降搬运汽车的机械装置。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#2.0.38
+  standard_code: JGJ 100-2015
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.38
+  text: ：自行车停车架bicyclestand/rack停放自行车以便于管理、存取的构架。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#2.0.39
+  standard_code: JGJ 100-2015
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.39
+  text: 复式自行车停车架multi-tierbicyclestand/rack在同一楼层内停放两层或两层以上自行车的构架。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#3.1.1
+  standard_code: JGJ 100-2015
+  chapter: 3 基地和总平面
+  section: 3.1基地
+  clause_no: 3.1.1
+  text: 车库基地的选择应符合城镇的总体规划、道路交通规划、环境保护及防火等要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#3.1.2
+  standard_code: JGJ 100-2015
+  chapter: 3 基地和总平面
+  section: 3.1基地
+  clause_no: 3.1.2
+  text: 车库基地的选择应充分利用城市土地资源，地下车库宜结合城市地下空间开发及地下人防设施进行设置。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#3.1.3
+  standard_code: JGJ 100-2015
+  chapter: 3 基地和总平面
+  section: 3.1基地
+  clause_no: 3.1.3
+  text: 专用车库基地宜设在单位专用的用地范围内；公共车库基地应选择在停车需求大的位置，并宜与主要服务对象位于城市道路的同侧。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#3.1.4
+  standard_code: JGJ 100-2015
+  chapter: 3 基地和总平面
+  section: 3.1基地
+  clause_no: 3.1.4
+  text: 机动车库的服务半径不宜大于500m，非机动车库的服务半径不宜大于100m。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: should
+    modal_words:
+    - 不宜
+    - 宜
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 务半径
+    unit: m
+    condition: null
+    min_value: 500.0
+    max_value: null
+  - name: 务半径
+    unit: m
+    condition: null
+    min_value: 100.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#3.1.5
+  standard_code: JGJ 100-2015
+  chapter: 3 基地和总平面
+  section: 3.1基地
+  clause_no: 3.1.5
+  text: 特大型大型、中型机动车库的基地宜临近城市道路；不相邻时，应设置通道连接。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#3.1.6
+  standard_code: JGJ 100-2015
+  chapter: 3 基地和总平面
+  section: 3.1基地
+  clause_no: 3.1.6
+  text: 车库基地出人口的设计应符合下列规定：基地出人口的数量和位置应符合现行国家标准《民用建筑设计通则》GB50352的规定及城市交通规划和管理的有关规定；2基地出人口不应直接与城市快速路相连接，且不宜直接与城市主干路相连接；3基地主要出入口的宽度不应小于4m，并应保证出入口与内部通道衔接的顺畅；4当需在基地出入口办理车辆出入手续时，出入口处应设置候车道，且不应占用城市道路；机动车候车道宽度不应小于4m、长度不应小于10m，非机动车应留有等候空间；5机动车库基地出入口应具有通视条件，与城市道路连接的出人口地面坡度不宜大于5%；6机动车库基地出入口处的机动车道路转弯半径不宜小于6m，且应满足基地通行车辆最小转弯半径的要求；7相邻机动车库基地出入口之间的最小距离不应小于15m，且不应小于两出入口道路转弯半径之和。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 入口的宽度
+    unit: m
+    condition: null
+    min_value: 4.0
+    max_value: null
+  - name: 候车道宽度
+    unit: m
+    condition: null
+    min_value: 4.0
+    max_value: null
+  - name: 道宽度
+    unit: m
+    condition: null
+    min_value: 10.0
+    max_value: null
+  - name: 面坡度
+    unit: '%'
+    condition: null
+    min_value: 5.0
+    max_value: null
+  - name: 弯半径
+    unit: m
+    condition: null
+    min_value: null
+    max_value: 6.0
+  - name: 最小距离
+    unit: m
+    condition: null
+    min_value: 15.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50352
+    target_clause: null
+    original_text: 车库基地出人口的设计应符合下列规定：基地出人口的数量和位置应符合现行国家标准《民用建筑设计通则》GB50352的规定及城市交通规划和管理的有关规定；2基地出人口不应直接与城市快速路相连接，且
+    resolution_status: resolved
+    resolution_note: 库内标准（GB 50352-2019），可交叉引用并确认具体参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#3.1.7
+  standard_code: JGJ 100-2015
+  chapter: 3 基地和总平面
+  section: 3.1基地
+  clause_no: 3.1.7
+  text: 机动车库基地出入口应设置减速安全设施。
+  is_abolished: true
+  abolished_date: '2023-03-01'
+  superseded_by: GB 55031-2022
+  abolition_note: 被《GB 55031-2022》废止强制性条文效力（住房城乡建设部公告，2023-03-01实施）
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 黑体强制性条文
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#3.2.1
+  standard_code: JGJ 100-2015
+  chapter: 3 基地和总平面
+  section: 3.2总平面
+  clause_no: 3.2.1
+  text: 车库总平面可根据需要设置车库区、管理区、服务设施、辅助设施等。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: may
+    modal_words:
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#3.2.2
+  standard_code: JGJ 100-2015
+  chapter: 3 基地和总平面
+  section: 3.2总平面
+  clause_no: 3.2.2
+  text: 车库总平面的功能分区应合理，交通组织应安全、便捷、顺畅。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#3.2.3
+  standard_code: JGJ 100-2015
+  chapter: 3 基地和总平面
+  section: 3.2总平面
+  clause_no: 3.2.3
+  text: 在停车需求较大的区域，机动车库的总平面布局宜有利于提高停车高峰时段停车库的使用效率。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: should
+    modal_words:
+    - 宜
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#3.2.4
+  standard_code: JGJ 100-2015
+  chapter: 3 基地和总平面
+  section: 3.2总平面
+  clause_no: 3.2.4
+  text: 车库总平面的防火设计应符合现行国家标准《建筑设计防火规范》GB50016和《汽车库、修车库、停车场设计防火规范》GB 50067的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50016
+    target_clause: null
+    original_text: 车库总平面的防火设计应符合现行国家标准《建筑设计防火规范》GB50016和《汽车库、修车库、停车场设计防火规范》GB 50067的规定。
+    resolution_status: resolved
+    resolution_note: 库内标准（GB 50016-2014），可交叉引用并确认具体参数
+  - target_standard: GB 50067
+    target_clause: null
+    original_text: 车库总平面的防火设计应符合现行国家标准《建筑设计防火规范》GB50016和《汽车库、修车库、停车场设计防火规范》GB 50067的规定。
+    resolution_status: resolved
+    resolution_note: 库内标准（GB 50067-2014），可交叉引用并确认具体参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#3.2.5
+  standard_code: JGJ 100-2015
+  chapter: 3 基地和总平面
+  section: 3.2总平面
+  clause_no: 3.2.5
+  text: 车库总平面内，单向行驶的机动车道宽度不应小于4m，双向行驶的小型车道不应小于6m，双向行驶的中型车以上车道不应小于7m；单向行驶的非机动车道宽度不应小于1.5m，双向行驶不宜小于3.5m。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 动车道宽度
+    unit: m
+    condition: null
+    min_value: 4.0
+    max_value: null
+  - name: 小型车道
+    unit: m
+    condition: null
+    min_value: 6.0
+    max_value: null
+  - name: 车以上车道
+    unit: m
+    condition: null
+    min_value: 7.0
+    max_value: null
+  - name: 动车道宽度
+    unit: m
+    condition: null
+    min_value: 1.5
+    max_value: null
+  - name: 未识别对象
+    unit: m
+    condition: null
+    min_value: null
+    max_value: 3.5
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#3.2.6
+  standard_code: JGJ 100-2015
+  chapter: 3 基地和总平面
+  section: 3.2总平面
+  clause_no: 3.2.6
+  text: 机动车道路转弯半径应根据通行车辆种类确定。微型、小型车道路转弯半径不应小于3.5m；消防车道转弯半径应满足消防车辆最小转弯半径要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 路转弯半径
+    unit: m
+    condition: null
+    min_value: 3.5
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#3.2.7
+  standard_code: JGJ 100-2015
+  chapter: 3 基地和总平面
+  section: 3.2总平面
+  clause_no: 3.2.7
+  text: 道路转弯时，应保证良好的通视条件，弯道内侧的边坡、绿化及建（构）筑物等均不应影响行车视距。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#3.2.8
+  standard_code: JGJ 100-2015
+  chapter: 3 基地和总平面
+  section: 3.2总平面
+  clause_no: 3.2.8
+  text: 地下车库排风口宜设于下风向，并应做消声处理。排风口不应朝向邻近建筑的可开启外窗；当排风口与人员活动场所的距离小于10m时，朝向人员活动场所的排风口底部距人员活动地坪的高度不应小于2.5m。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 场所的距离
+    unit: m
+    condition: null
+    min_value: null
+    max_value: 10.0
+  - name: 地坪的高度
+    unit: m
+    condition: null
+    min_value: 2.5
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#3.2.9
+  standard_code: JGJ 100-2015
+  chapter: 3 基地和总平面
+  section: 3.2总平面
+  clause_no: 3.2.9
+  text: 允许车辆通行的道路、广场，应满足车辆行驶和停放的要求，且面层应平整、防滑、耐磨。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#3.2.10
+  standard_code: JGJ 100-2015
+  chapter: 3 基地和总平面
+  section: 3.2总平面
+  clause_no: 3.2.10
+  text: 车库总平面内的道路、广场应有良好的排水系统，道路纵坡坡度不应小于0.2%，广场坡度不应小于0.3%。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 路纵坡坡度
+    unit: '%'
+    condition: null
+    min_value: 0.2
+    max_value: null
+  - name: 于广场坡度
+    unit: '%'
+    condition: null
+    min_value: 0.3
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#3.2.11
+  standard_code: JGJ 100-2015
+  chapter: 3 基地和总平面
+  section: 3.2总平面
+  clause_no: 3.2.11
+  text: 车库总平面内的道路纵坡坡度应符合现行国家标准《民用建筑设计通则》GB50352的最大限值的规定。当机动车道路纵坡相对坡度大于8%时，应设缓坡段与城市道路连接。对于机动车与非机动车混行的道路，其纵坡的坡度应满足非机动车道路纵坡的最大限值要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 坡相对坡度
+    unit: '%'
+    condition: null
+    min_value: 8.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50352
+    target_clause: null
+    original_text: 车库总平面内的道路纵坡坡度应符合现行国家标准《民用建筑设计通则》GB50352的最大限值的规定。
+    resolution_status: resolved
+    resolution_note: 库内标准（GB 50352-2019），可交叉引用并确认具体参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#3.2.12
+  standard_code: JGJ 100-2015
+  chapter: 3 基地和总平面
+  section: 3.2总平面
+  clause_no: 3.2.12
+  text: 车库总平面场地内，车辆能够到达的区域应有照明设施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#3.2.13
+  standard_code: JGJ 100-2015
+  chapter: 3 基地和总平面
+  section: 3.2总平面
+  clause_no: 3.2.13
+  text: 车库总平面内宜设置电动车辆的充电设施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: should
+    modal_words:
+    - 宜
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#3.2.14
+  standard_code: JGJ 100-2015
+  chapter: 3 基地和总平面
+  section: 3.2总平面
+  clause_no: 3.2.14
+  text: 车库总平面内应有交通标识引导系统和交通安全设施；对社会开放的机动车库场地内宜根据需要设置停车诱导系统、电子收费系统、广播系统等。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#4.1.2
+  standard_code: JGJ 100-2015
+  chapter: 4 机动车库
+  section: 4.1一般规定
+  clause_no: 4.1.2
+  text: 机动车库应以小型车为计算当量进行停车当量的换算，各类车辆的换算当量系数应符合
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表4.1.2
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表4.1.2的规定。表4.1.2#机动车换算当量系数车型微型车小型车轻型车中型车大型车换算系数0.71.01.52.02.54.1. 3机动车最小转弯半径应符合表4.1.3的规定。表4.1.3机动车最小转弯半径车型最小转弯半径ri（m）微型车4.50小型车6.00轻型车6.00~7.20中型车7.20~9.00大型车9.00-10.504.1. 4机动车的环形车道最小外半径（R。）和内半径（ro）的尺寸应按下列公式计算（图4.1.4）车头住房城乡图4.1.4机动车环形车道平面图W= Ro- ro(4.1.4-1)R。=R+r(4.1.4-2)(4.1.4-3)ro =r-yR=V(L+d)²+(r+b)?(4.1. 4-4)r=V-_bn(4.1.4-5)式中：a机动车长度；一机动车宽度；前悬尺寸；后悬尺寸；轴距；后轮距；公开前轮距；机动车最小转弯半径（按本规范表_3取值)；环形车道外半径；部信息ro环形车道内半径；R-机动车环行外半径；机动车环行内半径；环形车道最小净宽（按本规范表4.2.10-1取值）；机动车环行时最外点至环道外边安全距离，宜大于或等于250mm当两侧为连续障碍物时宜大于或等于500mm;机动车环行时最内点至环道内边安全距离，宜大于或等于250mm，当两侧为连续障碍物时宜大于或等于500mm。
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#4.1.5
+  standard_code: JGJ 100-2015
+  chapter: 4 机动车库
+  section: 4.1一般规定
+  clause_no: 4.1.5
+  text: 机动车之间以及机动车与墙、柱、护栏之间的最小净距应符合
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表4.1.5
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表4.1.5的规定。表4.1.5机动车之间以及机动车与墙、柱、护栏之间最小净距机动车类型微型车、中型车、轻型车项目小型车大型车平行式停车时机动车间纵向净距（m）1.201.202.40垂直式、斜列式停车时机动车间纵向净距（m）0.500.700.80机动车间横向净距（m）0.600.801.00机动车与柱间净距（m）0.300.300.40机动车与墙、护栏及其他纵向0.500.500.50构筑物间净距（m)横向0.600.801.00注：1纵向指机动车长度方向、横向指机动车宽度方向；2净距指最近距离，当墙、柱外有突出物时，从其凸出部分外缘算起。
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#4.1.6
+  standard_code: JGJ 100-2015
+  chapter: 4 机动车库
+  section: 4.1一般规定
+  clause_no: 4.1.6
+  text: 按管理方式，机动车库宜设置值班室、管理办公室、控制室、休息室、储藏室、卫生间等辅助用房。控制室可独立设置或与其他管理用房合用，且宜设于机动车库中心或出入口附近。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: should
+    modal_words:
+    - 宜
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#4.1.7
+  standard_code: JGJ 100-2015
+  chapter: 4 机动车库
+  section: 4.1一般规定
+  clause_no: 4.1.7
+  text: 对于出入口及坡道与停车区域，每层交通流线应周转畅通，且应形成上行、下行连续不断的通路，并应防止上、下行车辆交叉。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#4.1.8
+  standard_code: JGJ 100-2015
+  chapter: 4 机动车库
+  section: 4.1一般规定
+  clause_no: 4.1.8
+  text: 当机动车库采取天然采光时，天然采光系数不宜小于0.5%或其窗地面积比宜大于1：15，且车库及坡道应设有防眩光设施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 光系数
+    unit: '%'
+    condition: null
+    min_value: null
+    max_value: 0.5
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#4.1.9
+  standard_code: JGJ 100-2015
+  chapter: 4 机动车库
+  section: 4.1一般规定
+  clause_no: 4.1.9
+  text: 四层及以上的多层机动车库或地下三层及以下机动车库应设置乘客电梯，电梯的服务半径不宜大于60m。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 务半径
+    unit: m
+    condition: null
+    min_value: 60.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#4.1.10
+  standard_code: JGJ 100-2015
+  chapter: 4 机动车库
+  section: 4.1一般规定
+  clause_no: 4.1.10
+  text: 机动车库内的标志和标线应符合下列规定：应在每层出入口的显著部位设置标明楼层和行驶方向的标志；应在楼地面上用彩色线条标明行驶方向、用10cm～15cm宽线条标明停车位；3在各层柱间及通车道尽端，应设置停车区位的标志。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 行驶方向用
+    unit: cm
+    condition: null
+    min_value: 10.0
+    max_value: 10.0
+  - name: 方向用cm
+    unit: cm
+    condition: null
+    min_value: 15.0
+    max_value: 15.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#4.1.11
+  standard_code: JGJ 100-2015
+  chapter: 4 机动车库
+  section: 4.1一般规定
+  clause_no: 4.1.11
+  text: ，设有道闸的机动车库，道闽应设置在车库出入口附近的平坡段上，并应留出方便驾驶员操作的空间。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#4.2.1
+  standard_code: JGJ 100-2015
+  chapter: 4 机动车库
+  section: 4.2出入口及坡道
+  clause_no: 4.2.1
+  text: 按出入方式，机动车库出人口可分为平人式、坡道式、升降梯式三种类型。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: may
+    modal_words:
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#4.2.2
+  standard_code: JGJ 100-2015
+  chapter: 4 机动车库
+  section: 4.2出入口及坡道
+  clause_no: 4.2.2
+  text: 车辆出入口的最小间距不应小于15m，并宜与基地内部道路相接通，当直接通向城市道路时，应符合本规范第3.1.6条的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 最小间距
+    unit: m
+    condition: null
+    min_value: 15.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#4.2.3
+  standard_code: JGJ 100-2015
+  chapter: 4 机动车库
+  section: 4.2出入口及坡道
+  clause_no: 4.2.3
+  text: 机动车库出入口应按现行国家标准《民用建筑设计通则》GB50352的有关规定设缓冲段与基地道路连通。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50352
+    target_clause: null
+    original_text: 机动车库出入口应按现行国家标准《民用建筑设计通则》GB50352的有关规定设缓冲段与基地道路连通。
+    resolution_status: resolved
+    resolution_note: 库内标准（GB 50352-2019），可交叉引用并确认具体参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#4.2.4
+  standard_code: JGJ 100-2015
+  chapter: 4 机动车库
+  section: 4.2出入口及坡道
+  clause_no: 4.2.4
+  text: 车辆出入口宽度，双向行驶时不应小于7m，单向行驶时不应小于4m。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 双向行驶时
+    unit: m
+    condition: null
+    min_value: 7.0
+    max_value: null
+  - name: 未识别对象
+    unit: m
+    condition: null
+    min_value: 4.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#4.2.5
+  standard_code: JGJ 100-2015
+  chapter: 4 机动车库
+  section: 4.2出入口及坡道
+  clause_no: 4.2.5
+  text: 车辆出入口及坡道的最小净高应符合
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表4.2.5
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表4.2.5的规定。表4.2.5车辆出入口及坡道的最小净高车型最小净高(m)微型车、小型车2.20轻型车2.95中型、大型客车3.702中型、大型货车4.20注：净高指从楼地面面层（完成面）至吊顶、设备管道、梁或其他构件底面之间的有效使用空间的垂直高度。
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#4.2.6
+  standard_code: JGJ 100-2015
+  chapter: 4 机动车库
+  section: 4.2出入口及坡道
+  clause_no: 4.2.6
+  text: 机动车库出入口和车道数量应符合
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表4.2.6
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表4.2.6的规定，且当车道数量大于等于5且停车当量大于3000辆时，机动车出入口数量应经过交通模拟计算确定。表4 2.6机动车库出入口和车道数量规模特大型中型大型小型停车当量501～301~51~25~>1000<2510004出入口和车道数量一机动车出人口数量≥3非居住建筑出人口车道数量≥2居住建筑出入口车道数量>24.2. 7对于停车当量小于25辆的小型车库，出人口可设一个单车道，并应采取进出车辆的避让措施。
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#4.2.8
+  standard_code: JGJ 100-2015
+  chapter: 4 机动车库
+  section: 4.2出入口及坡道
+  clause_no: 4.2.8
+  text: 机动车库的人员出入口与车辆出入口应分开设置，机动车升降梯不得替代乘客电梯作为人员出入口，并应设置标识。
+  is_abolished: true
+  abolished_date: '2023-03-01'
+  superseded_by: GB 55031-2022
+  abolition_note: 被《GB 55031-2022》废止强制性条文效力（住房城乡建设部公告，2023-03-01实施）
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不得
+    is_mandatory_clause: true
+    mandatory_basis: 黑体强制性条文
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#4.2.9
+  standard_code: JGJ 100-2015
+  chapter: 4 机动车库
+  section: 4.2出入口及坡道
+  clause_no: 4.2.9
+  text: 平人式出人口应符合下列规定： 1 平人式出人口室内外地坪高差不应小于150mm ，且不宜 大于300mm; 2 出人口室外坡道起坡点与相连的室外车行道路的最小距 离不宜小于5. Om; 13 3 出人口的上部宜设有防雨设施； 4 出人口处宜设置遥控启闭的大门。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 外地坪高差
+    unit: mm
+    condition: null
+    min_value: 150.0
+    max_value: null
+  - name: 差
+    unit: mm
+    condition: null
+    min_value: 300.0
+    max_value: null
+  - name: 小距离
+    unit: m
+    condition: null
+    min_value: null
+    max_value: 5.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#4.2.10
+  standard_code: JGJ 100-2015
+  chapter: 4 机动车库
+  section: 4.2出入口及坡道
+  clause_no: 4.2.10
+  text: -1的规定
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表4.2.
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: '表 4.2. 10-1坡道最小净宽最小净宽（m）形式微型、小型车轻型、中型、大型车直线单行3.03.5直线双行5.57.0曲线单行3.85.07.0曲线双行10.0注：此宽度不包括道牙及其他分隔带宽度。当曲线比较缓时、可以按直线宽度进行设计。3坡道的最大纵向坡度应符合表4.2.10-2的规定。表 4.2.10-2坡道的最大纵向坡度直线坡道曲线坡道车型百分比（%）比值 (高：长)百分比（%）比值 (高：长)微型车15.01: 6.671 : 8.3小型车轻型车13.31:7.501:10.0中型车12.01 : 8.3大型客车10.01: 101: 12.5大型货车4当坡道纵向坡度大于10%时，坡道上、下端均应设缓坡坡段，其直线缓坡段的水平长度不应小于3.6m，缓坡坡度应为坡道坡度的1/2；曲线缓坡段的水平长度不应小于2.4m，曲率半径不应小于20m，缓坡段的中心为坡道原起点或止点（图4.2.10）；大型车的坡道应根据车型确定缓坡的坡度和长度。≥3.6m>2.4mR=20m鄂信息公≥3.6m(a)直线缓坡b)曲线缓坡图4.2.10缓坡1一坡道起点；2—坡道止点5微型车和小型车的坡道转弯处的最小环形车道内半径（ro）不宜小于表4.2.10-3的规定：其他车型的坡道转弯处的最小环形车道内半径应按本规范式（4.1.4-1）～式（4.1.4-5）计算确定。表4.2.10-3坡道转弯处的最小环形车道内半径（ro）坡道转向角度(a)半径.06>pAa<180°a≥180°最小环形车道内半径（ro）4m5m6m注：坡道转向角度为机动车转弯时的连续转向角度。环形坡道处弯道超高宜为2%～6%。4.2. 11升降梯式出入口应符合下列规定：当小型机动车库设置机动车坡道有困难时，可采用升降梯作为机动车库出人口，升降梯可采用汽车专用升降机等提升设备，且升降梯的数量不应少于两台，停车当量少于25辆的可设一台；机动车出口和入口宜分开设置；3升降梯宜采用通过式双向门，当只能为单侧门时，应在进（出）口处设置车辆等候空间；4升降梯出入口处应设有防雨设施，且升降梯底坑应设有机械排水系统；5机动车库应在每层出入口处的明显部位设置楼层和行驶方向的标志，并宜在驾驶员方便触及的部位，设置升降梯的操纵按钮；当采用升降平台时，应在每层周边设置安全护栏和防坠落等措施；升降梯出入口处应设限高和限载标志。信息'
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#4.3.1
+  standard_code: JGJ 100-2015
+  chapter: 4 机动车库
+  section: 4.3停车区域
+  clause_no: 4.3.1
+  text: 停车区域应由停车位和通车道组成。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#4.3.2
+  standard_code: JGJ 100-2015
+  chapter: 4 机动车库
+  section: 4.3停车区域
+  clause_no: 4.3.2
+  text: 停车区域的停车方式应排列紧凑、通道短捷、出入迅速、保证安全和与柱网相协调，并应满足一次进出停车位要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#4.3.3
+  standard_code: JGJ 100-2015
+  chapter: 4 机动车库
+  section: 4.3停车区域
+  clause_no: 4.3.3
+  text: 停车方式可采用平行式、斜列式（倾角30°45℃、60°）和垂直式（图4.3.3），或混合式。(a)平行式(b)斜列式图4.3.3停车方式（一）(c)垂直式图4.3.3停车方式（二)注：W.为停车带宽度；We为停车位毗邻墙体或连续分隔物时，垂直于通（停）车道的停车位尺守，We为停车位毗邻时，垂直于通（停）车道的停车位尺寸；Wa为通车道宽度；Lt为平行于通车道的停车位尺寸；Qt为机动车倾斜角度。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: may
+    modal_words:
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#4.3.4
+  standard_code: JGJ 100-2015
+  chapter: 4 机动车库
+  section: 4.3停车区域
+  clause_no: 4.3.4
+  text: 机动车最小停车位、通（停）车道宽度可通过计算或作图法求得，且库内通车道宽度应大于或等于3.0m。小型车的最小停车位通（停）车道宽度宜符合
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 车道宽度
+    unit: m
+    condition: null
+    min_value: 3.0
+    max_value: null
+  tables:
+  - table_id: 表4.3.4
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表4.3.4的规定。表4.3.4小型车的最小停车位、通（停）车道宽度垂直通车道方向平行通车道方通（停）车道的最小停车位停车方式向的最小停车最小宽度宽度(m)位宽度Lt（m）(u) PMWelWe2平行式后退停车2.42.16.03.830°前进(后退)停车3.64.83.8前进(后退)停车5.54.63.83.4斜列式60°前进停车5.85.02.84.560°后退停车5.85.02.84.2前进停车5.35.12.49.0垂直式后退停车5.35.12.45.5
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#4.3.5
+  standard_code: JGJ 100-2015
+  chapter: 4 机动车库
+  section: 4.3停车区域
+  clause_no: 4.3.5
+  text: 微型车和小型车的环形通车道最小内半径不得小于3.0m。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 最小内半径
+    unit: m
+    condition: null
+    min_value: 3.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#4.3.6
+  standard_code: JGJ 100-2015
+  chapter: 4 机动车库
+  section: 4.3停车区域
+  clause_no: 4.3.6
+  text: 停车区域净高不应小于本规范第4.2.5条规定的出入口及坡道处净高要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#4.3.7
+  standard_code: JGJ 100-2015
+  chapter: 4 机动车库
+  section: 4.3停车区域
+  clause_no: 4.3.7
+  text: 根据停车楼板的形式，停车区域可分为平楼板式、错层式和斜楼板式。错层式可分为二段式错层和三段式错层，斜楼板式可分为直坡形斜楼板式和螺旋形斜楼板式。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: may
+    modal_words:
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#4.3.8
+  standard_code: JGJ 100-2015
+  chapter: 4 机动车库
+  section: 4.3停车区域
+  clause_no: 4.3.8
+  text: 错层式停车区域应符合下列规定： 1 两直坡道之间的水平距离应使车辆在停车层作180。转 向，两段坡道中心线之间的距离不应小于14. Om; 2 三段错层式停车区域的通车道应限定车辆行驶路线； 3 错层式停车区域内楼面空间可以叠交，叠交水平尺寸不 应大于1. 5m 。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 之间的距离
+    unit: m
+    condition: null
+    min_value: 14.0
+    max_value: null
+  - name: 平尺寸
+    unit: m
+    condition: null
+    min_value: 1.5
+    max_value: null
+  - name: 板坡度
+    unit: '%'
+    condition: null
+    min_value: 5.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#4.3.10
+  standard_code: JGJ 100-2015
+  chapter: 4 机动车库
+  section: 4.3停车区域
+  clause_no: 4.3.10
+  text: 对于斜楼板式停车区域，必要时可设转向的中间通车道，为防止行车高峰堵车，可增设螺旋坡道。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: may
+    modal_words:
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#4.3.11
+  standard_code: JGJ 100-2015
+  chapter: 4 机动车库
+  section: 4.3停车区域
+  clause_no: 4.3.11
+  text: 当机动车停车库内设有修理车位时，应集中布置，且应符合现行国家标准《汽车库、修车库、停车场设计防火规范》GB50067的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50067
+    target_clause: null
+    original_text: 当机动车停车库内设有修理车位时，应集中布置，且应符合现行国家标准《汽车库、修车库、停车场设计防火规范》GB50067的规定。
+    resolution_status: resolved
+    resolution_note: 库内标准（GB 50067-2014），可交叉引用并确认具体参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#4.4.1
+  standard_code: JGJ 100-2015
+  chapter: 4 机动车库
+  section: 4.4构造措施
+  clause_no: 4.4.1
+  text: 对于有防雨要求的出人口和坡道处，应设置不小于出入口和坡道宽度的截水沟和耐轮压沟盖板以及闭合的挡水槛。出入口地面的坡道外端应设置防水反坡。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#4.4.2
+  standard_code: JGJ 100-2015
+  chapter: 4 机动车库
+  section: 4.4构造措施
+  clause_no: 4.4.2
+  text: 通往地下的坡道低端宜设置截水沟；当地下坡道的开段无遮雨设施时，在坡道敬开段的较低处应增设截水沟。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#4.4.3
+  standard_code: JGJ 100-2015
+  chapter: 4 机动车库
+  section: 4.4构造措施
+  clause_no: 4.4.3
+  text: 机动车库的楼地面应采用强度高、具有耐磨防滑性能的不燃材料，并应在各楼层设置地漏或排水沟等排水设施。地漏（或集水坑）的中距不宜大于40m。敲开式车库和有排水要求的停车区域应设不小于0.5%的排水坡度和相应的排水系统。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 中距
+    unit: m
+    condition: null
+    min_value: 40.0
+    max_value: null
+  - name: 车区域应设
+    unit: '%'
+    condition: null
+    min_value: 0.5
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#4.4.4
+  standard_code: JGJ 100-2015
+  chapter: 4 机动车库
+  section: 4.4构造措施
+  clause_no: 4.4.4
+  text: 机动车库内通车道和坡道的楼地面宜采取限制车速的措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: should
+    modal_words:
+    - 宜
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#4.4.5
+  standard_code: JGJ 100-2015
+  chapter: 4 机动车库
+  section: 4.4构造措施
+  clause_no: 4.4.5
+  text: 机动车库内通车道和坡道面层应采取防滑措施，并宜在柱子、墙阳角凸出结构等部位采取防撞措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#4.4.6
+  standard_code: JGJ 100-2015
+  chapter: 4 机动车库
+  section: 4.4构造措施
+  clause_no: 4.4.6
+  text: 机动车库内停车位应设车轮挡，车轮挡宜设于距停车位端线为机动车前悬或后悬的尺寸减0.2m处，其高度宜为0.15m，且车轮挡不得阻碍楼地面排水。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 位端线
+    unit: m
+    condition: null
+    min_value: 0.2
+    max_value: 0.2
+  - name: 处其高度
+    unit: m
+    condition: null
+    min_value: 0.15
+    max_value: 0.15
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#4.4.7
+  standard_code: JGJ 100-2015
+  chapter: 4 机动车库
+  section: 4.4构造措施
+  clause_no: 4.4.7
+  text: 通往地下的机动车坡道应设置防雨和防止雨水倒灌至地下车库的设施。开式车库及有排水要求的停车区域楼地面应采取防水措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#4.4.8
+  standard_code: JGJ 100-2015
+  chapter: 4 机动车库
+  section: 4.4构造措施
+  clause_no: 4.4.8
+  text: 通往车库的出人口和坡道的上方应有防坠落物设施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#4.4.10
+  standard_code: JGJ 100-2015
+  chapter: 4 机动车库
+  section: 4.4构造措施
+  clause_no: 4.4.10
+  text: 当机动车库坡道横向内（或外）侧无实体墙体时，应在无实体墙处设护栏和道牙。道牙宽度不应小于0.30m，高度不应小于0.15m。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 牙道牙宽度
+    unit: m
+    condition: null
+    min_value: 0.3
+    max_value: null
+  - name: 未识别对象
+    unit: m
+    condition: null
+    min_value: 0.15
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#5.1.1
+  standard_code: JGJ 100-2015
+  chapter: 5 机械式机动车库
+  section: 5.1一般规定
+  clause_no: 5.1.1
+  text: 机械式机动车库分为全自动机动车库与复式机动车库。机械式机动车库的设计应符合现行行业标准《机械式停车库工程技术规范》JGJ/T326的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: JGJ/T 326
+    target_clause: null
+    original_text: 机械式机动车库的设计应符合现行行业标准《机械式停车库工程技术规范》JGJ/T326的规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#5.1.2
+  standard_code: JGJ 100-2015
+  chapter: 5 机械式机动车库
+  section: 5.1一般规定
+  clause_no: 5.1.2
+  text: 机械式机动车库应根据总体布局需要，结合机械停车设备的技术要求与合理的柱网关系进行设计。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#5.1.3
+  standard_code: JGJ 100-2015
+  chapter: 5 机械式机动车库
+  section: 5.1一般规定
+  clause_no: 5.1.3
+  text: 机械式机动车库停放车辆的外廓尺寸及重量可按 表5.1.3 机械式机动车库停放车辆的外廓尺寸及重量 组别代号 机动车长×车宽×车高 重量 Cm× m× m) (kg) X 型车 主二4.4 × 1. 75× 1. 45 < 1300 Z 型车 王三4. 7× 1. 8× 1. 45 主至1500 D 型车 < 5.0× 1. 85 × 1. 55 < 1700 T 型车 三三5. 3× 1. 90× 1. 55 ＝二2350 C 型车 三二5. 6× 2.05× 1. 55 三二2550 K 型车 三二5. 0× 1. 85× 2.05 < 1850 注： X 小型车； Z 中型车； D 大型车； T 特大型车； C 超大型车； K 客车。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: may
+    modal_words:
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表5.1.3
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文）
+    content: 规定采用。表5.1.3机械式机动车库停放车辆的外廓尺寸及重量机动车长×车宽X车高重量组别代号(wxwxw)(kg)X型车≤4.4X1.75×1.45≤1300≤4.7X1.8X1.45型车≤1500ND型车≤5.0X1.85X1.55《1700T型车5.3×1.90X1.55《2350C型车≤5.6×2.05×1.55《2550K型车≤5.0X1.85×2.05注：X一小型车；Z一中型车；D一大型车；T一特大型车；C一超大型车；K-客车。
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#5.1.4
+  standard_code: JGJ 100-2015
+  chapter: 5 机械式机动车库
+  section: 5.1一般规定
+  clause_no: 5.1.4
+  text: 停车设备的出入口、操作室、检修场所等明显可见处应设置安全标志。并应符合现行国家标准《安全标志及其使用导则》GB2894的要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 2894
+    target_clause: null
+    original_text: 并应符合现行国家标准《安全标志及其使用导则》GB2894的要求。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#5.1.5
+  standard_code: JGJ 100-2015
+  chapter: 5 机械式机动车库
+  section: 5.1一般规定
+  clause_no: 5.1.5
+  text: 全自动机动车库的设备操作位置应能看到人员和车辆的进出，当不能满足要求时，应设置反射镜、监控器等设施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#5.2.1
+  standard_code: JGJ 100-2015
+  chapter: 5 机械式机动车库
+  section: 5.2出入口
+  clause_no: 5.2.1
+  text: 全自动机动车库出入口应符合下列规定：1出入口处应设置不少于2个的候车位，当出入口分开设置时，候车位不应少于1个；当机动车需要掉头而受场地限制时，可设置机动车回转盘；2出入口宽度应大于所存放的机动车设计车型宽加0.50m，且不应小于2.50m，高度不应小于2.00m；3机械式立体机动车库的出人口可根据需要设置库门或栅栏等安全保护设施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 未识别对象
+    unit: m
+    condition: null
+    min_value: 0.5
+    max_value: null
+  - name: 型宽加m且
+    unit: m
+    condition: null
+    min_value: 2.5
+    max_value: null
+  - name: 未识别对象
+    unit: m
+    condition: null
+    min_value: 2.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#5.2.2
+  standard_code: JGJ 100-2015
+  chapter: 5 机械式机动车库
+  section: 5.2出入口
+  clause_no: 5.2.2
+  text: 复式机动车库的出大口及坡道应按本规范第4.2节的相关规定执行。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#5.3.1
+  standard_code: JGJ 100-2015
+  chapter: 5 机械式机动车库
+  section: 5.3停车区域
+  clause_no: 5.3.1
+  text: 全自动机动车库的停车设备可采用平面移动类、巷道堆垛类、垂直升降类、垂直循环类、水平循环类和多层循环类；复式机动车库的停车设备可采用升降横移类和简易升降类。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: may
+    modal_words:
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#5.3.2
+  standard_code: JGJ 100-2015
+  chapter: 5 机械式机动车库
+  section: 5.3停车区域
+  clause_no: 5.3.2
+  text: ，机械式机动车库停车位的最小外廓尺寸应符合
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表5.3.2
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表5.3.2的规定。表5.3.2机械式机动车库的停车位最小外廓尺寸全自动机动车库复式机动车库宽度 (m)车宽+0.15车宽十0.50（通道）长度(m)车长十0.20车长十0.20车高十微升微降高度十0.05，车高十微升微降高度十0.05，高度(m)且不小于1.60，兼做人行通且不小于1.60道时应不小于2.00
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#5.3.3
+  standard_code: JGJ 100-2015
+  chapter: 5 机械式机动车库
+  section: 5.3停车区域
+  clause_no: 5.3.3
+  text: 复式机动车库停车区域的净高应根据各类停车设备的尺寸确定。升降横移类停车设备高度尺寸应符合
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表5.3.3
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表5.3.3的规定。表5.3.3升降横移类停车设备高度尺寸形式停车设备层数设备装置高度（m）二层停车设备3.50~3.65三层停车设备5.65~5.90出车面以上四层停车设备7.45~7.70五层停车设备9.03-9.55六层停车设备11.15~11.401.90~2.10出车面以下底坑一层停车设备
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#5.3.4
+  standard_code: JGJ 100-2015
+  chapter: 5 机械式机动车库
+  section: 5.3停车区域
+  clause_no: 5.3.4
+  text: ) 式中： Wo 组合单元横向最小尺寸（m); N一一平层车位数量； W一一单车位设备装置尺寸宽度（m）。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#5.3.6
+  standard_code: JGJ 100-2015
+  chapter: 5 机械式机动车库
+  section: 5.3停车区域
+  clause_no: 5.3.6
+  text: 全自动机动车库中的停车设备可多套并联设置，其防火分区应符合现行国家标准《汽车库、修车库、停车场设计防火规范》GB50067的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50067
+    target_clause: null
+    original_text: 全自动机动车库中的停车设备可多套并联设置，其防火分区应符合现行国家标准《汽车库、修车库、停车场设计防火规范》GB50067的规定。
+    resolution_status: resolved
+    resolution_note: 库内标准（GB 50067-2014），可交叉引用并确认具体参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#5.3.7
+  standard_code: JGJ 100-2015
+  chapter: 5 机械式机动车库
+  section: 5.3停车区域
+  clause_no: 5.3.7
+  text: 复式机动车库的停车容量应符合本规范表1.0.4 的规定， 其防火分区应符合现行国家标准《汽车库、修车库、停车场设计 防火规范》GB 50067 的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表1.0.4
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表1.0.4的规定，其防火分区应符合现行国家标准《汽车库、修车库、停车场设计防火规范》GB50067的规定。
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#5.3.8
+  standard_code: JGJ 100-2015
+  chapter: 5 机械式机动车库
+  section: 5.3停车区域
+  clause_no: 5.3.8
+  text: 复式机动车库通车道的最小尺寸应根据车型倒车人库的需求计算，最小不得小于5.8m。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 求计算最小
+    unit: m
+    condition: null
+    min_value: 5.8
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#5.4.1
+  standard_code: JGJ 100-2015
+  chapter: 5 机械式机动车库
+  section: 5.4构造措施
+  clause_no: 5.4.1
+  text: 附建式车库的机械式停车设备与建筑主体结构间应采取减震、隔声措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#5.4.2
+  standard_code: JGJ 100-2015
+  chapter: 5 机械式机动车库
+  section: 5.4构造措施
+  clause_no: 5.4.2
+  text: 在机械式停车设备所需运行空间范围内，不得设置或穿越与停车设备无关的管道、电缆等管线。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#6.1.1
+  standard_code: JGJ 100-2015
+  chapter: 6 非机动车库
+  section: 6.1一般规定
+  clause_no: 6.1.1
+  text: 非机动车设计车型的外廓尺寸可按
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: may
+    modal_words:
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表6.1.1
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表6.1.1的规定取值。表6.1.1非机动车设计车型外廓尺寸几何尺寸车辆几何尺寸(m)宽度车型长度高度自行车1.900.601.20三轮车1.201.20电动自行车2.000.801.20机动轮椅车2.001.001.20
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#6.1.2
+  standard_code: JGJ 100-2015
+  chapter: 6 非机动车库
+  section: 6.1一般规定
+  clause_no: 6.1.2
+  text: 非机动车及二轮摩托车应以自行车为计算当量进行停车当量的换算，且车辆换算的当量系数应符合
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表6.1.2
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表6.1.2的规定。表6.1.2非机动车及二轮摩托车车辆换算当量系数非机动车车型二轮摩托车自行车三轮车电动自行车机动轮椅车换算当量系数1.03.01.21.51.5
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#6.1.3
+  standard_code: JGJ 100-2015
+  chapter: 6 非机动车库
+  section: 6.1一般规定
+  clause_no: 6.1.3
+  text: 非机动车库不宜设在地下二层及以下，当地下停车层地坪与室外地坪高差大于7m时，应设机械提升装置。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 外地坪高差
+    unit: m
+    condition: null
+    min_value: 7.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#6.1.4
+  standard_code: JGJ 100-2015
+  chapter: 6 非机动车库
+  section: 6.1一般规定
+  clause_no: 6.1.4
+  text: 机动轮椅车、三轮车宜停放在地面层，当条件限制需停放在其他楼层时，应设坡道式出入口或设置机械提升装置；其坡道式出人口的坡度应符合现行行业标准《城市道路工程设计规范》CJJ37的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: CJJ 37
+    target_clause: null
+    original_text: 机动轮椅车、三轮车宜停放在地面层，当条件限制需停放在其他楼层时，应设坡道式出入口或设置机械提升装置；其坡道式出人口的坡度应符合现行行业标准《城市道路工程设计规范》CJJ37的规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#6.2.1
+  standard_code: JGJ 100-2015
+  chapter: 6 非机动车库
+  section: 6.2出入口及坡道
+  clause_no: 6.2.1
+  text: 非机动车库停车当量数量不大于500辆时，可设置个直通室外的带坡道的车辆出入口；超过500辆时应设两个或以上出入口，且每增加500辆宜增设一个出入口。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#6.2.2
+  standard_code: JGJ 100-2015
+  chapter: 6 非机动车库
+  section: 6.2出入口及坡道
+  clause_no: 6.2.2
+  text: 非机动车库出入口宜与机动车库出入口分开设置，且出地面处的最小距离不应小于7.5m。当中型和小型非机动车库受条件限制，其出入口坡道需与机动车出人口设置在一起时，应设置安全分隔设施，且应在地面出入口外7.5m范围内设置不遮挡视线的安全隔离栏杆。机动轮椅车和三轮车车库单向出入口净宽不应小于车宽加0.60m。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 最小距离
+    unit: m
+    condition: null
+    min_value: 7.5
+    max_value: null
+  - name: 面出入口外
+    unit: m
+    condition: null
+    min_value: 7.5
+    max_value: 7.5
+  - name: 出入口净宽
+    unit: m
+    condition: null
+    min_value: 0.6
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#6.2.4
+  standard_code: JGJ 100-2015
+  chapter: 6 非机动车库
+  section: 6.2出入口及坡道
+  clause_no: 6.2.4
+  text: 非机动车库车辆出入口可采用踏步式出入口或坡道式出入口。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: may
+    modal_words:
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#6.2.5
+  standard_code: JGJ 100-2015
+  chapter: 6 非机动车库
+  section: 6.2出入口及坡道
+  clause_no: 6.2.5
+  text: 非机动车库出入口宜采用直线形坡道，当坡道长度超过6.8m或转换方向时，应设休息平台，平台长度不应小于2.00m，并应能保持非机动车推行的连续性。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 坡道长度
+    unit: m
+    condition: null
+    min_value: 6.8
+    max_value: null
+  - name: 台平台长度
+    unit: m
+    condition: null
+    min_value: 2.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#6.2.6
+  standard_code: JGJ 100-2015
+  chapter: 6 非机动车库
+  section: 6.2出入口及坡道
+  clause_no: 6.2.6
+  text: 踏步式出入口推车斜坡的坡度不宜大于25%，单向净宽不应小于0.35m，总净宽度不应小于1.80m。坡道式出人口的斜坡坡度不宜大于15%，坡道宽度不应小于1.80m。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 坡度
+    unit: '%'
+    condition: null
+    min_value: 25.0
+    max_value: null
+  - name: 于单向净宽
+    unit: m
+    condition: null
+    min_value: 0.35
+    max_value: null
+  - name: m总净宽度
+    unit: m
+    condition: null
+    min_value: 1.8
+    max_value: null
+  - name: 坡坡度
+    unit: '%'
+    condition: null
+    min_value: 15.0
+    max_value: null
+  - name: 于坡道宽度
+    unit: m
+    condition: null
+    min_value: 1.8
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#6.3.1
+  standard_code: JGJ 100-2015
+  chapter: 6 非机动车库
+  section: 6.3停车区域
+  clause_no: 6.3.1
+  text: 大型非机动车库车辆应分组设置，且每组的当量停车数量不应超过500。及相应的服务设施，且不应影响非机动车的通行。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#6.3.3
+  standard_code: JGJ 100-2015
+  chapter: 6 非机动车库
+  section: 6.3停车区域
+  clause_no: 6.3.3
+  text: 自行车的停车方式可采取垂直式和斜列式。自行车停车位的宽度、通道宽度应符合
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表6.3.3
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表6.3.3的规定（图6.3.3），其他类型非机动车应按本表相应调整。表6.3.3自行车停车位的宽度和通道宽度停车位宽度（m)车辆横向通道宽度（m)停车方式单排停车双排停车间距(m)侧停车两侧停车垂直排列2.003.200.601.502.6060°1.703.000.502.60斜排列45°1.402.400.502.0030°1.001.800.502.00注：角度为自行车与通车道夹角。一侧停车通道宽度双排停车45°双排停车两侧停车通道宽度两侧停车通道宽度30°单排停车
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#6.4.1
+  standard_code: JGJ 100-2015
+  chapter: 6 非机动车库
+  section: 6.4构造措施
+  clause_no: 6.4.1
+  text: 非机动车库出入口上方宜设有防坠落设施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: should
+    modal_words:
+    - 宜
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#6.4.2
+  standard_code: JGJ 100-2015
+  chapter: 6 非机动车库
+  section: 6.4构造措施
+  clause_no: 6.4.2
+  text: 非机动车库通往地下的坡道在地面出入口处应设置不小于0.15m高的反坡，并宜设置与坡道同宽的截水沟。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 口处应设置
+    unit: m
+    condition: null
+    min_value: 0.15
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#6.4.3
+  standard_code: JGJ 100-2015
+  chapter: 6 非机动车库
+  section: 6.4构造措施
+  clause_no: 6.4.3
+  text: 多雨地区通往地下的坡道底端应设置截水沟；当地下坡 道的敞开段无遮雨设施时，在敞开段的较低处应增加截水沟。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#6.4.6
+  standard_code: JGJ 100-2015
+  chapter: 6 非机动车库
+  section: 6.4构造措施
+  clause_no: 6.4.6
+  text: 严寒和寒冷地区有采暖设施的非机动车库出入口处应采 取保温措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#7.1.1
+  standard_code: JGJ 100-2015
+  chapter: 7 建筑设备
+  section: 7.1一般规定
+  clause_no: 7.1.1
+  text: 车库内设备管道宜明设，各类管道应排列整齐，并宜采 用不同颜色和符号标明管道种类和介质流向。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#7.2.1
+  standard_code: JGJ 100-2015
+  chapter: 7 建筑设备
+  section: 7.2给水排水
+  clause_no: 7.2.1
+  text: 车库内的生产给水、生活给水和消防给水系统应分开设置；生产、生活用水量应符合现行国家标准《建筑给水排水设计规范》GB50015的规定；冲洗用水宜优先采用中水。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50015
+    target_clause: null
+    original_text: 车库内的生产给水、生活给水和消防给水系统应分开设置；生产、生活用水量应符合现行国家标准《建筑给水排水设计规范》GB50015的规定；冲洗用水宜优先采用中水。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#7.2.2
+  standard_code: JGJ 100-2015
+  chapter: 7 建筑设备
+  section: 7.2给水排水
+  clause_no: 7.2.2
+  text: 车库消防用水及灭火设施应符合现行国家标准《汽车库、修车库、停车场设计防火规范》GB50067和《建筑设计防火规范》GB50016的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50067
+    target_clause: null
+    original_text: 车库消防用水及灭火设施应符合现行国家标准《汽车库、修车库、停车场设计防火规范》GB50067和《建筑设计防火规范》GB50016的规定。
+    resolution_status: resolved
+    resolution_note: 库内标准（GB 50067-2014），可交叉引用并确认具体参数
+  - target_standard: GB 50016
+    target_clause: null
+    original_text: 车库消防用水及灭火设施应符合现行国家标准《汽车库、修车库、停车场设计防火规范》GB50067和《建筑设计防火规范》GB50016的规定。
+    resolution_status: resolved
+    resolution_note: 库内标准（GB 50016-2014），可交叉引用并确认具体参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#7.2.3
+  standard_code: JGJ 100-2015
+  chapter: 7 建筑设备
+  section: 7.2给水排水
+  clause_no: 7.2.3
+  text: 在可能产生冰冻的车库，给水排水设施应采取防冻措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#7.2.4
+  standard_code: JGJ 100-2015
+  chapter: 7 建筑设备
+  section: 7.2给水排水
+  clause_no: 7.2.4
+  text: 开式车库排水设施应满足排放雨水的要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#7.2.5
+  standard_code: JGJ 100-2015
+  chapter: 7 建筑设备
+  section: 7.2给水排水
+  clause_no: 7.2.5
+  text: 机动车库应按停车层设置楼地面排水系统，排水点的服务半径不宜大于20m。当采用地漏排水时，地漏管径不宜小于DN100。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 务半径
+    unit: m
+    condition: null
+    min_value: 20.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#7.2.6
+  standard_code: JGJ 100-2015
+  chapter: 7 建筑设备
+  section: 7.2给水排水
+  clause_no: 7.2.6
+  text: 机动车库内车辆清洗区域应设给水设施，并宜优先采用排水沟排水。洗车排水应经隔油沉淀池处理后排放。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#7.2.7
+  standard_code: JGJ 100-2015
+  chapter: 7 建筑设备
+  section: 7.2给水排水
+  clause_no: 7.2.7
+  text: 机械式机动车库应在底部设置排除其内部积水的设施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#7.3.1
+  standard_code: JGJ 100-2015
+  chapter: 7 建筑设备
+  section: 7.3采暖通风
+  clause_no: 7.3.1
+  text: 严寒地区机动车库内应设集中采暖系统；严寒地区非机动车库、寒冷地区机动车库内宜设采暖设施。车库内采暖室内计算温度应符合
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表7.3.1
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表7.3.1规定。表7.3.1车库内采暖室内计算温度名称室内计算温度停车区域5~10洗车间12~15管理办公室、值班室、卫生间等16/18
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#7.3.2
+  standard_code: JGJ 100-2015
+  chapter: 7 建筑设备
+  section: 7.3采暖通风
+  clause_no: 7.3.2
+  text: 对于设有采暖设施的车库，宜在出入口处设热空气幕，且热空气幕应优先采用集中热源。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#7.3.3
+  standard_code: JGJ 100-2015
+  chapter: 7 建筑设备
+  section: 7.3采暖通风
+  clause_no: 7.3.3
+  text: 当车库停车区域自然通风达不到稀释废气标准时，应设置机械排风系统，并应符合国家现行标准《工业企业设计卫生标准》GBZ1的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#7.3.4
+  standard_code: JGJ 100-2015
+  chapter: 7 建筑设备
+  section: 7.3采暖通风
+  clause_no: 7.3.4
+  text: 对于设有机械通风系统的机动车库，机械通风量应按容 许的废气量计算，且排风量不应小于按换气次数法或单台机动车 排风量法计算的风量。机动车库换气次数应符合单台机动车排风量应符合 － A 哇 － R J U 表7.3.4-2 单台机动车排凤量 序号 | 建筑类型 | 单台机动车排风量（m3 /h) 商业类建筑 I soo z I 住宅类建筑 I 300 3 I 其他类建筑 I 400 7.3.S 非机动车库内摩托车停车区域通风换气次数宜为2 次／h～4 次／h，其他车辆停车区域通风换气次数宜为n欠／h～2 次／h。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表7.3.4
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表7.3.4-1规定，单台机动车排风量应符合表7.3.4-2规定。表7.3.4-1机动车库换气次数序号Y建筑类型换气次数（次/h)商业类建筑住宅类建筑其他类建筑表7.3.4-2单台机动车排风量序号建筑类型单台机动车排风量（m3/h）商业类建筑住宅类建筑其他类建筑7.3. 5非机动车库内摩托车停车区域通风换气次数宜为2次/h～4次/h，其他车辆停车区域通风换气次数宜为1次/h～2次/h。7.3. 6机动车库送风、排风系统宜独立设置。7.3. 7车库的送风、排风系统应使室内气流分布均匀，送风口宜设在主要通道上。7.3. 8中型及以上机动车库送风、排风机宜选用多台并联或变频调速，运行方式宜采用定时启、停风机或根据室内CO气体浓度自动控制风机运行。
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#7.3.9
+  standard_code: JGJ 100-2015
+  chapter: 7 建筑设备
+  section: 7.3采暖通风
+  clause_no: 7.3.9
+  text: 车库通风系统可结合消防排烟系统设置。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: may
+    modal_words:
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#7.4.1
+  standard_code: JGJ 100-2015
+  chapter: 7 建筑设备
+  section: 7.4电气
+  clause_no: 7.4.1
+  text: 特大型和大型车库应按一级负荷供电，中型车库应按不低于二级负荷供电，小型车库可按三级负荷供电。机械式停车设备应按不低于二级负荷供电。各类附建式车库供电负荷等级不应低于该建筑物的供电负荷等级。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#7.4.2
+  standard_code: JGJ 100-2015
+  chapter: 7 建筑设备
+  section: 7.4电气
+  clause_no: 7.4.2
+  text: 车库供电系统应符合现行国家标准《供配电系统设计规范》GB50052的规定。车库内宜设配电室，其位置应便于管理和进出，并应符合国家现行有关标准的规定。车库照明配电回路应按功能和区域划分。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50052
+    target_clause: null
+    original_text: 车库供电系统应符合现行国家标准《供配电系统设计规范》GB50052的规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#7.4.3
+  standard_code: JGJ 100-2015
+  chapter: 7 建筑设备
+  section: 7.4电气
+  clause_no: 7.4.3
+  text: 车库内照明应亮度分布均匀，避免眩光，各部位照明标准值宜符合
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表7.4.3
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表7.4.3的规定，当有特殊要求时，照明标准值可提高或降低一级。表7.4.3照明标准值规定照度照度眩光值显色指数功率密度(W/m²)名称作业面(1x)UGRRa现行值目标值行车道2.5机动车(含坡道）地面停车区域停车位1.8行车道非机动车3.5（含坡道）停车区域停车位2.5保修间、洗车间地面7.56.5管理办公室、值班室距地0.75m卫生间地面3.5注：行车弯道处，照度标准值宜提高一级。
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#7.4.4
+  standard_code: JGJ 100-2015
+  chapter: 7 建筑设备
+  section: 7.4电气
+  clause_no: 7.4.4
+  text: 车库内的人员疏散通道及出入口、配电室、值班室、控制室等用房均应设置应急照明。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#7.4.5
+  standard_code: JGJ 100-2015
+  chapter: 7 建筑设备
+  section: 7.4电气
+  clause_no: 7.4.5
+  text: 坡道式地下车库出入口处应设过渡照明，白天人口处亮度变化可按10：1～15：1取值，夜间室内外亮度变化可按2：1~4：1取值。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#7.4.6
+  standard_code: JGJ 100-2015
+  chapter: 7 建筑设备
+  section: 7.4电气
+  clause_no: 7.4.6
+  text: 车库内停车区域照明应集中控制，特大型和大型车库宜采用智能控制。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#7.4.7
+  standard_code: JGJ 100-2015
+  chapter: 7 建筑设备
+  section: 7.4电气
+  clause_no: 7.4.7
+  text: 机械式机动车库内应设检修灯或检修灯插座。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#7.4.8
+  standard_code: JGJ 100-2015
+  chapter: 7 建筑设备
+  section: 7.4电气
+  clause_no: 7.4.8
+  text: 机动车库内可根据需要设置36V、220V、380V电源插座；非机动车库内，在管理室附近或出入口处应设置电源插座。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#7.4.9
+  standard_code: JGJ 100-2015
+  chapter: 7 建筑设备
+  section: 7.4电气
+  clause_no: 7.4.9
+  text: 车库内的火灾自动报警装置、消防控制室和其他电气设备的设置，应符合现行国家标准《汽车库、修车库人停车场设计防火规范》GB50067和《建筑设计防火规范》GB50016的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50067
+    target_clause: null
+    original_text: 车库内的火灾自动报警装置、消防控制室和其他电气设备的设置，应符合现行国家标准《汽车库、修车库人停车场设计防火规范》GB50067和《建筑设计防火规范》GB50016的规定。
+    resolution_status: resolved
+    resolution_note: 库内标准（GB 50067-2014），可交叉引用并确认具体参数
+  - target_standard: GB 50016
+    target_clause: null
+    original_text: 车库内的火灾自动报警装置、消防控制室和其他电气设备的设置，应符合现行国家标准《汽车库、修车库人停车场设计防火规范》GB50067和《建筑设计防火规范》GB50016的规定。
+    resolution_status: resolved
+    resolution_note: 库内标准（GB 50016-2014），可交叉引用并确认具体参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#7.4.10
+  standard_code: JGJ 100-2015
+  chapter: 7 建筑设备
+  section: 7.4电气
+  clause_no: 7.4.10
+  text: 车库应根据需要设置通信系统、广播系统、建筑设备监控系统和安全防范系统。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#7.4.11
+  standard_code: JGJ 100-2015
+  chapter: 7 建筑设备
+  section: 7.4电气
+  clause_no: 7.4.11
+  text: 大型和特大型机动车库应设置出人口管理系统，中型和 小型类机动车库宜设置出人口管理系统；公共场所的大型和特大 型机动车库宜设置停车引导系统。机动车库管理系统的设置应符 合现行国家标准《智能建筑设计标准》GB 50314 的规定。 31 本规范用词说明 1 为便于在执行本规范条文时区别对待，对要求严格程度 不同的用词说明如下： 1 ）表示很严格，非要这样做不可的： 正面词采用“必须”，反面词采用“严禁”； 2）表示严格，在正常情况下均应这样做的： 正面词采用“应”，反面词采用“不应”或“不得”； 3）表示允许稍有选择，在条件许可时首先应这样做的： 正面词采用“宜”，反面词采用“不宜’气 4）表示有选择，在一定条件下可以这样做的，采用 “可”。 2 条文中指明应按其他有关标准执行的写法为： “应符 合……的规定”或“应按……执行”。 32 引用标准名录 1 《建筑给水排水设计规范》GB 50015 2 《建筑设计防火规范》GB 50016 3 《供配电系统设计规范》GB 50052 4 《汽车库、修车库、停车场设计防火规起》GB 50067 5 《智能建筑设计标准》GB 50314 6 《民用建筑设计通则》GB 50352 7 《安全标志及其使用导则》GB 2894 8 《工业企业设计卫生标准》GBZ 1 9 《城市道路工程设计规范》 CJ] 37 10 《机械式停车库工程技术规范》JGJ/T 326 33 中华人民共和国行业标准 车库建筑设计规范 JGJ 100 - 2015 条文说明 修订说明 《车库建筑设计规范》 JGJ 100 - 2015 ，经住房和城乡建设部 2015 年3 月 30 日以第788 号公告批准、发布。 本规范是在《汽车库建筑切，十规范》JGJ 100 98 的基础上修订 而成，上一版的主编单位是北京建筑工程学院（现北京建筑大学）， 参加单位是浙江省城乡规划设计研究院、苏州城建环保学院、北京 恩菲停车设备集团、上海建筑设计研究院、北京首汽集团公司，主 要起草人员是沈运柱、许家珍、史奉羔、姜勇、李运保、张安益。 本次修订的主要技术内容是： 1. 由《汽车库建筑设计规范》 更名为《车库建筑设计规范》，增加非机动车部分以扩大规范适 用范围； 2. 对规范中的术语、名词等进行了补充、修改与完善； 3. 对原规范中相应章节名称进行修订，将“库址和总平面”章 节修订为“基地与总平面”，将坡道式汽车库修订为机动车库； 将“机械式汽车库”修订为“机械式机动车库”，新增“非机动 车库”章节； 4. 对规范中相应章节的体例与内容进行修订与完 善，将机动车库、机械式机动车库、非机动车库分别从一般规 定、出人口及坡道、停车区域、构造措施四个方面进行修订，其 中机动车库按照出人口类型分为坡道式、升降梯式、平人式兰种 类型； 5. 对建筑设备相关内容进行了调整与完善。 为便于广大设计、施工、科研、学校等单位有关人员在使用 本规范时能正确理解和执行条文规定，《车库建筑设计规范》编 制组按章、节、条顺序编制了本规范的条文说明。对条文规定的 目的、依据以及执行中需要注意的有关事项进行了说明。还着重 对强制性条文的强制性理由作了解释。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 必须
+    - 严禁
+    - 不应
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50314
+    target_clause: null
+    original_text: 机动车库管理系统的设置应符合现行国家标准《智能建筑设计标准》GB50314的规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  - target_standard: GB 50015
+    target_clause: null
+    original_text: 有关标准执行的写法为：“应符合……的规定”或“应按…执行”引用标准名录息公开《建筑给水排水设计规范》GB50015《建筑设计防火规范》GB50016《供配电系统设计规范》GB50052《汽车库、
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  - target_standard: GB 50016
+    target_clause: null
+    original_text: 的规定”或“应按…执行”引用标准名录息公开《建筑给水排水设计规范》GB50015《建筑设计防火规范》GB50016《供配电系统设计规范》GB50052《汽车库、修车库、停车场设计防火规范》GB5
+    resolution_status: resolved
+    resolution_note: 库内标准（GB 50016-2014），可交叉引用并确认具体参数
+  - target_standard: GB 50352
+    target_clause: null
+    original_text: 库、修车库、停车场设计防火规范》GB50067《智能建筑设计标准》GB50314《民用建筑设计通则》GB50352《安全标志及其使用导则》GB2894《工业企业设计卫生标准》GBZ1《城市道路工
+    resolution_status: resolved
+    resolution_note: 库内标准（GB 50352-2019），可交叉引用并确认具体参数
+  - target_standard: GB 2894
+    target_clause: null
+    original_text: 0067《智能建筑设计标准》GB50314《民用建筑设计通则》GB50352《安全标志及其使用导则》GB2894《工业企业设计卫生标准》GBZ1《城市道路工程设计规范》CJJ37住房城
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  - target_standard: CJJ 37
+    target_clause: null
+    original_text: 0352《安全标志及其使用导则》GB2894《工业企业设计卫生标准》GBZ1《城市道路工程设计规范》CJJ37住房城
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcParking
+    activity_types:
+    - 车库建筑设计
+  conflicts: []
+- id: JGJ 100-2015#1.0.3
+  standard_code: JGJ 100-2015
+  chapter: 1 总则
+  section: ''
+  clause_no: 1.0.3
+  text: 车库建筑按所停车辆类型分为机动车库和非机动车库， 按建设方式可划分为独立式和附建式。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ 100-2015#2.0.9
+  standard_code: JGJ 100-2015
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.9
+  text: 复式机动车库 compound mechanical motor vehicle gar age 室内有车道、有驾驶员进出的机械式机动车库。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ 100-2015#4.3.9
+  standard_code: JGJ 100-2015
+  chapter: 4 机动车库
+  section: ''
+  clause_no: 4.3.9
+  text: 斜楼板式停车区域的楼板坡度、停车位应符合下列规定： 1 楼板坡度不应大于5%; 2 当停车位采用斜列式停车时，其停车位的长向中线与斜 楼板的纵向中线之间的夹角不应小于60。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ 100-2015#4.4.9
+  standard_code: JGJ 100-2015
+  chapter: 4 机动车库
+  section: ''
+  clause_no: 4.4.9
+  text: 严寒和寒冷地区机动车库室外坡道应采取防雪和防滑 措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ 100-2015#6.2.3
+  standard_code: JGJ 100-2015
+  chapter: 6 非机动车库
+  section: ''
+  clause_no: 6.2.3
+  text: 自行车和电动自行车车库出人口净宽不应小于 1. 80m, 机动轮椅车和三轮车车库单向出人口净宽不应小于车宽 加0. 60m 。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ 100-2015#6.3.2
+  standard_code: JGJ 100-2015
+  chapter: 6 非机动车库
+  section: ''
+  clause_no: 6.3.2
+  text: 大型和中型非机动车停车库宜在出人口附近设管理用房 及相应的服务设施，且不应影响非机动车的通行。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ 100-2015#6.4.4
+  standard_code: JGJ 100-2015
+  chapter: 6 非机动车库
+  section: ''
+  clause_no: 6.4.4
+  text: 非机动车库出入口的坡道应采取防滑措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ 100-2015#6.4.5
+  standard_code: JGJ 100-2015
+  chapter: 6 非机动车库
+  section: ''
+  clause_no: 6.4.5
+  text: 严寒和寒冷地区非机动车库室外坡道应采取防雪和防滑 措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ 100-2015#7.3.6
+  standard_code: JGJ 100-2015
+  chapter: 7 建筑设备
+  section: ''
+  clause_no: 7.3.6
+  text: 机动车库送风、排风系统宜独立设置。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ 100-2015#7.3.7
+  standard_code: JGJ 100-2015
+  chapter: 7 建筑设备
+  section: ''
+  clause_no: 7.3.7
+  text: 车库的送风、排风系统应使室内气流分布均匀，送风口 宜设在主要通道上。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ 100-2015#7.3.8
+  standard_code: JGJ 100-2015
+  chapter: 7 建筑设备
+  section: ''
+  clause_no: 7.3.8
+  text: 中型及以上机动车库送风、排风机宜选用多台并联或变 29 频调速，运行方式宜采用定时启、停风机或根据室内co 气体浓 度自动控制风机运行。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+executable_rules:
+- rule_id: R_JGJ1002015_2_0_10_1
+  source_clause: JGJ 100-2015#2.0.10
+  rule_type: validation
+  when:
+  - activity_type == '车库建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 开面积
+    unit: '%'
+    condition: null
+    min_value: 25.0
+  source_text: 开式机动车库open motor vehicle garage任一层车库外墙敬开面积超过该层四周外墙体总面积的25%，且开区域均匀布置在外墙上且其长度不小于车库周长的50%的机动车库。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ1002015_2_0_10_2
+  source_clause: JGJ 100-2015#2.0.10
+  rule_type: validation
+  when:
+  - activity_type == '车库建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 上且其长度
+    unit: '%'
+    condition: null
+    min_value: 50.0
+  source_text: 开式机动车库open motor vehicle garage任一层车库外墙敬开面积超过该层四周外墙体总面积的25%，且开区域均匀布置在外墙上且其长度不小于车库周长的50%的机动车库。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ1002015_3_1_4_1
+  source_clause: JGJ 100-2015#3.1.4
+  rule_type: constraint
+  when:
+  - activity_type == '车库建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 务半径
+    unit: m
+    condition: null
+    min_value: 500.0
+  source_text: 机动车库的服务半径不宜大于500m，非机动车库的服务半径不宜大于100m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ1002015_3_1_4_2
+  source_clause: JGJ 100-2015#3.1.4
+  rule_type: constraint
+  when:
+  - activity_type == '车库建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 务半径
+    unit: m
+    condition: null
+    min_value: 100.0
+  source_text: 机动车库的服务半径不宜大于500m，非机动车库的服务半径不宜大于100m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ1002015_3_1_6_1
+  source_clause: JGJ 100-2015#3.1.6
+  rule_type: constraint
+  when:
+  - activity_type == '车库建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 入口的宽度
+    unit: m
+    condition: null
+    min_value: 4.0
+  source_text: 车库基地出人口的设计应符合下列规定：基地出人口的数量和位置应符合现行国家标准《民用建筑设计通则》GB50352的规定及城市交通规划和管理的有关规定；2基地出人口不应直接与城市快速路相连接，且不宜直接与城市主干路相连接；3基地主要出入口的宽度不应小于4m，并应保证出入口与内部通道衔
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ1002015_3_1_6_2
+  source_clause: JGJ 100-2015#3.1.6
+  rule_type: constraint
+  when:
+  - activity_type == '车库建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 候车道宽度
+    unit: m
+    condition: null
+    min_value: 4.0
+  source_text: 车库基地出人口的设计应符合下列规定：基地出人口的数量和位置应符合现行国家标准《民用建筑设计通则》GB50352的规定及城市交通规划和管理的有关规定；2基地出人口不应直接与城市快速路相连接，且不宜直接与城市主干路相连接；3基地主要出入口的宽度不应小于4m，并应保证出入口与内部通道衔
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ1002015_3_1_6_3
+  source_clause: JGJ 100-2015#3.1.6
+  rule_type: constraint
+  when:
+  - activity_type == '车库建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 道宽度
+    unit: m
+    condition: null
+    min_value: 10.0
+  source_text: 车库基地出人口的设计应符合下列规定：基地出人口的数量和位置应符合现行国家标准《民用建筑设计通则》GB50352的规定及城市交通规划和管理的有关规定；2基地出人口不应直接与城市快速路相连接，且不宜直接与城市主干路相连接；3基地主要出入口的宽度不应小于4m，并应保证出入口与内部通道衔
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ1002015_3_1_6_4
+  source_clause: JGJ 100-2015#3.1.6
+  rule_type: constraint
+  when:
+  - activity_type == '车库建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 面坡度
+    unit: '%'
+    condition: null
+    min_value: 5.0
+  source_text: 车库基地出人口的设计应符合下列规定：基地出人口的数量和位置应符合现行国家标准《民用建筑设计通则》GB50352的规定及城市交通规划和管理的有关规定；2基地出人口不应直接与城市快速路相连接，且不宜直接与城市主干路相连接；3基地主要出入口的宽度不应小于4m，并应保证出入口与内部通道衔
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ1002015_3_1_6_5
+  source_clause: JGJ 100-2015#3.1.6
+  rule_type: constraint
+  when:
+  - activity_type == '车库建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 弯半径
+    unit: m
+    condition: null
+    max_value: 6.0
+  source_text: 车库基地出人口的设计应符合下列规定：基地出人口的数量和位置应符合现行国家标准《民用建筑设计通则》GB50352的规定及城市交通规划和管理的有关规定；2基地出人口不应直接与城市快速路相连接，且不宜直接与城市主干路相连接；3基地主要出入口的宽度不应小于4m，并应保证出入口与内部通道衔
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ1002015_3_1_6_6
+  source_clause: JGJ 100-2015#3.1.6
+  rule_type: constraint
+  when:
+  - activity_type == '车库建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 最小距离
+    unit: m
+    condition: null
+    min_value: 15.0
+  source_text: 车库基地出人口的设计应符合下列规定：基地出人口的数量和位置应符合现行国家标准《民用建筑设计通则》GB50352的规定及城市交通规划和管理的有关规定；2基地出人口不应直接与城市快速路相连接，且不宜直接与城市主干路相连接；3基地主要出入口的宽度不应小于4m，并应保证出入口与内部通道衔
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ1002015_3_2_5_1
+  source_clause: JGJ 100-2015#3.2.5
+  rule_type: constraint
+  when:
+  - activity_type == '车库建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 动车道宽度
+    unit: m
+    condition: null
+    min_value: 4.0
+  source_text: 车库总平面内，单向行驶的机动车道宽度不应小于4m，双向行驶的小型车道不应小于6m，双向行驶的中型车以上车道不应小于7m；单向行驶的非机动车道宽度不应小于1.5m，双向行驶不宜小于3.5m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ1002015_3_2_5_2
+  source_clause: JGJ 100-2015#3.2.5
+  rule_type: constraint
+  when:
+  - activity_type == '车库建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 小型车道
+    unit: m
+    condition: null
+    min_value: 6.0
+  source_text: 车库总平面内，单向行驶的机动车道宽度不应小于4m，双向行驶的小型车道不应小于6m，双向行驶的中型车以上车道不应小于7m；单向行驶的非机动车道宽度不应小于1.5m，双向行驶不宜小于3.5m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ1002015_3_2_5_3
+  source_clause: JGJ 100-2015#3.2.5
+  rule_type: constraint
+  when:
+  - activity_type == '车库建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 车以上车道
+    unit: m
+    condition: null
+    min_value: 7.0
+  source_text: 车库总平面内，单向行驶的机动车道宽度不应小于4m，双向行驶的小型车道不应小于6m，双向行驶的中型车以上车道不应小于7m；单向行驶的非机动车道宽度不应小于1.5m，双向行驶不宜小于3.5m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ1002015_3_2_5_4
+  source_clause: JGJ 100-2015#3.2.5
+  rule_type: constraint
+  when:
+  - activity_type == '车库建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 动车道宽度
+    unit: m
+    condition: null
+    min_value: 1.5
+  source_text: 车库总平面内，单向行驶的机动车道宽度不应小于4m，双向行驶的小型车道不应小于6m，双向行驶的中型车以上车道不应小于7m；单向行驶的非机动车道宽度不应小于1.5m，双向行驶不宜小于3.5m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ1002015_3_2_6_1
+  source_clause: JGJ 100-2015#3.2.6
+  rule_type: constraint
+  when:
+  - activity_type == '车库建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 路转弯半径
+    unit: m
+    condition: null
+    min_value: 3.5
+  source_text: 机动车道路转弯半径应根据通行车辆种类确定。微型、小型车道路转弯半径不应小于3.5m；消防车道转弯半径应满足消防车辆最小转弯半径要求。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ1002015_3_2_8_1
+  source_clause: JGJ 100-2015#3.2.8
+  rule_type: constraint
+  when:
+  - activity_type == '车库建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 场所的距离
+    unit: m
+    condition: null
+    max_value: 10.0
+  source_text: 地下车库排风口宜设于下风向，并应做消声处理。排风口不应朝向邻近建筑的可开启外窗；当排风口与人员活动场所的距离小于10m时，朝向人员活动场所的排风口底部距人员活动地坪的高度不应小于2.5m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ1002015_3_2_8_2
+  source_clause: JGJ 100-2015#3.2.8
+  rule_type: constraint
+  when:
+  - activity_type == '车库建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 地坪的高度
+    unit: m
+    condition: null
+    min_value: 2.5
+  source_text: 地下车库排风口宜设于下风向，并应做消声处理。排风口不应朝向邻近建筑的可开启外窗；当排风口与人员活动场所的距离小于10m时，朝向人员活动场所的排风口底部距人员活动地坪的高度不应小于2.5m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ1002015_3_2_10_1
+  source_clause: JGJ 100-2015#3.2.10
+  rule_type: constraint
+  when:
+  - activity_type == '车库建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 路纵坡坡度
+    unit: '%'
+    condition: null
+    min_value: 0.2
+  source_text: 车库总平面内的道路、广场应有良好的排水系统，道路纵坡坡度不应小于0.2%，广场坡度不应小于0.3%。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ1002015_3_2_10_2
+  source_clause: JGJ 100-2015#3.2.10
+  rule_type: constraint
+  when:
+  - activity_type == '车库建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 于广场坡度
+    unit: '%'
+    condition: null
+    min_value: 0.3
+  source_text: 车库总平面内的道路、广场应有良好的排水系统，道路纵坡坡度不应小于0.2%，广场坡度不应小于0.3%。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ1002015_3_2_11_1
+  source_clause: JGJ 100-2015#3.2.11
+  rule_type: constraint
+  when:
+  - activity_type == '车库建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 坡相对坡度
+    unit: '%'
+    condition: null
+    min_value: 8.0
+  source_text: 车库总平面内的道路纵坡坡度应符合现行国家标准《民用建筑设计通则》GB50352的最大限值的规定。当机动车道路纵坡相对坡度大于8%时，应设缓坡段与城市道路连接。对于机动车与非机动车混行的道路，其纵坡的坡度应满足非机动车道路纵坡的最大限值要求。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ1002015_4_1_8_1
+  source_clause: JGJ 100-2015#4.1.8
+  rule_type: constraint
+  when:
+  - activity_type == '车库建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 光系数
+    unit: '%'
+    condition: null
+    max_value: 0.5
+  source_text: 当机动车库采取天然采光时，天然采光系数不宜小于0.5%或其窗地面积比宜大于1：15，且车库及坡道应设有防眩光设施。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ1002015_4_1_9_1
+  source_clause: JGJ 100-2015#4.1.9
+  rule_type: constraint
+  when:
+  - activity_type == '车库建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 务半径
+    unit: m
+    condition: null
+    min_value: 60.0
+  source_text: 四层及以上的多层机动车库或地下三层及以下机动车库应设置乘客电梯，电梯的服务半径不宜大于60m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ1002015_4_1_10_1
+  source_clause: JGJ 100-2015#4.1.10
+  rule_type: constraint
+  when:
+  - activity_type == '车库建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 行驶方向用
+    unit: cm
+    condition: null
+    min_value: 10.0
+    max_value: 10.0
+  source_text: 机动车库内的标志和标线应符合下列规定：应在每层出入口的显著部位设置标明楼层和行驶方向的标志；应在楼地面上用彩色线条标明行驶方向、用10cm～15cm宽线条标明停车位；3在各层柱间及通车道尽端，应设置停车区位的标志。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ1002015_4_1_10_2
+  source_clause: JGJ 100-2015#4.1.10
+  rule_type: constraint
+  when:
+  - activity_type == '车库建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 方向用cm
+    unit: cm
+    condition: null
+    min_value: 15.0
+    max_value: 15.0
+  source_text: 机动车库内的标志和标线应符合下列规定：应在每层出入口的显著部位设置标明楼层和行驶方向的标志；应在楼地面上用彩色线条标明行驶方向、用10cm～15cm宽线条标明停车位；3在各层柱间及通车道尽端，应设置停车区位的标志。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ1002015_4_2_2_1
+  source_clause: JGJ 100-2015#4.2.2
+  rule_type: constraint
+  when:
+  - activity_type == '车库建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 最小间距
+    unit: m
+    condition: null
+    min_value: 15.0
+  source_text: 车辆出入口的最小间距不应小于15m，并宜与基地内部道路相接通，当直接通向城市道路时，应符合本规范第3.1.6条的规定。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ1002015_4_2_4_1
+  source_clause: JGJ 100-2015#4.2.4
+  rule_type: constraint
+  when:
+  - activity_type == '车库建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 双向行驶时
+    unit: m
+    condition: null
+    min_value: 7.0
+  source_text: 车辆出入口宽度，双向行驶时不应小于7m，单向行驶时不应小于4m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ1002015_4_2_9_1
+  source_clause: JGJ 100-2015#4.2.9
+  rule_type: constraint
+  when:
+  - activity_type == '车库建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 外地坪高差
+    unit: mm
+    condition: null
+    min_value: 150.0
+  source_text: 平入式出入口应符合下列规定：平入式出入口室内外地坪高差不应小于150mm，且不宜大于300mm；2出入口室外坡道起坡点与相连的室外车行道路的最小距离不宜小于5.0m；出入口的上部宜设有防雨设施；出入口处宜设置遥控启闭的大门。4.2. 10坡道式出入口应符合下列规定：出入口可采用直
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ1002015_4_2_9_2
+  source_clause: JGJ 100-2015#4.2.9
+  rule_type: constraint
+  when:
+  - activity_type == '车库建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 差
+    unit: mm
+    condition: null
+    min_value: 300.0
+  source_text: 平入式出入口应符合下列规定：平入式出入口室内外地坪高差不应小于150mm，且不宜大于300mm；2出入口室外坡道起坡点与相连的室外车行道路的最小距离不宜小于5.0m；出入口的上部宜设有防雨设施；出入口处宜设置遥控启闭的大门。4.2. 10坡道式出入口应符合下列规定：出入口可采用直
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ1002015_4_2_9_3
+  source_clause: JGJ 100-2015#4.2.9
+  rule_type: constraint
+  when:
+  - activity_type == '车库建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 小距离
+    unit: m
+    condition: null
+    max_value: 5.0
+  source_text: 平入式出入口应符合下列规定：平入式出入口室内外地坪高差不应小于150mm，且不宜大于300mm；2出入口室外坡道起坡点与相连的室外车行道路的最小距离不宜小于5.0m；出入口的上部宜设有防雨设施；出入口处宜设置遥控启闭的大门。4.2. 10坡道式出入口应符合下列规定：出入口可采用直
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ1002015_4_3_4_1
+  source_clause: JGJ 100-2015#4.3.4
+  rule_type: constraint
+  when:
+  - activity_type == '车库建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 车道宽度
+    unit: m
+    condition: null
+    min_value: 3.0
+  source_text: 机动车最小停车位、通（停）车道宽度可通过计算或作图法求得，且库内通车道宽度应大于或等于3.0m。小型车的最小停车位通（停）车道宽度宜符合
+  table_source: 表4.3.4
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ1002015_4_3_5_1
+  source_clause: JGJ 100-2015#4.3.5
+  rule_type: constraint
+  when:
+  - activity_type == '车库建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 最小内半径
+    unit: m
+    condition: null
+    min_value: 3.0
+  source_text: 微型车和小型车的环形通车道最小内半径不得小于3.0m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ1002015_4_3_8_1
+  source_clause: JGJ 100-2015#4.3.8
+  rule_type: constraint
+  when:
+  - activity_type == '车库建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 之间的距离
+    unit: m
+    condition: null
+    min_value: 14.0
+  source_text: 错层式停车区域应符合下列规定：1两直坡道之间的水平距离应使车辆在停车层作180°转向，两段坡道中心线之间的距离不应小于14.0m；三段错层式停车区域的通车道应限定车辆行驶路线；错层式停车区域内楼面空间可以叠交，叠交水平尺寸不应大于1.5m。4.3. 9斜楼板式停车区域的楼板坡度、
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ1002015_4_3_8_2
+  source_clause: JGJ 100-2015#4.3.8
+  rule_type: constraint
+  when:
+  - activity_type == '车库建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 平尺寸
+    unit: m
+    condition: null
+    min_value: 1.5
+  source_text: 错层式停车区域应符合下列规定：1两直坡道之间的水平距离应使车辆在停车层作180°转向，两段坡道中心线之间的距离不应小于14.0m；三段错层式停车区域的通车道应限定车辆行驶路线；错层式停车区域内楼面空间可以叠交，叠交水平尺寸不应大于1.5m。4.3. 9斜楼板式停车区域的楼板坡度、
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ1002015_4_3_8_3
+  source_clause: JGJ 100-2015#4.3.8
+  rule_type: constraint
+  when:
+  - activity_type == '车库建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 板坡度
+    unit: '%'
+    condition: null
+    min_value: 5.0
+  source_text: 错层式停车区域应符合下列规定：1两直坡道之间的水平距离应使车辆在停车层作180°转向，两段坡道中心线之间的距离不应小于14.0m；三段错层式停车区域的通车道应限定车辆行驶路线；错层式停车区域内楼面空间可以叠交，叠交水平尺寸不应大于1.5m。4.3. 9斜楼板式停车区域的楼板坡度、
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ1002015_4_4_3_1
+  source_clause: JGJ 100-2015#4.4.3
+  rule_type: constraint
+  when:
+  - activity_type == '车库建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 中距
+    unit: m
+    condition: null
+    min_value: 40.0
+  source_text: 机动车库的楼地面应采用强度高、具有耐磨防滑性能的不燃材料，并应在各楼层设置地漏或排水沟等排水设施。地漏（或集水坑）的中距不宜大于40m。敲开式车库和有排水要求的停车区域应设不小于0.5%的排水坡度和相应的排水系统。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ1002015_4_4_3_2
+  source_clause: JGJ 100-2015#4.4.3
+  rule_type: constraint
+  when:
+  - activity_type == '车库建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 车区域应设
+    unit: '%'
+    condition: null
+    min_value: 0.5
+  source_text: 机动车库的楼地面应采用强度高、具有耐磨防滑性能的不燃材料，并应在各楼层设置地漏或排水沟等排水设施。地漏（或集水坑）的中距不宜大于40m。敲开式车库和有排水要求的停车区域应设不小于0.5%的排水坡度和相应的排水系统。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ1002015_4_4_6_1
+  source_clause: JGJ 100-2015#4.4.6
+  rule_type: constraint
+  when:
+  - activity_type == '车库建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 位端线
+    unit: m
+    condition: null
+    min_value: 0.2
+    max_value: 0.2
+  source_text: 机动车库内停车位应设车轮挡，车轮挡宜设于距停车位端线为机动车前悬或后悬的尺寸减0.2m处，其高度宜为0.15m，且车轮挡不得阻碍楼地面排水。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ1002015_4_4_6_2
+  source_clause: JGJ 100-2015#4.4.6
+  rule_type: constraint
+  when:
+  - activity_type == '车库建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 处其高度
+    unit: m
+    condition: null
+    min_value: 0.15
+    max_value: 0.15
+  source_text: 机动车库内停车位应设车轮挡，车轮挡宜设于距停车位端线为机动车前悬或后悬的尺寸减0.2m处，其高度宜为0.15m，且车轮挡不得阻碍楼地面排水。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ1002015_4_4_10_1
+  source_clause: JGJ 100-2015#4.4.10
+  rule_type: constraint
+  when:
+  - activity_type == '车库建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 牙道牙宽度
+    unit: m
+    condition: null
+    min_value: 0.3
+  source_text: 当机动车库坡道横向内（或外）侧无实体墙体时，应在无实体墙处设护栏和道牙。道牙宽度不应小于0.30m，高度不应小于0.15m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ1002015_5_2_1_2
+  source_clause: JGJ 100-2015#5.2.1
+  rule_type: constraint
+  when:
+  - activity_type == '车库建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 型宽加m且
+    unit: m
+    condition: null
+    min_value: 2.5
+  source_text: 全自动机动车库出入口应符合下列规定：1出入口处应设置不少于2个的候车位，当出入口分开设置时，候车位不应少于1个；当机动车需要掉头而受场地限制时，可设置机动车回转盘；2出入口宽度应大于所存放的机动车设计车型宽加0.50m，且不应小于2.50m，高度不应小于2.00m；3机械式立体机
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ1002015_5_3_8_1
+  source_clause: JGJ 100-2015#5.3.8
+  rule_type: constraint
+  when:
+  - activity_type == '车库建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 求计算最小
+    unit: m
+    condition: null
+    min_value: 5.8
+  source_text: 复式机动车库通车道的最小尺寸应根据车型倒车人库的需求计算，最小不得小于5.8m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ1002015_6_1_3_1
+  source_clause: JGJ 100-2015#6.1.3
+  rule_type: constraint
+  when:
+  - activity_type == '车库建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 外地坪高差
+    unit: m
+    condition: null
+    min_value: 7.0
+  source_text: 非机动车库不宜设在地下二层及以下，当地下停车层地坪与室外地坪高差大于7m时，应设机械提升装置。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ1002015_6_2_2_1
+  source_clause: JGJ 100-2015#6.2.2
+  rule_type: constraint
+  when:
+  - activity_type == '车库建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 最小距离
+    unit: m
+    condition: null
+    min_value: 7.5
+  source_text: 非机动车库出入口宜与机动车库出入口分开设置，且出地面处的最小距离不应小于7.5m。当中型和小型非机动车库受条件限制，其出入口坡道需与机动车出人口设置在一起时，应设置安全分隔设施，且应在地面出入口外7.5m范围内设置不遮挡视线的安全隔离栏杆。机动轮椅车和三轮车车库单向出入口净宽不应
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ1002015_6_2_2_2
+  source_clause: JGJ 100-2015#6.2.2
+  rule_type: constraint
+  when:
+  - activity_type == '车库建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 面出入口外
+    unit: m
+    condition: null
+    min_value: 7.5
+    max_value: 7.5
+  source_text: 非机动车库出入口宜与机动车库出入口分开设置，且出地面处的最小距离不应小于7.5m。当中型和小型非机动车库受条件限制，其出入口坡道需与机动车出人口设置在一起时，应设置安全分隔设施，且应在地面出入口外7.5m范围内设置不遮挡视线的安全隔离栏杆。机动轮椅车和三轮车车库单向出入口净宽不应
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ1002015_6_2_2_3
+  source_clause: JGJ 100-2015#6.2.2
+  rule_type: constraint
+  when:
+  - activity_type == '车库建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 出入口净宽
+    unit: m
+    condition: null
+    min_value: 0.6
+  source_text: 非机动车库出入口宜与机动车库出入口分开设置，且出地面处的最小距离不应小于7.5m。当中型和小型非机动车库受条件限制，其出入口坡道需与机动车出人口设置在一起时，应设置安全分隔设施，且应在地面出入口外7.5m范围内设置不遮挡视线的安全隔离栏杆。机动轮椅车和三轮车车库单向出入口净宽不应
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ1002015_6_2_5_1
+  source_clause: JGJ 100-2015#6.2.5
+  rule_type: constraint
+  when:
+  - activity_type == '车库建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 坡道长度
+    unit: m
+    condition: null
+    min_value: 6.8
+  source_text: 非机动车库出入口宜采用直线形坡道，当坡道长度超过6.8m或转换方向时，应设休息平台，平台长度不应小于2.00m，并应能保持非机动车推行的连续性。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ1002015_6_2_5_2
+  source_clause: JGJ 100-2015#6.2.5
+  rule_type: constraint
+  when:
+  - activity_type == '车库建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 台平台长度
+    unit: m
+    condition: null
+    min_value: 2.0
+  source_text: 非机动车库出入口宜采用直线形坡道，当坡道长度超过6.8m或转换方向时，应设休息平台，平台长度不应小于2.00m，并应能保持非机动车推行的连续性。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ1002015_6_2_6_1
+  source_clause: JGJ 100-2015#6.2.6
+  rule_type: constraint
+  when:
+  - activity_type == '车库建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 坡度
+    unit: '%'
+    condition: null
+    min_value: 25.0
+  source_text: 踏步式出入口推车斜坡的坡度不宜大于25%，单向净宽不应小于0.35m，总净宽度不应小于1.80m。坡道式出人口的斜坡坡度不宜大于15%，坡道宽度不应小于1.80m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ1002015_6_2_6_2
+  source_clause: JGJ 100-2015#6.2.6
+  rule_type: constraint
+  when:
+  - activity_type == '车库建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 于单向净宽
+    unit: m
+    condition: null
+    min_value: 0.35
+  source_text: 踏步式出入口推车斜坡的坡度不宜大于25%，单向净宽不应小于0.35m，总净宽度不应小于1.80m。坡道式出人口的斜坡坡度不宜大于15%，坡道宽度不应小于1.80m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ1002015_6_2_6_3
+  source_clause: JGJ 100-2015#6.2.6
+  rule_type: constraint
+  when:
+  - activity_type == '车库建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: m总净宽度
+    unit: m
+    condition: null
+    min_value: 1.8
+  source_text: 踏步式出入口推车斜坡的坡度不宜大于25%，单向净宽不应小于0.35m，总净宽度不应小于1.80m。坡道式出人口的斜坡坡度不宜大于15%，坡道宽度不应小于1.80m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ1002015_6_2_6_4
+  source_clause: JGJ 100-2015#6.2.6
+  rule_type: constraint
+  when:
+  - activity_type == '车库建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 坡坡度
+    unit: '%'
+    condition: null
+    min_value: 15.0
+  source_text: 踏步式出入口推车斜坡的坡度不宜大于25%，单向净宽不应小于0.35m，总净宽度不应小于1.80m。坡道式出人口的斜坡坡度不宜大于15%，坡道宽度不应小于1.80m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ1002015_6_2_6_5
+  source_clause: JGJ 100-2015#6.2.6
+  rule_type: constraint
+  when:
+  - activity_type == '车库建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 于坡道宽度
+    unit: m
+    condition: null
+    min_value: 1.8
+  source_text: 踏步式出入口推车斜坡的坡度不宜大于25%，单向净宽不应小于0.35m，总净宽度不应小于1.80m。坡道式出人口的斜坡坡度不宜大于15%，坡道宽度不应小于1.80m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ1002015_6_4_2_1
+  source_clause: JGJ 100-2015#6.4.2
+  rule_type: constraint
+  when:
+  - activity_type == '车库建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 口处应设置
+    unit: m
+    condition: null
+    min_value: 0.15
+  source_text: 非机动车库通往地下的坡道在地面出入口处应设置不小于0.15m高的反坡，并宜设置与坡道同宽的截水沟。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ1002015_7_2_5_1
+  source_clause: JGJ 100-2015#7.2.5
+  rule_type: constraint
+  when:
+  - activity_type == '车库建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcParking']
+  then:
+    parameter: 务半径
+    unit: m
+    condition: null
+    min_value: 20.0
+  source_text: 机动车库应按停车层设置楼地面排水系统，排水点的服务半径不宜大于20m。当采用地漏排水时，地漏管径不宜小于DN100。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+extraction_notes:
+- 实施日期（2015年？）待核。仅强条强制力废止。

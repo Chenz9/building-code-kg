@@ -1,0 +1,4733 @@
+standard:
+  code: GB 50118-2010
+  name: 民用建筑隔声设计规范
+  name_note: null
+  version: '2010'
+  status: 现行
+  is_abolished: false
+  effective_date: null
+  abolished_date: null
+  superseded_by: null
+  standard_category: 国家标准
+  domain:
+  - 隔声
+  - 声学
+  - 民用建筑
+  region_scope: 全国
+  region_codes: []
+  has_mandatory_clauses: true
+  mandatory_clause_count: 4
+  mandatory_note: 源为扫描/OCR，黑体强条待核；4.2.1、4.2.2、4.2.5 为强条，已被 GB 55038-2025 废止强制性效力（2025-05-01）；4.1.1 为强条，已被 GB 55016-2021 废止强制性效力（2022-04-01）。
+  total_clauses: 104
+  related_standards:
+  - code: GB 55038-2025
+    relationship: 上位通用规范（已废止本规范 4.2.1、4.2.2、4.2.5 强制性条文效力）
+  - code: GB 55016-2021
+    relationship: 上位通用规范（建筑环境，已废止本规范 4.1.1 强制性条文效力）
+  clauses:
+  - GB 50118-2010#4.2.1
+  - GB 50118-2010#1.0.1
+  - GB 50118-2010#1.0.2
+  - GB 50118-2010#1.0.3
+  - GB 50118-2010#1.0.4
+  - GB 50118-2010#2.1.1
+  - GB 50118-2010#2.1.2
+  - GB 50118-2010#2.1.3
+  - GB 50118-2010#2.1.4
+  - GB 50118-2010#2.1.5
+  - GB 50118-2010#2.1.6
+  - GB 50118-2010#2.1.7
+  - GB 50118-2010#2.1.8
+  - GB 50118-2010#2.1.9
+  - GB 50118-2010#2.1.10
+  - GB 50118-2010#2.1.11
+  - GB 50118-2010#3.0.1
+  - GB 50118-2010#3.0.2
+  - GB 50118-2010#3.0.3
+  - GB 50118-2010#3.0.4
+  - GB 50118-2010#3.0.5
+  - GB 50118-2010#4.2.2
+  - GB 50118-2010#4.2.3
+  - GB 50118-2010#4.2.4
+  - GB 50118-2010#4.2.5
+  - GB 50118-2010#4.2.6
+  - GB 50118-2010#4.2.7
+  - GB 50118-2010#4.2.8
+  - GB 50118-2010#4.3.1
+  - GB 50118-2010#4.3.2
+  - GB 50118-2010#4.3.3
+  - GB 50118-2010#4.3.4
+  - GB 50118-2010#4.3.5
+  - GB 50118-2010#4.3.6
+  - GB 50118-2010#4.3.7
+  - GB 50118-2010#4.3.8
+  - GB 50118-2010#4.3.9
+  - GB 50118-2010#5.2.1
+  - GB 50118-2010#5.2.2
+  - GB 50118-2010#5.3.1
+  - GB 50118-2010#5.3.2
+  - GB 50118-2010#5.3.3
+  - GB 50118-2010#5.3.4
+  - GB 50118-2010#5.3.5
+  - GB 50118-2010#6.2.1
+  - GB 50118-2010#6.2.2
+  - GB 50118-2010#6.3.1
+  - GB 50118-2010#6.3.2
+  - GB 50118-2010#6.3.3
+  - GB 50118-2010#6.3.4
+  - GB 50118-2010#6.3.5
+  - GB 50118-2010#6.3.6
+  - GB 50118-2010#6.3.7
+  - GB 50118-2010#6.3.8
+  - GB 50118-2010#6.3.9
+  - GB 50118-2010#6.3.10
+  - GB 50118-2010#6.3.11
+  - GB 50118-2010#6.3.12
+  - GB 50118-2010#6.3.13
+  - GB 50118-2010#7.2.1
+  - GB 50118-2010#7.2.2
+  - GB 50118-2010#7.2.3
+  - GB 50118-2010#7.2.43
+  - GB 50118-2010#7.2.4
+  - GB 50118-2010#7.2.6
+  - GB 50118-2010#7.3.1
+  - GB 50118-2010#7.3.2
+  - GB 50118-2010#7.3.3
+  - GB 50118-2010#8.1.1
+  - GB 50118-2010#8.2.1
+  - GB 50118-2010#8.2.2
+  - GB 50118-2010#8.2.3
+  - GB 50118-2010#8.2.4
+  - GB 50118-2010#8.3.1
+  - GB 50118-2010#8.3.2
+  - GB 50118-2010#8.3.4
+  - GB 50118-2010#8.3.5
+  - GB 50118-2010#8.3.6
+  - GB 50118-2010#8.3.7
+  - GB 50118-2010#8.3.8
+  - GB 50118-2010#8.3.9
+  - GB 50118-2010#8.3.10
+  - GB 50118-2010#8.3.11
+  - GB 50118-2010#8.3.12
+  - GB 50118-2010#8.3.13
+  - GB 50118-2010#9.2.1
+  - GB 50118-2010#9.3.2
+  - GB 50118-2010#9.3.3
+  - GB 50118-2010#9.4.1
+  - GB 50118-2010#9.4.2
+  - GB 50118-2010#A.0.1
+  - GB 50118-2010#A.0.2
+  - GB 50118-2010#A.0.3
+  - GB 50118-2010#A.0.4
+  - GB 50118-2010#4.1.1
+  - GB 50118-2010#7.1.3
+  - GB 50118-2010#5.1.1
+  - GB 50118-2010#5.2.4
+  - GB 50118-2010#6.1.1
+  - GB 50118-2010#7.1.1
+  - GB 50118-2010#7.2.5
+  - GB 50118-2010#8.3.3
+  - GB 50118-2010#9.1.1
+  - GB 50118-2010#9.3.1
+  schema_version: v2.1
+  last_reviewed_date: '2026-09-07'
+clauses:
+- id: GB 50118-2010#4.2.1
+  standard_code: GB 50118-2010
+  chapter: 4 住宅建筑
+  section: ''
+  clause_no: 4.2.1
+  text: 分户墙、分户楼板及分隔住宅和非居住用途空间楼板的空气声隔声性能，应符合表4.2.1的规定。
+  is_abolished: true
+  abolished_date: '2025-05-01'
+  superseded_by: GB 55038-2025
+  abolition_note: 被《住宅项目规范》GB 55038-2025 废止强制性条文效力（住建部公告，2025-05-01 起实施）
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 必须
+    is_mandatory_clause: true
+    mandatory_basis: 住建部公告2010年第744号强制性条文
+  parameters: []
+  tables:
+  - table_id: 表4.2.1
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文）
+    content: 分户墙、分户楼板及分隔住宅和非居住用途空间楼板的空气声隔声性能，应符合表4.2.1的规定。表4.2.1分户构件空气声隔声标准构件名称空气声隔声单值评价量十频谱修正（dB)计权隔声量十粉红噪声频谱修正量>45分户墙、分户楼板Rw+C分隔住宅和非居住计权隔声量十交通噪声频谱修正量>51用途空间的楼板Rw+Ctr
+  converted_tables:
+  - raw: ～4.2.4对分户墙、分户楼板及相邻两户房间之间的空气声隔声性能作规定，旨在控制邻居之间诸如说话声、电视音响声等噪声的干扰，以及保障居家生活中声音的私密性。对分隔住宅和非居住用途空间的楼板的空气声隔声性能作规定，旨在防止住宅楼内其他用途空间内（如上层电梯机房、下层车库、商住楼的底商等）的噪声扰民。分户构件空气声隔声性能的评价量采用计权隔声量与粉红噪声频谱修正量之和（符号：Rw十C），其指标值是构件的实验室测量值，供设计师隔声设计选材使用。相邻两户房间之间的空气声隔声性能评价量采用计权标准化声压级差与粉红噪声频谱修正量之和（符号：DnT.w十C），其指标值是现场测量值，是住宅建成后实际要达到的值。分隔住宅和非居住用途空间的楼板的空气声隔声性能评价量，采用计权隔声量与交通噪声频谱修正量之和（符号：Rw十Ctr）及计权标准化声压级差与交通噪声频谱修正量之和（符号：DnT,w十Ctr）。前者是实验室测量值，供设计选材用；后者是现场测量值，是住宅建成后实际要达到的值。测量方法见GB/T19889.3、GB/T19889.4和GB/T19889.14，评价方法见GB/T50121。对分户墙、分户楼板的空气声隔声要求也适用于分隔住宅楼内居住空间与套外楼梯、门厅、走廊等的墙体或楼板。
+    note: 合并重复提取片段
+  - raw: 条和4.2.2条是所有住宅都应该达到的空气声隔声的最低要求标准；4.2.3条和4.2.4条是供性能要求较高的住宅设计使用的高要求标准。本规范卧室、起居室（厅）分户墙、分户楼板空气声隔声性能的最低要求与原规范（GBJ118－88）相比，大约提高了5dB~7dB。修编的主要依据：1根据建筑构件空气声隔声性能与主观感觉的关系，考虑满足基本的安静和私密要求。国内城市住宅现场隔声测量调查表明，当住宅分户构件的空气声隔声性能指标值（DnT,w十C）在40dB～45dB时，隔壁的大声讲话时常能被听到，大约有1/3的居住者对隔声不满意；当分户构件的指标值（DnT,w十C）在45dB～50dB时，隔壁的大声讲话--般听不到，播放音乐音量大时能听到，大约有1/5的居住者对隔声不满意；当分户构件的指标值（DnT.w十C）大于50dB后，隔壁的音乐声（钢琴声除外）、叫喊声一般听不到，有90%以上的居住者对隔声效果认可。2参考国内外住宅隔声相关标准。例如，英国标准：DnTw+C43dB～45dB、澳大利亚标准：DmT,w十Ctr45dB、美国标准：STC45（现场测量，相当于DnT.w45dB）。我国已有城市在住宅设计地方标准中将住宅分户构件的空气声隔声最低要求指标规定为45dB。分隔住宅和非居住用途空间的楼板的空气声隔声要求与现行国家标准《住宅建筑规范》GB50368－2005第
+    note: 合并重复提取片段
+  references:
+  - target_standard: GBJ 118
+    target_clause: null
+    original_text: 原《民用建筑隔声设计规范》GBJ118-88同时废止。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#1.0.1
+  standard_code: GB 50118-2010
+  chapter: 1 总则
+  section: ''
+  clause_no: 1.0.1
+  text: 为减少民用建筑受噪声影响，保证民用建筑室内有良好的声环境，制定本规范。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 建设各类民用建筑，应考虑噪声控制。噪声控制应从建筑项目的方案设计阶段开始，并贯穿所有设计阶段。并宜有噪声控制专业技术人员参加设计工作。随着我国经济、科技的发展，各种交通工具和用于民用建筑的机械、设备都越来越多，使得噪声源不断增多；同时也出现了许多新型轻质建筑材料，使得民用建筑的隔声降噪能力减弱。由于以上这些原因，使得民用建筑内的噪声干扰问题日益突出，要求降低噪声、改善声环境的呼声日益强烈。因此，在建设民用建筑时，必须将隔声减噪作为一个重要因素加以考虑。解决民用建筑内的噪声干扰问题应该从规划设计、单体建筑内的平面布置、选择建筑围护结构以及减小、控制建筑设备的振动、噪声等方面采取措施，并且应该在各个设计阶段就加以考虑。许多隔振、减噪措施需要占用一定的空间或要求建筑结构能够承受较大的荷载，若设计时不预留，则这些措施将难以实施。如果建筑建成后再来解决噪声问题，不仅所需的经费可能比在设计阶段就考虑解决噪声问题要多很多，而且还受到许多已不可改变（因建筑已建成）的建筑条件限制，而难以达到最佳降噪效果。较大、较重要的民用建筑中的噪声控制方面的工作量大、要求高，由专业噪声控制工程师来负责这项工作，将使民用建筑的噪声控制效果更加有保证。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#1.0.2
+  standard_code: GB 50118-2010
+  chapter: 1 总则
+  section: ''
+  clause_no: 1.0.2
+  text: 本规范适用于全国城镇新建、改建和扩建的住宅、学校、医院、旅馆、办公建筑及商业建筑等六类建筑中主要用房的隔声、吸声、减噪设计。其他类建筑中的房间，根据其使用功能，可采用本规范的相应规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 本规范适用于全国城镇新建、改建和扩建的住宅、学校、医院、旅馆、办公建筑及商业建筑等六类建筑中主要用房的隔声、吸声、减噪设计。
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 本规范主要针对住宅、学校、医院、旅馆、办公建筑及商业建筑等六类建筑中的噪声控制作了规定。对于学校、医院、旅馆、办公建筑中的会议室、教室等房间，在控制其中噪声的同时，兼顾了控制混响时间，以保证语言清晰。住宅建筑的标准也适用于公寓。住宅建筑的设计原则也适用于集体宿舍。学校建筑的标准适用于中、小学及大专院校的一般教学用房及教学辅助用房（图书馆等）。幼儿园的一一般教学用房应按学校建筑的标准设计，幼儿园的睡眠房间应按住宅建筑的标准设计。医院建筑的标准适用于综合医院，专科医院、疗养院与其他医院可采用综合医院相应房间的标准。旅馆建筑的标准适用于能够以夜为时间单位向客人提供相关服务的住宿设施。按不同习惯旅馆也被称为酒店、旅社、宾馆、招待所、度假村、俱乐部、大厦、中心等。办公建筑的标准适用于行政机关、企事业单位、商贸集团专用处理事务的建筑，也适用于其他各类建筑中的办公用房。商业建筑的标准适用于以商业经营为自的、有固定的服务人员和相对较多的流动人员的营业性场所，如购物中心、餐厅、娱乐场（迪斯科和KTV等）、健身中心、会展中心等等。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#1.0.3
+  standard_code: GB 50118-2010
+  chapter: 1 总则
+  section: ''
+  clause_no: 1.0.3
+  text: 本规范中的室内允许噪声级应采用A声级作为评价量。本规范中的室内允许噪声级应为关窗状态下昼间和夜问时段的标准值。医院建筑中应开窗使用的房间，开窗时室内允许噪声级的标准值宜与关窗状态下室内允许噪声级的标准值相间。昼间和夜间时段所对应的时间分别为：叠间，6：00～22：00时；夜间，22：00～6：00时；或者按照当地人民政府的规定。室内噪声级的测量应按本规范附录A的规定执行。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 条的规定。2室内噪声级的测量值为等效［连续A计权」声级。3对不同特性噪声的测量值，应按本规范表A.0.4的规定进行修正。
+    note: 合并重复提取片段
+  - raw: 允许噪声级是室内噪声容许标准，一般可以用NR评价曲线或A声级来规定。NR评价曲线是人为规定的各频带（从低频至高频）噪声声压级的曲线，往往用它检查是哪些频带的噪声有问题。在通常的声级范围内，A声级与人们对声音响度的主观感觉有良好的相关性，使用简便，是被广泛采用的单值评价方法。因此，本规范选用A声级来规定允许噪声级。这样也有利于室内、室外噪声标准的衔接，因为我国室外环境噪声的标准《声环境质量标准》GB3096-2008中也是用A声级来规定的。本规范中规定了房间关窗状态下的室内允许噪声级。医院建筑中的某些房间（如病房等）因卫生原因需要开窗使用，故也对这些房间开窗时的室内允许噪声级作了规定。在目前室外噪声源增多、室外噪声较高（尤其是城市交通干线、高速公路、铁路、机场附近）的情况下，要求在开窗状态室内的噪声也较低是比较困难的。为减小室外噪声对房间内的于扰，增强房间外窗部位的隔声能力是从建筑本身所能采取的主要、有效措施。虽然关窗可以降低室外噪声对室内的影响，但关窗也隔断了室内外的空气交流，不利于房间内的空气新鲜。所以，在规划、设计民用建筑时，仍应尽可能从平面布置方面采取防噪措施，争取实现在开窗状态下，房间内的噪声也能达到本规范中室内允许噪声级的正常情况下，人们在昼间工作、学习，在夜间休息、睡觉。人的不同生活状态对安静程度的要求是不同的。国内外声学专家通过调查研究后提出，人睡眠时的安静程度，理想状态是A声级30dB以下，若达不到理想状态，最差A声级也不能大于50dB；交谈、思考时对安静程度的要求，理想状态是A声级40dB以下，最差A声级也不能大于60dB。.人睡眠时对安静程度的要求最高，因而一般噪声在夜间比昼间对人有更大的干扰。正是由于人们叠间活动、夜间休息，因而昼间噪声较高、夜间噪声较低。因此，本规范对夜间人们要在其中睡觉的民用建筑，按昼间、夜间两个不同时段分别规定室内的允许噪声级。也有国家将一天分成白天、晚、夜间三个时段，分别规定各个时段的允许噪声级。但是，将一天分成白天、傍晚、夜间三个时段的必要性并不高，还增加了执行、操作的困难，所以本规范对有需要的民用建筑，按白天、夜间两个时段分别规定室内的允许噪声级。由于我国幅员辽阔，跨越多个时区，有些地方政府考虑当地的时差、作息习惯而对昼间、夜间的划分另有规定。对于这种情况昼间和夜间时段所对应的时间可以按照当地人民政府的规定。2　术语和符号2.1术．语本规范中的术语，只是为了说明本规范中有关项目的物理意义，而不追求该术语的全部完整定义。其中，部分术语按《声学名词术语》GB/T3947－1996给出，部分术语参考有关建筑隔声标准和习惯上常用的词汇编写。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#1.0.4
+  standard_code: GB 50118-2010
+  chapter: 1 总则
+  section: ''
+  clause_no: 1.0.4
+  text: 民用建筑隔声,减噪设计除应符合本规范的规定外 尚应符合国家现行有关标准的规定 2。术语和符号2、1。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#2.1.1
+  standard_code: GB 50118-2010
+  chapter: 2 术语和符号
+  section: ''
+  clause_no: 2.1.1
+  text: A声级 A-weighted sound pressure level用A计权网络测得的声压级。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#2.1.2
+  standard_code: GB 50118-2010
+  chapter: 2 术语和符号
+  section: ''
+  clause_no: 2.1.2
+  text: 等效［连续A计权］声级equivalentEcontinuousA-weighted sound pressure level在规定的时间内，某一连续稳态声的AE计权』声压，具有与时变的噪声相同的均方A［计权」声压，则这一连续稳态声的声级就是此时变噪声的等效声级。单位为分贝，dB。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 等效声级的公式是：LAng,T=10lg（了。100.1LAdt）（1)式中：LAg,T——等效声级，dB;T规定的时间间隔，S;LA-—t时刻的A声级，dB。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#2.1.3
+  standard_code: GB 50118-2010
+  chapter: 2 术语和符号
+  section: ''
+  clause_no: 2.1.3
+  text: 空气声，air-borne sound声源经过空气向四周传播的声音。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 由于我们人类生活在空气中，所以一般情况下（头处于水中时除外），我们听到的声音都是空气声。为帮助理解，举几个空气声的例子，如：邻室的电视声、邻室的谈话声、室外的交通噪声等。空气声隔声是通过在空气声的传播途径一空气中采取措施，增加声衰减。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#2.1.4
+  standard_code: GB 50118-2010
+  chapter: 2 术语和符号
+  section: ''
+  clause_no: 2.1.4
+  text: 撞击声impact sound在建筑结构上撞击而引起的噪声。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 撞击声并非是一种与空气声截然不同的声音，只不过是因为在隔声机理上有所不同，而分为两类声音。为帮助理解，举几个撞击声的例子，如：人在房间顶部的楼板上行走或拖拉物体、物体掉落在房间顶部的楼板上，而在房间内产生的噪声。撞击声隔声是通过改变撞击声的发声方式和或在撞击声的固体传播途径-建筑结构中采取措施，增加声衰减。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#2.1.5
+  standard_code: GB 50118-2010
+  chapter: 2 术语和符号
+  section: ''
+  clause_no: 2.1.5
+  text: 单值评价量single-number.quantity按照国家标准《建筑隔声评价标准》GB/T50121-2005规定的方法，综合考虑了关注对象在100Hz～3150Hz中心频率范围内各1/3倍频程（或125Hz～2000Hz中心频率范围内各1/1倍频程）的隔声性能后，所确定的单一隔声参数。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB/T 50121-2005
+    target_clause: null
+    original_text: 单值评价量single-number.quantity按照国家标准《建筑隔声评价标准》GB/T50121-2005规定的方法，综合考虑了关注对象在100Hz～3150Hz中心频率范围内各1/3倍
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#2.1.6
+  standard_code: GB 50118-2010
+  chapter: 2 术语和符号
+  section: ''
+  clause_no: 2.1.6
+  text: 计权隔声量weighted sound reduction index表征建筑构件空气声隔声性能的单值评价量。计权隔声量宜在实验室测得。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: should
+    modal_words:
+    - 宜
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 按照《建筑隔声评价标准》GB/T50121-2005中3.2节或3.3节规定的方法，根据建筑构件在100Hz～3150Hz中心频率范围内各1/3倍频程（或125Hz～2000Hz中心频率范围内各1/1倍频程）的隔声量得出计权隔声量。依据《声学建筑和建筑构件隔声测量第3部分：建筑构件空气声隔声的实验室测量》GB/T19889.3-2005测量得到隔声量。(2)式中：LI一一声源室内平均声压级，单位dB;L²——接收室内平均声压级，单位dB;S-一试件面积，单位 m²;A一—接收室内吸声量，单位m²。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#2.1.7
+  standard_code: GB 50118-2010
+  chapter: 2 术语和符号
+  section: ''
+  clause_no: 2.1.7
+  text: 计权标准化声压级差weighted standardizedlevel difference以接收室的混响时间作为修正参数而得到的两个房间之间空气声隔声性能的单值评价量。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 按照《建筑隔声评价标准》GB/T50121-2005中3.2节或3.3节规定的方法，根据房间之间在100Hz～3150Hz中心频率范围内各1/3倍频程（或125Hz～2000Hz中心频率范围内各1/1倍频程）的标准化声压级差得出计权标准化声压级差。依据《声学建筑和建筑构件隔声测量第4部分：房间之间空气声隔声的现场测量》GB/T19889.4-2005或者和《声学建筑和建筑构件隔声测量第14部分：特殊现场测量导则》GB/T19889.14-2010测量得到标准化声压级差。标准化声压级差的公式是：Dar = L －L2+10lg(3)式中：LI-—声源室内平均声压级，单位dB;L²——接收室内平均声压级，单位dB；T—接收室内混响时间，单位 s;T。——参考混响时间，对于住宅，T。= 0.5s。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#2.1.8
+  standard_code: GB 50118-2010
+  chapter: 2 术语和符号
+  section: ''
+  clause_no: 2.1.8
+  text: 计权规范化撞击声压级。weighted，normalized、impact sound，pressure level.以接收室的吸声量作为修正参数而得到的楼板或楼板构造撞击声隔声性能的单值评价量。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 按照《建筑隔声评价标准》GB/T50121-2005中4.2节或4.3节规定的方法，根据楼板或楼板构造在100Hz～3150Hz中心频率范围内各1/3倍频程（或125Hz～2000Hz中心频率范围内各1/1倍频程）的规范化撞击声压级得出计权规范化撞击声压级。依据《声学建筑和建筑构件隔声测量第6部分：楼板撞击声隔声的实验室测量》GB/T19889.6-2005测量得到规范化撞击声压级。(4)式中：L;—接收室内平均撞击声压级，单位dB；接收室内吸声量，单位m²；A。—参考吸声量，A。=10m²。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#2.1.9
+  standard_code: GB 50118-2010
+  chapter: 2 术语和符号
+  section: ''
+  clause_no: 2.1.9
+  text: 计权标准化撞击声压级sound pressure level以接收室的混响时间作为修正参数而得到的楼板或楼板构造撞击声隔声性能的单值评价量。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 按照《建筑隔声评价标准》GB/T50121-2005中4.2节或4.3节规定的方法，根据楼板或楼板构造在100Hz～3150Hz中心频率范围内各1/3倍频程（或125Hz～2000Hz中心频率范围内各1/1倍频程）的标准化撞击声压级得出计权标准化撞击声依据《声学建筑和建筑构件隔声测量第7部分：楼板撞击声隔声的现场测量》GB/T19889.7～2005或者和《声学建筑和建筑构件隔声测量第14部分：特殊现场测量导则》GB/T19889.14-2010测量得到标准化撞击声压级。(5)式中：L;接收室内平均撞击声压级，单位dB；一接收室内混响时间，单位S；T。-参考混响时间，对于住宅，T。=0.5s。2.1. 10本规范中，频谱修正量即为空气声隔声频谱修正量。粉红噪声频谱修正量C及交通噪声频谱修正量Ctr，按照《建筑隔声评价标准》GB/T50121-2005中3.4节规定的方法计算得出。根据GB/T50121-2005，用Rw十C表征构件对类似粉红噪声频谱的噪声（中高频为主的噪声）的隔声性能；用Rw十Ctr表征构件对类似交通噪声频谱的噪声（中低频为主的噪声）的隔声性能；用D.T,w十C表征房间对类似粉红噪声频谱的噪声的隔声性能；用DT.w十Ctr表征房间对类似交通噪声频谱的噪声的隔声性能。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#2.1.10
+  standard_code: GB 50118-2010
+  chapter: 2 术语和符号
+  section: ''
+  clause_no: 2.1.10
+  text: 频谱修正量spectrum adaptation term频谱修正量是因隔声频谱不同以及声源空间的噪声频谱不同，所需加到空气声隔声单值评价量上的修正值。当声源空间的噪声呈粉红噪声频率特性或交通噪声频率特性时，计算得到的频谱修正量分别是粉红噪声频谱修正量或交通噪声频谱修正量。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#2.1.11
+  standard_code: GB 50118-2010
+  chapter: 2 术语和符号
+  section: ''
+  clause_no: 2.1.11
+  text: 降噪系数noise reduction coefficient通过对中心频率在200Hz～2500Hz范围内的各1/3倍频程的无规入射吸声系数测量值进行计算，所得到的材料吸声特性的单一值。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 降噪系数（NRC）按照《建筑吸声产品的吸声性能分级》GB/T16731-1997中4.3节规定的方法计算得出。3总平面防噪设计
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#3.0.1
+  standard_code: GB 50118-2010
+  chapter: 3 总平面防噪设计
+  section: ''
+  clause_no: 3.0.1
+  text: 在城市规划中，从功能区的划分、交通道路网的分布、绿化与隔离带的设置、有利地形和建筑物屏蔽的利用，均应符合防噪设计要求。住宅、学校、医院等建筑，应远离机场、铁路线、编组站、车站、港口、码头等存在显著噪声影响的设施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#3.0.2
+  standard_code: GB 50118-2010
+  chapter: 3 总平面防噪设计
+  section: ''
+  clause_no: 3.0.2
+  text: 新建居住小区临交通干线、铁路线时，宜将对噪声不敏感的建筑物作为建筑声屏障，排列在小区外围。交通干线、铁路线旁边，噪声敏感建筑物的声环境达不到现行国家标准《声环境质量标准》GB3096的规定时，可在噪声源与噪声敏感建筑物之间采取设置声屏障等隔声措施。交通干线不应贯穿小区。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 许多国家的调查研究表明，城市噪声的70%来自交通噪声（公路交通、铁路、飞机、航运）。在我国，公路交通噪声是城市环境噪声的主要来源，许多城市调查后绘出的城市噪声分布图证明最高噪声带都分布在交通线上，至少有20%的城市居民受交通噪声的干扰，睡觉不得安眠。极大部分城市都未处理好沿街居住建筑的防噪问题，而事后在已有建筑上进行补救就相当困难。当前我国城镇建设方兴未艾，不断涌现出新的居住小区，因此应接受这一教训，在新小区设计开始便能贯彻防噪布局的原则，倘小区能从外部防止交通噪声的入侵，内部处理好各种噪声源，则兴建完成后的小区将是一个比较安静的小区。对噪声不敏感的建筑物系指防噪要求不高的建筑物，以及外围护结构有较好的防噪能力的建筑物。对噪声不敏感的建筑占着相当大的比例，例如商业建筑、饮食服务行业建筑、文化娱乐建筑、体育场地等，而且这些建筑本身要求方便群众，交通便利，均匀地分布在城市中，以减少城市交通的压力；旅馆虽为居住建筑，但亦有交通便利的要求，并有较大的停车场地，因此只要有高隔声的门窗与空调设备，也属于对噪声不敏感建筑；甚至医院的门诊部也要求临近交通线，以方便病人就医；某些低噪声的精密仪器工厂、进出货品繁忙的仓库、展览等公共建筑也可作为屏蔽建筑。声屏障是降低地面运输噪声的有效措施之。般3m～6m高的声屏障，其声影区内降噪效果在5dB12dB之间。当噪声源发出的声波遇到声屏障时，它将沿三条路径传播：部分越过声屏障顶端绕射到达受声点；部分穿透声屏障到达受声点；一部分在声屏障壁面上产生反射。声屏障的插人损失（在保持噪声源、地形、地貌、地面和气象条件不变情况下安装声屏障前后在某特定位置上的声压级之差）主要取决于声源发出的声波沿这三条路径传播的声能分配。
+    note: 合并重复提取片段
+  references:
+  - target_standard: GB 3096
+    target_clause: null
+    original_text: 交通干线、铁路线旁边，噪声敏感建筑物的声环境达不到现行国家标准《声环境质量标准》GB3096的规定时，可在噪声源与噪声敏感建筑物之间采取设置声屏障等隔声措施。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#3.0.3
+  standard_code: GB 50118-2010
+  chapter: 3 总平面防噪设计
+  section: ''
+  clause_no: 3.0.3
+  text: 产生噪声的建筑服务设备等噪声源的设置位置、防噪设计，应按下列规定：1锅炉房、水泵房、变压器室、制冷机房宜单独设置在噪声敏感建筑之外。住宅、学校、医院、旅馆、办公等建筑所在区域内有噪声源的建筑附属设施，其设置位置应避免对噪声敏感建筑物产生噪声干扰，必要时应作防噪处理。区内不得设置未经有效处理的强噪声源。2确需在噪声敏感建筑物内设置锅炉房、水泵房、变压器室、制冷机房时，若条件许可，宜将噪声源设置在地下，但不宜，毗邻主体建筑或设在主体建筑下。并且应采取有效的隔振、隔声措施。3冷却塔、热泵机组宜设置在对噪声敏感建筑物噪声干扰较小的位置。当冷却塔、热泵机组的噪声在周围环境超过现行国家标准《声环境质量标准》GB3096的规定时，应对冷却塔、热泵机组采取有效的降低或隔离噪声措施。冷却塔、热泵机组设置在楼顶或裙房顶上时，还应采取有效的隔振措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 锅炉、水泵、变压器、制冷机等强噪声源设在建筑内易产生固体声，且噪声敏感建筑对安静程度的要求较高，因而固体声的治理难度大、代价高。将锅炉房、水泵房、变压器室、制冷机房单独设置在噪声敏感建筑之外，可从根本上解决相关建筑设备的噪声干扰问题。对于小区内部的噪声控制，在各类民用建筑设计时，应注意有噪声源的建筑附属设施（如锅炉房、水泵房等），不仅需要考虑防止对所属建筑的噪声干扰，还需考虑防止对邻近建筑的噪声干扰，而后者常被忽视而引起纠纷。采取相应的治理措施后，将能有效地降低小区内的噪声水平。实践证明噪声源设置在地下时，对噪声控制有较好的效果。但必须注意设置在建筑物内时，除隔离空气声外，对结构声的隔离十分重要，不然将对整个建筑物有严重干扰，过去已有教训。因此，当噪声源设在噪声敏感建筑内时必须采取有效的隔声、隔振措施。冷却塔、热泵机组产生的噪声较大，一般可达65dB（A）～85dB（A）。由于建筑的体量越来越大，需要的冷却塔、热泵机组也越来越多，常常可以见到一座建筑配数个乃至十几个冷却塔、热泵机组的情形，在这种情况下冷却塔、热泵机组产生的噪声就更大了。对于无噪声屏蔽措施的情形，当冷却塔、热泵机组设在地面或裙房顶上时，一方面冷却塔、热泵机组产生的噪声直接辐射到其所属楼房的窗卢上，对其所属楼房内的房间产生噪声干扰；另一方面冷却塔、热泵机组产生的噪声被地面、裙房顶面、冷却塔所属楼房的外墙面反射到空间中，使得噪声加大；当冷却塔、热泵机组设在楼顶时，冷却塔、热泵机组所属楼房的房间均在冷却塔、热泵机组的下方，楼顶面将冷却塔、热泵机组产生的噪声反射到天空中去，自然也屏蔽了冷却塔、热泵机组产生噪声直接对冷却塔、热泵机组所属楼房内房间的噪声干扰；由于在室外人们大多在地面活动，人们与设置在楼顶的冷却塔、热泵机组的距离要比设置在地面或裙房顶上的距离远得多，从而加大了声衰减。此外，楼顶的通风散热条件也优于地面或裙房顶。因此，对于高楼林立的城市，应尽可能将冷却塔、热泵机组设置在楼顶。
+    note: 合并重复提取片段
+  references:
+  - target_standard: GB 3096
+    target_clause: null
+    original_text: 当冷却塔、热泵机组的噪声在周围环境超过现行国家标准《声环境质量标准》GB3096的规定时，应对冷却塔、热泵机组采取有效的降低或隔离噪声措施。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#3.0.4
+  standard_code: GB 50118-2010
+  chapter: 3 总平面防噪设计
+  section: ''
+  clause_no: 3.0.4
+  text: 在进行建筑设计前，应对环境及建筑物内外的噪声源作详细的调查与测定，并应对建筑物的防噪间距、朝向选择及平面布置等作综合考虑，仍不能达到室内安静要求时，应采取建筑构造上的防噪措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 无论设计独立的或群体的建筑，都需要对环境与建筑物内外的噪声源进行调查测定，然后作防噪设计的综合考虑。加大距离固然是防噪的有效措施，根据《公路建设项目环境影响评价规范》JTGB03－2006，当行车道上的小时交通量大于300辆时，交通噪声的衰减为10lg（ro/r）（r代表距离，ro二7.5m）；当行车道上的小时交通量小于300辆时，交通噪声的衰减为15lg（ro/r）。即距离加倍，噪声衰减3dB～4.5dB。但在一定距离之外，由于距离增加而致使噪声衰减的效果将逐渐减少。因此在城市用地紧张情况下，以加大距离，使噪声减低往往难以实现。从建筑平面布置上将安静要求较低的房间安置在噪声高的一侧是很有效的，前后室的噪声衰减量可以达到16dB，即使在前后室门打开有穿堂风的情况下，声衰减也可以达到9dB～10dB，但有时受到建筑物的朝向限制，因此必要时就需要采取建筑上的防噪措施。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#3.0.5
+  standard_code: GB 50118-2010
+  chapter: 3 总平面防噪设计
+  section: ''
+  clause_no: 3.0.5
+  text: 安静要求较高的民用建筑，宜设置于本区域主要噪声源夏季主导风向的上风侧。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: should
+    modal_words:
+    - 宜
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 在夏季，建筑需要开窗的时间较多，而且般是将建筑迎风一侧的窗打开，以便让风吹进室内。将对安静要求较高的民用建筑设置于本区域主要噪声源夏季主导风向的上风侧，就可以使建筑在夏季开窗时，打开的窗子处于背向主要噪声源的状态，建筑自身就成为了噪声屏蔽措施，起到减少传人室内的噪声的作用。4住宅建筑4.1充许噪声级
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#4.2.2
+  standard_code: GB 50118-2010
+  chapter: 4 住宅建筑
+  section: 4.2隔声标准
+  clause_no: 4.2.2
+  text: 相邻两户房间之间及住宅和非居住用途空间分隔楼板上下的房间之间的空气声隔声性能，应符合表4.2.2的规定。
+  is_abolished: true
+  abolished_date: '2025-05-01'
+  superseded_by: GB 55038-2025
+  abolition_note: 被《住宅项目规范》GB 55038-2025 废止强制性条文效力（住建部公告，2025-05-01 起实施）
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 住建部公告2010年第744号强制性条文
+  parameters: []
+  tables:
+  - table_id: 表4.2.2
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表4.2.2的规定。表4.2.2．房间之间空气声隔声标准空气声隔声单值评价量十频谱修正量(dB)房间名称卧室、起居室（厅）计权标准化声压级差十粉红噪声频谱修正量≥45与邻户房间之间DnT.w+C计权标准化声压级差十交通噪声频谱修正量住宅和非居住用途空间≥>51DaT,w+Cr分隔楼板上下的房间之间高要求住宅的分户墙、分户楼板的空气声隔声性能，应
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#4.2.3
+  standard_code: GB 50118-2010
+  chapter: 4 住宅建筑
+  section: 4.2隔声标准
+  clause_no: 4.2.3
+  text: 高要求住宅的分户墙。分户楼板的空气声隔声性能，应符合表4.2.3的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表4.2.3
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表4.2.3的规定。表4.2.3高要求住宅分户构件空气声隔声标准空气声隔声单值评价量十频谱修正量(dB)构件名称计权隔声量十粉红噪声频谱修正量Rw+C>50分户墙、分户楼板
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#4.2.4
+  standard_code: GB 50118-2010
+  chapter: 4 住宅建筑
+  section: 4.2隔声标准
+  clause_no: 4.2.4
+  text: 高要求住宅相邻两户房间之间的空气声隔声性能，应符合表4.2.4的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表4.2.4
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表4.2.4的规定。高要求住宅房间之间空气声隔声标准表 4.2. 4空气声隔声单值评价量十频谱修正量(dB)房间名称卧室、起居室(厅)计权标准化声压级差十粉红噪声频谱修正量≥50与邻户房间之间DnT.w + C相邻两户的计权标准化声压级差十粉红噪声频谱修正量≥45卫生间之间DnT,w + C
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#4.2.5
+  standard_code: GB 50118-2010
+  chapter: 4 住宅建筑
+  section: 4.2隔声标准
+  clause_no: 4.2.5
+  text: 外窗（包括未封闭阳台的门）的空气声隔声性能，应符合
+  is_abolished: true
+  abolished_date: '2025-05-01'
+  superseded_by: GB 55038-2025
+  abolition_note: 被《住宅项目规范》GB 55038-2025 废止强制性条文效力（住建部公告，2025-05-01 起实施）
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 住建部公告2010年第744号强制性条文
+  parameters: []
+  tables:
+  - table_id: 表4.2.5
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表4.2.5的规定。表4.2.5外窗（包括未封闭阳台的门）的空气声隔声标准构件名称空气声隔声单值评价量十频谱修正量（dB）交通干线两侧卧室、计权隔声量十交通噪声频谱修正量≥30起居室（厅）的窗Rw+Ctr计权隔声量十交通噪声频谱修正量其他窗≥25Rw+Cr
+  converted_tables:
+  - raw: 对住宅外窗的空气声隔声性能作规定，旨在控制室外环境噪声对居室的于扰。外窗的空气声隔声性能评价量，采用实验室测量的计权隔声量与交通噪声频谱修正量之和（符号：Rw十Ctr），测量方法见GB/T8485和GB/T19889.3。本条规定的外窗的隔声要求是基于在住宅室外环境噪声达到《声环境质量标准》GB3096－2008条件下，使室内噪声符合
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#4.2.6
+  standard_code: GB 50118-2010
+  chapter: 4 住宅建筑
+  section: 4.2隔声标准
+  clause_no: 4.2.6
+  text: 外墙 户，套 门和户内分室墙的空气声隔声性能.应符合表4.2.6的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表4.2.6
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表4.2.6的规定。表4.2.6外墙、户（套）门和户内分室墙的空气声隔声标准构件名称空气声隔声单值评价量+频谱修正量(dB)计权隔声量十交通噪声频谱修正量外墙≥45Rw + Cur计权隔声量十粉红噪声频谱修正量户(套)门≥25Rw+C计权隔声量十粉红噪声频谱修正量户内卧室墙≥35Rw+C计权隔声量十粉红噪声频谱修正量户内其他分室墙≥30Rw+C
+  converted_tables:
+  - raw: 本条是本次修编新增加的内容。住宅建筑的承重外墙通常用混凝土、承重砌块这类面密度较大的建筑材料建造，这类重质墙体的隔声能力一般都大于45dB，远比外窗的隔声好。有窗的重质外墙，隔声主要由窗决定。考虑到框架结构体系和钢结构体系的住宅建筑中，非承重外墙往往采用轻质墙体材料建造，有些轻质墙体虽然保温隔热性能很好，但隔声不一定好。因此本次规范修编增加了对住宅外墙隔声基本要求的规定。外墙构件的空气声隔声性能评价量，采用实验室测量的计权隔声量与交通噪声频谱修正量之和（符号：Rw十Ctr），测量方法见 GB/T 19889.3。对户（套）门的隔声性能作规定，旨在控制楼梯走廊内噪声对居室的干扰。对户内分室墙的隔声性能作规定，旨在控制户内各房间之间生活噪声的相互干扰。户（套）门和分室墙的空气声隔声性能评价量，采用实验室测量的计权隔声量与粉红噪声频谱修正量之和（符号：Rw十C），测量方法见GB/T8485和GB/T19889.3。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#4.2.7
+  standard_code: GB 50118-2010
+  chapter: 4 住宅建筑
+  section: 4.2隔声标准
+  clause_no: 4.2.7
+  text: 卧室，起居室、厅 的分户楼板的撞击声隔声性能,应符合表4.2.7的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表4.2.7
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表4.2.7的规定。表 4.2.7分户楼板撞击声隔声标准构件名称撞击声隔声单值评价量(dB)卧室、起居室(厅）计权规范化撞击声压级Ln，w（实验室测量）<75的分户楼板计权标准化撞击声压级L'nT.w（现场测量）注：当确有困难时，可允许住宅分户楼板的撞击声隔声单值评价量小于或等于85dB，但在楼板结构上应预留改善的可能条件。
+  - table_id: 表4.2.7
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文）
+    content: 、4.2.8对住宅分户楼板的撞击声隔声性能作规定，旨在控制楼板上层产生的诸如脚步声、物体坠地等撞击噪声对楼下住户的干扰。采用计权规范化撞击声压级（符号：Ln，w）作为分户楼板构件撞击声隔声性能的评价量，其指标值是构件的实验室测量值，供设计师隔声设计选材使用；采用计权标准化撞击声压级（符号：LnT,w）作为现场分户楼板撞击声隔声性能的评价量，其指标值是现场测量值，是住宅建成并完成地面装修后实际要达到的值。测量方法见GB/T19889.6、GB/T19889.7和GB/T19889.14，评价方法见GB/T50121。国外对楼板撞击声隔声的要求普遍较高，例如，英国、澳大利亚、美国及德国分户楼板撞击声隔声最低要求指标分别为L'nT,w 62dB、L'nT.w 62dB、IIC 45（相当于 L'.w 65dB）及Ln.w 53dB.国内住宅现场隔声测量调查表明，厚度在120mm～150mm的光裸混凝土楼板的计权标准化撞击声压级通常为80dB左右，普通的住宅混凝土楼板如果不做隔声装修，是达不到表4.2.7中规定的撞击声隔声要求的。因此，要使楼板的计权标准化撞击声压级不超过75dB，在建筑设计时就需要考虑对楼板采取必要的隔声措施。混凝土楼板上铺装弹性地面材料或建造由弹性材料隔开面层的浮筑楼板，均可有效改善楼板撞击声隔声性能。结合地面装修铺装弹性地面材料是解决楼板撞击声隔声问题的简易而又有效的措施。通常在混凝土楼板上铺装计权撞击声改善量大于5dB（测量方法见GB/T19889.8）的地面材料，如木地板（无论是复合地板还是实木地板）或厚度3mm以上的弹性橡胶（橡塑）地板，可使楼板计权标准化撞击声压级不超过75dB。层高较高的住宅楼，也可在楼板下设置隔声吊顶，实测隔声吊顶对撞击声的改善量为10dB左右。要想在住宅地面使用硬性地砖，一般需加隔声垫层（浮筑楼板）或隔声吊顶，才可使楼板计权标准化撞击声压级控制在75dB以内。据国家建筑工程质量监督检验中心近几年进行的隔声现场调查和检测资料，住户对LnT,w在80dB左右的楼板的撞击声隔声现状的抱怨远不及对DnT,w在40dB至45dB之间分户墙的空气声隔声现状的抱严重。根据我国经济和建筑技术水平的实际情况、发展趋势以及住户的反应，结合考虑国内商品房和保障性住房等住宅的不同特点与供给原则，本规范保留了原规范（GBJ11888）楼板撞击声隔声的高要求标准和低限标准及附注，供不同性能要求的住宅设计使用。本规范4.2.7条和4.2.8条的楼板撞击声隔声要求也适用于卧室、起居室与上层门厅、走廊之间的楼板。本规范暂不对住宅厨房、卫生间楼板的撞击声隔声性能作规定，一一是考虑到厨房、卫生间地面要做防水处理，通常楼板较厚，面积也不大，楼板撞击声问题不突出；二是考虑到厨房、卫生间对地面材料有较高的防水要求（地面一般采用水泥、瓷砖等硬性防水材料），要求这些地面全做浮筑楼板或铺弹性材料不切实际。4.3隔声减噪设计
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#4.2.8
+  standard_code: GB 50118-2010
+  chapter: 4 住宅建筑
+  section: 4.2隔声标准
+  clause_no: 4.2.8
+  text: 高要求住宅卧室。起居室、厅,的分户楼板的撞击声隔声性能.应符合表4.2.8的规定、 4。3.隔声减噪设计。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表4.2.8
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表4.2.8的规定。表4.2.8高要求住宅分户楼板撞击声隔声标准撞击声隔声单值评价量(dB)构件名称计权规范化撞击声压级Ln.w（实验室测量）<65卧室、起居室（厅）计权标准化撞击声压级LnT.w（现场测量）≤65的分户楼板
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#4.3.1
+  standard_code: GB 50118-2010
+  chapter: 4 住宅建筑
+  section: 4.3隔声减噪设计
+  clause_no: 4.3.1
+  text: 与住宅建筑配套而建的停车场、儿童游戏场或健身活动场地的位置选择，应避免对住宅产生噪声干扰。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 为防止停车场、儿童游戏场或健身活动场地等配套公建场所的噪声对住宅产生干扰，在住宅区规划设计时要统筹考虑其设置方式和位置。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#4.3.2
+  standard_code: GB 50118-2010
+  chapter: 4 住宅建筑
+  section: 4.3隔声减噪设计
+  clause_no: 4.3.2
+  text: 当住宅建筑位于交通干线两侧或其他高噪声环境区域时，应根据室外环境噪声状况及本章第4.1节规定的室内允许噪声级，确定住宅防噪措施和设计具有相应隔声性能的建筑围护结构（包括墙体、窗、门等构件）。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 当住宅建筑不可避免地处于高噪声的外部环境时，住宅设计除要考虑防噪声的平剖面布置，使卧室、书房、起居室（厅）布置在背噪声源的一侧外，还可采取设置隔声屏障、设封闭外廊、封闭阳台、安装高隔声性能的门窗和提高围护结构的隔声能力等防噪措施，以减轻室外噪声的影响，隔声设计的同时还要考虑室内的通风换气。通常情况下，窗比墙的隔声要差，含窗外墙的综合隔声效果主要由窗决定。提高围护结构综合隔声效果的措施：一是提高窗的隔声性能，二是控制窗墙比。交通干线两侧的住宅，不适宜做成大面积外窗的形式。例如：夜间室外噪声在65dB（A）时，为使卧室在关窗情况下室内噪声达到4.1.2条的标准要求，当窗的隔声指标值（Rw十Cr）为30dB时，窗墙比要控制在40%以内。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#4.3.3
+  standard_code: GB 50118-2010
+  chapter: 4 住宅建筑
+  section: 4.3隔声减噪设计
+  clause_no: 4.3.3
+  text: 在选择住宅建筑的体形、朝向和平面布置时，应充分考虑噪声控制的要求，并应符合下列规定：1在住宅平面设计时，应使分户墙两侧的房间和分户楼板上下的房间属于同一类型。2宜使卧室、起居室（厅）布置在背噪声源的一一侧。3对进深有较大变化的平面布置形式，应避免相邻户的窗口之间产生噪声干扰。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 住宅建筑的朝向通常根据当地的气候条件、地理位置及卫生要求确定，在条件许可时，要充分考虑防噪声的设计要求。卧室、起居室（厅）属于安静房间类型，厨房、卫生间属于噪声源房间类型，套房内的厨房或卫生间不应与另一套房的卧室、起居室（厅）毗连。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#4.3.4
+  standard_code: GB 50118-2010
+  chapter: 4 住宅建筑
+  section: 4.3隔声减噪设计
+  clause_no: 4.3.4
+  text: 电梯不得紧邻卧室布置，也不宜紧邻起居室（厅）布置。受条件限制需要紧邻起居室（厅）布置时，应采取有效的隔声和减振措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 电梯运行会产生噪声和振动，为了防止电梯噪声和振动干扰居室环境、影响睡眠休息，在住宅设计中要尽可能使电梯井远离居住空间。在住宅设计时，即使受平面布局限制，也不得将电梯井紧邻卧室布置，否则可能影响睡眠休息。不得不紧邻起居室布置时，必须采取相应的技术措施。例如选用低噪声电梯、提高电梯井壁的隔声性能、在电梯轨道和井壁之间设置减振装置、将电梯井与居室在结构上脱开等。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#4.3.5
+  standard_code: GB 50118-2010
+  chapter: 4 住宅建筑
+  section: 4.3隔声减噪设计
+  clause_no: 4.3.5
+  text: 当厨房、卫生间与卧室、起居室（厅）相邻时，厨房、卫生间内的管道、设备等有可能传声的物体。不宜设在厨房、卫生间与卧室、起居室（厅）之间的隔墙上。对固定于墙上且可能引起传声的管道等物件，应采取有效的减振、隔声措施。主卧室内卫生间的排水管道宜做隔声包双处理。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 在厨房或卫生间与居住空间相邻布置时，如果将管道等可能传声的物体设于公共墙上，可能会引起公共墙的振动而直接向卧室或起居室（厅）辐射噪声。目前住宅大量采用PVC排水管，其隔声性能比铸铁管差，如果在PVC管道外包上隔声隔振材料，可有效降低管道排水时的噪声辐射。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#4.3.6
+  standard_code: GB 50118-2010
+  chapter: 4 住宅建筑
+  section: 4.3隔声减噪设计
+  clause_no: 4.3.6
+  text: 水、暖、电、燃气、通风和空调等管线安装及孔洞处理应符合下列规定：1管线穿过楼板或墙体时，孔洞周边应采取密封隔声措施。2分户墙中所有电气插座、配电箱或嵌入墙内对墙体构造造成损伤的配套构件，在背对背设置时应相互错开位置，并应对所开的洞（槽）有相应的隔声封堵措施。3对分户墙上施工洞口或剪力墙抗震设计所开洞口的封堵，应采用满足分户墙隔声设计要求的材料和构造。4相邻两户间的排烟、排气通道，宜采取防止相互串声的措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 为防止楼板和墙体上孔洞、缝隙的漏声，对楼板和墙体上的各种孔、槽、洞均要求采取可靠的密封隔声措施。分户墙中设置电气配套构件，在背对背安装时相互错开的距离最好能不小于500mm。用于封堵分户墙上施工洞口或剪力墙抗震设计所开洞口的材料和构造的隔声性能，要达到原设计分户墙的相应标准要求，以保证原设计墙体的隔声性能。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#4.3.7
+  standard_code: GB 50118-2010
+  chapter: 4 住宅建筑
+  section: 4.3隔声减噪设计
+  clause_no: 4.3.7
+  text: 现浇、大板或大模等整体性较强的住宅建筑，在附着于墙体和楼板上可能引起传声的设备处和经常产生撞击、振动的部位，应采取防止结构声传播的措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: “整体性强的建筑，固体传声也较严重。因此，除了设备、管道要做隔振处理外，对易产生撞击、振动的其他部位，设计时也应考虑一些构造措施。例如：门可设定位器和隔声减振密封条，以减少门的秤击噪声；厨房操作台的面板与支架连接处加隔振垫，可防止固体声传播。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#4.3.8
+  standard_code: GB 50118-2010
+  chapter: 4 住宅建筑
+  section: 4.3隔声减噪设计
+  clause_no: 4.3.8
+  text: ·住宅建筑的机电服务设备、器具的选用及安装，应符合下列规定：1机电服务设备，宜选用低噪声产品，并应采取综合手段进行噪声与振动控制。2设置家用空调系统时，应采取控制机组噪声和风道、风口噪声的措施。预留空调室外机的位置时，应考虑防噪要求，避免室外机噪声对居室的干扰。3排烟、排气及给排水器具，宜选用低噪声产品。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 住宅设计时，对配套固定设备的噪声控制要特别注意，有关锅炉房、水泵房、变压器室、制冷机房等的设置要求详见第3章。应采取如选址安排和隔声、吸声、消声、隔振等综合手段控制噪声与振动。空调系统是近年来一些住宅中新出现的噪声源，设置家用空调系统时，需考虑相应的噪声控制措施。空调外机的预留位置与邻居套房居住空间的窗户之间的距离不要太近。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#4.3.9
+  standard_code: GB 50118-2010
+  chapter: 4 住宅建筑
+  section: 4.3隔声减噪设计
+  clause_no: 4.3.9
+  text: 商住楼内不得设置高噪声级的文化娱乐场所，也不应设置其他高噪声级的商业用房。对商业用房内可能会扰民的噪声源和振动源，应采取有效的防治措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 对商住两用楼的商业用房或底商功能加以定限制，并要求采取对应的噪声控制措施，是为了防止底商噪声扰民。5学校建筑5.1允许噪声级
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#5.2.1
+  standard_code: GB 50118-2010
+  chapter: 5 学校建筑
+  section: 5.2隔声标准
+  clause_no: 5.2.1
+  text: 教学用房隔墙。楼板的空气声隔声性能,应符合表5.2.1的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表5.2.1
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表5.2.1教学用房隔墙、楼板的空气声隔声标准构件名称空气声隔声单值评价量十频谱修正量(dB)语言教室、阅览室的计权隔声量十粉红噪声频谱修正量>50隔墙与楼板Rw + C普通教室与各种产生噪声计权隔声量十粉红噪声频谱修正量>50的房间之间的隔墙、楼板Rw+C普通教室之间的计权隔声量十粉红噪声频谱修正量>45隔墙与楼板音乐教室、琴房之间计权隔声量十粉红噪声频谱修正量的隔墙与楼板>45Rw+C注：产生噪声的房间系指音乐教室、舞蹈教室、琴房、健身房，以下相同。
+  converted_tables:
+  - raw: 、5.2.2空气声隔声量标准参照《建筑隔声评价标准》GB/T50121-2005考虑了频谱修正量。教学用房的围护结构采用实验室测得的计权隔声量与粉红噪声频谱修正量之和：（Rw十C）作为隔声性能的评价指标。学校建筑设计中应尽量使产生噪声的房间与其他教学用房布置在不同的教学楼中，或在同一教学楼的不同区域。如受条件限制，少量产生噪声的房间确需与教学用房相邻，则应将相邻墙体和楼板的空气声隔声量提高至50dB，这在技术上和经济上当属可能。学校琴房由于数量较多面积较小，般采用非承重的轻质隔墙，规范中要求隔墙的隔声量不小于45dB，主要考虑了轻质隔墙可能达到的实际隔声量和经济性，过高的隔声量要求不切实际。另外，调查发现琴房的噪声主要通过外窗、门传播，尤其对于没有安装空调系统的学校琴房，所以单独提高隔墙的隔声量对琴房的实际噪声降低效果有限。普通教室之间隔墙和楼板的隔声量较原规范（GBJ118-88）中的要求提高了5dB为45dB，主要考虑本次修订规范的室内噪声级采用关窗条件下的测试结果，同时参考了美国和英国的学校声学标准，对于目前新建或改建的学校建筑应能够达到。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#5.2.2
+  standard_code: GB 50118-2010
+  chapter: 5 学校建筑
+  section: 5.2隔声标准
+  clause_no: 5.2.2
+  text: 教学用房与相邻房间之间的空气声隔声性能。应符合表5.2.2的规定.。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表5.2.
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文）
+    content: 的规定。表 5.2. 2教学用房与相邻房间之间的空气声隔声标准房间名称空气声隔声单值评价量十频谱修正量(dB)语言教室、阅览室计权标准化声压级差十粉红噪声频谱修正量≥50与相邻房间之间DT.w + (:普通教室与各种产计权标准化声压级差十粉红噪击频谱修正量≥50生噪声的房间之间计权标准化声压级差+粉红噪声频谱修正量普通教室之间≥45D.T.w +(计权标准化声压级差+粉红噪声频谱修正量音乐教室、琴房之间≥45DnT.w -+ C教学用房的外墙、外窗和门的空气声隔声性能，应符合表5.2.3的规定。表5.2.3外墙、外窗和门的空气声隔声标准空气声隔声单值评价量十频谱修正量（dB)构件名称计权隔声量十交通噪声频谱修正量≥45外墙Rw + Cr计权隔声量十交通噪声频谱修正量≥30临交通干线的外窗Rw + Ctr计权隔声量十交通噪声频谱修正量≥25其他外窗Rw + Ctr计权隔声量十粉红噪声频谱修正量≥25产生噪声房间的门计权隔声量十粉红噪声频谱修正量≥20Rw+C教学用房楼板的撞击声隔声性能，应符合表5.2.4.的5.2. 4规定。教学用房楼板的撞击声隔声标准表5.2.4撞击声隔声单值评价量(dB)计权标准化撞击声压级计权规范化撞击声压级构件名称L'T.wIn.w（现场测量）(实验室测量）语言教室、阅览室与<65上层房间之间的楼板普通教室、实验室、<65计算机房与上层产生噪声的房间之间的楼板琴房、音乐教室<65之间的楼板普通教室之间的楼板<75注：当确有困难时，可允许普通教室之间楼板的撞击声隔声单值评价量小于或等于85dB，但在楼板结构上应预留改善的可能条件。
+  converted_tables:
+  - raw: 条中增加了教学用房与相邻房间之间的空气声隔声标准，采用计权标准化声压级差和粉红噪声频谱修正量之和（DnTw十C）来表示，主要作为现场实测的验收指标。：5.2.3该条是本次修订新增的内容，学校教学用房的外墙一般采用密度较大的构件或砌块，其隔声性能大大高于外墙上的门窗，所以门窗的隔声量是影响围护结构整体隔声性能的主要因素。考虑到外窗实际可能达到的隔声量及所处位置的不同，提出临交通干线的外窗其实验室测得的计权隔声量与交通噪声频谱修正量之和不应小于30dB，其他外窗则不小于25dB。对于产生噪声的房间，如：琴房、音乐教室等，门的计权隔声量与粉红噪声频谱修正量之和不应小于25dB。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#5.3.1
+  standard_code: GB 50118-2010
+  chapter: 5 学校建筑
+  section: 5.3隔声减噪设计
+  clause_no: 5.3.1
+  text: 位于交通干线旁的学校建筑，宜将运动场沿干道布置，作为噪声隔离带。产生噪声的固定设施与教学楼之间，应设足够距离的噪声隔离带。当教室有门窗面对运动场时，教室外墙至运动场的距离不应小于25m。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 动场的距离
+    unit: m
+    condition: null
+    min_value: 25.0
+    max_value: null
+  tables: []
+  converted_tables:
+  - raw: 学校位于交通干线旁时，通过建筑平面的合理布置可有效降低交通噪声对教学用房的影响，如在道路和教学楼之间布置运动场、体育馆等对噪声不敏感的建筑作为屏障，条件允许时，也可在沿交通干线的一一侧设置声屏障作为防噪措施。因为室外运动场可能产生噪声，所以要求教学楼与运动场之间的距离不小于25m，作为噪声隔离带。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#5.3.2
+  standard_code: GB 50118-2010
+  chapter: 5 学校建筑
+  section: 5.3隔声减噪设计
+  clause_no: 5.3.2
+  text: 教学楼内不应设置发出强烈噪声或振动的机械设备，其他可能产生噪声和振动的设备应尽量远离教学用房，并采取有效的隔声、隔振措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 教学楼内设置发出强烈噪声和振动的机械设备对教学用房的影响较大，所以在教学楼内不应设置这些机械设备。对于其他产生噪声的设备，也应尽量远离教学用房，并进行有效的降噪和隔声、隔振处理，确保其产生的噪声和振动不影响教学楼内其他房间。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#5.3.3
+  standard_code: GB 50118-2010
+  chapter: 5 学校建筑
+  section: 5.3隔声减噪设计
+  clause_no: 5.3.3
+  text: 教学楼内的封闭走廊、门厅及楼梯间的顶棚，在条件允许时宜设置降噪系数（NRC）不低于0.40的吸声材料。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: should
+    modal_words:
+    - 宜
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 研究表明，封闭走廊内顶棚的吸声可有效降低噪声沿走廊的传播，提高教学用房之间的隔声性能，如条件允许教室走廊顶棚宜配置吸声性能较高的吸声材料。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#5.3.4
+  standard_code: GB 50118-2010
+  chapter: 5 学校建筑
+  section: 5.3隔声减噪设计
+  clause_no: 5.3.4
+  text: 各类教室内宜控制混响时间.避免不利反射声 提高语言清晰度 各类教室空场500Hz 1000Hz的混响时间应符合表5.3.4的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表5.3.4
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文）
+    content: 的规定。表5.3.4各类教室空场500Hz~1000Hz的混响时间房间容积空场500Hz~1000Hz房间名称(m3)混响时间（s)0.8普通教室>200≤1.0≤0.6语言及多媒体教室>300≤0.8《250N0.6音乐教室>250N0.8≤0.4琴房>500.6≤2000≤1.2健身房>2000<1.5≤1000≤1.2舞蹈教室>1000≤1.5
+  converted_tables:
+  - raw: 参考美国、英国相应的学校建筑声学标准，各类教室中混响时间均采用空场条件下的值，因为教室内的人数在使用时变化较大，采用空场混响时间指标便于测量、评价。音乐教室、语言教室和多媒体教室对音质的要求较高，-般数量较少，所以混响时间的标准值取得较短。房间中混响时间的控制可通过布置适当的吸声材料来实现。设计中还需根据房间的形状确定吸声材料的配置位置，以控制室内的不利反射声对语言清晰度的影响，提高教学用房内的音质。各教学用房的体积划分参考了《中小学建筑设计规范》GBJ99－86中对于教学用房的面积及净高的要求。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#5.3.5
+  standard_code: GB 50118-2010
+  chapter: 5 学校建筑
+  section: 5.3隔声减噪设计
+  clause_no: 5.3.5
+  text: 产生噪声的房间.（音乐教室、舞蹈教室、琴房、健身房）与其他教学用房设于同一教学楼内时，应分区布置，并应采取有效的隔声和隔振措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 对于新建的学校，将产生噪声的房间与其他教学用房分别设置在不同的教学楼内一般是可以做到的，如果受条件限制必须设置在同一楼内，则应分层或分区设置，并采取足够的隔声、隔振措施，确保不影响其他教学用房。6医院建筑6.1允许噪声级
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#6.2.1
+  standard_code: GB 50118-2010
+  chapter: 6 医院建筑
+  section: 6.2隔声标准
+  clause_no: 6.2.1
+  text: 的规定。各类房间隔墙、楼板的空气声隔声标准
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表6.2.1
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表6.2.1名空气声隔声单值高要求标准低限标准构件名称(dB)评价量十频谱修正量(dB)计权隔声量十交通噪声病房与产生噪声的房间>55>50频谱修正量Rw+Ctr之间的隔墙、楼板计权隔声量十交通噪声手术室与产生噪声的>50>45房间之间的隔墙、楼板频谱修正量Rw+Cr病房之间及病房、手术室与计权隔声量十粉红噪声>45>50频谱修正量Rw十C普通房间之间的隔墙、楼板计权隔声量十粉红噪声>45>40诊室之间的隔墙、楼板频谱修正量Rw+C计权隔声量十粉红噪声听力测听室的>50频谱修正量Rw+C隔墙、楼板体外震波碎石室、核磁计权隔声量十交通噪声>50频谱修正量Rw+Cr共振室的隔墙、楼板相邻房间之间的空气声隔声性能，应符合表6.2.2的
+  converted_tables:
+  - raw: ～6.2.3.空气声隔声评价按计权隔声量十频谱修正量（构件隔声性能）与计权标准化声压级差十频谱修正量（现场测量验收）分别供设计师设计和竣工验收时选择不同的评价量。有关评价量的定义及获得方法见本规范“2术语和符号”和《建筑隔声评价标准》GB/T50121-2005。6.3隔声减噪设计
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#6.2.2
+  standard_code: GB 50118-2010
+  chapter: 6 医院建筑
+  section: 6.2隔声标准
+  clause_no: 6.2.2
+  text: 相邻房间之间的空气声隔声性能.应符合表6.2.2的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表6.2.2
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表6.2.2相邻房间之间的空气声隔声标准高要求标准低限标准空气声隔声单值评价量+房间名称(dB)(dB)频谱修正量计权标准化声压级差十交通噪声病房与产生噪声的≥55≥50频谱修正量DnT，w+Cer房间之间计权标准化声压级差十交通噪声手术室与产生噪声的≥50≥45频谱修正量DnT.w+Ctr房间之间病房之间及手术室、计权标准化声压级差十粉红≥45≥50病房与普通房间之间噪声频谱修正量DT.w+C计权标准化声压级差十粉红≥45≥40诊室之间噪声频谱修正量DnT.w+C续表6.2.2空气声隔声单值评价量十高要求标准低限标准房间名称频谱修正量(dB)(dB)听力测听室与计权标准化声压级差十粉红毗邻房间之间噪声频谱修正量DnT,w+C≥50体外震波碎石室、核磁计权标准化声压级差十交通≥50共振室与毗邻房间之间噪声频谱修正量DnT,w+Ctr6.2. 3外墙、外窗和门的空气声隔声性能，应符合表6.2.3的规定。表6.2.3外墙、外窗和门的空气声隔声标准构件名称空气声隔声单值评价量十频谱修正量（dB）计权隔声量十交通噪声频谱修正量外墙≥45Rw +Cr计权隔声量十交通噪声频谱修正量≥30临街一侧病房）外窗≥25(其他)计权隔声量十粉红噪声频谱修正量≥30(听力测听室)Rw+C：≥20(其他）)6.2. 4各类房间与上层房间之间楼板的撞击声隔声性能，应符合表6.2.4的规定。表 6.2. 4各类房间与上层房间之间楼板的撞击声隔声标准高要求标准低限标准构件名称撞击声隔声单值评价量(dB)(dB)计权规范化撞击声压级Ln,w<65<75病房、手术室与上（实验室测量）层房间之间的楼板计权标准化撞击声压级L'"T.w（现场测量）听力测听室与上计权标准化撞击声压级L"T.w层房间之间的楼板（现场测量）注：当确有困难时，可允许上层为普通房间的病房、手术室顶部楼板的撞击声隔声单值评价量小于或等于85dB，但在楼板结构上应预留改善的可能条件。
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#6.3.1
+  standard_code: GB 50118-2010
+  chapter: 6 医院建筑
+  section: 6.3隔声减噪设计
+  clause_no: 6.3.1
+  text: 医院建筑的总平面设计，应符合下列规定：1综合医院的总平面布置，应利用建筑物的隔声作用。门诊楼可沿交通干线布置，但与干线的距离应考虑防噪要求。病房楼应设在内院。若病房楼接近交通干线，室内噪声级不符合标准规定时，病房不应设于临街侧，否则应采取相应的隔声降噪处理措施（如临街布置公共走廊等）；2综合医院的医用气体站、冷冻机房、柴油发电机房等设备用房如设在病房大楼内时，应自成一区。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#6.3.2
+  standard_code: GB 50118-2010
+  chapter: 6 医院建筑
+  section: 6.3隔声减噪设计
+  clause_no: 6.3.2
+  text: 临近交通干线的病房楼、在满足本规范表6.2.3的基础上,还应根据室外环境噪声状况及本规范第6.1.1条规定的室内允许噪声级、设计具有相应隔声性能的建筑围护结构、包括墙体。窗、门等构件.。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表6.2.3
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表6.2.3的基础上，还应根据室外环境噪声状况及本规范第6.1.1条规定的室内允许噪声级，设计具有相应隔声性能的建筑围护结构（包括墙体、窗、门等构件）。
+  converted_tables:
+  - raw: 随着城市交通的发展和用地等多种因素的限制，部分医院的病房楼难以避免位于交通干线旁。因此，为了保证病房内的噪声级达到基本限值的要求，本条特规定应对其外围护结构做综合隔声设计，以满足使用的基本条件。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#6.3.3
+  standard_code: GB 50118-2010
+  chapter: 6 医院建筑
+  section: 6.3隔声减噪设计
+  clause_no: 6.3.3
+  text: 体外震波碎石室、核磁共振检查室不得与要求安静的房间毗邻，并应对其围护结构采取隔声和隔振措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 体外震波碎石室、核磁共振检查室使用时发出瞬态冲击噪声与振动，声级高，振动大，故应远离要求安静的房间。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#6.3.4
+  standard_code: GB 50118-2010
+  chapter: 6 医院建筑
+  section: 6.3隔声减噪设计
+  clause_no: 6.3.4
+  text: 病房、医护人员休息室等要求安静房间的邻室及其上、下层楼板或屋面，不应设置噪声、振动较大的设备。当设计上难于避免时，应采取有效的噪声与振动控制措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#6.3.5
+  standard_code: GB 50118-2010
+  chapter: 6 医院建筑
+  section: 6.3隔声减噪设计
+  clause_no: 6.3.5
+  text: 医生休息室应布置于医生专用区或设置门斗，避免护士站、公共走廊等公共空间人员活动噪声对医生休息室的干扰。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 为保证医护人员更好地休息增加此条规定。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#6.3.6
+  standard_code: GB 50118-2010
+  chapter: 6 医院建筑
+  section: 6.3隔声减噪设计
+  clause_no: 6.3.6
+  text: 对于病房之间的隔墙，当嵌人墙体的医疗带及其他配套设施造成墙体损伤并使隔墙的隔声性能降低时，应采取有效的隔声构造措施，并应符合本规范
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表6.2.1
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表6.2.1、表6.2.2的规定。
+  converted_tables:
+  - raw: 近年来新建医院的病房床头上部均设置医疗带。有些医院医疗带部分嵌人墙体，为便于走管线，墙体两侧病房医疗带背靠背布置并有管线接人，使此部位墙体被破坏几乎贯通，成为声桥，大大降低了墙体的隔声性能，故增加此条规定。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#6.3.7
+  standard_code: GB 50118-2010
+  chapter: 6 医院建筑
+  section: 6.3隔声减噪设计
+  clause_no: 6.3.7
+  text: 穿过病房围护结构的管道周围的缝隙，应密封。病房的观察窗，宜采用固定窗。病房楼内的污物井道、电梯井道不得毗邻病房等要求安静的房间。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 新修订的《民用建筑设计通则》GB50352-2005中规定“民用建筑不宜设置垃圾管道”。因此，本次修订取消了对垃圾井道设置的规定。电梯已成为大部分医院内的基本配置，而电梯运行所产生的噪声与振动给医院内环境带来了新的问题。对电梯采取降噪与隔振措施，费用高，技术上和安全性也不是很成熟。故本条增加了对电梯井道设置不得毗邻病房等要求安静的房间规定。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#6.3.8
+  standard_code: GB 50118-2010
+  chapter: 6 医院建筑
+  section: 6.3隔声减噪设计
+  clause_no: 6.3.8
+  text: 人口大厅、挂号大厅、候药厅及分科候诊厅（室）内，应采取吸声处理措施；其室内500Hz～1000Hz混响时间不宜大于2s。病房楼、门诊楼内走廊的顶棚，应采取吸声处理措施；吊顶所用吸声材料的降噪系数（NRC）不应小于0.40。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 医院的人口大厅、挂号大厅、候药厅、候诊厅等是医院内人员较为密集、面积较大、净空较高的场所。如采用吸声性能差的材料做装修，这些空间的中频混响时间达4s甚至可能达到10s。当混响严重，人们不能用正常的噪音交流时，就不得不提高说话的声音，从而又提高了室内噪声水平，严重时室内声级将高达85dB（A)左右，非常噜杂。对此，应采取对应的声学措施，一是尽可能控制使其室内噪声水平小于72dB（A）（等效声级测量时间应大于5min），或控制室内中频混响时间不大于2s。因此，本条文提出控制此类场所500Hz～1000Hz混响时间不大于2s的规定。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#6.3.9
+  standard_code: GB 50118-2010
+  chapter: 6 医院建筑
+  section: 6.3隔声减噪设计
+  clause_no: 6.3.9
+  text: 手术室应选用低噪声空调设备，必要时应采取降噪措施。手术室的上层，不宜设置有振动源的机电设备；当设计上难于避免时，应采取有效的隔振、隔声措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#6.3.10
+  standard_code: GB 50118-2010
+  chapter: 6 医院建筑
+  section: 6.3隔声减噪设计
+  clause_no: 6.3.10
+  text: 听力测听室不应与设置有振动或强噪声设备的房间相邻。听力测听室应做全浮筑房中房设计，且房间入口设置声闸；听力测听室的空调系统应设置消声器。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#6.3.11
+  standard_code: GB 50118-2010
+  chapter: 6 医院建筑
+  section: 6.3隔声减噪设计
+  clause_no: 6.3.11
+  text: 诊室、病房、办公室等房间外的走廊吊顶内，不应设置有振动和噪声的机电设备。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 对安装于吊顶内噪声与振动较大的机电设备，受空间、技术和资金等条件限制很难采取噪声与振动控制措施并降至较低水平。因此，不应将这类设备吊挂在要求安静的用房走廊吊顶内。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#6.3.12
+  standard_code: GB 50118-2010
+  chapter: 6 医院建筑
+  section: 6.3隔声减噪设计
+  clause_no: 6.3.12
+  text: 医院内的机电设备，如空调机组、通风机组、冷水机组、冷却塔、医用气体设备和柴油发电机组等设备，均应选用低噪声产品；并应采取隔振及综合降噪措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#6.3.13
+  standard_code: GB 50118-2010
+  chapter: 6 医院建筑
+  section: 6.3隔声减噪设计
+  clause_no: 6.3.13
+  text: 在通风空调系统中,应设置消声装置,通风空调系统在医院各房间内产生的噪声应符合本规范表6.1.1的规定, 7，旅馆建筑7。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表6.1.1
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表6.1.1的规定。
+  converted_tables:
+  - raw: 医院卫生要求高，消声器内的吸声材料应采用吸声性能好、安全、卫生、满足防火性能要求的吸声材料或吸声构造。例如：金属微穿孔板、三聚氰胺泡沫（防火）等。7旅馆建筑7.1允许噪声级
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#7.2.1
+  standard_code: GB 50118-2010
+  chapter: 7 旅馆建筑
+  section: 7.2隔声标准
+  clause_no: 7.2.1
+  text: 客房之间的隔墙或楼板,客房与走廊之间的隔墙，客房外墙.含窗 的空气声隔声性能、应符合表7.2.1的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表7.2.1
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表7.2.1的规定。表7.2.1客房墙、楼板的空气声隔声标准特级一级二级空气声隔声单值评价量构件名称(dB)(dB)(dB)+频谱修正量计权隔声量十粉红噪声频谱修正量客房之间的>50>45>40Rw +C隔墙、楼板计权隔声量十粉红噪声频谱修正量客房与走廊>45>45>40Rw+C之间的隔墙客房外墙计权隔声量十交通噪声频谱修正量>35>30>40(含窗）Rw + Cur
+  converted_tables:
+  - raw: ~7.2.3本次修编与原规范相比主要有以下修改：1.空气声隔声标准分为三个等级，取消了原规范中最低的等级。如此改动的原因是，对于客房之间的隔墙，原规范中后两个等级的隔声等级数据相同；对于外窗，原规范中最低等级主要考虑当时窗的隔声能力有限，而现在一些低隔声量的窗，如空腹钢窗等都已经被淘汰，窗的隔声量有较大的提高，完全可以达到较高级别的标准。2.原规范中隔声标准的计权隔声量概念不明确，因为根据不同的测量方法可以得出不同的隔声参数。本次修编中分别明确规定了建筑构件隔声性能的单值评价量和两个空间之间隔声性能的单值评价量。3.根据新颁布执行的《建筑隔声评价标准》GB/T50121-2005第3.5.5条规定，在对建筑物空气声隔声特性进行表述时，应以单值评价量和一个频谱修正量之和的形式给出，由于客房和走廊内的噪声源主要是生活噪声，而建筑外的噪声源主要是交通噪声，根据《建筑隔声评价标准》GB/T50121-2005第A.0.1条对频谱修正量使用方法的说明，在客房与客房之间的隔墙、客房与走廊之间的隔墙以及客房门的隔声标准中使用了粉红噪声频谱修正量C，而在客房外墙、客房外窗的隔声标准中使用了交通噪声频谱修正量Ctr。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#7.2.2
+  standard_code: GB 50118-2010
+  chapter: 7 旅馆建筑
+  section: 7.2隔声标准
+  clause_no: 7.2.2
+  text: 客房之间。走廊与客房之间，以及室外与客房之间的空气声隔声性能 应符合表7.2.2的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表7.2.2
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表7.2.2的规定。表7.2.2客房之间、走廊与客房之间以及室外与客房之间的空气声隔声标准空气声隔声单值评价量房间名称特级一级二级十频谱修正量(dB)(dB)(dB)计权标准化声压级差十粉红噪声客房之间≥50≥45≥40频谱修正量DnT.w+C计权标准化声压级差十粉红走廊与客房之间≥40≥40≥35噪声频谱修正量DnT.w+C计权标准化声压级差十交通室外与客房≥40≥35≥30噪声频谱修正量DnT,w+Cur
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#7.2.3
+  standard_code: GB 50118-2010
+  chapter: 7 旅馆建筑
+  section: 7.2隔声标准
+  clause_no: 7.2.3
+  text: 客房外窗与客房门的空气声隔声性能。应符合表7.2.3的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表7.2.3
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表7.2.3的规定。表7.2.3客客房外窗与客房门的空气声隔声标准空气声隔声单值评价量特级一级二级构件名称+频谱修正量(dB)(dB)(dB)计权隔声量+十交通噪声频谱修正量客房外窗≥35≥30≥25Rw + Ctr计权隔声量十粉红噪声频谱修正量客房门≥30≥25≥20Rw+C
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#7.2.43
+  standard_code: GB 50118-2010
+  chapter: 7 旅馆建筑
+  section: 7.2隔声标准
+  clause_no: 7.2.43
+  text: 客房与上层房间之间楼板的撞击声隔声性能，应符合表
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#7.2.4
+  standard_code: GB 50118-2010
+  chapter: 7 旅馆建筑
+  section: 7.2隔声标准
+  clause_no: 7.2.4
+  text: 客房与上层房间之间楼板的撞击声隔声性能，应符合表7.2.4的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表7.2.4
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表7.2.4客房楼板撞击声隔声标准特级一级二级楼板部位撞击声隔声单值评价量(dB)(dB)(dB)计权规范化撞击声压级Ln.w<65<75（实验室测量）客房与上层房间之间的楼板计权标准化撞击声压级L'T.w≤55≤75（现场测量）7.2. 5客房及其他对噪声敏感的房间与有噪声或振动源的房间之间的隔墙和楼板，其空气声隔声性能标准、撞击声隔声性能标准应根据噪声和振动源的具体情况确定，并应对噪声和振动源进行减噪和隔振处理，使客房及其他对噪声敏感的房间内的噪声级满足本规范表7.1.1的规定。
+  converted_tables:
+  - raw: 本次修编取消原规范中最低的等级。因为原规范中后两个等级的隔声等级数据相同，另一方面也和室内噪声允许标准和空气声隔声标准保持一致。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#7.2.6
+  standard_code: GB 50118-2010
+  chapter: 7 旅馆建筑
+  section: 7.2隔声标准
+  clause_no: 7.2.6
+  text: 不同级别旅馆建筑的声学指标、包括室内允许噪声级。空气声隔声标准及撞击声隔声标准.所应达到的等级，应符合本规范表7.2.6的规定, 7。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表7.2.6
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表7.2.6的规定。表7.2.6声学指标等级与旅馆建筑等级的对应关系旅馆建筑的等级声学指标的等级特级五星级以上旅游饭店及同档次旅馆建筑一级三、四星级旅游饭店及同档次旅馆建筑二级其他档次的旅馆建筑
+  - table_id: 表7.2.6
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文）
+    content: 原规范中没有将声学标准的等级和旅馆的等级联系起来，这就导致在执行时出现一些困难，例如具体到某一旅馆建筑，很难明确到底应该执行哪一个等级的声学标准。因此在本次修编中增加本条，将声学标准的等级与旅馆的等级联系起来，以增加可执行性。在国家标准《旅游饭店星级的划分与评定》GB/T14308-2003中将旅游饭店分为白金五星级、五星级、四星级、三星级、具体的要求，对于不属于旅游饭店的旅馆，如度假村、商业旅馆等，在建造时也多参照不同星级旅游饭店的标准，所以表7.2.6中，在规定旅馆等级时参照了旅游饭店的星级，这样就可以和饭店旅馆业的标准联系起来。7.3隔声减噪设计
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#7.3.1
+  standard_code: GB 50118-2010
+  chapter: 7 旅馆建筑
+  section: 7.3隔声减噪设计
+  clause_no: 7.3.1
+  text: 旅馆建筑的总平面设计应符合下列规定：旅馆建筑的总平面布置，应根据噪声状况进行分区。产生噪声或振动的设施应远离客房及其他要求安静的房间，并应采取隔声、隔振措施。3旅馆建筑中的餐厅不应与客房等对噪声敏感的房间在同一区域内。4可能产生强噪声和振动的附属娱乐设施不应与客房和其他有安静要求的房间设置在同一主体结构内，并应远离客房等需要安静的房间。5可能产生较大噪声并可能在夜间营业的附属娱乐设施应远离客房和其他有安静要求的房间，并应进行有效的隔声、隔振处理。6可能在夜间产生干扰噪声的附属娱乐房间，不应与客房和其他有安静要求的房间设置在同一走廊内。7客房沿交通干道或停车场布置时，应采取防噪措施，如采用密闭窗或双层窗；也可利用阳台或外廊进行隔声减噪处理。8电梯井道不应毗邻客房和其他有安静要求的房间。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 产生噪声或振动的设施是指空调机组、新风机组、直燃机组、柴油发电机组、排风机、水泵、冷却塔等。旅馆建筑中可能产生强噪声和振动的附属娱乐设施主要有迪·斯科舞厅、慢摇吧、保龄球馆，大量测量结果表明，迪斯科舞厅和慢摇吧在正常营业时声压级一般都在110dB左右，尤其是大功率超低音箱产生的强大的低频气流可以直接引发结构的振动，引起固体传声。保龄球馆的摆瓶机房的噪声在90dB以上，另外保龄球落地时会产生很强的脉冲撞击声。如果将这些设施与客房设置在同一主体结构内，其隔声隔振处理非常困难，很难保证客房及其他对噪声敏感的房间达到标准的要求，所以增加本条中第4款规定。卡拉OK歌厅、健身房等设施经常要营业到凌晨，经过调查，客人反映卡拉OK产生的声音对睡眠的影响很大，所以增加本条中第5款规定。麻将室和棋牌室通常是通宵营业，而在麻将室和棋牌室活动的客人会产生较大的喧哗声，并经常在走廊内活动，会严重影响同走廊内普通客房内客人的睡眠，所以增加本条中第6款规定。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#7.3.2
+  standard_code: GB 50118-2010
+  chapter: 7 旅馆建筑
+  section: 7.3隔声减噪设计
+  clause_no: 7.3.2
+  text: 客房及客房楼的隔声设计，应符合下列规定：1客房之间的送风和排气管道，应采取消声处理措施，相邻客房间的空气声隔声性能应满足本规范
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表7.2.2
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表7.2.2的规定。2旅馆建筑内的电梯间，高层旅馆的加压泵、水箱间及其他产生噪声的房间，不应与需要安静的客房、会议室、多用途大厅等毗邻，更不应设置在这些房间的上部。确需设置于这些房间的上部时，应采取有效的隔振降噪措施。3走廊两侧配置客房时，相对房间的门宜错开布置。走廊内宜采用铺设地毯、安装吸声吊顶等吸声处理措施，吊顶所用吸声材料的降噪系数（NRC）不应小于0.40。4相邻客房卫生间的隔墙，应与上层楼板紧密接触，不留缝隙。相邻客房隔墙上的所有电气插座、配电箱或其他嵌入墙里对墙体构造造成损伤的配套构件，不宜背对背布置，宜相互错开，并应对损伤墙体所开的洞（槽）有相应的封堵措施。5客房隔墙或楼板与玻璃幕墙之间的缝隙应使用有相应隔声性能的材料封堵，以保证整个隔墙或楼板的隔声性能满足标准要求。在设计玻璃幕墙时应为此预留条件。6当相邻客房橱柜采用“背靠背”布置，两个橱柜应使用满足隔声标准要求的墙体隔开。
+  converted_tables:
+  - raw: 如果客房之间隔墙上有通风或排风管道直接相连，则客房内的噪声会通过管道传到毗邻的房间，降低隔墙的隔声性能，为了解决这个问题，规定本条中第1款。一般客房墙面上均有许多电气插座和接线箱，尤其是一般集中控制的接线箱尺寸和厚度均较大，如果隔墙两侧的接线箱相对，则会导致墙体构造在这些位置变得很薄，甚至形成连通的孔洞，而这些孔洞对于墙体的隔声性能会有很大的影响，为了防止这种情况，规定本条中第4款。现在许多旅馆建筑中为了外立面的美观，设计了大片的玻璃幕墙，但由于构造的原因，房间之间的隔墙和楼板是不能直接与玻璃幕墙相连接的，必须留有定的缝隙，这样就会形成传声通道，降低隔墙或楼板的整体隔声性能，所以必须对这些缝隙进行封堵。封堵构造必须在玻璃幕墙设计时就预留条件，如增加窗框的厚度等。因此规定本条中第5款。有关旅馆声学设计的规范，几乎涉及建筑声学的全部内容。因为近代旅馆除客房外，还包括：高标准的俱乐部（音乐厅、舞厅、会议厅）、各种健身房、共享大厅或多功能大厅、餐厅兼宴会厅等，这类房间都有音质设计问题，本规范侧重于隔声设计。关于音质问题可参看有关专门资料。8办公建筑8.1允许噪声级
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#7.3.3
+  standard_code: GB 50118-2010
+  chapter: 7 旅馆建筑
+  section: 7.3隔声减噪设计
+  clause_no: 7.3.3
+  text: 设有活动隔断的会议室 多用途厅,其活动隔断的空气声隔声性能应符合下式的规定、Rw十C.35dB。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 规定RC
+    unit: d
+    condition: null
+    min_value: 35.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#8.1.1
+  standard_code: GB 50118-2010
+  chapter: 8 办公建筑
+  section: 8.1允许噪声级
+  clause_no: 8.1.1
+  text: 办公室 会议室内的噪声级、应符合表8.1.1的规定， 8，办公建筑8,1.允许噪声级。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表8.1.1
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表8.1.1的规定。办公室、会议室内允许噪声级表 8.1.1允许噪声级（A声级，dB)房间名称高要求标准低限标准≤40单人办公室《40≤45多人办公室电视电话会议室≤40普通会议室
+  converted_tables:
+  - raw: 允许噪声级是指室内无人占用、空调系统正常运转条件下应符合的噪声级。办公室、会议室的室内允许噪声级按安静程度划分为两个档次的标准，以适应不同标准的办公建筑。其中的低限标准是所有办公室、会议室都应达到的最低要求标准，高要求标准供高标准办公建筑设计使用。办公室、会议室内噪声的测量条件和测量方法见本规范附录A。根据近年在南京、太原、香港等地的询访、测量、分析，单人办公室一般都是职务级别较高的人员使用，对安静及私密的要求较高。依现在的允许噪声级，轻声语言交谈（大致是50dB(A)～55dB(A)），在有相应围护结构隔声条件下，足以保证语言交谈等办公活动的效率。为便于相对独立的办公人员之间业务联络，开放式、分格式的办公室已是一种常见的办公空间。在一个大的共享空间里数十人（甚至更多的人)办公，办公人员的“分格”之间只有装配的隔断分隔，安静标准相对宽松。在规定的限值条件下，办公人员业务联络时的一般语言交谈（大致55dB（A）～60dB（A)），不会引起对相邻房间办公活动的明显干扰。研究还表明，如果总声级超过57dB（A），就须提高噪音以抵消背景噪声，也将导致室内噪声级的提高。在此种空间里，常有办公设备的运行、操作声，有时还播放大致50dB(A)的掩蔽声（可以是音乐）作为基本的背景噪声，这样可适当掩蔽办公设备的运行噪声和操作仪器的噪声。根据广泛的实践和体验，如果背景噪声不超过50dB（A），在10m的距离范围已可以用正常的噪音交谈、讨论。如果背景噪声不超过55dB（A），略微提高的噪音可以进行交谈。电视电话会议室较普通会议室有较高安静要求。8.2隔声标准
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#8.2.1
+  standard_code: GB 50118-2010
+  chapter: 8 办公建筑
+  section: 8.2隔声标准
+  clause_no: 8.2.1
+  text: 办公室。会议室隔墙,楼板的空气声隔声性能，应符合表8.2.1的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表8.2.1
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表8.2.1的规定。表8.2.1办公室、会议室隔墙、楼板的空气声隔声标准空气声隔声单值评价量高要求标准低限标准构件名称+频谱修正量(dB)办公室、会议室与产生噪声计权隔声量十交通噪声>50>45的房间之间的隔墙、楼板频谱修正量Rw+Ctr办公室、会议室与普通计权隔声量十粉红噪声>50>45频谱修正量Rw+C房间之间的隔墙、楼板
+  - table_id: 表8.2.1
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文）
+    content: 、8.2.2这两条是为保证办公室、会议室达到安静标准，对建筑围护结构空气声隔声性能的基本要求和较高要求。工程建设中，现今使用较多非实心黏土砖的多种墙体材料（构造）、实心钢筋混凝土楼板（有些工程中还增设吊顶棚）都可以达到表8.2.1、表8.2.2的隔声性能要求。
+  converted_tables:
+  - raw: 条规定了办公室、会议室隔墙、楼板的空气声隔声性能，供设计师隔声设计选材使用。办公室、会议室与普通房间之间的隔墙、楼板主要隔绝语言声，所以隔声性能的评价量规定为计权隔声量与粉红噪声频谱修正量之和（符号：R十C)；办公室、会议室与产生噪声房间之间的隔墙、楼板需要隔绝低频成分较多的设备噪声，所以隔声性能的评价量规定为计权隔声量与交通噪声频谱修正量之和（符号：Rw十Ctr）。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#8.2.2
+  standard_code: GB 50118-2010
+  chapter: 8 办公建筑
+  section: 8.2隔声标准
+  clause_no: 8.2.2
+  text: 办公室。会议室与相邻房间之间的空气声隔声性能、应符合表8.2.2的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表8.2.2
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表8.2.2的规定。表8.2.2办公室、会议室与相邻房间之间的空气声隔声标准空气声隔声单值评价量房间名称高要求标准低限标准+频谱修正量(dB)办公室、会议室与产计权标准化声压级差十交通噪声≥50≥45生噪声的房间之间频谱修正量DnT,w十Ctr办公室、会议室计权标准化声压级差十粉红噪声≥50≥45与普通房间之间频谱修正量DnTw+C
+  converted_tables:
+  - raw: 条规定了办公室、会议室与相邻房间之间的空气声隔声性能，是办公建筑建成后实际要达到的值。测量方法见GB/T19889.3、GB/T19889.4和GB/T19889.14，评价方法见GB/T50121。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#8.2.3
+  standard_code: GB 50118-2010
+  chapter: 8 办公建筑
+  section: 8.2隔声标准
+  clause_no: 8.2.3
+  text: 办公室，会议室的外墙、外窗，包括未封闭阳台的门,和门的空气声隔声性能、应符合表8.2.3的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表8.2.3
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表8.2.3的规定。表8.2.3办公室、会议室的外墙、外窗和门的空气声隔声标准构件名称空气声隔声单值评价量十频谱修正量（dB)外墙计权隔声量十交通噪声频谱修正量Rw+十Cr≥45临交通干线的计权隔声量十交通噪声频谱修正量Rw十Cur≥30办公室、会议室外窗其他外窗计权隔声量十交通噪声频谱修正量Rw+Cir≥25计权隔声量十粉红噪声频谱修正量Rw十C≥20
+  converted_tables:
+  - raw: 对办公室、会议室的外墙、外窗和门的空气声隔声性能，.作规定，旨在控制室外环境噪声对办公室、会议室的于扰。外墙的空气声隔声性能评价量，采用实验室测量的计权隔声量与交通噪声频谱修正量之和（符号：R十Ctr）表示，测量方法见GB/T19889.3。外窗的空气声隔声性能评价量，采用实验室测量的计权隔声量与交通噪声频谱修正量之和（符号：Rw+Ctr）表示，测量方法见GB/T8485和GB/T19889.3。门的空气声隔声性能评价量，采用实验室测量的计权隔声量与粉红噪声频谱修正量之和（符号：Rw十C），测量方法见GB/T8485和GB/T19889.3。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#8.2.4
+  standard_code: GB 50118-2010
+  chapter: 8 办公建筑
+  section: 8.2隔声标准
+  clause_no: 8.2.4
+  text: 办公室，会议室顶部楼板的撞击声隔声性能 应符合表8.2.4的规定.。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表8.2.4
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文）
+    content: 的规定。表8.2.4办公室、会议室顶部楼板的撞击声隔声标准撞击声隔声单值评价量(dB)高要求标准低限标准构件名称计权规范化计权标准化计权规范化计权标准化撞击声压级撞击声压级撞击声压级撞击声压级Ln.wL'hT.wLn.wL'sT.w(实验室测量）（现场测量）（实验室测量）（现场测量）办公室、会议室<65<75≤75顶部的楼板注：当确有困难时，可允许办公室、会议室顶部楼板的计权规范化撞击声压级或计权标准化撞击声压级小于或等于85dB，但在楼板结构上应预留改善的可能条件。
+  - table_id: 表8.2.4
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文）
+    content: 本条是保证办公室、会议室达到安静标准对楼板撞击声隔声性能的基本要求和较高要求。而现今办公楼建筑的分层结构，在承重的钢筋混凝土楼板下般都有吊顶棚，在楼板面上常铺设地毯。这样的分层构造组合能够达到表8.2.4的要求。办公室、会议室的楼板构件撞击声隔声性能的评价量，采用计权规范化撞击声压级（符号：Ln,w）表示的指标值是构件的实验室测量值，供设计师隔声设计选材使用；而现场办公室、会议室的楼板撞击声隔声性能的评价量，采用计权标准化撞击声压级（符号：LnT,w）表示的指标值是现场测量值，是办公室、会议室建成并完成地面装修后实际要达到的数值。测量方法见GB/T19889.6、GB/T19889.7和GB/T19889.14，评价方法见GB/T50121。8.3隔声减噪设计
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#8.3.1
+  standard_code: GB 50118-2010
+  chapter: 8 办公建筑
+  section: 8.3隔声减噪设计
+  clause_no: 8.3.1
+  text: 拟建办公建筑的用地确定后，应对用地范围环境噪声现状及其随城市建设的变化作必要的调查、测量和预计。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 办公建筑用地多被安排在城镇建成区，只有对建筑用地声环境现状及其随城市发展变化作必要的调查、测量和预计，才能主动地进行声环境设计。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#8.3.2
+  standard_code: GB 50118-2010
+  chapter: 8 办公建筑
+  section: 8.3隔声减噪设计
+  clause_no: 8.3.2
+  text: 办公建筑的总体布局。应利用对噪声不敏感的建筑物或办公建筑中的辅助用房遮挡噪声源.减少噪声对办公用房的影响。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 在建筑用地确定后，利用规划和设计手段将声环境要求整合到建筑物总平面布置及单体建筑设计中，应充分利用对噪声不敏感的建筑物或办公建筑中的辅助用房遮挡噪声源，降低噪声对办公用房的影响。这样既可使规划、设计合理，又可减少在为创造优良声环境方面的花费。自成一区单独布置的各种设备用房，除须选用低能耗、低噪声的设备外，还应采取必要的隔声、消声、减振措施，并注意不对邻近的建筑物构成干扰。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#8.3.4
+  standard_code: GB 50118-2010
+  chapter: 8 办公建筑
+  section: 8.3隔声减噪设计
+  clause_no: 8.3.4
+  text: 走道两侧布置办公室时 相对房间的门宜错开设置.办公室及会议室面向走道或楼梯间的门的隔声性能应符合表8.2.3的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表8.2.3
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表8.2.3的规定。
+  converted_tables:
+  - raw: 、8.3.13两侧布置办公室的公共走道噪声，虽属建筑物内可控制的噪声，但亦须重视并采取相应的隔声、降噪措施。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#8.3.5
+  standard_code: GB 50118-2010
+  chapter: 8 办公建筑
+  section: 8.3隔声减噪设计
+  clause_no: 8.3.5
+  text: 面临城市干道及户外其他高噪声环境的办公室及会议室，应依据室外环境噪声状况及所确定的允许噪声级，设计具有相应隔声性能的建筑围护结构（包括墙体、窗、门等各种部件）。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 在考虑了声环境要求的总平面图确定后，依据隔声要求的建筑物外围护结构设计，是排除和控制外界噪声干扰的最重要技术措施。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#8.3.6
+  standard_code: GB 50118-2010
+  chapter: 8 办公建筑
+  section: 8.3隔声减噪设计
+  clause_no: 8.3.6
+  text: 相邻办公室之间的隔墙应延伸到吊顶棚高度以上，·并与承重楼板连接，不留缝隙。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 现今许多办公建筑相邻房间在吊顶棚以上连通的空间，导致了房间之间串音。因此必须强调把吊顶棚内的空间分隔开。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#8.3.7
+  standard_code: GB 50118-2010
+  chapter: 8 办公建筑
+  section: 8.3隔声减噪设计
+  clause_no: 8.3.7
+  text: 办公室、会议室的墙体或楼板因孔洞、缝隙、连接等原因导致隔声性能降低时，应采取下列措施：1管线穿过楼板或墙体时，孔洞周边应采取密封隔声措施。固定于墙面引起噪声的管道等构件，应采取隔振措施。3办公室、会议室隔墙中的电气插座、配电箱或嵌人墙内对墙体构造损伤的配套构件，在背对背设置时应相互错开位置，并应对所开的洞（槽）有相应的隔声封堵措施。4对分室墙上的施工洞口或剪力墙抗震设计所开洞口的封堵，应采用满足分室墙隔声要求的材料和构造。5幕墙与办公室、会议室隔墙及楼板连接时，应采用符合分室墙隔声要求的构造，并应采取防止相互串声的封堵隔声措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 本条是对水、暖、电气和空调设备工种的要求。为防止楼板和墙体上孔洞、缝隙的漏声，对楼板和墙体上的各种孔、槽、缝、洞均要求采取可靠的密封隔声措施。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#8.3.8
+  standard_code: GB 50118-2010
+  chapter: 8 办公建筑
+  section: 8.3隔声减噪设计
+  clause_no: 8.3.8
+  text: 对语言交谈有较高私密要求的开放式、分格式办公室宜做专门的设计。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: should
+    modal_words:
+    - 宜
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 可参考相关资料对开放式、分格式的办公室的平面布置、隔断高度及材料选用等进行特殊的设计，以达到较高语言私密性的要求。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#8.3.9
+  standard_code: GB 50118-2010
+  chapter: 8 办公建筑
+  section: 8.3隔声减噪设计
+  clause_no: 8.3.9
+  text: 较大办公室的顶棚宜结合装修使用降噪系数（NRC）不小于0.40的吸声材料。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: should
+    modal_words:
+    - 宜
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 、8.3.10这两条是保证室内安静和语言交谈清晰的技术措施组成部分。会议室有一定的混响，既可加强直达声，又不致感觉过分沉寂。会议室墙面和项棚（或沿墙面周边顶棚带）选用吸声材料，是为了防止出现明显的来自参会人员背后的二次反射声。有适宜条件时，地面铺设地毯既为了减少混响声，也有助于室内的安静。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#8.3.10
+  standard_code: GB 50118-2010
+  chapter: 8 办公建筑
+  section: 8.3隔声减噪设计
+  clause_no: 8.3.10
+  text: 会议室的墙面和顶棚宜结合装修选用降噪系数（NRC)不小于0.40的吸声材料。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: should
+    modal_words:
+    - 宜
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#8.3.11
+  standard_code: GB 50118-2010
+  chapter: 8 办公建筑
+  section: 8.3隔声减噪设计
+  clause_no: 8.3.11
+  text: 电视.电话会议室及普通会议室空场500Hz,1000Hz的混响时间宜符合表8.3.11的规定.。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: should
+    modal_words:
+    - 宜
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表8.3.11
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表8.3.11的规定。表8.3.11会议室空场500Hz～1000Hz的混响时间房间容积空场500Hz1000Hz房间名称(m3)混响时间（s)电视、电话会议室0.6《200普通会议室《2000.8
+  converted_tables:
+  - raw: 此类小型会议室-一般不需进行特殊的音质设计，但应把握适宜的空间容积和中频混响时间，才能听得清楚且不费力。较大的会议室可以参照本规范“普通教室”的相关要求设计。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#8.3.12
+  standard_code: GB 50118-2010
+  chapter: 8 办公建筑
+  section: 8.3隔声减噪设计
+  clause_no: 8.3.12
+  text: 办公室。会议室内的空调系统风口在办公室.会议室内产生的噪声应符合本规范表8.1.1的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表8.1.1
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表8.1.1的规定。
+  - table_id: 表8.1.1
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文）
+    content: 空调专业人员必须从空调机房开始逐级做好该系统的隔振、消声处理，以保证风口送风时办公室、会议室内的噪声级符合表8.1.1的规定。9商业建筑9.1允许噪声级
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#8.3.13
+  standard_code: GB 50118-2010
+  chapter: 8 办公建筑
+  section: 8.3隔声减噪设计
+  clause_no: 8.3.13
+  text: 走廊顶棚宜结合装修使用降噪系数，NRC 不小于0.40的吸声材料、 9、商业建筑9.1 允许噪声级。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: should
+    modal_words:
+    - 宜
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#9.2.1
+  standard_code: GB 50118-2010
+  chapter: 9 商业建筑
+  section: 9.2室内吸声
+  clause_no: 9.2.1
+  text: 容积大于400m3,且流动人员人均占地面积小于20m2的室内空间，应安装吸声顶棚，吸声顶棚面积不应小于顶棚总面积的75、顶棚吸声材料或构造的降噪系数、NRC、应符合表9.2.1的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 容积
+    unit: m
+    condition: null
+    min_value: 400.0
+    max_value: null
+  - name: 均占地面积
+    unit: m²
+    condition: null
+    min_value: null
+    max_value: 20.0
+  - name: 声顶棚面积
+    unit: '%'
+    condition: null
+    min_value: 75.0
+    max_value: null
+  tables:
+  - table_id: 表9.2.1
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表9.2.1的规定。表9.2.1顶棚吸声材料或构造的降噪系数（NRC)降噪系数（NRC)房间名称高要求标准低限标准商场、商店、购物中心、会展中心、走廊≥0.60≥0.40餐厅、健身中心、娱乐场所≥0.80≥0.40
+  converted_tables:
+  - raw: 人群进人商业空间时，走动及相互间的交流形成人为噪声。人听到的正常谈话声为70dB（A）左右，当噪声超过70dB（A)时，人们为了互相听清，不得不提高音量或缩短谈话距离。噪声超过75dB(A)以后，正常交谈受到干扰，1m以内的交谈必须提高音量，1m以上时需要喊叫。一般认为，50dB（A）～60dB（A)左右是购物中心、餐厅、展览馆等商业空间较理想的、有利于交流的噪声水平。室内吸声可显著降低人群交流噪声。人群不断进入室内时噜杂声的变化分为四个阶段：（1）安静阶段。开始时人流稀疏，环境尚安静，人群会有意识地小声说话避免被其他人听到，维护安静局面。安静阶段噪声一般在50dB（A）以下。（2）舒适阶段。人群继续进入，噜杂声增多，掩蔽了房间中远处的谈话，人们的交谈自然轻松了，环境也变得舒适，舒适阶段的噪声一般在50dB(A)～60dB(A)左右。（3）膨胀阶段。人数继续增多，当噪声升高到65dB(A)左右时，由于远处传来的无法了解内容混响声的干扰，所有人被迫提高嗓音，出现“鸡尾酒会”效应，室内迅速吵闹起来，环境变得喧闹而不舒服。这一阶段随人数增加的变化非常迅速，因此称为膨胀阶段。（4）持续阶段。噜杂声不再随人数涌入而无限增加，而是持续在个稳定水平。人们在高噪声条件下为了交谈，必须拉近相互的距离，或者放弃某些谈话，待到噪声降低时下意识地见缝插针地插话。持续阶段-一般会在75dB（A）～80dB(A)左右，如果噪声再大，讲话者只能放弃正常的讲话，甚至因此提出抗议。根据对北京的一些会展中心、餐厅、商场的声环境实测和调查，人群噪声极限基本在80dB（A)左右，这可能是正常交谈的噪声干扰心理承受平均上限。人们自行调节讲话音量、时机和距·离，使群体声出现稳定值。在吵闹的环境中，人们依靠自发的调节和群体承受力控制着室内噪声的上限。最理想的吸声处理是使人为噪声控制在舒适阶段，并防止出现膨胀阶段。吸声可以减少室内声反射，降低混响时间，进而降低噜杂的环境声。声源是存在心理因素的人，因此吸声必须达到够量，使人群噪声控制在50dB(A)～60dB(A)左右。商业空间中重要的吸声表面是顶棚，不但面积大，而且是声音长距离反射的必经之地。也可以在墙体等其他位置安装吸声材料，但与顶棚相比，吸声面积偏小，且可能受门窗等条件限制，吸声效果差一些。顶棚吸声材料可选用玻纤吸声板、三聚氰胺泡沫（防火）、穿孔铝板、穿孔石膏板、矿棉吸声板和木丝吸声板等。有大量柜台摆货的购物中心，货物吸声可能已经足够，因此也可不做吸声顶棚。体积小且人流稀疏的空间，如小商场、小餐厅等小房间，由于体积小，人及室内陈设等吸声效果显著，亦可不做吸声顶棚。9.3隔声标准
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#9.3.2
+  standard_code: GB 50118-2010
+  chapter: 9 商业建筑
+  section: 9.3隔声标准
+  clause_no: 9.3.2
+  text: 噪声敏感房间与产生噪声房间之间的空气声隔声性能应符合表9.3.2的规定.。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表9.3.2
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表9.3.2的规定。表9.3.2噪声敏感房间与产生噪声房间之间的空气声隔声标准计权标准化声压级差十交通噪声频谱修正量DnT.w+Ctr（dB)房间名称高要求标准低限标准健身中心、娱乐场所等与≥60≥55噪声敏感房间之间购物中心、餐厅、会展中心等≥50≥45与噪声敏感房间之间噪声敏感房间的上一层为产生噪声房间时，噪声敏感房
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#9.3.3
+  standard_code: GB 50118-2010
+  chapter: 9 商业建筑
+  section: 9.3隔声标准
+  clause_no: 9.3.3
+  text: 噪声敏感房间的上一层为产生噪声房间时，噪声敏感房间顶部楼板的撞击声隔声性能应符合表9.3.3的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表9.3.3
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表9.3.3的规定。表9.3.3噪声敏感房间顶部楼板的撞击声隔声标准撞击声隔声单值评价量（dB)高要求标准低限标准楼板部位计权规范化计权标准化计权规范化计权标准化撞击声压级撞击声压级撞击声压级撞击声压级Ln,wL'"T.wLn.wL'T.w（实验室测量）（现场测量）（实验室测量）（现场测量）健身中心、娱乐场所等与噪声敏<45≤45<50感房间之间的楼板
+  converted_tables:
+  - raw: 健身、娱乐等场所的噪声级高，而且常伴有结构振动，扰。根据工程实测，居民楼内做“房中房”结构的空气声计权隔声量可达70dB，计权标准化撞击声压级可低到40dB。9.4隔声减噪设计
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#9.4.1
+  standard_code: GB 50118-2010
+  chapter: 9 商业建筑
+  section: 9.4隔声减噪设计
+  clause_no: 9.4.1
+  text: 高噪声级的商业空间不应与噪声敏感的空间位于同一建筑内或毗邻。如果不可避免的位于同一建筑内或毗邻，必须进行隔声、隔振处理，保证传至敏感区域的营业噪声和该区域的背景噪声叠加后的总噪声级与背景噪声级之差值不大于3dB（A）。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 必须
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 级之差值
+    unit: d
+    condition: null
+    min_value: 3.0
+    max_value: null
+  tables: []
+  converted_tables:
+  - raw: 近年来，由于城市用地紧张，较多出现迪斯科、练歌房、练琴房、健身中心、电器商城等设置在居民区，甚至居民楼内，造成严重的纠纷和矛盾。选址不当、忽视隔声设计等将造成的严重后果，但是，往往在营业后才会表现出来，由于施工已经完成，改造起来绝非易事。附录A室内噪声级测量方法
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#9.4.2
+  standard_code: GB 50118-2010
+  chapter: 9 商业建筑
+  section: 9.4隔声减噪设计
+  clause_no: 9.4.2
+  text: 当公共空间室内设有暖通空调系统时，暖通空调系统在室内产生的噪声级应符合本规范
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表9.1.1
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表9.1.1的规定。并宜采取下列措施：降低风管中的风速。设置消声器。选用低噪声的风口。
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#A.0.1
+  standard_code: GB 50118-2010
+  chapter: 附录A 室内噪声级测量方法
+  section: ''
+  clause_no: A.0.1
+  text: A.0.1室内噪声级的测量应符合下列规定：1室内噪声级的测量应在昼间、夜间两个不同时段内，各选择较不利的时间进行。昼间、夜间时段的划分应符合本规范第
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 根据房间的使用功能，房间的室内允许噪声级分为叠间标准、夜间标准及单一全天标准。因此，为检验室内噪声级是否符合标准规定，对于室内允许噪声级分为昼间标准、夜间标准的房间，例如住宅中的卧室、旅馆的客房、医院的病房等，室内噪声级的测量分别在昼间、夜间两个时段内进行；对于室内允许噪声级为单一全天标准的房间，例如教室、办公室、诊室等，室内噪声级的测量在房间的使用时段内进行。2测量应选择在对室内噪声较不利的时间进行，测量应在影响较严重的噪声源发声时进行。例如：临街建筑，一般情况下，道路交通噪声是影响室内噪声级的主要噪声，测量应在昼间、夜间，交通繁忙，车流量较大的时段内进行；当影响较严重的噪声是飞机飞行噪声时，测量应在飞机经过架次较多的时段内进行。当建筑物内部的服务设备是影响较严重的噪声源时，例如电梯、水泵等，测量应在这些设备运行时进行。3科学研究表明，不同特性的噪声弓引起公众的烦恼度不同。例如，具有相同等效连续声压级，飞机噪声比道路交通噪声更能弓引起人们的烦恼；带有明显可听单频声或窄带噪声的噪声引起公众的烦恼度高于道路交通噪声，因此，现参照GB/T3222.12006（ISO1996－1：2003）中规定的评价声级的确定方法，根据噪声的特性对测量值进行修正。对飞机噪声的修正量仅用于飞机噪声是影响室内噪声级的主要噪声的情况下。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#A.0.2
+  standard_code: GB 50118-2010
+  chapter: 附录A 室内噪声级测量方法
+  section: ''
+  clause_no: A.0.2
+  text: 测量仪器应符合下列规定：1测量仪器应采用符合现行国家标准《电声学声级计第1部分：规范》GB/T3785.1和《积分平均声级计》GB/T17181中规定的1型或性能优于1型的积分声级计。滤波器应符合现行国家标准《倍频程和分数倍频程滤波器》GB/T3241的有关规定。也可使用性能相当的其他声学测量仪器。2校准器应符合现行国家标准《声校准器》GB/T15173规定的1级要求，校准器应每年送法定计量部门检定一次。3每次测量前后，应用校准器对测量系统进行校准，测量前、后校准示值偏差不得大于0.5dB。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 值偏差不得
+    unit: d
+    condition: null
+    min_value: 0.5
+    max_value: null
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB/T 3785.1
+    target_clause: null
+    original_text: 测量仪器应符合下列规定：1测量仪器应采用符合现行国家标准《电声学声级计第1部分：规范》GB/T3785.1和《积分平均声级计》GB/T17181中规定的1型或性能优于1型的积分声级计。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  - target_standard: GB/T 17181
+    target_clause: null
+    original_text: 测量仪器应符合下列规定：1测量仪器应采用符合现行国家标准《电声学声级计第1部分：规范》GB/T3785.1和《积分平均声级计》GB/T17181中规定的1型或性能优于1型的积分声级计。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  - target_standard: GB/T 3241
+    target_clause: null
+    original_text: 滤波器应符合现行国家标准《倍频程和分数倍频程滤波器》GB/T3241的有关规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  - target_standard: GB/T 15173
+    target_clause: null
+    original_text: 2校准器应符合现行国家标准《声校准器》GB/T15173规定的1级要求，校准器应每年送法定计量部门检定一次。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#A.0.3
+  standard_code: GB 50118-2010
+  chapter: 附录A 室内噪声级测量方法
+  section: ''
+  clause_no: A.0.3
+  text: A.0.3测量条件应符合下列规定：1对于住宅、学校、医院、旅馆、办公建筑及商业建筑中面积小于30m²的房间，在被测房间内选取1个测点，测点应位于房间中央。2对于面积大于等于30m²、小于100m²的房间，选取3个测点，测点均匀分布在房间长方向的中心线上，房间平面为正方形时，测点应均匀分布在与窗面积最大的墙面平行的中心线上。3对于面积大于等于100m²的房间，可根据具体情况，优化选取能代表该区域室内噪声水平的测点及测点数量。4测点分布应均匀且具代表性，测点应分布在人的活动区域内。对于开式办公室，测点应布置在办公区域；对于商场，测点应布置在购物区域。5测点的布置应符合下列规定：1）测点距地面的高度应为1.2m～1.6m。2）测点距房间内各反射面的距离应大于等于1.0m。3）各测点之间的距离应大于等于1.5m。4）测点距房间内噪声源的距离应天于等于1.5m。注：对于较拥挤的房间，上述测点条件无法满足的情况下，测点距房间内各反射面（不包括窗等重要的传声单元）的距离应大于等于0.7m，各测点之间的距离应大于等于0.7m。6对于间歇性非稳态噪声的测量，测点数可为一个，测点应设在房间中央。7测量室内噪声时，室内应无人（测试人员除外）。测量住宅、学校、旅馆、办公建筑及商业建筑的室内噪声时，应在关闭门窗的情况下进行。测量医院的室内噪声时，应关闭房间门并根据房间实际使用状态决定房间窗的开或关。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 建筑中面积
+    unit: m²
+    condition: null
+    min_value: null
+    max_value: 30.0
+  - name: 央对于面积
+    unit: m²
+    condition: null
+    min_value: 30.0
+    max_value: null
+  - name: 对于面积
+    unit: m²
+    condition: null
+    min_value: 100.0
+    max_value: null
+  - name: 上对于面积
+    unit: m²
+    condition: null
+    min_value: 100.0
+    max_value: null
+  - name: 面的高度
+    unit: m
+    condition: null
+    min_value: 1.2
+    max_value: 1.2
+  - name: 面的高度
+    unit: m
+    condition: null
+    min_value: 1.6
+    max_value: 1.6
+  - name: 面的距离
+    unit: m
+    condition: null
+    min_value: 1.0
+    max_value: null
+  - name: 间的距离
+    unit: m
+    condition: null
+    min_value: 1.5
+    max_value: null
+  - name: 距离应天于
+    unit: m
+    condition: null
+    min_value: 1.5
+    max_value: 1.5
+  - name: 元的距离
+    unit: m
+    condition: null
+    min_value: 0.7
+    max_value: null
+  - name: 间的距离
+    unit: m
+    condition: null
+    min_value: 0.7
+    max_value: null
+  tables: []
+  converted_tables:
+  - raw: A.0.3对于面积较大的房间，例如开式办公室、商场等，由于情况复杂，在这里没有给出确定测点数量的具体规定。对于这类场所的测点的选取和布置原则是：选取的测点数量应能代表该区域的室内噪声水平；测点分布应均匀，同时测点应设在人的活动区域内。例如：开式办公室，测点可设在办公区域；商场，测点可设在购物区域及收银处；超市，测点可设在购物通道内及收银台等处。由于本规范中的允许噪声级为关窗状态下的标准值，所以规定测量住宅、学校、旅馆、办公建筑及商业建筑的室内噪声时应关闭房间门窗。由于医院中有些房间必须开窗使用，所以规定根据房间实际使用状态测量关窗或开窗时的室内噪声。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#A.0.4
+  standard_code: GB 50118-2010
+  chapter: 附录A 室内噪声级测量方法
+  section: ''
+  clause_no: A.0.4
+  text: A.0.4测量方法及数据处理应符合下列规定：1对于稳态噪声，在各测点处测量5s～10s的等效L连续A计权声级，每个测点测量3次，并将各测点的所有测量值进行能量平均，计算结果修约到个数位。2对于声级随时间变化较复杂的持续的非稳态噪声，在各测点处测量10min的等效L连续A计权，声级。将各测点的所有测量值进行能量平均，计算结果修约到个数位。3对于间歇性非稳态噪声，测量噪声源密集发声时20min的等效连续A计权」声级。室内噪声级的测量应在水泵正常运行时，按稳态噪声的测量方法进行。5当建筑物内部的电梯是影响室内噪声级的主要噪声源时，室内噪声级的测量应在电梯正常运行时进行，测量电梯完成一个运行过程的等效［连续A计权］声级，被测运行过程是电梯噪声在室内产生较不利影响的运行过程。电梯运行过程及测量方法应符合下列规定：1）运行过程：电梯轿厢内载1～2人，打开并立即关闭电梯门——立即启动—运行停止—打开并立即关闭电梯门。2）测量方法：测量从运行过程开始时起到运行过程结束时止这个时段的等效「连续A计权］声级。每个测点测量5个向上运行过程和5个向下的运行过程，并将各测点的所有测量值进行能量平均，计算结果修约到个数位。6在进行室内噪声级测量时，若主观判断噪声中含有调声（可听纯音或窄带噪声），应在测量等效［连续A计权」声级的同时测量等效［连续A计权」声级所对应的线性1/3倍频带频谱，按下列规定进行判定，并按表A.0.4的规定对测量值进行修正。稳态噪声、持续的非稳态噪声是否含有调声的判定依据是：1）在测量过程中有调声被清楚地听到。2）在测量结果的1/3倍频带频谱中，某一个1/3倍频带声压级应超过相邻的两个频带声压级某个恒定的声压级差，声压级差随频率而变，声压级差至少为：一低频段（25Hz～125Hz）15dB;中频段（160Hz～400Hz）8dB；高频段（500Hz～10000Hz）5dB。表A.0.41因噪声特性的不同对噪声测量值的修正值噪声特性修正值(dB)持续稳定的噪声稳态噪声包含有调声的稳态噪声+5续表A.0.4噪声特性修正值（dB)声级随时间起伏，变化较复杂的噪声（如道路交通噪声）非稳态噪声包含有调声的持续的非稳态噪声+5飞机噪声+3本规范用词说明1为了便于执行本规范条文时区别对待，对要求严格程度不同的用词，说明如下：1）表示很严格，非这样做不可的用词：正面词采用“必须”，反面词采用“严禁”；2）表示严格，在正常情况下均应这样做的用词：正面词采用“应”，反面词采用“不应”或“不得”；3）表示允许稍有选择，在条件许可时首先应这样做的用词：正面词采用“宜”，反面词采用“不宜”；4）表示有选择，在-一定条件下可以这样做的用词，采用“可”。2本规范中指明应按其他有关标准执行时，写法为“应符合…的规定”或“应按执行”。引用标准名录《建筑隔声评价标准》GB/T50121《声环境质量标准》GB3096《倍频程和分数倍频程滤波器》GB/T3241《电声学声级计第1部分：规范》GB/T3785.1《积分平均声级计》GB/T17181《声校准器》GB/T15173中华人民共和国国家标准民用建筑隔声设计规范GB 50118-2010
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 必须
+    - 严禁
+    - 不应
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 测点处测量
+    unit: m
+    condition: null
+    min_value: 10.0
+    max_value: 10.0
+  - name: 密集发声时
+    unit: m
+    condition: null
+    min_value: 20.0
+    max_value: 20.0
+  - name: 段HzHz
+    unit: d
+    condition: null
+    min_value: 15.0
+    max_value: 15.0
+  - name: 段HzHz
+    unit: d
+    condition: null
+    min_value: 8.0
+    max_value: 8.0
+  - name: 段HzHz
+    unit: d
+    condition: null
+    min_value: 5.0
+    max_value: 5.0
+  tables: []
+  converted_tables:
+  - raw: 根据GB/T14259-93，稳态噪声指在观察的时间内，具有可忽略不计的小的声级起伏的噪声。对于稳态噪声的测量，原规范是用声级计测量A声级，时间计权慢档，测量时间5s～15s，取平均值，实际上所得值近似等于等效［连续A计权」声级，随着检测技术和检测仪器的发展，测量等效「连续A计权」声级已是很简单的事，因此，稳态噪声的测量参数修订为等效[连续A计权］声级。2声级随时间变化较复杂的持续的非稳态噪声是指在观察时间内，声级连续在一个相当大范围变化的噪声，也就是GB/T14259-93定义的起伏噪声，例如道路交通噪声、工业噪声。按照GB/T14259－93的规定，测量此类噪声的最好方法是测量固定时间内的等效连续声压级，因此，本规范对此类噪声的测量方法是测量10min的等效［连续A计权］声级。3间歇性非稳态噪声是在观察时间内，声级多次突然下降到背景噪声级的噪声。如飞机噪声、铁路噪声等，对这种噪声是测量声源密集发声时20min的等效［连续A计权」声级，如果在测量时段内，仅与一个声源相关，应根据噪声特性对测量值进行修正。此方法是参照GB/T3222.1-2006中规定的重复性单一声事件的评价声级确定方法，并对其进行了简化。对于在测量时段内，有多个声源是相关的情况，对测量值的修正，本方法暂不作规定。4考虑到水泵是建筑物的服务设备，是建筑物的一部分，而且利用现有的技术手段，通过合理的建筑平面布置及采取有效的噪声控制措施，可使它的运行噪声达到标准要求，因此，对于水泵噪声，作为稳态噪声进行测量。5电梯运行时产生的噪声主要包括停止及启动噪声、运行噪声和开、关电梯门产生的噪声。因此，对电梯噪声的测量方法是测量包括这些动作的一个运行过程的等效连续声压级。运行过程的选择原则是：在室内产生较大电梯噪声的运行过程。例如，一个六层的建筑物，被测房间在三层。运行过程可以是：（1）从二层启动到四层停止；（2）从一层启动到四层停止；（3）从二层启动到三层停止；（4）从三层启动到四层停止；（5）从一层启动到六层停止，等等。从这些过程中选择对被测房间室内噪声较不利的过程作为测量运行过程。向上运行过程及向下运行过程所指的“向上或向下”是指电梯的运行方向。6根据GB/T3222.1-2006，有调声是指出自总声音且具有单一一频率或窄带频谱特性的可听声。对于噪声中是否包含有调声的判定方法及对测量值的修正参照了GB/T3222.1-2006及GB/T3222.2-2009（ISO1996-2：2007）中的相关规定。1511217934统一书号：15112：17934价：15.00
+    note: 合并重复提取片段
+  references:
+  - target_standard: GB/T 50121
+    target_clause: null
+    original_text: 指明应按其他有关标准执行时，写法为“应符合…的规定”或“应按执行”。引用标准名录《建筑隔声评价标准》GB/T50121《声环境质量标准》GB3096《倍频程和分数倍频程滤波器》GB/T3241《电声
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  - target_standard: GB 3096
+    target_clause: null
+    original_text: 应符合…的规定”或“应按执行”。引用标准名录《建筑隔声评价标准》GB/T50121《声环境质量标准》GB3096《倍频程和分数倍频程滤波器》GB/T3241《电声学声级计第1部分：规范》GB/
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#4.1.1
+  standard_code: GB 50118-2010
+  chapter: 4 住宅建筑
+  section: ''
+  clause_no: 4.1.1
+  text: 卧室。起居室，厅，内的噪声级 应符合表4.1.1的规定.。
+  is_abolished: true
+  abolished_date: '2022-04-01'
+  superseded_by: GB 55016-2021
+  abolition_note: 被《建筑环境通用规范》GB 55016-2021 废止强制性条文效力（住建部公告，2022-04-01 起实施）
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不得
+    is_mandatory_clause: true
+    mandatory_basis: 住建部公告2010年第744号强制性条文
+  parameters:
+  - name: 间噪声级在
+    unit: d
+    condition: null
+    min_value: 45.0
+    max_value: 45.0
+  - name: A以下时有
+    unit: '%'
+    condition: null
+    min_value: 95.0
+    max_value: 95.0
+  - name: 夜间噪声在
+    unit: d
+    condition: null
+    min_value: 40.0
+    max_value: 40.0
+  tables:
+  - table_id: 表1
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表1。日本集合住宅居室噪声标准设为三级，昼间指标值分别为35dB（A）、40dB（A）和45dB（A），夜间指标值比昼间低 10dB。表1WHO对住宅室内噪声的推荐值测量时段等效声级快挡瞬时最大值具体环境考虑因素dB(A)dB(A)语言干扰和烦恼程度、晚16住宅室内卧室睡眠干扰夜间8英国标准BS8233中的住宅室内噪声设计指南值为：起居室，30dB(A)～40dB(A)；卧室，夜间：30dB(A)～35dB(A）。我国现行国家标准《声环境质量标准》GB3096-2008按区域的使用功能特点和环境质量要求，将声环境功能区分为五种类型，分别规定了各类区域的室外环境噪声限值，见表2。表2各类声环境功能区环境噪声等效声级限值单位：dB(A)类别昼间夜间康复疗养区等特别需要安静的区域0类以居民住宅、医疗卫生、文化教育、科研设计、行政办公为主要功能，需要保持1类安静的区域以商业金融、集市贸易为主要功能，或2类者居住、商业、工业混杂，需要维护住宅安静的区域以工业生产、仓储物流为主要功能，需要防止工业噪声对周围环境产生严重影响3类的区域高速公路、一级公路、交通干线两二级公路、城市快速路、侧一定距离之4a类城市主干路、城市次干内，需要防止4类路、城市轨道交通（地面交通噪声对周段）、内河航道两侧区域围环境产生严重影响的区域铁路干线两侧区域4b类各类声环境功能区夜间突发噪声，其最大声级超过环境噪声限值的幅度不得高于15dB(A)大量的实测调查表明，住宅在开窗的情况下，噪声由室外到室内有10dB左右的衰减量。对于处于0类和1类区域中的住宅，若环境噪声达标，住宅室内噪声级在开窗时也能满足第4.1.1条要求。但是，当住宅处于其他类区域时，尽管环境噪声达到GB3096标准，在开窗时室内噪声级也未必能满足第4.1.1条的要求，尤其是交通干线两侧的住宅“开窗”状态下难以满足第
+  - table_id: 表3
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文）
+    content: 条的噪声级要求。室内噪声不仅和住宅建筑所处的声功能区、周围噪声源的情况有关，而且和建筑物本身的隔声设计密切相关。目前对交通干线两侧的住宅所采取的简单有效的防噪措施是安装隔声窗，保证在关窗状态下室内安静。因此，根据我国住宅外部环境噪声的实际状况，结合我国的技术经济条件，本规范规定了住宅在关窗状态下的室内允许噪声级。本次修订将住宅允许噪声级由原规范（GBJ118－88）的三级标准调整为两级，相应指标数值也作了调整。本规范与原规范住宅允许噪声级对照表见表3。表3本规范与原规范住宅允许噪声级对照表允许噪声级（A声级，dB)房间名称本规范原规范（GBJ118-88）高要求低限要求一级二级≤40(昼间）≤45(昼间）≤40(昼间）≤45(昼间）≤50（昼间）≤30(夜间)≤37（夜间）≤30（夜间）≤35（夜间）《40（夜间）≤45（昼间）≤50(昼间)起居室\40《45≤35（夜间）≤40（夜间）4.2隔声标准
+  converted_tables:
+  - raw: 条的规定。如果环境噪声超标或住宅位于交通干道两侧，则需控制窗墙面积比，或按4.3.2条，依室外噪声状况进行专门的隔声设计。
+    note: 合并重复提取片段
+  references:
+  - target_standard: GB 3096-2008
+    target_clause: null
+    original_text: 修编的主要依据：参考了国内外对住宅噪声反应的调研成果以及相关噪声标准指南，并考虑与国家标准《声环境质量标准》GB3096-2008的协调性和标准的可操作性。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#7.1.3
+  standard_code: GB 50118-2010
+  chapter: 7 旅馆建筑
+  section: ''
+  clause_no: 7.1.3
+  text: 条要求相当，计权隔声量达到55dB的钢筋混凝土楼板的Cr值-一般在一4dB左右。3根据国内墙体材料、楼板构造的隔声性能测量与调查资料、结合我国经济和建筑技术水平的实际情况和发展趋势。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 隔声量达到
+    unit: d
+    condition: null
+    min_value: 55.0
+    max_value: 55.0
+  - name: 值一般在一
+    unit: d
+    condition: null
+    min_value: 4.0
+    max_value: 4.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#5.1.1
+  standard_code: GB 50118-2010
+  chapter: 5 学校建筑
+  section: ''
+  clause_no: 5.1.1
+  text: 、5.1.2本章中的学校建筑是指大量性的用于日常教学活动的场所，不包括如音乐厅、体育馆和多功能厅等专业用途的空间，这些空间中的声学指标可参照相应的声学设计规范。本章中的教学用房不包括特殊教育学校中的教室，这些教室中的允许噪声值指标可参考《特殊教育学校建筑设计规范》JGJ76－2003。允许噪声级不包括教学活动及教学设备所产生的噪声，但包括建筑设备（如空调）的噪声。室内允许噪声级旨在提出教学用房和辅助用房室内噪声的最大值，以保障学校教学活动中学生的注意力不受来自外界和内部噪声的影响，提高教学用房内的语言清晰度。与原规范《民用建筑隔声设计规范》GBJ11888相比，这次修订取消了房间允许噪声级的分级，而根据学校建筑中各种房间的安静要求程度，分别给出了主要教学用房和教学辅助用房的最大噪声允许值。本章中普通教室是指教师采用自然声授课的教室，不包括采用扩声设备的教室。由于本规范的室内噪声采用关窗条件下无教学人员时测得的噪声值，所以房间内的最大噪声值要求较原规范有所提高。在教学用房中，取消了原规范对录音室的噪声要求，主要考虑到在学校建筑中录音室的数量较少，而声学要求较高，所以需根据录音室的专业标准进行专门声学设计。本章修订中，参考了英国BuildingBulletin93和美国ANSIS12.60-2002中有关学校建筑的声学设计标准，增加了教学楼封闭走廊和楼梯间的噪声要求，主要考虑到这些空间与教室相邻，为减少噪声干扰，这些空间内的允许噪声级也需有一定的限值。5.2隔声标准
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: JGJ 76
+    target_clause: null
+    original_text: 本章中的教学用房不包括特殊教育学校中的教室，这些教室中的允许噪声值指标可参考《特殊教育学校建筑设计规范》JGJ76－2003。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  - target_standard: GBJ 11888
+    target_clause: null
+    original_text: 与原规范《民用建筑隔声设计规范》GBJ11888相比，这次修订取消了房间允许噪声级的分级，而根据学校建筑中各种房间的安静要求程度，分别给出了主要教学用房和教学辅助用房的最大噪声允许值。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#5.2.4
+  standard_code: GB 50118-2010
+  chapter: 5 学校建筑
+  section: ''
+  clause_no: 5.2.4
+  text: 楼板撞击声隔声标准采用实验室测得的计权规范化撞击声压级Ln,w作为评价指标，供设计时选用。另外，本条提出的计权标准化撞击声压级LnT,w，作为现场实测指标。撞击声隔声标准与原规范（GBJ118-88）中的要求相同，主要考虑到学校建筑中教学用房的特点，对于普通教室撞击声的影响不突出，隔声指标为75dB。对于语言教室、阅览室与其他房间之间的楼板，以及产生噪声的房间楼板撞击声的隔声指标要求较高为65dB。普通光裸混凝土楼板的计权标准化撞击声压级通常在80dB左右，对于计权标准化撞击声压级小于75dB的情况，则在建筑设计时楼板需采用必要的隔声措施才可达到。5.3隔声减噪设计
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: may
+    modal_words:
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 出隔声指标
+    unit: d
+    condition: null
+    min_value: 75.0
+    max_value: 75.0
+  - name: 标要求较高
+    unit: d
+    condition: null
+    min_value: 65.0
+    max_value: 65.0
+  - name: 压级通常在
+    unit: d
+    condition: null
+    min_value: 80.0
+    max_value: 80.0
+  - name: 撞击声压级
+    unit: d
+    condition: null
+    min_value: null
+    max_value: 75.0
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GBJ 118
+    target_clause: null
+    original_text: 撞击声隔声标准与原规范（GBJ118-88）中的要求相同，主要考虑到学校建筑中教学用房的特点，对于普通教室撞击声的影响不突出，隔声指标为75dB。
+    resolution_status: unresolved
+    resolution_note: 引用信息残缺（缺《标准全称》且无引用动词），待人工核对
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#6.1.1
+  standard_code: GB 50118-2010
+  chapter: 6 医院建筑
+  section: ''
+  clause_no: 6.1.1
+  text: 本规范将对各主要用房室内允许噪声级的规定从原来的三个级别简化为两个级别，即一般都应达到的最低要求标准和较舒适的高要求标准。本次修订改变了通过对叠间时段室内允许噪声级进行修正而得出夜间时段室内允许噪声级的方法，改为对具有睡眠功能的房间直接规定昼间时段和夜间时段的室内允许噪声级。本条新增重症监护室、人口大厅、候诊厅、洁净手术室和化验室、分析实验室等用房的室内允许噪声级规定
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表6.1.1
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表6.1.1中的“低限标准”是以原规范的“二级”、“三级”标准为基础制定，是一个基本要求，是所有的医院都应达到的标准。表6.1.1中的“高要求标准”是以原规范的“一级”标准为基础制定，同时参考世界卫生组织（WHO）、法国国家标准的有关限值制定，供对声环境要求较高的医院房间选用。世界卫生组织（WHO）环境噪声指南（GuidelinesforCommunityNoise1999）有关医院室内噪声的指导限值如下：病房：LAeq≤30dB;LAmax≤40dB。治疗或观察室：LAeg≤35dB。法国国家标准（Relatif a la Limitation du Bruit Dans lesEtablissementsdeSante2003）关于医疗机构室内设备噪声的相关规定如下：病房：病房内LnAT≤30dB(A);检查和诊断室、医疗办公室、等候室内LnAT ≤35dB(A);治疗室LnAT ≤40dB(A);手术室、产房、工作室LnAT≤40dB(A）。在已颁布实施的《医院洁净手术部建筑技术规范》GB50333-2002中规定：洁净手术室的室内允许噪声级不大于50dB（A）。故本条表6.1.1洁净手术室的室内允许噪声级与该规范保持致，规定为50dB（A）。听力测听方法主要有纯音气导和骨导听阈测听法与用纯音及窄带测试信号的声场测听两种测试方法。后者对室内环境噪声级、室内声场有更严格的规定，需进行专业声学设计，故本规范不涉及。具体要求详见《声学一一测听方法，第2部分：用纯音及窄带测试信号的声场测听》GB/T16296-1996。6.2隔声标准
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#7.1.1
+  standard_code: GB 50118-2010
+  chapter: 7 旅馆建筑
+  section: ''
+  clause_no: 7.1.1
+  text: 旅馆建筑中的客房与住宅建筑中的卧室有共同之处，即确保睡眠所必需的安静条件，因此，客房内的允许噪声级可参照住宅允许噪声级而定；但旅馆建筑中噪声干扰的噪声源与住宅中有所不同，住宅卧室噪声干扰主要来自户外，而旅馆除受环境噪声影响外，对设有空调的旅馆客房还会有空调噪声的影响。因此有空调设施的客房，应对空调系统的噪声加以控制。客房允许噪声标准的编制依据如下：1.根据睡眠所必需的安静程度：理想值为30dB（A），最大不超过50dB（A）。2.根据我国已制定的环境噪声标准（见《声环境质量标准》GB3096-2008），确定有可能实现的标准。3.根据国内旅馆调查结果，室内噪声级与旅馆反映如下：30dB(A)～35dB(A)满意；35dB(A)～40dB(A)比较满意；40dB(A)～45dB(A)没有较多的抱怨；大于45dB(A)有各种不同的反映，多数不太满意。4.参考了国外12个国家的住宅、旅馆客房的允许噪声级标准，这些标准值在30～40dB(A)范围内。本次修编与原规范相比，进行了如下改动：1..原规范中在正文中只给出了昼间的标准，而在附录中统-给出了夜间标准与昼间标准的修正量，但考虑到
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 程度理想值
+    unit: d
+    condition: null
+    min_value: 30.0
+    max_value: 30.0
+  - name: BA最大
+    unit: d
+    condition: null
+    min_value: 50.0
+    max_value: null
+  - name: 馆反映如下
+    unit: d
+    condition: null
+    min_value: 30.0
+    max_value: 30.0
+  - name: 如下dBA
+    unit: d
+    condition: null
+    min_value: 35.0
+    max_value: 35.0
+  - name: dBA满意
+    unit: d
+    condition: null
+    min_value: 35.0
+    max_value: 35.0
+  - name: 满意dBA
+    unit: d
+    condition: null
+    min_value: 40.0
+    max_value: 40.0
+  - name: A比较满意
+    unit: d
+    condition: null
+    min_value: 40.0
+    max_value: 40.0
+  - name: 满意dBA
+    unit: d
+    condition: null
+    min_value: 45.0
+    max_value: 45.0
+  - name: 较多的抱怨
+    unit: d
+    condition: null
+    min_value: 45.0
+    max_value: null
+  - name: 些标准值在
+    unit: d
+    condition: null
+    min_value: 40.0
+    max_value: 40.0
+  tables:
+  - table_id: 表7.1.1
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表7.1.1中的不同房间从使用功能考虑，允许噪声级在昼间和夜间差别是不同的。如客房由于有睡眠的要求，所以昼间和夜间的允许噪声级的差别较大，但会议室、多用途厅等房间对昼间和夜间的允许噪声级的要求没有差别，所以在表7.1.1中分别给出了不同房间昼间和夜间的允许噪声标准。2.原规范中有四个等级，考虑到社会的进步和人们对旅馆舒适性要求的提高，本次修编中取消原规范中的最低等级（客房中允许噪声级标准叠间为55dB（A），夜间为45dB（A）），以保证所有客房都能有比较满意的休息环境。3.原规范中客房允许噪声级夜间标准比叠间标准低10dB，但旅馆建筑，主要噪声源可能来自房间内部的风机盘管，昼间和夜间的变化不大，另外根据旅客调查结果，40dB（A)以内可以达到比较满意的睡眠环境，将客房内夜间和昼间的允许噪声值的差别定为5dB。.4.旅馆的其他用房，如会议室、多用途厅、舞厅、餐厅、办公室等的允许噪声级，与其他建筑中的相应用房没有大的区别，所以其充许噪声标准与本标准中办公建筑、商业建筑等章节中相应用房的允许噪声级标准一致。7.2隔声标准
+  converted_tables: []
+  references:
+  - target_standard: GB 3096-2008
+    target_clause: null
+    original_text: 2.根据我国已制定的环境噪声标准（见《声环境质量标准》GB3096-2008），确定有可能实现的标准。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#7.2.5
+  standard_code: GB 50118-2010
+  chapter: 7 旅馆建筑
+  section: ''
+  clause_no: 7.2.5
+  text: 在原规范中，对客房与各种有振动的房间之间的楼板的撞击声隔声标准进行了规定，但考虑到振动源和噪声源的情况有很大的不同，如果振动和噪声很大，即便是楼板的隔声性能达到了规定的标准，也不能保证客房内的噪声级符合要求，而采取隔声隔振措施的最终目的就是保证室内的噪声符合要求。因此在不了解振动源和噪声源的具体情况，只规定了客房与各种有振动的房间之间的楼板的撞击声隔声标准，很可能出现设计上的偏差。因此在
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: may
+    modal_words:
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表7.2.4
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表7.2.4中没有对客房与各种有振动的房间之间楼板的撞击声隔声标准进行规定，而增加了此条，目的是让设计人员对此问题加以重视，并对此类问题进行单独的设计和处理，以确保房间内噪声级能符合要求。
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#8.3.3
+  standard_code: GB 50118-2010
+  chapter: 8 办公建筑
+  section: ''
+  clause_no: 8.3.3
+  text: 有明显噪声源的房间是指：电梯间、空调机房等。把对声环境品质的要求整合到办公楼的建筑设计中，可以有效排除建筑物内部噪声源对办公活动的干扰，并减少花费。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: may
+    modal_words:
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#9.1.1
+  standard_code: GB 50118-2010
+  chapter: 9 商业建筑
+  section: ''
+  clause_no: 9.1.1
+  text: 本条中的“空场”是指无人进人，暖通空调启动，正常照明，无背景音乐、货品或展品不发声的状况。商业建筑室内的噪声主要来源于外部传入噪声、设备机械噪声等背景噪声和室内人群走动、交谈等人为噪声。商业建筑室内声学设计的核心是，一方面降低室内背景噪声，另方面通过室内吸声控制人为噪声，为建筑空间提供舒适的声环境。健身中心、娱乐中心有较多可能发声器材或就是以发声为娱乐目的，因此，噪声限值不作规定。但是由医学研究表明，噪声达到80dB（A）以上时，对人的听觉系统、视觉系统、精神系统和消化系统会产生明显的负面影响，因此在健身中心或迪斯科、KTV等场所，噪声较高的情况下，有必要提醒消费者注意健康。餐厅、商业办公室、购物中心、走廊等有交谈需要，背景噪声级以不妨碍语言表达为宜。会展中心的声环境宜与展览的品位、档次相协调，背景噪声级宜尽可能低。员工休息室允许噪声级是以满足昼间上班期间临时休息的需要而确定的。9.2室内吸声
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: should
+    modal_words:
+    - 宜
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 明噪声达到
+    unit: d
+    condition: null
+    min_value: 80.0
+    max_value: 80.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+- id: GB 50118-2010#9.3.1
+  standard_code: GB 50118-2010
+  chapter: 9 商业建筑
+  section: ''
+  clause_no: 9.3.1
+  text: 、9.3.2噪声敏感房间指本规范所述的有室内允许噪声级标准的各类建筑空间。商业建筑产生的噪声干扰他人会引起纠纷，必须做好隔声处理。健身中心、娱乐场等高噪声空间，应邀请声学顾问，贯穿建筑初设到施工竣工或装修的全过程，提供声学技术支持，防止噪声扰民。因商业建筑所产生的噪声低频成分较多，因此，隔声量频谱修正量采用了Cu。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 必须
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    - IfcFloor
+    - IfcDoor
+    activity_types:
+    - 隔声设计
+  conflicts: []
+executable_rules:
+- rule_id: R_GB501182010_5_3_1_1
+  source_clause: GB 50118-2010#5.3.1
+  rule_type: constraint
+  when:
+  - activity_type == '隔声设计'
+  - component_type IN ['IfcWall', 'IfcFloor', 'IfcDoor']
+  then:
+    parameter: 动场的距离
+    unit: m
+    condition: null
+    min_value: 25.0
+  source_text: 位于交通干线旁的学校建筑，宜将运动场沿干道布置，作为噪声隔离带。产生噪声的固定设施与教学楼之间，应设足够距离的噪声隔离带。当教室有门窗面对运动场时，教室外墙至运动场的距离不应小于25m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB501182010_7_3_3_1
+  source_clause: GB 50118-2010#7.3.3
+  rule_type: constraint
+  when:
+  - activity_type == '隔声设计'
+  - component_type IN ['IfcWall', 'IfcFloor', 'IfcDoor']
+  then:
+    parameter: 规定RC
+    unit: d
+    condition: null
+    min_value: 35.0
+  source_text: 设有活动隔断的会议室、多用途厅，其活动隔断的空气声隔声性能应符合下式的规定：R+C≥35dB(7.3. 3)式中：Rw—计权隔声量（dB)；C一-粉红噪声频谱修正量（dB）。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB501182010_9_2_1_1
+  source_clause: GB 50118-2010#9.2.1
+  rule_type: constraint
+  when:
+  - activity_type == '隔声设计'
+  - component_type IN ['IfcWall', 'IfcFloor', 'IfcDoor']
+  then:
+    parameter: 容积
+    unit: m
+    condition: null
+    min_value: 400.0
+  source_text: 容积大于400m3且流动人员人均占地面积小于20m²的室内空间，应安装吸声顶棚；吸声顶棚面积不应小于顶棚总面积的75%；顶棚吸声材料或构造的降噪系数（NRC）应符合
+  table_source: 表9.2.1
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB501182010_9_2_1_2
+  source_clause: GB 50118-2010#9.2.1
+  rule_type: constraint
+  when:
+  - activity_type == '隔声设计'
+  - component_type IN ['IfcWall', 'IfcFloor', 'IfcDoor']
+  then:
+    parameter: 均占地面积
+    unit: m²
+    condition: null
+    max_value: 20.0
+  source_text: 容积大于400m3且流动人员人均占地面积小于20m²的室内空间，应安装吸声顶棚；吸声顶棚面积不应小于顶棚总面积的75%；顶棚吸声材料或构造的降噪系数（NRC）应符合
+  table_source: 表9.2.1
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB501182010_9_2_1_3
+  source_clause: GB 50118-2010#9.2.1
+  rule_type: constraint
+  when:
+  - activity_type == '隔声设计'
+  - component_type IN ['IfcWall', 'IfcFloor', 'IfcDoor']
+  then:
+    parameter: 声顶棚面积
+    unit: '%'
+    condition: null
+    min_value: 75.0
+  source_text: 容积大于400m3且流动人员人均占地面积小于20m²的室内空间，应安装吸声顶棚；吸声顶棚面积不应小于顶棚总面积的75%；顶棚吸声材料或构造的降噪系数（NRC）应符合
+  table_source: 表9.2.1
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB501182010_9_4_1_1
+  source_clause: GB 50118-2010#9.4.1
+  rule_type: constraint
+  when:
+  - activity_type == '隔声设计'
+  - component_type IN ['IfcWall', 'IfcFloor', 'IfcDoor']
+  then:
+    parameter: 级之差值
+    unit: d
+    condition: null
+    min_value: 3.0
+  source_text: 高噪声级的商业空间不应与噪声敏感的空间位于同一建筑内或毗邻。如果不可避免的位于同一建筑内或毗邻，必须进行隔声、隔振处理，保证传至敏感区域的营业噪声和该区域的背景噪声叠加后的总噪声级与背景噪声级之差值不大于3dB（A）。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB501182010_A_0_2_1
+  source_clause: GB 50118-2010#A.0.2
+  rule_type: constraint
+  when:
+  - activity_type == '隔声设计'
+  - component_type IN ['IfcWall', 'IfcFloor', 'IfcDoor']
+  then:
+    parameter: 值偏差不得
+    unit: d
+    condition: null
+    min_value: 0.5
+  source_text: 测量仪器应符合下列规定：1测量仪器应采用符合现行国家标准《电声学声级计第1部分：规范》GB/T3785.1和《积分平均声级计》GB/T17181中规定的1型或性能优于1型的积分声级计。滤波器应符合现行国家标准《倍频程和分数倍频程滤波器》GB/T3241的有关规定。也可使用性能相当
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB501182010_A_0_3_1
+  source_clause: GB 50118-2010#A.0.3
+  rule_type: constraint
+  when:
+  - activity_type == '隔声设计'
+  - component_type IN ['IfcWall', 'IfcFloor', 'IfcDoor']
+  then:
+    parameter: 建筑中面积
+    unit: m²
+    condition: null
+    max_value: 30.0
+  source_text: A.0.3测量条件应符合下列规定：1对于住宅、学校、医院、旅馆、办公建筑及商业建筑中面积小于30m²的房间，在被测房间内选取1个测点，测点应位于房间中央。2对于面积大于等于30m²、小于100m²的房间，选取3个测点，测点均匀分布在房间长方向的中心线上，房间平面为正方形时，测点应
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB501182010_A_0_3_2
+  source_clause: GB 50118-2010#A.0.3
+  rule_type: constraint
+  when:
+  - activity_type == '隔声设计'
+  - component_type IN ['IfcWall', 'IfcFloor', 'IfcDoor']
+  then:
+    parameter: 央对于面积
+    unit: m²
+    condition: null
+    min_value: 30.0
+  source_text: A.0.3测量条件应符合下列规定：1对于住宅、学校、医院、旅馆、办公建筑及商业建筑中面积小于30m²的房间，在被测房间内选取1个测点，测点应位于房间中央。2对于面积大于等于30m²、小于100m²的房间，选取3个测点，测点均匀分布在房间长方向的中心线上，房间平面为正方形时，测点应
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB501182010_A_0_3_3
+  source_clause: GB 50118-2010#A.0.3
+  rule_type: constraint
+  when:
+  - activity_type == '隔声设计'
+  - component_type IN ['IfcWall', 'IfcFloor', 'IfcDoor']
+  then:
+    parameter: 对于面积
+    unit: m²
+    condition: null
+    min_value: 100.0
+  source_text: A.0.3测量条件应符合下列规定：1对于住宅、学校、医院、旅馆、办公建筑及商业建筑中面积小于30m²的房间，在被测房间内选取1个测点，测点应位于房间中央。2对于面积大于等于30m²、小于100m²的房间，选取3个测点，测点均匀分布在房间长方向的中心线上，房间平面为正方形时，测点应
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB501182010_A_0_3_4
+  source_clause: GB 50118-2010#A.0.3
+  rule_type: constraint
+  when:
+  - activity_type == '隔声设计'
+  - component_type IN ['IfcWall', 'IfcFloor', 'IfcDoor']
+  then:
+    parameter: 上对于面积
+    unit: m²
+    condition: null
+    min_value: 100.0
+  source_text: A.0.3测量条件应符合下列规定：1对于住宅、学校、医院、旅馆、办公建筑及商业建筑中面积小于30m²的房间，在被测房间内选取1个测点，测点应位于房间中央。2对于面积大于等于30m²、小于100m²的房间，选取3个测点，测点均匀分布在房间长方向的中心线上，房间平面为正方形时，测点应
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB501182010_A_0_3_5
+  source_clause: GB 50118-2010#A.0.3
+  rule_type: constraint
+  when:
+  - activity_type == '隔声设计'
+  - component_type IN ['IfcWall', 'IfcFloor', 'IfcDoor']
+  then:
+    parameter: 面的高度
+    unit: m
+    condition: null
+    min_value: 1.2
+    max_value: 1.2
+  source_text: A.0.3测量条件应符合下列规定：1对于住宅、学校、医院、旅馆、办公建筑及商业建筑中面积小于30m²的房间，在被测房间内选取1个测点，测点应位于房间中央。2对于面积大于等于30m²、小于100m²的房间，选取3个测点，测点均匀分布在房间长方向的中心线上，房间平面为正方形时，测点应
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB501182010_A_0_3_6
+  source_clause: GB 50118-2010#A.0.3
+  rule_type: constraint
+  when:
+  - activity_type == '隔声设计'
+  - component_type IN ['IfcWall', 'IfcFloor', 'IfcDoor']
+  then:
+    parameter: 面的高度
+    unit: m
+    condition: null
+    min_value: 1.6
+    max_value: 1.6
+  source_text: A.0.3测量条件应符合下列规定：1对于住宅、学校、医院、旅馆、办公建筑及商业建筑中面积小于30m²的房间，在被测房间内选取1个测点，测点应位于房间中央。2对于面积大于等于30m²、小于100m²的房间，选取3个测点，测点均匀分布在房间长方向的中心线上，房间平面为正方形时，测点应
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB501182010_A_0_3_7
+  source_clause: GB 50118-2010#A.0.3
+  rule_type: constraint
+  when:
+  - activity_type == '隔声设计'
+  - component_type IN ['IfcWall', 'IfcFloor', 'IfcDoor']
+  then:
+    parameter: 面的距离
+    unit: m
+    condition: null
+    min_value: 1.0
+  source_text: A.0.3测量条件应符合下列规定：1对于住宅、学校、医院、旅馆、办公建筑及商业建筑中面积小于30m²的房间，在被测房间内选取1个测点，测点应位于房间中央。2对于面积大于等于30m²、小于100m²的房间，选取3个测点，测点均匀分布在房间长方向的中心线上，房间平面为正方形时，测点应
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB501182010_A_0_3_8
+  source_clause: GB 50118-2010#A.0.3
+  rule_type: constraint
+  when:
+  - activity_type == '隔声设计'
+  - component_type IN ['IfcWall', 'IfcFloor', 'IfcDoor']
+  then:
+    parameter: 间的距离
+    unit: m
+    condition: null
+    min_value: 1.5
+  source_text: A.0.3测量条件应符合下列规定：1对于住宅、学校、医院、旅馆、办公建筑及商业建筑中面积小于30m²的房间，在被测房间内选取1个测点，测点应位于房间中央。2对于面积大于等于30m²、小于100m²的房间，选取3个测点，测点均匀分布在房间长方向的中心线上，房间平面为正方形时，测点应
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB501182010_A_0_3_9
+  source_clause: GB 50118-2010#A.0.3
+  rule_type: constraint
+  when:
+  - activity_type == '隔声设计'
+  - component_type IN ['IfcWall', 'IfcFloor', 'IfcDoor']
+  then:
+    parameter: 距离应天于
+    unit: m
+    condition: null
+    min_value: 1.5
+    max_value: 1.5
+  source_text: A.0.3测量条件应符合下列规定：1对于住宅、学校、医院、旅馆、办公建筑及商业建筑中面积小于30m²的房间，在被测房间内选取1个测点，测点应位于房间中央。2对于面积大于等于30m²、小于100m²的房间，选取3个测点，测点均匀分布在房间长方向的中心线上，房间平面为正方形时，测点应
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB501182010_A_0_3_10
+  source_clause: GB 50118-2010#A.0.3
+  rule_type: constraint
+  when:
+  - activity_type == '隔声设计'
+  - component_type IN ['IfcWall', 'IfcFloor', 'IfcDoor']
+  then:
+    parameter: 元的距离
+    unit: m
+    condition: null
+    min_value: 0.7
+  source_text: A.0.3测量条件应符合下列规定：1对于住宅、学校、医院、旅馆、办公建筑及商业建筑中面积小于30m²的房间，在被测房间内选取1个测点，测点应位于房间中央。2对于面积大于等于30m²、小于100m²的房间，选取3个测点，测点均匀分布在房间长方向的中心线上，房间平面为正方形时，测点应
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB501182010_A_0_3_11
+  source_clause: GB 50118-2010#A.0.3
+  rule_type: constraint
+  when:
+  - activity_type == '隔声设计'
+  - component_type IN ['IfcWall', 'IfcFloor', 'IfcDoor']
+  then:
+    parameter: 间的距离
+    unit: m
+    condition: null
+    min_value: 0.7
+  source_text: A.0.3测量条件应符合下列规定：1对于住宅、学校、医院、旅馆、办公建筑及商业建筑中面积小于30m²的房间，在被测房间内选取1个测点，测点应位于房间中央。2对于面积大于等于30m²、小于100m²的房间，选取3个测点，测点均匀分布在房间长方向的中心线上，房间平面为正方形时，测点应
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB501182010_A_0_4_1
+  source_clause: GB 50118-2010#A.0.4
+  rule_type: constraint
+  when:
+  - activity_type == '隔声设计'
+  - component_type IN ['IfcWall', 'IfcFloor', 'IfcDoor']
+  then:
+    parameter: 测点处测量
+    unit: m
+    condition: null
+    min_value: 10.0
+    max_value: 10.0
+  source_text: A.0.4测量方法及数据处理应符合下列规定：1对于稳态噪声，在各测点处测量5s～10s的等效L连续A计权声级，每个测点测量3次，并将各测点的所有测量值进行能量平均，计算结果修约到个数位。2对于声级随时间变化较复杂的持续的非稳态噪声，在各测点处测量10min的等效L连续A计权，声级
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB501182010_A_0_4_2
+  source_clause: GB 50118-2010#A.0.4
+  rule_type: constraint
+  when:
+  - activity_type == '隔声设计'
+  - component_type IN ['IfcWall', 'IfcFloor', 'IfcDoor']
+  then:
+    parameter: 密集发声时
+    unit: m
+    condition: null
+    min_value: 20.0
+    max_value: 20.0
+  source_text: A.0.4测量方法及数据处理应符合下列规定：1对于稳态噪声，在各测点处测量5s～10s的等效L连续A计权声级，每个测点测量3次，并将各测点的所有测量值进行能量平均，计算结果修约到个数位。2对于声级随时间变化较复杂的持续的非稳态噪声，在各测点处测量10min的等效L连续A计权，声级
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB501182010_A_0_4_3
+  source_clause: GB 50118-2010#A.0.4
+  rule_type: constraint
+  when:
+  - activity_type == '隔声设计'
+  - component_type IN ['IfcWall', 'IfcFloor', 'IfcDoor']
+  then:
+    parameter: 段HzHz
+    unit: d
+    condition: null
+    min_value: 15.0
+    max_value: 15.0
+  source_text: A.0.4测量方法及数据处理应符合下列规定：1对于稳态噪声，在各测点处测量5s～10s的等效L连续A计权声级，每个测点测量3次，并将各测点的所有测量值进行能量平均，计算结果修约到个数位。2对于声级随时间变化较复杂的持续的非稳态噪声，在各测点处测量10min的等效L连续A计权，声级
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB501182010_A_0_4_4
+  source_clause: GB 50118-2010#A.0.4
+  rule_type: constraint
+  when:
+  - activity_type == '隔声设计'
+  - component_type IN ['IfcWall', 'IfcFloor', 'IfcDoor']
+  then:
+    parameter: 段HzHz
+    unit: d
+    condition: null
+    min_value: 8.0
+    max_value: 8.0
+  source_text: A.0.4测量方法及数据处理应符合下列规定：1对于稳态噪声，在各测点处测量5s～10s的等效L连续A计权声级，每个测点测量3次，并将各测点的所有测量值进行能量平均，计算结果修约到个数位。2对于声级随时间变化较复杂的持续的非稳态噪声，在各测点处测量10min的等效L连续A计权，声级
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB501182010_A_0_4_5
+  source_clause: GB 50118-2010#A.0.4
+  rule_type: constraint
+  when:
+  - activity_type == '隔声设计'
+  - component_type IN ['IfcWall', 'IfcFloor', 'IfcDoor']
+  then:
+    parameter: 段HzHz
+    unit: d
+    condition: null
+    min_value: 5.0
+    max_value: 5.0
+  source_text: A.0.4测量方法及数据处理应符合下列规定：1对于稳态噪声，在各测点处测量5s～10s的等效L连续A计权声级，每个测点测量3次，并将各测点的所有测量值进行能量平均，计算结果修约到个数位。2对于声级随时间变化较复杂的持续的非稳态噪声，在各测点处测量10min的等效L连续A计权，声级
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB501182010_4_1_1_1
+  source_clause: GB 50118-2010#4.1.1
+  rule_type: constraint
+  when:
+  - activity_type == '隔声设计'
+  - component_type IN ['IfcWall', 'IfcFloor', 'IfcDoor']
+  then:
+    parameter: 间噪声级在
+    unit: d
+    condition: null
+    min_value: 45.0
+    max_value: 45.0
+  source_text: 、4.1.2住宅室内允许噪声级标准，是对住宅楼内、外噪声源在住宅卧室、起居室（厅）产生的噪声的总体控制要求。本规范对住宅户内其他房间的充许噪声级暂不作规定。住宅的室内允许噪声级按安静程度划分为两个档次的标准，以适应不同标准的建筑。其中4.1.1条的标准是所有住宅都要达到的最低要求
+  table_source: 表1
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB501182010_4_1_1_2
+  source_clause: GB 50118-2010#4.1.1
+  rule_type: constraint
+  when:
+  - activity_type == '隔声设计'
+  - component_type IN ['IfcWall', 'IfcFloor', 'IfcDoor']
+  then:
+    parameter: A以下时有
+    unit: '%'
+    condition: null
+    min_value: 95.0
+    max_value: 95.0
+  source_text: 、4.1.2住宅室内允许噪声级标准，是对住宅楼内、外噪声源在住宅卧室、起居室（厅）产生的噪声的总体控制要求。本规范对住宅户内其他房间的充许噪声级暂不作规定。住宅的室内允许噪声级按安静程度划分为两个档次的标准，以适应不同标准的建筑。其中4.1.1条的标准是所有住宅都要达到的最低要求
+  table_source: 表1
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB501182010_4_1_1_3
+  source_clause: GB 50118-2010#4.1.1
+  rule_type: constraint
+  when:
+  - activity_type == '隔声设计'
+  - component_type IN ['IfcWall', 'IfcFloor', 'IfcDoor']
+  then:
+    parameter: 夜间噪声在
+    unit: d
+    condition: null
+    min_value: 40.0
+    max_value: 40.0
+  source_text: 、4.1.2住宅室内允许噪声级标准，是对住宅楼内、外噪声源在住宅卧室、起居室（厅）产生的噪声的总体控制要求。本规范对住宅户内其他房间的充许噪声级暂不作规定。住宅的室内允许噪声级按安静程度划分为两个档次的标准，以适应不同标准的建筑。其中4.1.1条的标准是所有住宅都要达到的最低要求
+  table_source: 表1
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB501182010_7_1_3_1
+  source_clause: GB 50118-2010#7.1.3
+  rule_type: validation
+  when:
+  - activity_type == '隔声设计'
+  - component_type IN ['IfcWall', 'IfcFloor', 'IfcDoor']
+  then:
+    parameter: 隔声量达到
+    unit: d
+    condition: null
+    min_value: 55.0
+    max_value: 55.0
+  source_text: 条要求相当，计权隔声量达到55dB的钢筋混凝土楼板的Cr值-一般在一4dB左右。3根据国内墙体材料、楼板构造的隔声性能测量与调查资料、结合我国经济和建筑技术水平的实际情况和发展趋势。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB501182010_7_1_3_2
+  source_clause: GB 50118-2010#7.1.3
+  rule_type: validation
+  when:
+  - activity_type == '隔声设计'
+  - component_type IN ['IfcWall', 'IfcFloor', 'IfcDoor']
+  then:
+    parameter: 值一般在一
+    unit: d
+    condition: null
+    min_value: 4.0
+    max_value: 4.0
+  source_text: 条要求相当，计权隔声量达到55dB的钢筋混凝土楼板的Cr值-一般在一4dB左右。3根据国内墙体材料、楼板构造的隔声性能测量与调查资料、结合我国经济和建筑技术水平的实际情况和发展趋势。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB501182010_5_2_4_1
+  source_clause: GB 50118-2010#5.2.4
+  rule_type: validation
+  when:
+  - activity_type == '隔声设计'
+  - component_type IN ['IfcWall', 'IfcFloor', 'IfcDoor']
+  then:
+    parameter: 出隔声指标
+    unit: d
+    condition: null
+    min_value: 75.0
+    max_value: 75.0
+  source_text: 楼板撞击声隔声标准采用实验室测得的计权规范化撞击声压级Ln,w作为评价指标，供设计时选用。另外，本条提出的计权标准化撞击声压级LnT,w，作为现场实测指标。撞击声隔声标准与原规范（GBJ118-88）中的要求相同，主要考虑到学校建筑中教学用房的特点，对于普通教室撞击声的影响不突出
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB501182010_5_2_4_2
+  source_clause: GB 50118-2010#5.2.4
+  rule_type: validation
+  when:
+  - activity_type == '隔声设计'
+  - component_type IN ['IfcWall', 'IfcFloor', 'IfcDoor']
+  then:
+    parameter: 标要求较高
+    unit: d
+    condition: null
+    min_value: 65.0
+    max_value: 65.0
+  source_text: 楼板撞击声隔声标准采用实验室测得的计权规范化撞击声压级Ln,w作为评价指标，供设计时选用。另外，本条提出的计权标准化撞击声压级LnT,w，作为现场实测指标。撞击声隔声标准与原规范（GBJ118-88）中的要求相同，主要考虑到学校建筑中教学用房的特点，对于普通教室撞击声的影响不突出
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB501182010_5_2_4_3
+  source_clause: GB 50118-2010#5.2.4
+  rule_type: validation
+  when:
+  - activity_type == '隔声设计'
+  - component_type IN ['IfcWall', 'IfcFloor', 'IfcDoor']
+  then:
+    parameter: 压级通常在
+    unit: d
+    condition: null
+    min_value: 80.0
+    max_value: 80.0
+  source_text: 楼板撞击声隔声标准采用实验室测得的计权规范化撞击声压级Ln,w作为评价指标，供设计时选用。另外，本条提出的计权标准化撞击声压级LnT,w，作为现场实测指标。撞击声隔声标准与原规范（GBJ118-88）中的要求相同，主要考虑到学校建筑中教学用房的特点，对于普通教室撞击声的影响不突出
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB501182010_5_2_4_4
+  source_clause: GB 50118-2010#5.2.4
+  rule_type: validation
+  when:
+  - activity_type == '隔声设计'
+  - component_type IN ['IfcWall', 'IfcFloor', 'IfcDoor']
+  then:
+    parameter: 撞击声压级
+    unit: d
+    condition: null
+    max_value: 75.0
+  source_text: 楼板撞击声隔声标准采用实验室测得的计权规范化撞击声压级Ln,w作为评价指标，供设计时选用。另外，本条提出的计权标准化撞击声压级LnT,w，作为现场实测指标。撞击声隔声标准与原规范（GBJ118-88）中的要求相同，主要考虑到学校建筑中教学用房的特点，对于普通教室撞击声的影响不突出
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB501182010_7_1_1_1
+  source_clause: GB 50118-2010#7.1.1
+  rule_type: constraint
+  when:
+  - activity_type == '隔声设计'
+  - component_type IN ['IfcWall', 'IfcFloor', 'IfcDoor']
+  then:
+    parameter: 程度理想值
+    unit: d
+    condition: null
+    min_value: 30.0
+    max_value: 30.0
+  source_text: 旅馆建筑中的客房与住宅建筑中的卧室有共同之处，即确保睡眠所必需的安静条件，因此，客房内的允许噪声级可参照住宅允许噪声级而定；但旅馆建筑中噪声干扰的噪声源与住宅中有所不同，住宅卧室噪声干扰主要来自户外，而旅馆除受环境噪声影响外，对设有空调的旅馆客房还会有空调噪声的影响。因此有空调设
+  table_source: 表7.1.1
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB501182010_7_1_1_2
+  source_clause: GB 50118-2010#7.1.1
+  rule_type: constraint
+  when:
+  - activity_type == '隔声设计'
+  - component_type IN ['IfcWall', 'IfcFloor', 'IfcDoor']
+  then:
+    parameter: BA最大
+    unit: d
+    condition: null
+    min_value: 50.0
+  source_text: 旅馆建筑中的客房与住宅建筑中的卧室有共同之处，即确保睡眠所必需的安静条件，因此，客房内的允许噪声级可参照住宅允许噪声级而定；但旅馆建筑中噪声干扰的噪声源与住宅中有所不同，住宅卧室噪声干扰主要来自户外，而旅馆除受环境噪声影响外，对设有空调的旅馆客房还会有空调噪声的影响。因此有空调设
+  table_source: 表7.1.1
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB501182010_7_1_1_3
+  source_clause: GB 50118-2010#7.1.1
+  rule_type: constraint
+  when:
+  - activity_type == '隔声设计'
+  - component_type IN ['IfcWall', 'IfcFloor', 'IfcDoor']
+  then:
+    parameter: 馆反映如下
+    unit: d
+    condition: null
+    min_value: 30.0
+    max_value: 30.0
+  source_text: 旅馆建筑中的客房与住宅建筑中的卧室有共同之处，即确保睡眠所必需的安静条件，因此，客房内的允许噪声级可参照住宅允许噪声级而定；但旅馆建筑中噪声干扰的噪声源与住宅中有所不同，住宅卧室噪声干扰主要来自户外，而旅馆除受环境噪声影响外，对设有空调的旅馆客房还会有空调噪声的影响。因此有空调设
+  table_source: 表7.1.1
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB501182010_7_1_1_4
+  source_clause: GB 50118-2010#7.1.1
+  rule_type: constraint
+  when:
+  - activity_type == '隔声设计'
+  - component_type IN ['IfcWall', 'IfcFloor', 'IfcDoor']
+  then:
+    parameter: 如下dBA
+    unit: d
+    condition: null
+    min_value: 35.0
+    max_value: 35.0
+  source_text: 旅馆建筑中的客房与住宅建筑中的卧室有共同之处，即确保睡眠所必需的安静条件，因此，客房内的允许噪声级可参照住宅允许噪声级而定；但旅馆建筑中噪声干扰的噪声源与住宅中有所不同，住宅卧室噪声干扰主要来自户外，而旅馆除受环境噪声影响外，对设有空调的旅馆客房还会有空调噪声的影响。因此有空调设
+  table_source: 表7.1.1
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB501182010_7_1_1_5
+  source_clause: GB 50118-2010#7.1.1
+  rule_type: constraint
+  when:
+  - activity_type == '隔声设计'
+  - component_type IN ['IfcWall', 'IfcFloor', 'IfcDoor']
+  then:
+    parameter: dBA满意
+    unit: d
+    condition: null
+    min_value: 35.0
+    max_value: 35.0
+  source_text: 旅馆建筑中的客房与住宅建筑中的卧室有共同之处，即确保睡眠所必需的安静条件，因此，客房内的允许噪声级可参照住宅允许噪声级而定；但旅馆建筑中噪声干扰的噪声源与住宅中有所不同，住宅卧室噪声干扰主要来自户外，而旅馆除受环境噪声影响外，对设有空调的旅馆客房还会有空调噪声的影响。因此有空调设
+  table_source: 表7.1.1
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB501182010_7_1_1_6
+  source_clause: GB 50118-2010#7.1.1
+  rule_type: constraint
+  when:
+  - activity_type == '隔声设计'
+  - component_type IN ['IfcWall', 'IfcFloor', 'IfcDoor']
+  then:
+    parameter: 满意dBA
+    unit: d
+    condition: null
+    min_value: 40.0
+    max_value: 40.0
+  source_text: 旅馆建筑中的客房与住宅建筑中的卧室有共同之处，即确保睡眠所必需的安静条件，因此，客房内的允许噪声级可参照住宅允许噪声级而定；但旅馆建筑中噪声干扰的噪声源与住宅中有所不同，住宅卧室噪声干扰主要来自户外，而旅馆除受环境噪声影响外，对设有空调的旅馆客房还会有空调噪声的影响。因此有空调设
+  table_source: 表7.1.1
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB501182010_7_1_1_7
+  source_clause: GB 50118-2010#7.1.1
+  rule_type: constraint
+  when:
+  - activity_type == '隔声设计'
+  - component_type IN ['IfcWall', 'IfcFloor', 'IfcDoor']
+  then:
+    parameter: A比较满意
+    unit: d
+    condition: null
+    min_value: 40.0
+    max_value: 40.0
+  source_text: 旅馆建筑中的客房与住宅建筑中的卧室有共同之处，即确保睡眠所必需的安静条件，因此，客房内的允许噪声级可参照住宅允许噪声级而定；但旅馆建筑中噪声干扰的噪声源与住宅中有所不同，住宅卧室噪声干扰主要来自户外，而旅馆除受环境噪声影响外，对设有空调的旅馆客房还会有空调噪声的影响。因此有空调设
+  table_source: 表7.1.1
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB501182010_7_1_1_8
+  source_clause: GB 50118-2010#7.1.1
+  rule_type: constraint
+  when:
+  - activity_type == '隔声设计'
+  - component_type IN ['IfcWall', 'IfcFloor', 'IfcDoor']
+  then:
+    parameter: 满意dBA
+    unit: d
+    condition: null
+    min_value: 45.0
+    max_value: 45.0
+  source_text: 旅馆建筑中的客房与住宅建筑中的卧室有共同之处，即确保睡眠所必需的安静条件，因此，客房内的允许噪声级可参照住宅允许噪声级而定；但旅馆建筑中噪声干扰的噪声源与住宅中有所不同，住宅卧室噪声干扰主要来自户外，而旅馆除受环境噪声影响外，对设有空调的旅馆客房还会有空调噪声的影响。因此有空调设
+  table_source: 表7.1.1
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB501182010_7_1_1_9
+  source_clause: GB 50118-2010#7.1.1
+  rule_type: constraint
+  when:
+  - activity_type == '隔声设计'
+  - component_type IN ['IfcWall', 'IfcFloor', 'IfcDoor']
+  then:
+    parameter: 较多的抱怨
+    unit: d
+    condition: null
+    min_value: 45.0
+  source_text: 旅馆建筑中的客房与住宅建筑中的卧室有共同之处，即确保睡眠所必需的安静条件，因此，客房内的允许噪声级可参照住宅允许噪声级而定；但旅馆建筑中噪声干扰的噪声源与住宅中有所不同，住宅卧室噪声干扰主要来自户外，而旅馆除受环境噪声影响外，对设有空调的旅馆客房还会有空调噪声的影响。因此有空调设
+  table_source: 表7.1.1
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB501182010_7_1_1_10
+  source_clause: GB 50118-2010#7.1.1
+  rule_type: constraint
+  when:
+  - activity_type == '隔声设计'
+  - component_type IN ['IfcWall', 'IfcFloor', 'IfcDoor']
+  then:
+    parameter: 些标准值在
+    unit: d
+    condition: null
+    min_value: 40.0
+    max_value: 40.0
+  source_text: 旅馆建筑中的客房与住宅建筑中的卧室有共同之处，即确保睡眠所必需的安静条件，因此，客房内的允许噪声级可参照住宅允许噪声级而定；但旅馆建筑中噪声干扰的噪声源与住宅中有所不同，住宅卧室噪声干扰主要来自户外，而旅馆除受环境噪声影响外，对设有空调的旅馆客房还会有空调噪声的影响。因此有空调设
+  table_source: 表7.1.1
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB501182010_9_1_1_1
+  source_clause: GB 50118-2010#9.1.1
+  rule_type: constraint
+  when:
+  - activity_type == '隔声设计'
+  - component_type IN ['IfcWall', 'IfcFloor', 'IfcDoor']
+  then:
+    parameter: 明噪声达到
+    unit: d
+    condition: null
+    min_value: 80.0
+    max_value: 80.0
+  source_text: 本条中的“空场”是指无人进人，暖通空调启动，正常照明，无背景音乐、货品或展品不发声的状况。商业建筑室内的噪声主要来源于外部传入噪声、设备机械噪声等背景噪声和室内人群走动、交谈等人为噪声。商业建筑室内声学设计的核心是，一方面降低室内背景噪声，另方面通过室内吸声控制人为噪声，为建筑空
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+extraction_notes:
+- 疑似残缺/误标条文 GB 50118-2010#5.2.1：'的规定'，建议核对源 PDF 重提取。
+- 疑似残缺/误标条文 GB 50118-2010#6.2.1：'的规定。各类房间隔墙、楼板的空气声隔声标准'，建议核对源 PDF 重提取。
+- 疑似残缺/误标条文 GB 50118-2010#7.2.4：'的规定'，建议核对源 PDF 重提取。
+- 实施日期（2011年？）待核。

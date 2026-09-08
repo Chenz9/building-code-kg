@@ -1,0 +1,4362 @@
+standard:
+  code: GB/T 7106-2019
+  name: 建筑外门窗气密、水密、抗风压性能分级及检测方法
+  name_note: null
+  version: '2019'
+  status: 现行
+  is_abolished: false
+  effective_date: null
+  abolished_date: null
+  superseded_by: null
+  standard_category: 国家标准
+  domain:
+  - 门窗
+  - 检测方法
+  - 性能分级
+  region_scope: 全国
+  region_codes: []
+  has_mandatory_clauses: false
+  mandatory_clause_count: 0
+  mandatory_note: GB/T 推荐性标准，无强制性条文。
+  total_clauses: 101
+  related_standards:
+  - code: GB 50189-2015
+    relationship: 引用（节能外门窗）
+  - code: GB 55031-2022
+    relationship: 协调（门窗通用要求）
+  clauses:
+  - GB/T 7106-2019#3.3.1
+  - GB/T 7106-2019#3.3.2
+  - GB/T 7106-2019#3.3.3
+  - GB/T 7106-2019#3.3.4
+  - GB/T 7106-2019#3.3.5
+  - GB/T 7106-2019#3.3.6
+  - GB/T 7106-2019#3.3.7
+  - GB/T 7106-2019#3.3.8
+  - GB/T 7106-2019#3.3.9
+  - GB/T 7106-2019#3.4.1
+  - GB/T 7106-2019#3.4.2
+  - GB/T 7106-2019#3.5.1
+  - GB/T 7106-2019#3.5.2
+  - GB/T 7106-2019#3.5.3
+  - GB/T 7106-2019#3.5.4
+  - GB/T 7106-2019#3.5.5
+  - GB/T 7106-2019#3.5.6
+  - GB/T 7106-2019#5.2.1
+  - GB/T 7106-2019#5.2.2
+  - GB/T 7106-2019#5.2.3
+  - GB/T 7106-2019#5.2.4
+  - GB/T 7106-2019#5.2.5
+  - GB/T 7106-2019#5.2.6
+  - GB/T 7106-2019#5.3.1
+  - GB/T 7106-2019#5.3.2
+  - GB/T 7106-2019#6.3.2
+  - GB/T 7106-2019#6.3.3
+  - GB/T 7106-2019#6.3.4
+  - GB/T 7106-2019#6.4.1
+  - GB/T 7106-2019#6.4.2
+  - GB/T 7106-2019#6.4.3
+  - GB/T 7106-2019#6.5.1
+  - GB/T 7106-2019#6.5.2
+  - GB/T 7106-2019#6.6.1
+  - GB/T 7106-2019#6.6.2
+  - GB/T 7106-2019#7.1.2
+  - GB/T 7106-2019#7.3.1
+  - GB/T 7106-2019#7.3.2
+  - GB/T 7106-2019#7.4.1
+  - GB/T 7106-2019#7.4.2
+  - GB/T 7106-2019#8.3.1
+  - GB/T 7106-2019#8.3.2
+  - GB/T 7106-2019#8.5.1
+  - GB/T 7106-2019#8.5.2
+  - GB/T 7106-2019#9.2.1
+  - GB/T 7106-2019#9.2.2
+  - GB/T 7106-2019#9.2.3
+  - GB/T 7106-2019#9.2.4
+  - GB/T 7106-2019#9.2.5
+  - GB/T 7106-2019#9.2.6
+  - GB/T 7106-2019#9.2.7
+  - GB/T 7106-2019#9.3.13
+  - GB/T 7106-2019#9.3.2
+  - GB/T 7106-2019#9.3.3
+  - GB/T 7106-2019#A.1
+  - GB/T 7106-2019#A.2
+  - GB/T 7106-2019#A.3
+  - GB/T 7106-2019#A.4
+  - GB/T 7106-2019#A.4.1
+  - GB/T 7106-2019#A.4.2
+  - GB/T 7106-2019#A.4.3
+  - GB/T 7106-2019#A.5
+  - GB/T 7106-2019#A.5.1
+  - GB/T 7106-2019#A.5.2
+  - GB/T 7106-2019#A.6
+  - GB/T 7106-2019#A.6.1
+  - GB/T 7106-2019#A.6.2
+  - GB/T 7106-2019#A.6.3
+  - GB/T 7106-2019#A.7
+  - GB/T 7106-2019#A.7.1
+  - GB/T 7106-2019#A.7.2
+  - GB/T 7106-2019#A.8
+  - GB/T 7106-2019#B.1
+  - GB/T 7106-2019#B.2
+  - GB/T 7106-2019#B.3
+  - GB/T 7106-2019#B.4
+  - GB/T 7106-2019#B.4.1
+  - GB/T 7106-2019#B.4.2
+  - GB/T 7106-2019#B.4.3
+  - GB/T 7106-2019#C.1
+  - GB/T 7106-2019#C.2
+  - GB/T 7106-2019#C.2.1
+  - GB/T 7106-2019#C.2.2
+  - GB/T 7106-2019#C.2.3
+  - GB/T 7106-2019#C.2.4
+  - GB/T 7106-2019#C.2.5
+  - GB/T 7106-2019#C.2.6
+  - GB/T 7106-2019#C.3
+  - GB/T 7106-2019#C.3.1
+  - GB/T 7106-2019#C.3.2
+  - GB/T 7106-2019#C.4
+  - GB/T 7106-2019#C.4.1
+  - GB/T 7106-2019#C.4.2
+  - GB/T 7106-2019#C.4.3
+  - GB/T 7106-2019#C.4.4
+  - GB/T 7106-2019#C.4.5
+  - GB/T 7106-2019#C.5
+  - GB/T 7106-2019#C.5.1
+  - GB/T 7106-2019#C.5.2
+  - GB/T 7106-2019#D.1
+  - GB/T 7106-2019#D.2
+  schema_version: v2.1
+  last_reviewed_date: '2026-09-07'
+clauses:
+- id: GB/T 7106-2019#3.3.1
+  standard_code: GB/T 7106-2019
+  chapter: 3 术语和定义
+  section: ''
+  clause_no: 3.3.1
+  text: 标准状态standard condition空气温度为293K（20℃）、大气压力为101.3kPa（760mmHg）、空气密度为1.202kg/m3的试验条件。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 大气压力
+    unit: mm
+    condition: null
+    min_value: 760.0
+    max_value: 760.0
+  - name: g空气密度
+    unit: kg
+    condition: null
+    min_value: 1.202
+    max_value: 1.202
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#3.3.2
+  standard_code: GB/T 7106-2019
+  chapter: 3 术语和定义
+  section: ''
+  clause_no: 3.3.2
+  text: 空气渗透量volume of airleakage单位时间通过测试体的空气量。GB/T 7106—2019
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#3.3.3
+  standard_code: GB/T 7106-2019
+  chapter: 3 术语和定义
+  section: ''
+  clause_no: 3.3.3
+  text: 附加空气渗透量volumeof extraneousairleakage在空气收集箱测量区域内，除外门窗自身空气渗透量以外的空气渗透量。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#3.3.4
+  standard_code: GB/T 7106-2019
+  chapter: 3 术语和定义
+  section: ''
+  clause_no: 3.3.4
+  text: 总空气渗透量total volume of air leakage通过外门窗自身的空气渗透量及附加空气渗透量的总和。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#3.3.5
+  standard_code: GB/T 7106-2019
+  chapter: 3 术语和定义
+  section: ''
+  clause_no: 3.3.5
+  text: 空气收集箱collectivebox扣箱fastened box与压力箱开口部位相连接，用于收集并测量渗人或渗出外门窗自身的空气渗透量及附加空气渗透量的箱体。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#3.3.6
+  standard_code: GB/T 7106-2019
+  chapter: 3 术语和定义
+  section: ''
+  clause_no: 3.3.6
+  text: 开启缝长openablejoint length外门窗上可开启部分室内侧接缝长度的总和。注：以室内表面测定值为准。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: may
+    modal_words:
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#3.3.7
+  standard_code: GB/T 7106-2019
+  chapter: 3 术语和定义
+  section: ''
+  clause_no: 3.3.7
+  text: 单位开启缝长空气渗透量volumeof airflowthroughtheunitjointlengthof theopeningpart在标准状态下，通过单位开启缝长的空气渗透量。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#3.3.8
+  standard_code: GB/T 7106-2019
+  chapter: 3 术语和定义
+  section: ''
+  clause_no: 3.3.8
+  text: 试件面积area of specimen外门窗框外侧范围内的面积。注：以室内表面测定值为准。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#3.3.9
+  standard_code: GB/T 7106-2019
+  chapter: 3 术语和定义
+  section: ''
+  clause_no: 3.3.9
+  text: 单位面积空气渗透量volumeofairflowthroughaunitarea在标准状态下，通过外门窗单位面积的空气渗透量。3.4水密性能watertightness performance可开启部分在正常锁闭状态时，在风雨同时作用下，外门窗阻止雨水渗漏的能力。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: may
+    modal_words:
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#3.4.1
+  standard_code: GB/T 7106-2019
+  chapter: 3 术语和定义
+  section: ''
+  clause_no: 3.4.1
+  text: 渗漏waterleakage雨水渗入外门窗室内侧界面，把设计中不应浸湿的部位浸湿的现象。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#3.4.2
+  standard_code: GB/T 7106-2019
+  chapter: 3 术语和定义
+  section: ''
+  clause_no: 3.4.2
+  text: 淋水量volume of water spray单位时间内喷淋到外门窗室外表面单位面积的水量。3.5抗风压性能windload resistanceperformance可开启部分在正常锁闭状态时，在风压作用下，外门窗变形不超过允许值且不发生损坏或功能障碍的能力。注1：外门窗变形包括受力杆件变形和面板变形。注2：损坏包括裂缝、面板破损、连接破坏、粘结破坏、窗扇掉落或被打开以及可观察到的不可恢复的变形等现象。注3：功能障碍包括五金件松动、启闭困难、胶条脱落等现象。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: may
+    modal_words:
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#3.5.1
+  standard_code: GB/T 7106-2019
+  chapter: 3 术语和定义
+  section: ''
+  clause_no: 3.5.1
+  text: 面法线位移frontaldisplacement外门窗受力杆件或面板表面上任意一点沿面法线方向的线位移量。GB/T7106—2019
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#3.5.2
+  standard_code: GB/T 7106-2019
+  chapter: 3 术语和定义
+  section: ''
+  clause_no: 3.5.2
+  text: 面法线挠度frontaldeflection外门窗受力杆件或面板表面上某一点沿面法线方向的线位移量的最大差值。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#3.5.3
+  standard_code: GB/T 7106-2019
+  chapter: 3 术语和定义
+  section: ''
+  clause_no: 3.5.3
+  text: 相对面法线挠度relativefrontaldeflection面法线挠度和两端测点间距离1的比值。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#3.5.4
+  standard_code: GB/T 7106-2019
+  chapter: 3 术语和定义
+  section: ''
+  clause_no: 3.5.4
+  text: 允许挠度allowabledeflection允许相对面法线挠度allowablerelativefrontaldeflection主要构件在正常使用极限状态时的相对面法线挠度的限值（符号为f。）。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#3.5.5
+  standard_code: GB/T 7106-2019
+  chapter: 3 术语和定义
+  section: ''
+  clause_no: 3.5.5
+  text: 变形检测distortiontest确定主要构件在变形量为40%允许挠度时的压力差（符号为P1或P1）而进行的检测。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 件在变形量
+    unit: '%'
+    condition: null
+    min_value: 40.0
+    max_value: 40.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#3.5.6
+  standard_code: GB/T 7106-2019
+  chapter: 3 术语和定义
+  section: ''
+  clause_no: 3.5.6
+  text: 反复加压检测repeatedpressuretest确定主要构件在变形量为60%允许挠度时的压力差（符号为P2或P）反复作用下是否发生损坏及功能障碍而进行的检测。3.6定级检测grade test确定外门窗性能等级而进行的检测。3.7工程检测engineering test确定外门窗是否满足工程设计要求的性能而进行的检测。3.8模拟静压箱法simulatingstaticpressureboxmethod利用供风系统，向压力箱内持续充气或抽气，使外门窗室内、外两侧维持指定的稳定压力差或按照一定周期波动压力差的方法。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 件在变形量
+    unit: '%'
+    condition: null
+    min_value: 60.0
+    max_value: 60.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#5.2.1
+  standard_code: GB/T 7106-2019
+  chapter: 5 检测装置
+  section: 5.2要求
+  clause_no: 5.2.1
+  text: 压力箱的开口尺寸应能满足试件安装的要求，压力箱开口部位的构件在承受检测过程中可能出现的最大压力差时，开口部位构件的最大挠度值不应超过5mm或l/1000，同时应具有良好的密封性能且以不影响观察试件的水密性为最低要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 挠度值
+    unit: mm
+    condition: null
+    min_value: 5.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#5.2.2
+  standard_code: GB/T 7106-2019
+  chapter: 5 检测装置
+  section: 5.2要求
+  clause_no: 5.2.2
+  text: 空气收集箱与压力箱连接且应有良好的密封性能，且在气密性能检测过程中箱体尺寸不应发生变化。空气收集箱深度宜为500mm～800mm。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 集箱深度
+    unit: mm
+    condition: null
+    min_value: 500.0
+    max_value: 500.0
+  - name: 集箱深度
+    unit: mm
+    condition: null
+    min_value: 800.0
+    max_value: 800.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#5.2.3
+  standard_code: GB/T 7106-2019
+  chapter: 5 检测装置
+  section: 5.2要求
+  clause_no: 5.2.3
+  text: 试件安装框架应保证试件安装牢固，不应产生倾斜及变形，同时不影响试件可开启部分的正常开启。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#5.2.4
+  standard_code: GB/T 7106-2019
+  chapter: 5 检测装置
+  section: 5.2要求
+  clause_no: 5.2.4
+  text: 供压装置应具备施加正负双向的压力差的能力，静态压力控制装置应能调节出稳定的气流，动态压力控制装置应能稳定的提供3S～5S周期的波动风压，波动风压的波峰值、波谷值应满足检测要求。供压和压力控制能力应满足本标准第7章、第8章、第9章的要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#5.2.5
+  standard_code: GB/T 7106-2019
+  chapter: 5 检测装置
+  section: 5.2要求
+  clause_no: 5.2.5
+  text: 淋水装置应满足在门窗试件的全部面积上形成连续水膜并达到规定淋水量的要求。淋水装置于500mm；淋水装置的喷水量应能调节，并有措施保证喷水量的均匀性。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 淋水装置于
+    unit: mm
+    condition: null
+    min_value: 500.0
+    max_value: 500.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#5.2.6
+  standard_code: GB/T 7106-2019
+  chapter: 5 检测装置
+  section: 5.2要求
+  clause_no: 5.2.6
+  text: 测量装置应满足下列要求：a）空气流量测量装置的测量误差不应大于示值的5%；差压测量装置的测量误差不应大于示值的2%，响应速度应满足波动风压测量的要求，其两个GB/T7106—2019探测点应在试件两侧就近布置；c）位移测量装置的精度应达到满量程的0.25%，其安装支架在测试过程中应牢固，并保证位移的测量不受试件及其支承设施的变形、移动所影响。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 量误差
+    unit: '%'
+    condition: null
+    min_value: 5.0
+    max_value: null
+  - name: 量误差
+    unit: '%'
+    condition: null
+    min_value: 2.0
+    max_value: null
+  - name: 到满量程
+    unit: '%'
+    condition: null
+    min_value: 0.25
+    max_value: 0.25
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#5.3.1
+  standard_code: GB/T 7106-2019
+  chapter: 5 检测装置
+  section: 5.3校验
+  clause_no: 5.3.1
+  text: 空气流量测量装置的校验空气流量测量装置校验方法见附录A，校验周期不应大于6个月。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#5.3.2
+  standard_code: GB/T 7106-2019
+  chapter: 5 检测装置
+  section: 5.3校验
+  clause_no: 5.3.2
+  text: 淋水装置的校验淋水装置的校验方法见附录B，固定淋水装置校验周期不应大于6个月，非固定淋水装置应在每次试验前进行校验。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#6.3.2
+  standard_code: GB/T 7106-2019
+  chapter: 6 检测准备
+  section: 6.2试件数量
+  clause_no: 6.3.2
+  text: 试件应安装在安装框架上，应采取措施避免试件边框变形或开启扇无法开启。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#6.3.3
+  standard_code: GB/T 7106-2019
+  chapter: 6 检测准备
+  section: 6.2试件数量
+  clause_no: 6.3.3
+  text: 试件与安装框架之间的连接应牢固并密封。安装好的试件应垂直，下框应水平，下部安装框不应高于试件室外侧排水孔。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#6.3.4
+  standard_code: GB/T 7106-2019
+  chapter: 6 检测准备
+  section: 6.2试件数量
+  clause_no: 6.3.4
+  text: 试件安装完毕后，应清洁试件表面。6.4开启缝长和试件面积测量
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#6.4.1
+  standard_code: GB/T 7106-2019
+  chapter: 6 检测准备
+  section: 6.2试件数量
+  clause_no: 6.4.1
+  text: 单扇开启的门窗开启缝长为扇与框的搭接长度。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#6.4.2
+  standard_code: GB/T 7106-2019
+  chapter: 6 检测准备
+  section: 6.2试件数量
+  clause_no: 6.4.2
+  text: 无中挺的双扇平开门窗、双扇推拉门窗，两活动扇搭接部分的缝长按一段计算。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#6.4.3
+  standard_code: GB/T 7106-2019
+  chapter: 6 检测准备
+  section: 6.2试件数量
+  clause_no: 6.4.3
+  text: 包含的面积计算。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#6.5.1
+  standard_code: GB/T 7106-2019
+  chapter: 6 检测准备
+  section: 6.5检测顺序
+  clause_no: 6.5.1
+  text: 定级检测顺序定级检测应按照气密、水密、抗风压变形P1、抗风压反复加压P2、产品设计风荷载标准值P3、产品设计风荷载设计值Pmax顺序进行。注：定级检测有要求时，可在产品设计风荷载标准值P3后，增加重复气密性能、重复水密性能检测。GB/T 7106—2019
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#6.5.2
+  standard_code: GB/T 7106-2019
+  chapter: 6 检测准备
+  section: 6.5检测顺序
+  clause_no: 6.5.2
+  text: 工程检测顺序工程检测应按照气密、水密、抗风压变形（40%风荷载标准值）P1、抗风压反复加压（60%风荷载标准值)P²、风荷载标准值P3、风荷载设计值P'max的顺序进行。注：工程有要求时，可在风荷载标准值P3后，增加重复气密性能、重复水密性能检测。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 抗风压变形
+    unit: '%'
+    condition: null
+    min_value: 40.0
+    max_value: 40.0
+  - name: 压反复加压
+    unit: '%'
+    condition: null
+    min_value: 60.0
+    max_value: 60.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#6.6.1
+  standard_code: GB/T 7106-2019
+  chapter: 6 检测准备
+  section: 6.6检测环境
+  clause_no: 6.6.1
+  text: 检测应在室内进行，且应在环境温度不低于5℃的试验条件下进行。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#6.6.2
+  standard_code: GB/T 7106-2019
+  chapter: 6 检测准备
+  section: 6.6检测环境
+  clause_no: 6.6.2
+  text: 当进行抗风压性能检测或较高风压的水密性能检测时应采取适当的安全措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#7.1.2
+  standard_code: GB/T 7106-2019
+  chapter: 7 气密性能检测
+  section: ''
+  clause_no: 7.1.2
+  text: 工程检测时，检测压力应根据工程设计要求的压力进行加压，检测加压顺序见图3；当工程对检检测，并回归计算出工程设计压力对应的空气渗透量。注：综合考虑工程所在地的气象条件、建筑物特点、室内空气调节系统等因素确定工程设计要求的压力。GB/T 7106—2019工程设计压力值正压力差/Pa时间/s负压力差/Pa工程设计压力值预备加压检测加压预备加压检测加压注：图中符号√表示将试件的可开启部分启闭不少于5次。图3工程检测气密性能加压顺序示意图
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#7.3.1
+  standard_code: GB/T 7106-2019
+  chapter: 7 气密性能检测
+  section: 7.3渗透量检测
+  clause_no: 7.3.1
+  text: 附加空气渗透量检测收集箱扣好并可靠密封。按照7.1规定的检测加压顺序进行加压，每级压力作用时间约为10S，先逐级正压，后逐级负压。记录各级压力下的附加空气渗透量。附加空气渗透量不宜高于总空气渗透量的20%。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: should
+    modal_words:
+    - 不宜
+    - 宜
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 渗透量
+    unit: '%'
+    condition: null
+    min_value: 20.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#7.3.2
+  standard_code: GB/T 7106-2019
+  chapter: 7 气密性能检测
+  section: 7.3渗透量检测
+  clause_no: 7.3.2
+  text: 总空气渗透量检测去除试件上采取的密封措施后进行检测，检测程序同7.3.1。记录各级压力下的总空气渗透量。7.4检测数据处理
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#7.4.1
+  standard_code: GB/T 7106-2019
+  chapter: 7 气密性能检测
+  section: 7.3渗透量检测
+  clause_no: 7.4.1
+  text: 定级检测数据处理7.4.1.1计算7.4.1.1.1分别计算出升压和降压过程中各压力差下的两个附加空气渗透量测定值的平均值q，和两个总空气渗透量测定值的平均值q，则试件本身在各压力差下的空气渗透量qt即可按式（1)计算：(1)GB/T7106—2019式中：qt试件空气渗透量，单位为立方米每小时（m"/h）；两个总空气渗透量测定值的平均值，单位为立方米每小时（m3/h）；两个附加空气渗透量测定值的平均值，单位为立方米每小时（m/h）。qf7.4.1.1.2按式（2)将q.换算成标准状态下的各压力差渗透量qAP值。q·P101.3 ×式中：标准状态下的各压力差渗透量，单位为立方米每小时（m/h）；试验室气压值，单位为千帕（kPa）；试验室空气温度值，单位为开尔文（K）。7.4.1.1.3按式（3)所提供的回归方程计算出k，C，并按式（4）计算出在10Pa压力差下的空气渗透量q。具体计算方法见附录C中C.2。qp=(△P).(3)q'=k·10c(4)拟合系数；缝隙渗透系数；△P压力差，单位为帕（Pa）；10Pa压力差下空气渗透量值，单位为立方米每米小时[m/（m·h）。7.4.1.1.4正压、负压分别按式（1）～式（4）进行计算。7.4.1.2分级指标值确定7.4.1.2.1按式（5)和式（6)分别计算士q1值，或士92值。±2=式中：10Pa压力差下，单位开启缝长空气渗透量值，单位为立方米每米小时[m/（m·h)；10Pa压力差下，单位面积空气渗透量值，单位为立方米每平方米小时[m/（m²·h）；开启缝长，单位为米（m）；试件面积，单位为平方米（m²）。7.4.1.2.2取三试件的土91值或土92值的最不利值，依据GB/T31433，确定按照开启缝长和面积各自所属等级。最后取两者中的不利级别为该组试件所属等级。正、负压分别定级。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: may
+    modal_words:
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB/T 31433
+    target_clause: null
+    original_text: 7.4.1.2.2取三试件的土91值或土92值的最不利值，依据GB/T31433，确定按照开启缝长和面积各自所属等级。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#7.4.2
+  standard_code: GB/T 7106-2019
+  chapter: 7 气密性能检测
+  section: 7.3渗透量检测
+  clause_no: 7.4.2
+  text: 工程检测数据处理7.4.2.1分别计算出在设计压力差下的附加空气渗透量测定值9，和总空气渗透量测定值9，则试件在该设计压力差下的空气渗透量9，按式（7）进行计算：q=qqfGB/T7106—2019式中：试件空气渗透量，单位为立方米每小时（m"/h）；一附加空气渗透量测定值，单位为立方米每小时（m3/h）。7.4.2.2按式（2）、式（5）、式（6）计算试件在该设计压力差下的单位开启缝长空气渗透量91和单位面积空气渗透量92。正压、负压分别进行计算。7.4.2.3三试件正、负压按照单位开启缝长和单位面积的空气渗透量均应满足工程设计要求，否则应判定为不满足工程设计要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#8.3.1
+  standard_code: GB/T 7106-2019
+  chapter: 8 水密性能检测
+  section: 8.3稳定加压法
+  clause_no: 8.3.1
+  text: 定级检测按照图4和
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表1
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表1顺序加压，并按以下步骤操作：a)淋水：对整个门窗试件均匀地淋水，淋水量为2L/（m²·min）。加压：在淋水的同时施加稳定压力，逐级加压至出现渗漏为止。观察记录：在逐级升压及持续作用过程中，观察记录渗漏部位。
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#8.3.2
+  standard_code: GB/T 7106-2019
+  chapter: 8 水密性能检测
+  section: 8.3稳定加压法
+  clause_no: 8.3.2
+  text: 工程检测工程检测按以下步骤操作：a）淋水：对整个门窗试件均匀地淋水。年降水量不大于400mm的地区，淋水量为1L/（m²·min）；年降水量为400mm～1600mm的地区，淋水量为2L/（m²·min）；年降水量大于1600mm的地区，淋水量为3L/（m²·min）。年降水量地区的划分按照GB50178的规定执行。b）加压：在淋水的同时施加稳定压力。直接加压至水密性能设计值，压力稳定作用时间为15min或产生渗漏为止。观察记录：在升压及持续作用过程中，观察记录渗漏部位。GB/T 7106—2019压力差/Pa400 -10min5min5min5min5min5min5min5min5min5min5min预备加压检测加压注：图中符号√表示将试件的可开启部分启闭不少于5次。图4稳定加压顺序示意图
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: should
+    modal_words:
+    - 不宜
+    - 宜
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 年降水量
+    unit: mm
+    condition: null
+    min_value: 400.0
+    max_value: null
+  - name: n年降水量
+    unit: mm
+    condition: null
+    min_value: 400.0
+    max_value: 400.0
+  - name: n年降水量
+    unit: mm
+    condition: null
+    min_value: 1600.0
+    max_value: 1600.0
+  - name: n年降水量
+    unit: mm
+    condition: null
+    min_value: 1600.0
+    max_value: null
+  - name: 定作用时间
+    unit: m
+    condition: null
+    min_value: 15.0
+    max_value: 15.0
+  - name: 压力差Pa
+    unit: m
+    condition: null
+    min_value: 10.0
+    max_value: 10.0
+  - name: Pamin
+    unit: m
+    condition: null
+    min_value: 5.0
+    max_value: 5.0
+  - name: inmin
+    unit: m
+    condition: null
+    min_value: 5.0
+    max_value: 5.0
+  tables:
+  - table_id: 表1
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表 1稳定加压顺序表加压顺序检测压力/Pa持续时间/min注：当检测压力大于700Pa时，每阶段增加幅度不宜大于200Pa，持续时间为5min，检测结果要标注实测压力值。8.4波动加压法按照图5和表2顺序加压，并按以下步骤操作：a)淋水：对整个门窗试件均匀地淋水，淋水量为3L/（m²·min）。b)加压：在稳定淋水的同时施加波动压力，波动压力的大小用平均值表示，波幅为平均值的0.5倍。定级检测时，逐级加压至出现渗漏。工程检测时，直接加压至水密性能设计值，加载速度约为100Pa/s，波动压力作用时间为15min或产生渗漏为止。观察记录：在升压及持续作用过程中，观察并记录渗漏部位。GB/T 7106—2019压力差/Pa1 000 -10 min5 minminmin5minmin5minmin,5min5min预备加压检测加压注：图中符号√表示将试件的可开启部分启闭不少于5次。图 5波动加压顺序示意图表 2波动加压顺序表加压顺序上限值/Pa1 050波动平均值/Pa压力值下限值/Pa波动周期/s3～5每级加压时间/min注：当波动压力平均值大于700Pa时，每阶段平均值增加幅度不宜大于200Pa，持续时间为5min，检测结果要标注实测压力值。8.5检测数据处理
+  converted_tables: []
+  references:
+  - target_standard: GB 50178
+    target_clause: null
+    original_text: 年降水量地区的划分按照GB50178的规定执行。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#8.5.1
+  standard_code: GB/T 7106-2019
+  chapter: 8 水密性能检测
+  section: 8.3稳定加压法
+  clause_no: 8.5.1
+  text: 定级检测数据处理记录每个试件的渗漏压力差值。以渗漏压力差值的前一级检测压力差值作为该试件水密性能检测值。以三试件中水密性能检测值的最小值作为水密性能定级检测值，并依据GB/T31433进行定级。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB/T 31433
+    target_clause: null
+    original_text: 以三试件中水密性能检测值的最小值作为水密性能定级检测值，并依据GB/T31433进行定级。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#8.5.2
+  standard_code: GB/T 7106-2019
+  chapter: 8 水密性能检测
+  section: 8.3稳定加压法
+  clause_no: 8.5.2
+  text: 工程检测数据处理三试件在加压至水密性能设计值时均未出现渗漏，判定满足工程设计要求，否者判为不满足工程设计要求。抗风压性能检测
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#9.2.1
+  standard_code: GB/T 7106-2019
+  chapter: 9 抗风压性能检测
+  section: 9.2检测方法
+  clause_no: 9.2.1
+  text: 检测加压顺序检测加压顺序见图6。正压力差/PaPmax或PmaxPs或P:P2或P2Pi或P1-P或-PIP2或—P2负压力差/Pa-Pmax或-Pmax预备加压变形检测预备加压变形检测反复加压检测安全检测注：图中符号√表示将试件的可开启部分启闭不少于5次。图6检测加压顺序示意图
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: may
+    modal_words:
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#9.2.2
+  standard_code: GB/T 7106-2019
+  chapter: 9 抗风压性能检测
+  section: 9.2检测方法
+  clause_no: 9.2.2
+  text: 确定测点和安装位移计将位移计安装在规定位置上。测点位置规定如下：a）对于测试杆件，测点布置见图7。中间测点在测试杆件中点位置，两端测点在距该杆件端点向中点方向10mm处。对于玻璃面板测点见图8。当试件最不利的构件难以判定时，应选取多个测试杆件和玻璃面板（见图9），分别布点测量。对于单扇固定扇：测点布置见图8。c)（非铰链边）端点的角位移值为最大度值，当窗（门）扇上有受力杆件时应同时测量该杆件的最大相对挠度，取两者中的不利者作为抗风压性能检测结果；无受力杆件外开单扇平开窗照单扇固定扇的方法进行检测。GB/T 7106—2019ao-1/21/2说明：三测点初始读数值（mm）；aobocoa、b、c三测点在压力差作用过程中的稳定读数值（mm）；测试杆件两端测点a、c之间的长度（mm）。图7测试杆件测点分布图说明：a、b、c-一测点。图8玻璃面板（单扇固定扇）测点分布图GB/T7106—2019说明：1、2、3——测试构件。图 9多测试杆件及玻璃面板分布图10mmmm10 mm说明：eo-f.测点初始读数值（mm）；ef测点在压力差作用过程中的稳定读数值（mm）。图10单扇单锁点平开窗(门)测点分布图
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 向中点方向
+    unit: mm
+    condition: null
+    min_value: 10.0
+    max_value: 10.0
+  - name: 面板分布图
+    unit: mm
+    condition: null
+    min_value: 10.0
+    max_value: 10.0
+  - name: 图mmmm
+    unit: mm
+    condition: null
+    min_value: 10.0
+    max_value: 10.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#9.2.3
+  standard_code: GB/T 7106-2019
+  chapter: 9 抗风压性能检测
+  section: 9.2检测方法
+  clause_no: 9.2.3
+  text: 预备加压在预备加压前，将试件上所有可开启部分启闭5次，最后关紧。检测加压前施加三个压力脉冲，定级检测时压力差绝对值为500Pa，加载速度约为100Pa/s，压力稳定作用时间为3s，泄压时间不少于1S。工程检测时压力差绝对值取风荷载标准值的10%和500Pa二者的较大值，加载速度约为100Pa/s，压力稳定作用时间为3s，泄压时间不少于1S。GB/T 7106—2019
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: may
+    modal_words:
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 载标准值
+    unit: '%'
+    condition: null
+    min_value: 10.0
+    max_value: 10.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#9.2.4
+  standard_code: GB/T 7106-2019
+  chapter: 9 抗风压性能检测
+  section: 9.2检测方法
+  clause_no: 9.2.4
+  text: 变形检测9.2.4.1定级检测时的变形检测应按下列步骤进行：a)先进行正压检测，后进行负压检测。b)检测压力逐级升、降。每级升降压力差值不超过250Pa，每级检测压力差稳定作用时间约为10s。检测压力绝对值最大不宜超过2000Pa。记录每级压力差作用下的面法线度值（角位移值），利用压力差和变形之间的相对线性关系（线性回归方法见附录C中的C.4）求出变形检测时最大面法线度（角位移）对应的压力差值，作为变形检测压力差值，标以土P1。不同类型试件变形检测时对应的最大面法线挠度（角位移值）应符合产品标准的要求。注：产品标准无要求时，玻璃面板的允许挠度取短边1/60；面板为中空玻璃时，杆件允许挠度为1/150，面板为单层玻璃或夹层玻璃时，杆件允许挠度为1/100。d)记录检测中试件出现损坏或功能障碍的状况和部位。9.2.4.2工程检测时的变形检测应按下列步骤进行：a)先进行正压检测，后进行负压检测。b)检测压力逐级升、降。每级升、降压力差不超过风荷载标准值的10%，每级压力作用时间不少于10S。压力差的升、降直到任一受力构件的相对面法线挠度值达到变形检测规定的最大面法线挠度（角位移），或压力达到风荷载标准值的40%L对于单扇单锁点平开窗（门），风荷载标准值的50%为止。求出变形检测时最大面法线挠度（角位移）对应的压力差值，作为变形检测压力差值，标以土P1。当P1小于风荷载标准值的40%［对于单扇单锁点平开窗（门），风荷载标准值的50%时，应判为不满足工程设计要求，检测终止；当P1大于或等于风荷载标准值的40%［对于单扇单锁点平开窗（门），风荷载标准值的50%时，P1取风荷载标准值的40%对于单扇单锁点平开窗（门），风荷载标准值的50%。d）记录检测中试件出现损坏或功能障碍的状况和部位。9.2.4.3求取杆件或面板的面法线挠度按式（8）进行：(a一ao)+(c一co)B=(bbo)-.(8)式中：ao、boco名各测点在预备加压后的稳定初始读数值，单位为毫米（mm）；某级检测压力差作用过程中的稳定读数值，单位为毫米（mm）；面法线挠度，单位为毫米（mm）。9.2.4.4单扇单锁点平开窗（门)的角位移值为E测点和F测点位移值之差，按式（9)计算：=(e-eo)-(f-fo)...(9)式中：eo、f。测点E和F在预备加压后的稳定初始读数值，单位为毫米(mm)；e、f一某级检测压力差作用过程中的稳定读数值，单位为毫米（mm）。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 降压力差
+    unit: '%'
+    condition: null
+    min_value: 10.0
+    max_value: null
+  - name: 载标准值
+    unit: '%'
+    condition: null
+    min_value: 40.0
+    max_value: 40.0
+  - name: 载标准值
+    unit: '%'
+    condition: null
+    min_value: 50.0
+    max_value: 50.0
+  - name: 土P当P
+    unit: '%'
+    condition: null
+    min_value: null
+    max_value: 40.0
+  - name: P
+    unit: '%'
+    condition: null
+    min_value: 40.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#9.2.5
+  standard_code: GB/T 7106-2019
+  chapter: 9 抗风压性能检测
+  section: 9.2检测方法
+  clause_no: 9.2.5
+  text: 反复加压检测定级检测和工程检测应按图6反复加压检测部分进行，并满足以下要求：检测压力从零升到P²（P²）后降至零，P²（P²）=1.5P（P），反复5次，再由零降至－P²a）（P2）后升至零，一P²（P）=一1.5P1（P1），反复5次。加载速度为300Pa/s～500Pa/s，每次GB/T7106—2019压力差作用时间不应少于3s，泄压时间不应少于1S。定级检测P2值不宜天于3000Pa。b）正压、负压反复加压后，将试件可开启部分启闭5次，最后关紧。记录检测中试件出现损坏或功能障碍的压力差值及部位。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#9.2.6
+  standard_code: GB/T 7106-2019
+  chapter: 9 抗风压性能检测
+  section: 9.2检测方法
+  clause_no: 9.2.6
+  text: 定级检测时的安全检测9.2.6.1产品设计风荷载标准值P3检测9.2.6.1.1P：取2.5P1，对于单扇单锁点平开窗（门）,P：取2.0P1。没有要求的，P：值不宜大于5000Pa。9.2.6.1.2检测压力从零升至P：后降至零，再降至一P：后升至零。加载速度为300Pa/s～500Pa/s，压力稳定作用时间均不应少于3S，泄压时间不应少于1S。正、负加压后各将试件可开启部分启闭5次，最后关紧。记录面法线位移量（角位移值）、发生损坏或功能障碍时的压力差值及部位。如有要求，可记录试件残余变形量，残余变形量记录时间应在P：检测结束后5min～60min内进行。9.2.6.1.3如试件未出现损坏或功能障碍，但主要构件相对面法线挠度（角位移值）超过允许挠度，则应降低检测压力，直至主要构件相对面法线挠度（角位移值）在允许挠度范围内，以此压力差作为土P3值。9.2.6.2产品设计风荷载设计值Pmx检测检测压力从零升至Pmax值后降至零，再降至一Pmax值后升至零。加载速度为300Pa/s～500Pa/s，压力稳定作用时间均不应少于3S，泄压时间不应少于1S。正、负加压后各将试件可开启部分启闭5次，最后关紧。记录发生损坏或功能障碍的压力差值及部位。如有要求，可记录试件残余变形量，残余变形量记录时间应在Pmax检测结束后5min～60min内进行。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 检测结束后
+    unit: m
+    condition: null
+    min_value: 5.0
+    max_value: 5.0
+  - name: 束后min
+    unit: m
+    condition: null
+    min_value: 60.0
+    max_value: 60.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#9.2.7
+  standard_code: GB/T 7106-2019
+  chapter: 9 抗风压性能检测
+  section: 9.2检测方法
+  clause_no: 9.2.7
+  text: 工程检测时的安全检测9.2.7.1风荷载标准值P3检测500Pa/s，压力稳定作用时间均不应少于3s，泄压时间不应少于1S。正、负加压后各将试件可开启部分启闭5次，最后关紧。记录面法线位移量（角位移值）、发生损坏或功能障碍时的压力差值及部位。如有要求，可记录试件残余变形量，残余变形量记录时间应在风荷载标准值检测结束后5min～60min内进行。9.2.7.2风荷载设计值Pmax检测检测压力从零升至风荷载标准值P'max后降至零；再降至一P'max值后升至零，压力稳定作用时间均生损坏或功能障碍的压力差值及部位。如有要求，可记录试件残余变形量，残余变形量记录时间应在风荷载设计值检测结束后5min～60min内进行。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 检测结束后
+    unit: m
+    condition: null
+    min_value: 5.0
+    max_value: 5.0
+  - name: 束后min
+    unit: m
+    condition: null
+    min_value: 60.0
+    max_value: 60.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#9.3.13
+  standard_code: GB/T 7106-2019
+  chapter: 9 抗风压性能检测
+  section: 9.3检测结果的评定
+  clause_no: 9.3.13
+  text: 变形检测的评定9.3.1.1定级检测时以试件杆件或面板达到变形检测最大面法线挠度时对应的压力差值为士P1；对于单扇单锁点平开窗（门），以角位移值为10mm时对应的压力差值为P1。当检测中试件出现损坏或功能障碍时，以相应压力差值的前一级压力差作为Pmax，按Pmax/1.4中绝对值较小者进行定级。9.3.1.2工程检测出现损坏或功能障碍时，应判为不满足工程设计要求。GB/T7106—2019
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 以角位移值
+    unit: mm
+    condition: null
+    min_value: 10.0
+    max_value: 10.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#9.3.2
+  standard_code: GB/T 7106-2019
+  chapter: 9 抗风压性能检测
+  section: 9.3检测结果的评定
+  clause_no: 9.3.2
+  text: 反复加压检测的评定9.3.2.1定级检测时，试件未出现损坏或功能障碍，注明士P2值。当检测中试件出现损坏或功能障碍时，以相应压力差值的前一级压力差作为Pmax，按土Pmax/1.4中绝对值较小者进行定级。9.3.2.2工程检测试件出现损坏或功能障碍时，应判为不满足工程设计要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#9.3.3
+  standard_code: GB/T 7106-2019
+  chapter: 9 抗风压性能检测
+  section: 9.3检测结果的评定
+  clause_no: 9.3.3
+  text: 安全检测的评定9.3.3.1定级检测的评定9.3.3.1.1产品设计风荷载标准值P3检测时，试件未出现功能障碍和损坏，且主要构件相对面法线挠度（角位移值）未超过允许挠度，注明土P3值；当检测中试件出现损坏或功能障碍时，以相应压力差值的前一级压力差作为Pmax，按士Pmax/1.4中绝对值较小者进行定级。9.3.3.1.2产品设计风荷载设计值Pmax检测时，试件未出现损坏或功能障碍时，注明正、负压力差值，按9.3.3.1.3以三试件定级值的最小值为该组试件的定级值，依据GB/T31433进行定级。9.3.3.2工程检测的评定9.3.3.2.1试件在风荷载标准值P检测时未出现损坏或功能障碍、主要构件相对面法线挠度（角位移值）未超过充许挠度，且在风荷载设计值Pmax检测时未出现损坏或功能障碍，则该试件判为满足工程设计要求，否则判为不满足工程设计要求。9.3.3.2.2三橙试件应全部满足工程设计要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB/T 31433
+    target_clause: null
+    original_text: 9.3.3.1.2产品设计风荷载设计值Pmax检测时，试件未出现损坏或功能障碍时，注明正、负压力差值，按9.3.3.1.3以三试件定级值的最小值为该组试件的定级值，依据GB/T31433进行定级。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#A.1
+  standard_code: GB/T 7106-2019
+  chapter: 附录A 空气流量测量装置校验方法
+  section: ''
+  clause_no: A.1
+  text: A.1适用范围本校验方法适用于建筑外门窗气密性能检测装置的空气流量测量装置的校验。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#A.2
+  standard_code: GB/T 7106-2019
+  chapter: 附录A 空气流量测量装置校验方法
+  section: ''
+  clause_no: A.2
+  text: A.2原理采用固定规格的标准试件安装在压力箱开口部位，利用空气流量测量装置测量不同开孔数量的空气流量，并对测量结果进行分析。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#A.3
+  standard_code: GB/T 7106-2019
+  chapter: 附录A 空气流量测量装置校验方法
+  section: ''
+  clause_no: A.3
+  text: A.3标准试件标准试件采用厚度为3.0mm士0.3mm，规格为500mm×500mm的不锈钢板加工，见图A.1。透气孔与标准试件边部、透气孔之间的间距为100mm士1mm。表面加工应平整，不能有划痕及毛刺等。透气孔直径为20mm士0.02mm，均布排列，透气孔内应清洁。说明：1—安装框；2——标准试件；3—透气孔。图A.1标准试件及安装GB/T 7106—2019
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 件采用厚度
+    unit: mm
+    condition: null
+    min_value: 3.0
+    max_value: 3.0
+  - name: 件采用厚度
+    unit: mm
+    condition: null
+    min_value: 0.3
+    max_value: 0.3
+  - name: 未识别对象
+    unit: mm
+    condition: null
+    min_value: 500.0
+    max_value: 500.0
+  - name: 士mm规格
+    unit: mm
+    condition: null
+    min_value: 500.0
+    max_value: 500.0
+  - name: 之间的间距
+    unit: mm
+    condition: null
+    min_value: 100.0
+    max_value: 100.0
+  - name: 之间的间距
+    unit: mm
+    condition: null
+    min_value: 1.0
+    max_value: 1.0
+  - name: 透气孔直径
+    unit: mm
+    condition: null
+    min_value: 20.0
+    max_value: 20.0
+  - name: 透气孔直径
+    unit: mm
+    condition: null
+    min_value: 0.02
+    max_value: 0.02
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#A.4
+  standard_code: GB/T 7106-2019
+  chapter: 附录A 空气流量测量装置校验方法
+  section: ''
+  clause_no: A.4
+  text: 安装框技术要求
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#A.4.1
+  standard_code: GB/T 7106-2019
+  chapter: 附录A 空气流量测量装置校验方法
+  section: ''
+  clause_no: A.4.1
+  text: 安装框应采用不透气的材料，本身具有足够刚度。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#A.4.2
+  standard_code: GB/T 7106-2019
+  chapter: 附录A 空气流量测量装置校验方法
+  section: ''
+  clause_no: A.4.2
+  text: 安装框四周与压力箱相交部分应平整，以保证接缝的高度气密性。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#A.4.3
+  standard_code: GB/T 7106-2019
+  chapter: 附录A 空气流量测量装置校验方法
+  section: ''
+  clause_no: A.4.3
+  text: 安装框上标准试件的镶嵌口应平整，标准试件采用机械连接后用密封胶密封。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#A.5
+  standard_code: GB/T 7106-2019
+  chapter: 附录A 空气流量测量装置校验方法
+  section: ''
+  clause_no: A.5
+  text: 校验条件
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#A.5.1
+  standard_code: GB/T 7106-2019
+  chapter: 附录A 空气流量测量装置校验方法
+  section: ''
+  clause_no: A.5.1
+  text: 校验应在试验室内进行，试验室环境温度应为20℃土5℃，检测前仪器通电预热时间不应少于1 h。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 间不应少于
+    unit: h
+    condition: null
+    min_value: 1.0
+    max_value: 1.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#A.5.2
+  standard_code: GB/T 7106-2019
+  chapter: 附录A 空气流量测量装置校验方法
+  section: ''
+  clause_no: A.5.2
+  text: 差压测量装置、空气流量测量装置计应在正常检定/校准周期内。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#A.6
+  standard_code: GB/T 7106-2019
+  chapter: 附录A 空气流量测量装置校验方法
+  section: ''
+  clause_no: A.6
+  text: 校验方法
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#A.6.1
+  standard_code: GB/T 7106-2019
+  chapter: 附录A 空气流量测量装置校验方法
+  section: ''
+  clause_no: A.6.1
+  text: 将全部开孔用胶带密封，按7.1.1检测加压顺序加压，记录相应压力差下的空气流量，以此作为附加空气渗透量。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#A.6.2
+  standard_code: GB/T 7106-2019
+  chapter: 附录A 空气流量测量装置校验方法
+  section: ''
+  clause_no: A.6.2
+  text: A.6.2依次打开密封胶带，按照打开孔数为1、2、4、8、16的顺序，分别按7.1.1检测加压顺序加压，记录相应压力差下的空气流量，以此作为总空气渗透量。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#A.6.3
+  standard_code: GB/T 7106-2019
+  chapter: 附录A 空气流量测量装置校验方法
+  section: ''
+  clause_no: A.6.3
+  text: A.6.3重复上述A.6.1、A.6.2步骤2次，得到3次校验结果。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#A.7
+  standard_code: GB/T 7106-2019
+  chapter: 附录A 空气流量测量装置校验方法
+  section: ''
+  clause_no: A.7
+  text: 结果的处理
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#A.7.1
+  standard_code: GB/T 7106-2019
+  chapter: 附录A 空气流量测量装置校验方法
+  section: ''
+  clause_no: A.7.1
+  text: A.7.1按式（1）计算各开孔下的空气渗透量，按式（2)换算为各开孔下的标准空气渗透量。三次测值取算术平均值。正、负压分别计算。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#A.7.2
+  standard_code: GB/T 7106-2019
+  chapter: 附录A 空气流量测量装置校验方法
+  section: ''
+  clause_no: A.7.2
+  text: A.7.2以检测装置第一次的校验记录为初始值。分别计算不同开孔数量时的空气渗透量差值。当误差超过士5%时应进行修正。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 差值当误差
+    unit: '%'
+    condition: null
+    min_value: 5.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#A.8
+  standard_code: GB/T 7106-2019
+  chapter: 附录A 空气流量测量装置校验方法
+  section: ''
+  clause_no: A.8
+  text: A.8不同开孔数量标准状态下空气渗透量参考值见表A.1。表A.1不同开孔数量标准状态下空气渗透量参考值开孔数量标准状态下空气渗透量（100Pa）10.1620.2340.1880.63160.43m"/hGB/T 7106—2019
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 未识别对象
+    unit: m
+    condition: null
+    min_value: 63160.43
+    max_value: 63160.43
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#B.1
+  standard_code: GB/T 7106-2019
+  chapter: 附录B 淋水装置校验方法
+  section: ''
+  clause_no: B.1
+  text: B.1适用范围本校验方法适用于建筑外门窗水密性能检测装置的淋水装置的校验。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#B.2
+  standard_code: GB/T 7106-2019
+  chapter: 附录B 淋水装置校验方法
+  section: ''
+  clause_no: B.2
+  text: B.2原理采用固定规格的集水箱安装在压力箱开口不同部位，收集淋水装置的喷水量，校验不同区域的淋水量及均匀性。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#B.3
+  standard_code: GB/T 7106-2019
+  chapter: 附录B 淋水装置校验方法
+  section: ''
+  clause_no: B.3
+  text: B.3集水箱水排入可以测量体积的容器。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: may
+    modal_words:
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#B.4
+  standard_code: GB/T 7106-2019
+  chapter: 附录B 淋水装置校验方法
+  section: ''
+  clause_no: B.4
+  text: B.4方法
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#B.4.1
+  standard_code: GB/T 7106-2019
+  chapter: 附录B 淋水装置校验方法
+  section: ''
+  clause_no: B.4.1
+  text: B.4.1集水箱的开口面放置于试件外样品表面应处位置土50mm范围内，平行于喷淋系统。用一个边长大约为760mm的方形盖子在集水箱开口部位，开启喷淋系统，按照压力箱全部开口范围设定总流量达到2L/（min·m²），流人每个区域（四个分区）的水分开收集。四个喷淋区域总淋水量最少为0.74L/min，对任一个分区，淋水量应在0.15L/min至0.37L/min范围内。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 处位置土
+    unit: mm
+    condition: null
+    min_value: 50.0
+    max_value: 50.0
+  - name: 个边长大约
+    unit: mm
+    condition: null
+    min_value: 760.0
+    max_value: 760.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#B.4.2
+  standard_code: GB/T 7106-2019
+  chapter: 附录B 淋水装置校验方法
+  section: ''
+  clause_no: B.4.2
+  text: B.4.2喷淋系统应在压力箱开口部位的高度及宽度的每四等分的交点上都进行校验。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#B.4.3
+  standard_code: GB/T 7106-2019
+  chapter: 附录B 淋水装置校验方法
+  section: ''
+  clause_no: B.4.3
+  text: B.4.3不符合要求时应对淋水装置进行调整后再次进行校验。GB/T 7106—2019mmmm说明：1——样品表面平面；一控制集水箱集水时间的盖子；集水并称重的容器；一淋水装置。图 B.1校验喷淋系统的集水箱GB/T 7106—2019
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 校验GBT
+    unit: mm
+    condition: null
+    min_value: 2019.0
+    max_value: 2019.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#C.1
+  standard_code: GB/T 7106-2019
+  chapter: 附录C 线性回归计算方法
+  section: ''
+  clause_no: C.1
+  text: 'C.1原理采用最小二乘法进行线性回归计算，见式（C.1）～式（C.4）：.(C.1 )a=-bα.( C.2 )(a: )(y: -)( C.3 )(a; -)(: -)(C.4)(-)()式中：截距；斜率；相关系数；检测组数；任一组检测、y的数值；r.y、y的算术平均值。'
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#C.2
+  standard_code: GB/T 7106-2019
+  chapter: 附录C 线性回归计算方法
+  section: ''
+  clause_no: C.2
+  text: 气密性能检测压力差与空气渗透量回归计算方法
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#C.2.1
+  standard_code: GB/T 7106-2019
+  chapter: 附录C 线性回归计算方法
+  section: ''
+  clause_no: C.2.1
+  text: C.2.1采用最小二乘法对压力差与空气渗透量进行线性回归计算，计算出试件在士10Pa压力差下的空气渗透量士q。(C.5 )q=(△P)
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#C.2.2
+  standard_code: GB/T 7106-2019
+  chapter: 附录C 线性回归计算方法
+  section: ''
+  clause_no: C.2.2
+  text: 对式（C.5)两边分别取对数1g，则可以得到式（C.6)lg(qap）=lg(k)+c × lg(△P):( C.6 )
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: may
+    modal_words:
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 分别取对数
+    unit: g
+    condition: null
+    min_value: 1.0
+    max_value: 1.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#C.2.3
+  standard_code: GB/T 7106-2019
+  chapter: 附录C 线性回归计算方法
+  section: ''
+  clause_no: C.2.3
+  text: 将lg（qap）设定为y，lg（△P）设定为α，lg（k)设定为a，c设定为b。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#C.2.4
+  standard_code: GB/T 7106-2019
+  chapter: 附录C 线性回归计算方法
+  section: ''
+  clause_no: C.2.4
+  text: 依据式（C.1）～式（C.4），可以分别计算出aα、b、r的数值，根据a，b可以分别计算出k和c的数值。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: may
+    modal_words:
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#C.2.5
+  standard_code: GB/T 7106-2019
+  chapter: 附录C 线性回归计算方法
+  section: ''
+  clause_no: C.2.5
+  text: 最后依据式（C.5)计算出10Pa压力差下的空气渗透量q。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#C.2.6
+  standard_code: GB/T 7106-2019
+  chapter: 附录C 线性回归计算方法
+  section: ''
+  clause_no: C.2.6
+  text: 正、负压分别计算。负压取绝对值进行计算。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#C.3
+  standard_code: GB/T 7106-2019
+  chapter: 附录C 线性回归计算方法
+  section: ''
+  clause_no: C.3
+  text: 气密性能检测压力差与试件空气渗透量回归计算方法示例
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#C.3.1
+  standard_code: GB/T 7106-2019
+  chapter: 附录C 线性回归计算方法
+  section: ''
+  clause_no: C.3.1
+  text: 数据表C.1列举了5组压力差与在相应压力差下的试件空气渗透量的平均值的数据。GB/T 7106—2019表 C.1试件空气渗透量的平均值压力差△P/Pa试件空气渗透量平均值17.47822.06225.78635.81563.893sp /(m* /h)lg(△P)1.0001.4771.6991.8452.000Ig(qp)1.2421.3441.4111.5541.805
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#C.3.2
+  standard_code: GB/T 7106-2019
+  chapter: 附录C 线性回归计算方法
+  section: ''
+  clause_no: C.3.2
+  text: C.3.2计算将lg（qap）设定为y，lg（△P）设定为α，lg（k）设定为a，设定为b1g（△P）算术平均值：x=（1.000十1.477十...十2.000）/5=1.604lg（qap）算术平均值：y=（1.242+1.344+.+1.805）/5=1.471斜率：(1.000—1.604)2+(1.477-1.604)2+...+(2.000—1.604)2=0.498截距：a=1.471-0.498×1.604=0.673相关系数：(1.000—1.604)×(1.242—1.471)+(1.477-1.604)X(1.344-1.471)++(2.000-1.604)X(1.805-1.471)=0.886可以得出：1g（k）=0.673、c=0.498进一步计算得出：k=4.710、c=0.498即qap=4.710×(△P)0.498取△P=10，可以计算得出10Pa压力差下试件的空气渗透量q1o=4.711×100.498=14.826（m²/h）
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: may
+    modal_words:
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: lgk设定
+    unit: g
+    condition: null
+    min_value: 1.0
+    max_value: 1.0
+  - name: 可以得出
+    unit: g
+    condition: null
+    min_value: 1.0
+    max_value: 1.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#C.4
+  standard_code: GB/T 7106-2019
+  chapter: 附录C 线性回归计算方法
+  section: ''
+  clause_no: C.4
+  text: 抗风压性能检测的变形检测阶段的压力差和面法线挠度值（角位移值）回归计算方法
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#C.4.1
+  standard_code: GB/T 7106-2019
+  chapter: 附录C 线性回归计算方法
+  section: ''
+  clause_no: C.4.1
+  text: 采用最小二乘法对抗风压性能检测的变形检测阶段的压力差和面法线挠度值（角位移值）进行线性回归，计算出试件主受力杆件的士P1值。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#C.4.2
+  standard_code: GB/T 7106-2019
+  chapter: 附录C 线性回归计算方法
+  section: ''
+  clause_no: C.4.2
+  text: 将面法线挠度值（角位移值)设定为y，检测压力差设定为。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#C.4.3
+  standard_code: GB/T 7106-2019
+  chapter: 附录C 线性回归计算方法
+  section: ''
+  clause_no: C.4.3
+  text: 依据式（C.1）～式（C.4），可以分别计算出a、b、r的数值。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: may
+    modal_words:
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#C.4.4
+  standard_code: GB/T 7106-2019
+  chapter: 附录C 线性回归计算方法
+  section: ''
+  clause_no: C.4.4
+  text: 依据试件变形检测中允许最大面法线挠度值，则可以计算出试件主受力杆件的P值。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: may
+    modal_words:
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#C.4.5
+  standard_code: GB/T 7106-2019
+  chapter: 附录C 线性回归计算方法
+  section: ''
+  clause_no: C.4.5
+  text: 正、负压分别计算，负压取绝对值进行计算。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#C.5
+  standard_code: GB/T 7106-2019
+  chapter: 附录C 线性回归计算方法
+  section: ''
+  clause_no: C.5
+  text: 抗风压性能检测的变形检测阶段的压力差和面法线挠度值（角位移值）回归计算方法示例
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#C.5.1
+  standard_code: GB/T 7106-2019
+  chapter: 附录C 线性回归计算方法
+  section: ''
+  clause_no: C.5.1
+  text: 数据试件为铝合金窗，面板品种为中空玻璃，主受力杆件长为1400mm。表C.2列举了8组压力差与面法线挠度值的数据GB/T 7106—2019表 C.2压力差与面法线挠度值的数据序号压力差/Pa1 0002 0000.60面法线挠度值y/mm0.300.901.201.601.902.302.80
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 板品种
+    unit: mm
+    condition: null
+    min_value: 1400.0
+    max_value: 1400.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#C.5.2
+  standard_code: GB/T 7106-2019
+  chapter: 附录C 线性回归计算方法
+  section: ''
+  clause_no: C.5.2
+  text: C.5.2计算压力差算术平均值：=（250十500十.：十2000）/8=1125面法线挠度值算术平均值：y=（0.30十0.60十.十2.80）/8=1.45斜率：(2501125)X(0.30-1.45)+(500-1125)×(0.60-1.45）+...+（2000-1125)X(2.80-1.45)(250—1125)²+(500—1125)²+...+(2000—1125)2=0.0014截距：a=1.45-0.0014×1125=-0.125相关系数：(08).(090)(000)( 1000 )...( 100)(0)=0.996 6试件主受力杆件的面法线挠度值与压力差的线性关系为：y=一0.125十0.0014α试件变形检测中允许最大面法线挠度值：1400÷375=3.73mm根据二者线性关系y=一0.125十0.0014α，可以计算得出α=2754Pa，即P回归计算结果为2 754 Pa。GB/T 7106—2019
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: may
+    modal_words:
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 法线挠度值
+    unit: mm
+    condition: null
+    min_value: 3.73
+    max_value: 3.73
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#D.1
+  standard_code: GB/T 7106-2019
+  chapter: 附录D 检测报告示例
+  section: ''
+  clause_no: D.1
+  text: 建筑外窗（门)气密、水密、抗风压性能检测报告示例建筑外窗（门)气密、水密、抗风压性能检测报告报告编号：共页第页委托单位地址电话送样/抽样日期抽样地点工程名称生产单位名称状态样品商标规格型号项目地点检测依据设备检测结论气密性能：正压属国标GB/T××××X第负压属国标GB/T×××××第水密性能：属国标GB/T×××××第（采用××加压方法检测）抗风压性能：属国标GB/T×××××第按照产品标准GB×XX×X判为合格（定级时注明）满足工程设计要求（当工程检测时注明）（检测报告专用章）批准：审核：主检：报告日期：GB/T 7106—2019
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+- id: GB/T 7106-2019#D.2
+  standard_code: GB/T 7106-2019
+  chapter: 附录D 检测报告示例
+  section: ''
+  clause_no: D.2
+  text: '建筑外窗（门）产品质量检测报告示例建筑外窗（门)产品质量检测报告报告编号：共页第页可开启部分缝长/m试件面积/m²面板品种安装方式面板镶嵌材料框扇密封材料检测室温度/℃检测室气压/kPa面板最大尺寸/mm长：厚：气密：m"/(m · h)水密静压：Pa抗风压（正压）：kPa工程设计值m²/(m² · h)水密动压：Pa抗风压（负压)：kPa检测结果气密性能：单位缝长每小时渗透量为正压负压m"/(m · h)单位面积每小时渗透量为正压负压m/(m² . h)水密性能：淋水量为L(m² : min)稳定加压法：发生渗漏的最高压力为Pa未发生渗漏的最高压力为Pa波动加压法：发生渗漏的最高压力为Pa未发生渗漏的最高压力为Pa正压抗风压性能：变形检测结果为：kPa负压kPa反复加压检测结果为：正压kPa负压kPa安全检测结果为：产品设计风荷载标准值检测结果：正压kPa负压kPa产品设计风荷载设计值检测结果：正压kPa负压kPa重复气密性能：单位缝长每小时渗透量为正压负压m"/(m ·: h)单位面积每小时渗透量为正压负压m²/(m² · h)重复水密性能：淋水量为L/(m² · min)Pa稳定加压法：发生渗漏的最高压力为未发生渗漏的最高压力为Pa波动加压法：发生渗漏的最高压力为Pa未发生渗漏的最高压力为Pa工程检验结果：风荷载标准值检测结果：正压kPa负压kPa风荷载设计值检测结果：正压kPa负压kPa'
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: may
+    modal_words:
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWindow
+    - IfcDoor
+    activity_types:
+    - 门窗性能检测
+  conflicts: []
+executable_rules:
+- rule_id: R_GBT71062019_3_3_1_1
+  source_clause: GB/T 7106-2019#3.3.1
+  rule_type: validation
+  when:
+  - activity_type == '门窗性能检测'
+  - component_type IN ['IfcWindow', 'IfcDoor']
+  then:
+    parameter: 大气压力
+    unit: mm
+    condition: null
+    min_value: 760.0
+    max_value: 760.0
+  source_text: 标准状态standard condition空气温度为293K（20℃）、大气压力为101.3kPa（760mmHg）、空气密度为1.202kg/m3的试验条件。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GBT71062019_3_3_1_2
+  source_clause: GB/T 7106-2019#3.3.1
+  rule_type: validation
+  when:
+  - activity_type == '门窗性能检测'
+  - component_type IN ['IfcWindow', 'IfcDoor']
+  then:
+    parameter: g空气密度
+    unit: kg
+    condition: null
+    min_value: 1.202
+    max_value: 1.202
+  source_text: 标准状态standard condition空气温度为293K（20℃）、大气压力为101.3kPa（760mmHg）、空气密度为1.202kg/m3的试验条件。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GBT71062019_3_5_5_1
+  source_clause: GB/T 7106-2019#3.5.5
+  rule_type: validation
+  when:
+  - activity_type == '门窗性能检测'
+  - component_type IN ['IfcWindow', 'IfcDoor']
+  then:
+    parameter: 件在变形量
+    unit: '%'
+    condition: null
+    min_value: 40.0
+    max_value: 40.0
+  source_text: 变形检测distortiontest确定主要构件在变形量为40%允许挠度时的压力差（符号为P1或P1）而进行的检测。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GBT71062019_3_5_6_1
+  source_clause: GB/T 7106-2019#3.5.6
+  rule_type: validation
+  when:
+  - activity_type == '门窗性能检测'
+  - component_type IN ['IfcWindow', 'IfcDoor']
+  then:
+    parameter: 件在变形量
+    unit: '%'
+    condition: null
+    min_value: 60.0
+    max_value: 60.0
+  source_text: 反复加压检测repeatedpressuretest确定主要构件在变形量为60%允许挠度时的压力差（符号为P2或P）反复作用下是否发生损坏及功能障碍而进行的检测。3.6定级检测grade test确定外门窗性能等级而进行的检测。3.7工程检测engineering test确定外
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GBT71062019_5_2_1_1
+  source_clause: GB/T 7106-2019#5.2.1
+  rule_type: constraint
+  when:
+  - activity_type == '门窗性能检测'
+  - component_type IN ['IfcWindow', 'IfcDoor']
+  then:
+    parameter: 挠度值
+    unit: mm
+    condition: null
+    min_value: 5.0
+  source_text: 压力箱的开口尺寸应能满足试件安装的要求，压力箱开口部位的构件在承受检测过程中可能出现的最大压力差时，开口部位构件的最大挠度值不应超过5mm或l/1000，同时应具有良好的密封性能且以不影响观察试件的水密性为最低要求。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GBT71062019_5_2_2_1
+  source_clause: GB/T 7106-2019#5.2.2
+  rule_type: constraint
+  when:
+  - activity_type == '门窗性能检测'
+  - component_type IN ['IfcWindow', 'IfcDoor']
+  then:
+    parameter: 集箱深度
+    unit: mm
+    condition: null
+    min_value: 500.0
+    max_value: 500.0
+  source_text: 空气收集箱与压力箱连接且应有良好的密封性能，且在气密性能检测过程中箱体尺寸不应发生变化。空气收集箱深度宜为500mm～800mm。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GBT71062019_5_2_2_2
+  source_clause: GB/T 7106-2019#5.2.2
+  rule_type: constraint
+  when:
+  - activity_type == '门窗性能检测'
+  - component_type IN ['IfcWindow', 'IfcDoor']
+  then:
+    parameter: 集箱深度
+    unit: mm
+    condition: null
+    min_value: 800.0
+    max_value: 800.0
+  source_text: 空气收集箱与压力箱连接且应有良好的密封性能，且在气密性能检测过程中箱体尺寸不应发生变化。空气收集箱深度宜为500mm～800mm。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GBT71062019_5_2_5_1
+  source_clause: GB/T 7106-2019#5.2.5
+  rule_type: constraint
+  when:
+  - activity_type == '门窗性能检测'
+  - component_type IN ['IfcWindow', 'IfcDoor']
+  then:
+    parameter: 淋水装置于
+    unit: mm
+    condition: null
+    min_value: 500.0
+    max_value: 500.0
+  source_text: 淋水装置应满足在门窗试件的全部面积上形成连续水膜并达到规定淋水量的要求。淋水装置于500mm；淋水装置的喷水量应能调节，并有措施保证喷水量的均匀性。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GBT71062019_5_2_6_1
+  source_clause: GB/T 7106-2019#5.2.6
+  rule_type: constraint
+  when:
+  - activity_type == '门窗性能检测'
+  - component_type IN ['IfcWindow', 'IfcDoor']
+  then:
+    parameter: 量误差
+    unit: '%'
+    condition: null
+    min_value: 5.0
+  source_text: 测量装置应满足下列要求：a）空气流量测量装置的测量误差不应大于示值的5%；差压测量装置的测量误差不应大于示值的2%，响应速度应满足波动风压测量的要求，其两个GB/T7106—2019探测点应在试件两侧就近布置；c）位移测量装置的精度应达到满量程的0.25%，其安装支架在测试过程中
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GBT71062019_5_2_6_2
+  source_clause: GB/T 7106-2019#5.2.6
+  rule_type: constraint
+  when:
+  - activity_type == '门窗性能检测'
+  - component_type IN ['IfcWindow', 'IfcDoor']
+  then:
+    parameter: 量误差
+    unit: '%'
+    condition: null
+    min_value: 2.0
+  source_text: 测量装置应满足下列要求：a）空气流量测量装置的测量误差不应大于示值的5%；差压测量装置的测量误差不应大于示值的2%，响应速度应满足波动风压测量的要求，其两个GB/T7106—2019探测点应在试件两侧就近布置；c）位移测量装置的精度应达到满量程的0.25%，其安装支架在测试过程中
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GBT71062019_5_2_6_3
+  source_clause: GB/T 7106-2019#5.2.6
+  rule_type: constraint
+  when:
+  - activity_type == '门窗性能检测'
+  - component_type IN ['IfcWindow', 'IfcDoor']
+  then:
+    parameter: 到满量程
+    unit: '%'
+    condition: null
+    min_value: 0.25
+    max_value: 0.25
+  source_text: 测量装置应满足下列要求：a）空气流量测量装置的测量误差不应大于示值的5%；差压测量装置的测量误差不应大于示值的2%，响应速度应满足波动风压测量的要求，其两个GB/T7106—2019探测点应在试件两侧就近布置；c）位移测量装置的精度应达到满量程的0.25%，其安装支架在测试过程中
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GBT71062019_6_5_2_1
+  source_clause: GB/T 7106-2019#6.5.2
+  rule_type: constraint
+  when:
+  - activity_type == '门窗性能检测'
+  - component_type IN ['IfcWindow', 'IfcDoor']
+  then:
+    parameter: 抗风压变形
+    unit: '%'
+    condition: null
+    min_value: 40.0
+    max_value: 40.0
+  source_text: 工程检测顺序工程检测应按照气密、水密、抗风压变形（40%风荷载标准值）P1、抗风压反复加压（60%风荷载标准值)P²、风荷载标准值P3、风荷载设计值P'max的顺序进行。注：工程有要求时，可在风荷载标准值P3后，增加重复气密性能、重复水密性能检测。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GBT71062019_6_5_2_2
+  source_clause: GB/T 7106-2019#6.5.2
+  rule_type: constraint
+  when:
+  - activity_type == '门窗性能检测'
+  - component_type IN ['IfcWindow', 'IfcDoor']
+  then:
+    parameter: 压反复加压
+    unit: '%'
+    condition: null
+    min_value: 60.0
+    max_value: 60.0
+  source_text: 工程检测顺序工程检测应按照气密、水密、抗风压变形（40%风荷载标准值）P1、抗风压反复加压（60%风荷载标准值)P²、风荷载标准值P3、风荷载设计值P'max的顺序进行。注：工程有要求时，可在风荷载标准值P3后，增加重复气密性能、重复水密性能检测。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GBT71062019_7_3_1_1
+  source_clause: GB/T 7106-2019#7.3.1
+  rule_type: constraint
+  when:
+  - activity_type == '门窗性能检测'
+  - component_type IN ['IfcWindow', 'IfcDoor']
+  then:
+    parameter: 渗透量
+    unit: '%'
+    condition: null
+    min_value: 20.0
+  source_text: 附加空气渗透量检测收集箱扣好并可靠密封。按照7.1规定的检测加压顺序进行加压，每级压力作用时间约为10S，先逐级正压，后逐级负压。记录各级压力下的附加空气渗透量。附加空气渗透量不宜高于总空气渗透量的20%。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GBT71062019_8_3_2_1
+  source_clause: GB/T 7106-2019#8.3.2
+  rule_type: constraint
+  when:
+  - activity_type == '门窗性能检测'
+  - component_type IN ['IfcWindow', 'IfcDoor']
+  then:
+    parameter: 年降水量
+    unit: mm
+    condition: null
+    min_value: 400.0
+  source_text: 工程检测工程检测按以下步骤操作：a）淋水：对整个门窗试件均匀地淋水。年降水量不大于400mm的地区，淋水量为1L/（m²·min）；年降水量为400mm～1600mm的地区，淋水量为2L/（m²·min）；年降水量大于1600mm的地区，淋水量为3L/（m²·min）。年降水量地
+  table_source: 表1
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GBT71062019_8_3_2_2
+  source_clause: GB/T 7106-2019#8.3.2
+  rule_type: constraint
+  when:
+  - activity_type == '门窗性能检测'
+  - component_type IN ['IfcWindow', 'IfcDoor']
+  then:
+    parameter: n年降水量
+    unit: mm
+    condition: null
+    min_value: 400.0
+    max_value: 400.0
+  source_text: 工程检测工程检测按以下步骤操作：a）淋水：对整个门窗试件均匀地淋水。年降水量不大于400mm的地区，淋水量为1L/（m²·min）；年降水量为400mm～1600mm的地区，淋水量为2L/（m²·min）；年降水量大于1600mm的地区，淋水量为3L/（m²·min）。年降水量地
+  table_source: 表1
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GBT71062019_8_3_2_3
+  source_clause: GB/T 7106-2019#8.3.2
+  rule_type: constraint
+  when:
+  - activity_type == '门窗性能检测'
+  - component_type IN ['IfcWindow', 'IfcDoor']
+  then:
+    parameter: n年降水量
+    unit: mm
+    condition: null
+    min_value: 1600.0
+    max_value: 1600.0
+  source_text: 工程检测工程检测按以下步骤操作：a）淋水：对整个门窗试件均匀地淋水。年降水量不大于400mm的地区，淋水量为1L/（m²·min）；年降水量为400mm～1600mm的地区，淋水量为2L/（m²·min）；年降水量大于1600mm的地区，淋水量为3L/（m²·min）。年降水量地
+  table_source: 表1
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GBT71062019_8_3_2_4
+  source_clause: GB/T 7106-2019#8.3.2
+  rule_type: constraint
+  when:
+  - activity_type == '门窗性能检测'
+  - component_type IN ['IfcWindow', 'IfcDoor']
+  then:
+    parameter: n年降水量
+    unit: mm
+    condition: null
+    min_value: 1600.0
+  source_text: 工程检测工程检测按以下步骤操作：a）淋水：对整个门窗试件均匀地淋水。年降水量不大于400mm的地区，淋水量为1L/（m²·min）；年降水量为400mm～1600mm的地区，淋水量为2L/（m²·min）；年降水量大于1600mm的地区，淋水量为3L/（m²·min）。年降水量地
+  table_source: 表1
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GBT71062019_8_3_2_5
+  source_clause: GB/T 7106-2019#8.3.2
+  rule_type: constraint
+  when:
+  - activity_type == '门窗性能检测'
+  - component_type IN ['IfcWindow', 'IfcDoor']
+  then:
+    parameter: 定作用时间
+    unit: m
+    condition: null
+    min_value: 15.0
+    max_value: 15.0
+  source_text: 工程检测工程检测按以下步骤操作：a）淋水：对整个门窗试件均匀地淋水。年降水量不大于400mm的地区，淋水量为1L/（m²·min）；年降水量为400mm～1600mm的地区，淋水量为2L/（m²·min）；年降水量大于1600mm的地区，淋水量为3L/（m²·min）。年降水量地
+  table_source: 表1
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GBT71062019_8_3_2_6
+  source_clause: GB/T 7106-2019#8.3.2
+  rule_type: constraint
+  when:
+  - activity_type == '门窗性能检测'
+  - component_type IN ['IfcWindow', 'IfcDoor']
+  then:
+    parameter: 压力差Pa
+    unit: m
+    condition: null
+    min_value: 10.0
+    max_value: 10.0
+  source_text: 工程检测工程检测按以下步骤操作：a）淋水：对整个门窗试件均匀地淋水。年降水量不大于400mm的地区，淋水量为1L/（m²·min）；年降水量为400mm～1600mm的地区，淋水量为2L/（m²·min）；年降水量大于1600mm的地区，淋水量为3L/（m²·min）。年降水量地
+  table_source: 表1
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GBT71062019_8_3_2_7
+  source_clause: GB/T 7106-2019#8.3.2
+  rule_type: constraint
+  when:
+  - activity_type == '门窗性能检测'
+  - component_type IN ['IfcWindow', 'IfcDoor']
+  then:
+    parameter: Pamin
+    unit: m
+    condition: null
+    min_value: 5.0
+    max_value: 5.0
+  source_text: 工程检测工程检测按以下步骤操作：a）淋水：对整个门窗试件均匀地淋水。年降水量不大于400mm的地区，淋水量为1L/（m²·min）；年降水量为400mm～1600mm的地区，淋水量为2L/（m²·min）；年降水量大于1600mm的地区，淋水量为3L/（m²·min）。年降水量地
+  table_source: 表1
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GBT71062019_8_3_2_8
+  source_clause: GB/T 7106-2019#8.3.2
+  rule_type: constraint
+  when:
+  - activity_type == '门窗性能检测'
+  - component_type IN ['IfcWindow', 'IfcDoor']
+  then:
+    parameter: inmin
+    unit: m
+    condition: null
+    min_value: 5.0
+    max_value: 5.0
+  source_text: 工程检测工程检测按以下步骤操作：a）淋水：对整个门窗试件均匀地淋水。年降水量不大于400mm的地区，淋水量为1L/（m²·min）；年降水量为400mm～1600mm的地区，淋水量为2L/（m²·min）；年降水量大于1600mm的地区，淋水量为3L/（m²·min）。年降水量地
+  table_source: 表1
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GBT71062019_9_2_2_1
+  source_clause: GB/T 7106-2019#9.2.2
+  rule_type: constraint
+  when:
+  - activity_type == '门窗性能检测'
+  - component_type IN ['IfcWindow', 'IfcDoor']
+  then:
+    parameter: 向中点方向
+    unit: mm
+    condition: null
+    min_value: 10.0
+    max_value: 10.0
+  source_text: 确定测点和安装位移计将位移计安装在规定位置上。测点位置规定如下：a）对于测试杆件，测点布置见图7。中间测点在测试杆件中点位置，两端测点在距该杆件端点向中点方向10mm处。对于玻璃面板测点见图8。当试件最不利的构件难以判定时，应选取多个测试杆件和玻璃面板（见图9），分别布点测量。对
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GBT71062019_9_2_2_2
+  source_clause: GB/T 7106-2019#9.2.2
+  rule_type: constraint
+  when:
+  - activity_type == '门窗性能检测'
+  - component_type IN ['IfcWindow', 'IfcDoor']
+  then:
+    parameter: 面板分布图
+    unit: mm
+    condition: null
+    min_value: 10.0
+    max_value: 10.0
+  source_text: 确定测点和安装位移计将位移计安装在规定位置上。测点位置规定如下：a）对于测试杆件，测点布置见图7。中间测点在测试杆件中点位置，两端测点在距该杆件端点向中点方向10mm处。对于玻璃面板测点见图8。当试件最不利的构件难以判定时，应选取多个测试杆件和玻璃面板（见图9），分别布点测量。对
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GBT71062019_9_2_2_3
+  source_clause: GB/T 7106-2019#9.2.2
+  rule_type: constraint
+  when:
+  - activity_type == '门窗性能检测'
+  - component_type IN ['IfcWindow', 'IfcDoor']
+  then:
+    parameter: 图mmmm
+    unit: mm
+    condition: null
+    min_value: 10.0
+    max_value: 10.0
+  source_text: 确定测点和安装位移计将位移计安装在规定位置上。测点位置规定如下：a）对于测试杆件，测点布置见图7。中间测点在测试杆件中点位置，两端测点在距该杆件端点向中点方向10mm处。对于玻璃面板测点见图8。当试件最不利的构件难以判定时，应选取多个测试杆件和玻璃面板（见图9），分别布点测量。对
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GBT71062019_9_2_3_1
+  source_clause: GB/T 7106-2019#9.2.3
+  rule_type: validation
+  when:
+  - activity_type == '门窗性能检测'
+  - component_type IN ['IfcWindow', 'IfcDoor']
+  then:
+    parameter: 载标准值
+    unit: '%'
+    condition: null
+    min_value: 10.0
+    max_value: 10.0
+  source_text: 预备加压在预备加压前，将试件上所有可开启部分启闭5次，最后关紧。检测加压前施加三个压力脉冲，定级检测时压力差绝对值为500Pa，加载速度约为100Pa/s，压力稳定作用时间为3s，泄压时间不少于1S。工程检测时压力差绝对值取风荷载标准值的10%和500Pa二者的较大值，加载速度约
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GBT71062019_9_2_4_1
+  source_clause: GB/T 7106-2019#9.2.4
+  rule_type: constraint
+  when:
+  - activity_type == '门窗性能检测'
+  - component_type IN ['IfcWindow', 'IfcDoor']
+  then:
+    parameter: 降压力差
+    unit: '%'
+    condition: null
+    min_value: 10.0
+  source_text: 变形检测9.2.4.1定级检测时的变形检测应按下列步骤进行：a)先进行正压检测，后进行负压检测。b)检测压力逐级升、降。每级升降压力差值不超过250Pa，每级检测压力差稳定作用时间约为10s。检测压力绝对值最大不宜超过2000Pa。记录每级压力差作用下的面法线度值（角位移值），利
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GBT71062019_9_2_4_2
+  source_clause: GB/T 7106-2019#9.2.4
+  rule_type: constraint
+  when:
+  - activity_type == '门窗性能检测'
+  - component_type IN ['IfcWindow', 'IfcDoor']
+  then:
+    parameter: 载标准值
+    unit: '%'
+    condition: null
+    min_value: 40.0
+    max_value: 40.0
+  source_text: 变形检测9.2.4.1定级检测时的变形检测应按下列步骤进行：a)先进行正压检测，后进行负压检测。b)检测压力逐级升、降。每级升降压力差值不超过250Pa，每级检测压力差稳定作用时间约为10s。检测压力绝对值最大不宜超过2000Pa。记录每级压力差作用下的面法线度值（角位移值），利
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GBT71062019_9_2_4_3
+  source_clause: GB/T 7106-2019#9.2.4
+  rule_type: constraint
+  when:
+  - activity_type == '门窗性能检测'
+  - component_type IN ['IfcWindow', 'IfcDoor']
+  then:
+    parameter: 载标准值
+    unit: '%'
+    condition: null
+    min_value: 50.0
+    max_value: 50.0
+  source_text: 变形检测9.2.4.1定级检测时的变形检测应按下列步骤进行：a)先进行正压检测，后进行负压检测。b)检测压力逐级升、降。每级升降压力差值不超过250Pa，每级检测压力差稳定作用时间约为10s。检测压力绝对值最大不宜超过2000Pa。记录每级压力差作用下的面法线度值（角位移值），利
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GBT71062019_9_2_4_4
+  source_clause: GB/T 7106-2019#9.2.4
+  rule_type: constraint
+  when:
+  - activity_type == '门窗性能检测'
+  - component_type IN ['IfcWindow', 'IfcDoor']
+  then:
+    parameter: 土P当P
+    unit: '%'
+    condition: null
+    max_value: 40.0
+  source_text: 变形检测9.2.4.1定级检测时的变形检测应按下列步骤进行：a)先进行正压检测，后进行负压检测。b)检测压力逐级升、降。每级升降压力差值不超过250Pa，每级检测压力差稳定作用时间约为10s。检测压力绝对值最大不宜超过2000Pa。记录每级压力差作用下的面法线度值（角位移值），利
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GBT71062019_9_2_4_5
+  source_clause: GB/T 7106-2019#9.2.4
+  rule_type: constraint
+  when:
+  - activity_type == '门窗性能检测'
+  - component_type IN ['IfcWindow', 'IfcDoor']
+  then:
+    parameter: P
+    unit: '%'
+    condition: null
+    min_value: 40.0
+  source_text: 变形检测9.2.4.1定级检测时的变形检测应按下列步骤进行：a)先进行正压检测，后进行负压检测。b)检测压力逐级升、降。每级升降压力差值不超过250Pa，每级检测压力差稳定作用时间约为10s。检测压力绝对值最大不宜超过2000Pa。记录每级压力差作用下的面法线度值（角位移值），利
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GBT71062019_9_2_6_1
+  source_clause: GB/T 7106-2019#9.2.6
+  rule_type: constraint
+  when:
+  - activity_type == '门窗性能检测'
+  - component_type IN ['IfcWindow', 'IfcDoor']
+  then:
+    parameter: 检测结束后
+    unit: m
+    condition: null
+    min_value: 5.0
+    max_value: 5.0
+  source_text: 定级检测时的安全检测9.2.6.1产品设计风荷载标准值P3检测9.2.6.1.1P：取2.5P1，对于单扇单锁点平开窗（门）,P：取2.0P1。没有要求的，P：值不宜大于5000Pa。9.2.6.1.2检测压力从零升至P：后降至零，再降至一P：后升至零。加载速度为300Pa/s～
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GBT71062019_9_2_6_2
+  source_clause: GB/T 7106-2019#9.2.6
+  rule_type: constraint
+  when:
+  - activity_type == '门窗性能检测'
+  - component_type IN ['IfcWindow', 'IfcDoor']
+  then:
+    parameter: 束后min
+    unit: m
+    condition: null
+    min_value: 60.0
+    max_value: 60.0
+  source_text: 定级检测时的安全检测9.2.6.1产品设计风荷载标准值P3检测9.2.6.1.1P：取2.5P1，对于单扇单锁点平开窗（门）,P：取2.0P1。没有要求的，P：值不宜大于5000Pa。9.2.6.1.2检测压力从零升至P：后降至零，再降至一P：后升至零。加载速度为300Pa/s～
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GBT71062019_9_2_7_1
+  source_clause: GB/T 7106-2019#9.2.7
+  rule_type: constraint
+  when:
+  - activity_type == '门窗性能检测'
+  - component_type IN ['IfcWindow', 'IfcDoor']
+  then:
+    parameter: 检测结束后
+    unit: m
+    condition: null
+    min_value: 5.0
+    max_value: 5.0
+  source_text: 工程检测时的安全检测9.2.7.1风荷载标准值P3检测500Pa/s，压力稳定作用时间均不应少于3s，泄压时间不应少于1S。正、负加压后各将试件可开启部分启闭5次，最后关紧。记录面法线位移量（角位移值）、发生损坏或功能障碍时的压力差值及部位。如有要求，可记录试件残余变形量，残余变
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GBT71062019_9_2_7_2
+  source_clause: GB/T 7106-2019#9.2.7
+  rule_type: constraint
+  when:
+  - activity_type == '门窗性能检测'
+  - component_type IN ['IfcWindow', 'IfcDoor']
+  then:
+    parameter: 束后min
+    unit: m
+    condition: null
+    min_value: 60.0
+    max_value: 60.0
+  source_text: 工程检测时的安全检测9.2.7.1风荷载标准值P3检测500Pa/s，压力稳定作用时间均不应少于3s，泄压时间不应少于1S。正、负加压后各将试件可开启部分启闭5次，最后关紧。记录面法线位移量（角位移值）、发生损坏或功能障碍时的压力差值及部位。如有要求，可记录试件残余变形量，残余变
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GBT71062019_9_3_13_1
+  source_clause: GB/T 7106-2019#9.3.13
+  rule_type: constraint
+  when:
+  - activity_type == '门窗性能检测'
+  - component_type IN ['IfcWindow', 'IfcDoor']
+  then:
+    parameter: 以角位移值
+    unit: mm
+    condition: null
+    min_value: 10.0
+    max_value: 10.0
+  source_text: 变形检测的评定9.3.1.1定级检测时以试件杆件或面板达到变形检测最大面法线挠度时对应的压力差值为士P1；对于单扇单锁点平开窗（门），以角位移值为10mm时对应的压力差值为P1。当检测中试件出现损坏或功能障碍时，以相应压力差值的前一级压力差作为Pmax，按Pmax/1.4中绝对值
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GBT71062019_A_3_1
+  source_clause: GB/T 7106-2019#A.3
+  rule_type: constraint
+  when:
+  - activity_type == '门窗性能检测'
+  - component_type IN ['IfcWindow', 'IfcDoor']
+  then:
+    parameter: 件采用厚度
+    unit: mm
+    condition: null
+    min_value: 3.0
+    max_value: 3.0
+  source_text: A.3标准试件标准试件采用厚度为3.0mm士0.3mm，规格为500mm×500mm的不锈钢板加工，见图A.1。透气孔与标准试件边部、透气孔之间的间距为100mm士1mm。表面加工应平整，不能有划痕及毛刺等。透气孔直径为20mm士0.02mm，均布排列，透气孔内应清洁。说明：1—
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GBT71062019_A_3_2
+  source_clause: GB/T 7106-2019#A.3
+  rule_type: constraint
+  when:
+  - activity_type == '门窗性能检测'
+  - component_type IN ['IfcWindow', 'IfcDoor']
+  then:
+    parameter: 件采用厚度
+    unit: mm
+    condition: null
+    min_value: 0.3
+    max_value: 0.3
+  source_text: A.3标准试件标准试件采用厚度为3.0mm士0.3mm，规格为500mm×500mm的不锈钢板加工，见图A.1。透气孔与标准试件边部、透气孔之间的间距为100mm士1mm。表面加工应平整，不能有划痕及毛刺等。透气孔直径为20mm士0.02mm，均布排列，透气孔内应清洁。说明：1—
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GBT71062019_A_3_4
+  source_clause: GB/T 7106-2019#A.3
+  rule_type: constraint
+  when:
+  - activity_type == '门窗性能检测'
+  - component_type IN ['IfcWindow', 'IfcDoor']
+  then:
+    parameter: 士mm规格
+    unit: mm
+    condition: null
+    min_value: 500.0
+    max_value: 500.0
+  source_text: A.3标准试件标准试件采用厚度为3.0mm士0.3mm，规格为500mm×500mm的不锈钢板加工，见图A.1。透气孔与标准试件边部、透气孔之间的间距为100mm士1mm。表面加工应平整，不能有划痕及毛刺等。透气孔直径为20mm士0.02mm，均布排列，透气孔内应清洁。说明：1—
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GBT71062019_A_3_5
+  source_clause: GB/T 7106-2019#A.3
+  rule_type: constraint
+  when:
+  - activity_type == '门窗性能检测'
+  - component_type IN ['IfcWindow', 'IfcDoor']
+  then:
+    parameter: 之间的间距
+    unit: mm
+    condition: null
+    min_value: 100.0
+    max_value: 100.0
+  source_text: A.3标准试件标准试件采用厚度为3.0mm士0.3mm，规格为500mm×500mm的不锈钢板加工，见图A.1。透气孔与标准试件边部、透气孔之间的间距为100mm士1mm。表面加工应平整，不能有划痕及毛刺等。透气孔直径为20mm士0.02mm，均布排列，透气孔内应清洁。说明：1—
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GBT71062019_A_3_6
+  source_clause: GB/T 7106-2019#A.3
+  rule_type: constraint
+  when:
+  - activity_type == '门窗性能检测'
+  - component_type IN ['IfcWindow', 'IfcDoor']
+  then:
+    parameter: 之间的间距
+    unit: mm
+    condition: null
+    min_value: 1.0
+    max_value: 1.0
+  source_text: A.3标准试件标准试件采用厚度为3.0mm士0.3mm，规格为500mm×500mm的不锈钢板加工，见图A.1。透气孔与标准试件边部、透气孔之间的间距为100mm士1mm。表面加工应平整，不能有划痕及毛刺等。透气孔直径为20mm士0.02mm，均布排列，透气孔内应清洁。说明：1—
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GBT71062019_A_3_7
+  source_clause: GB/T 7106-2019#A.3
+  rule_type: constraint
+  when:
+  - activity_type == '门窗性能检测'
+  - component_type IN ['IfcWindow', 'IfcDoor']
+  then:
+    parameter: 透气孔直径
+    unit: mm
+    condition: null
+    min_value: 20.0
+    max_value: 20.0
+  source_text: A.3标准试件标准试件采用厚度为3.0mm士0.3mm，规格为500mm×500mm的不锈钢板加工，见图A.1。透气孔与标准试件边部、透气孔之间的间距为100mm士1mm。表面加工应平整，不能有划痕及毛刺等。透气孔直径为20mm士0.02mm，均布排列，透气孔内应清洁。说明：1—
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GBT71062019_A_3_8
+  source_clause: GB/T 7106-2019#A.3
+  rule_type: constraint
+  when:
+  - activity_type == '门窗性能检测'
+  - component_type IN ['IfcWindow', 'IfcDoor']
+  then:
+    parameter: 透气孔直径
+    unit: mm
+    condition: null
+    min_value: 0.02
+    max_value: 0.02
+  source_text: A.3标准试件标准试件采用厚度为3.0mm士0.3mm，规格为500mm×500mm的不锈钢板加工，见图A.1。透气孔与标准试件边部、透气孔之间的间距为100mm士1mm。表面加工应平整，不能有划痕及毛刺等。透气孔直径为20mm士0.02mm，均布排列，透气孔内应清洁。说明：1—
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GBT71062019_A_5_1_1
+  source_clause: GB/T 7106-2019#A.5.1
+  rule_type: constraint
+  when:
+  - activity_type == '门窗性能检测'
+  - component_type IN ['IfcWindow', 'IfcDoor']
+  then:
+    parameter: 间不应少于
+    unit: h
+    condition: null
+    min_value: 1.0
+    max_value: 1.0
+  source_text: 校验应在试验室内进行，试验室环境温度应为20℃土5℃，检测前仪器通电预热时间不应少于1 h。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GBT71062019_A_7_2_1
+  source_clause: GB/T 7106-2019#A.7.2
+  rule_type: constraint
+  when:
+  - activity_type == '门窗性能检测'
+  - component_type IN ['IfcWindow', 'IfcDoor']
+  then:
+    parameter: 差值当误差
+    unit: '%'
+    condition: null
+    min_value: 5.0
+  source_text: A.7.2以检测装置第一次的校验记录为初始值。分别计算不同开孔数量时的空气渗透量差值。当误差超过士5%时应进行修正。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GBT71062019_B_4_1_1
+  source_clause: GB/T 7106-2019#B.4.1
+  rule_type: constraint
+  when:
+  - activity_type == '门窗性能检测'
+  - component_type IN ['IfcWindow', 'IfcDoor']
+  then:
+    parameter: 处位置土
+    unit: mm
+    condition: null
+    min_value: 50.0
+    max_value: 50.0
+  source_text: B.4.1集水箱的开口面放置于试件外样品表面应处位置土50mm范围内，平行于喷淋系统。用一个边长大约为760mm的方形盖子在集水箱开口部位，开启喷淋系统，按照压力箱全部开口范围设定总流量达到2L/（min·m²），流人每个区域（四个分区）的水分开收集。四个喷淋区域总淋水量最少为0
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GBT71062019_B_4_1_2
+  source_clause: GB/T 7106-2019#B.4.1
+  rule_type: constraint
+  when:
+  - activity_type == '门窗性能检测'
+  - component_type IN ['IfcWindow', 'IfcDoor']
+  then:
+    parameter: 个边长大约
+    unit: mm
+    condition: null
+    min_value: 760.0
+    max_value: 760.0
+  source_text: B.4.1集水箱的开口面放置于试件外样品表面应处位置土50mm范围内，平行于喷淋系统。用一个边长大约为760mm的方形盖子在集水箱开口部位，开启喷淋系统，按照压力箱全部开口范围设定总流量达到2L/（min·m²），流人每个区域（四个分区）的水分开收集。四个喷淋区域总淋水量最少为0
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GBT71062019_B_4_3_1
+  source_clause: GB/T 7106-2019#B.4.3
+  rule_type: constraint
+  when:
+  - activity_type == '门窗性能检测'
+  - component_type IN ['IfcWindow', 'IfcDoor']
+  then:
+    parameter: 校验GBT
+    unit: mm
+    condition: null
+    min_value: 2019.0
+    max_value: 2019.0
+  source_text: B.4.3不符合要求时应对淋水装置进行调整后再次进行校验。GB/T 7106—2019mmmm说明：1——样品表面平面；一控制集水箱集水时间的盖子；集水并称重的容器；一淋水装置。图 B.1校验喷淋系统的集水箱GB/T 7106—2019
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GBT71062019_C_2_2_1
+  source_clause: GB/T 7106-2019#C.2.2
+  rule_type: validation
+  when:
+  - activity_type == '门窗性能检测'
+  - component_type IN ['IfcWindow', 'IfcDoor']
+  then:
+    parameter: 分别取对数
+    unit: g
+    condition: null
+    min_value: 1.0
+    max_value: 1.0
+  source_text: 对式（C.5)两边分别取对数1g，则可以得到式（C.6)lg(qap）=lg(k)+c × lg(△P):( C.6 )
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GBT71062019_C_3_2_1
+  source_clause: GB/T 7106-2019#C.3.2
+  rule_type: validation
+  when:
+  - activity_type == '门窗性能检测'
+  - component_type IN ['IfcWindow', 'IfcDoor']
+  then:
+    parameter: lgk设定
+    unit: g
+    condition: null
+    min_value: 1.0
+    max_value: 1.0
+  source_text: C.3.2计算将lg（qap）设定为y，lg（△P）设定为α，lg（k）设定为a，设定为b1g（△P）算术平均值：x=（1.000十1.477十...十2.000）/5=1.604lg（qap）算术平均值：y=（1.242+1.344+.+1.805）/5=1.471斜率：(1.
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GBT71062019_C_3_2_2
+  source_clause: GB/T 7106-2019#C.3.2
+  rule_type: validation
+  when:
+  - activity_type == '门窗性能检测'
+  - component_type IN ['IfcWindow', 'IfcDoor']
+  then:
+    parameter: 可以得出
+    unit: g
+    condition: null
+    min_value: 1.0
+    max_value: 1.0
+  source_text: C.3.2计算将lg（qap）设定为y，lg（△P）设定为α，lg（k）设定为a，设定为b1g（△P）算术平均值：x=（1.000十1.477十...十2.000）/5=1.604lg（qap）算术平均值：y=（1.242+1.344+.+1.805）/5=1.471斜率：(1.
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GBT71062019_C_5_1_1
+  source_clause: GB/T 7106-2019#C.5.1
+  rule_type: validation
+  when:
+  - activity_type == '门窗性能检测'
+  - component_type IN ['IfcWindow', 'IfcDoor']
+  then:
+    parameter: 板品种
+    unit: mm
+    condition: null
+    min_value: 1400.0
+    max_value: 1400.0
+  source_text: 数据试件为铝合金窗，面板品种为中空玻璃，主受力杆件长为1400mm。表C.2列举了8组压力差与面法线挠度值的数据GB/T 7106—2019表 C.2压力差与面法线挠度值的数据序号压力差/Pa1 0002 0000.60面法线挠度值y/mm0.300.901.201.601.90
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GBT71062019_C_5_2_1
+  source_clause: GB/T 7106-2019#C.5.2
+  rule_type: validation
+  when:
+  - activity_type == '门窗性能检测'
+  - component_type IN ['IfcWindow', 'IfcDoor']
+  then:
+    parameter: 法线挠度值
+    unit: mm
+    condition: null
+    min_value: 3.73
+    max_value: 3.73
+  source_text: C.5.2计算压力差算术平均值：=（250十500十.：十2000）/8=1125面法线挠度值算术平均值：y=（0.30十0.60十.十2.80）/8=1.45斜率：(2501125)X(0.30-1.45)+(500-1125)×(0.60-1.45）+...+（2000-11
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+extraction_notes:
+- 源 PDF 为 CID 乱码文本层，自动提取得 0 条；需 OCR 重提取（待补）。实施日期（2020年？）待核。

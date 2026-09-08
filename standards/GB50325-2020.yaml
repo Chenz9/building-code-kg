@@ -1,0 +1,7437 @@
+standard:
+  code: GB 50325-2020
+  name: 民用建筑工程室内环境污染控制标准
+  name_note: null
+  version: '2020'
+  status: 现行
+  is_abolished: false
+  effective_date: null
+  abolished_date: null
+  superseded_by: null
+  standard_category: 国家标准
+  domain:
+  - 室内环境
+  - 污染控制
+  - 材料
+  region_scope: 全国
+  region_codes: []
+  has_mandatory_clauses: true
+  mandatory_clause_count: 17
+  mandatory_note: 源为扫描/OCR，黑体强条待核；已按 GB 55016-2021 公告标注 17 条废止强条（2022-04-01），4.3.1 库内缺失待补录。
+  total_clauses: 166
+  related_standards:
+  - code: GB 50210
+    relationship: 协调（建筑装饰装修工程质量验收）
+  - code: GB 55016-2021
+    relationship: 上位通用规范（建筑环境，已废止本规范 17 条强制性条文效力）
+  clauses:
+  - GB 50325-2020#1.0.1
+  - GB 50325-2020#1.0.2
+  - GB 50325-2020#1.0.3
+  - GB 50325-2020#1.0.4
+  - GB 50325-2020#1.0.5
+  - GB 50325-2020#1.0.6
+  - GB 50325-2020#2.1.1
+  - GB 50325-2020#2.1.2
+  - GB 50325-2020#2.1.3
+  - GB 50325-2020#2.1.4
+  - GB 50325-2020#2.1.5
+  - GB 50325-2020#2.1.6
+  - GB 50325-2020#2.1.7
+  - GB 50325-2020#2.1.8
+  - GB 50325-2020#2.1.9
+  - GB 50325-2020#2.1.10
+  - GB 50325-2020#2.1.11
+  - GB 50325-2020#2.1.12
+  - GB 50325-2020#2.1.13
+  - GB 50325-2020#3.1.1
+  - GB 50325-2020#3.1.2
+  - GB 50325-2020#3.1.3
+  - GB 50325-2020#3.1.4
+  - GB 50325-2020#3.2.1
+  - GB 50325-2020#3.2.2
+  - GB 50325-2020#3.2.3
+  - GB 50325-2020#3.2.4
+  - GB 50325-2020#3.3.1
+  - GB 50325-2020#3.3.2
+  - GB 50325-2020#3.3.3
+  - GB 50325-2020#3.3.4
+  - GB 50325-2020#3.3.5
+  - GB 50325-2020#3.4.1
+  - GB 50325-2020#3.4.2
+  - GB 50325-2020#3.4.3
+  - GB 50325-2020#3.5.1
+  - GB 50325-2020#3.5.2
+  - GB 50325-2020#3.6.1
+  - GB 50325-2020#3.6.2
+  - GB 50325-2020#3.6.3
+  - GB 50325-2020#3.6.4
+  - GB 50325-2020#3.6.5
+  - GB 50325-2020#3.6.6
+  - GB 50325-2020#3.6.7
+  - GB 50325-2020#3.6.8
+  - GB 50325-2020#3.6.9
+  - GB 50325-2020#4.1.1
+  - GB 50325-2020#4.1.2
+  - GB 50325-2020#4.1.3
+  - GB 50325-2020#4.1.4
+  - GB 50325-2020#4.2.1
+  - GB 50325-2020#4.2.2
+  - GB 50325-2020#4.2.3
+  - GB 50325-2020#4.2.4
+  - GB 50325-2020#4.2.5
+  - GB 50325-2020#4.2.6
+  - GB 50325-2020#4.2.7
+  - GB 50325-2020#4.2.8
+  - GB 50325-2020#4.3.11
+  - GB 50325-2020#4.3.2
+  - GB 50325-2020#4.3.3
+  - GB 50325-2020#4.3.4
+  - GB 50325-2020#4.3.5
+  - GB 50325-2020#4.3.6
+  - GB 50325-2020#4.3.7
+  - GB 50325-2020#4.3.8
+  - GB 50325-2020#4.3.9
+  - GB 50325-2020#5.1.1
+  - GB 50325-2020#5.1.2
+  - GB 50325-2020#5.1.3
+  - GB 50325-2020#5.1.4
+  - GB 50325-2020#5.1.5
+  - GB 50325-2020#5.1.6
+  - GB 50325-2020#5.2.1
+  - GB 50325-2020#5.2.2
+  - GB 50325-2020#5.2.3
+  - GB 50325-2020#5.2.4
+  - GB 50325-2020#5.2.5
+  - GB 50325-2020#5.2.6
+  - GB 50325-2020#5.2.7
+  - GB 50325-2020#5.2.8
+  - GB 50325-2020#5.2.9
+  - GB 50325-2020#5.3.1
+  - GB 50325-2020#5.3.2
+  - GB 50325-2020#5.3.3
+  - GB 50325-2020#5.3.4
+  - GB 50325-2020#5.3.5
+  - GB 50325-2020#5.3.6
+  - GB 50325-2020#5.3.7
+  - GB 50325-2020#5.3.8
+  - GB 50325-2020#5.3.9
+  - GB 50325-2020#5.3.10
+  - GB 50325-2020#6.0.1
+  - GB 50325-2020#6.0.2
+  - GB 50325-2020#6.0.3
+  - GB 50325-2020#6.0.4
+  - GB 50325-2020#6.0.5
+  - GB 50325-2020#6.0.6
+  - GB 50325-2020#6.0.7
+  - GB 50325-2020#6.0.8
+  - GB 50325-2020#6.0.9
+  - GB 50325-2020#6.0.10
+  - GB 50325-2020#6.0.11
+  - GB 50325-2020#6.0.12
+  - GB 50325-2020#6.0.13
+  - GB 50325-2020#6.0.14
+  - GB 50325-2020#6.0.15
+  - GB 50325-2020#6.0.16
+  - GB 50325-2020#6.0.17
+  - GB 50325-2020#6.0.18
+  - GB 50325-2020#6.0.19
+  - GB 50325-2020#6.0.20
+  - GB 50325-2020#6.0.21
+  - GB 50325-2020#6.0.22
+  - GB 50325-2020#6.0.23
+  - GB 50325-2020#A.1
+  - GB 50325-2020#A.1.1
+  - GB 50325-2020#A.1.2
+  - GB 50325-2020#A.1.3
+  - GB 50325-2020#A.2
+  - GB 50325-2020#A.2.1
+  - GB 50325-2020#A.2.2
+  - GB 50325-2020#B.0.1
+  - GB 50325-2020#B.0.2
+  - GB 50325-2020#B.0.3
+  - GB 50325-2020#B.0.4
+  - GB 50325-2020#B.0.5
+  - GB 50325-2020#B.0.7
+  - GB 50325-2020#B.0.8
+  - GB 50325-2020#C.1
+  - GB 50325-2020#C.1.1
+  - GB 50325-2020#C.1.2
+  - GB 50325-2020#C.1.3
+  - GB 50325-2020#C.1.4
+  - GB 50325-2020#C.1.5
+  - GB 50325-2020#C.1.6
+  - GB 50325-2020#C.1.7
+  - GB 50325-2020#C.1.8
+  - GB 50325-2020#C.1.9
+  - GB 50325-2020#C.1.10
+  - GB 50325-2020#C.2
+  - GB 50325-2020#C.2.1
+  - GB 50325-2020#C.2.2
+  - GB 50325-2020#C.2.3
+  - GB 50325-2020#C.3
+  - GB 50325-2020#C.3.1
+  - GB 50325-2020#C.3.2
+  - GB 50325-2020#C.3.3
+  - GB 50325-2020#C.3.4
+  - GB 50325-2020#D.0.1
+  - GB 50325-2020#D.0.2
+  - GB 50325-2020#D.0.3
+  - GB 50325-2020#D.0.4
+  - GB 50325-2020#D.0.5
+  - GB 50325-2020#D.0.6
+  - GB 50325-2020#D.0.7
+  - GB 50325-2020#D.0.8
+  - GB 50325-2020#E.0.1
+  - GB 50325-2020#E.0.2
+  - GB 50325-2020#E.0.3
+  - GB 50325-2020#E.0.4
+  - GB 50325-2020#E.0.5
+  - GB 50325-2020#E.0.6
+  - GB 50325-2020#E.0.7
+  - GB 50325-2020#E.0.8
+  - GB 50325-2020#E.0.9
+  schema_version: v2.1
+  last_reviewed_date: '2026-09-07'
+clauses:
+- id: GB 50325-2020#1.0.1
+  standard_code: GB 50325-2020
+  chapter: 1 总则
+  section: ''
+  clause_no: 1.0.1
+  text: 为了预防和控制民用建筑工程中主体材料和装饰装修材料产生的室内环境污染，保障公众健康，维护公共利益，做到技术先进、经济合理，制定本标准。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#1.0.2
+  standard_code: GB 50325-2020
+  chapter: 1 总则
+  section: ''
+  clause_no: 1.0.2
+  text: 本标准适用于新建、扩建和改建的民用建筑工程室内环境污染控制。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#1.0.3
+  standard_code: GB 50325-2020
+  chapter: 1 总则
+  section: ''
+  clause_no: 1.0.3
+  text: 本标准控制的室内环境污染物包括氨、甲醛、氨、苯、甲苯、二甲苯和总挥发性有机化合物。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#1.0.4
+  standard_code: GB 50325-2020
+  chapter: 1 总则
+  section: ''
+  clause_no: 1.0.4
+  text: 民用建筑工程的划分应符合下列规定：1I类民用建筑应包括住宅、居住功能公寓、医院病房、老年人照料房屋设施、幼儿园人学校教室、学生宿舍等；2Ⅱ类民用建筑应包括办公楼、商店旅馆、文化娱乐场所、书店、图书馆、展览馆、体育馆、公共交通等候室、餐厅等。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#1.0.5
+  standard_code: GB 50325-2020
+  chapter: 1 总则
+  section: ''
+  clause_no: 1.0.5
+  text: 民用建筑工程所选用的建筑主体材料和装饰装修材料应符合本标准有关规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#1.0.6
+  standard_code: GB 50325-2020
+  chapter: 1 总则
+  section: ''
+  clause_no: 1.0.6
+  text: 民用建筑室内环境污染控制除应符合本标准的规定外，尚应符合国家现行有关标准的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#2.1.1
+  standard_code: GB 50325-2020
+  chapter: 2 术语和符号
+  section: 2.1术语
+  clause_no: 2.1.1
+  text: 民用建筑工程civil building engineering新建、扩建和改建的民用建筑结构工程和装饰装修工程的统称。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#2.1.2
+  standard_code: GB 50325-2020
+  chapter: 2 术语和符号
+  section: 2.1术语
+  clause_no: 2.1.2
+  text: 环境测试舱、environmental test。chamber，模拟室内环境测试装饰装修材料化学污染物释放量的设备。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#2.1.3
+  standard_code: GB 50325-2020
+  chapter: 2 术语和符号
+  section: 2.1术语
+  clause_no: 2.1.3
+  text: 表面氢析出率单位面积、单位时间土壤或材料表面析出的氢的放射性活度。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#2.1.4
+  standard_code: GB 50325-2020
+  chapter: 2 术语和符号
+  section: 2.1术语
+  clause_no: 2.1.4
+  text: 内照射指数(IRa）)internal exposure index建筑主体材料和装饰装修材料中天然放射性核素镭一226的放射性比活度，除以比活度限量值200而得的商。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#2.1.5
+  standard_code: GB 50325-2020
+  chapter: 2 术语和符号
+  section: 2.1术语
+  clause_no: 2.1.5
+  text: 外照射指数(I，）external exposure index建筑主体材料和装饰装修材料中天然放射性核素镭一226、一232和钾一40的放射性比活度，分别除以比活度限量值370、260、4200而得的商之和。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#2.1.6
+  standard_code: GB 50325-2020
+  chapter: 2 术语和符号
+  section: 2.1术语
+  clause_no: 2.1.6
+  text: 氢浓度radon concentration单位体积空气中氨的放射性活度。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#2.1.7
+  standard_code: GB 50325-2020
+  chapter: 2 术语和符号
+  section: 2.1术语
+  clause_no: 2.1.7
+  text: 人造木板wood-basedpanels以木材或非木材植物纤维为主要原料，加工成各种材料单元，施加（或不施加）胶粘剂和其他添加剂，组坏胶合而成的板材或成型制品。主要包括胶合板、纤维板、刨花板及其表面装饰板等产品。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#2.1.8
+  standard_code: GB 50325-2020
+  chapter: 2 术语和符号
+  section: 2.1术语
+  clause_no: 2.1.8
+  text: 木塑制品wood-plasticcompositeproducts由木质纤维材料与热塑性高分子聚合物按一定比例制成的产.2.品。主要包括木塑地板、木塑装饰板、木塑门等。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#2.1.9
+  standard_code: GB 50325-2020
+  chapter: 2 术语和符号
+  section: 2.1术语
+  clause_no: 2.1.9
+  text: 水性处理剂waterbased treatment agents以水作为稀释剂，能浸入建筑主体材料和装饰装修材料内部，提高其阻燃、防水、防腐等性能的液体。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#2.1.10
+  standard_code: GB 50325-2020
+  chapter: 2 术语和符号
+  section: 2.1术语
+  clause_no: 2.1.10
+  text: 本体型胶粘剂bulk construction adhesive溶剂含量或者水含量占胶体总质量在5%以内的胶粘剂。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 体总质量在
+    unit: '%'
+    condition: null
+    min_value: 5.0
+    max_value: 5.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#2.1.11
+  standard_code: GB 50325-2020
+  chapter: 2 术语和符号
+  section: 2.1术语
+  clause_no: 2.1.11
+  text: 空气中总挥发性有机化合物的量total volatile or-ganic compounds在本标准规定的检测条件下，所测得空气中挥发性有机化合物的总量，简称TVOC。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#2.1.12
+  standard_code: GB 50325-2020
+  chapter: 2 术语和符号
+  section: 2.1术语
+  clause_no: 2.1.12
+  text: 材料中挥发性有机化合物的量volatile organic com-pound在本标准规定的检测条件下，所测得材料中挥发性有机化合物的总量，简称VOC。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#2.1.13
+  standard_code: GB 50325-2020
+  chapter: 2 术语和符号
+  section: 2.1术语
+  clause_no: 2.1.13
+  text: 装饰装修材料使用量负荷比decoratematerial load-ing factor室内装饰装修时，使用的装饰装修材料总暴露面积与房间净空间容积之比。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#3.1.1
+  standard_code: GB 50325-2020
+  chapter: 3 材料
+  section: 3.1无机非金属建筑主体材料和装饰装修材料
+  clause_no: 3.1.1
+  text: 民用建筑工程所使用的砂、石、砖、实心砌块、水泥、混凝土、混凝土预制构件等无机非金属建筑主体材料，其放射性限量应符合现行国家标准《建筑材料放射性核素限量》CB6566的规定。
+  is_abolished: true
+  abolished_date: '2022-04-01'
+  superseded_by: GB 55016-2021
+  abolition_note: 被《建筑环境通用规范》GB 55016-2021 废止强制性条文效力（住建部公告，2022-04-01 起实施）
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 住建部公告2020年第46号强制性条文
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#3.1.2
+  standard_code: GB 50325-2020
+  chapter: 3 材料
+  section: 3.1无机非金属建筑主体材料和装饰装修材料
+  clause_no: 3.1.2
+  text: 民用建筑工程所使用的石材、建筑卫生陶瓷、石膏制品、无机粉黏结材料等无机非金属装饰装修材料，其放射性限量应分类符合现行国家标准《建筑材料放射性核素限量》GB6566的规定。
+  is_abolished: true
+  abolished_date: '2022-04-01'
+  superseded_by: GB 55016-2021
+  abolition_note: 被《建筑环境通用规范》GB 55016-2021 废止强制性条文效力（住建部公告，2022-04-01 起实施）
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 住建部公告2020年第46号强制性条文
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 6566
+    target_clause: null
+    original_text: 民用建筑工程所使用的石材、建筑卫生陶瓷、石膏制品、无机粉黏结材料等无机非金属装饰装修材料，其放射性限量应分类符合现行国家标准《建筑材料放射性核素限量》GB6566的规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#3.1.3
+  standard_code: GB 50325-2020
+  chapter: 3 材料
+  section: 3.1无机非金属建筑主体材料和装饰装修材料
+  clause_no: 3.1.3
+  text: 当民用建筑工程使用加气混凝土制品和空心率.孔洞率,大于25、的空心砖，空心砌块等建筑主体材料时。其放射性限量应符合表3.1.3的规定，孔洞率 大于。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 心率孔洞率
+    unit: '%'
+    condition: null
+    min_value: 25.0
+    max_value: null
+  tables:
+  - table_id: 表3.1.3
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表3.1.3的规定。表3.1.3人加气混凝土制品和空心率（孔洞率）大于25%的建筑主体材料放射性限量测定项目限量表面氢析出率[Bq/（m²·s)]≤0.015内照射指数（IRa）≤1.0外照射指数（I）≤1.3
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#3.1.4
+  standard_code: GB 50325-2020
+  chapter: 3 材料
+  section: 3.1无机非金属建筑主体材料和装饰装修材料
+  clause_no: 3.1.4
+  text: 主体材料和装饰装修材料放射性核素的测定方法应符合现行国家标准《建筑材料放射性核素限量》GB6566的有关规定，表面氨析出率的测定方法应符合本标准附录A的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 6566
+    target_clause: null
+    original_text: 主体材料和装饰装修材料放射性核素的测定方法应符合现行国家标准《建筑材料放射性核素限量》GB6566的有关规定，表面氨析出率的测定方法应符合本标准附录A的规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#3.2.1
+  standard_code: GB 50325-2020
+  chapter: 3 材料
+  section: 3.2人造木板及其制品
+  clause_no: 3.2.1
+  text: 民用建筑工程室内用人造木板及其制品应测定游离甲醛释放量。.4.
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#3.2.2
+  standard_code: GB 50325-2020
+  chapter: 3 材料
+  section: 3.2人造木板及其制品
+  clause_no: 3.2.2
+  text: 人造木板及其制品可采用环境测试舱法或干燥器法测定甲醛释放量，当发生争议时应以环境测试舱法的测定结果为准。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#3.2.3
+  standard_code: GB 50325-2020
+  chapter: 3 材料
+  section: 3.2人造木板及其制品
+  clause_no: 3.2.3
+  text: 环境测试舱法测定的人造木板及其制品的游离甲醛释放量不应大于0.124mg/m，测定方法应按本标准附录B执行。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 释放量
+    unit: m
+    condition: null
+    min_value: 0.124
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#3.2.4
+  standard_code: GB 50325-2020
+  chapter: 3 材料
+  section: 3.2人造木板及其制品
+  clause_no: 3.2.4
+  text: 干燥器法测定的人造木板及其制品的游离甲醛释放量不应大于1.5mg/L，测定方法应符合现行国家标准《人造板及饰面人造板理化性能试验方法》GB/T17657的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 释放量
+    unit: m
+    condition: null
+    min_value: 1.5
+    max_value: null
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB/T 17657
+    target_clause: null
+    original_text: 干燥器法测定的人造木板及其制品的游离甲醛释放量不应大于1.5mg/L，测定方法应符合现行国家标准《人造板及饰面人造板理化性能试验方法》GB/T17657的规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#3.3.1
+  standard_code: GB 50325-2020
+  chapter: 3 材料
+  section: 3.3涂料
+  clause_no: 3.3.1
+  text: 民用建筑工程室内用水性装饰板涂料、水性墙面涂料、水性墙面腻子的游离甲醛限量，应符合现行国家标准《建筑用墙面涂料中有害物质限量》GB18582的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 18582
+    target_clause: null
+    original_text: 民用建筑工程室内用水性装饰板涂料、水性墙面涂料、水性墙面腻子的游离甲醛限量，应符合现行国家标准《建筑用墙面涂料中有害物质限量》GB18582的规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#3.3.2
+  standard_code: GB 50325-2020
+  chapter: 3 材料
+  section: 3.3涂料
+  clause_no: 3.3.2
+  text: 民用建筑工程室内用其他水性涂料和水性腻子。应测定游离甲醛的含量,其限量应符合表3.3.2的规定。其测定方法应符合现行国家标准、水性涂料中甲醛含量的测定、乙酰丙酮分光光度法 GB.T。23993的规定.。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表3.3.2
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表3.3.2的规定，其测定方法应符合现行国家标准《水性涂料中甲醛含量的测定乙酰丙酮分光光度法》GB/T23993的规定。限量测定项目其他水性涂料其他水性腻子游离甲醛（mg/kg）≤100
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#3.3.3
+  standard_code: GB 50325-2020
+  chapter: 3 材料
+  section: 3.3涂料
+  clause_no: 3.3.3
+  text: 民用建筑工程室内用溶剂型装饰板涂料的VOC和苯、甲苯十二甲苯十乙苯限量，应符合现行国家标准《建筑用墙面涂料中有害物质限量》GB18582的规定；溶剂型木器涂料和腻子的VOC和苯、甲苯十二甲苯十乙苯限量，应符合现行国家标准《木器涂料中有害物质限量》GB18581的规定；溶剂型地坪涂料的VOC和苯、甲苯十二甲苯十乙苯限量，应符合现行国家标准《室内地坪涂料中有害物质限量》GB38468的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 18582
+    target_clause: null
+    original_text: 型装饰板涂料的VOC和苯、甲苯十二甲苯十乙苯限量，应符合现行国家标准《建筑用墙面涂料中有害物质限量》GB18582的规定；溶剂型木器涂料和腻子的VOC和苯、甲苯十二甲苯十乙苯限量，应符合现行国家
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  - target_standard: GB 18581
+    target_clause: null
+    original_text: 剂型木器涂料和腻子的VOC和苯、甲苯十二甲苯十乙苯限量，应符合现行国家标准《木器涂料中有害物质限量》GB18581的规定；溶剂型地坪涂料的VOC和苯、甲苯十二甲苯十乙苯限量，应符合现行国家标准《
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  - target_standard: GB 38468
+    target_clause: null
+    original_text: 溶剂型地坪涂料的VOC和苯、甲苯十二甲苯十乙苯限量，应符合现行国家标准《室内地坪涂料中有害物质限量》GB38468的规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#3.3.4
+  standard_code: GB 50325-2020
+  chapter: 3 材料
+  section: 3.3涂料
+  clause_no: 3.3.4
+  text: 民用建筑工程室内用酚醛防锈涂料,防水涂料,防火涂料及其他溶剂型涂料、应按其规定的最大稀释比例混合后 测定VOC和苯、甲苯、二甲苯,乙苯的含量，其限量均应符合表3.3.4的规定。VOC含量测定方法应符合现行国家标准，色漆和清漆 挥发性有机化合物,VOC、含量的测定、差值法，GB.T.23985的规定，苯。甲苯、二甲苯，乙苯含量测定方法应符合现行国家标准。涂料中苯 甲苯。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表3.3.4
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文）
+    content: 的规定；VOC含量测定方法应符合现行国家标准《色漆和清漆挥发性有机化合物（VOC)含量的测定差值法》GB/T23985的规定，苯、甲苯十二甲苯十乙苯含量测定方法应符合现行国家标准《涂料中苯、甲苯、乙苯和二甲苯含量的测定气相色谱法》GB/T23990的规定。表3.3.4室内用酚醛防锈涂料、防水涂料、防火涂料及其他溶剂型涂料中VOC、苯、甲苯十三甲苯+乙苯限量VOC甲苯十二甲苯十乙苯涂料名称(g/L)(%)酚醛防锈涂料≤270防水涂料≤750≤0.2防火涂料≤0.1其他溶剂型涂料
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#3.3.5
+  standard_code: GB 50325-2020
+  chapter: 3 材料
+  section: 3.3涂料
+  clause_no: 3.3.5
+  text: 民用建筑工程室内用聚氨酯类涂料和木器用聚氨酯类腻子中的VOC苯、甲苯十二甲苯十乙苯、游离二异氰酸酯（TDI十HDI)限量，应符合现行国家标准《木器涂料中有害物质限量》GB18581的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 18581
+    target_clause: null
+    original_text: 民用建筑工程室内用聚氨酯类涂料和木器用聚氨酯类腻子中的VOC苯、甲苯十二甲苯十乙苯、游离二异氰酸酯（TDI十HDI)限量，应符合现行国家标准《木器涂料中有害物质限量》GB18581的规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#3.4.1
+  standard_code: GB 50325-2020
+  chapter: 3 材料
+  section: 3.4胶粘剂
+  clause_no: 3.4.1
+  text: 民用建筑工程室内用水性胶粘剂的游离甲醛限量，应符合现行国家标准《建筑胶粘剂有害物质限量》GB30982的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 30982
+    target_clause: null
+    original_text: 民用建筑工程室内用水性胶粘剂的游离甲醛限量，应符合现行国家标准《建筑胶粘剂有害物质限量》GB30982的规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#3.4.2
+  standard_code: GB 50325-2020
+  chapter: 3 材料
+  section: 3.4胶粘剂
+  clause_no: 3.4.2
+  text: 民用建筑工程室内用水性胶粘剂、溶剂型胶粘剂、本体型胶粘剂的VOC限量，应符合现行国家标准《胶粘剂挥发性有机化合物限量》GB/T33372的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB/T 33372
+    target_clause: null
+    original_text: 民用建筑工程室内用水性胶粘剂、溶剂型胶粘剂、本体型胶粘剂的VOC限量，应符合现行国家标准《胶粘剂挥发性有机化合物限量》GB/T33372的规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#3.4.3
+  standard_code: GB 50325-2020
+  chapter: 3 材料
+  section: 3.4胶粘剂
+  clause_no: 3.4.3
+  text: 民用建筑工程室内用溶剂型胶粘剂、本体型胶粘剂的苯、甲苯十二甲苯、游离甲苯二异氰酸酯（TDI）限量，应符合现行国家标准《建筑胶粘剂有害物质限量》GB30982的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 30982
+    target_clause: null
+    original_text: 民用建筑工程室内用溶剂型胶粘剂、本体型胶粘剂的苯、甲苯十二甲苯、游离甲苯二异氰酸酯（TDI）限量，应符合现行国家标准《建筑胶粘剂有害物质限量》GB30982的规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#3.5.1
+  standard_code: GB 50325-2020
+  chapter: 3 材料
+  section: 3.5水性处理剂
+  clause_no: 3.5.1
+  text: 民用建筑工程室内用水性阻燃剂（包括防火涂料）防水剂、防腐剂、增强剂等水性处理剂，应测定游离甲醛的含量，其限量不应大于100mg/kg。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 其限量
+    unit: m
+    condition: null
+    min_value: 100.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#3.5.2
+  standard_code: GB 50325-2020
+  chapter: 3 材料
+  section: 3.5水性处理剂
+  clause_no: 3.5.2
+  text: 水性处理剂中游离甲醛含量的测定方法，应按现行国家标准《水性涂料中甲醛含量的测定乙酰丙酮分光光度法》GB/T23993规定的方法进行。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB/T 23993
+    target_clause: null
+    original_text: 水性处理剂中游离甲醛含量的测定方法，应按现行国家标准《水性涂料中甲醛含量的测定乙酰丙酮分光光度法》GB/T23993规定的方法进行。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#3.6.1
+  standard_code: GB 50325-2020
+  chapter: 3 材料
+  section: 3.6其他材料
+  clause_no: 3.6.1
+  text: 民用建筑工程中所使用的混凝土外加剂，氨的释放量不应大于0.10%，氨释放量测定方法应符合现行国家标准《混凝土外加剂中释放氨的限量》GB18588的有关规定。
+  is_abolished: true
+  abolished_date: '2022-04-01'
+  superseded_by: GB 55016-2021
+  abolition_note: 被《建筑环境通用规范》GB 55016-2021 废止强制性条文效力（住建部公告，2022-04-01 起实施）
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 住建部公告2020年第46号强制性条文
+  parameters:
+  - name: 释放量
+    unit: '%'
+    condition: null
+    min_value: 0.1
+    max_value: null
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 18588
+    target_clause: null
+    original_text: 民用建筑工程中所使用的混凝土外加剂，氨的释放量不应大于0.10%，氨释放量测定方法应符合现行国家标准《混凝土外加剂中释放氨的限量》GB18588的有关规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#3.6.2
+  standard_code: GB 50325-2020
+  chapter: 3 材料
+  section: 3.6其他材料
+  clause_no: 3.6.2
+  text: 民用建筑工程中所使用的能释放氮的阻燃剂、防火涂料、水性建筑防水涂料氨的释放量不应大于0.50%，测定方法宜符合现行行业标准《建筑防火涂料有害物质限量及检测方法》JG/T415的有关规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 释放量
+    unit: '%'
+    condition: null
+    min_value: 0.5
+    max_value: null
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: JG/T 415
+    target_clause: null
+    original_text: 民用建筑工程中所使用的能释放氮的阻燃剂、防火涂料、水性建筑防水涂料氨的释放量不应大于0.50%，测定方法宜符合现行行业标准《建筑防火涂料有害物质限量及检测方法》JG/T415的有关规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#3.6.3
+  standard_code: GB 50325-2020
+  chapter: 3 材料
+  section: 3.6其他材料
+  clause_no: 3.6.3
+  text: 民用建筑工程中所使用的能释放甲醛的混凝土外加剂中，残留甲醛的量不应大于500mg/kg，测定方法应符合现行国家标准《混凝土外加剂中残留甲醛的限量》GB31040的有关规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 醛的量
+    unit: m
+    condition: null
+    min_value: 500.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 31040
+    target_clause: null
+    original_text: 民用建筑工程中所使用的能释放甲醛的混凝土外加剂中，残留甲醛的量不应大于500mg/kg，测定方法应符合现行国家标准《混凝土外加剂中残留甲醛的限量》GB31040的有关规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#3.6.4
+  standard_code: GB 50325-2020
+  chapter: 3 材料
+  section: 3.6其他材料
+  clause_no: 3.6.4
+  text: 民用建筑室内使用的黏合木结构材料，游离甲醛释放量不应大于0.124mg/m²，其测定方法应符合本标准附录B的有关规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 释放量
+    unit: m
+    condition: null
+    min_value: 0.124
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#3.6.5
+  standard_code: GB 50325-2020
+  chapter: 3 材料
+  section: 3.6其他材料
+  clause_no: 3.6.5
+  text: 民用建筑室内用帷幕、软包等游离甲醛释放量不应大于0.124mg/m3，其测定方法应符合本标准附录B的有关规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 释放量
+    unit: m
+    condition: null
+    min_value: 0.124
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#3.6.6
+  standard_code: GB 50325-2020
+  chapter: 3 材料
+  section: 3.6其他材料
+  clause_no: 3.6.6
+  text: 民用建筑室内用墙纸,布。中游离甲醛含量限量应符合表3.6.6的有关规定,其测定方法应符合现行国家标准，室内装饰装修材料 壁纸中有害物质限量，GB 18585的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表3.6.6
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文）
+    content: 的有关规定，其测定方法应符合现行国家标准《室内装饰装修材料壁纸中有害物质限量》GB18585的规定。表3.6.6室内用墙纸（布）中游离甲醛限量限量测定项目无纺墙纸纺织面墙纸（布）其他墙纸(布)游离甲醛（mg/kg）《120≤60《120
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#3.6.7
+  standard_code: GB 50325-2020
+  chapter: 3 材料
+  section: 3.6其他材料
+  clause_no: 3.6.7
+  text: 民用建筑室内用聚氯乙烯卷材地板,木塑制品地板、橡塑类铺地材料中挥发物含量测定方法应符合现行国家标准。室内装饰装修材料,聚氯乙烯卷材地板中有害物质限量。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表3.6.7
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表3.6.7的有关规定。表3.6.7聚氯乙烯卷材地板、木塑制品地板、橡塑类铺地材料中挥发物限量限量（g/m3）玻璃纤维基材聚氯乙烯卷材地板（发泡类）其他基材玻璃纤维基材≤40聚氯乙烯卷材地板(非发泡类)其他基材木塑制品地板（基材发泡）木塑制品地板（基材不发泡）≤40橡塑类铺地材料≤50
+  converted_tables: []
+  references:
+  - target_standard: GB 18586
+    target_clause: null
+    original_text: 民用建筑室内用聚氯乙烯卷材地板、木塑制品地板、橡塑类铺地材料中挥发物含量测定方法应符合现行国家标准《室内装饰装修材料聚氯乙烯卷材地板中有害物质限量》GB18586的规定，其限量应符合
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#3.6.8
+  standard_code: GB 50325-2020
+  chapter: 3 材料
+  section: 3.6其他材料
+  clause_no: 3.6.8
+  text: 民用建筑室内用地毯，地毯衬垫中VOC和游离甲醛的释放量测定方法应符合本标准附录B的有关规定、其限量应符合表3.6.8的规定,地毯衬垫中VOC和游离甲醛释放限量。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表3.6.8
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文）
+    content: 的规定。表3.6.8地毯、地毯衬垫中VOC和游离甲醛释放限量限量［mg/（m²·h）测定项目VOC≤0.500地毯游离甲醛VOC≤1.000地毯衬垫游离甲醛
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#3.6.9
+  standard_code: GB 50325-2020
+  chapter: 3 材料
+  section: 3.6其他材料
+  clause_no: 3.6.9
+  text: 民用建筑室内用壁纸胶。基膜的墙纸。布,胶粘剂中游离甲醛.苯、甲苯 乙苯、二甲苯,VOC的限量应符合表3.6.9的有关规定.游离甲醛含量测定方法应符合现行国家标准，建筑胶粘剂有害物质限量,GB，30982的规定，苯、甲苯。乙苯.二甲苯测定方法应符合现行国家标准.建筑胶粘剂有害物质限量，GB，30982的规定 VOC含量的测定方法应符合现行国家标准.胶粘剂挥发性有机化合物限量.GB、T 33372的规定.布，胶粘剂中游离甲醛，苯.甲苯。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表3.6.9
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表3.6.9的有关规定，游离甲醛含量测定方法应符合现行国家标准《建筑胶粘剂有害物质限量》GB30982的规定；苯十甲苯十乙苯十二甲苯测定方法应符合现行国家标准《建筑胶粘剂有害物质限量》GB30982的规定；VOC含量的测定方法应符合现行国家标准《胶粘剂挥发性有机化合物限量》GB/T33372的规定。表3.6.9室内用墙纸（布)胶粘剂中游离甲醛、苯+甲苯十乙苯+二甲苯、VoC限量测定项目人壁纸胶基膜游离甲醛（mg/kg）《100《100苯十甲苯十乙苯十二甲苯（g/kg）≤10≤0.3VOC(g/L≤350≤120浏览专
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#4.1.1
+  standard_code: GB 50325-2020
+  chapter: 4 工程勘察设计
+  section: 4.1一般规定
+  clause_no: 4.1.1
+  text: 新建、扩建的民用建筑工程，设计前应对建筑工程所在城市区域土壤中氢浓度或土壤表面氢析出率进行调查，并提交相应的调查报告。未进行过区域土壤中氢浓度或土壤表面氢析出率测定的，应对建筑场地土壤中氢浓度或土壤氢析出率进行测定，并提供相应的检测报告。
+  is_abolished: true
+  abolished_date: '2022-04-01'
+  superseded_by: GB 55016-2021
+  abolition_note: 被《建筑环境通用规范》GB 55016-2021 废止强制性条文效力（住建部公告，2022-04-01 起实施）
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 住建部公告2020年第46号强制性条文
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#4.1.2
+  standard_code: GB 50325-2020
+  chapter: 4 工程勘察设计
+  section: 4.1一般规定
+  clause_no: 4.1.2
+  text: 民用建筑室内装饰装修设计应有污染控制措施，应进行装饰装修设计污染控制预评估，控制装饰装修材料使用量负荷比和材料污染物释放量，采用装配式装修等先进技术，装饰装修制品、部件宜工厂加工制作现场安装。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#4.1.3
+  standard_code: GB 50325-2020
+  chapter: 4 工程勘察设计
+  section: 4.1一般规定
+  clause_no: 4.1.3
+  text: 民用建筑室内通风设计应符合现行国家标准《民用建筑设计统一标准》GB50352的有关规定，采用集中空调的民用建筑工程，新风量应符合现行国家标准《民用建筑供暖通风与空气调节设计规范》GB50736的有关规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50352
+    target_clause: null
+    original_text: 民用建筑室内通风设计应符合现行国家标准《民用建筑设计统一标准》GB50352的有关规定，采用集中空调的民用建筑工程，新风量应符合现行国家标准《民用建筑供暖通风与空气调节设计规范》GB50736的有关规定。
+    resolution_status: resolved
+    resolution_note: 库内标准（GB 50352-2019），可交叉引用并确认具体参数
+  - target_standard: GB 50736
+    target_clause: null
+    original_text: 民用建筑室内通风设计应符合现行国家标准《民用建筑设计统一标准》GB50352的有关规定，采用集中空调的民用建筑工程，新风量应符合现行国家标准《民用建筑供暖通风与空气调节设计规范》GB50736的有关规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#4.1.4
+  standard_code: GB 50325-2020
+  chapter: 4 工程勘察设计
+  section: 4.1一般规定
+  clause_no: 4.1.4
+  text: 夏热冬冷地区、严寒及寒冷地区等采用自然通风的I类民用建筑最小通风换气次数不应低于0.5次/h，必要时应采取机械通风换气措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#4.2.1
+  standard_code: GB 50325-2020
+  chapter: 4 工程勘察设计
+  section: 4.2工程地点土壤中氢浓度调查及防氢
+  clause_no: 4.2.1
+  text: 新建、扩建的民用建筑工程的工程地质勘察资料，应包括工程所在城市区域土壤氢浓度或土壤表面氢析出率测定历史资料及土壤氢浓度或土壤表面氢析出率平均值数据。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#4.2.2
+  standard_code: GB 50325-2020
+  chapter: 4 工程勘察设计
+  section: 4.2工程地点土壤中氢浓度调查及防氢
+  clause_no: 4.2.2
+  text: 已进行过土壤中氢浓度或土壤表面氢析出率区域性测定的民用建筑工程，当土壤氢浓度测定结果平均值不大于10000Bq/m:10:或土壤表面析出率测定结果平均值不大于0.02Bq/（m²·s），且工程场地所在地点不存在地质断裂构造时，可不再进行土壤浓度测定；其他情况均应进行工程场地土壤浓度或土壤表面析出率测定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#4.2.3
+  standard_code: GB 50325-2020
+  chapter: 4 工程勘察设计
+  section: 4.2工程地点土壤中氢浓度调查及防氢
+  clause_no: 4.2.3
+  text: 当民用建筑工程场地土壤氢浓度平均值不大于20000Bq/m²或土壤表面氢析出率不大于0.05Bq/（m²·s）时，可不采取防工程措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: may
+    modal_words:
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#4.2.4
+  standard_code: GB 50325-2020
+  chapter: 4 工程勘察设计
+  section: 4.2工程地点土壤中氢浓度调查及防氢
+  clause_no: 4.2.4
+  text: 当民用建筑工程场地土壤氢浓度测定结果大于20000Bq/m且小于30000Bq/m，或土壤表面氢析出率大于0.05Bq/（m²·s)且小于0.10Bq/(m²·s)时，应采取建筑物底层地面抗开裂措施。
+  is_abolished: true
+  abolished_date: '2022-04-01'
+  superseded_by: GB 55016-2021
+  abolition_note: 被《建筑环境通用规范》GB 55016-2021 废止强制性条文效力（住建部公告，2022-04-01 起实施）
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 住建部公告2020年第46号强制性条文
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#4.2.5
+  standard_code: GB 50325-2020
+  chapter: 4 工程勘察设计
+  section: 4.2工程地点土壤中氢浓度调查及防氢
+  clause_no: 4.2.5
+  text: 当民用建筑工程场地土壤氢浓度测定结果不小于30000Bq/m且小于50000Bq/m，或土壤表面氢析出率不小于0.10Bq/（m²·s）且小于0.30Bq/(m²·s)时，除采取建筑物底层地面抗开裂措施外，还必须按现行国家标准《地下工程防水技术规范》GB50108中的一级防水要求，对基础进行处理。
+  is_abolished: true
+  abolished_date: '2022-04-01'
+  superseded_by: GB 55016-2021
+  abolition_note: 被《建筑环境通用规范》GB 55016-2021 废止强制性条文效力（住建部公告，2022-04-01 起实施）
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 必须
+    is_mandatory_clause: true
+    mandatory_basis: 住建部公告2020年第46号强制性条文
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50108
+    target_clause: null
+    original_text: Bq/(m²·s)时，除采取建筑物底层地面抗开裂措施外，还必须按现行国家标准《地下工程防水技术规范》GB50108中的一级防水要求，对基础进行处理。
+    resolution_status: resolved
+    resolution_note: 库内标准（GB 50108-2008），可交叉引用并确认具体参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#4.2.6
+  standard_code: GB 50325-2020
+  chapter: 4 工程勘察设计
+  section: 4.2工程地点土壤中氢浓度调查及防氢
+  clause_no: 4.2.6
+  text: 当民用建筑工程场地土壤氢浓度平均值不小于50000Bq/m或土壤表面氢析出率平均值不小于0.30Bq/(m²·s)时，应采取建筑物综合防氨措施。
+  is_abolished: true
+  abolished_date: '2022-04-01'
+  superseded_by: GB 55016-2021
+  abolition_note: 被《建筑环境通用规范》GB 55016-2021 废止强制性条文效力（住建部公告，2022-04-01 起实施）
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 住建部公告2020年第46号强制性条文
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#4.2.7
+  standard_code: GB 50325-2020
+  chapter: 4 工程勘察设计
+  section: 4.2工程地点土壤中氢浓度调查及防氢
+  clause_no: 4.2.7
+  text: 当I类民用建筑工程场地土壤中氢浓度平均值不小于50000Bq/m²，或土壤表面氢析出率不小于0.30Bq/（m²·s）时，应进行工程场地土壤中的镭一226、钮一232、钟一40比活度测定。当土壤内照射指数（IRa）大于1.0或外照射指数（I）大于1.3时，工程场地土壤不得作为工程回填土使用。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#4.2.8
+  standard_code: GB 50325-2020
+  chapter: 4 工程勘察设计
+  section: 4.2工程地点土壤中氢浓度调查及防氢
+  clause_no: 4.2.8
+  text: 民用建筑工程场地土壤中浓度测定方法及土壤表面析出率测定方法应符合本标准附录C的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#4.3.11
+  standard_code: GB 50325-2020
+  chapter: 4 工程勘察设计
+  section: 4.3材料选择
+  clause_no: 4.3.11
+  text: 类民用建筑室内装饰装修采用的无机非金属装饰装修材料放射性限量必须满足现行国家标准《建筑材料放射性核素限量》GB6566规定的A类要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 必须
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 6566
+    target_clause: null
+    original_text: 类民用建筑室内装饰装修采用的无机非金属装饰装修材料放射性限量必须满足现行国家标准《建筑材料放射性核素限量》GB6566规定的A类要求。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#4.3.2
+  standard_code: GB 50325-2020
+  chapter: 4 工程勘察设计
+  section: 4.3材料选择
+  clause_no: 4.3.2
+  text: 类民用建筑宜采用放射性符合A类要求的无机非金属装饰装修材料，当A类和B类无机非金属装饰装修材料混合使用时,每种材料的使用量应按下列公式计算 式中，fi 第i种材料在材料总用量中所占的质量百分比、IRai.第i种材料的内照射指数。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#4.3.3
+  standard_code: GB 50325-2020
+  chapter: 4 工程勘察设计
+  section: 4.3材料选择
+  clause_no: 4.3.3
+  text: 民用建筑室内装饰装修采用的人造木板及其制品、涂料、胶粘剂、水性处理剂、混凝土外加剂、墙纸（布）、聚氯乙烯卷材地板、地毯等材料的有害物质释放量或含量，应符合本标准第3章的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#4.3.4
+  standard_code: GB 50325-2020
+  chapter: 4 工程勘察设计
+  section: 4.3材料选择
+  clause_no: 4.3.4
+  text: 民用建筑室内装饰装修时，不应采用聚乙烯醇水玻璃内墙涂料、聚乙烯醇缩甲醛内墙涂料和树脂以硝化纤维素为主、溶剂以二甲苯为主的水包油型(O/W)多彩内墙涂料。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#4.3.5
+  standard_code: GB 50325-2020
+  chapter: 4 工程勘察设计
+  section: 4.3材料选择
+  clause_no: 4.3.5
+  text: 民用建筑室内装饰装修时，不应采用聚乙烯醇缩甲醛类胶粘剂。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#4.3.6
+  standard_code: GB 50325-2020
+  chapter: 4 工程勘察设计
+  section: 4.3材料选择
+  clause_no: 4.3.6
+  text: 民用建筑室内装饰装修中所使用的木地板及其他木质材料，严禁采用沥青、煤焦油类防腐、防潮处理剂。
+  is_abolished: true
+  abolished_date: '2022-04-01'
+  superseded_by: GB 55016-2021
+  abolition_note: 被《建筑环境通用规范》GB 55016-2021 废止强制性条文效力（住建部公告，2022-04-01 起实施）
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 严禁
+    is_mandatory_clause: true
+    mandatory_basis: 住建部公告2020年第46号强制性条文
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#4.3.7
+  standard_code: GB 50325-2020
+  chapter: 4 工程勘察设计
+  section: 4.3材料选择
+  clause_no: 4.3.7
+  text: I类民用建筑室内装饰装修粘贴塑料地板时，不应采用溶剂型胶粘剂。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#4.3.8
+  standard_code: GB 50325-2020
+  chapter: 4 工程勘察设计
+  section: 4.3材料选择
+  clause_no: 4.3.8
+  text: Ⅱ类民用建筑中地下室及不与室外直接自然通风的房间粘贴塑料地板时，不宜采用溶剂型胶粘剂。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: should
+    modal_words:
+    - 不宜
+    - 宜
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#4.3.9
+  standard_code: GB 50325-2020
+  chapter: 4 工程勘察设计
+  section: 4.3材料选择
+  clause_no: 4.3.9
+  text: 民用建筑工程中。外墙采用内保温系统时、应选用环保性能好的保温材料，表面应封闭严密。且不应在室内装饰装修工程中采用脲醛树脂泡沫材料作为保温,隔热和吸声材料， 5、工程施工5 1 一般规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#5.1.1
+  standard_code: GB 50325-2020
+  chapter: 5 工程施工
+  section: 5.1一般规定
+  clause_no: 5.1.1
+  text: 材料进场应按设计要求及本标准的有关规定，对建筑主体材料和装饰装修材料的污染物释放量或含量进行抽查复验。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#5.1.2
+  standard_code: GB 50325-2020
+  chapter: 5 工程施工
+  section: 5.1一般规定
+  clause_no: 5.1.2
+  text: 装饰装修材料污染物释放量或含量抽查复验组批要求应符合表5.1.2的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表5.1.2
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表5.1.2的规定。表5.1.2装饰装修材料抽查复验组批要求材料名称组批要求当同一产地同一品种产品使用面积大于200m²时需进行天然花岗岩石材复验，组批按同一产地、同一品种每5000m*为一批，不足和瓷质砖5000m²按一批计当同一厂家、同一品种\同一规格产品使用面积大于人造木板及其500m²时需进行复验，组批按同厂家、同一品种、同一规格制品每5000m²为一批，不足5000m²按一批计水性涂料和水性组批按同一厂家、同+品种、同一规格产品每5t为一批，腻子不足5t按一批计木器聚氨酯涂料，组批按同一厂家产品以甲组分每5t为一批，不足5t按一批计溶剂型涂料和木器用溶剂型腻子其他涂料、腻子，组批按同一厂家、同一品种、同一规格产品每5t为一批，不足5t按一批计反应型聚氨酯涂料，组批按同一厂家、同一品种、同一规格产品每5t为一批，不足5t按一批计聚合物水泥防水涂料，组批按同一厂家产品每10t为一室内防水涂料批，不足10t按一批计其他涂料，组批按同一厂家、同一品种、同一规格产品每5t为一批，不足5t按一批计续表5.1.2材料名称组批要求聚氨酯类胶粘剂组批按同一厂家以甲组分每5t为大批，不足5t按一批计水性胶粘剂聚乙酸乙烯酯胶粘剂、橡胶类胶粘剂、VAE乳液类胶粘剂、丙烯酸酯类胶粘剂等，组批按同一厂家、同一品种、同一规格产品每5t为一批，不足5t按一批计聚氨酯类胶粘剂组批按同一尺家以甲组分每5t为一批，不足5t按一批计溶剂型胶粘剂氯丁橡胶胶粘剂、SBS胶粘剂.丙烯酸酯类胶粘剂等，组批按同一厂家、同一品种，同一规格产品每5t为一批，不足5t按一批计环氧类（A组分）胶粘剂，组批按同一厂家以A组分每5t为一批，不足5t按一批计本体型胶粘剂有机硅类胶粘剂（含MS)等，组批按同一厂家、同一品种、同一规格产品每5t为一批，不足5t按一批计水性阻燃剂、防水组批按同一厂家、同一品种同一规格产品每5t为一批，剂和防腐剂等水性不足5t按一批计处理剂组批按同一厂家、同一品种、同一规格产品每5t为一批，防火涂料不足5t按一批计
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#5.1.3
+  standard_code: GB 50325-2020
+  chapter: 5 工程施工
+  section: 5.1一般规定
+  clause_no: 5.1.3
+  text: 当建筑主体材料和装饰装修材料进场检验，发现不符合设计要求及本标准的有关规定时，不得使用。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#5.1.4
+  standard_code: GB 50325-2020
+  chapter: 5 工程施工
+  section: 5.1一般规定
+  clause_no: 5.1.4
+  text: 施工单位应按设计要求及本标准的有关规定进行施工，不得擅自更改设计文件要求。当需要更改时，应经原设计单位确认后按施工变更程序有关规定进行。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#5.1.5
+  standard_code: GB 50325-2020
+  chapter: 5 工程施工
+  section: 5.1一般规定
+  clause_no: 5.1.5
+  text: 民用建筑室内装饰装修，当多次重复使用同一装饰装修设计时，宜先做样板间，并对其室内环境污染物浓度进行检测。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: should
+    modal_words:
+    - 宜
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#5.1.6
+  standard_code: GB 50325-2020
+  chapter: 5 工程施工
+  section: 5.1一般规定
+  clause_no: 5.1.6
+  text: 样板间室内环境污染物浓度检测方法，应符合本标准第6章有关规定。当检测结果不符合本标准的规定时，应查找原因并采取改进措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#5.2.1
+  standard_code: GB 50325-2020
+  chapter: 5 工程施工
+  section: 5.2材料进场检验
+  clause_no: 5.2.1
+  text: 民用建筑工程采用的无机非金属建筑主体材料和建筑装饰装修材料进场时，施工单位应查验其放射性指标检测报告。
+  is_abolished: true
+  abolished_date: '2022-04-01'
+  superseded_by: GB 55016-2021
+  abolition_note: 被《建筑环境通用规范》GB 55016-2021 废止强制性条文效力（住建部公告，2022-04-01 起实施）
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 住建部公告2020年第46号强制性条文
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#5.2.2
+  standard_code: GB 50325-2020
+  chapter: 5 工程施工
+  section: 5.2材料进场检验
+  clause_no: 5.2.2
+  text: 民用建筑室内装饰装修中采用的天然花岗石石材或瓷质砖使用面积大于200m²时，应对不同产品不同批次材料分别进行放射性指标的抽查复验。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 砖使用面积
+    unit: m²
+    condition: null
+    min_value: 200.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#5.2.3
+  standard_code: GB 50325-2020
+  chapter: 5 工程施工
+  section: 5.2材料进场检验
+  clause_no: 5.2.3
+  text: 民用建筑室内装饰装修中所采用的人造木板及其制品进场时，施工单位应查验其游离甲醛释放量检测报告。
+  is_abolished: true
+  abolished_date: '2022-04-01'
+  superseded_by: GB 55016-2021
+  abolition_note: 被《建筑环境通用规范》GB 55016-2021 废止强制性条文效力（住建部公告，2022-04-01 起实施）
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 住建部公告2020年第46号强制性条文
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#5.2.4
+  standard_code: GB 50325-2020
+  chapter: 5 工程施工
+  section: 5.2材料进场检验
+  clause_no: 5.2.4
+  text: 民用建筑室内装饰装修中采用的人造木板面积大于500m²时，应对不同产品、不同批次材料的游离甲醛释放量分别进行抽查复验。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 造木板面积
+    unit: m²
+    condition: null
+    min_value: 500.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#5.2.5
+  standard_code: GB 50325-2020
+  chapter: 5 工程施工
+  section: 5.2材料进场检验
+  clause_no: 5.2.5
+  text: 民用建筑室内装饰装修中所采用的水性涂料、水性处理剂溶剂型涂料进场时，施工单位应查验其同批次产品的VOC、苯、甲苯十二甲苯、乙苯含量检测报告，其中聚氨酯类的应有游离二异氰酸酯(TDI十HDI)含量检测报告。
+  is_abolished: true
+  abolished_date: '2022-04-01'
+  superseded_by: GB 55016-2021
+  abolition_note: 被《建筑环境通用规范》GB 55016-2021 废止强制性条文效力（住建部公告，2022-04-01 起实施）
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 住建部公告2020年第46号强制性条文
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#5.2.6
+  standard_code: GB 50325-2020
+  chapter: 5 工程施工
+  section: 5.2材料进场检验
+  clause_no: 5.2.6
+  text: 民用建筑室内装饰装修中所采用的水性胶粘剂进场时，施剂型、本体型胶粘剂进场时，施工单位应查验其同批次产品的苯、甲苯十二甲苯、VOC含量检测报告，其中聚氨酯类的应有游离甲苯二异氰酸酯（TDI)含量检测报告。
+  is_abolished: true
+  abolished_date: '2022-04-01'
+  superseded_by: GB 55016-2021
+  abolition_note: 被《建筑环境通用规范》GB 55016-2021 废止强制性条文效力（住建部公告，2022-04-01 起实施）
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 住建部公告2020年第46号强制性条文
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#5.2.7
+  standard_code: GB 50325-2020
+  chapter: 5 工程施工
+  section: 5.2材料进场检验
+  clause_no: 5.2.7
+  text: 民用建筑室内装饰装修中所采用的壁纸（布）应有同批次产品的游离甲醛含量检测报告，并应符合设计要求和本标准的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#5.2.8
+  standard_code: GB 50325-2020
+  chapter: 5 工程施工
+  section: 5.2材料进场检验
+  clause_no: 5.2.8
+  text: 建筑主体材料和装饰装修材料的检测项目不全或对检测结果有疑问时，应对材料进行检验，检验合格后方可使用。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#5.2.9
+  standard_code: GB 50325-2020
+  chapter: 5 工程施工
+  section: 5.2材料进场检验
+  clause_no: 5.2.9
+  text: 幼儿园、学校教室、学生宿舍等民用建筑室内装饰装修，应对不同产品、不同批次的人造木板及其制品的甲醛释放量和涂料、橡塑类合成材料的挥发性有机化合物释放量进行抽查复验，并应符合本标准的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#5.3.1
+  standard_code: GB 50325-2020
+  chapter: 5 工程施工
+  section: 5.3施工要求
+  clause_no: 5.3.1
+  text: 采取防氢设计措施的民用建筑工程，其地下工程的变形缝、施工缝、穿墙管（盒）、理设件、预留孔洞等特殊部位的施工工艺，应符合现行国家标准《地下工程防水技术规范》GB50108的有关规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50108
+    target_clause: null
+    original_text: 采取防氢设计措施的民用建筑工程，其地下工程的变形缝、施工缝、穿墙管（盒）、理设件、预留孔洞等特殊部位的施工工艺，应符合现行国家标准《地下工程防水技术规范》GB50108的有关规定。
+    resolution_status: resolved
+    resolution_note: 库内标准（GB 50108-2008），可交叉引用并确认具体参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#5.3.2
+  standard_code: GB 50325-2020
+  chapter: 5 工程施工
+  section: 5.3施工要求
+  clause_no: 5.3.2
+  text: I类民用建筑工程当采用异地土作为回填土时，该回填土应进行镭一226、针一232、钾一40的比活度测定，且回填土内照射指数（IRa）不应大于1.0，外照射指数（I）不应大于1.3。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#5.3.3
+  standard_code: GB 50325-2020
+  chapter: 5 工程施工
+  section: 5.3施工要求
+  clause_no: 5.3.3
+  text: 民用建筑室内装饰装修时，严禁使用苯、工业苯、石油苯、重质苯及混苯等含苯稀释剂和溶剂。
+  is_abolished: true
+  abolished_date: '2022-04-01'
+  superseded_by: GB 55016-2021
+  abolition_note: 被《建筑环境通用规范》GB 55016-2021 废止强制性条文效力（住建部公告，2022-04-01 起实施）
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 严禁
+    is_mandatory_clause: true
+    mandatory_basis: 住建部公告2020年第46号强制性条文
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#5.3.4
+  standard_code: GB 50325-2020
+  chapter: 5 工程施工
+  section: 5.3施工要求
+  clause_no: 5.3.4
+  text: 民用建筑室内装饰装修施工时，施工现场应减少溶剂型涂料作业，减少施工现场湿作业、扬尘作业.高噪声作业等污染性施工，不应使用苯甲苯、二甲苯和汽油进行除油和清除旧涂层作业。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#5.3.5
+  standard_code: GB 50325-2020
+  chapter: 5 工程施工
+  section: 5.3施工要求
+  clause_no: 5.3.5
+  text: 涂料、胶粘剂、水性处理剂、稀释剂和溶剂等使用后，应及时封闭存放，废料应及时清出。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#5.3.6
+  standard_code: GB 50325-2020
+  chapter: 5 工程施工
+  section: 5.3施工要求
+  clause_no: 5.3.6
+  text: E民用建筑室内装饰装修严禁使用有机溶剂清洗施工用具。
+  is_abolished: true
+  abolished_date: '2022-04-01'
+  superseded_by: GB 55016-2021
+  abolition_note: 被《建筑环境通用规范》GB 55016-2021 废止强制性条文效力（住建部公告，2022-04-01 起实施）
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 严禁
+    is_mandatory_clause: true
+    mandatory_basis: 住建部公告2020年第46号强制性条文
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#5.3.7
+  standard_code: GB 50325-2020
+  chapter: 5 工程施工
+  section: 5.3施工要求
+  clause_no: 5.3.7
+  text: 供暖地区的民用建筑工程，室内装饰装修施工不宜在供暖期内进行。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: should
+    modal_words:
+    - 不宜
+    - 宜
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#5.3.8
+  standard_code: GB 50325-2020
+  chapter: 5 工程施工
+  section: 5.3施工要求
+  clause_no: 5.3.8
+  text: 轻质隔墙、涂饰工程、裱糊与软包、门窗、饰面板、吊顶等装饰装修施工时，应注意防潮，避免覆盖局部潮湿区域。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#5.3.9
+  standard_code: GB 50325-2020
+  chapter: 5 工程施工
+  section: 5.3施工要求
+  clause_no: 5.3.9
+  text: 装饰装修施工时，空调冷凝水排放应符合现行国家标准《民用建筑供暖通风与空气调节设计规范》GB50736的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50736
+    target_clause: null
+    original_text: 装饰装修施工时，空调冷凝水排放应符合现行国家标准《民用建筑供暖通风与空气调节设计规范》GB50736的规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#5.3.10
+  standard_code: GB 50325-2020
+  chapter: 5 工程施工
+  section: 5.3施工要求
+  clause_no: 5.3.10
+  text: 使用中的民用建筑进行装饰装修施工时，在没有采取有效防止污染措施情况下，不得采用溶剂型涂料进行施工。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#6.0.1
+  standard_code: GB 50325-2020
+  chapter: 6 验收
+  section: ''
+  clause_no: 6.0.1
+  text: 民用建筑工程及室内装饰装修工程的室内环境质量验收、应在工程完工不少于7d后,工程交付使用前进行。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#6.0.2
+  standard_code: GB 50325-2020
+  chapter: 6 验收
+  section: ''
+  clause_no: 6.0.2
+  text: 民用建筑工程竣工验收时，应检查下列资料：1工程地质勘察报告、工程地点土壤中氢浓度或氨析出率检测报告、高土壤氨工程地点土壤天然放射性核素镭一226、针一232、钾一40含量检测报告；2涉及室内新风量的设计、施工文件，以及新风量检测报告；3涉及室内环境污染控制的施工图设计文件及工程设计变更文件；4建筑主体材料和装饰装修材料的污染物检测报告、材料进场检验记录、复验报告；5与室内环境污染控制有关的隐蔽工程验收记录、施工记录；6样板间的室内环境污染物浓度检测报告（不做样板间的除外)；7室内空气中污染物浓度检测报告。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#6.0.3
+  standard_code: GB 50325-2020
+  chapter: 6 验收
+  section: ''
+  clause_no: 6.0.3
+  text: 民用建筑工程所用建筑主体材料和装饰装修材料的类别、数量和施工工艺等，应满足设计要求并符合本标准有关规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#6.0.4
+  standard_code: GB 50325-2020
+  chapter: 6 验收
+  section: ''
+  clause_no: 6.0.4
+  text: 民用建筑工程竣工验收时,必须进行室内环境污染物浓度检测,其限量应符合表6.0.4的规定，1。污染物浓度测量值。除氡外均指室内污染物浓度测量值扣除室外上风向空气中污染物浓度测量值.本底值，后的测量值.2.污染物浓度测量值的极限值判定,采用全数值比较法。
+  is_abolished: true
+  abolished_date: '2022-04-01'
+  superseded_by: GB 55016-2021
+  abolition_note: 被《建筑环境通用规范》GB 55016-2021 废止强制性条文效力（住建部公告，2022-04-01 起实施）
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 必须
+    is_mandatory_clause: true
+    mandatory_basis: 住建部公告2020年第46号强制性条文
+  parameters: []
+  tables:
+  - table_id: 表6.0.4
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表6.0.4的规定。表6.0.4民用建筑室内环境污染物浓度限量污染物I类民用建筑工程Ⅱ类民用建筑工程≤150氢（Bq/m²）甲醛（mg/m3）≤0.0780°0≤0.20氨（mg/m3）≤0.15.17续表6.0.4污染物I类民用建筑工程Ⅱ类民用建筑工程苯（mg/m²）≤0.06≤0.09甲苯（mg/m²）≤0.15≤0.20二甲苯（mg/m3）≤0.20》0,20TVOC(mg/m)0.45Losov注：1污染物浓度测量值，除氨外均指室内污染物浓度测量值扣除室外上风向空气中污染物浓度测量值（本底值）后的测量值。2污染物浓度测量值的极限值判定，采用全数值比较法。
+  converted_tables:
+  - raw: 的规定时，应判定该工程室内环境质量合格。再次加倍抽样检测的结果不符合本标准规定时，应查找原因并采取措施进行处理，直至检测合格。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#6.0.5
+  standard_code: GB 50325-2020
+  chapter: 6 验收
+  section: ''
+  clause_no: 6.0.5
+  text: 民用建筑工程验收时，对采用集中通风的公共建筑工程，应进行室内新风量的检测，检测结果应符合设计和现行国家标准《民用建筑供暖通风与空气调节设计规范》GB50736的有关规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50736
+    target_clause: null
+    original_text: 民用建筑工程验收时，对采用集中通风的公共建筑工程，应进行室内新风量的检测，检测结果应符合设计和现行国家标准《民用建筑供暖通风与空气调节设计规范》GB50736的有关规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#6.0.6
+  standard_code: GB 50325-2020
+  chapter: 6 验收
+  section: ''
+  clause_no: 6.0.6
+  text: 民用建筑室内空气中氢浓度检测宜采用泵吸静电收集能谱分析法、泵吸闪烁室法、泵吸脉冲电离室法、活性炭盒一低本底多道谱仪法，测量结果不确定度不应大于25%（k=2），方法的探测下限不应大于10Bq/m。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 确定度
+    unit: '%'
+    condition: null
+    min_value: 25.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#6.0.7
+  standard_code: GB 50325-2020
+  chapter: 6 验收
+  section: ''
+  clause_no: 6.0.7
+  text: 民用建筑室内空气中甲醛检测方法，应符合现行国家标准《公共场所卫生检验方法第2部分：化学污染物》GB/T18204.2中AHMT分光光度法的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB/T 18204.2
+    target_clause: null
+    original_text: 民用建筑室内空气中甲醛检测方法，应符合现行国家标准《公共场所卫生检验方法第2部分：化学污染物》GB/T18204.2中AHMT分光光度法的规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#6.0.8
+  standard_code: GB 50325-2020
+  chapter: 6 验收
+  section: ''
+  clause_no: 6.0.8
+  text: 民用建筑室内空气中甲醛检测，可采用简便取样仪器检测方法，甲醛简便取样仪器检测方法应定期进行校准，测量范围不大于0.50μmol/mol时，最大允许示值误差应为土0.05μmol/mol。当发生争议时，应以现行国家标准《公共场所卫生检验方法第2部分：化学污染物》GB/T18204.2中AHMT分光光度法的测定结果为准。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB/T 18204.2
+    target_clause: null
+    original_text: 当发生争议时，应以现行国家标准《公共场所卫生检验方法第2部分：化学污染物》GB/T18204.2中AHMT分光光度法的测定结果为准。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#6.0.9
+  standard_code: GB 50325-2020
+  chapter: 6 验收
+  section: ''
+  clause_no: 6.0.9
+  text: 民用建筑室内空气中氨检测方法应符合现行国家标准《公共场所卫生检验方法第2部分：化学污染物》GB/T18204.2中靛酚蓝分光光度法的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB/T 18204.2
+    target_clause: null
+    original_text: 民用建筑室内空气中氨检测方法应符合现行国家标准《公共场所卫生检验方法第2部分：化学污染物》GB/T18204.2中靛酚蓝分光光度法的规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#6.0.10
+  standard_code: GB 50325-2020
+  chapter: 6 验收
+  section: ''
+  clause_no: 6.0.10
+  text: 民用建筑室内空气中苯、甲苯、二甲苯的检测方法，应符合本标准附录D的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#6.0.11
+  standard_code: GB 50325-2020
+  chapter: 6 验收
+  section: ''
+  clause_no: 6.0.11
+  text: 民用建筑室内空气中TVOC的检测方法，应符合本标准附录E的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#6.0.12
+  standard_code: GB 50325-2020
+  chapter: 6 验收
+  section: ''
+  clause_no: 6.0.12
+  text: 民用建筑工程验收时，应抽检每个建筑单体有代表性的房间室内环境污染物浓度，氨、甲醛、氨、苯、甲苯、二甲苯、TVOC的抽检量不得少于房间总数的5%，每个建筑单体不得少于3间，当房间总数少于3间时，应全数检测。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 房间总数
+    unit: '%'
+    condition: null
+    min_value: 5.0
+    max_value: 5.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#6.0.13
+  standard_code: GB 50325-2020
+  chapter: 6 验收
+  section: ''
+  clause_no: 6.0.13
+  text: 民用建筑工程验收时，凡进行了样板间室内环境污染物浓度检测且检测结果合格的，其同一装饰装修设计样板间类型的房间抽检量可减半，并不得少于3间。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#6.0.14
+  standard_code: GB 50325-2020
+  chapter: 6 验收
+  section: ''
+  clause_no: 6.0.14
+  text: 幼儿园、学校教室学生宿舍、老年人照料房屋设施室内装饰装修验收时，室内空气中氢、甲醛、氨、苯、甲苯、二甲苯、TVOC的抽检量不得少于房间总数的50%，且不得少于20间。
+  is_abolished: true
+  abolished_date: '2022-04-01'
+  superseded_by: GB 55016-2021
+  abolition_note: 被《建筑环境通用规范》GB 55016-2021 废止强制性条文效力（住建部公告，2022-04-01 起实施）
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不得
+    is_mandatory_clause: true
+    mandatory_basis: 住建部公告2020年第46号强制性条文
+  parameters:
+  - name: 房间总数
+    unit: '%'
+    condition: null
+    min_value: 50.0
+    max_value: 50.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#6.0.15
+  standard_code: GB 50325-2020
+  chapter: 6 验收
+  section: ''
+  clause_no: 6.0.15
+  text: 当进行民用建筑工程验收时、室内环境污染物浓度检测点数应符合表6.0.15的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表6.0.15
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表6.0.15的规定。表6.0.15室内环境污染物浓度检测点数设置房间使用面积（m²）检测点数（个）≥50,<100≥100,<500不少于3≥500,<1000不少于5>1000m²的部分，每增加1000m²增设1，≥1000增加面积不足1000m²时按增加1000m²计算
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#6.0.16
+  standard_code: GB 50325-2020
+  chapter: 6 验收
+  section: ''
+  clause_no: 6.0.16
+  text: 当房间内有2个及以上检测点时，应采用对角线、斜线、梅花状均衡布点，并应取各点检测结果的平均值作为该房间的检测值。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#6.0.17
+  standard_code: GB 50325-2020
+  chapter: 6 验收
+  section: ''
+  clause_no: 6.0.17
+  text: 民用建筑工程验收时，室内环境污染物浓度现场检测点应距房间地面高度0.8m～1.5m，距房间内墙面不应小于0.5m。检测点应均匀分布，且应避开通风道和通风口。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 间地面高度
+    unit: m
+    condition: null
+    min_value: 0.8
+    max_value: 0.8
+  - name: 地面高度m
+    unit: m
+    condition: null
+    min_value: 1.5
+    max_value: 1.5
+  - name: 房间内墙面
+    unit: m
+    condition: null
+    min_value: 0.5
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#6.0.18
+  standard_code: GB 50325-2020
+  chapter: 6 验收
+  section: ''
+  clause_no: 6.0.18
+  text: 当对民用建筑室内环境中的甲醛、氨、苯、甲苯、二甲苯、TVOC浓度检测时，装饰装修工程中完成的固定式家具应保持正常使用状态；采用集中通风的民用建筑工程，应在通风系统正常运行的条件下进行；采用自然通风的民用建筑工程，检测应在对外门窗关闭1h后进行。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 外门窗关闭
+    unit: h
+    condition: null
+    min_value: 1.0
+    max_value: 1.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#6.0.19
+  standard_code: GB 50325-2020
+  chapter: 6 验收
+  section: ''
+  clause_no: 6.0.19
+  text: 民用建筑室内环境中氢浓度检测时，对采用集中通风的民用建筑工程，应在通风系统正常运行的条件下进行；采用自然通风的民用建筑工程，应在房间的对外门窗关闭24h以后进行。I类建筑无架空层或地下车库结构时，一、二层房间抽检比例不宜低于总抽检房间数的40%。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 外门窗关闭
+    unit: h
+    condition: null
+    min_value: 24.0
+    max_value: 24.0
+  - name: 检比例
+    unit: '%'
+    condition: null
+    min_value: null
+    max_value: 40.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#6.0.20
+  standard_code: GB 50325-2020
+  chapter: 6 验收
+  section: ''
+  clause_no: 6.0.20
+  text: 土壤氮浓度大于30000Bq/m3的高氢地区及高地区的I类民用建筑室内氢浓度超标时，应对建筑一层房间开展氢一220污染调查评估，并根据情况采取措施。V
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#6.0.21
+  standard_code: GB 50325-2020
+  chapter: 6 验收
+  section: ''
+  clause_no: 6.0.21
+  text: 当抽检的所有房间室内环境污染物浓度的检测结果符合本标准表6.0.4的规定时。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表6.0.4
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表6.0.4的规定时，应判定该工程室内环境质量合格。
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#6.0.22
+  standard_code: GB 50325-2020
+  chapter: 6 验收
+  section: ''
+  clause_no: 6.0.22
+  text: 当室内环境污染物浓度检测结果不符合本标准表6.0.4规定时,应对不符合项目再次加倍抽样检测，并应包括原不合格的同类型房间及原不合格房间 当再次检测的结果符合本标准表6.0.4的规定时，应判定该工程室内环境质量合格 再次加倍抽样检测的结果不符合本标准规定时.应查找原因并采取措施进行处理。直至检测合格。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表6.0.4
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表6.0.4规定时，应对不符合项目再次加倍抽样检测，并应包括原不合格的同类型房间及原不合格房间；当再次检测的结果符合本标准表
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#6.0.23
+  standard_code: GB 50325-2020
+  chapter: 6 验收
+  section: ''
+  clause_no: 6.0.23
+  text: 室内环境污染物浓度检测结果不符合本标准
+  is_abolished: true
+  abolished_date: '2022-04-01'
+  superseded_by: GB 55016-2021
+  abolition_note: 被《建筑环境通用规范》GB 55016-2021 废止强制性条文效力（住建部公告，2022-04-01 起实施）
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 严禁
+    is_mandatory_clause: true
+    mandatory_basis: 住建部公告2020年第46号强制性条文
+  parameters: []
+  tables:
+  - table_id: 表6.0.4
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: '表6.0.4规定的民用建筑工程，严禁交付投入使用。:20:'
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#A.1
+  standard_code: GB 50325-2020
+  chapter: 附录A 材料表面氡析出率测定
+  section: ''
+  clause_no: A.1
+  text: A.1仪器直接测定建筑材料表面氢析出率
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#A.1.1
+  standard_code: GB 50325-2020
+  chapter: 附录A 材料表面氡析出率测定
+  section: ''
+  clause_no: A.1.1
+  text: A.1.1建筑材料表面析出率的测定仪器应包括取样与测量两部分，工作原理应分为被动收集型和主动抽气采集型两种。测量装置应符合下列规定：连续10h测量探测下限不应大于0.001Bq／（m²·s）；不确定度不应大于20%（一2）；仪器标定应合格并在有效期内。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 列规定连续
+    unit: h
+    condition: null
+    min_value: 10.0
+    max_value: 10.0
+  - name: 确定度
+    unit: '%'
+    condition: null
+    min_value: 20.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#A.1.2
+  standard_code: GB 50325-2020
+  chapter: 附录A 材料表面氡析出率测定
+  section: ''
+  clause_no: A.1.2
+  text: 被动收集型测定仪器表面氢析出率测定步骤应按下列步骤进行：1应清理被测材料表面，将采气容器平扣在平整表面上，使收集器端面与被测材料表面间密封，被测表面积（m）与测定仪器的采气容器净空间容积(m²)之比约应为2：1；2测量时间应大于1h，并应根据氢析出率大小决定测量时间；3仪器表面氢析出率测量值应乘以仪器刻度系数得出材料表面氢析出率测量值。4测量温度应在25℃±5℃范围内，相对湿度应在45%土15%范围内。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 测量时间
+    unit: h
+    condition: null
+    min_value: 1.0
+    max_value: null
+  - name: 对湿度应在
+    unit: '%'
+    condition: null
+    min_value: 45.0
+    max_value: 45.0
+  - name: 湿度应在土
+    unit: '%'
+    condition: null
+    min_value: 15.0
+    max_value: 15.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#A.1.3
+  standard_code: GB 50325-2020
+  chapter: 附录A 材料表面氡析出率测定
+  section: ''
+  clause_no: A.1.3
+  text: A.1.3主动抽气采集型测定建筑材料表面氢析出率步骤应按下列步骤进行：1被测试块准备：应使被测样品表面积（m²）与抽气采集容器（抽气采集容器或盛装被测试块容器）内净空间容积（m3）之比约为2：1，清理被测试块表面，准备测量；2测量装置准备：抽气采集容器（或盛装被测试块容器）应与.21·测量仪器气路连接到位。试块测试前，应测量气路系统内干净空气氢浓度本底值并记录；3应将被测试块及测量装置摆放到位，使抽气采集容器（抽气采集容器或盛装被测试块容器）密封，直至测量结束；4准备就绪后开始测量并计时，试块测量时间应在2h以上、10h以内；5测量温度应在25℃土5℃范围内，相对湿度应在45%士15%范围内。6=3(A.1.3)试块表面氢析出率[Bq（m²·s)];测量装置系统内的空气氮浓度（Bq/m3）：V—测量系统内净空间容积，即抽气采集容器内净容积，其值等于盛装被测试块容器内容积减去被测试块的外形体积后的值(m"）；被测试块的外表面积（m²）；t一丛开始测量到测量结束经历的时间（s）。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 量时间应在
+    unit: h
+    condition: null
+    min_value: 2.0
+    max_value: 2.0
+  - name: 在h以上
+    unit: h
+    condition: null
+    min_value: 10.0
+    max_value: 10.0
+  - name: 对湿度应在
+    unit: '%'
+    condition: null
+    min_value: 45.0
+    max_value: 45.0
+  - name: 湿度应在士
+    unit: '%'
+    condition: null
+    min_value: 15.0
+    max_value: 15.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#A.2
+  standard_code: GB 50325-2020
+  chapter: 附录A 材料表面氡析出率测定
+  section: ''
+  clause_no: A.2
+  text: 活性炭盒法测定建筑材料表面氢析出率
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#A.2.1
+  standard_code: GB 50325-2020
+  chapter: 附录A 材料表面氡析出率测定
+  section: ''
+  clause_no: A.2.1
+  text: A.2.1活性炭盒法测定建筑材料表面析出率准备过程应符合本标准第A.1.2条的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#A.2.2
+  standard_code: GB 50325-2020
+  chapter: 附录A 材料表面氡析出率测定
+  section: ''
+  clause_no: A.2.2
+  text: A.2.2活性炭法测定建筑材料表面析出率测量方法应符合现行国家标准《建筑物表面氢析出率的活性炭测量方法》GB/T16143的有关规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB/T 16143
+    target_clause: null
+    original_text: A.2.2活性炭法测定建筑材料表面析出率测量方法应符合现行国家标准《建筑物表面氢析出率的活性炭测量方法》GB/T16143的有关规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#B.0.1
+  standard_code: GB 50325-2020
+  chapter: 附录B 环境测试舱法测定装饰装修材料游离甲醛、VOC释放量
+  section: ''
+  clause_no: B.0.1
+  text: 环境测试舱的容积应为0.05m3～40m
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 舱的容积
+    unit: m
+    condition: null
+    min_value: 0.05
+    max_value: 0.05
+  - name: 舱的容积
+    unit: m
+    condition: null
+    min_value: 40.0
+    max_value: 40.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#B.0.2
+  standard_code: GB 50325-2020
+  chapter: 附录B 环境测试舱法测定装饰装修材料游离甲醛、VOC释放量
+  section: ''
+  clause_no: B.0.2
+  text: 环境测试舱的内壁应采用不锈钢、玻璃等情性材料建造。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#B.0.3
+  standard_code: GB 50325-2020
+  chapter: 附录B 环境测试舱法测定装饰装修材料游离甲醛、VOC释放量
+  section: ''
+  clause_no: B.0.3
+  text: 环境测试舱的运行条件应符合下列规定：温度应为（23士0.5）℃；相对湿度应为(50士3)%；空气交换率应为（1±Q.05）/次/h；被测样品表面附近空气流速应为0.1m/s0.3m/s;5人造木板及其制品、黏合木结构材料、壁布、幕、软包样品的表面积与环境测试舱容积之比应为1：1,地毯、地毯衬垫样品的面积与环境测试舱容积之比应为0.4:1；6材料样品甲醛、VOC释放量测定前,环境测试舱内洁净空气中甲醛浓度不应大于0.006mg/m²、VOC浓度不应大于0.01mg/m²。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 空气流速
+    unit: m
+    condition: null
+    min_value: 0.1
+    max_value: 0.1
+  - name: 空气流速
+    unit: m
+    condition: null
+    min_value: 0.3
+    max_value: 0.3
+  - name: 醛浓度
+    unit: m
+    condition: null
+    min_value: 0.006
+    max_value: null
+  - name: C浓度
+    unit: m
+    condition: null
+    min_value: 0.01
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#B.0.4
+  standard_code: GB 50325-2020
+  chapter: 附录B 环境测试舱法测定装饰装修材料游离甲醛、VOC释放量
+  section: ''
+  clause_no: B.0.4
+  text: B.0.4测试应符合下列规定：1测试前样品应在（23士1）℃、相对湿度（50士5）%条件下放置不少于1d，样品件之间距离不应小于25mm，且应使空气在所有样品件表面上自由循环，恒温恒湿室内空气换气次数不应低于1次/h，室内空气中甲醛浓度不应大于0.05mg/m3、VOc浓度不应大于0.3mg/m；2人造木板及其制品、黏合木结构材料、壁布、帷幕样品应垂直放在环境测试舱内的中心位置，样品件之间距离不应小于200mm，其表面应与气流方向平行；3地毯、地毯衬垫样品应正面向上平铺在环境测试舱底，使空气气流均匀地从试样表面通过；:23:4环境测试舱法测试人造木板及其制品、黏合木结构材料的游离甲醛释放量时，在测试的第2d开始每天取样2次，每次间隔应超过3h，如果达到稳定状态，可停止取样；当最后4次测定的甲醛浓度的平均值与最大值或最小值之间的偏差低于5%或低于0.005mg/m²时，认为达到稳定状态；若一直未达到稳定状态，以第28d的测试结果作为测定值；5环境测试舱法测试地毯、地毯衬垫、壁布、帷幕的游离甲醛或VOC释放量，样品在试验条件下，在环境测试舱内持续放置时间应为24h。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 条件下放置
+    unit: d
+    condition: null
+    min_value: 1.0
+    max_value: null
+  - name: 件之间距离
+    unit: mm
+    condition: null
+    min_value: 25.0
+    max_value: null
+  - name: 醛浓度
+    unit: m
+    condition: null
+    min_value: 0.05
+    max_value: null
+  - name: c浓度
+    unit: m
+    condition: null
+    min_value: 0.3
+    max_value: null
+  - name: 件之间距离
+    unit: mm
+    condition: null
+    min_value: 200.0
+    max_value: null
+  - name: 在测试的第
+    unit: d
+    condition: null
+    min_value: 2.0
+    max_value: 2.0
+  - name: 每次间隔
+    unit: h
+    condition: null
+    min_value: 3.0
+    max_value: null
+  - name: 之间的偏差
+    unit: '%'
+    condition: null
+    min_value: null
+    max_value: 5.0
+  - name: 之间的偏差
+    unit: m
+    condition: null
+    min_value: null
+    max_value: 0.005
+  - name: 定状态以第
+    unit: d
+    condition: null
+    min_value: 28.0
+    max_value: 28.0
+  - name: 放置时间
+    unit: h
+    condition: null
+    min_value: 24.0
+    max_value: 24.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#B.0.5
+  standard_code: GB 50325-2020
+  chapter: 附录B 环境测试舱法测定装饰装修材料游离甲醛、VOC释放量
+  section: ''
+  clause_no: B.0.5
+  text: B.0.5环境测试舱内的气体取样分析时，应将气体抽样系统与环境测试舱的气体出口相连后再进行采样。采样流速不应大于进人舱内的气体流速，测试方法应符合现行国家标准《公共场所卫生检验方法第2部分：化学污染物》GB/T18204.2中AHMT分光光度法的规定，同时应扣除环境测试舱的本底值。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB/T 18204.2
+    target_clause: null
+    original_text: 采样流速不应大于进人舱内的气体流速，测试方法应符合现行国家标准《公共场所卫生检验方法第2部分：化学污染物》GB/T18204.2中AHMT分光光度法的规定，同时应扣除环境测试舱的本底值。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#B.0.7
+  standard_code: GB 50325-2020
+  chapter: 附录B 环境测试舱法测定装饰装修材料游离甲醛、VOC释放量
+  section: ''
+  clause_no: B.0.7
+  text: B.0.7材料中VOC释放量测定的采样体积应为5L～10L，采样流速不应大于进人舱内的气体流速，测试方法应符合本标准附录E的规定，同时应扣除环境测试舱的本底值。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#B.0.8
+  standard_code: GB 50325-2020
+  chapter: 附录B 环境测试舱法测定装饰装修材料游离甲醛、VOC释放量
+  section: ''
+  clause_no: B.0.8
+  text: B.0.8地毯、地毯衬垫样品的游离甲醛或VOC释放量应按下式进行计算：EF = Cs(N/L)(B.0.8)式中：EF舱释放量[mg/（m²·h)]；Cs舱浓度（mg/m"）；舱空气交换率（h-1）；L一一（材料/舱)负荷比(m²/m"）。:24:附录C土壤中浓度及土壤表面析出率测定
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#C.1
+  standard_code: GB 50325-2020
+  chapter: 附录C 土壤中氡浓度及土壤表面氡析出率测定
+  section: ''
+  clause_no: C.1
+  text: C.1土壤中氨浓度测定
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#C.1.1
+  standard_code: GB 50325-2020
+  chapter: 附录C 土壤中氡浓度及土壤表面氡析出率测定
+  section: ''
+  clause_no: C.1.1
+  text: C.1.1土壤中气的浓度宜采用少量抽气一静电收集一射线探测器法或采用埋置测量装置法进行测量。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: should
+    modal_words:
+    - 宜
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#C.1.2
+  standard_code: GB 50325-2020
+  chapter: 附录C 土壤中氡浓度及土壤表面氡析出率测定
+  section: ''
+  clause_no: C.1.2
+  text: 测试仪器性能指标应符合下列规定：探测下限不应大于400Bq/m²
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#C.1.3
+  standard_code: GB 50325-2020
+  chapter: 附录C 土壤中氡浓度及土壤表面氡析出率测定
+  section: ''
+  clause_no: C.1.3
+  text: 应查阅建筑工程的规划设计资料及工程地质勘察资料，测量区域范围应与该建筑工程的地质勘察范围相同。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#C.1.4
+  standard_code: GB 50325-2020
+  chapter: 附录C 土壤中氡浓度及土壤表面氡析出率测定
+  section: ''
+  clause_no: C.1.4
+  text: C.1.4在工程地质勘察范围内布点时，应以间距10m作网格，各网格点应为测试点当遇较大石块时，可偏离土2m，但布点数不应少于16个。测量布点应覆盖单体建筑基础工程范围。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 时应以间距
+    unit: m
+    condition: null
+    min_value: 10.0
+    max_value: 10.0
+  - name: 未识别对象
+    unit: m
+    condition: null
+    min_value: 2.0
+    max_value: 2.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#C.1.5
+  standard_code: GB 50325-2020
+  chapter: 附录C 土壤中氡浓度及土壤表面氡析出率测定
+  section: ''
+  clause_no: C.1.5
+  text: C.1.5少量抽气一静电收集一射线探测器法测量时，在每个测试点，应采用专用工具打孔，孔的深度宜为500mm～800mm。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 孔的深度
+    unit: mm
+    condition: null
+    min_value: 500.0
+    max_value: 500.0
+  - name: 孔的深度
+    unit: mm
+    condition: null
+    min_value: 800.0
+    max_value: 800.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#C.1.6
+  standard_code: GB 50325-2020
+  chapter: 附录C 土壤中氡浓度及土壤表面氡析出率测定
+  section: ''
+  clause_no: C.1.6
+  text: C.1.6少量抽气一静电收集一射线探测器法测量时，成孔后，应使用头部有气孔的特制的取样器，插人打好的孔中，取样器在靠近地表处应进行密闭，大气不应渗入孔中，然后进行抽气测量，抽气测量宜接续进行3次～5次，第一次抽气测量数据应舍弃，测量值应取后几次测量平均值。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#C.1.7
+  standard_code: GB 50325-2020
+  chapter: 附录C 土壤中氡浓度及土壤表面氡析出率测定
+  section: ''
+  clause_no: C.1.7
+  text: C.1.7采用埋置测量装置法进行测量时，应根据仪器性能和测量实际需要成孔。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#C.1.8
+  standard_code: GB 50325-2020
+  chapter: 附录C 土壤中氡浓度及土壤表面氡析出率测定
+  section: ''
+  clause_no: C.1.8
+  text: C.1.8取样测试时间宜在8:00～18：00之间，现场取样测试工作不应在雨天进行，当遇雨天时，应在雨后24h后进行。工作温度应为一10℃～40℃；相对湿度不应大于90%。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 时应在雨后
+    unit: h
+    condition: null
+    min_value: 24.0
+    max_value: 24.0
+  - name: 对湿度
+    unit: '%'
+    condition: null
+    min_value: 90.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#C.1.9
+  standard_code: GB 50325-2020
+  chapter: 附录C 土壤中氡浓度及土壤表面氡析出率测定
+  section: ''
+  clause_no: C.1.9
+  text: C.1.9现场测试应有记录，记录内容应包括测试点布设图、成孔·25:点土壤类别、现场地表状况描述、测试前24h以内工程地点的气象状况等。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 描述测试前
+    unit: h
+    condition: null
+    min_value: 24.0
+    max_value: 24.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#C.1.10
+  standard_code: GB 50325-2020
+  chapter: 附录C 土壤中氡浓度及土壤表面氡析出率测定
+  section: ''
+  clause_no: C.1.10
+  text: C.1.10土壤氢浓度测试报告的内容应包括取样测试过程描述、测试方法、土壤氢浓度测试结果等。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#C.2
+  standard_code: GB 50325-2020
+  chapter: 附录C 土壤中氡浓度及土壤表面氡析出率测定
+  section: ''
+  clause_no: C.2
+  text: C.2土壤表面氢析出率测定
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#C.2.1
+  standard_code: GB 50325-2020
+  chapter: 附录C 土壤中氡浓度及土壤表面氡析出率测定
+  section: ''
+  clause_no: C.2.1
+  text: C.2.1土壤表面氢析出率测定仪器设备应包括取样设备、测量设备。取样设备的形状应为盆状，工作原理应分为被动收集型和主动抽气采集型两种。现场测量设备应符合下列规定：不确定度不应大于20%；探测下限不应大于0.01Bq/m²：s）。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 确定度
+    unit: '%'
+    condition: null
+    min_value: 20.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#C.2.2
+  standard_code: GB 50325-2020
+  chapter: 附录C 土壤中氡浓度及土壤表面氡析出率测定
+  section: ''
+  clause_no: C.2.2
+  text: 测量步骤应符合下列规定：7在测量建筑场地按20m建筑场地网格布点，布点数不应少于16个，应于网格点交叉处进行土壤氢析出率测量。工作温度应为一10℃～40℃;相对湿度不应大于 90%。2测量时，应清扫采样点地面，去除腐殖质、杂草及石块，把取样器扣在平整后的地面上，并应用泥土对取样器周围进行密封，准备就绪后，开始测量并开始计时（t。3土壤表面氢析出率测量过程中，应符合下列规定：1)使用聚集罩时，罩口与介质表面的接缝处应进行封堵；2)被测介质表面应平整，各个测量点测量过程中罩内空间的容积不应出现明显变化；3）测量时间等参数应与仪器测量灵敏度相适应，一般为1h～2h;4)测量应在无风或微风条件下进行。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 建筑场地按
+    unit: m
+    condition: null
+    min_value: 20.0
+    max_value: 20.0
+  - name: 对湿度
+    unit: '%'
+    condition: null
+    min_value: 90.0
+    max_value: null
+  - name: 相适应一般
+    unit: h
+    condition: null
+    min_value: 1.0
+    max_value: 1.0
+  - name: 相适应一般
+    unit: h
+    condition: null
+    min_value: 2.0
+    max_value: 2.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#C.2.3
+  standard_code: GB 50325-2020
+  chapter: 附录C 土壤中氡浓度及土壤表面氡析出率测定
+  section: ''
+  clause_no: C.2.3
+  text: 'C.2.3被测地面的氮析出率应按下式进行计算：R=N.V(C.2.3)S.T式中：R—土壤表面析出率[Bq/（m²·s);: 26 :经历T时刻测得的罩内氢浓度（Bq/m"）；聚集罩所罩住的介质表面的面积（m²）；罩聚集罩所罩住的罩内容积（m"）；罩测量经历的时间（s）。'
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#C.3
+  standard_code: GB 50325-2020
+  chapter: 附录C 土壤中氡浓度及土壤表面氡析出率测定
+  section: ''
+  clause_no: C.3
+  text: C.3城市区域性土壤氢水平调查方法
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#C.3.1
+  standard_code: GB 50325-2020
+  chapter: 附录C 土壤中氡浓度及土壤表面氡析出率测定
+  section: ''
+  clause_no: C.3.1
+  text: 测点布置应符合下列规定：1在城市区域应按2km×2km网格布置测点，部分中小城市可按1kmX1km网格布置测点。因地形、建筑等原因测点位置可偏移，不宜超过200m；2每个城市测点数量不应少于100个；3宜使用1：50000～：100000或更大比例尺地形（地质）图和全球卫星定位仪（北斗或GPS），确定测点位置并应在图上标注。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 可偏移
+    unit: m
+    condition: null
+    min_value: 200.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#C.3.2
+  standard_code: GB 50325-2020
+  chapter: 附录C 土壤中氡浓度及土壤表面氡析出率测定
+  section: ''
+  clause_no: C.3.2
+  text: 调查方法应符合下列规定：1调查前应制订方案，准备好测量仪器和其他工具。仪器在使用前应进行标定，当使用2台或2台以上仪器进行调查时，所用仪器宜同时进行标定。工作温度应为一10℃～40℃；相对湿度不应大于90%。2测点定位：调查测点位置应用北斗或GPS定位，同时应对地理位置进行简要描述。3测量深度：调查打孔深度应统一定为500mm～800mm，孔径应为20mm~40mm。4测量次数：每一测点应重复测量3次，且以算术平均值作为该点浓度，或每一测点在3m²范围内打3个孔，每孔测一次求平均值。5其他测量要求和测量过程中需要记录的事项应按本标准附录C.1执行。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 对湿度
+    unit: '%'
+    condition: null
+    min_value: 90.0
+    max_value: null
+  - name: 度应统一定
+    unit: mm
+    condition: null
+    min_value: 500.0
+    max_value: 500.0
+  - name: 度应统一定
+    unit: mm
+    condition: null
+    min_value: 800.0
+    max_value: 800.0
+  - name: mm孔径
+    unit: mm
+    condition: null
+    min_value: 20.0
+    max_value: 20.0
+  - name: mm孔径
+    unit: mm
+    condition: null
+    min_value: 40.0
+    max_value: 40.0
+  - name: 平均值作
+    unit: m²
+    condition: null
+    min_value: 3.0
+    max_value: 3.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#C.3.3
+  standard_code: GB 50325-2020
+  chapter: 附录C 土壤中氡浓度及土壤表面氡析出率测定
+  section: ''
+  clause_no: C.3.3
+  text: C.3.3调查的质量保证应符合下列规定：.27:1仪器使用前应按仪器说明书检查仪器稳定性；2使用2台以上仪器工作时应检查仪器的一致性，2台仪器测量结果的相对标准偏差应小于25%；3应挑选10%左右测点进行复查测量，复查测量结果应反映在测量原始数据表中。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 标准偏差
+    unit: '%'
+    condition: null
+    min_value: null
+    max_value: 25.0
+  - name: 标准偏差
+    unit: '%'
+    condition: null
+    min_value: null
+    max_value: 10.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#C.3.4
+  standard_code: GB 50325-2020
+  chapter: 附录C 土壤中氡浓度及土壤表面氡析出率测定
+  section: ''
+  clause_no: C.3.4
+  text: 城市区域土壤氢调查报告的主要内容应包括下列内容：测点分布图及测点布置说明；测量仪器、方法介绍；测量过程描述；测量结果，包括原始数据、平均值、标准偏差等，如有可能绘制城市土壤浓度等值线图；6测量结果的质量评价，包括仪器的日常稳定性检查、仪器的标定和比对工作、仪器的质量监控图制作等。浏览专住房城附录D室内空气中苯、甲苯、二甲苯的测定
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#D.0.1
+  standard_code: GB 50325-2020
+  chapter: 附录D 室内空气中苯、甲苯、二甲苯的测定
+  section: ''
+  clause_no: D.0.1
+  text: D.0.1空气中苯、甲苯、二甲苯应使用活性炭管或2.6对苯基二苯醚多孔聚合物一石墨化炭黑一X复合吸附管采集，经热解吸后，应采用气相色谱法分析，以保留时间定性，峰面积定量。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#D.0.2
+  standard_code: GB 50325-2020
+  chapter: 附录D 室内空气中苯、甲苯、二甲苯的测定
+  section: ''
+  clause_no: D.0.2
+  text: D.0.2仪器及设备应符合下列规定：1恒流采样器：在采样过程中流量应稳定，流量范围应包含0.5L/min，且当流量为0.5L/min时，应能克服5kPa～10kPa的阻力，此时用流量计校准采样系统流量，相对偏差不应大于士5%阻力；2热解吸装置：应能对吸附管进行热解吸，解吸温度、载气流速可调；3应配备有氢火焰离子化检测器的气相色谱仪；4毛细管柱：毛细管柱长应为30m50m的石英柱，内径应为0.32mm,内应涂覆聚二甲基聚硅氧烷或其他非极性材料；5应准备容量为1μL、10μL的注射器若干个。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 对偏差
+    unit: '%'
+    condition: null
+    min_value: 5.0
+    max_value: null
+  - name: 细管柱长
+    unit: m
+    condition: null
+    min_value: 30.0
+    max_value: 30.0
+  - name: 细管柱长
+    unit: m
+    condition: null
+    min_value: 50.0
+    max_value: 50.0
+  - name: 未识别对象
+    unit: mm
+    condition: null
+    min_value: 0.32
+    max_value: 0.32
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#D.0.3
+  standard_code: GB 50325-2020
+  chapter: 附录D 室内空气中苯、甲苯、二甲苯的测定
+  section: ''
+  clause_no: D.0.3
+  text: 试剂和材料应符合下列规定：1活性炭吸附管应为内装100mg椰子壳活性炭吸附剂的玻璃管或内壁光滑的不锈钢管。使用前应通氮气加热活化，活化温度应为300℃～350℃，活化时间不应少于10min，活化至无杂质峰为止；当流量为0.5L/min时，阻力应在5kPa～1okPa之间；2，6一对苯基二苯醚多孔聚合物一石墨化炭黑一X复合吸附管应为分层分隔填装不少于175mg的60目～80目的Tenax一TA吸附剂和不少于75mg的60目～80目的石墨化炭黑一X吸附剂，样品管应有采样气流方向标识，使用前应通氮气加热活化，活化温度应为280℃～300℃，活化时间不应少于10min，活化至无杂质峰·29:为止；当流量为0.5L/min时，阻力应在5kPa～10kPa之间。应包括苯、甲苯、二甲苯标准物质。载气应为氮气，纯度不应小于99.99%。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 炭吸附管
+    unit: m
+    condition: null
+    min_value: 100.0
+    max_value: 100.0
+  - name: 间不应少于
+    unit: m
+    condition: null
+    min_value: 10.0
+    max_value: 10.0
+  - name: 层分隔填装
+    unit: m
+    condition: null
+    min_value: 175.0
+    max_value: null
+  - name: A吸附剂和
+    unit: m
+    condition: null
+    min_value: 75.0
+    max_value: null
+  - name: 为氮气纯度
+    unit: '%'
+    condition: null
+    min_value: 99.99
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#D.0.4
+  standard_code: GB 50325-2020
+  chapter: 附录D 室内空气中苯、甲苯、二甲苯的测定
+  section: ''
+  clause_no: D.0.4
+  text: 采样注意事项应符合下列规定：应在采样地点打开吸附管，吸附管与空气采样器入气口垂直连接（气流方向与吸附管标识方向一致），调节流量在0.5L/min的范围内，应采用流量计校准采样系统的流量，采集约10L空气，并应记录采样时间、采样流量、温度、相对湿度和大气压。2采样后，应取下吸附管，密封吸附管的两端，做好标识，放人可密封的金属或玻璃容器中。样品可保存14d。3当采集室外空气空白样品时应与采集室内空气样品同步进行，地点宜选择在室外上风向处。>
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 样品可保存
+    unit: d
+    condition: null
+    min_value: 14.0
+    max_value: 14.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#D.0.5
+  standard_code: GB 50325-2020
+  chapter: 附录D 室内空气中苯、甲苯、二甲苯的测定
+  section: ''
+  clause_no: D.0.5
+  text: D.0.5气相色谱分析条件可选用下列推荐值，也可根据实验室条件选定其他最佳分析条件：毛细管柱温度应为60℃；刘览专检测室温度应为150℃；汽化室温度应为150℃；载气应为氮气。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#D.0.6
+  standard_code: GB 50325-2020
+  chapter: 附录D 室内空气中苯、甲苯、二甲苯的测定
+  section: ''
+  clause_no: D.0.6
+  text: D.0.6室温下标准吸附管系列制备时应采用一定浓度的苯、甲苯、对（间）二甲苯、邻二甲苯标准气体或标准溶液，从吸附管进气口定量注入吸附管，制成苯含量为0.05ug、0.1μg、0.2ug、0.4ug、0.8μg、1.2μg以及甲苯、二甲苯含量分别为0.1μg、0.4ug、0.8μg、1.2μg、2μg的标准系列吸附管，同时应采用100mL/min的氮气通过吸附管，5min后取下并密封，作为标准吸附管。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 同时应采用
+    unit: m
+    condition: null
+    min_value: 100.0
+    max_value: 100.0
+  - name: 通过吸附管
+    unit: m
+    condition: null
+    min_value: 5.0
+    max_value: 5.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#D.0.7
+  standard_code: GB 50325-2020
+  chapter: 附录D 室内空气中苯、甲苯、二甲苯的测定
+  section: ''
+  clause_no: D.0.7
+  text: D.0.7分析时应采用热解吸直接进样的气相色谱法，将标准吸附管和样品吸附管分别置于热解吸直接进样装置中，解吸气流方向应与标准吸附管制样气流方向和样品吸附管采样气流方向相反，充分解吸（活性炭吸附管350℃或2，6一对苯基二苯醚多孔聚合物一石墨化炭黑一X复合吸附管经过300℃）后，将解吸气体经.30:由进样阀直接通入气相色谱仪进行色谱分析，应以保留时间定性、以峰面积定量。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#D.0.8
+  standard_code: GB 50325-2020
+  chapter: 附录D 室内空气中苯、甲苯、二甲苯的测定
+  section: ''
+  clause_no: D.0.8
+  text: D.0.8所采空气样品中苯、甲苯、二甲苯的浓度及换算成标准状态下的浓度，应分别按下列公式进行计算：C=m_mo(D.0.8-1)式中:C-所采空气样品中苯、甲苯、二甲苯各组分浓度（mg/m"）；样品管中苯、甲苯、二甲苯各组分的量(ug)；mo未采样管中苯、甲苯、二甲苯各组分的量（μg)；空气采样体积（L）。(D.0.8-2)式中：C。换算到标准体积后空气样品中苯、甲苯、二甲苯的浓度(mg/m²);采样时采样点的大气压力（kPa）注：1当用活性炭吸附管和2，6一对苯基二苯醚多孔聚合物一石墨化炭黑一X复合吸附管采样的检测结果有争议时,以活性炭吸附管的检测结果为准。当用活性炭管吸附管采样时，空气湿度应小于90%。:31:附录 E‧室内空气中 TVOC的测定公开
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 空气湿度
+    unit: '%'
+    condition: null
+    min_value: null
+    max_value: 90.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#E.0.1
+  standard_code: GB 50325-2020
+  chapter: 附录E 室内空气中TVOC的测定
+  section: ''
+  clause_no: E.0.1
+  text: 应采用Tenax一TA吸附管或2,6一对苯基二苯醚多孔聚合物一石墨化炭黑一X复合吸附管采集一定体积的空气样品；应通过热解吸装置加热吸附管，并得到TVOC的解吸气体；将TVOC的解吸气体注人气相色谱仪进行色谱定性、定量分析。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#E.0.2
+  standard_code: GB 50325-2020
+  chapter: 附录E 室内空气中TVOC的测定
+  section: ''
+  clause_no: E.0.2
+  text: E.0.2室内空气中TVOC测定所需仪器及设备应符合下列规定：1恒流采样器：在采样过程中流量应稳定，流量范围应包含0.5L/min，并且当流量为0.5L/min时，应能克服5kPa～10kPa之间的阻力，此时用流量计校准系统流量时，相对偏差不应大于±5%;2热解吸装置应能对吸附管进行热解吸，其解吸温度及载气流速应可调；3气相色谱仪应配置FID或MS检测器；4毛细管柱：毛细管柱长应为50m的石英柱，内径应为0.32mm，内涂覆聚二甲基聚硅氧烷或其他非极性材料；5程序升温：初始温度应为50℃，且保持10min，升温速率应5℃/min，温度应升至250℃，并保持2min。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 对偏差
+    unit: '%'
+    condition: null
+    min_value: 5.0
+    max_value: null
+  - name: 细管柱长
+    unit: m
+    condition: null
+    min_value: 50.0
+    max_value: 50.0
+  - name: 柱长
+    unit: mm
+    condition: null
+    min_value: 0.32
+    max_value: 0.32
+  - name: 初始温度
+    unit: m
+    condition: null
+    min_value: 10.0
+    max_value: 10.0
+  - name: 升至并保持
+    unit: m
+    condition: null
+    min_value: 2.0
+    max_value: 2.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#E.0.3
+  standard_code: GB 50325-2020
+  chapter: 附录E 室内空气中TVOC的测定
+  section: ''
+  clause_no: E.0.3
+  text: E.0.3试剂和材料应符合下列规定：1Tenax一TA吸附管可为玻璃管或内壁光滑的不锈钢管，管内装有200mg粒径为0.18mm～0.25mm（60目～80目）的.32:Tenax一TA吸附剂，或2,6一对苯基二苯醚多孔聚合物一石墨化炭黑一X复合吸附管（样品管应有采样气流方向标识）。使用前应通氮气加热活化，活化温度应高于解吸温度，活化时间不应少于30min，活化至无杂质峰为止，当流量为0.5L/min时，阻力应在5kPa～10kPa之间。2有证标准溶液或标准气体应符合表E.0.3规定。有证标准溶液或标准气体表E.0.3序号名称CAS号正已烷110—54-3200—753—7三氯乙烯）79—01-6108-88-31IX66-0乙酸丁酯123-86-4乙苯100-41-4对二甲苯10642-3间二甲苯108-38-3邻二甲苯95—47—6苯乙烯100-42-5111-84-2104—767异辛醇十一烷1120—21—4十四烷62959—4十六烷54476-33载气应为氮气，纯度不应小于99.99%，当配置MS检测器载气为氮气时，纯度不应小于99.999%。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 管管内装有
+    unit: m
+    condition: null
+    min_value: 200.0
+    max_value: 200.0
+  - name: 有mg粒径
+    unit: mm
+    condition: null
+    min_value: 0.18
+    max_value: 0.18
+  - name: 有mg粒径
+    unit: mm
+    condition: null
+    min_value: 0.25
+    max_value: 0.25
+  - name: 未识别对象
+    unit: m
+    condition: null
+    min_value: 30.0
+    max_value: null
+  - name: 为氮气纯度
+    unit: '%'
+    condition: null
+    min_value: 99.99
+    max_value: null
+  - name: 氮气时纯度
+    unit: '%'
+    condition: null
+    min_value: 99.999
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#E.0.4
+  standard_code: GB 50325-2020
+  chapter: 附录E 室内空气中TVOC的测定
+  section: ''
+  clause_no: E.0.4
+  text: E.0.4采样应符合下列规定：·331应在采样地点打开吸附管，在吸附管与空气采样器入气口垂直连接（气流方向与吸附管标识方向一致），应调节流量在0.5L/min的范围内后用皂膜流量计校准采样系统的流量，采集约10L空气，应记录采样时间及采样流量、采样温度、相对湿度和大气压。2采样后应取下吸附管，并密封吸附管的两端，做好标记后放入可密封的金属或玻璃容器中，并应尽快分析，样品保存时间不应大于14d。3采集室外空气空白样品应与采集室内空气样品同步进行，地点宜选择在室外上风向处。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 存时间
+    unit: d
+    condition: null
+    min_value: 14.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#E.0.5
+  standard_code: GB 50325-2020
+  chapter: 附录E 室内空气中TVOC的测定
+  section: ''
+  clause_no: E.0.5
+  text: E.0.5标准吸附管系列制备时，应采用一定浓度的各组分标准气体或标准溶液，定量注入吸附管中，制成各组分含量应为0.05μg、0.1μg、0.4μg、0.8μg2μg、2μg的标准吸附管，同时用100mL/min的氮气通过吸附管，5min后取下并密封，作为标准吸附管系列样品。X
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 附管同时用
+    unit: m
+    condition: null
+    min_value: 100.0
+    max_value: 100.0
+  - name: 通过吸附管
+    unit: m
+    condition: null
+    min_value: 5.0
+    max_value: 5.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#E.0.6
+  standard_code: GB 50325-2020
+  chapter: 附录E 室内空气中TVOC的测定
+  section: ''
+  clause_no: E.0.6
+  text: E.0.6应采用热解吸直接进样的气相色谱法，将吸附管置于热解吸直接进样装置中，应确保解吸气流方向与标准吸附管制样气流方向相反经300℃充分解吸后，使解吸气体直接由进样阀快速通入气相色谱仪进行色谱定性、定量分析。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#E.0.7
+  standard_code: GB 50325-2020
+  chapter: 附录E 室内空气中TVOC的测定
+  section: ''
+  clause_no: E.0.7
+  text: E.0.7当配置FID检测器时，应以保留时间定性、峰面积定量；当配置MS检测器时，应根据保留时间和各组分的特征离子定性，在确认组分的条件后，采用定量离子进行定量。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#E.0.8
+  standard_code: GB 50325-2020
+  chapter: 附录E 室内空气中TVOC的测定
+  section: ''
+  clause_no: E.0.8
+  text: E.0.8样品分析时，每支样品吸附管应按与标准吸附管系列相同的热解吸气相色谱分析方法进行分析。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+- id: GB 50325-2020#E.0.9
+  standard_code: GB 50325-2020
+  chapter: 附录E 室内空气中TVOC的测定
+  section: ''
+  clause_no: E.0.9
+  text: E.0.9所采空气样品中的浓度计算应符合下列规定：1所采空气样品中各组分的浓度应按下式进行计算：Cm = m;_mo(E.0.9-1)式中：Cm一所采空气样品中i组分的浓度（mg/m"）；样品管中i组分的质量（ug）；mo未采样管中i组分的质量（μg)；空气采样体积（L）。空气样品中各组分的浓度应按下式换算成标准状态下的浓度：101.3 ×t+273(E.0.9-2)式中： C。换算到标准体积后空气样品中i组分的浓度（mg/m²）；采样时采样点的大气压力（kPa)：采样时采样点的温度（)所采空气样品中TVOC的浓度应按下式进行计算：(E.0.9-3)式中：CTvoc标准状态下所采空气样品中TVOC的浓度（mg/m²）；一标准状态下所采空气样品中i组分的浓度(mg/m²）。注：1对未识别的峰,应以甲苯计。X复合吸附管采样的检测结果有争议时，以Tenax-TA吸附管的检测结果为准。本标准用词说明1为便于在执行本标准条文时区别对待,对要求严格程度不同的用词说明如下：1)表示很严格，非这样做不可的：正面词采用“必须”,反面词采用“严禁"；2)表示严格，在正常情况下均应这样做的：正面词采用“应”，反面词采用“不应”或“不得”；3)表示允许稍有选择，在条件许可时首先这样做的：正面词采用“宜”，反面词采用“不宜”；4)表示有选择，在才定条件下可以这样做的，可采用“可”。2条文中指明应按其他有关标准执行的写法为：“应符合的规定”或“应按…执行”。引用标准名录息公开《地下工程防水技术规范》GB50108《民用建筑设计统一标准》GB50352《民用建筑供暖通风与空气调节设计规范》GB50736《建筑材料放射性核素限量》GB6566《建筑物表面氢析出率的活性炭测量方法》GB/T16143《人造板及饰面人造板理化性能试验方法》GB/T17657《公共场所卫生检验方法第2部分：化学污染物》GB/T18204.2《室内装饰装修材料溶剂型木器涂料中有害物质限量》GB18581《建筑用墙面涂料中有害物质限量》GB18582《室内装饰装修材料、壁纸中有害物质限量》GB18585《室内装饰装修材料厂聚氯乙烯卷材地板中有害物质限量》GB18586《混凝土外加剂中释放氨的限量》GB18588《色漆和清漆挥发性有机化合物（VOC)含量的测定差值法》GB/T 23985《水性涂料中甲醛含量的测定乙酰丙酮分光光度法》GB/T23993《涂料中苯、甲苯、乙苯和二甲苯含量的测定气相色谱法》GB/T 23990《建筑胶粘剂有害物质限量》GB30982《混凝土外加剂中残留甲醛的限量》GB31040《胶粘剂挥发性有机化合物限量》GB/T33372《室内地坪涂料中有害物质限量》GB38468《建筑防火涂料有害物质限量及检测方法》JG/T415
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 必须
+    - 严禁
+    - 不应
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50108
+    target_clause: null
+    original_text: 他有关标准执行的写法为：“应符合的规定”或“应按…执行”。引用标准名录息公开《地下工程防水技术规范》GB50108《民用建筑设计统一标准》GB50352《民用建筑供暖通风与空气调节设计规范》GB
+    resolution_status: resolved
+    resolution_note: 库内标准（GB 50108-2008），可交叉引用并确认具体参数
+  - target_standard: GB 50352
+    target_clause: null
+    original_text: ”或“应按…执行”。引用标准名录息公开《地下工程防水技术规范》GB50108《民用建筑设计统一标准》GB50352《民用建筑供暖通风与空气调节设计规范》GB50736《建筑材料放射性核素限量》G
+    resolution_status: resolved
+    resolution_note: 库内标准（GB 50352-2019），可交叉引用并确认具体参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 室内环境控制
+  conflicts: []
+executable_rules:
+- rule_id: R_GB503252020_2_1_10_1
+  source_clause: GB 50325-2020#2.1.10
+  rule_type: validation
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 体总质量在
+    unit: '%'
+    condition: null
+    min_value: 5.0
+    max_value: 5.0
+  source_text: 本体型胶粘剂bulk construction adhesive溶剂含量或者水含量占胶体总质量在5%以内的胶粘剂。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_3_1_3_1
+  source_clause: GB 50325-2020#3.1.3
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 心率孔洞率
+    unit: '%'
+    condition: null
+    min_value: 25.0
+  source_text: 当民用建筑工程使用加气混凝土制品和空心率（孔洞率）大于25%的空心砖、空心砌块等建筑主体材料时,其放射性限量应符合
+  table_source: 表3.1.3
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_3_2_3_1
+  source_clause: GB 50325-2020#3.2.3
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 释放量
+    unit: m
+    condition: null
+    min_value: 0.124
+  source_text: 环境测试舱法测定的人造木板及其制品的游离甲醛释放量不应大于0.124mg/m，测定方法应按本标准附录B执行。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_3_2_4_1
+  source_clause: GB 50325-2020#3.2.4
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 释放量
+    unit: m
+    condition: null
+    min_value: 1.5
+  source_text: 干燥器法测定的人造木板及其制品的游离甲醛释放量不应大于1.5mg/L，测定方法应符合现行国家标准《人造板及饰面人造板理化性能试验方法》GB/T17657的规定。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_3_5_1_1
+  source_clause: GB 50325-2020#3.5.1
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 其限量
+    unit: m
+    condition: null
+    min_value: 100.0
+  source_text: 民用建筑工程室内用水性阻燃剂（包括防火涂料）防水剂、防腐剂、增强剂等水性处理剂，应测定游离甲醛的含量，其限量不应大于100mg/kg。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_3_6_1_1
+  source_clause: GB 50325-2020#3.6.1
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 释放量
+    unit: '%'
+    condition: null
+    min_value: 0.1
+  source_text: 民用建筑工程中所使用的混凝土外加剂，氨的释放量不应大于0.10%，氨释放量测定方法应符合现行国家标准《混凝土外加剂中释放氨的限量》GB18588的有关规定。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_3_6_2_1
+  source_clause: GB 50325-2020#3.6.2
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 释放量
+    unit: '%'
+    condition: null
+    min_value: 0.5
+  source_text: 民用建筑工程中所使用的能释放氮的阻燃剂、防火涂料、水性建筑防水涂料氨的释放量不应大于0.50%，测定方法宜符合现行行业标准《建筑防火涂料有害物质限量及检测方法》JG/T415的有关规定。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_3_6_3_1
+  source_clause: GB 50325-2020#3.6.3
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 醛的量
+    unit: m
+    condition: null
+    min_value: 500.0
+  source_text: 民用建筑工程中所使用的能释放甲醛的混凝土外加剂中，残留甲醛的量不应大于500mg/kg，测定方法应符合现行国家标准《混凝土外加剂中残留甲醛的限量》GB31040的有关规定。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_3_6_4_1
+  source_clause: GB 50325-2020#3.6.4
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 释放量
+    unit: m
+    condition: null
+    min_value: 0.124
+  source_text: 民用建筑室内使用的黏合木结构材料，游离甲醛释放量不应大于0.124mg/m²，其测定方法应符合本标准附录B的有关规定。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_3_6_5_1
+  source_clause: GB 50325-2020#3.6.5
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 释放量
+    unit: m
+    condition: null
+    min_value: 0.124
+  source_text: 民用建筑室内用惟幕、软包等游离甲醛释放量不应大于0.124mg/m3，其测定方法应符合本标准附录B的有关规定。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_5_2_2_1
+  source_clause: GB 50325-2020#5.2.2
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 砖使用面积
+    unit: m²
+    condition: null
+    min_value: 200.0
+  source_text: 民用建筑室内装饰装修中采用的天然花岗石石材或瓷质砖使用面积大于200m²时，应对不同产品不同批次材料分别进行放射性指标的抽查复验。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_5_2_4_1
+  source_clause: GB 50325-2020#5.2.4
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 造木板面积
+    unit: m²
+    condition: null
+    min_value: 500.0
+  source_text: 民用建筑室内装饰装修中采用的人造木板面积大于500m²时，应对不同产品、不同批次材料的游离甲醛释放量分别进行抽查复验。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_6_0_6_1
+  source_clause: GB 50325-2020#6.0.6
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 确定度
+    unit: '%'
+    condition: null
+    min_value: 25.0
+  source_text: 民用建筑室内空气中氢浓度检测宜采用泵吸静电收集能谱分析法、泵吸闪烁室法、泵吸脉冲电离室法、活性炭盒一低本底多道谱仪法，测量结果不确定度不应大于25%（k=2），方法的探测下限不应大于10Bq/m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_6_0_12_1
+  source_clause: GB 50325-2020#6.0.12
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 房间总数
+    unit: '%'
+    condition: null
+    min_value: 5.0
+    max_value: 5.0
+  source_text: 民用建筑工程验收时，应抽检每个建筑单体有代表性的房间室内环境污染物浓度，氨、甲醛、氨、苯、甲苯、二甲苯、TVOC的抽检量不得少于房间总数的5%，每个建筑单体不得少于3间，当房间总数少于3间时，应全数检测。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_6_0_14_1
+  source_clause: GB 50325-2020#6.0.14
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 房间总数
+    unit: '%'
+    condition: null
+    min_value: 50.0
+    max_value: 50.0
+  source_text: 幼儿园、学校教室学生宿舍、老年人照料房屋设施室内装饰装修验收时，室内空气中氢、甲醛、氨、苯、甲苯、二甲苯、TVOC的抽检量不得少于房间总数的50%，且不得少于20间。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_6_0_17_1
+  source_clause: GB 50325-2020#6.0.17
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 间地面高度
+    unit: m
+    condition: null
+    min_value: 0.8
+    max_value: 0.8
+  source_text: 民用建筑工程验收时，室内环境污染物浓度现场检测点应距房间地面高度0.8m～1.5m，距房间内墙面不应小于0.5m。检测点应均匀分布，且应避开通风道和通风口。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_6_0_17_2
+  source_clause: GB 50325-2020#6.0.17
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 地面高度m
+    unit: m
+    condition: null
+    min_value: 1.5
+    max_value: 1.5
+  source_text: 民用建筑工程验收时，室内环境污染物浓度现场检测点应距房间地面高度0.8m～1.5m，距房间内墙面不应小于0.5m。检测点应均匀分布，且应避开通风道和通风口。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_6_0_17_3
+  source_clause: GB 50325-2020#6.0.17
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 房间内墙面
+    unit: m
+    condition: null
+    min_value: 0.5
+  source_text: 民用建筑工程验收时，室内环境污染物浓度现场检测点应距房间地面高度0.8m～1.5m，距房间内墙面不应小于0.5m。检测点应均匀分布，且应避开通风道和通风口。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_6_0_18_1
+  source_clause: GB 50325-2020#6.0.18
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 外门窗关闭
+    unit: h
+    condition: null
+    min_value: 1.0
+    max_value: 1.0
+  source_text: 当对民用建筑室内环境中的甲醛、氨、苯、甲苯、二甲苯、TVOC浓度检测时，装饰装修工程中完成的固定式家具应保持正常使用状态；采用集中通风的民用建筑工程，应在通风系统正常运行的条件下进行；采用自然通风的民用建筑工程，检测应在对外门窗关闭1h后进行。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_6_0_19_1
+  source_clause: GB 50325-2020#6.0.19
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 外门窗关闭
+    unit: h
+    condition: null
+    min_value: 24.0
+    max_value: 24.0
+  source_text: 民用建筑室内环境中氢浓度检测时，对采用集中通风的民用建筑工程，应在通风系统正常运行的条件下进行；采用自然通风的民用建筑工程，应在房间的对外门窗关闭24h以后进行。I类建筑无架空层或地下车库结构时，一、二层房间抽检比例不宜低于总抽检房间数的40%。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_6_0_19_2
+  source_clause: GB 50325-2020#6.0.19
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 检比例
+    unit: '%'
+    condition: null
+    max_value: 40.0
+  source_text: 民用建筑室内环境中氢浓度检测时，对采用集中通风的民用建筑工程，应在通风系统正常运行的条件下进行；采用自然通风的民用建筑工程，应在房间的对外门窗关闭24h以后进行。I类建筑无架空层或地下车库结构时，一、二层房间抽检比例不宜低于总抽检房间数的40%。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_A_1_1_1
+  source_clause: GB 50325-2020#A.1.1
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 列规定连续
+    unit: h
+    condition: null
+    min_value: 10.0
+    max_value: 10.0
+  source_text: A.1.1建筑材料表面析出率的测定仪器应包括取样与测量两部分，工作原理应分为被动收集型和主动抽气采集型两种。测量装置应符合下列规定：连续10h测量探测下限不应大于0.001Bq／（m²·s）；不确定度不应大于20%（一2）；仪器标定应合格并在有效期内。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_A_1_1_2
+  source_clause: GB 50325-2020#A.1.1
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 确定度
+    unit: '%'
+    condition: null
+    min_value: 20.0
+  source_text: A.1.1建筑材料表面析出率的测定仪器应包括取样与测量两部分，工作原理应分为被动收集型和主动抽气采集型两种。测量装置应符合下列规定：连续10h测量探测下限不应大于0.001Bq／（m²·s）；不确定度不应大于20%（一2）；仪器标定应合格并在有效期内。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_A_1_2_1
+  source_clause: GB 50325-2020#A.1.2
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 测量时间
+    unit: h
+    condition: null
+    min_value: 1.0
+  source_text: 被动收集型测定仪器表面氢析出率测定步骤应按下列步骤进行：1应清理被测材料表面，将采气容器平扣在平整表面上，使收集器端面与被测材料表面间密封，被测表面积（m）与测定仪器的采气容器净空间容积(m²)之比约应为2：1；2测量时间应大于1h，并应根据氢析出率大小决定测量时间；3仪器表面氢
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_A_1_2_2
+  source_clause: GB 50325-2020#A.1.2
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 对湿度应在
+    unit: '%'
+    condition: null
+    min_value: 45.0
+    max_value: 45.0
+  source_text: 被动收集型测定仪器表面氢析出率测定步骤应按下列步骤进行：1应清理被测材料表面，将采气容器平扣在平整表面上，使收集器端面与被测材料表面间密封，被测表面积（m）与测定仪器的采气容器净空间容积(m²)之比约应为2：1；2测量时间应大于1h，并应根据氢析出率大小决定测量时间；3仪器表面氢
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_A_1_2_3
+  source_clause: GB 50325-2020#A.1.2
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 湿度应在土
+    unit: '%'
+    condition: null
+    min_value: 15.0
+    max_value: 15.0
+  source_text: 被动收集型测定仪器表面氢析出率测定步骤应按下列步骤进行：1应清理被测材料表面，将采气容器平扣在平整表面上，使收集器端面与被测材料表面间密封，被测表面积（m）与测定仪器的采气容器净空间容积(m²)之比约应为2：1；2测量时间应大于1h，并应根据氢析出率大小决定测量时间；3仪器表面氢
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_A_1_3_1
+  source_clause: GB 50325-2020#A.1.3
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 量时间应在
+    unit: h
+    condition: null
+    min_value: 2.0
+    max_value: 2.0
+  source_text: A.1.3主动抽气采集型测定建筑材料表面氢析出率步骤应按下列步骤进行：1被测试块准备：应使被测样品表面积（m²）与抽气采集容器（抽气采集容器或盛装被测试块容器）内净空间容积（m3）之比约为2：1，清理被测试块表面，准备测量；2测量装置准备：抽气采集容器（或盛装被测试块容器）应与.
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_A_1_3_2
+  source_clause: GB 50325-2020#A.1.3
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 在h以上
+    unit: h
+    condition: null
+    min_value: 10.0
+    max_value: 10.0
+  source_text: A.1.3主动抽气采集型测定建筑材料表面氢析出率步骤应按下列步骤进行：1被测试块准备：应使被测样品表面积（m²）与抽气采集容器（抽气采集容器或盛装被测试块容器）内净空间容积（m3）之比约为2：1，清理被测试块表面，准备测量；2测量装置准备：抽气采集容器（或盛装被测试块容器）应与.
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_A_1_3_3
+  source_clause: GB 50325-2020#A.1.3
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 对湿度应在
+    unit: '%'
+    condition: null
+    min_value: 45.0
+    max_value: 45.0
+  source_text: A.1.3主动抽气采集型测定建筑材料表面氢析出率步骤应按下列步骤进行：1被测试块准备：应使被测样品表面积（m²）与抽气采集容器（抽气采集容器或盛装被测试块容器）内净空间容积（m3）之比约为2：1，清理被测试块表面，准备测量；2测量装置准备：抽气采集容器（或盛装被测试块容器）应与.
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_A_1_3_4
+  source_clause: GB 50325-2020#A.1.3
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 湿度应在士
+    unit: '%'
+    condition: null
+    min_value: 15.0
+    max_value: 15.0
+  source_text: A.1.3主动抽气采集型测定建筑材料表面氢析出率步骤应按下列步骤进行：1被测试块准备：应使被测样品表面积（m²）与抽气采集容器（抽气采集容器或盛装被测试块容器）内净空间容积（m3）之比约为2：1，清理被测试块表面，准备测量；2测量装置准备：抽气采集容器（或盛装被测试块容器）应与.
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_B_0_1_1
+  source_clause: GB 50325-2020#B.0.1
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 舱的容积
+    unit: m
+    condition: null
+    min_value: 0.05
+    max_value: 0.05
+  source_text: 环境测试舱的容积应为0.05m3～40m
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_B_0_1_2
+  source_clause: GB 50325-2020#B.0.1
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 舱的容积
+    unit: m
+    condition: null
+    min_value: 40.0
+    max_value: 40.0
+  source_text: 环境测试舱的容积应为0.05m3～40m
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_B_0_3_1
+  source_clause: GB 50325-2020#B.0.3
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 空气流速
+    unit: m
+    condition: null
+    min_value: 0.1
+    max_value: 0.1
+  source_text: 环境测试舱的运行条件应符合下列规定：温度应为（23士0.5）℃；相对湿度应为(50士3)%；空气交换率应为（1±Q.05）/次/h；被测样品表面附近空气流速应为0.1m/s0.3m/s;5人造木板及其制品、黏合木结构材料、壁布、幕、软包样品的表面积与环境测试舱容积之比应为1：1,
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_B_0_3_2
+  source_clause: GB 50325-2020#B.0.3
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 空气流速
+    unit: m
+    condition: null
+    min_value: 0.3
+    max_value: 0.3
+  source_text: 环境测试舱的运行条件应符合下列规定：温度应为（23士0.5）℃；相对湿度应为(50士3)%；空气交换率应为（1±Q.05）/次/h；被测样品表面附近空气流速应为0.1m/s0.3m/s;5人造木板及其制品、黏合木结构材料、壁布、幕、软包样品的表面积与环境测试舱容积之比应为1：1,
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_B_0_3_3
+  source_clause: GB 50325-2020#B.0.3
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 醛浓度
+    unit: m
+    condition: null
+    min_value: 0.006
+  source_text: 环境测试舱的运行条件应符合下列规定：温度应为（23士0.5）℃；相对湿度应为(50士3)%；空气交换率应为（1±Q.05）/次/h；被测样品表面附近空气流速应为0.1m/s0.3m/s;5人造木板及其制品、黏合木结构材料、壁布、幕、软包样品的表面积与环境测试舱容积之比应为1：1,
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_B_0_3_4
+  source_clause: GB 50325-2020#B.0.3
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: C浓度
+    unit: m
+    condition: null
+    min_value: 0.01
+  source_text: 环境测试舱的运行条件应符合下列规定：温度应为（23士0.5）℃；相对湿度应为(50士3)%；空气交换率应为（1±Q.05）/次/h；被测样品表面附近空气流速应为0.1m/s0.3m/s;5人造木板及其制品、黏合木结构材料、壁布、幕、软包样品的表面积与环境测试舱容积之比应为1：1,
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_B_0_4_1
+  source_clause: GB 50325-2020#B.0.4
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 条件下放置
+    unit: d
+    condition: null
+    min_value: 1.0
+  source_text: B.0.4测试应符合下列规定：1测试前样品应在（23士1）℃、相对湿度（50士5）%条件下放置不少于1d，样品件之间距离不应小于25mm，且应使空气在所有样品件表面上自由循环，恒温恒湿室内空气换气次数不应低于1次/h，室内空气中甲醛浓度不应大于0.05mg/m3、VOc浓度不应大
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_B_0_4_2
+  source_clause: GB 50325-2020#B.0.4
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 件之间距离
+    unit: mm
+    condition: null
+    min_value: 25.0
+  source_text: B.0.4测试应符合下列规定：1测试前样品应在（23士1）℃、相对湿度（50士5）%条件下放置不少于1d，样品件之间距离不应小于25mm，且应使空气在所有样品件表面上自由循环，恒温恒湿室内空气换气次数不应低于1次/h，室内空气中甲醛浓度不应大于0.05mg/m3、VOc浓度不应大
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_B_0_4_3
+  source_clause: GB 50325-2020#B.0.4
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 醛浓度
+    unit: m
+    condition: null
+    min_value: 0.05
+  source_text: B.0.4测试应符合下列规定：1测试前样品应在（23士1）℃、相对湿度（50士5）%条件下放置不少于1d，样品件之间距离不应小于25mm，且应使空气在所有样品件表面上自由循环，恒温恒湿室内空气换气次数不应低于1次/h，室内空气中甲醛浓度不应大于0.05mg/m3、VOc浓度不应大
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_B_0_4_4
+  source_clause: GB 50325-2020#B.0.4
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: c浓度
+    unit: m
+    condition: null
+    min_value: 0.3
+  source_text: B.0.4测试应符合下列规定：1测试前样品应在（23士1）℃、相对湿度（50士5）%条件下放置不少于1d，样品件之间距离不应小于25mm，且应使空气在所有样品件表面上自由循环，恒温恒湿室内空气换气次数不应低于1次/h，室内空气中甲醛浓度不应大于0.05mg/m3、VOc浓度不应大
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_B_0_4_5
+  source_clause: GB 50325-2020#B.0.4
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 件之间距离
+    unit: mm
+    condition: null
+    min_value: 200.0
+  source_text: B.0.4测试应符合下列规定：1测试前样品应在（23士1）℃、相对湿度（50士5）%条件下放置不少于1d，样品件之间距离不应小于25mm，且应使空气在所有样品件表面上自由循环，恒温恒湿室内空气换气次数不应低于1次/h，室内空气中甲醛浓度不应大于0.05mg/m3、VOc浓度不应大
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_B_0_4_6
+  source_clause: GB 50325-2020#B.0.4
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 在测试的第
+    unit: d
+    condition: null
+    min_value: 2.0
+    max_value: 2.0
+  source_text: B.0.4测试应符合下列规定：1测试前样品应在（23士1）℃、相对湿度（50士5）%条件下放置不少于1d，样品件之间距离不应小于25mm，且应使空气在所有样品件表面上自由循环，恒温恒湿室内空气换气次数不应低于1次/h，室内空气中甲醛浓度不应大于0.05mg/m3、VOc浓度不应大
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_B_0_4_7
+  source_clause: GB 50325-2020#B.0.4
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 每次间隔
+    unit: h
+    condition: null
+    min_value: 3.0
+  source_text: B.0.4测试应符合下列规定：1测试前样品应在（23士1）℃、相对湿度（50士5）%条件下放置不少于1d，样品件之间距离不应小于25mm，且应使空气在所有样品件表面上自由循环，恒温恒湿室内空气换气次数不应低于1次/h，室内空气中甲醛浓度不应大于0.05mg/m3、VOc浓度不应大
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_B_0_4_8
+  source_clause: GB 50325-2020#B.0.4
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 之间的偏差
+    unit: '%'
+    condition: null
+    max_value: 5.0
+  source_text: B.0.4测试应符合下列规定：1测试前样品应在（23士1）℃、相对湿度（50士5）%条件下放置不少于1d，样品件之间距离不应小于25mm，且应使空气在所有样品件表面上自由循环，恒温恒湿室内空气换气次数不应低于1次/h，室内空气中甲醛浓度不应大于0.05mg/m3、VOc浓度不应大
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_B_0_4_9
+  source_clause: GB 50325-2020#B.0.4
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 之间的偏差
+    unit: m
+    condition: null
+    max_value: 0.005
+  source_text: B.0.4测试应符合下列规定：1测试前样品应在（23士1）℃、相对湿度（50士5）%条件下放置不少于1d，样品件之间距离不应小于25mm，且应使空气在所有样品件表面上自由循环，恒温恒湿室内空气换气次数不应低于1次/h，室内空气中甲醛浓度不应大于0.05mg/m3、VOc浓度不应大
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_B_0_4_10
+  source_clause: GB 50325-2020#B.0.4
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 定状态以第
+    unit: d
+    condition: null
+    min_value: 28.0
+    max_value: 28.0
+  source_text: B.0.4测试应符合下列规定：1测试前样品应在（23士1）℃、相对湿度（50士5）%条件下放置不少于1d，样品件之间距离不应小于25mm，且应使空气在所有样品件表面上自由循环，恒温恒湿室内空气换气次数不应低于1次/h，室内空气中甲醛浓度不应大于0.05mg/m3、VOc浓度不应大
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_B_0_4_11
+  source_clause: GB 50325-2020#B.0.4
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 放置时间
+    unit: h
+    condition: null
+    min_value: 24.0
+    max_value: 24.0
+  source_text: B.0.4测试应符合下列规定：1测试前样品应在（23士1）℃、相对湿度（50士5）%条件下放置不少于1d，样品件之间距离不应小于25mm，且应使空气在所有样品件表面上自由循环，恒温恒湿室内空气换气次数不应低于1次/h，室内空气中甲醛浓度不应大于0.05mg/m3、VOc浓度不应大
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_C_1_4_1
+  source_clause: GB 50325-2020#C.1.4
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 时应以间距
+    unit: m
+    condition: null
+    min_value: 10.0
+    max_value: 10.0
+  source_text: C.1.4在工程地质勘察范围内布点时，应以间距10m作网格，各网格点应为测试点当遇较大石块时，可偏离土2m，但布点数不应少于16个。测量布点应覆盖单体建筑基础工程范围。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_C_1_5_1
+  source_clause: GB 50325-2020#C.1.5
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 孔的深度
+    unit: mm
+    condition: null
+    min_value: 500.0
+    max_value: 500.0
+  source_text: C.1.5少量抽气一静电收集一射线探测器法测量时，在每个测试点，应采用专用工具打孔，孔的深度宜为500mm～800mm。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_C_1_5_2
+  source_clause: GB 50325-2020#C.1.5
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 孔的深度
+    unit: mm
+    condition: null
+    min_value: 800.0
+    max_value: 800.0
+  source_text: C.1.5少量抽气一静电收集一射线探测器法测量时，在每个测试点，应采用专用工具打孔，孔的深度宜为500mm～800mm。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_C_1_8_1
+  source_clause: GB 50325-2020#C.1.8
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 时应在雨后
+    unit: h
+    condition: null
+    min_value: 24.0
+    max_value: 24.0
+  source_text: C.1.8取样测试时间宜在8:00～18：00之间，现场取样测试工作不应在雨天进行，当遇雨天时，应在雨后24h后进行。工作温度应为一10℃～40℃；相对湿度不应大于90%。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_C_1_8_2
+  source_clause: GB 50325-2020#C.1.8
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 对湿度
+    unit: '%'
+    condition: null
+    min_value: 90.0
+  source_text: C.1.8取样测试时间宜在8:00～18：00之间，现场取样测试工作不应在雨天进行，当遇雨天时，应在雨后24h后进行。工作温度应为一10℃～40℃；相对湿度不应大于90%。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_C_1_9_1
+  source_clause: GB 50325-2020#C.1.9
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 描述测试前
+    unit: h
+    condition: null
+    min_value: 24.0
+    max_value: 24.0
+  source_text: C.1.9现场测试应有记录，记录内容应包括测试点布设图、成孔·25:点土壤类别、现场地表状况描述、测试前24h以内工程地点的气象状况等。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_C_2_1_1
+  source_clause: GB 50325-2020#C.2.1
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 确定度
+    unit: '%'
+    condition: null
+    min_value: 20.0
+  source_text: C.2.1土壤表面氢析出率测定仪器设备应包括取样设备、测量设备。取样设备的形状应为盆状，工作原理应分为被动收集型和主动抽气采集型两种。现场测量设备应符合下列规定：不确定度不应大于20%；探测下限不应大于0.01Bq/m²：s）。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_C_2_2_1
+  source_clause: GB 50325-2020#C.2.2
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 建筑场地按
+    unit: m
+    condition: null
+    min_value: 20.0
+    max_value: 20.0
+  source_text: 测量步骤应符合下列规定：7在测量建筑场地按20m建筑场地网格布点，布点数不应少于16个，应于网格点交叉处进行土壤氢析出率测量。工作温度应为一10℃～40℃;相对湿度不应大于 90%。2测量时，应清扫采样点地面，去除腐殖质、杂草及石块，把取样器扣在平整后的地面上，并应用泥土对取样器
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_C_2_2_2
+  source_clause: GB 50325-2020#C.2.2
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 对湿度
+    unit: '%'
+    condition: null
+    min_value: 90.0
+  source_text: 测量步骤应符合下列规定：7在测量建筑场地按20m建筑场地网格布点，布点数不应少于16个，应于网格点交叉处进行土壤氢析出率测量。工作温度应为一10℃～40℃;相对湿度不应大于 90%。2测量时，应清扫采样点地面，去除腐殖质、杂草及石块，把取样器扣在平整后的地面上，并应用泥土对取样器
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_C_2_2_3
+  source_clause: GB 50325-2020#C.2.2
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 相适应一般
+    unit: h
+    condition: null
+    min_value: 1.0
+    max_value: 1.0
+  source_text: 测量步骤应符合下列规定：7在测量建筑场地按20m建筑场地网格布点，布点数不应少于16个，应于网格点交叉处进行土壤氢析出率测量。工作温度应为一10℃～40℃;相对湿度不应大于 90%。2测量时，应清扫采样点地面，去除腐殖质、杂草及石块，把取样器扣在平整后的地面上，并应用泥土对取样器
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_C_2_2_4
+  source_clause: GB 50325-2020#C.2.2
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 相适应一般
+    unit: h
+    condition: null
+    min_value: 2.0
+    max_value: 2.0
+  source_text: 测量步骤应符合下列规定：7在测量建筑场地按20m建筑场地网格布点，布点数不应少于16个，应于网格点交叉处进行土壤氢析出率测量。工作温度应为一10℃～40℃;相对湿度不应大于 90%。2测量时，应清扫采样点地面，去除腐殖质、杂草及石块，把取样器扣在平整后的地面上，并应用泥土对取样器
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_C_3_1_1
+  source_clause: GB 50325-2020#C.3.1
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 可偏移
+    unit: m
+    condition: null
+    min_value: 200.0
+  source_text: 测点布置应符合下列规定：1在城市区域应按2km×2km网格布置测点，部分中小城市可按1kmX1km网格布置测点。因地形、建筑等原因测点位置可偏移，不宜超过200m；2每个城市测点数量不应少于100个；3宜使用1：50000～：100000或更大比例尺地形（地质）图和全球卫星定位仪
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_C_3_2_1
+  source_clause: GB 50325-2020#C.3.2
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 对湿度
+    unit: '%'
+    condition: null
+    min_value: 90.0
+  source_text: 调查方法应符合下列规定：1调查前应制订方案，准备好测量仪器和其他工具。仪器在使用前应进行标定，当使用2台或2台以上仪器进行调查时，所用仪器宜同时进行标定。工作温度应为一10℃～40℃；相对湿度不应大于90%。2测点定位：调查测点位置应用北斗或GPS定位，同时应对地理位置进行简要描
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_C_3_2_2
+  source_clause: GB 50325-2020#C.3.2
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 度应统一定
+    unit: mm
+    condition: null
+    min_value: 500.0
+    max_value: 500.0
+  source_text: 调查方法应符合下列规定：1调查前应制订方案，准备好测量仪器和其他工具。仪器在使用前应进行标定，当使用2台或2台以上仪器进行调查时，所用仪器宜同时进行标定。工作温度应为一10℃～40℃；相对湿度不应大于90%。2测点定位：调查测点位置应用北斗或GPS定位，同时应对地理位置进行简要描
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_C_3_2_3
+  source_clause: GB 50325-2020#C.3.2
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 度应统一定
+    unit: mm
+    condition: null
+    min_value: 800.0
+    max_value: 800.0
+  source_text: 调查方法应符合下列规定：1调查前应制订方案，准备好测量仪器和其他工具。仪器在使用前应进行标定，当使用2台或2台以上仪器进行调查时，所用仪器宜同时进行标定。工作温度应为一10℃～40℃；相对湿度不应大于90%。2测点定位：调查测点位置应用北斗或GPS定位，同时应对地理位置进行简要描
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_C_3_2_4
+  source_clause: GB 50325-2020#C.3.2
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: mm孔径
+    unit: mm
+    condition: null
+    min_value: 20.0
+    max_value: 20.0
+  source_text: 调查方法应符合下列规定：1调查前应制订方案，准备好测量仪器和其他工具。仪器在使用前应进行标定，当使用2台或2台以上仪器进行调查时，所用仪器宜同时进行标定。工作温度应为一10℃～40℃；相对湿度不应大于90%。2测点定位：调查测点位置应用北斗或GPS定位，同时应对地理位置进行简要描
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_C_3_2_5
+  source_clause: GB 50325-2020#C.3.2
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: mm孔径
+    unit: mm
+    condition: null
+    min_value: 40.0
+    max_value: 40.0
+  source_text: 调查方法应符合下列规定：1调查前应制订方案，准备好测量仪器和其他工具。仪器在使用前应进行标定，当使用2台或2台以上仪器进行调查时，所用仪器宜同时进行标定。工作温度应为一10℃～40℃；相对湿度不应大于90%。2测点定位：调查测点位置应用北斗或GPS定位，同时应对地理位置进行简要描
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_C_3_2_6
+  source_clause: GB 50325-2020#C.3.2
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 平均值作
+    unit: m²
+    condition: null
+    min_value: 3.0
+    max_value: 3.0
+  source_text: 调查方法应符合下列规定：1调查前应制订方案，准备好测量仪器和其他工具。仪器在使用前应进行标定，当使用2台或2台以上仪器进行调查时，所用仪器宜同时进行标定。工作温度应为一10℃～40℃；相对湿度不应大于90%。2测点定位：调查测点位置应用北斗或GPS定位，同时应对地理位置进行简要描
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_C_3_3_1
+  source_clause: GB 50325-2020#C.3.3
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 标准偏差
+    unit: '%'
+    condition: null
+    max_value: 25.0
+  source_text: C.3.3调查的质量保证应符合下列规定：.27:1仪器使用前应按仪器说明书检查仪器稳定性；2使用2台以上仪器工作时应检查仪器的一致性，2台仪器测量结果的相对标准偏差应小于25%；3应挑选10%左右测点进行复查测量，复查测量结果应反映在测量原始数据表中。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_C_3_3_2
+  source_clause: GB 50325-2020#C.3.3
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 标准偏差
+    unit: '%'
+    condition: null
+    max_value: 10.0
+  source_text: C.3.3调查的质量保证应符合下列规定：.27:1仪器使用前应按仪器说明书检查仪器稳定性；2使用2台以上仪器工作时应检查仪器的一致性，2台仪器测量结果的相对标准偏差应小于25%；3应挑选10%左右测点进行复查测量，复查测量结果应反映在测量原始数据表中。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_D_0_2_1
+  source_clause: GB 50325-2020#D.0.2
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 对偏差
+    unit: '%'
+    condition: null
+    min_value: 5.0
+  source_text: D.0.2仪器及设备应符合下列规定：1恒流采样器：在采样过程中流量应稳定，流量范围应包含0.5L/min，且当流量为0.5L/min时，应能克服5kPa～10kPa的阻力，此时用流量计校准采样系统流量，相对偏差不应大于士5%阻力；2热解吸装置：应能对吸附管进行热解吸，解吸温度、载
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_D_0_2_2
+  source_clause: GB 50325-2020#D.0.2
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 细管柱长
+    unit: m
+    condition: null
+    min_value: 30.0
+    max_value: 30.0
+  source_text: D.0.2仪器及设备应符合下列规定：1恒流采样器：在采样过程中流量应稳定，流量范围应包含0.5L/min，且当流量为0.5L/min时，应能克服5kPa～10kPa的阻力，此时用流量计校准采样系统流量，相对偏差不应大于士5%阻力；2热解吸装置：应能对吸附管进行热解吸，解吸温度、载
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_D_0_2_3
+  source_clause: GB 50325-2020#D.0.2
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 细管柱长
+    unit: m
+    condition: null
+    min_value: 50.0
+    max_value: 50.0
+  source_text: D.0.2仪器及设备应符合下列规定：1恒流采样器：在采样过程中流量应稳定，流量范围应包含0.5L/min，且当流量为0.5L/min时，应能克服5kPa～10kPa的阻力，此时用流量计校准采样系统流量，相对偏差不应大于士5%阻力；2热解吸装置：应能对吸附管进行热解吸，解吸温度、载
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_D_0_3_1
+  source_clause: GB 50325-2020#D.0.3
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 炭吸附管
+    unit: m
+    condition: null
+    min_value: 100.0
+    max_value: 100.0
+  source_text: 试剂和材料应符合下列规定：1活性炭吸附管应为内装100mg椰子壳活性炭吸附剂的玻璃管或内壁光滑的不锈钢管。使用前应通氮气加热活化，活化温度应为300℃～350℃，活化时间不应少于10min，活化至无杂质峰为止；当流量为0.5L/min时，阻力应在5kPa～1okPa之间；2，6一
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_D_0_3_2
+  source_clause: GB 50325-2020#D.0.3
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 间不应少于
+    unit: m
+    condition: null
+    min_value: 10.0
+    max_value: 10.0
+  source_text: 试剂和材料应符合下列规定：1活性炭吸附管应为内装100mg椰子壳活性炭吸附剂的玻璃管或内壁光滑的不锈钢管。使用前应通氮气加热活化，活化温度应为300℃～350℃，活化时间不应少于10min，活化至无杂质峰为止；当流量为0.5L/min时，阻力应在5kPa～1okPa之间；2，6一
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_D_0_3_3
+  source_clause: GB 50325-2020#D.0.3
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 层分隔填装
+    unit: m
+    condition: null
+    min_value: 175.0
+  source_text: 试剂和材料应符合下列规定：1活性炭吸附管应为内装100mg椰子壳活性炭吸附剂的玻璃管或内壁光滑的不锈钢管。使用前应通氮气加热活化，活化温度应为300℃～350℃，活化时间不应少于10min，活化至无杂质峰为止；当流量为0.5L/min时，阻力应在5kPa～1okPa之间；2，6一
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_D_0_3_4
+  source_clause: GB 50325-2020#D.0.3
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: A吸附剂和
+    unit: m
+    condition: null
+    min_value: 75.0
+  source_text: 试剂和材料应符合下列规定：1活性炭吸附管应为内装100mg椰子壳活性炭吸附剂的玻璃管或内壁光滑的不锈钢管。使用前应通氮气加热活化，活化温度应为300℃～350℃，活化时间不应少于10min，活化至无杂质峰为止；当流量为0.5L/min时，阻力应在5kPa～1okPa之间；2，6一
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_D_0_3_5
+  source_clause: GB 50325-2020#D.0.3
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 为氮气纯度
+    unit: '%'
+    condition: null
+    min_value: 99.99
+  source_text: 试剂和材料应符合下列规定：1活性炭吸附管应为内装100mg椰子壳活性炭吸附剂的玻璃管或内壁光滑的不锈钢管。使用前应通氮气加热活化，活化温度应为300℃～350℃，活化时间不应少于10min，活化至无杂质峰为止；当流量为0.5L/min时，阻力应在5kPa～1okPa之间；2，6一
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_D_0_4_1
+  source_clause: GB 50325-2020#D.0.4
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 样品可保存
+    unit: d
+    condition: null
+    min_value: 14.0
+    max_value: 14.0
+  source_text: 采样注意事项应符合下列规定：应在采样地点打开吸附管，吸附管与空气采样器入气口垂直连接（气流方向与吸附管标识方向一致），调节流量在0.5L/min的范围内，应采用流量计校准采样系统的流量，采集约10L空气，并应记录采样时间、采样流量、温度、相对湿度和大气压。2采样后，应取下吸附管，
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_D_0_6_1
+  source_clause: GB 50325-2020#D.0.6
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 同时应采用
+    unit: m
+    condition: null
+    min_value: 100.0
+    max_value: 100.0
+  source_text: D.0.6室温下标准吸附管系列制备时应采用一定浓度的苯、甲苯、对（间）二甲苯、邻二甲苯标准气体或标准溶液，从吸附管进气口定量注入吸附管，制成苯含量为0.05ug、0.1μg、0.2ug、0.4ug、0.8μg、1.2μg以及甲苯、二甲苯含量分别为0.1μg、0.4ug、0.8μg
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_D_0_6_2
+  source_clause: GB 50325-2020#D.0.6
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 通过吸附管
+    unit: m
+    condition: null
+    min_value: 5.0
+    max_value: 5.0
+  source_text: D.0.6室温下标准吸附管系列制备时应采用一定浓度的苯、甲苯、对（间）二甲苯、邻二甲苯标准气体或标准溶液，从吸附管进气口定量注入吸附管，制成苯含量为0.05ug、0.1μg、0.2ug、0.4ug、0.8μg、1.2μg以及甲苯、二甲苯含量分别为0.1μg、0.4ug、0.8μg
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_D_0_8_1
+  source_clause: GB 50325-2020#D.0.8
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 空气湿度
+    unit: '%'
+    condition: null
+    max_value: 90.0
+  source_text: D.0.8所采空气样品中苯、甲苯、二甲苯的浓度及换算成标准状态下的浓度，应分别按下列公式进行计算：C=m_mo(D.0.8-1)式中:C-所采空气样品中苯、甲苯、二甲苯各组分浓度（mg/m"）；样品管中苯、甲苯、二甲苯各组分的量(ug)；mo未采样管中苯、甲苯、二甲苯各组分的量（
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_E_0_2_1
+  source_clause: GB 50325-2020#E.0.2
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 对偏差
+    unit: '%'
+    condition: null
+    min_value: 5.0
+  source_text: E.0.2室内空气中TVOC测定所需仪器及设备应符合下列规定：1恒流采样器：在采样过程中流量应稳定，流量范围应包含0.5L/min，并且当流量为0.5L/min时，应能克服5kPa～10kPa之间的阻力，此时用流量计校准系统流量时，相对偏差不应大于±5%;2热解吸装置应能对吸附管
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_E_0_2_2
+  source_clause: GB 50325-2020#E.0.2
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 细管柱长
+    unit: m
+    condition: null
+    min_value: 50.0
+    max_value: 50.0
+  source_text: E.0.2室内空气中TVOC测定所需仪器及设备应符合下列规定：1恒流采样器：在采样过程中流量应稳定，流量范围应包含0.5L/min，并且当流量为0.5L/min时，应能克服5kPa～10kPa之间的阻力，此时用流量计校准系统流量时，相对偏差不应大于±5%;2热解吸装置应能对吸附管
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_E_0_2_3
+  source_clause: GB 50325-2020#E.0.2
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 柱长
+    unit: mm
+    condition: null
+    min_value: 0.32
+    max_value: 0.32
+  source_text: E.0.2室内空气中TVOC测定所需仪器及设备应符合下列规定：1恒流采样器：在采样过程中流量应稳定，流量范围应包含0.5L/min，并且当流量为0.5L/min时，应能克服5kPa～10kPa之间的阻力，此时用流量计校准系统流量时，相对偏差不应大于±5%;2热解吸装置应能对吸附管
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_E_0_2_4
+  source_clause: GB 50325-2020#E.0.2
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 初始温度
+    unit: m
+    condition: null
+    min_value: 10.0
+    max_value: 10.0
+  source_text: E.0.2室内空气中TVOC测定所需仪器及设备应符合下列规定：1恒流采样器：在采样过程中流量应稳定，流量范围应包含0.5L/min，并且当流量为0.5L/min时，应能克服5kPa～10kPa之间的阻力，此时用流量计校准系统流量时，相对偏差不应大于±5%;2热解吸装置应能对吸附管
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_E_0_2_5
+  source_clause: GB 50325-2020#E.0.2
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 升至并保持
+    unit: m
+    condition: null
+    min_value: 2.0
+    max_value: 2.0
+  source_text: E.0.2室内空气中TVOC测定所需仪器及设备应符合下列规定：1恒流采样器：在采样过程中流量应稳定，流量范围应包含0.5L/min，并且当流量为0.5L/min时，应能克服5kPa～10kPa之间的阻力，此时用流量计校准系统流量时，相对偏差不应大于±5%;2热解吸装置应能对吸附管
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_E_0_3_1
+  source_clause: GB 50325-2020#E.0.3
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 管管内装有
+    unit: m
+    condition: null
+    min_value: 200.0
+    max_value: 200.0
+  source_text: E.0.3试剂和材料应符合下列规定：1Tenax一TA吸附管可为玻璃管或内壁光滑的不锈钢管，管内装有200mg粒径为0.18mm～0.25mm（60目～80目）的.32:Tenax一TA吸附剂，或2,6一对苯基二苯醚多孔聚合物一石墨化炭黑一X复合吸附管（样品管应有采样气流方向标识
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_E_0_3_2
+  source_clause: GB 50325-2020#E.0.3
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 有mg粒径
+    unit: mm
+    condition: null
+    min_value: 0.18
+    max_value: 0.18
+  source_text: E.0.3试剂和材料应符合下列规定：1Tenax一TA吸附管可为玻璃管或内壁光滑的不锈钢管，管内装有200mg粒径为0.18mm～0.25mm（60目～80目）的.32:Tenax一TA吸附剂，或2,6一对苯基二苯醚多孔聚合物一石墨化炭黑一X复合吸附管（样品管应有采样气流方向标识
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_E_0_3_3
+  source_clause: GB 50325-2020#E.0.3
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 有mg粒径
+    unit: mm
+    condition: null
+    min_value: 0.25
+    max_value: 0.25
+  source_text: E.0.3试剂和材料应符合下列规定：1Tenax一TA吸附管可为玻璃管或内壁光滑的不锈钢管，管内装有200mg粒径为0.18mm～0.25mm（60目～80目）的.32:Tenax一TA吸附剂，或2,6一对苯基二苯醚多孔聚合物一石墨化炭黑一X复合吸附管（样品管应有采样气流方向标识
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_E_0_3_5
+  source_clause: GB 50325-2020#E.0.3
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 为氮气纯度
+    unit: '%'
+    condition: null
+    min_value: 99.99
+  source_text: E.0.3试剂和材料应符合下列规定：1Tenax一TA吸附管可为玻璃管或内壁光滑的不锈钢管，管内装有200mg粒径为0.18mm～0.25mm（60目～80目）的.32:Tenax一TA吸附剂，或2,6一对苯基二苯醚多孔聚合物一石墨化炭黑一X复合吸附管（样品管应有采样气流方向标识
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_E_0_3_6
+  source_clause: GB 50325-2020#E.0.3
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 氮气时纯度
+    unit: '%'
+    condition: null
+    min_value: 99.999
+  source_text: E.0.3试剂和材料应符合下列规定：1Tenax一TA吸附管可为玻璃管或内壁光滑的不锈钢管，管内装有200mg粒径为0.18mm～0.25mm（60目～80目）的.32:Tenax一TA吸附剂，或2,6一对苯基二苯醚多孔聚合物一石墨化炭黑一X复合吸附管（样品管应有采样气流方向标识
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_E_0_4_1
+  source_clause: GB 50325-2020#E.0.4
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 存时间
+    unit: d
+    condition: null
+    min_value: 14.0
+  source_text: E.0.4采样应符合下列规定：·331应在采样地点打开吸附管，在吸附管与空气采样器入气口垂直连接（气流方向与吸附管标识方向一致），应调节流量在0.5L/min的范围内后用皂膜流量计校准采样系统的流量，采集约10L空气，应记录采样时间及采样流量、采样温度、相对湿度和大气压。2采样后
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_E_0_5_1
+  source_clause: GB 50325-2020#E.0.5
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 附管同时用
+    unit: m
+    condition: null
+    min_value: 100.0
+    max_value: 100.0
+  source_text: E.0.5标准吸附管系列制备时，应采用一定浓度的各组分标准气体或标准溶液，定量注入吸附管中，制成各组分含量应为0.05μg、0.1μg、0.4μg、0.8μg2μg、2μg的标准吸附管，同时用100mL/min的氮气通过吸附管，5min后取下并密封，作为标准吸附管系列样品。X
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503252020_E_0_5_2
+  source_clause: GB 50325-2020#E.0.5
+  rule_type: constraint
+  when:
+  - activity_type == '室内环境控制'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 通过吸附管
+    unit: m
+    condition: null
+    min_value: 5.0
+    max_value: 5.0
+  source_text: E.0.5标准吸附管系列制备时，应采用一定浓度的各组分标准气体或标准溶液，定量注入吸附管中，制成各组分含量应为0.05μg、0.1μg、0.4μg、0.8μg2μg、2μg的标准吸附管，同时用100mL/min的氮气通过吸附管，5min后取下并密封，作为标准吸附管系列样品。X
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+extraction_notes:
+- 实施日期（2020年？）待核。

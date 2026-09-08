@@ -1,0 +1,3166 @@
+standard:
+  code: JGJ/T 235-2011
+  name: 建筑外墙防水工程技术规程
+  name_note: null
+  version: '2011'
+  status: 现行
+  is_abolished: false
+  effective_date: null
+  abolished_date: null
+  superseded_by: null
+  standard_category: 行业标准
+  domain:
+  - 防水
+  - 外墙
+  region_scope: 全国
+  region_codes: []
+  has_mandatory_clauses: false
+  mandatory_clause_count: 0
+  mandatory_note: JGJ/T 推荐性行业标准，无强制性条文。
+  total_clauses: 52
+  related_standards:
+  - code: GB 55030-2022
+    relationship: 上位通用规范（全文强制）
+  clauses:
+  - JGJ/T 235-2011#2.0.3
+  - JGJ/T 235-2011#3.0.3
+  - JGJ/T 235-2011#3.0.6
+  - JGJ/T 235-2011#4.1.1
+  - JGJ/T 235-2011#4.2.3
+  - JGJ/T 235-2011#4.2.4
+  - JGJ/T 235-2011#4.3.1
+  - JGJ/T 235-2011#4.3.3
+  - JGJ/T 235-2011#4.3.4
+  - JGJ/T 235-2011#4.4.2
+  - JGJ/T 235-2011#4.4.3
+  - JGJ/T 235-2011#4.4.4
+  - JGJ/T 235-2011#5.2.2
+  - JGJ/T 235-2011#5.2.4
+  - JGJ/T 235-2011#5.3.1
+  - JGJ/T 235-2011#5.3.2
+  - JGJ/T 235-2011#5.3.3
+  - JGJ/T 235-2011#5.3.4
+  - JGJ/T 235-2011#6.1.1
+  - JGJ/T 235-2011#6.2.3
+  - JGJ/T 235-2011#6.2.5
+  - JGJ/T 235-2011#6.3.2
+  - JGJ/T 235-2011#6.3.3
+  - JGJ/T 235-2011#7.1.1
+  - JGJ/T 235-2011#4.2.2
+  - JGJ/T 235-2011#7.2.2
+  - JGJ/T 235-2011#7.2.3
+  - JGJ/T 235-2011#7.2.4
+  - JGJ/T 235-2011#7.2.5
+  - JGJ/T 235-2011#7.2.6
+  - JGJ/T 235-2011#7.3.1
+  - JGJ/T 235-2011#7.3.2
+  - JGJ/T 235-2011#7.3.3
+  - JGJ/T 235-2011#7.3.5
+  - JGJ/T 235-2011#7.4.4
+  - JGJ/T 235-2011#7.4.6
+  - JGJ/T 235-2011#o.85
+  - JGJ/T 235-2011#3.0.2
+  - JGJ/T 235-2011#o.5
+  - JGJ/T 235-2011#3.0.4
+  - JGJ/T 235-2011#4.3.2
+  - JGJ/T 235-2011#5.1.1
+  - JGJ/T 235-2011#5.2.5
+  - JGJ/T 235-2011#5.2.6
+  - JGJ/T 235-2011#5.3.6
+  - JGJ/T 235-2011#5.3.7
+  - JGJ/T 235-2011#6.2.6
+  - JGJ/T 235-2011#6.3.1
+  - JGJ/T 235-2011#7.2.7
+  - JGJ/T 235-2011#4.2.5
+  - JGJ/T 235-2011#7.3.4
+  - JGJ/T 235-2011#7.4.3
+  schema_version: v2.1
+  last_reviewed_date: '2026-09-07'
+clauses:
+- id: JGJ/T 235-2011#2.0.3
+  standard_code: JGJ/T 235-2011
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.3
+  text: 滴水线 drip water line 在凸出或凹进外墙面的部位外沿，设置的阻止水由水平方向 内渗的构造。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 水年降水量
+    unit: mm
+    condition: null
+    min_value: 800.0
+    max_value: null
+  - name: 墙年降水量
+    unit: mm
+    condition: null
+    min_value: 600.0
+    max_value: null
+  - name: 墙年降水量
+    unit: m
+    condition: null
+    min_value: 400.0
+    max_value: null
+  - name: 墙年降水量
+    unit: m
+    condition: null
+    min_value: 600.0
+    max_value: null
+  tables: []
+  converted_tables:
+  - raw: 滴水线具有阻止水流向外墙面的功能。在凸出外墙的窗台、窗帽、雨篷、阳台、女儿墙压顶和突出外墙的腰线等部位均要做滴水线，滴水线的形式有滴水槽和鹰嘴两种，通常采用水泥砂浆制作，也可采用金属（不锈钢、铝合金）预制件。基本规定3. 0.1对建筑外墙防水提出的基本功能要求，主要有以下三个方面因素：1 雨雪水侵人墙体，会对墙体产生侵蚀作用，进人室内，将会影响使用；当有保温层时，还会降低热工性能，达不到原设计保温隔热的节能指标，由此产生的损害应引起高度的认识和重视。防止雨水雪水侵人墙体是外墙防水的最重要功能。建筑外墙的防水层自身及其与基层的结合应能抵抗风荷载的破坏作用。冻融和夏季高温将影响建筑外墙防水的使用寿命，降低使用功能。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    activity_types:
+    - 外墙防水设计
+  conflicts: []
+- id: JGJ/T 235-2011#3.0.3
+  standard_code: JGJ/T 235-2011
+  chapter: 3 基本规定
+  section: ''
+  clause_no: 3.0.3
+  text: 除本规程第3.0.2条规定的建筑外，年降水量大于等于 400mm 地区的其他建筑外墙应采用节点构造防水措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 外年降水量
+    unit: mm
+    condition: null
+    min_value: 400.0
+    max_value: null
+  tables: []
+  converted_tables:
+  - raw: 根据调研的情况，本规程第3.0. 2条规定之外的地区，年降水量大于等于400mm 地区的建筑外墙渗漏主要发生在门窗洞口、雨篷、阳台、变形缝、伸出外墙管道等节点部位，因此应采用节点构造防水措施。根据调研资料，降水量小于200mm的干旱区、降水量在400mm以下的地区主要在甘肃、青海、宁夏、内蒙古和新疆大部，外墙渗漏的情况比较少见，本规程未对其防水作出规定，必要时可根据实际情况对节点部位进行防水密封处理。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    activity_types:
+    - 外墙防水设计
+  conflicts: []
+- id: JGJ/T 235-2011#3.0.6
+  standard_code: JGJ/T 235-2011
+  chapter: 3 基本规定
+  section: ''
+  clause_no: 3.0.6
+  text: 建筑外墙防水采用的防水材料及配套材料除应符合外墙 各构造层的要求外．尚应满足安全及环保的要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 防水材料及其配套材料均应满足相应的技术指标要求；同时，应满足环境保护及安全要求，例如，不得产生有害物质，不得污染环境，不得采用易燃材料。建筑防水涂料应符合《建筑防水涂料中有害物质限量》JC1066的要求。材料4.1一般规定
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    activity_types:
+    - 外墙防水设计
+  conflicts: []
+- id: JGJ/T 235-2011#4.1.1
+  standard_code: JGJ/T 235-2011
+  chapter: 4 材料
+  section: ''
+  clause_no: 4.1.1
+  text: 建筑外墙防水工程所用材料应与外墙相关构造层材料 相容。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表4.2.1
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表4.2.1的规定，检验方法应按现行国家标准《预拌砂浆》GB/T25181的有关规定执行。表4.2.1普通防水砂浆主要性能项目指标稠度（mm)50, 70, 90终凝时间（h)二主8,二主12,二主24抗渗压力CMPa)28d二主0.6拉伸粘结强度（MPa)14d二三0.20收缩率（%）28d主三o.154. 2. 2聚合物水泥防水砂浆主要’性能应符合表4.2.2的规定，检验方法应按现行行业标准《聚合物水泥防水砂浆》JC/T984执行。表4.2.2聚合物水泥防水砂浆主要性能指标项目于粉类乳液类初凝（min)二三45二三45凝结时间终凝Chl主二12＝二24续表4.2. 2指标项目干粉类乳液类抗渗压力CMPa)7d二三1.07d二主1.0粘结强度CMPal28d抗压强度CMPal二三24.0抗折强度CMPal28d二主8.0收缩率（%）28d三三0.15压折比主二3
+  converted_tables:
+  - raw: 相容性是指不同材料间不产生破坏作用或降低性能的物理化学反应的性质。通常讲，就是材料与材料之间（比如防水材料与界面材料、防水材料与饰面材料以及不同防水材料之间）不会产生起泡、鼓泡、粘结失效（或强度等性能下降）等现象。在建筑外墙防水工程中，选择材料时一定要考虑材料之间的相容性，否则会引起防水作用减小或失效。4.1. 2墙体的构造不同、外保温的做法不同，所使用的防水材料不同，对防水材料的性能要求也不同；防水材料’性能应满足设计要求，同时应符合相应材料标准规定的指标要求。4.2防水材料4. 2.1防水砂浆分为聚合物水泥防水砂浆和普通防水砂浆。普通防水砂浆分为湿拌防水砂浆和干混防水砂浆两种。湿拌防水砂浆是用水泥、细骨料、水以及根据防水性能确定的各种外加剂，按一定比例，在搅拌站经计量、拌制后，采用搅拌运输车运至使用地点，放人专用容器储存，并在规定时间内使用完毕的湿拌拌合物。干？昆防水砂浆也叫干拌防水砂浆，是经干燥筛分处理的骨料与水泥以及根据防水d性能确定的各种组分，按一定比例在专业生产厂混合而成，在使用地点按规定比例加水或配套液体拌合使用的干混拌合物。各项性能指标的试验检测按照《预拌砂浆》GB/T 25181的相关规定执行。4. 2. 2聚合物水泥防水砂浆是以水泥、细骨料为主要原材料，以聚合物和添加剂等为改性材料并以适当配比混合而成的防水材料；具有一定的柔韧性、抗裂性和防水性，与各种基层墙体有很好的粘结力，可在潮温基面施工。在施工现场，只需加水搅拌即可施工，操作简单，使用方便。各项性能按照《聚合物水泥防水砂浆》JC/T984的相关规定执行。本规程规定其压折比小于等于3 ，收缩率小于等于0.15% ，以保证有较好的柔韧性和抗裂性能。4. 2.3聚合物水泥防水涂料，又称JS防水涂料，是以丙烯酸醋、乙烯醋等聚合物乳液和水泥为主要原料，掺加各种添加剂组成的双组分防水涂料。各项性能指标的试验检测按照《聚合物水泥防水涂料》GB/T23445的相关规定执行。聚合物水泥防水涂料按物理力学性能分为I型、E 型和皿型，I型适用于变形较大的基层，E 型和田型适用于变形较小的基层；建筑外墙受温度的影响，墙体基层产生的变形较大，因此，本规程选择I型产品的性能指标。产品中有害物质限量应符合《建筑防水涂料中有害物质限量》JC1066的要求。4. 2. 4聚合物乳液防水涂料是以各类聚合物乳液为主要原料，加人其他添加剂而制得的单组分水乳型防水涂料。各项性能指标的试验检测按照《聚合物乳液建筑防水涂料》JC/T864的相关规定执行，产品中有害物质限量应符合《建筑防水涂料中有害物质限量》JC1066的要求。4. 2. 5聚氨醋防水涂料分双组分、单组分两种；双组分聚氨醋防水涂料中的甲组分是以聚酷树脂和二异氨酸醋等原料，经过聚合反应制成的含有二异氨酸醋基CNOC）的巨氨基甲酸醋预聚物，乙组分是由交联剂、促进剂、增韧剂、增茹剂、防霉剂、填充剂和稀释剂等混合加工而成。单组分聚氨醋防水涂料是利用？昆合聚酷进行脱水，加人二异氨酸醋与各种助剂进行环氧改性制成。各项性能指标的试验检测按照《聚氨醋防水涂料》GB/T19250的相关规定执行，产品中有害物质限量应符合《建筑防水涂料中有害物质限量》JC1066的要求。4. 2.6 防水透气膜是具有防水透气功能的膜状材料，其主要性能指标是在对国内外有代表性的防水透气膜产品进行试验验证的基础上参考欧盟标准确定。水蒸气透过量按《塑料薄膜和片材透水蒸气性试验方法杯式法》GB/T1037中B 法；不透水性按《建筑防水卷材试验方法第10部分沥青和高分子防水卷材不透水性》GB/T328 A法；最大拉力、断裂延伸率按《建筑防水卷材试验方法第9部分高分子防水卷材拉伸性能》GB/T328;撕裂性能按《建筑防水卷材试验方法第18部分改性沥青防水卷材撕裂性能钉杆法》GB/T328进行检测。4.3密封材料
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    activity_types:
+    - 外墙防水设计
+  conflicts: []
+- id: JGJ/T 235-2011#4.2.3
+  standard_code: JGJ/T 235-2011
+  chapter: 4 材料
+  section: ''
+  clause_no: 4.2.3
+  text: 聚合物水泥防水涂料主要性能应符合
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表4.2.
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表4.2. 3的规定，检验方法应按现行国家标准《聚合物水泥防水涂料》GB/T23445的有关规定执行。表4.2.3聚合物水泥防水涂料主要性能项目指标固体含量（%）二三70拉伸强度（无处理l(MPal二主1.2断裂伸长率（无处理）（%）二三200低温柔性C¢10mm棒）10℃，无裂纹粘结强度（无处理lCMPal二主0.5不透水性（0.3MPa, 30min)不透水
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    activity_types:
+    - 外墙防水设计
+  conflicts: []
+- id: JGJ/T 235-2011#4.2.4
+  standard_code: JGJ/T 235-2011
+  chapter: 4 材料
+  section: ''
+  clause_no: 4.2.4
+  text: 聚合物乳液防水涂料主要’性能应符合
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表4.2.4
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表4.2.4的规定，检验方法应按现行行业标准《聚合物乳液建筑防水涂料》JC/T864的有关规定执行。表4.2.4聚合物乳液防水涂料主要性能指标试验项目I类H 类拉伸强度CMPal注1.0二三1.5断裂延伸率（%）二三300续表4.2. 4指标试验项目←→－－－一一一→一一－·-.l '33H 类10°( .低温柔性（绕¢10mm棒．棒弯180 。）x. 裂纹2U飞，无裂纹不透水性（0.3MPa, 30min)不透水固体含量（%）二三65表干时间三二4干燥时间（h)实干时间三二84. 2. 5聚氨醋防水涂料主要性能应符合表l.2. 5的规定，检验方法应按现行国家标准《聚氨醋防水涂料》（~B/T19250的有关规定执行。表4.2.5聚氨醋防水涂料主要性能指标项目单组分多组分I类H类I类E 类拉伸强度CMPal二主1.90二三2.,1:;二~1.90二~2.45断裂延伸率（%）二＂＇550二三450二三450二主450低温弯折性（℃）主二－40三三－35不透水性（0.3MPa, 30min)不透水不透水固体含量（%）二三80二三92表干时间、（h)主ζ12运8实干时间（h)三三24<244. 2. 6防水透气膜主要性能应符合表4.2.6的规定，检验方法应按现行国家标准《建筑防水卷材试验方法》GB/T328和《塑料薄膜和片材透水蒸气性试验方法杯式法》GB/T1037的有关规定执行。表＂＇·2. 6防水透气膜主要性能指标项目I类III 类检验方法水蒸气透过量［g/(m' •应按现行国家标准《塑料薄膜和二主1000片材透水蒸气性试验方法杯式法》24h) '23 ℃1GB/T 1037中B 法的规定执行应按《建筑防水卷材试验方法》不透水性（mm,Zh)二三1000GB/T 328. 10中A 法的规定执行最大拉力＜N/50mm)二三100二主250应按《建筑防水卷材试验方法》GB/T 328. 9中A 法的规定执行断裂伸长率（%）应按《建筑防水卷材试验方法》二三.'l5二三10GB/T 328. 9中A 法的规定执行应按《建筑防水卷材试验方法》撕裂性能＜N.钉杆法）二~40GB/T 328. 18的规定执行拉力保持率（~＇ )应按《建筑防水卷材试验方法》断裂伸长率！快持热老化GB/T 328. 9中A 法的规定执行c so·c,率（%）二三80168h)应按现行国家标准《塑料薄膜和水蒸气透过挝保持片材透水蒸气性试验方法杯式法》率＜%＞GB/T 1037中B 法的规定执行..i. 3密封材料
+  - table_id: 表4.2.5
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文）
+    content: 和抽样产厂家、产品有表4.2.5的要求效期包装完好无损，每3000m2为一标明产品名称、规防水透应满足本规程表批，不足3000m2格、生产日期、生气膜4. 2. 6的要求按一批抽样产厂家、产品有效期应满足本规程表每lt为一批，均匀膏状物，无4. 3. 1 、表4.3. 2 、表密封材料不足lt按一批结皮、凝胶或不易4. 3. 3和表4.3.4的抽样分散的团体团状要求每3000m2为一耐碱玻璃均匀，无团状，应满足本规程表批，不足3000m2纤维网布平整，无裙皱4. 4. 1的要求按一批抽样每3000m2为一网面平整，网孔热镀钵电应满足本规程表批，不足3000时均匀，色泽基本焊网均匀
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    activity_types:
+    - 外墙防水设计
+  conflicts: []
+- id: JGJ/T 235-2011#4.3.1
+  standard_code: JGJ/T 235-2011
+  chapter: 4 材料
+  section: ''
+  clause_no: 4.3.1
+  text: 硅酣建筑密封胶主要性能应符合表4.3.1 的规定，检验 方法应按现行国家标准《硅隅建筑密封胶》 GB/T 14683 的相关 规定执行。 表－＇· 3. I 硅酣建筑密封胶主要性能 指 标 项 ~j 25HM I 20HM I 肌M I 20L 蚕豆 主三3 下垂度（mm) 水平 无变形 表干时间（h) 主ζ3 7 续表4.3.1 指 标 项 目 挤出性（mL/min) 二三80 弹性恢复率（%） 二三80 拉伸模量（MPa) >O. 4(23'C 时） 三三0.4(23 。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表4.3.
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表4.3. 1的规定，检验方法应按现行国家标准《硅隅建筑密封胶》GB/T14683的相关规定执行。表－＇· 3. I硅酣建筑密封胶主要性能指标项~j25HM I 20HMI肌MI 20L蚕豆主三3下垂度（mm)水平无变形表干时间（h)主ζ3续表4.3. 1指标项目挤出性（mL/min)二三80弹性恢复率（%）二三80>O. 4(23'C 时）三三0.4(23 。C 时）拉伸模量（MPa)或＞O.6(且王三0.6(20℃时）20℃时）定伸粘结性无破坏4. 3. 2聚氨醋建筑密封胶主要性能应符合表4.3. 2的规定，检验方法应按现行行业标准《聚氨醋建筑密封胶》JC/T482的相关规定执行。表4.3.2聚氨醋建筑密封股主要性能指标项目20HM20LM下垂度（N型）(mm)<3流动性流平性（L型）光滑平整表干时间（h)主ζ24挤出性（mL/min)二主80适用期（h)二:ol弹性恢复率〈%）注70>0.4(23℃时）《0.4(23℃时）拉伸模量（MPa)或＞0.6(-20℃时）且《0.6(20℃时）定伸粘结性无破坏注：挤出性仅适用于单组分产品。2 适用期仅适用于多组分产品。
+  converted_tables:
+  - raw: 硅酣建筑密封胶是以聚硅氧烧为主要成分、室温固化的单组分密封胶。按拉伸模量分为高模量CHM）和低模量CLM)两种。硅自同建筑密封胶的各项性能指标的试验检测按照《硅酣建筑密封胶》GB/T14683的相关规定执行。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    activity_types:
+    - 外墙防水设计
+  conflicts: []
+- id: JGJ/T 235-2011#4.3.3
+  standard_code: JGJ/T 235-2011
+  chapter: 4 材料
+  section: ''
+  clause_no: 4.3.3
+  text: 聚硫建筑密封胶主要性能应符合表4.3.3 的规定，检验 方法应按现行行业标准《聚硫建筑密封胶》JC/T 483 的有关规 定执行。 8 表4.3.3 聚硫建筑密封胶主要性能 指 标 项 日 ZOHM ZOL孔4 下垂度 CN 型） (mm) 三三3 流动性 流平性 CL 型） 光滑平整 表于时间 Chl 三二24 >O. 4(23 ℃时） 三三o. 4C23°C 时） 拉伸模量 CMPal 或＞O. 6( 20°C 时） 且《o. 6( 20℃时） 适用期（h) 二~2 弹性恢复率（%） 二~70 定伸粘结性 无破坏。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表4.3.
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表4.3. 3的规定，检验方法应按现行行业标准《聚硫建筑密封胶》JC/T483的有关规定执行。表4.3.3聚硫建筑密封胶主要性能指标项日ZOHMZOL孔4(mm)下垂度CN型）三三3流动性流平性CL型）光滑平整表于时间Chl三二24>O. 4(23 ℃时）三三o.4C23°C 时）拉伸模量CMPal或＞O.6(20°C时）且《o.6(20℃时）适用期（h)二~2弹性恢复率（%）二~70定伸粘结性无破坏
+  converted_tables:
+  - raw: 聚硫建筑密封胶是以液态聚硫橡胶为基料的室温硫化双组分建筑密封胶。产品按流动性分为非下垂型CN ）和自流平型(L) 两个类型；按位移能力分为25、20两个级别；按拉伸模量分为高模量CHM）和低模量CLM）两个次级别。聚硫建筑密封胶各项性能指标的试验检测按照《聚硫建筑密封胶》JC/T483的相关规定执行。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    activity_types:
+    - 外墙防水设计
+  conflicts: []
+- id: JGJ/T 235-2011#4.3.4
+  standard_code: JGJ/T 235-2011
+  chapter: 4 材料
+  section: ''
+  clause_no: 4.3.4
+  text: 丙烯酸醋建筑密封胶主要性能应符合
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表4.3.4
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表4.3.4的规定，检验方法应按现行行业标准《丙烯酸醋建筑密封胶》JC/T484的有关规定执行。表4.3‘4丙烯酸醋建筑密封股主要性能指标项目12. 5E12. 5P7. 5P下垂度（mm)三二3表于时间（hl王三1挤出性（mL/min)二主100弹性恢复率（%）二三40报告实溃~值定伸粘结性无破坏低温柔性（℃）二20-54. 4配套材料4. 4.1耐碱玻璃纤维网布主要性能应符合表4.4. 1的规定，检验方法应按现行行业标准《耐碱玻璃纤维网布》JC/T841的相关规定执行。表4. 4.1耐畸玻璃纤维网布主要性能坝、目指标单位面积质量（g/mZ)二主130耐碱断裂强力（经、纬向）(N/50mm)二？：900耐碱断裂强力保留率（经、纬向）（%）二主75断裂伸长率（经、纬向）（%）主二4.0
+  converted_tables:
+  - raw: 丙烯酸醋建筑密封胶是以丙烯酸乳液为基料的单组分水乳型建筑密封胶。产品按位移能力分为12.5和7.5两个级别(12. 5级为位移能力12.5% ，其试验拉伸压缩幅度为±12.5%;7. 5级为位移能力7.5% ，其试验拉伸压缩幅度为±7.5% ）。密封胶按其弹性恢复率又分为两个级别：弹性体（记号12.5E),弹性恢复率等于或大于40% ；塑性体（记号12.5P和7.5凹，弹性恢复率小于40% 。丙烯酸醋建筑密封胶各项性能指标的试验检测按照《丙烯酸醋建筑密封胶》JC/T484的相关规定执行。4.4配套材料4. 4.1耐碱玻璃纤维网布各项性能指标的试验检测按照《耐碱玻璃纤维网布》JC/T841的相关规定执行。4. 4. 2界面处理剂各项性能指标的试验检测按照。昆凝土界面处理剂》JC/T907的相关规定执行，其他界面材料参照执行。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    activity_types:
+    - 外墙防水设计
+  conflicts: []
+- id: JGJ/T 235-2011#4.4.2
+  standard_code: JGJ/T 235-2011
+  chapter: 4 材料
+  section: ''
+  clause_no: 4.4.2
+  text: 界面处理剂主要性能应符合
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表4.4.2
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表4.4.2的规定，检验方法应按现行行业标准《混凝土界面处理剂》j盯T907的有关规定执行。表4.4.2界面处理剂主要性能指标项目1型E 型剪切粘结强度7d注o].0二三0.7<MPal14d二三＼.5~1.07d二主（）~二三0.3未处理14d二三（）．ι二三0.5拉伸粘结强度浸水处理<MPal热处理二三0.J二？：0.3冻融循环处理碱处理
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    activity_types:
+    - 外墙防水设计
+  conflicts: []
+- id: JGJ/T 235-2011#4.4.3
+  standard_code: JGJ/T 235-2011
+  chapter: 4 材料
+  section: ''
+  clause_no: 4.4.3
+  text: 热镀特电焊网主要性能应符合
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表4.4.3
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表4.4.3的要求，检验方法应按现行行业标准《镀铸电焊网》QB/T3897的有关规定执行。表4.4.3热镀辞电焊网主要性能项目指标工艺热镀铐电焊网0. 90 士0.04丝径（mm)续表4.4. 3项目指标网孔大小（mm)12. 7×12. 7焊点抗拉力（N)>65镀钵层质量（g/m2)二主122
+  converted_tables:
+  - raw: 的要求按一批抽样7.2砂浆防水层主控项目7. 2.1 砂浆防水层的原材料、配合比及性能指标，应符合设计要求。检验方法：检查出厂合格证、质量检验报告、配合比试验报告和抽样复验报告。
+    note: 合并重复提取片段
+  - raw: 热镀辞电焊网各项性能指标的试验检测按照《镀钵电焊网》QB/T3897的相关规定执行。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    activity_types:
+    - 外墙防水设计
+  conflicts: []
+- id: JGJ/T 235-2011#4.4.4
+  standard_code: JGJ/T 235-2011
+  chapter: 4 材料
+  section: ''
+  clause_no: 4.4.4
+  text: 密封胶粘带主要性能应符合表4.4.4 的要求，检验方法 应按现行行业标准《丁基橡胶防水密封胶粘带》JC/T 942 的有 关规定执行。 2h) 无流淌、龟裂、变形 低温柔性（－40℃） 无裂纹 剪切状态下的粘合性 (N/mm) 二三2.0 剥离强度 CN/mm) 二三0.4 热处理（80'C, 168h) 剥离强度保持 碱处理（饱和氢氧化钙溶液， 168h) 二三80 率（%） 浸水处理 Cl68h) 注2 剪切状态下的粘合性仅针对双面胶粘带。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表4.4.4
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表4.4.4的要求，检验方法应按现行行业标准《丁基橡胶防水密封胶粘带》JC/T942的有关规定执行。表4.4.4密封胶粘带主要性能试验项目指标持粘性（min)二三20耐热性（80℃，2h)无流淌、龟裂、变形低温柔性（－40℃）无裂纹剪切状态下的粘合性(N/mm)二三2.0剥离强度CN/mm)二三0.4热处理（80'C,168h)剥离强度保持碱处理（饱和氢氧化钙溶液，168h)二三80率（%）浸水处理Cl68h)注2剪切状态下的粘合性仅针对双面胶粘带。设计5.1一般规定5. 1.1建筑外墙整体防水设计应包括下列内容：1 外墙防水工程的构造；防水层材料的选择；节点的密封防水构造。5. 1. 2建筑外墙节点构造防水设计应包括门窗洞口、雨篷、阳台、变形缝、伸出外墙管道、女儿墙压顶、外墙预埋件、预制构件等交接部位的防水设防。5. 1. 3建筑外墙的防水层应设置在迎水面。5.1. 4不同结构材料的交接处应采用每边不少于150mm的耐碱玻璃纤维网布或热镀停电焊网作抗裂增强处理。5. 1. 5外墙相关构造层之间应粘结牢固，并宜进行界面处理。界面处理材料的种类和做法应根据构造层材料确定。5. 1. 6建筑外墙防水材料应根据工程所在地区的气候环境特点选用。
+  converted_tables:
+  - raw: 密封胶粘带作为防水透气膜密封的主要配套材料，各项性能指标的试验检测按照《丁基橡胶防水密封胶粘带》JC/T942的相关规定执行。5设计5.1一般规定
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    activity_types:
+    - 外墙防水设计
+  conflicts: []
+- id: JGJ/T 235-2011#5.2.2
+  standard_code: JGJ/T 235-2011
+  chapter: 5 设计
+  section: ''
+  clause_no: 5.2.2
+  text: 外保温外墙的整体防水层设计应符合下列规定：采用涂料或块材饰面时，防水层宜设在保温层和墙体基层之间，防水层可采用聚合物水泥防水砂浆或普通防水砂浆（图5. 2. 2-1);采用幕墙饰面时，设在找平层上的防水层宜采用聚合物水泥防水砂浆、普通防水砂浆、聚合物水泥防水涂料、聚合物乳液防水涂料或聚氨酶防水涂料；当外墙保温层选用矿物棉保温材料时，防水层宜采用防水透气膜（图5.2. 2-2 ）。IA气·匀、，dAd“斗A，、吨J，h’u吁，。n。y图5.2. 2-1图5.2. 2 2涂料或块材饰面幕墙饰面外保温外外保温外墙整体防水构造墙整体防水构造1 －…结构墙体；找平层；3防结构墙体；找平层；保温层；水层；保温层；饰面层；4一防水透气膜；面板；6一挂件；锚栓竖向龙骨；8连接件；锚栓5. 2. 3砂浆防水层中可增设耐碱玻璃纤维网布或热镀钵电焊网增强，并宜用锚栓固定于结构墙体中。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    activity_types:
+    - 外墙防水设计
+  conflicts: []
+- id: JGJ/T 235-2011#5.2.4
+  standard_code: JGJ/T 235-2011
+  chapter: 5 设计
+  section: ''
+  clause_no: 5.2.4
+  text: 防水层最小厚度应符合表5.2.4 的规定。 防水层最小厚度（mm) 墙体基层 种类 普通防水 砂浆 聚合物水泥防水砂浆。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表5.2.
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表5.2. 4的规定。表5.2. 4防水层最小厚度（mm)聚合物水泥防水砂浆墙体基层饰面层普通防水防水涂料种类种类砂浆干粉类乳液类涂料1. 0现浇混凝士面砖幕墙1. 0涂料1. 2砌体面砖干挂幕墙1. 25. 2. 5砂浆防水层宜留分格缝，分格缝宜设置在墙体结构不同材料交接处。水平分格缝宜与窗口上沿或下沿平齐；垂直分格缝间距不宜大于6m，且宜与门、窗框两边线对齐。分格缝宽宜为8mm～lOmm ，缝内应采用密封材料作密封处理。5. 2. 6外墙防水层应与地下墙体防水层搭接。
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    activity_types:
+    - 外墙防水设计
+  conflicts: []
+- id: JGJ/T 235-2011#5.3.1
+  standard_code: JGJ/T 235-2011
+  chapter: 5 设计
+  section: 5.3 节点构造防水设计
+  clause_no: 5.3.1
+  text: 门窗框与墙体间的缝隙宜采用聚合物水泥防水砂浆或发泡聚氨醋填充；外墙防水层应延伸至门窗框，防水层与门窗框间应预留凹槽，并应嵌填密封材料；门窗上榻的外口应做滴水线；外窗台应设置不小于5% 的外排水坡度（图5.3. 1-1 、图5.3. 1-2 ）。图5.3. 1 1门窗框防水平剖面构造图5.3. 1 2门窗框防水立剖面构造窗框；密封材料；聚合物水泥窗框；2一密封材料：3一聚合物防水砂浆或发泡聚氨酶水泥防水砂浆或发泡聚氨醋；4一滴水线；外墙防水层
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 窗台应设置
+    unit: '%'
+    condition: null
+    min_value: 5.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    activity_types:
+    - 外墙防水设计
+  conflicts: []
+- id: JGJ/T 235-2011#5.3.2
+  standard_code: JGJ/T 235-2011
+  chapter: 5 设计
+  section: 5.3 节点构造防水设计
+  clause_no: 5.3.2
+  text: 雨篷应设置不应小于1% 的外排水坡度，外口下沿应做滴水线；雨篷与外墙交接处的防水层应连续；雨篷防水层应沿外口下翻至滴水线（图5.3. 2 ）。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 雨篷应设置
+    unit: '%'
+    condition: null
+    min_value: 1.0
+    max_value: null
+  tables: []
+  converted_tables:
+  - raw: 雨篷恰当的外排水坡度，可以使篷顶的雨水向外迅速排走，在做好雨篷与外墙交界的阴角部位防水的前提下，可以较好地保证雨篷与外墙交界部位的防水。雨篷排水方式包括有组织排水和无组织排水，有组织排水时，排水应坡向水落口，无组织排水时，排水坡向雨篷外檐。空调板防水、凸窗顶板和外飘窗的防水可参照雨篷处理。5. 3. 3本条规定了阳台坡向水落口的排水坡度要求，可防止阳台的积水，利于防水。水落口周边嵌填密封材料、阳台外口下沿设置滴水线是防水的基本’要求。当阳台下沿采用水泥砂浆时，滴水线可作成滴水槽或者鹰嘴；当阳台下沿采用石（块）材面砖饰面时，可在阳台下檐底边铺贴出滴水线。也可采用铝合金、不锈钢板做滴水线；图5.3. 3为水泥砂浆滴水线。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    activity_types:
+    - 外墙防水设计
+  conflicts: []
+- id: JGJ/T 235-2011#5.3.3
+  standard_code: JGJ/T 235-2011
+  chapter: 5 设计
+  section: 5.3 节点构造防水设计
+  clause_no: 5.3.3
+  text: 阳台应向水落口设置不小于1% 的排水坡度，水落口周边应留槽嵌填密封材料。阳台外口下沿应做滴水线（图5.3. 3 ）。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 水落口设置
+    unit: '%'
+    condition: null
+    min_value: 1.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    activity_types:
+    - 外墙防水设计
+  conflicts: []
+- id: JGJ/T 235-2011#5.3.4
+  standard_code: JGJ/T 235-2011
+  chapter: 5 设计
+  section: 5.3 节点构造防水设计
+  clause_no: 5.3.4
+  text: 变形缝部位应增设合成高分子防水卷材附加层，卷材两 15 图5.3.2 雨篷防水构造 1一外墙保温层；2 防水层； 3一滴水线 图5.3.3 阳台防水构造 1 密封材料；2 滴水线P 3 防水层 端应满粘于墙体，满帖的宽度不应小于150mm ，并应钉压固定； 卷材收头应用密封材料密封（图5. 3. 的。 3 图5.3.4 变形缝防水构造 1一密封材料； 2一锚栓； 3一衬垫材料；
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 满帖的宽度
+    unit: mm
+    condition: null
+    min_value: 150.0
+    max_value: null
+  - name: 高外低坡度
+    unit: '%'
+    condition: null
+    min_value: 5.0
+    max_value: null
+  - name: 内找坡坡度
+    unit: '%'
+    condition: null
+    min_value: 2.0
+    max_value: null
+  tables: []
+  converted_tables:
+  - raw: 本条规定了变形缝的做法。合成高分子防水卷材的柔’性及延伸性可以与基层很好地贴合，两端采用满粘法固定，并辅之以金属压条和锚栓，同时应做好卷材的收头密封，使外墙变形缝部位完全封闭，达到可靠的防水要求。变形缝可采用不锈钢板进行封盖，也可采用铝合金板、镀悻薄钢板等具有防腐蚀的金属板封盖，既有防护功能，同时具有装饰作用。5.3. 5伸出外墙管道指空调管道、热水器管道、排油烟管道等，由于安装的需要，管道和管道孔壁间会有一定的空隙，雨水在风压作用下会飘入到空隙中，另外孔道上部顺墙流下的雨水也会爬人空隙中，进而渗入墙体中或室内。因此伸出外墙管道宜采用套管的形式，套管周边做好密封处理，并形成内高外低的坡度，使雨水能向外排出。如管道安装完成后固定不动的，可将管道和套管间的空隙用防水砂浆封堵。伸出外墙管道防水构造的图5. 3. 5 1为混凝土墙体，图5.3. 5 2为砌筑墙体。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    activity_types:
+    - 外墙防水设计
+  conflicts: []
+- id: JGJ/T 235-2011#6.1.1
+  standard_code: JGJ/T 235-2011
+  chapter: 6 施工
+  section: ''
+  clause_no: 6.1.1
+  text: 外墙防水工程应按设计要求施工，施工前应编制专项施 工方案并进行技术交底。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 严禁
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    activity_types:
+    - 外墙防水设计
+  conflicts: []
+- id: JGJ/T 235-2011#6.2.3
+  standard_code: JGJ/T 235-2011
+  chapter: 6 施工
+  section: ''
+  clause_no: 6.2.3
+  text: 外墙防水层施工前，宜先做好节点处理，再进行大面积 施工。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 位离阴阳角
+    unit: mm
+    condition: null
+    min_value: 200.0
+    max_value: null
+  - name: 接茬应错开
+    unit: mm
+    condition: null
+    min_value: 300.0
+    max_value: 300.0
+  - name: 形圆弧半径
+    unit: mm
+    condition: null
+    min_value: 5.0
+    max_value: null
+  - name: 交接处应留
+    unit: mm
+    condition: null
+    min_value: 8.0
+    max_value: 8.0
+  tables: []
+  converted_tables:
+  - raw: 节点部位是防水设计的重点部位，也是渗漏的多发区，如门窗洞口周边、伸出外墙管道、设备安装的预埋件、墙体分格缝等；大面防水层施工前，应先对这些节点部位根据做法要求进行密封处理。6. 2. 4防水砂浆是外墙防水的主要材料，应用还处于发展阶段，许多工程技术人员对防水砂浆的材料要求、施工技术和施工要点尚不熟悉，对此应给予足够的重视。防水砂浆要有坚固的基层方可充分发挥作用，为保证与基层的粘结能力，基层表面应为干净的毛面，抹压防水砂浆前基层应充分温润，以保证防水砂浆中有足够的水分使水泥产生水化反应。一般防水砂浆在施工现场搅拌，配比的准确性、拌合器具、搅拌机具、投料顺序、搅拌时间等对防水砂浆的性能有较大的影响，施工时应严格控制。拌制好的砂浆应及时用完，宜随拌随用，以免拌制好的砂浆放置时间过长，造成初凝结块现象；己产生结块现象的材料不得用于工程。为保证防水砂浆与基层的粘结能力，抹压防水砂浆前应进行界面处理。厚度是保证防水砂浆抗渗能力的重要因素，砂浆一次涂抹厚度越大，厚薄不均匀的现象越严重。为保证防水砂浆厚薄的均匀性，厚度大于lOmm时应分层施工。分层施工应注意层间的粘结，不得出现空鼓现象。一个分格区域内每层宜连续施工，以保证防水砂浆的连续性。如面积过大不能连续施工时，应留设阶梯坡形茬，以保证接茬部位的水密性，接茬部位和施工做法应符合相关要求。涂抹施工有抹压和喷涂两种。无论采用哪种方法，防水砂浆层应压实、抹平，以保证砂浆防水层的密实性。普通防水砂浆每层的施工厚度宜为5mm～lOmm，聚合物防水砂浆每层的施工厚度宜为lmm～3mm ，防水层的厚度应根据材料特性确定。窗台、窗帽和凸出墙面的腰线等，为使水及时排走，其上表应做成向外的流水坡，下端设鹰嘴或滴水线（槽）使水不会流到根部。防水砂浆是刚性材料，抗裂性能较差，而建筑外墙在结构材料、构造发生变化的部位容易产生变形裂缝，所以在这些部位宜设置分格缝，嵌填密封材料，以柔性材料来适应基层的变形。由于材料的线膨胀系数不同，门框、窗框、管道、预埋件等与防水砂浆的交接处，易产生温差裂缝而成为渗水通道，因此对这些部位均应留设凹槽用密封胶嵌填。为防止应力集中出现裂缝，砂浆防水层的转角部位应用专用抹灰工具抹成弧形。聚合物防水砂浆在硬化过程中，既有水泥的水化反应，又有聚合物乳液的脱水固化过程，因此，在聚合物防水砂浆完工后初期，采用不洒水的自然养护，时间根据聚合物乳液的掺量、环境温度确定，→般在48h左右，硬化后再采用干湿交替养护的方法；其他的防水砂浆在终凝后采用洒水保湿养护。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    activity_types:
+    - 外墙防水设计
+  conflicts: []
+- id: JGJ/T 235-2011#6.2.5
+  standard_code: JGJ/T 235-2011
+  chapter: 6 施工
+  section: ''
+  clause_no: 6.2.5
+  text: 涂膜防水层施工应符合下列规定： 1 施工前应对节点部位进行密封或增强处理。 2 涂料的配制和搅拌应满足下列要求： 1 ）双组分涂料配制前，应将液体组分搅拌均匀，配料应 按照规定要求进行，不得任意改变配合比； 2）应采用机械搅拌，配制好的涂料应色泽均匀，无粉团、 沉淀。 3 基层的干燥程度应根据涂料的品种和性能确定；防水涂 料涂布前，宜涂刷基层处理剂。 4 涂膜宜多遍完成，后遍涂布应在前遍涂层干燥成膜后进 行。挥发性涂料的每遍用量每平方米不宜大于0.6kg 。 5 每遍涂布应交替改变涂层的涂布方向，同一涂层涂布时， 20 先后接茬宽度宜为30mm～50mm 。 6 涂膜防水层的甩茬部位不得污损，接茬宽度不应小 于lOOmmo 7 胎体增强材料应铺贴平整，不得有榴皱和胎体外露，胎 体层充分浸透防水涂料；胎体的搭接宽度不应小于50mm。胎体 的底层和面层涂膜厚度均不应小于0.5mm 。 8 涂膜防水层完工并经检验合格后，应及时做好饰面层。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 平方米
+    unit: kg
+    condition: null
+    min_value: 0.6
+    max_value: null
+  - name: 接茬宽度
+    unit: mm
+    condition: null
+    min_value: 30.0
+    max_value: 30.0
+  - name: 接茬宽度
+    unit: mm
+    condition: null
+    min_value: 50.0
+    max_value: 50.0
+  - name: 搭接宽度
+    unit: mm
+    condition: null
+    min_value: 50.0
+    max_value: null
+  - name: 涂膜厚度均
+    unit: mm
+    condition: null
+    min_value: 0.5
+    max_value: null
+  tables: []
+  converted_tables:
+  - raw: 节点部位是防水设计的重点部位，也是渗漏的多发区，在施工准备阶段应认真按设计要求进行密封处理或增强处理。双组分或多组分涂料，各组分的计量不准或搅拌不均匀会影响涂膜性能，故应按照产品说明书的要求配制。单组分材料在储存、运输过程中可能会出现分层、沉淀等现象，重新搅拌均匀后一般不影响材料的性能。采用机械搅拌配料比手工搅拌效率高，料浆均匀，但应注意搅拌时间不宜过长，搅拌约5min即可，否则也会影响涂料质量。为提高涂膜与基层的粘结强度，涂布前应先涂基层处理剂，基层处理剂可以按生产厂的配方，在现场用防水涂料加水稀释配制，也可采用厂方提供的专用基层处理剂。外墙防水涂料一般采用与水泥砂浆基层具有很好相容性的防水涂料，如聚合物水泥防水涂料等。这类涂料一般为水分蒸发成膜的材料，如涂层太厚，表面成膜后会阻止膜层中水分的蒸发，影响成膜质量，故通过用量来控制单遍涂布的厚度。并要掌握好涂刷各层之间的时间间隔，通常以前一遍涂层干燥不粘手为准，一般约需2h～6h；若现场气温低、温度大，通风不畅，则干燥时间会长些。每层涂布按规定的用量取料，涂布时应均匀，上下层之间不留气泡。在使用中涂料如有沉淀应注意随时搅拌均匀。交替改变涂层的涂布方向，可以使涂膜的纵横向物理力学性能比较一致，同时可更好地消除前遍涂层的毛细孔道，防止漏涂。甩茬是指同一遍涂层分两次施工时，先后施工涂层的交接处。为保证该部位涂层的连续性和整体性，甩茬部位应清理干净，并有足够的接茬宽度。接茬是指每遍涂刷时的交接处，为避免交接处漏涂，涂布时应有一定的接茬宽度。采用加铺增强层做法时，除应注意本条规定的技术措施外，还要注意增强层与上涂层应连续施工，一次成活。增强层应铺贴平整，密实，不空鼓。胎体间应有一定的搭接宽度，以保证胎体的连续性。采用二层胎体时，为减少胎体接缝的交叉重叠，上下层胎体不得垂直铺设，其搭接缝应错开。胎体在涂层中主要起增加抗拉强度和抗裂作用，因此施工时应控制胎体在涂层中的位置，使胎体充分发挥作用。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    activity_types:
+    - 外墙防水设计
+  conflicts: []
+- id: JGJ/T 235-2011#6.3.2
+  standard_code: JGJ/T 235-2011
+  chapter: 6 施工
+  section: ''
+  clause_no: 6.3.2
+  text: 防水层施工应符合本规程第6.2. 4条、第6.2. 5条和第6.2. 6条的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    activity_types:
+    - 外墙防水设计
+  conflicts: []
+- id: JGJ/T 235-2011#6.3.3
+  standard_code: JGJ/T 235-2011
+  chapter: 6 施工
+  section: ''
+  clause_no: 6.3.3
+  text: 防水透气膜施工应符合下列规定： 1 基层表面应干净、牢固，不得有尖锐凸起物； 2 铺设宜从外墙底部一侧开始，沿建筑立面自下而上横向 铺设，并应顺流水方向搭接； 3 防水透气膜横向搭接宽度不得小于lOOmm，纵向搭接宽 度不得小于150mm，相邻两幅膜的纵向搭接缝应相互错开，间 距不应小于500mm ，搭接缝应采用密封胶粘带覆盖密封； 4 防水透气膜应随铺随固定，固定部位应预先粘贴小块密 封胶粘带，用带塑料垫片的塑料锚栓将防水透气膜固定在基层 上，固定点每平方米不得少于3 处； 5 铺设在窗洞或其他洞口处的防水透气膜，应以“ I ”字 形裁开，并应用密封胶粘带固定在洞口内侧；与门、窗框连接处 应使用配套密封胶粘带满粘密封，四角用密封材料封严； 6 穿透防水透气膜的连接件周围应用密封胶粘带封严。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 向搭接宽度
+    unit: mm
+    condition: null
+    min_value: 150.0
+    max_value: null
+  - name: 互错开间距
+    unit: mm
+    condition: null
+    min_value: 500.0
+    max_value: null
+  tables: []
+  converted_tables:
+  - raw: 防水透气膜一般从外墙底部开始铺设，长边沿水平方向自下而上横向铺设，第二幅透气膜搭接压盖第一幅膜，保证搭接缝为顺水方向，每幅透气膜的纵、横向搭接缝均应有足够的搭接宽度，并采用配套胶带覆盖密封，以保证水不会从搭接缝中渗入。防水透气膜采用带塑料垫片的塑料锚栓固定在基层上，固定锚栓的数量应符合设计要求，固定部位采用丁基胶带密封，以保证固定部位的密封性能。门洞、窗洞等洞口处的防水透气膜应根据门、窗框与外墙面的距离裁剪，“ I”形实为两个对接的“Y”字形。使透气膜能压人门、窗框与墙体之间的空隙，再用专用配套密封胶带满粘密封。防水透气膜－般应用于干挂幕墙及墙体小龙骨构造体系的外墙工程，对于穿过透气膜的连接件四周应采用密封胶粘带封严。质量检查与验收7.1一般规定7. 1. 1 本条规定了找平层、防水层等施工质量的基本要求，主要用于分项工程验收时进行的观感质量验收。工程观感质量由验收人员通过现场检查，并应共同确认。7. 1. 2防水材料除有产品合格证和性能检测报告等出厂质量证明文件外，还应有经建设行政主管部门认定，拥有相应资质的检测单位对该产品抽样检测认证的试验报告，其质量应符合国家产品标准和设计要求。为了控制防水材料的质量，对进入现场的材料应按本规程的规定进行抽样复验，以保证实际进人现场的防水材料质量。7.1. 3对外墙完成的砂浆防水层、涂膜防水层、防水透气膜等防水层均应进行检验验收。外墙防水层的质量对整个外墙防水至关重要，防水层施工完毕后要进行渗漏检查。检查应在雨后或持续淋水30min 后进行（在墙体外墙的上部设置淋水的排管进行淋水试验；排管的长度、管孔的数量、孔径的大小，达到墙面连续满流为准），并作记录。如有渗漏，应对渗漏原因进行分析，按照编制的专项修改方案，在监理人员监督下进行修改，修改后重新进行渗漏检查，无渗漏后方可进行下道工序。7.1. 4外墙防水层工程施工质量的检测数量应按抽查面积与防水层总面积的1/10考虑，这一比例要求对检验防水层质量具有一定代表性，实践也证明是可行的；节点部位为重点，应全部检查。7.1. 5规定了防水材料及主要相关材料现场抽样数量和复验项目的内容要求。7.2砂浆防水层7. 2.1 设计所采用材料的主要性能指标应符合本规程第4.2. 1、
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    activity_types:
+    - 外墙防水设计
+  conflicts: []
+- id: JGJ/T 235-2011#7.1.1
+  standard_code: JGJ/T 235-2011
+  chapter: 7 质量检查与验收
+  section: ''
+  clause_no: 7.1.1
+  text: 建筑外墙防水工程的质量应符合下列规定： 1 防水层不得有渗漏现象； 2 采用的材料应符合设计要求； 3 找平层应平整、坚固，不得有空鼓、酥松、起砂、起皮 现象； 4 门窗洞口、伸出外墙管道、预埋件及收头等部位的防水 构造，应符合设计要求； 5 砂浆防水层应坚固、平整，不得有空鼓、开裂、酥松、 起砂、起皮现象； 6 涂膜防水层厚度应符合设计要求，无裂纹、皱榴、流淌、 鼓泡和露胎体现象； 7 防水透气膜应铺设平整、固定牢固，不得有皱裙、翘边 等现象；搭接宽度应符合要求，搭接缝和节点部位应密封严密。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 持续淋水
+    unit: m
+    condition: null
+    min_value: 30.0
+    max_value: 30.0
+  - name: 外墙面面积
+    unit: m
+    condition: null
+    min_value: 500.0
+    max_value: 500.0
+  - name: 面面积ml
+    unit: m
+    condition: null
+    min_value: 0.0
+    max_value: 0.0
+  - name: lm
+    unit: m
+    condition: null
+    min_value: 500.0
+    max_value: 500.0
+  - name: 划分
+    unit: m
+    condition: null
+    min_value: 0.0
+    max_value: 0.0
+  tables:
+  - table_id: 表7.1.
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表7.1. 5的要求执行。表7.1. 5防水材料现场抽样数量和复验项目复验项目序号材料名称现场抽样数量外观质量主要性能每10m3为一均匀，无凝结应满足本规程表普通防水批，不足10m3按砂浆团状4. 2. 1的要求一批抽样包装完好无损，每lOt为一批，标明产品名称、规应满足本规程表聚合物水不足lOt按一批格、生产日期、生泥防水彤、浆
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    activity_types:
+    - 外墙防水设计
+  conflicts: []
+- id: JGJ/T 235-2011#4.2.2
+  standard_code: JGJ/T 235-2011
+  chapter: 4 材料
+  section: ''
+  clause_no: 4.2.2
+  text: 的要求 抽样 产厂家、产品有 效期 包装完好无损． 每 5t 为一批， 标明产品名称、规 应满足本规程表 3 防水涂料 不足 5t 按一批 格、生产日期、生。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 条的要求。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    activity_types:
+    - 外墙防水设计
+  conflicts: []
+- id: JGJ/T 235-2011#7.2.2
+  standard_code: JGJ/T 235-2011
+  chapter: 7 质量检查与验收
+  section: ''
+  clause_no: 7.2.2
+  text: 砂浆防水层不得有渗漏现象。检验方法：雨后或持续淋水30min 后观察检查。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 持续淋水
+    unit: m
+    condition: null
+    min_value: 30.0
+    max_value: 30.0
+  tables: []
+  converted_tables:
+  - raw: 防水层是外墙防水的主要构造，若出现渗漏，则功能无法实现。渗漏检查可在防水层完工后雨后或持续淋水30min后观察。如出现渗漏，应查找原因及部位并修整，确保验收无渗漏现象。7. 2.3砂浆防水层属刚性防水，适应变形能力较差，应与相关各层粘结牢固并连成一体，方能起到外墙防水作用。故规定砂浆防水层与基层之间及各防水层之间应结合牢固，无空鼓现象。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    activity_types:
+    - 外墙防水设计
+  conflicts: []
+- id: JGJ/T 235-2011#7.2.3
+  standard_code: JGJ/T 235-2011
+  chapter: 7 质量检查与验收
+  section: ''
+  clause_no: 7.2.3
+  text: 砂浆防水层与基层之间及防水层各层之间应结合牢固，不得有空鼓。检验方法：观察和用小锤轻击检查。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    activity_types:
+    - 外墙防水设计
+  conflicts: []
+- id: JGJ/T 235-2011#7.2.4
+  standard_code: JGJ/T 235-2011
+  chapter: 7 质量检查与验收
+  section: ''
+  clause_no: 7.2.4
+  text: 砂浆防水层在门窗洞口、伸出外墙管道、预埋件、分格 缝及收头等部位的节点做法，应符合设计要求。 检验方法：观察检查和检查隐蔽工程验收记录。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 门窗口、伸出外墙管道、预埋件及收头部位是最容易发生渗漏的部位，其防水构造处理应按照本规程节点设计的要求进行。设计无规定时，应采用柔性密封，防排结合，材料防水和结构做法相结合，采用多道设防等加强措施。7. 2.5砂浆防水层表面应坚固、密实、平整，防止防水层的表面产生裂缝、起砂、麻面等缺陷，也是确保防水层质量的必要条件，应进行控制。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    activity_types:
+    - 外墙防水设计
+  conflicts: []
+- id: JGJ/T 235-2011#7.2.5
+  standard_code: JGJ/T 235-2011
+  chapter: 7 质量检查与验收
+  section: ''
+  clause_no: 7.2.5
+  text: 砂浆防水层表面应密实、平整，不得有裂纹、起砂、麻面等缺陷。检验方法：观察检查。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    activity_types:
+    - 外墙防水设计
+  conflicts: []
+- id: JGJ/T 235-2011#7.2.6
+  standard_code: JGJ/T 235-2011
+  chapter: 7 质量检查与验收
+  section: ''
+  clause_no: 7.2.6
+  text: 砂浆防水层留茬位置应正确，接茬应按层次顺序操作， 应做到层层搭接紧密。 检验方法：观察检查。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 求最小厚度
+    unit: '%'
+    condition: null
+    min_value: 80.0
+    max_value: null
+  tables: []
+  converted_tables:
+  - raw: 施工缝是砂浆防水层的薄弱环节，由于施工缝接茬不严或位置留设不当等原因，导致防水层渗漏；因此要做好砂浆防水层的留茬及接茬。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    activity_types:
+    - 外墙防水设计
+  conflicts: []
+- id: JGJ/T 235-2011#7.3.1
+  standard_code: JGJ/T 235-2011
+  chapter: 7 质量检查与验收
+  section: 7.3 涂膜防水层
+  clause_no: 7.3.1
+  text: 防水层所用防水涂料及配套材料应符合设计要求。检验方法：检查出厂合格证、质量检验报告和抽样复验报告。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    activity_types:
+    - 外墙防水设计
+  conflicts: []
+- id: JGJ/T 235-2011#7.3.2
+  standard_code: JGJ/T 235-2011
+  chapter: 7 质量检查与验收
+  section: 7.3 涂膜防水层
+  clause_no: 7.3.2
+  text: 涂膜防水层不得有渗漏现象。检验方法：雨后或持续淋水30min 后观察检查。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 持续淋水
+    unit: m
+    condition: null
+    min_value: 30.0
+    max_value: 30.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    activity_types:
+    - 外墙防水设计
+  conflicts: []
+- id: JGJ/T 235-2011#7.3.3
+  standard_code: JGJ/T 235-2011
+  chapter: 7 质量检查与验收
+  section: 7.3 涂膜防水层
+  clause_no: 7.3.3
+  text: 涂膜防水层在门窗洞口、伸出外墙管道、预埋件及收头 等部位的节点做法，应符合设计要求。 检验方法：观察检查和检查隐蔽工程验收记录。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 求最小厚度
+    unit: '%'
+    condition: null
+    min_value: 80.0
+    max_value: null
+  - name: 测法或割取
+    unit: mm
+    condition: null
+    min_value: 20.0
+    max_value: 20.0
+  - name: 割取mm
+    unit: mm
+    condition: null
+    min_value: 20.0
+    max_value: 20.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    activity_types:
+    - 外墙防水设计
+  conflicts: []
+- id: JGJ/T 235-2011#7.3.5
+  standard_code: JGJ/T 235-2011
+  chapter: 7 质量检查与验收
+  section: 7.3 涂膜防水层
+  clause_no: 7.3.5
+  text: 涂膜防水层应与基层粘结牢固，表面平整，涂刷均匀，不得有流淌、皱榴、鼓泡、露胎体和翘边等缺陷。检验方法：观察检查。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    activity_types:
+    - 外墙防水设计
+  conflicts: []
+- id: JGJ/T 235-2011#7.4.4
+  standard_code: JGJ/T 235-2011
+  chapter: 7 质量检查与验收
+  section: 7.4 防水透气膜防水层
+  clause_no: 7.4.4
+  text: 防水透气膜的铺贴应顺直，与基层应固定牢固，膜表面不得有皱裙、伤痕、破裂等缺陷。检验方法：观察检查。7. 4. 5防水透气膜的铺贴方向应正确，纵向搭接缝应错开，搭接宽度的负偏差不应大于lOmm 。检验方法z观察和尺量检查。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 防水透气膜是空铺于保温层外表面，用带塑料垫片的塑料锚栓固定在基层墙体上。如铺贴不顺直，表面出现皱裙、伤痕、破裂等缺陷，将会影响其使用功能和耐久性。防水透气膜铺贴完成后应进行外观的观察检查，以保证铺贴质量。7. 4. 5防水透气膜的铺贴方向正确是保证顺水搭接的关键，施工过程中应加强检查监督。纵向搭接缝是短边搭接缝，为避免搭接缝过于集中，上下两幅的纵向搭接缝应相互错开，其间距不得小于500mm。必要的搭接宽度是保证搭接缝防水可靠性的关键，因此对搭接宽度负偏差应进行控制。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    activity_types:
+    - 外墙防水设计
+  conflicts: []
+- id: JGJ/T 235-2011#7.4.6
+  standard_code: JGJ/T 235-2011
+  chapter: 7 质量检查与验收
+  section: 7.4 防水透气膜防水层
+  clause_no: 7.4.6
+  text: 防水透气膜的搭接缝应粘结牢固，密封严密；收头应与基层粘结并固定牢固，缝口应封严，不得有翘边现象。检验方法：观察检查。7. 5工程验收7. 5.1外墙防水质量验收的程序和组织，应符合现行国家标准《建筑工程施工质量验收统一标准》GB50300的规定。7. 5. 2外墙防水工程验收时，应提交下列技术资料并归档z1 外墙防水工程的设计文件，图纸会审、设计变更、洽商记录单；主要材料的产品合格证、质量检验报告、进场抽检复验报告、现场施工质量检测报告；3 施工方案及安全技术措施文件；隐蔽工程验收记录；雨后或淋水检验记录；施工记录和施工质量检验记录；施工单位的资质证书及操作人员的上岗证书。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 防水透气膜的搭接缝是采用配套的丁基双面胶粘带进行粘结的，如接缝粘结不可靠、密封不严，会造成接缝的渗漏；收头部位也是防水密封的重点。因此，防水透气膜的验收应对搭接缝和收头部位给予重视。7.5工程验收7. 5.1《建筑工程施工质量验收统一标准》GB50300规定分项工程可由若干检验批组成，本条文规定了外墙防水工程，应符合分项工程各检验批相应的质量标准要求。7. 5. 2本条规定了外墙防水工程验收文件和记录的内容，以与《建筑工程施工质量验收统一标准》GB50300相关内容协调。需要强调隐蔽工程部位的检验，隐蔽工程为后续的工序或分项过程覆盖、包裹、遮挡的前一分项工程，例如防水层的基层、密封防水处理部位、门窗洞口、伸出外墙管道、预埋件及收头等节点做法，应经过检查符合质量要求后方可进行隐蔽，避免因质量问题造成渗漏或不易修复而直接影响防水效果。外墙防水工程完成后，应会同各有关方验收，进行记录归档，以便查验。
+    note: 合并重复提取片段
+  references:
+  - target_standard: GB 50300
+    target_clause: null
+    original_text: 7. 5工程验收7. 5.1外墙防水质量验收的程序和组织，应符合现行国家标准《建筑工程施工质量验收统一标准》GB50300的规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcWall
+    activity_types:
+    - 外墙防水设计
+  conflicts: []
+- id: JGJ/T 235-2011#o.85
+  standard_code: JGJ/T 235-2011
+  chapter: 附录A
+  section: ''
+  clause_no: o.85
+  text: 香港香港0.902224. 700.851998. 70澳门澳门注2基本风压CkN/m2 ）按50年计算；表中未列入的城镇基本风压及年降水量按相关标准或根据当地气象资料确定。本规程用词说明1 为便于在执行本规程条文时区别对待，对要求严格程度不同的用词说明如下：1 ）表示很严格，非这样做不可的：正面词采用“必须”，反面词采用“严禁”；2）表示严格，在正常情况下均应这样做的：正面词采用“应”，反面词采用“不应”或“不得”；3）表示允许稍有选择，在条件许可时首先应这样做的：正面词采用“宜，，反面词采用“不宜”4）表示有选择，在一定条件下可以这样做的，采用“可”。条文中指明应按其他有关标准执行的写法为：“应符合……的规定”或“应按……执行”。引用标准名录1 《建筑工程施工质量验收统一标准》GB50300《建筑防水卷材试验方法第9部分：高分子防水卷材拉伸性能》GB/T328. 9《建筑防水卷材试验方法第10部分：沥青和高分子防水卷材不透水性》GB/T328. 10《建筑防水卷材试验方法第18部分：改性沥青防水卷材撕裂性能钉杆法》GB/T328. 18《塑料薄膜和片材透水蒸气性试验方法杯式法》GB/T 1037《硅酣建筑密封胶》GB/T14683《聚氨醋防水涂料》GB/T19250《聚合物水泥防水涂料》GB/T23445《外墙外保温工程技术规程》JGJ144《聚氨醋建筑密封胶》JC/T482《聚硫建筑密封胶》JC/T483《丙烯酸醋建筑密封胶》JC/T484《耐碱玻璃纤维网布》JC/T841《聚合物乳液建筑防水涂料》JC/T864《I昆凝土界面处理剂》JC/T907《丁基橡胶防水密封胶粘带》JC/T942《聚合物水泥防水砂浆》JC/T984《预拌砂浆》GB/T25181《镀辞电焊网》QB/T3897中华人民共和国行业标准建筑外墙防水工程技术规程JGJ/T 235’2011
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 必须
+    - 严禁
+    - 不应
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50300
+    target_clause: null
+    original_text: 行的写法为：“应符合……的规定”或“应按……执行”。引用标准名录1 《建筑工程施工质量验收统一标准》GB50300《建筑防水卷材试验方法第9部分：高分子防水卷材拉伸性能》GB/T328. 9《建
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  - target_standard: GB/T 25181
+    target_clause: null
+    original_text: C/T907《丁基橡胶防水密封胶粘带》JC/T942《聚合物水泥防水砂浆》JC/T984《预拌砂浆》GB/T25181《镀辞电焊网》QB/T3897中华人民共和国行业标准建筑外墙防水工程技术规程JG
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcWall
+    activity_types:
+    - 外墙防水设计
+  conflicts: []
+- id: JGJ/T 235-2011#3.0.2
+  standard_code: JGJ/T 235-2011
+  chapter: 3 基本规定
+  section: ''
+  clause_no: 3.0.2
+  text: 针对国内建筑外墙的渗漏情况，本规程编制组进行了多次的各地调研和全国范围的问卷调查，主要内容有年降雨量与基本风压情况，建筑外墙的渗漏情况，建筑外墙的形式、构造与材料，是否采取防水措施、使用何种材料，是否采用外墙外保温，采用外保温时保温层的材料以及其外部保护采用何种材料，外墙防水设防对工程造价的影响等方面。调研结果的综合分析表明：建筑外墙渗漏状况：在全国范围内比较多见，尤其南方地区的华南、江南，北方地区的东北、华北等地。例如，江南某住宅小区，人住700户，发生墙体渗漏的有160多户，约占23%,导致了业主与开发商较大的纠纷。南方地区的华南、江南，由于降雨量大，尤其沿海地区风力大，加之建筑形式的多样化致使墙体渗漏的情况加剧。北方地区由于采用外墙外保温时采取的防水措施不充分产生的问题也较多。各地采取的建筑外墙防水措施：目前外墙防水工程实践中主要采用两类方式进行设防，一类是墙面整体防水，主要应用于南方地区、沿海地区以及降雨量大、风压强的地区；另一类是对节点构造部位采取防水措施，主要应用于降雨量较小、风压较弱的地区和多层建筑以及未采用外保温墙体的建筑。各地采用外墙外保温的建筑均采取了墙面整体防水设防。墙面整体防水包括所有外墙面的防水和节点构造部位的防水。节点构造的防水指门窗洞口、雨篷、阳台、变形缝、伸出外墙管道、女儿墙压顶、外墙预埋件、预制构件等交接部位的防水。根据国内建筑外墙防水的现状和实际做法，以及现代建筑对建筑外墙的要求，本规程将建筑外墙防水分为墙面整体防水和节点构造防水两种类别。墙面整体防水分为两类：一类是指降水量大、风压强的无外保温外墙，包含“年降水量大于等于800mm 地区的高层建筑外墙”和“年降水量大于等于600mm、基本风压大于等于
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 有多户约占
+    unit: '%'
+    condition: null
+    min_value: 23.0
+    max_value: 23.0
+  - name: 含年降水量
+    unit: mm
+    condition: null
+    min_value: 800.0
+    max_value: null
+  - name: 和年降水量
+    unit: mm
+    condition: null
+    min_value: 600.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    activity_types:
+    - 外墙防水设计
+  conflicts: []
+- id: JGJ/T 235-2011#o.5
+  standard_code: JGJ/T 235-2011
+  chapter: 条文说明
+  section: ''
+  clause_no: o.5
+  text: o.5kN/m2地区的外墙”两种情形。二类是指降水量较大、风压较强的有外保温外墙，包含“年降水量大于等于400mm 且基本风压大于等于O.4kN/m2地区有外保温的外墙”、“年降水量大于等于500mm 且基本风压大于等于0.35kN／时地区有外保温的外墙”和“年降水量大于等于600mm 且基本风压大于等于0.3kN/m2地区有外保温的外墙”三种情形。调查和问卷反馈的情况显示，由于外墙外保温的广泛实施，以及目前常用的保温材料和外保温构造做法，使外墙更易发生渗漏。并且即使水分不进入外墙本体和室内，只要进入保温层，就会严重降低保温效果和保温层的耐久性。据研究，保温层的导热系数会随着含水率的增加呈线性增大。所以本规程规定上述情形下的外墙需要采取墙面整体防水，以加强保温功能的实现。外墙防水类别划分的主要考虑因素为：1 年降水量、基本风压等气候参数与外墙渗漏的高度关联性外墙渗漏究其根本原因是有水的来源，主要是降雨，雨水可以沿着墙体的裂缝、薄弱的节点缝隙进入墙体内部甚至室内，或是通过墙体非密实的孔隙渗入墙体内部；同时，水的冻融也对墙体产生破坏作用，因此降水量的大小必然是防水的主要依据。风压的增加会增大与墙体接触的雨水量和雨水对墙体的渗透压力，也会加大墙面雨水的爬升高度，致使外墙的渗漏水率增加，加剧渗漏水程度。本规程防水设计规定与实际防水工程的对应性调研资料和问卷调查的结果显示，广西、广东、福建、云南、贵州、江西（部分）、湖南、湖北（部分）等地区的建筑主要采用无保温或者自保温的外墙，主要采用防水砂浆进行墙面整体设防，饰面层主要采用面砖和涂料；上海、江苏、浙江、安徽、江西（部分）、湖北（部分）等地区的建筑主要采用外保温或内保温的外墙，也采用墙面整体设防；北方城市（淮河、秦岭以南地区）的建筑主要采用外保温的外墙，也采用墙面整体设防，饰面层采用饰面涂料为主。因此本规程对外墙的墙面整体防水要求作出了合理和切实可行的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 含年降水量
+    unit: mm
+    condition: null
+    min_value: 400.0
+    max_value: null
+  - name: 墙年降水量
+    unit: mm
+    condition: null
+    min_value: 500.0
+    max_value: null
+  - name: 和年降水量
+    unit: mm
+    condition: null
+    min_value: 600.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    activity_types:
+    - 外墙防水设计
+  conflicts: []
+- id: JGJ/T 235-2011#3.0.4
+  standard_code: JGJ/T 235-2011
+  chapter: 3 基本规定
+  section: ''
+  clause_no: 3.0.4
+  text: 全国主要城镇基本风压和年降水量表可按本规程附录A 采用。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 下年降水量
+    unit: mm
+    condition: null
+    min_value: 800.0
+    max_value: null
+  - name: 南的地区此
+    unit: mm
+    condition: null
+    min_value: 800.0
+    max_value: 800.0
+  - name: 市年降水量
+    unit: mm
+    condition: null
+    min_value: 600.0
+    max_value: null
+  - name: 口年降水量
+    unit: mm
+    condition: null
+    min_value: 400.0
+    max_value: null
+  - name: 区年降水量
+    unit: m
+    condition: null
+    min_value: 600.0
+    max_value: null
+  - name: 及年降水量
+    unit: mm
+    condition: null
+    min_value: 400.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50178
+    target_clause: null
+    original_text: 参照国家标准《建筑气候区划标准》GB50178 、《建筑结构荷载规范》GB50009 ，参考《中华人民共和国气候图集》（气象出
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  - target_standard: GB 50009
+    target_clause: null
+    original_text: 参照国家标准《建筑气候区划标准》GB50178 、《建筑结构荷载规范》GB50009 ，参考《中华人民共和国气候图集》（气象出版社2002年7月出版）以及国家气象信
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcWall
+    activity_types:
+    - 外墙防水设计
+  conflicts: []
+- id: JGJ/T 235-2011#4.3.2
+  standard_code: JGJ/T 235-2011
+  chapter: 4 材料
+  section: ''
+  clause_no: 4.3.2
+  text: 聚氨醋建筑密封胶是以氨基甲酸醋聚合物为主要成分的单组分和多组分建筑密封胶。产品按流动性分为非下垂型（N)和自流平型（L)两个类型；按位移能力分为25、20两个级别；按拉伸模量分为高模量CHM）和低模量CLM ）两个次级别。聚氨醋建筑密封胶各项性能指标的试验检测按照《聚氨醋建筑密封胶》JC/T482的相关规定执行。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    activity_types:
+    - 外墙防水设计
+  conflicts: []
+- id: JGJ/T 235-2011#5.1.1
+  standard_code: JGJ/T 235-2011
+  chapter: 5 设计
+  section: ''
+  clause_no: 5.1.1
+  text: 建筑外墙整体防水设计应包括下列内容： 1 外墙防水工程的构造； 2 防水层材料的选择； 3 节点的密封防水构造。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    activity_types:
+    - 外墙防水设计
+  conflicts: []
+- id: JGJ/T 235-2011#5.2.5
+  standard_code: JGJ/T 235-2011
+  chapter: 5 设计
+  section: ''
+  clause_no: 5.2.5
+  text: 对砂浆防水层作出了留设分格缝的规定要求；由于砂浆防水层收缩和温差的影响，在j、浆防水层应留设分格缝，使裂缝集中于分格缝中，避免裂缝的产生。分格缝内采用柔性密封材料进行密封，以柔适变，达到防水目的。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    activity_types:
+    - 外墙防水设计
+  conflicts: []
+- id: JGJ/T 235-2011#5.2.6
+  standard_code: JGJ/T 235-2011
+  chapter: 5 设计
+  section: ''
+  clause_no: 5.2.6
+  text: 强调了应做好建筑外墙地面与地下交接的防水处理，使外墙防水层与地下防水层形成整体设防。5.3 节点构造防水设计5. 3.1节点部位是外墙渗漏水的重点部位，大量的外墙渗漏主要出现在节点部位，其中门窗框周边是最易出现渗漏的部位，应着重进行设防。门窗框间嵌填的密封处理应与外墙防水层连续，才能阻止雨水从门窗框四周流向室内。门窗上帽的外口的滴水处理可以阻止顺墙下流的雨水爬人门窗上口。窗台必要的外排水坡度利于防水。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    activity_types:
+    - 外墙防水设计
+  conflicts: []
+- id: JGJ/T 235-2011#5.3.6
+  standard_code: JGJ/T 235-2011
+  chapter: 5 设计
+  section: ''
+  clause_no: 5.3.6
+  text: 压顶是屋面和外墙的交界部位，是防水设计中容易疏忽的部位，由于压顶未做防水设计或者设计不合理出现的压顶渗水现象很多。压顶主要有金属制品压顶或钢筋混凝土压顶，无论采用哪种压顶形式，均应做好压顶的防水处理，并与屋面防水做好衔接。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    activity_types:
+    - 外墙防水设计
+  conflicts: []
+- id: JGJ/T 235-2011#5.3.7
+  standard_code: JGJ/T 235-2011
+  chapter: 5 设计
+  section: ''
+  clause_no: 5.3.7
+  text: 强调了外墙预埋件密封要求。外墙落水管和外挂锚固件的防水可参照预埋件处理。由于预埋件大都具有承载作用，易产生变动，因此，后置埋件和预埋件均需作密封增强处理以保证防水的整体性。施工6.1一般规定6. 1. 1 根据设计要求，找出需要解决的技术难点，制定施工方案。外墙防水工程施工方案的内容包括：技术措施（其中须包括施工程序、施工条件和成品保护的内容）、工程概况、质量工作目标、施工组织与管理、防水材料及其使用、施工操作技术、质量保证措施、安全注意事项等。6. 1. 2外墙防水应由专业队伍进行施工，是保证工程质量的基本条件要求。本条文所指的防水专业队伍，是由当地建设行政主管部门对防水施工企业的规模、技术水平、业绩等综合考核后颁发资质证书的专业队伍。作业人员应经过专业培训，达到符合要求的操作技术水平，由有关相关的主管部门发给上岗证。6. 1. 3防水材料产品进入施工现场，应经复验合格后方可使用，是为了确认进场所用材料的质量，应根据不同的防水材料进行相应的技术指标检验，提供产品的试验检测报告。6. 1. 4外墙由多个构造层次组成，上道工序会被下道工序所覆盖，任何一个层次出现质量隐患，都会影响外墙的保温和防水工程质量。因此，强调按工序、层次进行过程的质量控制和检查验收，即每个层次施工都应有质量控制的措施，每道工序完成后操作人员应进行自检，合格后进行工序间的交接检验和专职质量人员的检查，检查结果应有完整的记录，然后经监理单位（或建设单位）进行检查验收后，方可进行下一工序的施工，以达到消除质量隐患的目的。6. 1. 5本条文强调，应将外墙门、窗框、伸出外墙管道、设备或预埋件等部件安装完毕，再进行防水施工；如先进行防水施工，后再安装门、窗框、伸出外墙管道、设备或预埋件等部件，其部件周边极易造成渗漏水现象。6.1. 6找平层质量是保证防水层质量的基本要素，如找平层表面有酥松、起砂、起皮和裂缝等现象，将直接影响防水层和基层的粘结质量，导致空鼓甚至出现脱落，找平层裂缝会导致防水层开裂。因此找平层施工时，应在收水后及时进行二次压光，使表面坚固密实、平整；水泥砂浆终凝后，应浇水充分养护，保证砂浆中的水泥充分水化，以确保找平层质量。找平层基面的含水率应根据防水材料品种确定，采用水泥基类防水材料时，为保证水泥的充分水化以增强防水层的强度和密实度，基面应充分湿润。而柔性防水材料往往要求基层干燥以保证防水层与基层面的粘结能力。6.1. 7勾缝密封，可以起到局部加强，使之具有一定的整体防水功能。6.1. 8本条规定是对施工期间外墙防水成品保护的要求：外墙防水完工后应采取有效的保护措施，防止外墙防水层的损坏。其中包括已完成的外墙防水层上不得剔凿打洞；有机涂料防水层和防水透气膜防水层上不得进行电气焊等高温作业；其他工序交叉作业时不得损害外墙防水层。6.1. 9外墙防水层是室外施工，气候条件对其影响很大。雨雪天施工会使防水层难以成型，并使保温层、找平层中的含水率增大，导致柔性胶结防水材料与基面的粘结能力降低或防水层起鼓破坏；气温过低时水泥基类防水材料中的水泥水化速度明显降低，影响防水层成型，如受冻则会产生强度降低、酥松、开裂等缺陷，而防水涂料在低温或负温时不易成膜。雨雪、五级风以上进行外墙防水层施工，也难以确保人身安全；因此外墙防水施工应有适宜的施工环境气候条件。除了施工现场常见的触电、机具伤害、坠物伤人、洞口坠落等事故外，外墙防水施工属于高空作业，易发生高空坠落事故；因此，外墙防水施工应严格执行国家有关安全生产法律、法规和现场安全施工要求。6.2无外保温外墙防水工程施工6. 2.1外墙结构表面的油污、浮浆会影响找平层的粘结性能及造成空鼓；外脚手架的连墙件拆除后留下的孔洞、砌筑砂浆不饱满形成的缝隙等，如不填塞抹平，会造成找平层空鼓、开裂。不同结构材料的线膨胀系数不同，温度的变化造成的热胀冷缩不同，使相关层次在交接处容易产生规则性裂缝。因此在交接处铺设增强处理材料来限制拉伸应力，约束裂缝的产生。增强处理材料主要包括玻璃纤维网布以及金属网等材料。6. 2. 2无论是混凝土还是砌体结构墙体，当表面平整度无法达到保温层或防水层施工要求时，应进行找平处理。为使找平层粘结牢固，找平层施工前应进行界面处理。为保证找平层的密实度、平整度和不易产生裂缝，每遍抹灰的厚度不宜大于lOmm 。为保证找平层与后道工序的构造层次粘结牢固，找平层表面应用木抹子搓成毛面。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    activity_types:
+    - 外墙防水设计
+  conflicts: []
+- id: JGJ/T 235-2011#6.2.6
+  standard_code: JGJ/T 235-2011
+  chapter: 6 施工
+  section: ''
+  clause_no: 6.2.6
+  text: 规定了在防水层中设置的耐碱玻璃纤维网布或热镀辞电焊网片不得外露、热镀辞电焊网片应与墙体结构固定牢固、耐碱玻璃纤维网布应铺贴平整元皱槽，同时，保证一定的搭接宽度，为的是保证防水层的抗裂效果及质量。6. 3外保温外墙防水工程施工
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    activity_types:
+    - 外墙防水设计
+  conflicts: []
+- id: JGJ/T 235-2011#6.3.1
+  standard_code: JGJ/T 235-2011
+  chapter: 6 施工
+  section: ''
+  clause_no: 6.3.1
+  text: 防水层的基层表面应平整、干净；防水层与保温层应 相容。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    activity_types:
+    - 外墙防水设计
+  conflicts: []
+- id: JGJ/T 235-2011#7.2.7
+  standard_code: JGJ/T 235-2011
+  chapter: 7 质量检查与验收
+  section: ''
+  clause_no: 7.2.7
+  text: 砂浆防水层的厚度测量，应在砂浆终凝前用钢针插入进行尺量检查；平均厚度应符合设计要求，最小厚度不得小于设计值的80%。7.3 涂膜防水层7. 3.1 设计所采用材料的主要性能指标应符合本规程第4.2. 3、4. 2. 4、
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 求最小厚度
+    unit: '%'
+    condition: null
+    min_value: 80.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    activity_types:
+    - 外墙防水设计
+  conflicts: []
+- id: JGJ/T 235-2011#4.2.5
+  standard_code: JGJ/T 235-2011
+  chapter: 4 材料
+  section: ''
+  clause_no: 4.2.5
+  text: 条的要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    activity_types:
+    - 外墙防水设计
+  conflicts: []
+- id: JGJ/T 235-2011#7.3.4
+  standard_code: JGJ/T 235-2011
+  chapter: 7 质量检查与验收
+  section: ''
+  clause_no: 7.3.4
+  text: 涂膜防水层的平均厚度应符合设计要求，最小厚度不应 小于设计值的80% 。 检验方法：针测法或割取20mm × 20mm 实样用卡尺测量。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 求最小厚度
+    unit: '%'
+    condition: null
+    min_value: 80.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    activity_types:
+    - 外墙防水设计
+  conflicts: []
+- id: JGJ/T 235-2011#7.4.3
+  standard_code: JGJ/T 235-2011
+  chapter: 7 质量检查与验收
+  section: ''
+  clause_no: 7.4.3
+  text: 勒脚、阴阳角、洞口、女儿墙、变形缝等节点部位是防水透气膜设防和施工的薄弱部位，其构造做法应符合设计要求；节点部位为质量检查的重点，并根据检查情况及时填写隐蔽工程验收记录。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcWall
+    activity_types:
+    - 外墙防水设计
+  conflicts: []
+- id: JGJ/T 235-2011#2.0.1
+  standard_code: JGJ/T 235-2011
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.1
+  text: 建筑外墙防水 waterproof and protection of exterior wall of building 阻止水渗人建筑外墙，满足墙体使用功能的构造及措施。 2. o. 2 防水透气膜 weather barrier 具有防水和透气功能的合成高分子膜状材料。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ/T 235-2011#3.0.1
+  standard_code: JGJ/T 235-2011
+  chapter: 3 基本规定
+  section: ''
+  clause_no: 3.0.1
+  text: 建筑外墙防水应具有阻止雨水、雪水侵人墙体的基本功 能，并应具有抗冻融、耐高低温、承受风荷载等性能。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ/T 235-2011#3.0.5
+  standard_code: JGJ/T 235-2011
+  chapter: 3 基本规定
+  section: ''
+  clause_no: 3.0.5
+  text: 居住建筑外墙外保温系统的防水性能应符合现行行业标 准《外墙外保温工程技术规程》JG] 144 的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ/T 235-2011#4.4.1
+  standard_code: JGJ/T 235-2011
+  chapter: 4 材料
+  section: ''
+  clause_no: 4.4.1
+  text: 一般规定…........….........….............................…..
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ/T 235-2011#5.1.2
+  standard_code: JGJ/T 235-2011
+  chapter: 5 设计
+  section: ''
+  clause_no: 5.1.2
+  text: 建筑外墙节点构造防水设计应包括门窗洞口、雨篷、阳 台、变形缝、伸出外墙管道、女儿墙压顶、外墙预埋件、预制构 件等交接部位的防水设防。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ/T 235-2011#5.2.3
+  standard_code: JGJ/T 235-2011
+  chapter: 5 设计
+  section: ''
+  clause_no: 5.2.3
+  text: 砂浆防水层中可增设耐碱玻璃纤维网布或热镀钵电焊网 增强，并宜用锚栓固定于结构墙体中。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ/T 235-2011#5.3.5
+  standard_code: JGJ/T 235-2011
+  chapter: 5 设计
+  section: ''
+  clause_no: 5.3.5
+  text: 穿过外墙的管道宜采用套管，套管应内高外低，坡度不应 小于5% ，套管周边应作防水密封处理（图5.3.5-1 、图5.3.5-2 ）。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ/T 235-2011#6.1.2
+  standard_code: JGJ/T 235-2011
+  chapter: 6 施工
+  section: ''
+  clause_no: 6.1.2
+  text: 外墙防水应由有相应资质的专业队伍进行施工；作业人 员应持证上岗。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ/T 235-2011#6.2.1
+  standard_code: JGJ/T 235-2011
+  chapter: 6 施工
+  section: ''
+  clause_no: 6.2.1
+  text: 外墙结构表面的油污、浮浆应清除，孔洞、缝隙应堵塞 抹平；不同结构材料交接处的增强处理材料应固定牢固。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ/T 235-2011#6.2.2
+  standard_code: JGJ/T 235-2011
+  chapter: 6 施工
+  section: ''
+  clause_no: 6.2.2
+  text: 外墙结构表面宜进行找平处理，找平层施工应符合下列 规定： 1 外墙基层表面应清理干净后再进行界面处理； 18 2 界面处理材料的品种和配比应符合设计要求，拌合应均 匀一致，元粉团、沉淀等缺陷，涂层应均匀、不露底，并应待表 面收水后再进行找平层施工； 3 找平层砂浆的厚度超过lOmm 时，应分层压实、抹平。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ/T 235-2011#6.2.4
+  standard_code: JGJ/T 235-2011
+  chapter: 6 施工
+  section: ''
+  clause_no: 6.2.4
+  text: 砂浆防水层施工应符合下列规定： 1 基层表面应为平整的毛面，光滑表面应进行界面处理， 并应按要求温润。 2 防水砂浆的配制应满足下列要求： 1 ）配合比应按照设计要求，通过试验确定； 2）配制乳液类聚合物水泥防水砂浆前，乳液应先搅拌均 匀，再按规定比例加人拌合料中搅拌均匀； 3）干粉类聚合物水泥防水砂浆应按规定比例加水搅拌 均匀； 4）粉状防水剂配制普通防水砂浆时，应先将规定比例的 水泥、砂和粉状防水剂干拌均匀，再加水搅拌均匀； 如液态防水剂配制普通防水砂浆时，应先将规定比例的 水泥和砂干拌均匀，再加人用水稀释的液态防水剂搅 拌均匀。 3 配制好的防水砂浆宜在lh 内用完P 施工中不得加水。 4 界面处理材料涂刷厚度应均匀、覆盖完全，收水后应及 时进行砂浆防水层施工。 5 防水砂浆铺抹施工应符合下列规定： 1) 厚度大于lOmm 时，应分层施工，第二层应待前一层 指触不粘时进行，各层应粘结牢固； 2）每层宜连续施工，留茬时，应采用阶梯坡形茬，接茬 部位离阴阳角不得小于200mm ；上下层接茬应错开 300mm 以上，接茬应依层次顺序操作、层层搭接 紧密； 19 3）喷涂施工时，喷枪的喷嘴应垂直于基面，合理调整压 力、喷嘴与基面距离； 4）涂抹时应压实、抹平；遇气泡时应挑破，保证铺抹 密实； 5）抹平、压实应在初凝前完成。 6 窗台、窗帽和凸出墙面的腰线等部位上表面的排水坡度 应准确，外口下沿的滴水线应连续、 Jr顶直。 7 砂浆防水层分格缝的留设位置和尺寸应符合设计要求， 嵌填密封材料前，应将分格缝清理干净，密封材料应嵌填密实。 8 砂浆防水层转角宜抹成圆弧形，圆弧半径不应小于 5mm，转角抹压应顺直。 9 门框、窗框、伸出外墙管道、预埋件等与防水层交接处 应留8mm～lOmm 宽的凹槽，并应按本条第7 款的规定进行密 封处理。 10 砂浆防水层未达到硬化状态时，不得浇水养护或直接受 雨水冲刷，聚合物水泥防水砂浆硬化后应采用干湿交替的养护方 法；普通防水砂浆防水层应在终凝后进行保湿养护。养护期间不 得受冻。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ/T 235-2011#7.1.2
+  standard_code: JGJ/T 235-2011
+  chapter: 7 质量检查与验收
+  section: ''
+  clause_no: 7.1.2
+  text: 外墙防水材料应有产品合格证和出厂检验报告，材料的 品种、规格、性能等应符合国家现行有关标准和设计要求；进场 的防水材料应抽样复验；不合格的材料不得在工程中使用。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ/T 235-2011#7.2.1
+  standard_code: JGJ/T 235-2011
+  chapter: 7 质量检查与验收
+  section: ''
+  clause_no: 7.2.1
+  text: 砂浆防水层的原材料、配合比及性能指标，应符合设计 23 要求。 检验方法：检查出厂合格证、质量检验报告、配合比试验报 告和抽样复验报告。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ/T 235-2011#7.4.1
+  standard_code: JGJ/T 235-2011
+  chapter: 7 质量检查与验收
+  section: ''
+  clause_no: 7.4.1
+  text: 防水透气膜及其配套材料应符合设计要求。 检验方法：检查出厂合格证、质量检验报告和抽样复验 报告。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ/T 235-2011#7.4.2
+  standard_code: JGJ/T 235-2011
+  chapter: 7 质量检查与验收
+  section: ''
+  clause_no: 7.4.2
+  text: 防水透气膜防水层不得有渗漏现象。 检验方法：雨后或持续淋水30min 后观察检查。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ/T 235-2011#7.4.5
+  standard_code: JGJ/T 235-2011
+  chapter: 7 质量检查与验收
+  section: ''
+  clause_no: 7.4.5
+  text: 防水透气膜的铺贴方向应正确，纵向搭接缝应错开，搭 25 接宽度的负偏差不应大于lOmm 。 检验方法z 观察和尺量检查。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+executable_rules:
+- rule_id: R_JGJT2352011_2_0_3_1
+  source_clause: JGJ/T 235-2011#2.0.3
+  rule_type: constraint
+  when:
+  - activity_type == '外墙防水设计'
+  - component_type IN ['IfcWall']
+  then:
+    parameter: 水年降水量
+    unit: mm
+    condition: null
+    min_value: 800.0
+  source_text: 滴水线drip water line在凸出或凹进外墙面的部位外沿，设置的阻止水由水平方向内渗的构造。基本规定3. 0.1建筑外墙防水应具有阻止雨水、雪水侵人墙体的基本功能，并应具有抗冻融、耐高低温、承受风荷载等性能。3. 0. 2在正常使用和合理维护的条件下，有下列情况之一的建筑
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJT2352011_2_0_3_2
+  source_clause: JGJ/T 235-2011#2.0.3
+  rule_type: constraint
+  when:
+  - activity_type == '外墙防水设计'
+  - component_type IN ['IfcWall']
+  then:
+    parameter: 墙年降水量
+    unit: mm
+    condition: null
+    min_value: 600.0
+  source_text: 滴水线drip water line在凸出或凹进外墙面的部位外沿，设置的阻止水由水平方向内渗的构造。基本规定3. 0.1建筑外墙防水应具有阻止雨水、雪水侵人墙体的基本功能，并应具有抗冻融、耐高低温、承受风荷载等性能。3. 0. 2在正常使用和合理维护的条件下，有下列情况之一的建筑
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJT2352011_2_0_3_3
+  source_clause: JGJ/T 235-2011#2.0.3
+  rule_type: constraint
+  when:
+  - activity_type == '外墙防水设计'
+  - component_type IN ['IfcWall']
+  then:
+    parameter: 墙年降水量
+    unit: m
+    condition: null
+    min_value: 400.0
+  source_text: 滴水线drip water line在凸出或凹进外墙面的部位外沿，设置的阻止水由水平方向内渗的构造。基本规定3. 0.1建筑外墙防水应具有阻止雨水、雪水侵人墙体的基本功能，并应具有抗冻融、耐高低温、承受风荷载等性能。3. 0. 2在正常使用和合理维护的条件下，有下列情况之一的建筑
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJT2352011_2_0_3_4
+  source_clause: JGJ/T 235-2011#2.0.3
+  rule_type: constraint
+  when:
+  - activity_type == '外墙防水设计'
+  - component_type IN ['IfcWall']
+  then:
+    parameter: 墙年降水量
+    unit: m
+    condition: null
+    min_value: 600.0
+  source_text: 滴水线drip water line在凸出或凹进外墙面的部位外沿，设置的阻止水由水平方向内渗的构造。基本规定3. 0.1建筑外墙防水应具有阻止雨水、雪水侵人墙体的基本功能，并应具有抗冻融、耐高低温、承受风荷载等性能。3. 0. 2在正常使用和合理维护的条件下，有下列情况之一的建筑
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJT2352011_3_0_3_1
+  source_clause: JGJ/T 235-2011#3.0.3
+  rule_type: constraint
+  when:
+  - activity_type == '外墙防水设计'
+  - component_type IN ['IfcWall']
+  then:
+    parameter: 外年降水量
+    unit: mm
+    condition: null
+    min_value: 400.0
+  source_text: 除本规程第3.0.2条规定的建筑外，年降水量大于等于400mm 地区的其他建筑外墙应采用节点构造防水措施。3. 0.4全国主要城镇基本风压和年降水量表可按本规程附录A采用。3. 0. 5居住建筑外墙外保温系统的防水性能应符合现行行业标准《外墙外保温工程技术规程》JG]144的规定
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJT2352011_5_3_1_1
+  source_clause: JGJ/T 235-2011#5.3.1
+  rule_type: constraint
+  when:
+  - activity_type == '外墙防水设计'
+  - component_type IN ['IfcWall']
+  then:
+    parameter: 窗台应设置
+    unit: '%'
+    condition: null
+    min_value: 5.0
+  source_text: 门窗框与墙体间的缝隙宜采用聚合物水泥防水砂浆或发泡聚氨醋填充；外墙防水层应延伸至门窗框，防水层与门窗框间应预留凹槽，并应嵌填密封材料；门窗上榻的外口应做滴水线；外窗台应设置不小于5% 的外排水坡度（图5.3. 1-1 、图5.3. 1-2 ）。图5.3. 1 1门窗框防水平剖面构
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJT2352011_5_3_2_1
+  source_clause: JGJ/T 235-2011#5.3.2
+  rule_type: constraint
+  when:
+  - activity_type == '外墙防水设计'
+  - component_type IN ['IfcWall']
+  then:
+    parameter: 雨篷应设置
+    unit: '%'
+    condition: null
+    min_value: 1.0
+  source_text: 雨篷应设置不应小于1% 的外排水坡度，外口下沿应做滴水线；雨篷与外墙交接处的防水层应连续；雨篷防水层应沿外口下翻至滴水线（图5.3. 2 ）。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJT2352011_5_3_3_1
+  source_clause: JGJ/T 235-2011#5.3.3
+  rule_type: constraint
+  when:
+  - activity_type == '外墙防水设计'
+  - component_type IN ['IfcWall']
+  then:
+    parameter: 水落口设置
+    unit: '%'
+    condition: null
+    min_value: 1.0
+  source_text: 阳台应向水落口设置不小于1% 的排水坡度，水落口周边应留槽嵌填密封材料。阳台外口下沿应做滴水线（图5.3. 3 ）。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJT2352011_5_3_4_1
+  source_clause: JGJ/T 235-2011#5.3.4
+  rule_type: constraint
+  when:
+  - activity_type == '外墙防水设计'
+  - component_type IN ['IfcWall']
+  then:
+    parameter: 满帖的宽度
+    unit: mm
+    condition: null
+    min_value: 150.0
+  source_text: 变形缝部位应增设合成高分子防水卷材附加层，卷材两图5.3.2 雨篷防水构造图5.3.3阳台防水构造1一外墙保温层；2防水层；密封材料；2 滴水线P3一滴水线防水层端应满粘于墙体，满帖的宽度不应小于150mm ，并应钉压固定；卷材收头应用密封材料密封（图5.3.的。图5.3. 4变
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJT2352011_5_3_4_2
+  source_clause: JGJ/T 235-2011#5.3.4
+  rule_type: constraint
+  when:
+  - activity_type == '外墙防水设计'
+  - component_type IN ['IfcWall']
+  then:
+    parameter: 高外低坡度
+    unit: '%'
+    condition: null
+    min_value: 5.0
+  source_text: 变形缝部位应增设合成高分子防水卷材附加层，卷材两图5.3.2 雨篷防水构造图5.3.3阳台防水构造1一外墙保温层；2防水层；密封材料；2 滴水线P3一滴水线防水层端应满粘于墙体，满帖的宽度不应小于150mm ，并应钉压固定；卷材收头应用密封材料密封（图5.3.的。图5.3. 4变
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJT2352011_5_3_4_3
+  source_clause: JGJ/T 235-2011#5.3.4
+  rule_type: constraint
+  when:
+  - activity_type == '外墙防水设计'
+  - component_type IN ['IfcWall']
+  then:
+    parameter: 内找坡坡度
+    unit: '%'
+    condition: null
+    min_value: 2.0
+  source_text: 变形缝部位应增设合成高分子防水卷材附加层，卷材两图5.3.2 雨篷防水构造图5.3.3阳台防水构造1一外墙保温层；2防水层；密封材料；2 滴水线P3一滴水线防水层端应满粘于墙体，满帖的宽度不应小于150mm ，并应钉压固定；卷材收头应用密封材料密封（图5.3.的。图5.3. 4变
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJT2352011_6_2_3_1
+  source_clause: JGJ/T 235-2011#6.2.3
+  rule_type: constraint
+  when:
+  - activity_type == '外墙防水设计'
+  - component_type IN ['IfcWall']
+  then:
+    parameter: 位离阴阳角
+    unit: mm
+    condition: null
+    min_value: 200.0
+  source_text: 外墙防水层施工前，宜先做好节点处理，再进行大面积施工。6. 2. 4砂浆防水层施工应符合下列规定：基层表面应为平整的毛面，光滑表面应进行界面处理，并应按要求温润。防水砂浆的配制应满足下列要求：1 ）配合比应按照设计要求，通过试验确定；2）配制乳液类聚合物水泥防水砂浆前，乳液应先搅
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJT2352011_6_2_3_2
+  source_clause: JGJ/T 235-2011#6.2.3
+  rule_type: constraint
+  when:
+  - activity_type == '外墙防水设计'
+  - component_type IN ['IfcWall']
+  then:
+    parameter: 接茬应错开
+    unit: mm
+    condition: null
+    min_value: 300.0
+    max_value: 300.0
+  source_text: 外墙防水层施工前，宜先做好节点处理，再进行大面积施工。6. 2. 4砂浆防水层施工应符合下列规定：基层表面应为平整的毛面，光滑表面应进行界面处理，并应按要求温润。防水砂浆的配制应满足下列要求：1 ）配合比应按照设计要求，通过试验确定；2）配制乳液类聚合物水泥防水砂浆前，乳液应先搅
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJT2352011_6_2_3_3
+  source_clause: JGJ/T 235-2011#6.2.3
+  rule_type: constraint
+  when:
+  - activity_type == '外墙防水设计'
+  - component_type IN ['IfcWall']
+  then:
+    parameter: 形圆弧半径
+    unit: mm
+    condition: null
+    min_value: 5.0
+  source_text: 外墙防水层施工前，宜先做好节点处理，再进行大面积施工。6. 2. 4砂浆防水层施工应符合下列规定：基层表面应为平整的毛面，光滑表面应进行界面处理，并应按要求温润。防水砂浆的配制应满足下列要求：1 ）配合比应按照设计要求，通过试验确定；2）配制乳液类聚合物水泥防水砂浆前，乳液应先搅
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJT2352011_6_2_3_4
+  source_clause: JGJ/T 235-2011#6.2.3
+  rule_type: constraint
+  when:
+  - activity_type == '外墙防水设计'
+  - component_type IN ['IfcWall']
+  then:
+    parameter: 交接处应留
+    unit: mm
+    condition: null
+    min_value: 8.0
+    max_value: 8.0
+  source_text: 外墙防水层施工前，宜先做好节点处理，再进行大面积施工。6. 2. 4砂浆防水层施工应符合下列规定：基层表面应为平整的毛面，光滑表面应进行界面处理，并应按要求温润。防水砂浆的配制应满足下列要求：1 ）配合比应按照设计要求，通过试验确定；2）配制乳液类聚合物水泥防水砂浆前，乳液应先搅
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJT2352011_6_2_5_1
+  source_clause: JGJ/T 235-2011#6.2.5
+  rule_type: constraint
+  when:
+  - activity_type == '外墙防水设计'
+  - component_type IN ['IfcWall']
+  then:
+    parameter: 平方米
+    unit: kg
+    condition: null
+    min_value: 0.6
+  source_text: 涂膜防水层施工应符合下列规定：施工前应对节点部位进行密封或增强处理。涂料的配制和搅拌应满足下列要求：1 ）双组分涂料配制前，应将液体组分搅拌均匀，配料应按照规定要求进行，不得任意改变配合比；2）应采用机械搅拌，配制好的涂料应色泽均匀，无粉团、沉淀。基层的干燥程度应根据涂料的品种和
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJT2352011_6_2_5_2
+  source_clause: JGJ/T 235-2011#6.2.5
+  rule_type: constraint
+  when:
+  - activity_type == '外墙防水设计'
+  - component_type IN ['IfcWall']
+  then:
+    parameter: 接茬宽度
+    unit: mm
+    condition: null
+    min_value: 30.0
+    max_value: 30.0
+  source_text: 涂膜防水层施工应符合下列规定：施工前应对节点部位进行密封或增强处理。涂料的配制和搅拌应满足下列要求：1 ）双组分涂料配制前，应将液体组分搅拌均匀，配料应按照规定要求进行，不得任意改变配合比；2）应采用机械搅拌，配制好的涂料应色泽均匀，无粉团、沉淀。基层的干燥程度应根据涂料的品种和
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJT2352011_6_2_5_3
+  source_clause: JGJ/T 235-2011#6.2.5
+  rule_type: constraint
+  when:
+  - activity_type == '外墙防水设计'
+  - component_type IN ['IfcWall']
+  then:
+    parameter: 接茬宽度
+    unit: mm
+    condition: null
+    min_value: 50.0
+    max_value: 50.0
+  source_text: 涂膜防水层施工应符合下列规定：施工前应对节点部位进行密封或增强处理。涂料的配制和搅拌应满足下列要求：1 ）双组分涂料配制前，应将液体组分搅拌均匀，配料应按照规定要求进行，不得任意改变配合比；2）应采用机械搅拌，配制好的涂料应色泽均匀，无粉团、沉淀。基层的干燥程度应根据涂料的品种和
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJT2352011_6_2_5_4
+  source_clause: JGJ/T 235-2011#6.2.5
+  rule_type: constraint
+  when:
+  - activity_type == '外墙防水设计'
+  - component_type IN ['IfcWall']
+  then:
+    parameter: 搭接宽度
+    unit: mm
+    condition: null
+    min_value: 50.0
+  source_text: 涂膜防水层施工应符合下列规定：施工前应对节点部位进行密封或增强处理。涂料的配制和搅拌应满足下列要求：1 ）双组分涂料配制前，应将液体组分搅拌均匀，配料应按照规定要求进行，不得任意改变配合比；2）应采用机械搅拌，配制好的涂料应色泽均匀，无粉团、沉淀。基层的干燥程度应根据涂料的品种和
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJT2352011_6_2_5_5
+  source_clause: JGJ/T 235-2011#6.2.5
+  rule_type: constraint
+  when:
+  - activity_type == '外墙防水设计'
+  - component_type IN ['IfcWall']
+  then:
+    parameter: 涂膜厚度均
+    unit: mm
+    condition: null
+    min_value: 0.5
+  source_text: 涂膜防水层施工应符合下列规定：施工前应对节点部位进行密封或增强处理。涂料的配制和搅拌应满足下列要求：1 ）双组分涂料配制前，应将液体组分搅拌均匀，配料应按照规定要求进行，不得任意改变配合比；2）应采用机械搅拌，配制好的涂料应色泽均匀，无粉团、沉淀。基层的干燥程度应根据涂料的品种和
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJT2352011_6_3_3_1
+  source_clause: JGJ/T 235-2011#6.3.3
+  rule_type: constraint
+  when:
+  - activity_type == '外墙防水设计'
+  - component_type IN ['IfcWall']
+  then:
+    parameter: 向搭接宽度
+    unit: mm
+    condition: null
+    min_value: 150.0
+  source_text: '防水透气膜施工应符合下列规定：1 基层表面应干净、牢固，不得有尖锐凸起物；铺设宜从外墙底部一侧开始，沿建筑立面自下而上横向铺设，并应顺流水方向搭接；防水透气膜横向搭接宽度不得小于lOOmm，纵向搭接宽度不得小于150mm，相邻两幅膜的纵向搭接缝应相互错开，间距不应小于500mm '
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJT2352011_6_3_3_2
+  source_clause: JGJ/T 235-2011#6.3.3
+  rule_type: constraint
+  when:
+  - activity_type == '外墙防水设计'
+  - component_type IN ['IfcWall']
+  then:
+    parameter: 互错开间距
+    unit: mm
+    condition: null
+    min_value: 500.0
+  source_text: '防水透气膜施工应符合下列规定：1 基层表面应干净、牢固，不得有尖锐凸起物；铺设宜从外墙底部一侧开始，沿建筑立面自下而上横向铺设，并应顺流水方向搭接；防水透气膜横向搭接宽度不得小于lOOmm，纵向搭接宽度不得小于150mm，相邻两幅膜的纵向搭接缝应相互错开，间距不应小于500mm '
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJT2352011_7_1_1_1
+  source_clause: JGJ/T 235-2011#7.1.1
+  rule_type: constraint
+  when:
+  - activity_type == '外墙防水设计'
+  - component_type IN ['IfcWall']
+  then:
+    parameter: 持续淋水
+    unit: m
+    condition: null
+    min_value: 30.0
+    max_value: 30.0
+  source_text: 建筑外墙防水工程的质量应符合下列规定：防水层不得有渗漏现象；采用的材料应符合设计要求；找平层应平整、坚固，不得有空鼓、酥松、起砂、起皮现象；门窗洞口、伸出外墙管道、预埋件及收头等部位的防水构造，应符合设计要求；砂浆防水层应坚固、平整，不得有空鼓、开裂、酥松、起砂、起皮现象；涂膜防
+  table_source: 表7.1.
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJT2352011_7_1_1_2
+  source_clause: JGJ/T 235-2011#7.1.1
+  rule_type: constraint
+  when:
+  - activity_type == '外墙防水设计'
+  - component_type IN ['IfcWall']
+  then:
+    parameter: 外墙面面积
+    unit: m
+    condition: null
+    min_value: 500.0
+    max_value: 500.0
+  source_text: 建筑外墙防水工程的质量应符合下列规定：防水层不得有渗漏现象；采用的材料应符合设计要求；找平层应平整、坚固，不得有空鼓、酥松、起砂、起皮现象；门窗洞口、伸出外墙管道、预埋件及收头等部位的防水构造，应符合设计要求；砂浆防水层应坚固、平整，不得有空鼓、开裂、酥松、起砂、起皮现象；涂膜防
+  table_source: 表7.1.
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJT2352011_7_1_1_3
+  source_clause: JGJ/T 235-2011#7.1.1
+  rule_type: constraint
+  when:
+  - activity_type == '外墙防水设计'
+  - component_type IN ['IfcWall']
+  then:
+    parameter: 面面积ml
+    unit: m
+    condition: null
+    min_value: 0.0
+    max_value: 0.0
+  source_text: 建筑外墙防水工程的质量应符合下列规定：防水层不得有渗漏现象；采用的材料应符合设计要求；找平层应平整、坚固，不得有空鼓、酥松、起砂、起皮现象；门窗洞口、伸出外墙管道、预埋件及收头等部位的防水构造，应符合设计要求；砂浆防水层应坚固、平整，不得有空鼓、开裂、酥松、起砂、起皮现象；涂膜防
+  table_source: 表7.1.
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJT2352011_7_1_1_4
+  source_clause: JGJ/T 235-2011#7.1.1
+  rule_type: constraint
+  when:
+  - activity_type == '外墙防水设计'
+  - component_type IN ['IfcWall']
+  then:
+    parameter: lm
+    unit: m
+    condition: null
+    min_value: 500.0
+    max_value: 500.0
+  source_text: 建筑外墙防水工程的质量应符合下列规定：防水层不得有渗漏现象；采用的材料应符合设计要求；找平层应平整、坚固，不得有空鼓、酥松、起砂、起皮现象；门窗洞口、伸出外墙管道、预埋件及收头等部位的防水构造，应符合设计要求；砂浆防水层应坚固、平整，不得有空鼓、开裂、酥松、起砂、起皮现象；涂膜防
+  table_source: 表7.1.
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJT2352011_7_1_1_5
+  source_clause: JGJ/T 235-2011#7.1.1
+  rule_type: constraint
+  when:
+  - activity_type == '外墙防水设计'
+  - component_type IN ['IfcWall']
+  then:
+    parameter: 划分
+    unit: m
+    condition: null
+    min_value: 0.0
+    max_value: 0.0
+  source_text: 建筑外墙防水工程的质量应符合下列规定：防水层不得有渗漏现象；采用的材料应符合设计要求；找平层应平整、坚固，不得有空鼓、酥松、起砂、起皮现象；门窗洞口、伸出外墙管道、预埋件及收头等部位的防水构造，应符合设计要求；砂浆防水层应坚固、平整，不得有空鼓、开裂、酥松、起砂、起皮现象；涂膜防
+  table_source: 表7.1.
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJT2352011_7_2_2_1
+  source_clause: JGJ/T 235-2011#7.2.2
+  rule_type: constraint
+  when:
+  - activity_type == '外墙防水设计'
+  - component_type IN ['IfcWall']
+  then:
+    parameter: 持续淋水
+    unit: m
+    condition: null
+    min_value: 30.0
+    max_value: 30.0
+  source_text: 砂浆防水层不得有渗漏现象。检验方法：雨后或持续淋水30min 后观察检查。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJT2352011_7_2_6_1
+  source_clause: JGJ/T 235-2011#7.2.6
+  rule_type: constraint
+  when:
+  - activity_type == '外墙防水设计'
+  - component_type IN ['IfcWall']
+  then:
+    parameter: 求最小厚度
+    unit: '%'
+    condition: null
+    min_value: 80.0
+  source_text: 砂浆防水层留茬位置应正确，接茬应按层次顺序操作，应做到层层搭接紧密。检验方法：观察检查。7. 2. 7砂浆防水层的平均厚度应符合设计要求，最小厚度不得小于设计值的80%。检验方法：观察和尺量检查。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJT2352011_7_3_2_1
+  source_clause: JGJ/T 235-2011#7.3.2
+  rule_type: constraint
+  when:
+  - activity_type == '外墙防水设计'
+  - component_type IN ['IfcWall']
+  then:
+    parameter: 持续淋水
+    unit: m
+    condition: null
+    min_value: 30.0
+    max_value: 30.0
+  source_text: 涂膜防水层不得有渗漏现象。检验方法：雨后或持续淋水30min 后观察检查。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJT2352011_7_3_3_1
+  source_clause: JGJ/T 235-2011#7.3.3
+  rule_type: constraint
+  when:
+  - activity_type == '外墙防水设计'
+  - component_type IN ['IfcWall']
+  then:
+    parameter: 求最小厚度
+    unit: '%'
+    condition: null
+    min_value: 80.0
+  source_text: 涂膜防水层在门窗洞口、伸出外墙管道、预埋件及收头等部位的节点做法，应符合设计要求。检验方法：观察检查和检查隐蔽工程验收记录。一般项目7.3. 4涂膜防水层的平均厚度应符合设计要求，最小厚度不应小于设计值的80%。检验方法：针测法或割取20mm ×20mm 实样用卡尺测量。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJT2352011_7_3_3_2
+  source_clause: JGJ/T 235-2011#7.3.3
+  rule_type: constraint
+  when:
+  - activity_type == '外墙防水设计'
+  - component_type IN ['IfcWall']
+  then:
+    parameter: 测法或割取
+    unit: mm
+    condition: null
+    min_value: 20.0
+    max_value: 20.0
+  source_text: 涂膜防水层在门窗洞口、伸出外墙管道、预埋件及收头等部位的节点做法，应符合设计要求。检验方法：观察检查和检查隐蔽工程验收记录。一般项目7.3. 4涂膜防水层的平均厚度应符合设计要求，最小厚度不应小于设计值的80%。检验方法：针测法或割取20mm ×20mm 实样用卡尺测量。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJT2352011_7_3_3_3
+  source_clause: JGJ/T 235-2011#7.3.3
+  rule_type: constraint
+  when:
+  - activity_type == '外墙防水设计'
+  - component_type IN ['IfcWall']
+  then:
+    parameter: 割取mm
+    unit: mm
+    condition: null
+    min_value: 20.0
+    max_value: 20.0
+  source_text: 涂膜防水层在门窗洞口、伸出外墙管道、预埋件及收头等部位的节点做法，应符合设计要求。检验方法：观察检查和检查隐蔽工程验收记录。一般项目7.3. 4涂膜防水层的平均厚度应符合设计要求，最小厚度不应小于设计值的80%。检验方法：针测法或割取20mm ×20mm 实样用卡尺测量。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJT2352011_3_0_2_1
+  source_clause: JGJ/T 235-2011#3.0.2
+  rule_type: constraint
+  when:
+  - activity_type == '外墙防水设计'
+  - component_type IN ['IfcWall']
+  then:
+    parameter: 有多户约占
+    unit: '%'
+    condition: null
+    min_value: 23.0
+    max_value: 23.0
+  source_text: 针对国内建筑外墙的渗漏情况，本规程编制组进行了多次的各地调研和全国范围的问卷调查，主要内容有年降雨量与基本风压情况，建筑外墙的渗漏情况，建筑外墙的形式、构造与材料，是否采取防水措施、使用何种材料，是否采用外墙外保温，采用外保温时保温层的材料以及其外部保护采用何种材料，外墙防水设防
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJT2352011_3_0_2_2
+  source_clause: JGJ/T 235-2011#3.0.2
+  rule_type: constraint
+  when:
+  - activity_type == '外墙防水设计'
+  - component_type IN ['IfcWall']
+  then:
+    parameter: 含年降水量
+    unit: mm
+    condition: null
+    min_value: 800.0
+  source_text: 针对国内建筑外墙的渗漏情况，本规程编制组进行了多次的各地调研和全国范围的问卷调查，主要内容有年降雨量与基本风压情况，建筑外墙的渗漏情况，建筑外墙的形式、构造与材料，是否采取防水措施、使用何种材料，是否采用外墙外保温，采用外保温时保温层的材料以及其外部保护采用何种材料，外墙防水设防
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJT2352011_3_0_2_3
+  source_clause: JGJ/T 235-2011#3.0.2
+  rule_type: constraint
+  when:
+  - activity_type == '外墙防水设计'
+  - component_type IN ['IfcWall']
+  then:
+    parameter: 和年降水量
+    unit: mm
+    condition: null
+    min_value: 600.0
+  source_text: 针对国内建筑外墙的渗漏情况，本规程编制组进行了多次的各地调研和全国范围的问卷调查，主要内容有年降雨量与基本风压情况，建筑外墙的渗漏情况，建筑外墙的形式、构造与材料，是否采取防水措施、使用何种材料，是否采用外墙外保温，采用外保温时保温层的材料以及其外部保护采用何种材料，外墙防水设防
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJT2352011_o_5_1
+  source_clause: JGJ/T 235-2011#o.5
+  rule_type: constraint
+  when:
+  - activity_type == '外墙防水设计'
+  - component_type IN ['IfcWall']
+  then:
+    parameter: 含年降水量
+    unit: mm
+    condition: null
+    min_value: 400.0
+  source_text: o.5kN/m2地区的外墙”两种情形。二类是指降水量较大、风压较强的有外保温外墙，包含“年降水量大于等于400mm 且基本风压大于等于O.4kN/m2地区有外保温的外墙”、“年降水量大于等于500mm 且基本风压大于等于0.35kN／时地区有外保温的外墙”和“年降水量大于等于60
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJT2352011_o_5_2
+  source_clause: JGJ/T 235-2011#o.5
+  rule_type: constraint
+  when:
+  - activity_type == '外墙防水设计'
+  - component_type IN ['IfcWall']
+  then:
+    parameter: 墙年降水量
+    unit: mm
+    condition: null
+    min_value: 500.0
+  source_text: o.5kN/m2地区的外墙”两种情形。二类是指降水量较大、风压较强的有外保温外墙，包含“年降水量大于等于400mm 且基本风压大于等于O.4kN/m2地区有外保温的外墙”、“年降水量大于等于500mm 且基本风压大于等于0.35kN／时地区有外保温的外墙”和“年降水量大于等于60
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJT2352011_o_5_3
+  source_clause: JGJ/T 235-2011#o.5
+  rule_type: constraint
+  when:
+  - activity_type == '外墙防水设计'
+  - component_type IN ['IfcWall']
+  then:
+    parameter: 和年降水量
+    unit: mm
+    condition: null
+    min_value: 600.0
+  source_text: o.5kN/m2地区的外墙”两种情形。二类是指降水量较大、风压较强的有外保温外墙，包含“年降水量大于等于400mm 且基本风压大于等于O.4kN/m2地区有外保温的外墙”、“年降水量大于等于500mm 且基本风压大于等于0.35kN／时地区有外保温的外墙”和“年降水量大于等于60
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJT2352011_3_0_4_1
+  source_clause: JGJ/T 235-2011#3.0.4
+  rule_type: constraint
+  when:
+  - activity_type == '外墙防水设计'
+  - component_type IN ['IfcWall']
+  then:
+    parameter: 下年降水量
+    unit: mm
+    condition: null
+    min_value: 800.0
+  source_text: 参照国家标准《建筑气候区划标准》GB50178 、《建筑结构荷载规范》GB50009 ，参考《中华人民共和国气候图集》（气象出版社2002年7月出版）以及国家气象信息中心提供的资料；并结合工程实际和外墙对墙面防水设防的要求，本规程设定的墙面整体防水所对应的主要气候地区如下：年降水
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJT2352011_3_0_4_2
+  source_clause: JGJ/T 235-2011#3.0.4
+  rule_type: constraint
+  when:
+  - activity_type == '外墙防水设计'
+  - component_type IN ['IfcWall']
+  then:
+    parameter: 南的地区此
+    unit: mm
+    condition: null
+    min_value: 800.0
+    max_value: 800.0
+  source_text: 参照国家标准《建筑气候区划标准》GB50178 、《建筑结构荷载规范》GB50009 ，参考《中华人民共和国气候图集》（气象出版社2002年7月出版）以及国家气象信息中心提供的资料；并结合工程实际和外墙对墙面防水设防的要求，本规程设定的墙面整体防水所对应的主要气候地区如下：年降水
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJT2352011_3_0_4_3
+  source_clause: JGJ/T 235-2011#3.0.4
+  rule_type: constraint
+  when:
+  - activity_type == '外墙防水设计'
+  - component_type IN ['IfcWall']
+  then:
+    parameter: 市年降水量
+    unit: mm
+    condition: null
+    min_value: 600.0
+  source_text: 参照国家标准《建筑气候区划标准》GB50178 、《建筑结构荷载规范》GB50009 ，参考《中华人民共和国气候图集》（气象出版社2002年7月出版）以及国家气象信息中心提供的资料；并结合工程实际和外墙对墙面防水设防的要求，本规程设定的墙面整体防水所对应的主要气候地区如下：年降水
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJT2352011_3_0_4_4
+  source_clause: JGJ/T 235-2011#3.0.4
+  rule_type: constraint
+  when:
+  - activity_type == '外墙防水设计'
+  - component_type IN ['IfcWall']
+  then:
+    parameter: 口年降水量
+    unit: mm
+    condition: null
+    min_value: 400.0
+  source_text: 参照国家标准《建筑气候区划标准》GB50178 、《建筑结构荷载规范》GB50009 ，参考《中华人民共和国气候图集》（气象出版社2002年7月出版）以及国家气象信息中心提供的资料；并结合工程实际和外墙对墙面防水设防的要求，本规程设定的墙面整体防水所对应的主要气候地区如下：年降水
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJT2352011_3_0_4_5
+  source_clause: JGJ/T 235-2011#3.0.4
+  rule_type: constraint
+  when:
+  - activity_type == '外墙防水设计'
+  - component_type IN ['IfcWall']
+  then:
+    parameter: 区年降水量
+    unit: m
+    condition: null
+    min_value: 600.0
+  source_text: 参照国家标准《建筑气候区划标准》GB50178 、《建筑结构荷载规范》GB50009 ，参考《中华人民共和国气候图集》（气象出版社2002年7月出版）以及国家气象信息中心提供的资料；并结合工程实际和外墙对墙面防水设防的要求，本规程设定的墙面整体防水所对应的主要气候地区如下：年降水
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJT2352011_3_0_4_6
+  source_clause: JGJ/T 235-2011#3.0.4
+  rule_type: constraint
+  when:
+  - activity_type == '外墙防水设计'
+  - component_type IN ['IfcWall']
+  then:
+    parameter: 及年降水量
+    unit: mm
+    condition: null
+    min_value: 400.0
+  source_text: 参照国家标准《建筑气候区划标准》GB50178 、《建筑结构荷载规范》GB50009 ，参考《中华人民共和国气候图集》（气象出版社2002年7月出版）以及国家气象信息中心提供的资料；并结合工程实际和外墙对墙面防水设防的要求，本规程设定的墙面整体防水所对应的主要气候地区如下：年降水
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJT2352011_7_2_7_1
+  source_clause: JGJ/T 235-2011#7.2.7
+  rule_type: constraint
+  when:
+  - activity_type == '外墙防水设计'
+  - component_type IN ['IfcWall']
+  then:
+    parameter: 求最小厚度
+    unit: '%'
+    condition: null
+    min_value: 80.0
+  source_text: 砂浆防水层的厚度测量，应在砂浆终凝前用钢针插入进行尺量检查；平均厚度应符合设计要求，最小厚度不得小于设计值的80%。7.3 涂膜防水层7. 3.1 设计所采用材料的主要性能指标应符合本规程第4.2. 3、4. 2. 4、
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJT2352011_7_3_4_1
+  source_clause: JGJ/T 235-2011#7.3.4
+  rule_type: constraint
+  when:
+  - activity_type == '外墙防水设计'
+  - component_type IN ['IfcWall']
+  then:
+    parameter: 求最小厚度
+    unit: '%'
+    condition: null
+    min_value: 80.0
+  source_text: 涂膜防水层的合理使用年限，很大程度是由涂膜厚度决定的。本条文规定平均厚度应符合设计要求，最小厚度不应小于设计厚度的80% ，涂膜防水层厚度应包括胎体的厚度。除了最终的测量之外，施工过程中应做好厚度的控制工作，按照防水涂料固体含量和相对密度推算出规定厚度的单方用量，施工过程中加以控
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+extraction_notes:
+- 实施日期（2011年？）待核。

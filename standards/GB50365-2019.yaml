@@ -1,0 +1,6480 @@
+standard:
+  code: GB 50365-2019
+  name: 空调通风系统运行管理标准
+  name_note: null
+  version: '2019'
+  status: 现行
+  is_abolished: false
+  effective_date: '2019-12-01'
+  abolished_date: null
+  superseded_by: null
+  standard_category: 国家标准
+  domain:
+  - 空调
+  - 通风
+  - 运行管理
+  region_scope: 全国
+  region_codes: []
+  has_mandatory_clauses: true
+  mandatory_clause_count: 2
+  mandatory_note: null
+  total_clauses: 164
+  related_standards:
+  - code: GB 50365-2005
+    relationship: 被本版替代（2019-12-01 起废止）
+  clauses:
+  - GB 50365-2019#1.0.1
+  - GB 50365-2019#1.0.2
+  - GB 50365-2019#1.0.3
+  - GB 50365-2019#1.0.4
+  - GB 50365-2019#2.0.1
+  - GB 50365-2019#2.0.2
+  - GB 50365-2019#2.0.3
+  - GB 50365-2019#2.0.4
+  - GB 50365-2019#2.0.5
+  - GB 50365-2019#2.0.6
+  - GB 50365-2019#2.0.7
+  - GB 50365-2019#2.0.8
+  - GB 50365-2019#2.0.9
+  - GB 50365-2019#3.1.1
+  - GB 50365-2019#3.1.2
+  - GB 50365-2019#3.1.3
+  - GB 50365-2019#3.1.4
+  - GB 50365-2019#3.2.1
+  - GB 50365-2019#3.2.2
+  - GB 50365-2019#3.2.3
+  - GB 50365-2019#3.2.4
+  - GB 50365-2019#3.3.1
+  - GB 50365-2019#3.3.2
+  - GB 50365-2019#3.3.3
+  - GB 50365-2019#3.3.4
+  - GB 50365-2019#3.3.5
+  - GB 50365-2019#3.3.6
+  - GB 50365-2019#3.4.1
+  - GB 50365-2019#3.4.2
+  - GB 50365-2019#3.4.3
+  - GB 50365-2019#3.4.4
+  - GB 50365-2019#3.4.5
+  - GB 50365-2019#3.4.6
+  - GB 50365-2019#3.4.7
+  - GB 50365-2019#3.5.1
+  - GB 50365-2019#3.5.2
+  - GB 50365-2019#3.5.3
+  - GB 50365-2019#3.5.4
+  - GB 50365-2019#3.5.5
+  - GB 50365-2019#3.5.6
+  - GB 50365-2019#4.1.1
+  - GB 50365-2019#4.1.2
+  - GB 50365-2019#4.2.1
+  - GB 50365-2019#4.2.2
+  - GB 50365-2019#4.2.3
+  - GB 50365-2019#4.2.4
+  - GB 50365-2019#4.2.5
+  - GB 50365-2019#4.2.6
+  - GB 50365-2019#4.2.7
+  - GB 50365-2019#4.2.8
+  - GB 50365-2019#4.2.9
+  - GB 50365-2019#4.2.10
+  - GB 50365-2019#4.2.11
+  - GB 50365-2019#4.2.12
+  - GB 50365-2019#4.2.13
+  - GB 50365-2019#4.2.14
+  - GB 50365-2019#4.2.15
+  - GB 50365-2019#4.2.16
+  - GB 50365-2019#4.2.17
+  - GB 50365-2019#4.2.18
+  - GB 50365-2019#4.2.19
+  - GB 50365-2019#4.3.1
+  - GB 50365-2019#4.3.2
+  - GB 50365-2019#4.3.3
+  - GB 50365-2019#4.3.4
+  - GB 50365-2019#4.3.5
+  - GB 50365-2019#4.3.6
+  - GB 50365-2019#4.3.7
+  - GB 50365-2019#4.3.8
+  - GB 50365-2019#4.3.9
+  - GB 50365-2019#4.3.10
+  - GB 50365-2019#4.3.11
+  - GB 50365-2019#4.3.12
+  - GB 50365-2019#4.3.13
+  - GB 50365-2019#4.3.14
+  - GB 50365-2019#4.3.15
+  - GB 50365-2019#4.4.1
+  - GB 50365-2019#4.4.2
+  - GB 50365-2019#4.4.3
+  - GB 50365-2019#4.4.4
+  - GB 50365-2019#4.4.5
+  - GB 50365-2019#4.4.6
+  - GB 50365-2019#4.4.7
+  - GB 50365-2019#4.4.9
+  - GB 50365-2019#5.1.1
+  - GB 50365-2019#5.1.3
+  - GB 50365-2019#5.1.4
+  - GB 50365-2019#5.1.7
+  - GB 50365-2019#5.2.3
+  - GB 50365-2019#5.2.4
+  - GB 50365-2019#5.2.5
+  - GB 50365-2019#5.2.6
+  - GB 50365-2019#5.2.7
+  - GB 50365-2019#5.2.8
+  - GB 50365-2019#5.2.9
+  - GB 50365-2019#5.2.10
+  - GB 50365-2019#5.3.1
+  - GB 50365-2019#5.3.2
+  - GB 50365-2019#5.3.3
+  - GB 50365-2019#5.3.4
+  - GB 50365-2019#5.3.5
+  - GB 50365-2019#5.3.6
+  - GB 50365-2019#5.3.7
+  - GB 50365-2019#5.3.8
+  - GB 50365-2019#5.3.9
+  - GB 50365-2019#5.3.10
+  - GB 50365-2019#5.3.11
+  - GB 50365-2019#5.3.12
+  - GB 50365-2019#5.3.13
+  - GB 50365-2019#5.3.14
+  - GB 50365-2019#5.3.15
+  - GB 50365-2019#5.3.16
+  - GB 50365-2019#5.3.17
+  - GB 50365-2019#5.3.18
+  - GB 50365-2019#5.3.19
+  - GB 50365-2019#5.3.20
+  - GB 50365-2019#5.3.21
+  - GB 50365-2019#5.3.22
+  - GB 50365-2019#5.3.23
+  - GB 50365-2019#6.1.1
+  - GB 50365-2019#6.1.2
+  - GB 50365-2019#6.1.3
+  - GB 50365-2019#6.1.4
+  - GB 50365-2019#6.1.5
+  - GB 50365-2019#6.2.1
+  - GB 50365-2019#6.2.2
+  - GB 50365-2019#6.2.4
+  - GB 50365-2019#6.2.5
+  - GB 50365-2019#6.2.6
+  - GB 50365-2019#6.2.7
+  - GB 50365-2019#6.2.8
+  - GB 50365-2019#6.2.9
+  - GB 50365-2019#6.2.10
+  - GB 50365-2019#6.2.11
+  - GB 50365-2019#6.2.12
+  - GB 50365-2019#A.1.1
+  - GB 50365-2019#A.1.2
+  - GB 50365-2019#A.1.3
+  - GB 50365-2019#A.1.4
+  - GB 50365-2019#A.1.5
+  - GB 50365-2019#A.1.6
+  - GB 50365-2019#A.2.2
+  - GB 50365-2019#A.2.3
+  - GB 50365-2019#A.2.4
+  - GB 50365-2019#A.2.5
+  - GB 50365-2019#A.2.6
+  - GB 50365-2019#A.2.7
+  - GB 50365-2019#A.3.1
+  - GB 50365-2019#A.3.2
+  - GB 50365-2019#A.3.3
+  - GB 50365-2019#A.3.4
+  - GB 50365-2019#A.3.5
+  - GB 50365-2019#A.3.6
+  - GB 50365-2019#B.0.1
+  - GB 50365-2019#B.0.2
+  - GB 50365-2019#B.0.3
+  - GB 50365-2019#B.0.4
+  - GB 50365-2019#B.0.5
+  - GB 50365-2019#B.0.6
+  - GB 50365-2019#B.0.7
+  - GB 50365-2019#B.0.8
+  - GB 50365-2019#C.0.1
+  - GB 50365-2019#C.0.2
+  - GB 50365-2019#2.03.0
+  schema_version: v2.1
+  last_reviewed_date: '2026-09-07'
+clauses:
+- id: GB 50365-2019#1.0.1
+  standard_code: GB 50365-2019
+  chapter: 1 总则
+  section: ''
+  clause_no: 1.0.1
+  text: 为贯彻执行国家的技术经济政策，遵循卫生、安全、节能、环保和经济实用的原则，规范空调通风系统的运行管理，满足合理的使用要求，延长系统使用寿命，快速有效地应对突发事件，制定本标准。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#1.0.2
+  standard_code: GB 50365-2019
+  chapter: 1 总则
+  section: ''
+  clause_no: 1.0.2
+  text: 本标准适用于民用建筑集中管理的空调通风系统的常规运行管理，以及在发生与空调通风系统相关的突发性事件时的应急运行管理。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#1.0.3
+  standard_code: GB 50365-2019
+  chapter: 1 总则
+  section: ''
+  clause_no: 1.0.3
+  text: 空调通风系统的运行管理，应充分利用社会服务机构的专业技术、专业设备和专业人才资源，提高运行管理水平。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#1.0.4
+  standard_code: GB 50365-2019
+  chapter: 1 总则
+  section: ''
+  clause_no: 1.0.4
+  text: 空调通风系统的运行管理除应符合本标准外，尚应符合国家现行有关标准的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#2.0.1
+  standard_code: GB 50365-2019
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.1
+  text: 空调airconditioning通过处理和输配空气，控制空间的空气温度、湿度、洁净度和气流速度等参数，达到给定要求的技术。是空气调节的简称。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#2.0.2
+  standard_code: GB 50365-2019
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.2
+  text: 通风ventilation为改善生产和生活条件，采用自然或机械方法，对某一空间进行换气，以使空气环境满足卫生和安全等适宜要求的技术。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 宜
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#2.0.3
+  standard_code: GB 50365-2019
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.3
+  text: 空调通风系统central air conditioning system以空气调节和通风为目的，对工作介质进行集中处理、输送、分配，并控制其参数的所有设备、管道及附件、仪器仪表的总和。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#2.0.4
+  standard_code: GB 50365-2019
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.4
+  text: 空调通风系统能耗系数coefficient of energy consump-tion (CE for air conditioning空调通风系统全年一次能源总消耗量与参照空调负荷全年累计值的比值。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#2.0.5
+  standard_code: GB 50365-2019
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.5
+  text: 水力失调率rate of hydraulic disorder空调水系统中各管路的实际流量同设计流量的偏差，与设计流量的比值。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#2.0.6
+  standard_code: GB 50365-2019
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.6
+  text: 风量失调率rateof airflowdisorder风系统中各支管的实际风量同设计风量的偏差，与设计风量的比值。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#2.0.7
+  standard_code: GB 50365-2019
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.7
+  text: 调试 testing adjusting and balancing对各个系统在安装、单机试运转、性能测试、系统联合试运转的整个过程中，采用规定的方法完成测试、调整和平衡的工作。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#2.0.8
+  standard_code: GB 50365-2019
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.8
+  text: 调适commissioning通过对空调通风系统的调试、性能验证、验收和季节性工况验证进行全过程管理，以确保实现设计意图和满足用户的实际使用要求的工作程序和方法。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#2.0.9
+  standard_code: GB 50365-2019
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.9
+  text: 合同能源管理 energy,management contracting，通过为用户提供节能诊断、融资.改造等服务。减少建筑运行中的能源费用。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#3.1.1
+  standard_code: GB 50365-2019
+  chapter: 3 管理
+  section: 3.1 技术资料
+  clause_no: 3.1.1
+  text: 空调通风系统的设计、施工、调试、检测，以及评定等技术资料应齐全并妥善保存，并应对照系统实际情况进行核对。必备文件档案应包括下列文件：空调通风系统设备明细表及采购资料；主要材料和设备的出合格证明及进场检（试）验报告；仪器仪表的出厂合格证明、使用说明书和最近一次的校正记录；图纸会审记录、设计变更通知书和竣工图；更新改造和维修改造技术交底资料及改造部分竣工图；隐蔽工程检查验收记录；设备风管和水管系统安装及检验记录；管道冲洗和试验记录；设备单机试运转记录；空调通风系统无负荷联合试运转与调试记录；空调通风系统在有负荷条件下的综合能效测试报告；与实际相符的空调通风系统电子版竣工图。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#3.1.2
+  standard_code: GB 50365-2019
+  chapter: 3 管理
+  section: 3.1 技术资料
+  clause_no: 3.1.2
+  text: 应建立运行管理档案，各系统运行管理记录应真实齐全，填写信息应详细准确，填写人应签名，运行管理记录应包括下列内容:空调通风系统运行管理方案及运行管理记录；各系统设备性能参数及易损易耗配件型号参数名册；各主要设备运行参数记录；日常事故分析及其处理记录；日常巡回检查记录；全年运行值班记录及交接班记录；各主要设备维护保养及日常维修记录；设备和系统部件的大修和更换零配件及易损件记录年度运行总结和分析资料等。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#3.1.3
+  standard_code: GB 50365-2019
+  chapter: 3 管理
+  section: 3.1 技术资料
+  clause_no: 3.1.3
+  text: 空调通风系统的运行管理策略、控制和使用方法、运行使用说明，及不同工况设置等，应作为技术资料管理，宜委托专业机构研究制定，并应在实践中根据实施情况予以完善。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 宜
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#3.1.4
+  standard_code: GB 50365-2019
+  chapter: 3 管理
+  section: 3.1 技术资料
+  clause_no: 3.1.4
+  text: 大型复杂及超高建筑空调通风系统宜通过建筑信息模型（BIM)、智能设备应急管理模型、资产管理数据库及设备维护维修数据库进行管理。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 宜
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#3.2.1
+  standard_code: GB 50365-2019
+  chapter: 3 管理
+  section: 3.2 从人
+  clause_no: 3.2.1
+  text: 管理人员应根据空调通风系统的规模及复杂程度进行配备，并应符合下列规定：配备专业对口的专职管理人员和安全管理人员；建立相应的运行班组；配备相应的检测仪表和维修设备。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#3.2.2
+  standard_code: GB 50365-2019
+  chapter: 3 管理
+  section: 3.2 从人
+  clause_no: 3.2.2
+  text: ，管理人员应经过专业培训并应考核合格后上岗。用人部应建立和健全人员的培训和考核制度，并应保存相关档案。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#3.2.3
+  standard_code: GB 50365-2019
+  chapter: 3 管理
+  section: 3.2 从人
+  clause_no: 3.2.3
+  text: ／管理人员应责任明确，熟悉所管理的空调通风系统，掌握有关运行策略及操作规程，并应具有安全、卫生、节能等相关专业的知识。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#3.2.4
+  standard_code: GB 50365-2019
+  chapter: 3 管理
+  section: 3.2 从人
+  clause_no: 3.2.4
+  text: 管理人员应定期将空调通风系统运行管理的实际状况和能源消耗告知上级管理者、建筑使用者及相关监察管理部门，并应对系统运行和管理的整改提出意见和建议。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#3.3.1
+  standard_code: GB 50365-2019
+  chapter: 3 管理
+  section: 3.3 合同与制度
+  clause_no: 3.3.1
+  text: 运行管理部门应根据系统实际情况建立运行规章制度，应定期检查规章制度的执行情况，规章制度应严格执行。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#3.3.2
+  standard_code: GB 50365-2019
+  chapter: 3 管理
+  section: 3.3 合同与制度
+  clause_no: 3.3.2
+  text: 管理部门应定期检查人员的工作情况和系统的工作状态，并应对检查结果进行统计和分析，发现问题应及时处理。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#3.3.3
+  standard_code: GB 50365-2019
+  chapter: 3 管理
+  section: 3.3 合同与制度
+  clause_no: 3.3.3
+  text: 应利用设备供应商提供的保修服务、售后服务及配件供应，无合理理由不应重复购买或更换设备。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#3.3.4
+  standard_code: GB 50365-2019
+  chapter: 3 管理
+  section: 3.3 合同与制度
+  clause_no: 3.3.4
+  text: 空调通风系统的维修、保养、清洗、节能、调试、改造及合同能源管理等工程项目，签订的合同应妥善管理存档，文本中应明确约定实施结果或验收标准和有效期限、在执行合同时对其相关技术条款的争议可由有资质的检测机构进行检验；在合同有效期限内，无合理理由不应追加投资或重复投资。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#3.3.5
+  standard_code: GB 50365-2019
+  chapter: 3 管理
+  section: 3.3 合同与制度
+  clause_no: 3.3.5
+  text: 空调通风系统的运行宜定期进行管理水平综合评价,评价方法按本标准附录A执行。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 宜
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#3.3.6
+  standard_code: GB 50365-2019
+  chapter: 3 管理
+  section: 3.3 合同与制度
+  clause_no: 3.3.6
+  text: 实施合同能源管理的运行管理项目应在合同中对能源消耗和环境保障等实施项目制定明确的量化目标，并宜定期检测和验证。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 宜
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#3.4.1
+  standard_code: GB 50365-2019
+  chapter: 3 管理
+  section: 3.4 设备与系统
+  clause_no: 3.4.1
+  text: 系统日常运行中，设备、附件和管道的表面应保持整洁，且应无明显锈蚀。绝热层应无脱落和破损，且应无跑冒滴漏和堵塞现象。设备、阀门、附件及管道的绝热外表面不应结露、腐蚀或虫蚝。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#3.4.2
+  standard_code: GB 50365-2019
+  chapter: 3 管理
+  section: 3.4 设备与系统
+  clause_no: 3.4.2
+  text: ／风管内表面应光滑平整，非金属风管不得出现龟裂和粉化现象。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不得
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#3.4.3
+  standard_code: GB 50365-2019
+  chapter: 3 管理
+  section: 3.4 设备与系统
+  clause_no: 3.4.3
+  text: 空调自控设备和控制系统应定期检查、维护和检修，定期校验、维护传感器和控制设备，并应按工况变化调整控制模式和设定参数。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#3.4.4
+  standard_code: GB 50365-2019
+  chapter: 3 管理
+  section: 3.4 设备与系统
+  clause_no: 3.4.4
+  text: 空调通风系统的主要设备和风管的检查孔、检修门不应封堵，测量孔不应被遮挡。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#3.4.5
+  standard_code: GB 50365-2019
+  chapter: 3 管理
+  section: 3.4 设备与系统
+  clause_no: 3.4.5
+  text: 制冷机组、空调机组、风机、水泵和冷却塔等设备应定期维护保养及定期检查维修。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#3.4.6
+  standard_code: GB 50365-2019
+  chapter: 3 管理
+  section: 3.4 设备与系统
+  clause_no: 3.4.6
+  text: 制冷机组、空调机组、风机、水泵和冷却塔等设备的过滤装置及换热装置应定期检查，当过滤装置或换热装置前后压差超过标准值时应及时清洗或更换。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#3.4.7
+  standard_code: GB 50365-2019
+  chapter: 3 管理
+  section: 3.4 设备与系统
+  clause_no: 3.4.7
+  text: 设备及管道的保温情况应定期检查，并应符合现行国家标准《设备及管道绝热效果的测试与评价》GB/T8174的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB/T 8174
+    target_clause: null
+    original_text: 设备及管道的保温情况应定期检查，并应符合现行国家标准《设备及管道绝热效果的测试与评价》GB/T8174的规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#3.5.1
+  standard_code: GB 50365-2019
+  chapter: 3 管理
+  section: 3.5 监测、计量与信息化系统
+  clause_no: 3.5.1
+  text: 室外气象参数、冷热源、输送及末端设备运行状态参数和典型房间室内环境参数等宜进行日常巡回检查监测并记录。冷热源等重要设备运行参数应每2h记录一次，其他监测参数运行管理部门可根据实际确定记录时间间隔，记录档案保留时间不应少于2年。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 宜
+    - 应
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 行参数应每
+    unit: h
+    condition: null
+    min_value: 2.0
+    max_value: 2.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#3.5.2
+  standard_code: GB 50365-2019
+  chapter: 3 管理
+  section: 3.5 监测、计量与信息化系统
+  clause_no: 3.5.2
+  text: 运行管理部门应定期保养和维护空气处理及新风处理设备，应监测记录设备内空气过滤器阻力，并应记录清洗或配件更换时间、更换状态等。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#3.5.3
+  standard_code: GB 50365-2019
+  chapter: 3 管理
+  section: 3.5 监测、计量与信息化系统
+  clause_no: 3.5.3
+  text: 当采用变风量空调系统时，宜监测记录每个变风量末端的风量、温度等参数。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 宜
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#3.5.4
+  standard_code: GB 50365-2019
+  chapter: 3 管理
+  section: 3.5 监测、计量与信息化系统
+  clause_no: 3.5.4
+  text: 应建立完整的系统监测、计量设备台账及技术档案。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#3.5.5
+  standard_code: GB 50365-2019
+  chapter: 3 管理
+  section: 3.5 监测、计量与信息化系统
+  clause_no: 3.5.5
+  text: 对空调通风系统中的温度、压力、流量、热量、耗电量、燃料消耗量等监测和计量仪表，应定期检验、标定和维护，仪表工作应正常，对失效或缺少的仪表应更换或增设。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#3.5.6
+  standard_code: GB 50365-2019
+  chapter: 3 管理
+  section: 3.5 监测、计量与信息化系统
+  clause_no: 3.5.6
+  text: 对系统数据服务器.数据采集网关。监测计量.通信线路等软件和硬件、应进行定期日常维护 巡检、病毒防护、升级与管理。当发现系统异常时，应及时处理.并应对运行维修进行记录, 4,安全卫生与环境4 1 一般规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#4.1.1
+  standard_code: GB 50365-2019
+  chapter: 4 安全卫生与环境
+  section: 4.1 一般规定
+  clause_no: 4.1.1
+  text: 对安全卫生存在风险隐患的区域，或对环境有特殊要求的区域，应建立责任区域管理制度。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#4.1.2
+  standard_code: GB 50365-2019
+  chapter: 4 安全卫生与环境
+  section: 4.1 一般规定
+  clause_no: 4.1.2
+  text: 宜定期检测并记录室内空气环境参数，室内环境应符合国家现行相关标准的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 宜
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#4.2.1
+  standard_code: GB 50365-2019
+  chapter: 4 安全卫生与环境
+  section: 4.2 安全要求
+  clause_no: 4.2.1
+  text: 当制冷机组采用对人体有害的制冷剂时 应定期检查,检测和维护制冷剂泄漏报警装置及应急通风系统。泄漏报警装置及应急通风系统的各项功能应正常有效.。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 黑体强制性条文
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#4.2.2
+  standard_code: GB 50365-2019
+  chapter: 4 安全卫生与环境
+  section: 4.2 安全要求
+  clause_no: 4.2.2
+  text: 应减少制冷设备使用和维修时制冷剂的排放量或泄漏量，并宜采取措施对制冷剂进行回收利用。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 宜
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#4.2.3
+  standard_code: GB 50365-2019
+  chapter: 4 安全卫生与环境
+  section: 4.2 安全要求
+  clause_no: 4.2.3
+  text: 安全防护装置的工作状态应定期检查，并应对各种化学危险物品和油料等存放情况进行定期检查。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#4.2.4
+  standard_code: GB 50365-2019
+  chapter: 4 安全卫生与环境
+  section: 4.2 安全要求
+  clause_no: 4.2.4
+  text: ／空调通风系统的电气控制及操作系统应安全可靠，电源应符合设备要求，接线应牢固。接地措施应符合现行国家标准《建筑电气工程施工质量验收规范》GB50303的规定，不得有过载运转现象。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不得
+    - 应
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50303
+    target_clause: null
+    original_text: 接地措施应符合现行国家标准《建筑电气工程施工质量验收规范》GB50303的规定，不得有过载运转现象。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#4.2.5
+  standard_code: GB 50365-2019
+  chapter: 4 安全卫生与环境
+  section: 4.2 安全要求
+  clause_no: 4.2.5
+  text: 空调通风系统冷热源的燃油、燃气管道系统的防静电接地装置应定期检查、维护、试验。防静电接地装置功能应正常有效。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 黑体强制性条文
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#4.2.6
+  standard_code: GB 50365-2019
+  chapter: 4 安全卫生与环境
+  section: 4.2 安全要求
+  clause_no: 4.2.6
+  text: 水冷冷水机组的冷冻水和冷却水管道上的水流开关应定期检查，并应正常工作。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#4.2.7
+  standard_code: GB 50365-2019
+  chapter: 4 安全卫生与环境
+  section: 4.2 安全要求
+  clause_no: 4.2.7
+  text: '"制冷机组、水泵和风机等设备的基础应稳固，隔振装置应可靠，传动装置应运转正常，轴承和轴封的冷却、润滑和密封应良好，不得有过热、异常声音或振动等现象。'
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不得
+    - 应
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#4.2.8
+  standard_code: GB 50365-2019
+  chapter: 4 安全卫生与环境
+  section: 4.2 安全要求
+  clause_no: 4.2.8
+  text: 在有冰冻可能的地区，新风机组或新风加热盘管、冷却塔的防冻设施应在进入冬季之前进行检查。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#4.2.9
+  standard_code: GB 50365-2019
+  chapter: 4 安全卫生与环境
+  section: 4.2 安全要求
+  clause_no: 4.2.9
+  text: 应定期检查、记录冷水机组冷凝器和蒸发器的进出口压差，其数值不应超过机组额定阻力值。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#4.2.10
+  standard_code: GB 50365-2019
+  chapter: 4 安全卫生与环境
+  section: 4.2 安全要求
+  clause_no: 4.2.10
+  text: 空调通风系统的防火阀及其感温、感烟控制元件应定期检查。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#4.2.11
+  standard_code: GB 50365-2019
+  chapter: 4 安全卫生与环境
+  section: 4.2 安全要求
+  clause_no: 4.2.11
+  text: 空调通风系统的设备机房内不得放置易燃、易爆和有毒有害危险物品。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#4.2.12
+  standard_code: GB 50365-2019
+  chapter: 4 安全卫生与环境
+  section: 4.2 安全要求
+  clause_no: 4.2.12
+  text: 溴化锂吸收式制冷机组应定期检查，下列保护装置应能正常工作：冷水及冷剂水的低温保护装置；溴化锂溶液的防结晶保护装置；发生器出口浓溶液的高温保护装置；冷剂水的液位保护装置；停机时防结晶保护装置；冷却水温度过低保护装置：屏蔽泵过载及防汽蚀保护装置；蒸发器中冷剂水温度过高保护装置。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#4.2.13
+  standard_code: GB 50365-2019
+  chapter: 4 安全卫生与环境
+  section: 4.2 安全要求
+  clause_no: 4.2.13
+  text: 压缩式制冷机组应定期检查，下列保护装置应能正常工作：压缩机的安全保护装置：排气压力的高压保护和吸气压力的低压保护装置；润滑系统的油压差保护装置；电动机过载及缺相保护装置；离心式压缩机轴承的高温保护装置；卧式壳管式蒸发器冷水的防冻保护装置；冷凝器冷却水的断水保护装置；蒸发式冷凝器通风机的事故保护装置。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#4.2.14
+  standard_code: GB 50365-2019
+  chapter: 4 安全卫生与环境
+  section: 4.2 安全要求
+  clause_no: 4.2.14
+  text: 制冷机组的运行工况应符合技术要求，不应有超温、超压现象。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#4.2.15
+  standard_code: GB 50365-2019
+  chapter: 4 安全卫生与环境
+  section: 4.2 安全要求
+  clause_no: 4.2.15
+  text: 压缩式制冷机组的安全阀、压力表、温度计、液压计等装置，及高低压保护、低温防冻保护、电机过流保护、排气温度保护、油压差保护等安全保护装置应齐全，并应定期校验。压缩式制冷设备的冷冻油油标应清晰醒目，油位应正常，油质应符合设备要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#4.2.16
+  standard_code: GB 50365-2019
+  chapter: 4 安全卫生与环境
+  section: 4.2 安全要求
+  clause_no: 4.2.16
+  text: 空调通风系统的压力容器应定期检查。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#4.2.17
+  standard_code: GB 50365-2019
+  chapter: 4 安全卫生与环境
+  section: 4.2 安全要求
+  clause_no: 4.2.17
+  text: 氨制冷机房应配备消防和安全器材，其质量和数量应满足应急使用要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#4.2.18
+  standard_code: GB 50365-2019
+  chapter: 4 安全卫生与环境
+  section: 4.2 安全要求
+  clause_no: 4.2.18
+  text: 各种安全和自控装置应能正常工作，如有异常应及时进行记录并报告。当特殊情况下停用安全或自控装置时，应履行审批或备案手续。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#4.2.19
+  standard_code: GB 50365-2019
+  chapter: 4 安全卫生与环境
+  section: 4.2 安全要求
+  clause_no: 4.2.19
+  text: 冷却塔附近应设置紧急停机开关 并应定期检查维护。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#4.3.1
+  standard_code: GB 50365-2019
+  chapter: 4 安全卫生与环境
+  section: 4.3 卫生要求
+  clause_no: 4.3.1
+  text: 空调通风系统在运行期间，应合理控制新风量，空调房间内二氧化碳浓度应小于0.1%。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 化碳浓度
+    unit: '%'
+    condition: null
+    min_value: null
+    max_value: 0.1
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#4.3.2
+  standard_code: GB 50365-2019
+  chapter: 4 安全卫生与环境
+  section: 4.3 卫生要求
+  clause_no: 4.3.2
+  text: 空调通风系统新风口的周边环境应清洁，并应远离化学性或生物性污染源、建筑物排风口和开放式冷却塔。不得从机房、建筑物楼道及吊顶内吸入新风，新风口处的保护网及防雨措施应定期检查、清洗。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不得
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#4.3.3
+  standard_code: GB 50365-2019
+  chapter: 4 安全卫生与环境
+  section: 4.3 卫生要求
+  clause_no: 4.3.3
+  text: 新风量宜按设计要求均衡地送到各个房间。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 宜
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#4.3.4
+  standard_code: GB 50365-2019
+  chapter: 4 安全卫生与环境
+  section: 4.3 卫生要求
+  clause_no: 4.3.4
+  text: 空调冷却水和冷凝水的水质应进行定期检测和分析。当水质不符合国家现行相关标准的规定时，应采取相应措施改善空调水系统的水质。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#4.3.5
+  standard_code: GB 50365-2019
+  chapter: 4 安全卫生与环境
+  section: 4.3 卫生要求
+  clause_no: 4.3.5
+  text: 空调通风系统初次运行和停止运行较长时间后再次运行之前，应对其空气处理设备的空气过滤器、表面式冷却器、加热器、加湿器、冷凝水盘等部位进行全面检查，并应根据检查结果进行清洗或更换。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#4.3.6
+  standard_code: GB 50365-2019
+  chapter: 4 安全卫生与环境
+  section: 4.3 卫生要求
+  clause_no: 4.3.6
+  text: 空气过滤器、表面式冷却器、加热器应定期检查、清洗或更换。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#4.3.7
+  standard_code: GB 50365-2019
+  chapter: 4 安全卫生与环境
+  section: 4.3 卫生要求
+  clause_no: 4.3.7
+  text: 空调通风系统设备冷凝水管道的水封应定期检查，冷凝水应能顺利排出。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#4.3.8
+  standard_code: GB 50365-2019
+  chapter: 4 安全卫生与环境
+  section: 4.3 卫生要求
+  clause_no: 4.3.8
+  text: 空调房间内的送风口、回风口和排风口表面不得有积尘与霉斑。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#4.3.9
+  standard_code: GB 50365-2019
+  chapter: 4 安全卫生与环境
+  section: 4.3 卫生要求
+  clause_no: 4.3.9
+  text: 空气处理设备的凝结水集水部位、加湿器设置部位应定期检查，不应存在积水、漏水、腐蚀和有害菌群滋生现象。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#4.3.10
+  standard_code: GB 50365-2019
+  chapter: 4 安全卫生与环境
+  section: 4.3 卫生要求
+  clause_no: 4.3.10
+  text: 空调通风系统的设备机房内应干燥清洁，不得放置杂物。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不得
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#4.3.11
+  standard_code: GB 50365-2019
+  chapter: 4 安全卫生与环境
+  section: 4.3 卫生要求
+  clause_no: 4.3.11
+  text: 冷却塔应保持清洁，应定期检测和清洗，且应进行过滤、缓蚀、阻杀菌和灭藻等水处理工作。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#4.3.12
+  standard_code: GB 50365-2019
+  chapter: 4 安全卫生与环境
+  section: 4.3 卫生要求
+  clause_no: 4.3.12
+  text: 空调通风系统中的风管和空气处理设备应定期检查、清洗和检验，应去除积尘、污物、铁锈和菌斑等，并应符合下列规定：√X风管检查周期每2年不应少于1次，空气处理设备检查周期每年不应少于1次。1）通风系统不满足卫生要求或存在其他污染；2）系统性能下降；3）对室内空气质量有特殊要求。1）当采用目测法检验时，内表面不应有明显碎片和非黏合物质；2）当采用称质量法检验时，应通过专用器材进行擦拭取样和测量，残留尘粒量应少于1.0g/m²；3）当采用阻力测试法检验时，应通过压差计测试空气过滤器、表面式冷却器、加热器等被清洗部件的前后静压差，阻力损失应在常规范围内。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 粒量应少于
+    unit: g/m²
+    condition: null
+    min_value: 1.0
+    max_value: 1.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#4.3.13
+  standard_code: GB 50365-2019
+  chapter: 4 安全卫生与环境
+  section: ''
+  clause_no: 4.3.13
+  text: 当空调通风系统中存在病原微生物污染时，宜采取有效措施对空气处理设备、风管及其服务的功能房间进行消毒，并应采用国家相关部门认可的消毒药剂和器械。消毒过程中应采取措施保护人员财产不受伤害。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 宜
+    - 应
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#4.3.14
+  standard_code: GB 50365-2019
+  chapter: 4 安全卫生与环境
+  section: ''
+  clause_no: 4.3.14
+  text: 当房间存在异味时,应检查通风效果的有效性 并应避免排风通过空调通风系统进入其他空调房间。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#4.3.15
+  standard_code: GB 50365-2019
+  chapter: 4 安全卫生与环境
+  section: ''
+  clause_no: 4.3.15
+  text: 综合医院门诊区和病区空调通风系统运行管理应符合本标准附录B的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#4.4.1
+  standard_code: GB 50365-2019
+  chapter: 4 安全卫生与环境
+  section: 4.4 环境要求
+  clause_no: 4.4.1
+  text: 空调房间的室内温度。相对湿度 风速等参数应符合现行国家标准.民用建筑供暖通风与空气调节设计规范，GB。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#4.4.2
+  standard_code: GB 50365-2019
+  chapter: 4 安全卫生与环境
+  section: ''
+  clause_no: 4.4.2
+  text: 空调房间的室内游离甲醛、苯、氨、氢及其他总挥发性有机物污染物浓度应定期检测；当不满足现行国家标准《民用建筑工程室内环境污染控制规范》GB50325要求时，空调通风系统应采取相应措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50325
+    target_clause: null
+    original_text: 空调房间的室内游离甲醛、苯、氨、氢及其他总挥发性有机物污染物浓度应定期检测；当不满足现行国家标准《民用建筑工程室内环境污染控制规范》GB50325要求时，空调通风系统应采取相应措施。
+    resolution_status: resolved
+    resolution_note: 库内标准（GB 50325-2020），可交叉引用并确认具体参数
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#4.4.3
+  standard_code: GB 50365-2019
+  chapter: 4 安全卫生与环境
+  section: ''
+  clause_no: 4.4.3
+  text: ／空调房间的室内可吸人颗粒物（PM10）、微生物污染物浓度应定期检测，当不满足现行国家标准《室内空气质量标准》GB/T18883要求时，空调通风系统应采取相应措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB/T 18883
+    target_clause: null
+    original_text: ／空调房间的室内可吸人颗粒物（PM10）、微生物污染物浓度应定期检测，当不满足现行国家标准《室内空气质量标准》GB/T18883要求时，空调通风系统应采取相应措施。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#4.4.4
+  standard_code: GB 50365-2019
+  chapter: 4 安全卫生与环境
+  section: ''
+  clause_no: 4.4.4
+  text: 空调房间的室内细颗粒物（PM2.5）浓度应定期检测，且浓度不宜大于75μg/m；当不满足要求时，空调通风系统应采取相应措施减少室内污染。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 宜
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#4.4.5
+  standard_code: GB 50365-2019
+  chapter: 4 安全卫生与环境
+  section: ''
+  clause_no: 4.4.5
+  text: 空调房间的室内噪声级应符合现行国家标准《民用建筑隔声设计规范》GB50118的相关规定；当噪声超标时，应排查噪声来源，并应采取相应的消声降噪技术措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50118
+    target_clause: null
+    original_text: 空调房间的室内噪声级应符合现行国家标准《民用建筑隔声设计规范》GB50118的相关规定；当噪声超标时，应排查噪声来源，并应采取相应的消声降噪技术措施。
+    resolution_status: resolved
+    resolution_note: 库内标准（GB 50118-2010），可交叉引用并确认具体参数
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#4.4.6
+  standard_code: GB 50365-2019
+  chapter: 4 安全卫生与环境
+  section: ''
+  clause_no: 4.4.6
+  text: 有特殊静压差、气流流向、空气洁净度、换气次数等方面要求的空调房间的室内环境参数应符合国家现行相关标准的规定，并应定期检测。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#4.4.7
+  standard_code: GB 50365-2019
+  chapter: 4 安全卫生与环境
+  section: ''
+  clause_no: 4.4.7
+  text: 空调通风系统在运行期间，应合理控制送风温度、相对湿度，空调房间内的建筑围护结构内部和表面应无结露、发霉现象。及尺寸规格等进行改动时，气流组织应符合国家现行相关标准的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#4.4.9
+  standard_code: GB 50365-2019
+  chapter: 4 安全卫生与环境
+  section: ''
+  clause_no: 4.4.9
+  text: 当室外空气污染物浓度较高时 宜开启相应的净化技术措施进行处理 或临时关闭新风系统及排风系统。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 宜
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#5.1.1
+  standard_code: GB 50365-2019
+  chapter: 5 节能
+  section: 5.1 一般规定
+  clause_no: 5.1.1
+  text: 空调运行管理人员应掌握系统的实际能耗状况，并应接受相关部门的能源审计。应定期调查能耗分布状况，分析节能潜力，并应提出节能运行和改造建议。风系统能耗比对工作。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#5.1.3
+  standard_code: GB 50365-2019
+  chapter: 5 节能
+  section: 5.1 一般规定
+  clause_no: 5.1.3
+  text: 空调运行管理部门宜每年进行一次空调通风系统能耗系数（CEC）的测算，计算方法应按本标准附录C执行，测算结果应作为对系统节能状况进行监测和比较的依据。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 宜
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#5.1.4
+  standard_code: GB 50365-2019
+  chapter: 5 节能
+  section: 5.1 一般规定
+  clause_no: 5.1.4
+  text: 在满足设计标准的前提下。空调通风系统应节能运行。节能运行的房间温度可按表5.1.4的执行。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表5.1.4
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表5.1.4的执行。表5.1.4空调通风系统节能运行时的室内温度设定值房间类型冬季夏季一般房间≥26℃≤20℃大堂、过厅≤18℃室内外温差≤10℃
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#5.1.7
+  standard_code: GB 50365-2019
+  chapter: 5 节能
+  section: 5.1 一般规定
+  clause_no: 5.1.7
+  text: 大型或功能复杂的公共建筑应进行空调通风系统调适。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#5.2.3
+  standard_code: GB 50365-2019
+  chapter: 5 节能
+  section: 5.2 空调通风系统调适
+  clause_no: 5.2.3
+  text: 空调通风系统的调适应包括项目立项、资料收集、检查与测试、分析诊断、整改实施和效果验证六个阶段。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#5.2.4
+  standard_code: GB 50365-2019
+  chapter: 5 节能
+  section: 5.2 空调通风系统调适
+  clause_no: 5.2.4
+  text: 项目立项阶段应明确调适范围、目标、预期的费用和时间周期，并应组建调适团队、明确团队各方的职责。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#5.2.5
+  standard_code: GB 50365-2019
+  chapter: 5 节能
+  section: 5.2 空调通风系统调适
+  clause_no: 5.2.5
+  text: 资料收集阶段应收集系统调适所需要的相关技术资料，并应制定现场检查测试方案。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#5.2.6
+  standard_code: GB 50365-2019
+  chapter: 5 节能
+  section: 5.2 空调通风系统调适
+  clause_no: 5.2.6
+  text: 检查与测试阶段应包括对系统和设备的使用和运行现状检查及对设备的性能检测。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#5.2.7
+  standard_code: GB 50365-2019
+  chapter: 5 节能
+  section: 5.2 空调通风系统调适
+  clause_no: 5.2.7
+  text: 分析诊断阶段应依据资料查阅、检查和性能测试的结果，分析存在的问题，制定整改措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#5.2.8
+  standard_code: GB 50365-2019
+  chapter: 5 节能
+  section: 5.2 空调通风系统调适
+  clause_no: 5.2.8
+  text: 整改实施阶段应制定整改实施方案，确定具体实施单位，并应在整改后开展系统调适。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#5.2.9
+  standard_code: GB 50365-2019
+  chapter: 5 节能
+  section: 5.2 空调通风系统调适
+  clause_no: 5.2.9
+  text: 效果验证阶段应对整改后室内环境的改善情况和各项节能措施的节能效果进行分析和评价。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#5.2.10
+  standard_code: GB 50365-2019
+  chapter: 5 节能
+  section: 5.2 空调通风系统调适
+  clause_no: 5.2.10
+  text: 节能效果应采用节能量进行评估。整改后节能量应按下式进行计算：Esave = EE, +e()节能措施的节能量；式中:EeE一—基准能耗，即整改前，一个完整运行周期设备或系统的能耗，也就是整改前的能耗；当前能耗，即整改后的能耗；调整量。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#5.3.1
+  standard_code: GB 50365-2019
+  chapter: 5 节能
+  section: 5.3 节能运行
+  clause_no: 5.3.1
+  text: 空调通风系统的全年运行方案应根据系统的冷（热）负荷及能源供应等条件，经技术经济比较，按节能环保的原则合理制定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#5.3.2
+  standard_code: GB 50365-2019
+  chapter: 5 节能
+  section: 5.3 节能运行
+  clause_no: 5.3.2
+  text: 当空调通风系统为间歇运行方式时，应根据气候状况、空调负荷情况和建筑热惰性，确定开机停机时间。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#5.3.3
+  standard_code: GB 50365-2019
+  chapter: 5 节能
+  section: 5.3 节能运行
+  clause_no: 5.3.3
+  text: 对作息时间固定的建筑，应在非工作时间内降低空调运行控制标准。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#5.3.4
+  standard_code: GB 50365-2019
+  chapter: 5 节能
+  section: 5.3 节能运行
+  clause_no: 5.3.4
+  text: 多台并联运行的同类设备，应根据实际负荷情况，自动或手动调整运行台数，输出的总容量应与需求相匹配。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#5.3.5
+  standard_code: GB 50365-2019
+  chapter: 5 节能
+  section: 5.3 节能运行
+  clause_no: 5.3.5
+  text: 具备调速功能的设备输出能力宜自动随控制参数的变化而变化。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 宜
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#5.3.6
+  standard_code: GB 50365-2019
+  chapter: 5 节能
+  section: 5.3 节能运行
+  clause_no: 5.3.6
+  text: 当启动冷热源设备对系统进行预热或预冷运行时，宜关闭新风系统；当采用室外空气进行预冷时，宜利用新风系统。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 宜
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#5.3.7
+  standard_code: GB 50365-2019
+  chapter: 5 节能
+  section: 5.3 节能运行
+  clause_no: 5.3.7
+  text: 冷水机组出水温度宜根据室外气象参数和除湿负荷的变化进行设定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 宜
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#5.3.8
+  standard_code: GB 50365-2019
+  chapter: 5 节能
+  section: 5.3 节能运行
+  clause_no: 5.3.8
+  text: 当空调通风系统的使用功能和负荷分布发生变化，或空调通风系统温度不平衡时×应对空调水系统和风系统进行平衡调试，水力失调率不宜超过15%，最大不应超过20%；风量失调率不宜超过15%，最大不应超过20%。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 宜
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 失调率
+    unit: '%'
+    condition: null
+    min_value: 15.0
+    max_value: null
+  - name: 调率
+    unit: '%'
+    condition: null
+    min_value: 20.0
+    max_value: null
+  - name: 未识别对象
+    unit: '%'
+    condition: null
+    min_value: 15.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#5.3.9
+  standard_code: GB 50365-2019
+  chapter: 5 节能
+  section: 5.3 节能运行
+  clause_no: 5.3.9
+  text: 水泵的电流值应在不同的负荷下检查记录，并应与水泵的额定电流值进行对比。应计算空调冷（热）水系统耗电输冷（热）比[EC(H)Ra]，并应符合现行国家标准《公共建筑节能设计标准》GB50189的规定。对水泵电流和耗电输冷（热）比偏高的系统，应通过技术经济比较采取节能措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50189
+    target_clause: null
+    original_text: 应计算空调冷（热）水系统耗电输冷（热）比[EC(H)Ra]，并应符合现行国家标准《公共建筑节能设计标准》GB50189的规定。
+    resolution_status: resolved
+    resolution_note: 库内标准（GB 50189-2015），可交叉引用并确认具体参数
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#5.3.10
+  standard_code: GB 50365-2019
+  chapter: 5 节能
+  section: 5.3 节能运行
+  clause_no: 5.3.10
+  text: 空调通风系统在供冷工况下，水系统的供回水温差小于3℃时（设计温差5℃），或在供热工况下，水系统的供回水温差小于6℃时（设计温差10℃），宜采取减小流量的措施，且不应影响系统的水力平衡。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 宜
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#5.3.11
+  standard_code: GB 50365-2019
+  chapter: 5 节能
+  section: 5.3 节能运行
+  clause_no: 5.3.11
+  text: 设有多台冷水机组和冷却塔的系统不应出现冷冻水或冷却水通过不运行冷水机组的旁通现象。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#5.3.12
+  standard_code: GB 50365-2019
+  chapter: 5 节能
+  section: 5.3 节能运行
+  clause_no: 5.3.12
+  text: 在满足室内空气控制参数的条件下，冰蓄冷空调通风系统宜加大供回水温差。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 宜
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#5.3.13
+  standard_code: GB 50365-2019
+  chapter: 5 节能
+  section: 5.3 节能运行
+  clause_no: 5.3.13
+  text: 对一塔多风机配置的矩形冷却塔，宜根据冷却水回水温度调整其运转的风机数。在保证冷却水回水温度满足冷水机组正常运行的前提下，应使运转的风机数量最少。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 宜
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#5.3.14
+  standard_code: GB 50365-2019
+  chapter: 5 节能
+  section: 5.3 节能运行
+  clause_no: 5.3.14
+  text: 冷却塔补水总管上应安装水量计量表，应定期记录和分析补水记录，并应采取措施减少补水量。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#5.3.15
+  standard_code: GB 50365-2019
+  chapter: 5 节能
+  section: 5.3 节能运行
+  clause_no: 5.3.15
+  text: 当局部房间在冬季需制冷时，宜采用新风或冷却塔直接制冷的运行方式降温。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 宜
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#5.3.16
+  standard_code: GB 50365-2019
+  chapter: 5 节能
+  section: 5.3 节能运行
+  clause_no: 5.3.16
+  text: 当制冷工况运行时，宜采用大温差送风，并宜符合下列规定：当送风高度小于或等于5m时，温差不宜超过10℃；当采用高诱导比的散流器时，温差可超过10℃：当送风高度大于5m小于或等于10m时，温差不宜超过15℃;当送风高度在10m以上时，宜按射流理论计算确定；当采用顶部送风（非散流器）时，温差宜按射流理论计算确定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 宜
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 送风高度
+    unit: m
+    condition: null
+    min_value: null
+    max_value: 5.0
+  - name: 送风高度
+    unit: m
+    condition: null
+    min_value: 5.0
+    max_value: null
+  - name: 送风高度
+    unit: m
+    condition: null
+    min_value: 10.0
+    max_value: null
+  - name: 温差
+    unit: m
+    condition: null
+    min_value: 10.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#5.3.17
+  standard_code: GB 50365-2019
+  chapter: 5 节能
+  section: 5.3 节能运行
+  clause_no: 5.3.17
+  text: 空调通风系统中的热回收装置应定期检查维护，并应对热交换效率进行评估。当设备的热交换效率显著下降时，应更换或升级设备。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#5.3.18
+  standard_code: GB 50365-2019
+  chapter: 5 节能
+  section: 5.3 节能运行
+  clause_no: 5.3.18
+  text: 表面式冷却器的冷水进水温度，应比空气出口干球温度低3.5℃及以上。冷水温升宜采用2.5～6.5℃。当表面式冷却器用于空气冷却去湿过程时，冷水出水温度应比空气的出口露点温度低0.7℃及以上。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 宜
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#5.3.19
+  standard_code: GB 50365-2019
+  chapter: 5 节能
+  section: 5.3 节能运行
+  clause_no: 5.3.19
+  text: 当风系统运行时，宜采取有效措施增大送回风温差，但不应影响系统的风量平衡和室内气流组织。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 宜
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#5.3.20
+  standard_code: GB 50365-2019
+  chapter: 5 节能
+  section: 5.3 节能运行
+  clause_no: 5.3.20
+  text: 对有再热盘管的空气处理设备，运行中应减少冷热相抵。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#5.3.21
+  standard_code: GB 50365-2019
+  chapter: 5 节能
+  section: 5.3 节能运行
+  clause_no: 5.3.21
+  text: 空气过滤器的前后压差应定期检查，当压差不能直接显示或远程显示时，宜增设仪器仪表。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 宜
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#5.3.22
+  standard_code: GB 50365-2019
+  chapter: 5 节能
+  section: 5.3 节能运行
+  clause_no: 5.3.22
+  text: 通风系统新风量和排风量应根据建筑物的功能进行调节，并宜维持建筑微正压或微负压运行。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 宜
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#5.3.23
+  standard_code: GB 50365-2019
+  chapter: 5 节能
+  section: 5.3 节能运行
+  clause_no: 5.3.23
+  text: 对人流密度相对较大且变化较大的场所。宜采用新风需求控制.应根据室内二氧化碳浓度值控制新风量， .6,应急管理措施6，1 一般规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 宜
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#6.1.1
+  standard_code: GB 50365-2019
+  chapter: 6 应急管理措施
+  section: 6.1 一般规定
+  clause_no: 6.1.1
+  text: 措施：通风系统扩散时；在化学或生物污染有可能通过空调通风系统实施传播时；发生不明原因的空调通风系统气体污染时。对可能发生的突发事件，应事先进行风险分析与安全评
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#6.1.2
+  standard_code: GB 50365-2019
+  chapter: 6 应急管理措施
+  section: ''
+  clause_no: 6.1.2
+  text: 价，应会同空调通风系统专业人员制定应急预案，并应制定长期的防范应急措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#6.1.3
+  standard_code: GB 50365-2019
+  chapter: 6 应急管理措施
+  section: ''
+  clause_no: 6.1.3
+  text: 应建立对突发事件的应急处置小组和应急队伍，应急处置小组和应急队伍中应有对该建筑空调通风系统实际情况熟悉的专业人员。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#6.1.4
+  standard_code: GB 50365-2019
+  chapter: 6 应急管理措施
+  section: ''
+  clause_no: 6.1.4
+  text: 对突发事件，应尽快判断污染或伤害来源、性质和范围，并应采取主动的防范和应对措施，作出相应的处理决定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#6.1.5
+  standard_code: GB 50365-2019
+  chapter: 6 应急管理措施
+  section: ''
+  clause_no: 6.1.5
+  text: 应根据突发事件的性质，结合空调通风系统实际情况，建立内部安全区和外部蔬散区，判断高危区域，并应采取相应防范或隔离措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#6.2.1
+  standard_code: GB 50365-2019
+  chapter: 6 应急管理措施
+  section: 6.2 应急技术措施
+  clause_no: 6.2.1
+  text: 对突发事件中的高危区域.空调通风系统应独立运行或停止运行。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#6.2.2
+  standard_code: GB 50365-2019
+  chapter: 6 应急管理措施
+  section: 6.2 应急技术措施
+  clause_no: 6.2.2
+  text: 距离处。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#6.2.4
+  standard_code: GB 50365-2019
+  chapter: 6 应急管理措施
+  section: 6.2 应急技术措施
+  clause_no: 6.2.4
+  text: 对来源于室内固定污染源释放的污染物，可采取局部排风措施，在靠近污染源处收集和排除污染物；对挥发性有机化合物，应采用清洁的室外新风来稀释。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#6.2.5
+  standard_code: GB 50365-2019
+  chapter: 6 应急管理措施
+  section: 6.2 应急技术措施
+  clause_no: 6.2.5
+  text: 当房间中或与人员活动无关的空调通风系统中有污染物产生时，应在房间使用之前将污染物排除，或提前通风至房间开始使用时室内环境符合本标准第4.4节的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#6.2.6
+  standard_code: GB 50365-2019
+  chapter: 6 应急管理措施
+  section: 6.2 应急技术措施
+  clause_no: 6.2.6
+  text: 突发事件期间，应重点防止新风口和空调机房受到非法入侵，可采取关闭新风和排风阀门等方式，并应在重点位置采取警卫或监控手段。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#6.2.7
+  standard_code: GB 50365-2019
+  chapter: 6 应急管理措施
+  section: 6.2 应急技术措施
+  clause_no: 6.2.7
+  text: 在传染病流行期内，空调通风系统新风口、空调机房及其周围环境应保持清洁，新风与排风不应短路，不得污染新风。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 不得
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#6.2.8
+  standard_code: GB 50365-2019
+  chapter: 6 应急管理措施
+  section: 6.2 应急技术措施
+  clause_no: 6.2.8
+  text: 在传染病流行期内：空调机房内空气处理设备的新风进气口应采用风管与新风竖井或新风百叶窗相连接，不得间接从机房内、楼道内和吊顶内吸取新风。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不得
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#6.2.9
+  standard_code: GB 50365-2019
+  chapter: 6 应急管理措施
+  section: 6.2 应急技术措施
+  clause_no: 6.2.9
+  text: 在传染病流行期内.空调通风系统宜全新风运行,在每天冷热源设备启用前或关停后宜让新风机和排风机多运行1次或2次、进行换气。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 宜
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#6.2.10
+  standard_code: GB 50365-2019
+  chapter: 6 应急管理措施
+  section: ''
+  clause_no: 6.2.10
+  text: 在传染病流行期内，应按卫生防疫要求，对空调通风系统中的空气处理设备进行清洗消毒或更换工作，过滤器、表面式冷却器、加热器，加湿器、凝结水盘等易集聚灰尘和滋生细菌的部件应定期消毒或更换。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#6.2.11
+  standard_code: GB 50365-2019
+  chapter: 6 应急管理措施
+  section: ''
+  clause_no: 6.2.11
+  text: 空调通风系统的消毒时间应安排在无人使用的时段，消毒后应及时冲洗与通风，消除消毒溶液残留物对人体与设备的有害影响。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#6.2.12
+  standard_code: GB 50365-2019
+  chapter: 6 应急管理措施
+  section: ''
+  clause_no: 6.2.12
+  text: 从事空调通风系统消毒的人员应经过培训，并应使用合格的消毒产品和采用正确的消毒方法。附录A空调通风系统运行管理综合评价
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#A.1.1
+  standard_code: GB 50365-2019
+  chapter: 附录A 空调通风系统运行管理综合评价
+  section: A.1 一般规定
+  clause_no: A.1.1
+  text: 空调通风系统运行效果宜进行综合评定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 宜
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#A.1.2
+  standard_code: GB 50365-2019
+  chapter: 附录A 空调通风系统运行管理综合评价
+  section: A.1 一般规定
+  clause_no: A.1.2
+  text: 应按集中空调通风系统的温度、湿度、空气洁净度、气流组织及新风量和噪声等方面效果的要求结合管理水平进行多方面性能等级的综合评定。评定结果应分成5个等级，水平由低到高应依次划分为1A（A）2A（AA）、3A（AAA）、4A(AAAA)、5A（AAAAA）。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#A.1.3
+  standard_code: GB 50365-2019
+  chapter: 附录A 空调通风系统运行管理综合评价
+  section: A.1 一般规定
+  clause_no: A.1.3
+  text: 空调通风系统运行管理的综合评价可由专家组或专业机构进行。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#A.1.4
+  standard_code: GB 50365-2019
+  chapter: 附录A 空调通风系统运行管理综合评价
+  section: A.1 一般规定
+  clause_no: A.1.4
+  text: 空调通风系统运行管理的综合评价应包括运行效果评价和运行管理评价两部分。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#A.1.5
+  standard_code: GB 50365-2019
+  chapter: 附录A 空调通风系统运行管理综合评价
+  section: A.1 一般规定
+  clause_no: A.1.5
+  text: 空调通风系统运行管理评价总分S应按式（）计算，满分应为168分。其中评价指标的评分权重应按表A.1.5取值。X类指标的得分SiS应按本标准第A.2节、第A.3节的规定计算。可按空调面积、功能区分布及人员使用具体情况选择测点数量，样本应具有代表性，且测点数量不应少于15个。S = iSi+2S2 + S + S4 +sSs +S+Sr()表空调通风系统运行管理的综合评价各项指标权重运行运行管理评价效果服务(02管理w3节能 4安全w6环境6卫生w5评分0.10.150.150.150.150.150.15
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    - 不应
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#A.1.6
+  standard_code: GB 50365-2019
+  chapter: 附录A 空调通风系统运行管理综合评价
+  section: A.1 一般规定
+  clause_no: A.1.6
+  text: 空调通风系统评定等级应符合表A.1.6的规定。表A.1.6空调通风系统评定等级评定总分数S评定等级5A（AAAAA)S≥1504A (AAAA)130≤S<155(AAA)105≤S<1302A (AA)80≤S<105S<801A(A)第A.2.2条～A.2.7条的规定逐项相加得到，满分应为600分。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#A.2.2
+  standard_code: GB 50365-2019
+  chapter: 附录A 空调通风系统运行管理综合评价
+  section: A.2 舒适性空调通风系统运行效果评价指标
+  clause_no: A.2.2
+  text: 夏季或冬季的室内温度的评价满分应为100分，并应符合下列规定：人夏季实测的室内干球温度值，可按表-1查出对应范围得出对应的评价分数。表-1夏季温度评分单项（温度）评价得分与设计温度的偏差±1℃±2℃±3℃大于十3℃或小于-3℃出对应的评价分数。表A.2.2-2冬季温度评分与设计温度的偏差单项（温度）评价得分±1℃±2℃±3℃大于十3℃或小于-3℃方法第1部分：物理因素》GB/T18204NI的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB/T 18204
+    target_clause: null
+    original_text: 表A.2.2-2冬季温度评分与设计温度的偏差单项（温度）评价得分±1℃±2℃±3℃大于十3℃或小于-3℃方法第1部分：物理因素》GB/T18204NI的规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#A.2.3
+  standard_code: GB 50365-2019
+  chapter: 附录A 空调通风系统运行管理综合评价
+  section: ''
+  clause_no: A.2.3
+  text: 夏季或冬季室内相对湿度的评价满分应为100分，并应符合下列规定：围得出对应的评价分数。表A.2.3-1夏夏季相对湿度评分对应相对湿度（RH）范围单项（相对湿度）评价得分40 %RH60%260%<RHK70%V80分20%<RH<40%或 70%<RH<85%RH<20%或RH≥85%冬季实测室内相对湿度，可按表A.2.3-2查出对应范围得出对应的评价分数。表A.2.3-2冬季相对湿度评分对应相对湿度（RH）范围单项（相对湿度）评价得分40%≤RH<60%30%≤RH<.40%20%≤RH<30%或60%≤RH<85%RH<20%或RH≥85%验方法第1部分：物理因素》GB/T18204.1执行。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 度评价得分
+    unit: '%'
+    condition: null
+    min_value: 40.0
+    max_value: 40.0
+  - name: 价得分RH
+    unit: '%'
+    condition: null
+    min_value: 60.0
+    max_value: 60.0
+  - name: 价得分RH
+    unit: '%'
+    condition: null
+    min_value: 260.0
+    max_value: 260.0
+  - name: RHRHK
+    unit: '%'
+    condition: null
+    min_value: 70.0
+    max_value: 70.0
+  - name: RHKV分
+    unit: '%'
+    condition: null
+    min_value: 20.0
+    max_value: 20.0
+  - name: KV分RH
+    unit: '%'
+    condition: null
+    min_value: 40.0
+    max_value: 40.0
+  - name: V分RH
+    unit: '%'
+    condition: null
+    min_value: 70.0
+    max_value: 70.0
+  - name: RH或RH
+    unit: '%'
+    condition: null
+    min_value: 85.0
+    max_value: 85.0
+  - name: RHRH
+    unit: '%'
+    condition: null
+    min_value: 20.0
+    max_value: 20.0
+  - name: RH或RH
+    unit: '%'
+    condition: null
+    min_value: 85.0
+    max_value: null
+  - name: 度评价得分
+    unit: '%'
+    condition: null
+    min_value: null
+    max_value: 60.0
+  - name: 度评价得分
+    unit: '%'
+    condition: null
+    min_value: null
+    max_value: 30.0
+  - name: 未识别对象
+    unit: '%'
+    condition: null
+    min_value: null
+    max_value: 40.0
+  - name: H
+    unit: '%'
+    condition: null
+    min_value: null
+    max_value: 20.0
+  - name: 未识别对象
+    unit: '%'
+    condition: null
+    min_value: null
+    max_value: 30.0
+  - name: 未识别对象
+    unit: '%'
+    condition: null
+    min_value: null
+    max_value: 60.0
+  - name: 未识别对象
+    unit: '%'
+    condition: null
+    min_value: null
+    max_value: 85.0
+  - name: 未识别对象
+    unit: '%'
+    condition: null
+    min_value: null
+    max_value: 20.0
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB/T 18204.1
+    target_clause: null
+    original_text: 40%20%≤RH<30%或60%≤RH<85%RH<20%或RH≥85%验方法第1部分：物理因素》GB/T18204.1执行。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#A.2.4
+  standard_code: GB 50365-2019
+  chapter: 附录A 空调通风系统运行管理综合评价
+  section: ''
+  clause_no: A.2.4
+  text: 夏季或冬季室内气流速度的评价满分应为100分，并应符合下列规定：范围得出对应的评价分数。夏季气流速度评分表-1对应（气流速度）范围单项（气流速度）评价得分不大于0.3m/s大于0.3m/s范围得出对应的评价分数。表-2冬季气流速度评分对应（气流速度》范围单项（气流速度）评价得分不大于02m/s生检验方法第1部分：物理因素》GB/T18204.1的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 评价得分
+    unit: m
+    condition: null
+    min_value: 0.3
+    max_value: null
+  - name: 评价得分
+    unit: m
+    condition: null
+    min_value: 2.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB/T 18204.1
+    target_clause: null
+    original_text: 表-2冬季气流速度评分对应（气流速度》范围单项（气流速度）评价得分不大于02m/s生检验方法第1部分：物理因素》GB/T18204.1的规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#A.2.5
+  standard_code: GB 50365-2019
+  chapter: 附录A 空调通风系统运行管理综合评价
+  section: ''
+  clause_no: A.2.5
+  text: Y室内空气洁净度评价应包括可吸入颗粒物（PM1o）浓度和细颗粒物（PM2.5）浓度两项，满分应为100分，并应符合下列规定：表A.2.5-1查出对应的评价分数。表A.2.5-1室内可吸入颗粒物评分可吸人颗粒物浓度（CpM。）范围（mg/m3）评价得分CPM。≤0.100.10<CpMi。≤0.15CpMo>0.15查出对应的评价分数。表A.2.5-2室内细颗粒物评分细颗粒物浓度（CpM2.5）范围（μg/m3）评价得分CpM2.5≤5050<CpM2.5≤75CpM2.5>75空气中可吸人颗粒物卫生标准》GB/T17095的规定执行。用空气净化装置》GB/T34012的规定执行。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB/T 17095
+    target_clause: null
+    original_text: 表A.2.5-2室内细颗粒物评分细颗粒物浓度（CpM2.5）范围（μg/m3）评价得分CpM2.5≤5050<CpM2.5≤75CpM2.5>75空气中可吸人颗粒物卫生标准》GB/T17095的规定执行。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  - target_standard: GB/T 34012
+    target_clause: null
+    original_text: 用空气净化装置》GB/T34012的规定执行。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#A.2.6
+  standard_code: GB 50365-2019
+  chapter: 附录A 空调通风系统运行管理综合评价
+  section: ''
+  clause_no: A.2.6
+  text: 室内新风量的评价满分应为100分并应符合下列规定：应根据室内二氧化碳实测浓度评价人均新风量，可按表查出对应的评价分数。表人均新风量评分室内二氧化碳实测浓度评价得分二氧化碳浓度<0.1%二氧化碳浓度≥0.1%法第1部分：物理因素》GB/T18204.1的规定执行。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 氧化碳浓度
+    unit: '%'
+    condition: null
+    min_value: 0.1
+    max_value: 0.1
+  - name: 氧化碳浓度
+    unit: '%'
+    condition: null
+    min_value: 0.1
+    max_value: null
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB/T 18204.1
+    target_clause: null
+    original_text: 表人均新风量评分室内二氧化碳实测浓度评价得分二氧化碳浓度<0.1%二氧化碳浓度≥0.1%法第1部分：物理因素》GB/T18204.1的规定执行。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#A.2.7
+  standard_code: GB 50365-2019
+  chapter: 附录A 空调通风系统运行管理综合评价
+  section: ''
+  clause_no: A.2.7
+  text: 室内噪声的评价满分应为100分，并应符合下列规定：LAeg符合国家现行相关标准的前提下，根据实测室内噪声值，可按表A.2.7查出对应的评价分数。评价得分：0分昼间：LAg>55dB(A)夜间：LAg>45dB(A)夜间：LAa>55dB(A)昼间：LAeg>60dB(A)：50分boVT>(V)APOSAP09 ≥boVT>(V)APSS昼间：50dB(A)<LAeg≤55dB(A评价得分：夜间：夜间：昼间：55dB(A)55dB(A)60dB(A)(A)室内噪声评分>()A.2.PbV>()POS夜间：夜间：昼间：昼间：50dB(A)40dB(A)50dB(A)55dB(A)(A)：100分昼间：LAeq≤45dB(A)夜间：LAcq≤35dB(A)昼间：LAeq≤50dB(A)夜间：LAeg≤45dB(A)注：其他类别建筑参照以上使用场所进行评分。评价得分：使用商场宾馆居住场所办公、方法第1部分：物理因素》GB/T18204.1的相关规定执行。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 昼间LAg
+    unit: d
+    condition: null
+    min_value: 55.0
+    max_value: 55.0
+  - name: 夜间LAg
+    unit: d
+    condition: null
+    min_value: 45.0
+    max_value: 45.0
+  - name: 夜间LAa
+    unit: d
+    condition: null
+    min_value: 55.0
+    max_value: 55.0
+  - name: 间LAeg
+    unit: d
+    condition: null
+    min_value: 60.0
+    max_value: 60.0
+  - name: 未识别对象
+    unit: d
+    condition: null
+    min_value: 50.0
+    max_value: null
+  - name: ALAeg
+    unit: d
+    condition: null
+    min_value: null
+    max_value: 55.0
+  - name: 间夜间昼间
+    unit: d
+    condition: null
+    min_value: 55.0
+    max_value: 55.0
+  - name: 昼间dBA
+    unit: d
+    condition: null
+    min_value: 55.0
+    max_value: 55.0
+  - name: BAdBA
+    unit: d
+    condition: null
+    min_value: 60.0
+    max_value: 60.0
+  - name: 间昼间昼间
+    unit: d
+    condition: null
+    min_value: 50.0
+    max_value: 50.0
+  - name: 昼间dBA
+    unit: d
+    condition: null
+    min_value: 40.0
+    max_value: 40.0
+  - name: BAdBA
+    unit: d
+    condition: null
+    min_value: 50.0
+    max_value: 50.0
+  - name: BAdBA
+    unit: d
+    condition: null
+    min_value: 55.0
+    max_value: 55.0
+  - name: 间LAeq
+    unit: d
+    condition: null
+    min_value: null
+    max_value: 45.0
+  - name: 未识别对象
+    unit: d
+    condition: null
+    min_value: null
+    max_value: 35.0
+  - name: 未识别对象
+    unit: d
+    condition: null
+    min_value: null
+    max_value: 50.0
+  - name: 未识别对象
+    unit: d
+    condition: null
+    min_value: null
+    max_value: 45.0
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB/T 18204.1
+    target_clause: null
+    original_text: 评价得分：使用商场宾馆居住场所办公、方法第1部分：物理因素》GB/T18204.1的相关规定执行。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#A.3.1
+  standard_code: GB 50365-2019
+  chapter: 附录A 空调通风系统运行管理综合评价
+  section: A.3 空调通风系统运行管理评价指标
+  clause_no: A.3.1
+  text: 服务评价分数S2可选取不少于15人的空调用户进行抽查，并应按表A.3.1选项评分，满分应为120分表A.3.1服务评分满意程度评价得分满意率>90%80%<满意率≤90%Z70%<满意率≤80%60%<满意率<70%%满意率60%满意率≤50%
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 得分满意率
+    unit: '%'
+    condition: null
+    min_value: 90.0
+    max_value: 90.0
+  - name: 得分满意率
+    unit: '%'
+    condition: null
+    min_value: 80.0
+    max_value: 80.0
+  - name: 意率满意率
+    unit: '%'
+    condition: null
+    min_value: null
+    max_value: 90.0
+  - name: 满意率
+    unit: '%'
+    condition: null
+    min_value: null
+    max_value: 70.0
+  - name: 满意率
+    unit: '%'
+    condition: null
+    min_value: null
+    max_value: 80.0
+  - name: 未识别对象
+    unit: '%'
+    condition: null
+    min_value: null
+    max_value: 60.0
+  - name: 意率满意率
+    unit: '%'
+    condition: null
+    min_value: 60.0
+    max_value: 60.0
+  - name: 意率满意率
+    unit: '%'
+    condition: null
+    min_value: null
+    max_value: 50.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#A.3.2
+  standard_code: GB 50365-2019
+  chapter: 附录A 空调通风系统运行管理综合评价
+  section: ''
+  clause_no: A.3.2
+  text: 管理评价指标S3应由技术资料管理、人员管理和规章制度管理三项得分相加得出，满分应为120分，并应符合下列规定：体内容可按本标准第3.1节的要求审定。表A.3.2-1技术资料管理评分评价得分：20分评价得分：40分评价得分：30分评价得分：0分齐全、完善比较齐全基本齐全分，具体内容可按本标准第3.2节的要求审定。表A.3.2-2评价得分项目不全：0分人员配备技术专业齐全：10分具备：10分人员资质（指教育或培训）不具备：0分技术水平不熟练·分熟练：10分岗位责任制落实完备：10分不完备：0分容可按本标准第3.3节的要求审定。表A.3.2-3规章制度评价评价得分：10分评价得分：25分评价得分：40分评价得分：0分V\基本齐全比较齐全齐全、完善不齐全
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#A.3.3
+  standard_code: GB 50365-2019
+  chapter: 附录A 空调通风系统运行管理综合评价
+  section: ''
+  clause_no: A.3.3
+  text: 节能状况评价指标S/满分应为120分，应按表A.3.3各项指标的实际得分值除以适用于该建筑的总分值再乘以120分计算。节能达标评价表评价得分人第3.4-1条达标：5分未达标：0分N第3.4. 7条达标：5分未达标：0分第5.1.4条达标：5分未达标：0分第5.1.5条达标：5分未达标：0分第5.3.1条达标：10分未达标：0分第5.3.2条达标：5分未达标：0分第5.3.3条达标：5分未达标：0分第5.3.4条达标：5分未达标：0分第5.3.5条达标：5分未达标：0分第5.3.7条达标：5分未达标：0分第5.3.8条达标：5分未达标：0分第5.3.9条达标：10分未达标：0分续表A.3.3项目评价得分第5.3.11条达标：5分未达标：0分未达标：0分第5.3.12条达标：5分未达标！分第5.3.13条达标：5分未达标：0分第5.3.14条达标：10分未达标：0分第5.3.16条达标：5分达标：5分未达标：0分第5.3.17条第5.3.18条达标：10分未达标：0分未达标：0分达标：5分第5.3.21条达标：5分第5.3.22条未达标：0分父达标：5分第5.3.23条未达标：0分
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#A.3.4
+  standard_code: GB 50365-2019
+  chapter: 附录A 空调通风系统运行管理综合评价
+  section: ''
+  clause_no: A.3.4
+  text: 对空调通风系统卫生评价指标Ss满分应为120分，应按表A.3.4各项指标的实际得分值除以适用于该建筑的总分值表卫生评价项目评价得分第4.3.1条达标：10分未达标：0分第4.3.2条达标：10分未达标：0分第4.3.4条达标：10分未达标：0分第4.3.5条达标：10分未达标：0分第4.3.6条达标：10分未达标：0分第4.3.7条达标：10分未达标：0分第4.3.8条达标：10分未达标：0分达标：10分第4.3.9条未达标：0分未达标：0分第4.3.10条达标：10分第4.3.11条达标：10分未达标：0分未达标：0分第4.3.12条达标：10分
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#A.3.5
+  standard_code: GB 50365-2019
+  chapter: 附录A 空调通风系统运行管理综合评价
+  section: ''
+  clause_no: A.3.5
+  text: 系统安全运行状况评价指标S6满分应为120分，应按表A.3.5各项指标的实际得分值除以适用于该建筑的总分值再乘以120分计算。表A.3.5安全运行达标评价项目评价得分未达标：0分第4.2.1条达标：20分未达标：0分第4.2.2条达标：10分第4.2.3条达标：10分未达标：0分第4.2.4条达标：10分未达标：0分达标：10分第4.2.5条未达标：0分第4.2.6条未达标：0分达标：10分第4.2.7条达标：10分未达标：0分未达标：0分达标：10分第4.2.8条未达标：0分第4.2.9条达标：10分第4.2.10条达标：10分未达标：0分第4.2~1条PI达标：10分未达标：0分第4512条每款达标得1分人满分9分未达标：0分第4.213条每款达标得1分，满分8分未达标：0分第4.2.14条达标：10分未达标：0分第4.2.15条达标：10分未达标：0分达标：5分第4.2.16条未达标：0分第4.2.17条达标：10分未达标：0分第4.2.18条达标：10分未达标：0分第4.2.19条达标：10分未达标：0分第4.2.20条达标：5分未达标：0分第4.2.21条达标：10分未达标：0分
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#A.3.6
+  standard_code: GB 50365-2019
+  chapter: 附录A 空调通风系统运行管理综合评价
+  section: ''
+  clause_no: A.3.6
+  text: 环境评价指标S满分应为120分，应按表A.3.6各项指标的实际得分值除以适用于该建筑的总分值再乘以120分计算。表A.3.6环境达标评价项目评价得分第4.4.1条达标：10分未达标：0分未达标：0分第4.4.2条达标：10分未达标！分第4.4.3条达标：10分第4.4.4条未达标：0分达标：10分未达标：0分第4.4.5条达标：10分第4.4.6条达标：10分未达标：0分达标：10分第4.4.7条未达标：0分第4.4.8条达标：5分未达标：0分达标：5分第4.4.9条未达标：0分住房城乡建附录B‧综合医院门诊区和病区的空调通风系统运行管理
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#B.0.1
+  standard_code: GB 50365-2019
+  chapter: 附录B 综合医院门诊区和病区的空调通风系统运行管理
+  section: ''
+  clause_no: B.0.1
+  text: 医院空调通风系统运行管理部门应与医院感染控制部门建立沟通机制，并应明确医院感染重点防范区域，定期监测。当出现医院感染暴发时，应立即对空调通风系统进行检查。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#B.0.2
+  standard_code: GB 50365-2019
+  chapter: 附录B 综合医院门诊区和病区的空调通风系统运行管理
+  section: ''
+  clause_no: B.0.2
+  text: 运行管理人员应掌握舒适性空调通风系统的有关管理知识和技能，并应接受医院感染控制专业人员进行的消毒理论知识的培训，应掌握空气微生物传播与防治、空调通风系统二次污染的基本知识与技能。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#B.0.3
+  standard_code: GB 50365-2019
+  chapter: 附录B 综合医院门诊区和病区的空调通风系统运行管理
+  section: ''
+  clause_no: B.0.3
+  text: 与防止空调通风系统二次污染相关的规章制度，应在医院感染控制专业人员的参与下根据空调通风系统的实际情况
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#B.0.4
+  standard_code: GB 50365-2019
+  chapter: 附录B 综合医院门诊区和病区的空调通风系统运行管理
+  section: ''
+  clause_no: B.0.4
+  text: 医院环境空气和物体表面菌落总数应符合现行国家标准《医院消毒卫生标准》GB15982的规定，当没有达到要求时，应分析原因，并应采取相应的解决措施。同时应采用开窗通风等措施，有效降低室内致病菌浓度。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 15982
+    target_clause: null
+    original_text: 医院环境空气和物体表面菌落总数应符合现行国家标准《医院消毒卫生标准》GB15982的规定，当没有达到要求时，应分析原因，并应采取相应的解决措施。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#B.0.5
+  standard_code: GB 50365-2019
+  chapter: 附录B 综合医院门诊区和病区的空调通风系统运行管理
+  section: ''
+  clause_no: B.0.5
+  text: 当清洁空调系统或更换过滤器时，应戴护目镜、口罩和防护手套。感染性疾病科室使用的过滤器，应采用一次性产品，更换前应对过滤器进行消毒，拆下的过滤器应按医用垃圾的规定处理。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#B.0.6
+  standard_code: GB 50365-2019
+  chapter: 附录B 综合医院门诊区和病区的空调通风系统运行管理
+  section: ''
+  clause_no: B.0.6
+  text: 过滤器的清洗和消毒应在专用容器中进行，并应在干燥后使用，不得在医疗用房内用城市管网水直接冲洗或用其他方式清洁。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不得
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#B.0.7
+  standard_code: GB 50365-2019
+  chapter: 附录B 综合医院门诊区和病区的空调通风系统运行管理
+  section: ''
+  clause_no: B.0.7
+  text: 在空调通风系统使用期间，应根据使用情况，定期对风管、设备、部件进行清洗和消毒，清洗和消毒方法和应达到的效果应符合现行行业标准《公共场所集中空调通风系统清洗消毒规范》WS/T396的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#B.0.8
+  standard_code: GB 50365-2019
+  chapter: 附录B 综合医院门诊区和病区的空调通风系统运行管理
+  section: ''
+  clause_no: B.0.8
+  text: 当空气处理设备运行时，应检查管道与新风口和回风口的连接状况，不应通过吊顶内的空间进风。附录C空调通风系统能耗系数的计算方法
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#C.0.1
+  standard_code: GB 50365-2019
+  chapter: 附录C 空调通风系统能耗系数的计算方法
+  section: ''
+  clause_no: C.0.1
+  text: 空调通风系统能耗系数（CEC）应按下式计算：CEC =()ZL式中：ZP———建筑物空调通风系统全年一次能源总耗量（kJ)，包括全部冷热源和风机水泵的能耗量；一参照建筑物全年空调负荷累计值（kJ），包括采暖负荷、制冷负荷和新风负荷。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#C.0.2
+  standard_code: GB 50365-2019
+  chapter: 附录C 空调通风系统能耗系数的计算方法
+  section: ''
+  clause_no: C.0.2
+  text: 不同建筑物类型的空调通风系统能耗系数算值宜根据表C.0.2中的推荐值，评估节能潜力。表C.0.2不同建筑物类型的空调通风系统能耗系数（CEC）推荐值CEC推荐值建筑物类型办公楼、学校1.8商场、游乐场
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 宜
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#2.03.0
+  standard_code: GB 50365-2019
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.03.0
+  text: 旅馆、医院本标准用词说明不同的用词说明如下：1）表示很严格，非这样做不可的：正面词采用“必须”，反面词采用“严禁”；2）表示严格，在正常情况下均应这样做的：正面词采用“应”，反面词采用“不应”或“不得”；3）表示允许稍有选择，在条件许可时首先应这样做的：正面词采用“宜反面词采用“不宜”；4）表示有选择，在一定条件下可以应这样做的，采用“可”的规定”或“应按……执行”。引用标准名录息公开《民用建筑隔声设计规范》GB50118《公共建筑节能设计标准》GB50189《建筑电气工程施工质量验收规范》GB50303《民用建筑工程室内环境污染控制规范》GB50325《民用建筑供暖通风与空气调节设计规范》GB50736《设备及管道绝热效果的测试与评价》GB/T8174《医院消毒卫生标准》GBI15982《室内空气中可吸人颗粒物卫生标准》GB/17095《公共场所卫生检验方法第1部分：物理因素》GB/T 18204.1《室内空气质量标准》GB/T18883）《通风系统用空气净化装置》GB/T34012《公共场所集中空调通风系统清洗消毒规范》WS/T396
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 必须
+    - 严禁
+    - 不应
+    - 不得
+    - 宜
+    - 应
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50118
+    target_clause: null
+    original_text: 件下可以应这样做的，采用“可”的规定”或“应按……执行”。引用标准名录息公开《民用建筑隔声设计规范》GB50118《公共建筑节能设计标准》GB50189《建筑电气工程施工质量验收规范》GB503
+    resolution_status: resolved
+    resolution_note: 库内标准（GB 50118-2010），可交叉引用并确认具体参数
+  - target_standard: GB 50189
+    target_clause: null
+    original_text: 或“应按……执行”。引用标准名录息公开《民用建筑隔声设计规范》GB50118《公共建筑节能设计标准》GB50189《建筑电气工程施工质量验收规范》GB50303《民用建筑工程室内环境污染控制规范
+    resolution_status: resolved
+    resolution_note: 库内标准（GB 50189-2015），可交叉引用并确认具体参数
+  related_objects:
+    component_types:
+    - IfcSystem
+    - IfcBuilding
+    activity_types:
+    - 空调通风运行管理
+  conflicts: []
+- id: GB 50365-2019#5.1.6
+  standard_code: GB 50365-2019
+  chapter: 5 节能
+  section: ''
+  clause_no: 5.1.6
+  text: 空调通风系统运行过程中.宜采用无成本或低成本运行措施.
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: GB 50365-2019#5.2.1
+  standard_code: GB 50365-2019
+  chapter: 5 节能
+  section: ''
+  clause_no: 5.2.1
+  text: 大型或功能复杂的公共建筑应进行空调通风系统调适。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+executable_rules:
+- rule_id: R_GB503652019_3_5_1_1
+  source_clause: GB 50365-2019#3.5.1
+  rule_type: validation
+  when:
+  - activity_type == '空调通风运行管理'
+  - component_type IN ['IfcSystem', 'IfcBuilding']
+  then:
+    parameter: 行参数应每
+    unit: h
+    condition: null
+    min_value: 2.0
+    max_value: 2.0
+  source_text: 室外气象参数、冷热源、输送及末端设备运行状态参数和典型房间室内环境参数等宜进行日常巡回检查监测并记录。冷热源等重要设备运行参数应每2h记录一次，其他监测参数运行管理部门可根据实际确定记录时间间隔，记录档案保留时间不应少于2年。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503652019_4_3_1_1
+  source_clause: GB 50365-2019#4.3.1
+  rule_type: validation
+  when:
+  - activity_type == '空调通风运行管理'
+  - component_type IN ['IfcSystem', 'IfcBuilding']
+  then:
+    parameter: 化碳浓度
+    unit: '%'
+    condition: null
+    max_value: 0.1
+  source_text: 空调通风系统在运行期间，应合理控制新风量，空调房间内二氧化碳浓度应小于0.1%。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503652019_4_3_12_1
+  source_clause: GB 50365-2019#4.3.12
+  rule_type: validation
+  when:
+  - activity_type == '空调通风运行管理'
+  - component_type IN ['IfcSystem', 'IfcBuilding']
+  then:
+    parameter: 粒量应少于
+    unit: g/m²
+    condition: null
+    min_value: 1.0
+    max_value: 1.0
+  source_text: 空调通风系统中的风管和空气处理设备应定期检查、清洗和检验，应去除积尘、污物、铁锈和菌斑等，并应符合下列规定：√X风管检查周期每2年不应少于1次，空气处理设备检查周期每年不应少于1次。1）通风系统不满足卫生要求或存在其他污染；2）系统性能下降；3）对室内空气质量有特殊要求。1）当采
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503652019_5_3_8_1
+  source_clause: GB 50365-2019#5.3.8
+  rule_type: validation
+  when:
+  - activity_type == '空调通风运行管理'
+  - component_type IN ['IfcSystem', 'IfcBuilding']
+  then:
+    parameter: 失调率
+    unit: '%'
+    condition: null
+    min_value: 15.0
+  source_text: 当空调通风系统的使用功能和负荷分布发生变化，或空调通风系统温度不平衡时×应对空调水系统和风系统进行平衡调试，水力失调率不宜超过15%，最大不应超过20%；风量失调率不宜超过15%，最大不应超过20%。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503652019_5_3_8_2
+  source_clause: GB 50365-2019#5.3.8
+  rule_type: validation
+  when:
+  - activity_type == '空调通风运行管理'
+  - component_type IN ['IfcSystem', 'IfcBuilding']
+  then:
+    parameter: 调率
+    unit: '%'
+    condition: null
+    min_value: 20.0
+  source_text: 当空调通风系统的使用功能和负荷分布发生变化，或空调通风系统温度不平衡时×应对空调水系统和风系统进行平衡调试，水力失调率不宜超过15%，最大不应超过20%；风量失调率不宜超过15%，最大不应超过20%。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503652019_5_3_16_1
+  source_clause: GB 50365-2019#5.3.16
+  rule_type: validation
+  when:
+  - activity_type == '空调通风运行管理'
+  - component_type IN ['IfcSystem', 'IfcBuilding']
+  then:
+    parameter: 送风高度
+    unit: m
+    condition: null
+    max_value: 5.0
+  source_text: 当制冷工况运行时，宜采用大温差送风，并宜符合下列规定：当送风高度小于或等于5m时，温差不宜超过10℃；当采用高诱导比的散流器时，温差可超过10℃：当送风高度大于5m小于或等于10m时，温差不宜超过15℃;当送风高度在10m以上时，宜按射流理论计算确定；当采用顶部送风（非散流器）时
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503652019_5_3_16_2
+  source_clause: GB 50365-2019#5.3.16
+  rule_type: validation
+  when:
+  - activity_type == '空调通风运行管理'
+  - component_type IN ['IfcSystem', 'IfcBuilding']
+  then:
+    parameter: 送风高度
+    unit: m
+    condition: null
+    min_value: 5.0
+  source_text: 当制冷工况运行时，宜采用大温差送风，并宜符合下列规定：当送风高度小于或等于5m时，温差不宜超过10℃；当采用高诱导比的散流器时，温差可超过10℃：当送风高度大于5m小于或等于10m时，温差不宜超过15℃;当送风高度在10m以上时，宜按射流理论计算确定；当采用顶部送风（非散流器）时
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503652019_5_3_16_3
+  source_clause: GB 50365-2019#5.3.16
+  rule_type: validation
+  when:
+  - activity_type == '空调通风运行管理'
+  - component_type IN ['IfcSystem', 'IfcBuilding']
+  then:
+    parameter: 送风高度
+    unit: m
+    condition: null
+    min_value: 10.0
+  source_text: 当制冷工况运行时，宜采用大温差送风，并宜符合下列规定：当送风高度小于或等于5m时，温差不宜超过10℃；当采用高诱导比的散流器时，温差可超过10℃：当送风高度大于5m小于或等于10m时，温差不宜超过15℃;当送风高度在10m以上时，宜按射流理论计算确定；当采用顶部送风（非散流器）时
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503652019_5_3_16_4
+  source_clause: GB 50365-2019#5.3.16
+  rule_type: validation
+  when:
+  - activity_type == '空调通风运行管理'
+  - component_type IN ['IfcSystem', 'IfcBuilding']
+  then:
+    parameter: 温差
+    unit: m
+    condition: null
+    min_value: 10.0
+  source_text: 当制冷工况运行时，宜采用大温差送风，并宜符合下列规定：当送风高度小于或等于5m时，温差不宜超过10℃；当采用高诱导比的散流器时，温差可超过10℃：当送风高度大于5m小于或等于10m时，温差不宜超过15℃;当送风高度在10m以上时，宜按射流理论计算确定；当采用顶部送风（非散流器）时
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503652019_A_2_3_1
+  source_clause: GB 50365-2019#A.2.3
+  rule_type: validation
+  when:
+  - activity_type == '空调通风运行管理'
+  - component_type IN ['IfcSystem', 'IfcBuilding']
+  then:
+    parameter: 度评价得分
+    unit: '%'
+    condition: null
+    min_value: 40.0
+    max_value: 40.0
+  source_text: 夏季或冬季室内相对湿度的评价满分应为100分，并应符合下列规定：围得出对应的评价分数。表A.2.3-1夏夏季相对湿度评分对应相对湿度（RH）范围单项（相对湿度）评价得分40 %RH60%260%<RHK70%V80分20%<RH<40%或 70%<RH<85%RH<20%或RH≥
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503652019_A_2_3_2
+  source_clause: GB 50365-2019#A.2.3
+  rule_type: validation
+  when:
+  - activity_type == '空调通风运行管理'
+  - component_type IN ['IfcSystem', 'IfcBuilding']
+  then:
+    parameter: 价得分RH
+    unit: '%'
+    condition: null
+    min_value: 60.0
+    max_value: 60.0
+  source_text: 夏季或冬季室内相对湿度的评价满分应为100分，并应符合下列规定：围得出对应的评价分数。表A.2.3-1夏夏季相对湿度评分对应相对湿度（RH）范围单项（相对湿度）评价得分40 %RH60%260%<RHK70%V80分20%<RH<40%或 70%<RH<85%RH<20%或RH≥
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503652019_A_2_3_3
+  source_clause: GB 50365-2019#A.2.3
+  rule_type: validation
+  when:
+  - activity_type == '空调通风运行管理'
+  - component_type IN ['IfcSystem', 'IfcBuilding']
+  then:
+    parameter: 价得分RH
+    unit: '%'
+    condition: null
+    min_value: 260.0
+    max_value: 260.0
+  source_text: 夏季或冬季室内相对湿度的评价满分应为100分，并应符合下列规定：围得出对应的评价分数。表A.2.3-1夏夏季相对湿度评分对应相对湿度（RH）范围单项（相对湿度）评价得分40 %RH60%260%<RHK70%V80分20%<RH<40%或 70%<RH<85%RH<20%或RH≥
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503652019_A_2_3_4
+  source_clause: GB 50365-2019#A.2.3
+  rule_type: validation
+  when:
+  - activity_type == '空调通风运行管理'
+  - component_type IN ['IfcSystem', 'IfcBuilding']
+  then:
+    parameter: RHRHK
+    unit: '%'
+    condition: null
+    min_value: 70.0
+    max_value: 70.0
+  source_text: 夏季或冬季室内相对湿度的评价满分应为100分，并应符合下列规定：围得出对应的评价分数。表A.2.3-1夏夏季相对湿度评分对应相对湿度（RH）范围单项（相对湿度）评价得分40 %RH60%260%<RHK70%V80分20%<RH<40%或 70%<RH<85%RH<20%或RH≥
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503652019_A_2_3_5
+  source_clause: GB 50365-2019#A.2.3
+  rule_type: validation
+  when:
+  - activity_type == '空调通风运行管理'
+  - component_type IN ['IfcSystem', 'IfcBuilding']
+  then:
+    parameter: RHKV分
+    unit: '%'
+    condition: null
+    min_value: 20.0
+    max_value: 20.0
+  source_text: 夏季或冬季室内相对湿度的评价满分应为100分，并应符合下列规定：围得出对应的评价分数。表A.2.3-1夏夏季相对湿度评分对应相对湿度（RH）范围单项（相对湿度）评价得分40 %RH60%260%<RHK70%V80分20%<RH<40%或 70%<RH<85%RH<20%或RH≥
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503652019_A_2_3_6
+  source_clause: GB 50365-2019#A.2.3
+  rule_type: validation
+  when:
+  - activity_type == '空调通风运行管理'
+  - component_type IN ['IfcSystem', 'IfcBuilding']
+  then:
+    parameter: KV分RH
+    unit: '%'
+    condition: null
+    min_value: 40.0
+    max_value: 40.0
+  source_text: 夏季或冬季室内相对湿度的评价满分应为100分，并应符合下列规定：围得出对应的评价分数。表A.2.3-1夏夏季相对湿度评分对应相对湿度（RH）范围单项（相对湿度）评价得分40 %RH60%260%<RHK70%V80分20%<RH<40%或 70%<RH<85%RH<20%或RH≥
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503652019_A_2_3_7
+  source_clause: GB 50365-2019#A.2.3
+  rule_type: validation
+  when:
+  - activity_type == '空调通风运行管理'
+  - component_type IN ['IfcSystem', 'IfcBuilding']
+  then:
+    parameter: V分RH
+    unit: '%'
+    condition: null
+    min_value: 70.0
+    max_value: 70.0
+  source_text: 夏季或冬季室内相对湿度的评价满分应为100分，并应符合下列规定：围得出对应的评价分数。表A.2.3-1夏夏季相对湿度评分对应相对湿度（RH）范围单项（相对湿度）评价得分40 %RH60%260%<RHK70%V80分20%<RH<40%或 70%<RH<85%RH<20%或RH≥
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503652019_A_2_3_8
+  source_clause: GB 50365-2019#A.2.3
+  rule_type: validation
+  when:
+  - activity_type == '空调通风运行管理'
+  - component_type IN ['IfcSystem', 'IfcBuilding']
+  then:
+    parameter: RH或RH
+    unit: '%'
+    condition: null
+    min_value: 85.0
+    max_value: 85.0
+  source_text: 夏季或冬季室内相对湿度的评价满分应为100分，并应符合下列规定：围得出对应的评价分数。表A.2.3-1夏夏季相对湿度评分对应相对湿度（RH）范围单项（相对湿度）评价得分40 %RH60%260%<RHK70%V80分20%<RH<40%或 70%<RH<85%RH<20%或RH≥
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503652019_A_2_3_9
+  source_clause: GB 50365-2019#A.2.3
+  rule_type: validation
+  when:
+  - activity_type == '空调通风运行管理'
+  - component_type IN ['IfcSystem', 'IfcBuilding']
+  then:
+    parameter: RHRH
+    unit: '%'
+    condition: null
+    min_value: 20.0
+    max_value: 20.0
+  source_text: 夏季或冬季室内相对湿度的评价满分应为100分，并应符合下列规定：围得出对应的评价分数。表A.2.3-1夏夏季相对湿度评分对应相对湿度（RH）范围单项（相对湿度）评价得分40 %RH60%260%<RHK70%V80分20%<RH<40%或 70%<RH<85%RH<20%或RH≥
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503652019_A_2_3_10
+  source_clause: GB 50365-2019#A.2.3
+  rule_type: validation
+  when:
+  - activity_type == '空调通风运行管理'
+  - component_type IN ['IfcSystem', 'IfcBuilding']
+  then:
+    parameter: RH或RH
+    unit: '%'
+    condition: null
+    min_value: 85.0
+  source_text: 夏季或冬季室内相对湿度的评价满分应为100分，并应符合下列规定：围得出对应的评价分数。表A.2.3-1夏夏季相对湿度评分对应相对湿度（RH）范围单项（相对湿度）评价得分40 %RH60%260%<RHK70%V80分20%<RH<40%或 70%<RH<85%RH<20%或RH≥
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503652019_A_2_3_11
+  source_clause: GB 50365-2019#A.2.3
+  rule_type: validation
+  when:
+  - activity_type == '空调通风运行管理'
+  - component_type IN ['IfcSystem', 'IfcBuilding']
+  then:
+    parameter: 度评价得分
+    unit: '%'
+    condition: null
+    max_value: 60.0
+  source_text: 夏季或冬季室内相对湿度的评价满分应为100分，并应符合下列规定：围得出对应的评价分数。表A.2.3-1夏夏季相对湿度评分对应相对湿度（RH）范围单项（相对湿度）评价得分40 %RH60%260%<RHK70%V80分20%<RH<40%或 70%<RH<85%RH<20%或RH≥
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503652019_A_2_3_12
+  source_clause: GB 50365-2019#A.2.3
+  rule_type: validation
+  when:
+  - activity_type == '空调通风运行管理'
+  - component_type IN ['IfcSystem', 'IfcBuilding']
+  then:
+    parameter: 度评价得分
+    unit: '%'
+    condition: null
+    max_value: 30.0
+  source_text: 夏季或冬季室内相对湿度的评价满分应为100分，并应符合下列规定：围得出对应的评价分数。表A.2.3-1夏夏季相对湿度评分对应相对湿度（RH）范围单项（相对湿度）评价得分40 %RH60%260%<RHK70%V80分20%<RH<40%或 70%<RH<85%RH<20%或RH≥
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503652019_A_2_3_14
+  source_clause: GB 50365-2019#A.2.3
+  rule_type: validation
+  when:
+  - activity_type == '空调通风运行管理'
+  - component_type IN ['IfcSystem', 'IfcBuilding']
+  then:
+    parameter: H
+    unit: '%'
+    condition: null
+    max_value: 20.0
+  source_text: 夏季或冬季室内相对湿度的评价满分应为100分，并应符合下列规定：围得出对应的评价分数。表A.2.3-1夏夏季相对湿度评分对应相对湿度（RH）范围单项（相对湿度）评价得分40 %RH60%260%<RHK70%V80分20%<RH<40%或 70%<RH<85%RH<20%或RH≥
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503652019_A_2_4_1
+  source_clause: GB 50365-2019#A.2.4
+  rule_type: validation
+  when:
+  - activity_type == '空调通风运行管理'
+  - component_type IN ['IfcSystem', 'IfcBuilding']
+  then:
+    parameter: 评价得分
+    unit: m
+    condition: null
+    min_value: 0.3
+  source_text: 夏季或冬季室内气流速度的评价满分应为100分，并应符合下列规定：范围得出对应的评价分数。夏季气流速度评分表-1对应（气流速度）范围单项（气流速度）评价得分不大于0.3m/s大于0.3m/s范围得出对应的评价分数。表-2冬季气流速度评分对应（气流速度》范围单项（气流速度）评价得分不
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503652019_A_2_4_2
+  source_clause: GB 50365-2019#A.2.4
+  rule_type: validation
+  when:
+  - activity_type == '空调通风运行管理'
+  - component_type IN ['IfcSystem', 'IfcBuilding']
+  then:
+    parameter: 评价得分
+    unit: m
+    condition: null
+    min_value: 2.0
+  source_text: 夏季或冬季室内气流速度的评价满分应为100分，并应符合下列规定：范围得出对应的评价分数。夏季气流速度评分表-1对应（气流速度）范围单项（气流速度）评价得分不大于0.3m/s大于0.3m/s范围得出对应的评价分数。表-2冬季气流速度评分对应（气流速度》范围单项（气流速度）评价得分不
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503652019_A_2_6_1
+  source_clause: GB 50365-2019#A.2.6
+  rule_type: validation
+  when:
+  - activity_type == '空调通风运行管理'
+  - component_type IN ['IfcSystem', 'IfcBuilding']
+  then:
+    parameter: 氧化碳浓度
+    unit: '%'
+    condition: null
+    min_value: 0.1
+    max_value: 0.1
+  source_text: 室内新风量的评价满分应为100分并应符合下列规定：应根据室内二氧化碳实测浓度评价人均新风量，可按表查出对应的评价分数。表人均新风量评分室内二氧化碳实测浓度评价得分二氧化碳浓度<0.1%二氧化碳浓度≥0.1%法第1部分：物理因素》GB/T18204.1的规定执行。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503652019_A_2_6_2
+  source_clause: GB 50365-2019#A.2.6
+  rule_type: validation
+  when:
+  - activity_type == '空调通风运行管理'
+  - component_type IN ['IfcSystem', 'IfcBuilding']
+  then:
+    parameter: 氧化碳浓度
+    unit: '%'
+    condition: null
+    min_value: 0.1
+  source_text: 室内新风量的评价满分应为100分并应符合下列规定：应根据室内二氧化碳实测浓度评价人均新风量，可按表查出对应的评价分数。表人均新风量评分室内二氧化碳实测浓度评价得分二氧化碳浓度<0.1%二氧化碳浓度≥0.1%法第1部分：物理因素》GB/T18204.1的规定执行。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503652019_A_2_7_1
+  source_clause: GB 50365-2019#A.2.7
+  rule_type: validation
+  when:
+  - activity_type == '空调通风运行管理'
+  - component_type IN ['IfcSystem', 'IfcBuilding']
+  then:
+    parameter: 昼间LAg
+    unit: d
+    condition: null
+    min_value: 55.0
+    max_value: 55.0
+  source_text: 室内噪声的评价满分应为100分，并应符合下列规定：LAeg符合国家现行相关标准的前提下，根据实测室内噪声值，可按表A.2.7查出对应的评价分数。评价得分：0分昼间：LAg>55dB(A)夜间：LAg>45dB(A)夜间：LAa>55dB(A)昼间：LAeg>60dB(A)：50分
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503652019_A_2_7_2
+  source_clause: GB 50365-2019#A.2.7
+  rule_type: validation
+  when:
+  - activity_type == '空调通风运行管理'
+  - component_type IN ['IfcSystem', 'IfcBuilding']
+  then:
+    parameter: 夜间LAg
+    unit: d
+    condition: null
+    min_value: 45.0
+    max_value: 45.0
+  source_text: 室内噪声的评价满分应为100分，并应符合下列规定：LAeg符合国家现行相关标准的前提下，根据实测室内噪声值，可按表A.2.7查出对应的评价分数。评价得分：0分昼间：LAg>55dB(A)夜间：LAg>45dB(A)夜间：LAa>55dB(A)昼间：LAeg>60dB(A)：50分
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503652019_A_2_7_3
+  source_clause: GB 50365-2019#A.2.7
+  rule_type: validation
+  when:
+  - activity_type == '空调通风运行管理'
+  - component_type IN ['IfcSystem', 'IfcBuilding']
+  then:
+    parameter: 夜间LAa
+    unit: d
+    condition: null
+    min_value: 55.0
+    max_value: 55.0
+  source_text: 室内噪声的评价满分应为100分，并应符合下列规定：LAeg符合国家现行相关标准的前提下，根据实测室内噪声值，可按表A.2.7查出对应的评价分数。评价得分：0分昼间：LAg>55dB(A)夜间：LAg>45dB(A)夜间：LAa>55dB(A)昼间：LAeg>60dB(A)：50分
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503652019_A_2_7_4
+  source_clause: GB 50365-2019#A.2.7
+  rule_type: validation
+  when:
+  - activity_type == '空调通风运行管理'
+  - component_type IN ['IfcSystem', 'IfcBuilding']
+  then:
+    parameter: 间LAeg
+    unit: d
+    condition: null
+    min_value: 60.0
+    max_value: 60.0
+  source_text: 室内噪声的评价满分应为100分，并应符合下列规定：LAeg符合国家现行相关标准的前提下，根据实测室内噪声值，可按表A.2.7查出对应的评价分数。评价得分：0分昼间：LAg>55dB(A)夜间：LAg>45dB(A)夜间：LAa>55dB(A)昼间：LAeg>60dB(A)：50分
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503652019_A_2_7_6
+  source_clause: GB 50365-2019#A.2.7
+  rule_type: validation
+  when:
+  - activity_type == '空调通风运行管理'
+  - component_type IN ['IfcSystem', 'IfcBuilding']
+  then:
+    parameter: ALAeg
+    unit: d
+    condition: null
+    max_value: 55.0
+  source_text: 室内噪声的评价满分应为100分，并应符合下列规定：LAeg符合国家现行相关标准的前提下，根据实测室内噪声值，可按表A.2.7查出对应的评价分数。评价得分：0分昼间：LAg>55dB(A)夜间：LAg>45dB(A)夜间：LAa>55dB(A)昼间：LAeg>60dB(A)：50分
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503652019_A_2_7_7
+  source_clause: GB 50365-2019#A.2.7
+  rule_type: validation
+  when:
+  - activity_type == '空调通风运行管理'
+  - component_type IN ['IfcSystem', 'IfcBuilding']
+  then:
+    parameter: 间夜间昼间
+    unit: d
+    condition: null
+    min_value: 55.0
+    max_value: 55.0
+  source_text: 室内噪声的评价满分应为100分，并应符合下列规定：LAeg符合国家现行相关标准的前提下，根据实测室内噪声值，可按表A.2.7查出对应的评价分数。评价得分：0分昼间：LAg>55dB(A)夜间：LAg>45dB(A)夜间：LAa>55dB(A)昼间：LAeg>60dB(A)：50分
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503652019_A_2_7_8
+  source_clause: GB 50365-2019#A.2.7
+  rule_type: validation
+  when:
+  - activity_type == '空调通风运行管理'
+  - component_type IN ['IfcSystem', 'IfcBuilding']
+  then:
+    parameter: 昼间dBA
+    unit: d
+    condition: null
+    min_value: 55.0
+    max_value: 55.0
+  source_text: 室内噪声的评价满分应为100分，并应符合下列规定：LAeg符合国家现行相关标准的前提下，根据实测室内噪声值，可按表A.2.7查出对应的评价分数。评价得分：0分昼间：LAg>55dB(A)夜间：LAg>45dB(A)夜间：LAa>55dB(A)昼间：LAeg>60dB(A)：50分
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503652019_A_2_7_9
+  source_clause: GB 50365-2019#A.2.7
+  rule_type: validation
+  when:
+  - activity_type == '空调通风运行管理'
+  - component_type IN ['IfcSystem', 'IfcBuilding']
+  then:
+    parameter: BAdBA
+    unit: d
+    condition: null
+    min_value: 60.0
+    max_value: 60.0
+  source_text: 室内噪声的评价满分应为100分，并应符合下列规定：LAeg符合国家现行相关标准的前提下，根据实测室内噪声值，可按表A.2.7查出对应的评价分数。评价得分：0分昼间：LAg>55dB(A)夜间：LAg>45dB(A)夜间：LAa>55dB(A)昼间：LAeg>60dB(A)：50分
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503652019_A_2_7_10
+  source_clause: GB 50365-2019#A.2.7
+  rule_type: validation
+  when:
+  - activity_type == '空调通风运行管理'
+  - component_type IN ['IfcSystem', 'IfcBuilding']
+  then:
+    parameter: 间昼间昼间
+    unit: d
+    condition: null
+    min_value: 50.0
+    max_value: 50.0
+  source_text: 室内噪声的评价满分应为100分，并应符合下列规定：LAeg符合国家现行相关标准的前提下，根据实测室内噪声值，可按表A.2.7查出对应的评价分数。评价得分：0分昼间：LAg>55dB(A)夜间：LAg>45dB(A)夜间：LAa>55dB(A)昼间：LAeg>60dB(A)：50分
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503652019_A_2_7_11
+  source_clause: GB 50365-2019#A.2.7
+  rule_type: validation
+  when:
+  - activity_type == '空调通风运行管理'
+  - component_type IN ['IfcSystem', 'IfcBuilding']
+  then:
+    parameter: 昼间dBA
+    unit: d
+    condition: null
+    min_value: 40.0
+    max_value: 40.0
+  source_text: 室内噪声的评价满分应为100分，并应符合下列规定：LAeg符合国家现行相关标准的前提下，根据实测室内噪声值，可按表A.2.7查出对应的评价分数。评价得分：0分昼间：LAg>55dB(A)夜间：LAg>45dB(A)夜间：LAa>55dB(A)昼间：LAeg>60dB(A)：50分
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503652019_A_2_7_12
+  source_clause: GB 50365-2019#A.2.7
+  rule_type: validation
+  when:
+  - activity_type == '空调通风运行管理'
+  - component_type IN ['IfcSystem', 'IfcBuilding']
+  then:
+    parameter: BAdBA
+    unit: d
+    condition: null
+    min_value: 50.0
+    max_value: 50.0
+  source_text: 室内噪声的评价满分应为100分，并应符合下列规定：LAeg符合国家现行相关标准的前提下，根据实测室内噪声值，可按表A.2.7查出对应的评价分数。评价得分：0分昼间：LAg>55dB(A)夜间：LAg>45dB(A)夜间：LAa>55dB(A)昼间：LAeg>60dB(A)：50分
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503652019_A_2_7_13
+  source_clause: GB 50365-2019#A.2.7
+  rule_type: validation
+  when:
+  - activity_type == '空调通风运行管理'
+  - component_type IN ['IfcSystem', 'IfcBuilding']
+  then:
+    parameter: BAdBA
+    unit: d
+    condition: null
+    min_value: 55.0
+    max_value: 55.0
+  source_text: 室内噪声的评价满分应为100分，并应符合下列规定：LAeg符合国家现行相关标准的前提下，根据实测室内噪声值，可按表A.2.7查出对应的评价分数。评价得分：0分昼间：LAg>55dB(A)夜间：LAg>45dB(A)夜间：LAa>55dB(A)昼间：LAeg>60dB(A)：50分
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503652019_A_2_7_14
+  source_clause: GB 50365-2019#A.2.7
+  rule_type: validation
+  when:
+  - activity_type == '空调通风运行管理'
+  - component_type IN ['IfcSystem', 'IfcBuilding']
+  then:
+    parameter: 间LAeq
+    unit: d
+    condition: null
+    max_value: 45.0
+  source_text: 室内噪声的评价满分应为100分，并应符合下列规定：LAeg符合国家现行相关标准的前提下，根据实测室内噪声值，可按表A.2.7查出对应的评价分数。评价得分：0分昼间：LAg>55dB(A)夜间：LAg>45dB(A)夜间：LAa>55dB(A)昼间：LAeg>60dB(A)：50分
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503652019_A_3_1_1
+  source_clause: GB 50365-2019#A.3.1
+  rule_type: validation
+  when:
+  - activity_type == '空调通风运行管理'
+  - component_type IN ['IfcSystem', 'IfcBuilding']
+  then:
+    parameter: 得分满意率
+    unit: '%'
+    condition: null
+    min_value: 90.0
+    max_value: 90.0
+  source_text: 服务评价分数S2可选取不少于15人的空调用户进行抽查，并应按表A.3.1选项评分，满分应为120分表A.3.1服务评分满意程度评价得分满意率>90%80%<满意率≤90%Z70%<满意率≤80%60%<满意率<70%%满意率60%满意率≤50%
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503652019_A_3_1_2
+  source_clause: GB 50365-2019#A.3.1
+  rule_type: validation
+  when:
+  - activity_type == '空调通风运行管理'
+  - component_type IN ['IfcSystem', 'IfcBuilding']
+  then:
+    parameter: 得分满意率
+    unit: '%'
+    condition: null
+    min_value: 80.0
+    max_value: 80.0
+  source_text: 服务评价分数S2可选取不少于15人的空调用户进行抽查，并应按表A.3.1选项评分，满分应为120分表A.3.1服务评分满意程度评价得分满意率>90%80%<满意率≤90%Z70%<满意率≤80%60%<满意率<70%%满意率60%满意率≤50%
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503652019_A_3_1_3
+  source_clause: GB 50365-2019#A.3.1
+  rule_type: validation
+  when:
+  - activity_type == '空调通风运行管理'
+  - component_type IN ['IfcSystem', 'IfcBuilding']
+  then:
+    parameter: 意率满意率
+    unit: '%'
+    condition: null
+    max_value: 90.0
+  source_text: 服务评价分数S2可选取不少于15人的空调用户进行抽查，并应按表A.3.1选项评分，满分应为120分表A.3.1服务评分满意程度评价得分满意率>90%80%<满意率≤90%Z70%<满意率≤80%60%<满意率<70%%满意率60%满意率≤50%
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503652019_A_3_1_4
+  source_clause: GB 50365-2019#A.3.1
+  rule_type: validation
+  when:
+  - activity_type == '空调通风运行管理'
+  - component_type IN ['IfcSystem', 'IfcBuilding']
+  then:
+    parameter: 满意率
+    unit: '%'
+    condition: null
+    max_value: 70.0
+  source_text: 服务评价分数S2可选取不少于15人的空调用户进行抽查，并应按表A.3.1选项评分，满分应为120分表A.3.1服务评分满意程度评价得分满意率>90%80%<满意率≤90%Z70%<满意率≤80%60%<满意率<70%%满意率60%满意率≤50%
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503652019_A_3_1_5
+  source_clause: GB 50365-2019#A.3.1
+  rule_type: validation
+  when:
+  - activity_type == '空调通风运行管理'
+  - component_type IN ['IfcSystem', 'IfcBuilding']
+  then:
+    parameter: 满意率
+    unit: '%'
+    condition: null
+    max_value: 80.0
+  source_text: 服务评价分数S2可选取不少于15人的空调用户进行抽查，并应按表A.3.1选项评分，满分应为120分表A.3.1服务评分满意程度评价得分满意率>90%80%<满意率≤90%Z70%<满意率≤80%60%<满意率<70%%满意率60%满意率≤50%
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503652019_A_3_1_7
+  source_clause: GB 50365-2019#A.3.1
+  rule_type: validation
+  when:
+  - activity_type == '空调通风运行管理'
+  - component_type IN ['IfcSystem', 'IfcBuilding']
+  then:
+    parameter: 意率满意率
+    unit: '%'
+    condition: null
+    min_value: 60.0
+    max_value: 60.0
+  source_text: 服务评价分数S2可选取不少于15人的空调用户进行抽查，并应按表A.3.1选项评分，满分应为120分表A.3.1服务评分满意程度评价得分满意率>90%80%<满意率≤90%Z70%<满意率≤80%60%<满意率<70%%满意率60%满意率≤50%
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB503652019_A_3_1_8
+  source_clause: GB 50365-2019#A.3.1
+  rule_type: validation
+  when:
+  - activity_type == '空调通风运行管理'
+  - component_type IN ['IfcSystem', 'IfcBuilding']
+  then:
+    parameter: 意率满意率
+    unit: '%'
+    condition: null
+    max_value: 50.0
+  source_text: 服务评价分数S2可选取不少于15人的空调用户进行抽查，并应按表A.3.1选项评分，满分应为120分表A.3.1服务评分满意程度评价得分满意率>90%80%<满意率≤90%Z70%<满意率≤80%60%<满意率<70%%满意率60%满意率≤50%
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+extraction_notes:
+- 疑似残缺/误标条文 GB 50365-2019#3.5.4：'应建立完整的系统监测、计量设备台账及技术档案。'，建议核对源 PDF 重提取。
+- 住建部公告2019年第135号：第4.2.1、4.2.5条为强制性条文（2019-12-01 实施）。

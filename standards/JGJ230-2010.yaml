@@ -1,0 +1,5578 @@
+standard:
+  code: JGJ 230-2010
+  name: 倒置式屋面工程技术规程
+  name_note: null
+  version: '2010'
+  status: 现行
+  is_abolished: false
+  effective_date: null
+  abolished_date: null
+  superseded_by: null
+  standard_category: 行业标准
+  domain:
+  - 防水
+  - 屋面
+  region_scope: 全国
+  region_codes: []
+  has_mandatory_clauses: true
+  mandatory_clause_count: 2
+  mandatory_note: null
+  total_clauses: 85
+  related_standards:
+  - code: GB 55030-2022
+    relationship: 上位通用规范（已废止本规程相关强条效力）
+  - code: GB 50345-2012
+    relationship: 协调（屋面工程技术规范）
+  clauses:
+  - JGJ 230-2010#2.0.3
+  - JGJ 230-2010#2.0.5
+  - JGJ 230-2010#2.0.6
+  - JGJ 230-2010#3.0.1
+  - JGJ 230-2010#3.0.2
+  - JGJ 230-2010#3.0.3
+  - JGJ 230-2010#3.0.7
+  - JGJ 230-2010#4.2.2
+  - JGJ 230-2010#4.3.2
+  - JGJ 230-2010#4.3.3
+  - JGJ 230-2010#4.3.4
+  - JGJ 230-2010#4.3.5
+  - JGJ 230-2010#4.3.6
+  - JGJ 230-2010#4.3.8
+  - JGJ 230-2010#4.3.11
+  - JGJ 230-2010#4.3.13
+  - JGJ 230-2010#5.1.1
+  - JGJ 230-2010#5.1.10
+  - JGJ 230-2010#5.2.4
+  - JGJ 230-2010#5.2.5
+  - JGJ 230-2010#5.3.3
+  - JGJ 230-2010#5.3.4
+  - JGJ 230-2010#5.3.5
+  - JGJ 230-2010#5.3.6
+  - JGJ 230-2010#5.3.10
+  - JGJ 230-2010#6.1.1
+  - JGJ 230-2010#6.2.3
+  - JGJ 230-2010#6.2.4
+  - JGJ 230-2010#6.3.1
+  - JGJ 230-2010#6.3.3
+  - JGJ 230-2010#6.4.3
+  - JGJ 230-2010#6.4.4
+  - JGJ 230-2010#6.4.5
+  - JGJ 230-2010#6.4.6
+  - JGJ 230-2010#6.4.7
+  - JGJ 230-2010#6.4.8
+  - JGJ 230-2010#6.4.12
+  - JGJ 230-2010#7.3.3
+  - JGJ 230-2010#7.3.4
+  - JGJ 230-2010#8.2.3
+  - JGJ 230-2010#8.2.6
+  - JGJ 230-2010#8.2.7
+  - JGJ 230-2010#8.2.9
+  - JGJ 230-2010#8.3.2
+  - JGJ 230-2010#8.3.3
+  - JGJ 230-2010#8.3.4
+  - JGJ 230-2010#8.4.2
+  - JGJ 230-2010#8.4.3
+  - JGJ 230-2010#8.4.4
+  - JGJ 230-2010#8.4.7
+  - JGJ 230-2010#8.4.8
+  - JGJ 230-2010#8.5.2
+  - JGJ 230-2010#8.5.4
+  - JGJ 230-2010#8.6.3
+  - JGJ 230-2010#8.6.4
+  - JGJ 230-2010#8.6.7
+  - JGJ 230-2010#8.6.8
+  - JGJ 230-2010#8.6.9
+  - JGJ 230-2010#8.6.10
+  - JGJ 230-2010#A.0.2
+  - JGJ 230-2010#B.0.1
+  - JGJ 230-2010#B.0.2
+  - JGJ 230-2010#3.0.4
+  - JGJ 230-2010#3.0.5
+  - JGJ 230-2010#3.0.6
+  - JGJ 230-2010#4.1.1
+  - JGJ 230-2010#4.3.7
+  - JGJ 230-2010#4.3.9
+  - JGJ 230-2010#4.3.10
+  - JGJ 230-2010#5.2.2
+  - JGJ 230-2010#5.2.3
+  - JGJ 230-2010#5.2.6
+  - JGJ 230-2010#5.3.1
+  - JGJ 230-2010#5.3.8
+  - JGJ 230-2010#5.3.9
+  - JGJ 230-2010#5.3.12
+  - JGJ 230-2010#6.4.9
+  - JGJ 230-2010#6.5.2
+  - JGJ 230-2010#6.5.4
+  - JGJ 230-2010#6.5.6
+  - JGJ 230-2010#7.1.1
+  - JGJ 230-2010#7.2.2
+  - JGJ 230-2010#8.4.5
+  - JGJ 230-2010#8.4.6
+  - JGJ 230-2010#8.6.2
+  schema_version: v2.1
+  last_reviewed_date: '2026-09-07'
+clauses:
+- id: JGJ 230-2010#2.0.3
+  standard_code: JGJ 230-2010
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.3
+  text: 模塑聚苯乙烯泡沫塑料板（EPS) molded polystyrene foam board 采用可发性聚苯乙烯珠粒经加热预发泡后，在模具中加热成 型的具有闭孔结构的泡沫塑料板。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: may
+    modal_words:
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#2.0.5
+  standard_code: JGJ 230-2010
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.5
+  text: prefabricatedrigid polyurethane f倒丑board硬泡聚氨醋板工厂生产的硬泡聚氨醋制品。通常分为不带面层的硬泡聚氨醋板和双面复合增强材料的硬泡聚氨醋复合板。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#2.0.6
+  standard_code: JGJ 230-2010
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.6
+  text: 硬泡聚氨醋防水保温复合板 composite waterproof and insulation prefabricated rigid polyurethane foam board 工厂生产的以硬泡聚氨醋为芯材，底层为易粘贴界面衬材， 面层覆以防水卷材或涂膜，具有防水保温一体化功能的复合板。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#3.0.1
+  standard_code: JGJ 230-2010
+  chapter: 3 基本规定
+  section: ''
+  clause_no: 3.0.1
+  text: 倒置式屋面工程的防水等级应为I 级，防水层合理使用年限不得少于20年。
+  is_abolished: true
+  abolished_date: '2023-04-01'
+  superseded_by: GB 55030-2022
+  abolition_note: 被《GB 55030-2022》废止强制性条文效力（住房城乡建设部公告，2023-04-01实施）
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不得
+    is_mandatory_clause: true
+    mandatory_basis: 黑体强制性条文
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#3.0.2
+  standard_code: JGJ 230-2010
+  chapter: 3 基本规定
+  section: ''
+  clause_no: 3.0.2
+  text: 倒置式屋面工程的保温层使用年限不宜低于防水层使用年限。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: should
+    modal_words:
+    - 不宜
+    - 宜
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#3.0.3
+  standard_code: JGJ 230-2010
+  chapter: 3 基本规定
+  section: ''
+  clause_no: 3.0.3
+  text: 倒置式屋面应保持屋面排水畅通。 3. o. 4 倒置式屋面工程应根据工程特点、地区自然及气候条件 等要求，进行防水、保温等构造设计，重要部位应有节点详图。 3. o. 5 倒置式屋面防水工程应由有相应资质的专业施工单位承 担，作业人员应经培训持证上岗。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#3.0.7
+  standard_code: JGJ 230-2010
+  chapter: 3 基本规定
+  section: ''
+  clause_no: 3.0.7
+  text: 倒置式屋面防水层完成后，平屋面应进行24h 蓄水检验， 坡屋面应进行持续2h 淋水检验，并应在检验合格后再进行保温 层施工。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 屋面应进行
+    unit: h
+    condition: null
+    min_value: 24.0
+    max_value: 24.0
+  - name: 进行持续
+    unit: h
+    condition: null
+    min_value: 2.0
+    max_value: 2.0
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50345
+    target_clause: null
+    original_text: 4.2防水材料4. 2.1防水材料的物理性能和外观质量应符合现行国家标准《屋面工程技术规范》GB50345的规定。
+    resolution_status: resolved
+    resolution_note: 库内标准（GB 50345-2012），可交叉引用并确认具体参数
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#4.2.2
+  standard_code: JGJ 230-2010
+  chapter: 4 材料
+  section: ''
+  clause_no: 4.2.2
+  text: 防水层的厚度应符合设计要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 眼水率
+    unit: '%'
+    condition: null
+    min_value: 3.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#4.3.2
+  standard_code: JGJ 230-2010
+  chapter: 4 材料
+  section: ''
+  clause_no: 4.3.2
+  text: 倒置式屋面的保温材料可选用挤塑聚苯乙烯泡沫塑料板、硬泡聚氨醋板、硬泡聚氨酣防水保温复合板、喷涂硬泡聚氨醋及泡沫玻璃保温板等。模塑聚苯乙烯泡沫塑料板的吸水率应符合设计要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 目前适用于倒置式屋面效果较好的保温材料主要有挤塑型聚苯乙烯泡沫塑料板、硬泡聚氨醋保温板、硬泡聚氨醋防水保温复合板、喷涂硬泡聚氨醋及泡沫玻璃保温板等。模塑型聚苯乙烯泡沫塑料板、屋面复合保温板一般吸水率较大，当用于倒置式屋面时，应根据设计要求，优选低吸水率的材料。选用的硬泡聚氨醋保温材料耐久性能应满足防水层合理使用年限要求。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#4.3.3
+  standard_code: JGJ 230-2010
+  chapter: 4 材料
+  section: ''
+  clause_no: 4.3.3
+  text: 挤塑聚苯乙烯泡沫塑料板的主要物理性能应符合
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表4.
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表4. 3. 3的规定。表4.3.3挤塑聚苯乙烯泡沫塑料板主要物理性能性能指标试验项目试验方法Xl50X2SOX350X600现行国家标准《硬质压缩强度，kPa二主150二三250二:o,:j50二主600泡沫塑料压缩性能的测定》GB/T88B现行国家标准《绝热导热系数（25℃）．材料稳态热阻及有关主二0.030三三0.030王三0.030三三0.030W/(m•K)特性的测定防护热板法》GB/T10294现行国家标准《硬质吸水率（V/V).%<1.5三l.0三三1.0＝二1.0泡沫塑料吸水率的测定》GB/T8810现行国家标准《泡沫表观密度，kg/m3二＞－20主主25二主30二三40塑料及橡胶表观密度的测定》GB/T6343现行国家标准《硬质尺寸稳定性泡沫塑料尺寸稳定三二l.5ζ］. 5:S;:l. 5<].5(70℃. 48h), %性试验方法》GB/T 8811水蒸气渗透系数现行行业标准《硬质泡(23℃，RH50%),4二3.5运：t三二3主二2沫塑料水蒸气透过性ng/(m • s •Pa)能的测定》QB/T2411现行国家标准《建筑燃烧性能等级不低于B2级材料及制品燃烧性能分级））GB 8624
+  converted_tables:
+  - raw: 挤塑聚苯乙烯泡沫塑料（XPS）的表观密度一般随压缩强度的增高而增大，但不是简单的线性关系，由于这类保温材料的其他性能与表观密度没有直接关系，而是由其独特的分子构造所决定的，而不像其他两种保温材料（EPS 、PU）的性能与表现密度那么直接，因此本表只给出一个较宽泛的密度指标。此处对XPS 尺寸稳定性均要求不大于1.5% ，该指标对于低强度的XPS 板（Xl50 ）来说严于《绝热用挤塑聚苯乙烯泡沫GB/T10801. 2塑料（XPS）》2002要求的2.0% ，对于X600的XPS 来说则宽于该标准要求的1.0% 。由于倒置式屋面构造或者采用细石混凝土保护层，且增设钢丝网加强，对XPS的尺寸稳定性要求不高，或者是采用块材或卵石保护层，采用的是松铺方式，对尺寸稳定性的要求也可以放宽；对于高强XPS主要用于重型荷载，这种场合下的保护层一般都是钢筋混凝土板，XPS 板的尺寸稳定性已不重要。因此，从实际应用角度，本表的尺寸稳定性要求不大于1.5% 已经足够。此处采用《建筑材料燃烧性能分级方法》GB8624 -1997的分级标准和相应的检测方法，主要是公安部公通宇［2009]46号文件：关于印发《民用建筑外保温系统及外墙装饰防火暂行规定》的通知及暂行规定中对于屋面保温材料的燃烧性能仍采用GB 8624 -1997的分级标准，这个暂行规定没有采纳已经颁布实施的最新版本《建筑材料及制品燃烧性能分级》GB86242006的分级标准。作为应用型标准，本规程与相关最新的工程标准或规定相协调，随后章节的其他保温材料亦然。根据不同使用条件，挤塑型聚苯乙烯泡沫塑料板按照压缩强度分为若干等级。但对于屋面工程，挤塑型聚苯乙烯泡沫塑料板的压缩强度，一般不上人和上人屋面采用Xl50级，中型荷载屋面可通过荷载计算采用X250或X350级，重型荷载如行车屋面采用X600级或通过荷载计算确定，所以本规范没有罗列挤塑型聚苯乙烯泡沫塑料板的全部产品类型。4. 3. 4在性能满足设计要求前提下，模塑聚苯乙烯也沫塑料板也可用于倒置屋面工程，但要严格控制其吸水率。根据使用条件和工程需要，按照压缩强度来确定，Ill 型～VI型的模塑型聚苯乙烯泡沫塑料板可用于倒置式屋面工程，I型和H 型模塑型聚苯乙烯泡沫塑料板由于压缩强度太低而不适于屋面工程。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#4.3.4
+  standard_code: JGJ 230-2010
+  chapter: 4 材料
+  section: ''
+  clause_no: 4.3.4
+  text: 模塑聚苯乙烯泡沫塑料板的主要物理性能应符合表4.3.4 的规定。 5 表4.3.4 模盟聚苯乙烯泡沫塑料板主要物理性能 性能指标 试验项目 试验方法 皿型 N 裂 V 型 VI 型 现行国家标准《硬质泡 压缩强度， kPa 二三150 二:00200 二三300 二主400 沫塑料压缩性能的测定》 GB/T 8813 导热系数（25℃）． 现行国家标准《绝热材料稳 W/<m • K) < 0.039 主运0.039 4二0.039 主ζ0.039 态热阻及有关特性的测 定防护热板法》GB/T 10294 吸水率 现行国家标准《硬质泡沫 (V/V),% 王三2.0 主三。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表4.
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表4. 3. 4的规定。表4.3.4模盟聚苯乙烯泡沫塑料板主要物理性能性能指标试验项目试验方法皿型N 裂V 型VI 型现行国家标准《硬质泡压缩强度，kPa二三150二:00200二三300二主400沫塑料压缩性能的测定》GB/T 8813现行国家标准《绝热材料稳导热系数（25℃）．<0.039主运0.0394二0.039主ζ0.039态热阻及有关特性的测W/<m • K)定防护热板法》GB/T 10294现行国家标准《硬质泡沫吸水率运2.0王三2.0主三2.04二2.0塑料吸水率的测定》GB/(V/V),%T 8810现行国家标准《泡沫塑料表观密度，及橡胶表观密度的测定》kg/m3二:0030二主40二三50二三60GB/T 6343现行国家标准《硬质泡沫尺寸稳定性<1.5<1.5<1.5~l. 5塑料尺寸稳定性试验方(70℃，48怕，%法》GB/T8811水蒸气渗透系数现行行业标准《硬质泡沫(23℃，RH50%), 4.5~。塑料水蒸气透过性能的ng/(m • s •Pa)测定》QB/T2411现行国家标准《建筑材燃烧性能等级不低于Bz级料及制品燃烧性能分级》GB 8624
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#4.3.5
+  standard_code: JGJ 230-2010
+  chapter: 4 材料
+  section: ''
+  clause_no: 4.3.5
+  text: 喷涂硬泡聚氨醋的主要物理性能应符合
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表4.3.
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表4.3. 5-1的规定，硬泡聚氨醋板的主要物理性能应符合表4.3. 5-2的规定。表4. 3. 5-1喷涂硬泡聚氨醋主要物理性能性能指标试验项目试验方法I型H型E 型现行国家标准《泡沫塑料及橡表观密度，kg/m3二主35二主45二主55胶表观密度的测定》GB/T6343现行国家标准《绝热材料稳态热导热系数，主二0.024<0.024＝二0.024阻及有关特性的测定防护热板法》W/<m·K)GB/T 10294现行国家标准《硬质泡沫塑料压缩强度，kPa二三150二三200二三300压缩性能的测定》GB/T8813现行国家标准《硬质泡沫塑料断裂延伸率，%二主7.0拉｛申性能试验方法》GB/T9641不透水性现行国家标准《硬泡聚氨醋保温（无结皮，不透水不透水防水工程技术规范》GB50404。.2MPa, 30min)尺寸稳定性现行国家标准《硬质泡沫塑料主二1.5豆豆1.5<1. 0尺寸稳定性试验方法》GB/T8811(70 ℃，48h),%吸水率＜V/VJ,现行国家标准《硬质泡沫塑料三二1.0%主二3.0王三2.0吸水率的测定》GB/T8810现行国家标准《建筑材料及制品燃烧性能等级不低于险级燃烧性能分级》GB8624表4. 3. 5-2硬泡聚氨醋板主要物理性能性能指标试验项目试验方法A 型B 型现行国家标准《泡沫塑料及橡胶表表观密度，kg/m3三主35二~35观密度的测定》GB/T6343导热系数，现行国家标准《绝热材料稳态热阻及有王三0.024王三0.024W/(m • K)关特性的测定防护热板法》GB/T10294续表4.3. 5 2性能指标试验项目试验方法A 型B 型现行国家标准《硬质泡沫塑料压缩性压缩强度，kPa关150二＂＇200能的测定》GB/T8813不透水性（无结皮．现行国家标准《硬泡聚氨醋保温防水工不透水不透水O. 2MPa, 30min)程技术规范》GB50404尺寸稳定性现行国家标准《硬质泡沫塑料尺寸稳<1.5三三1.0(70℃，48h).%定性试验方法》GB/T8811主二1.0现行国家标准《硬质泡沫塑料吸水率芯材吸水率（V/V).%主三3.0的测定》GB/T8810现行国家标准《建筑材料及制品燃烧性燃烧性能等级不低于Bz级能分级》GB8624
+  converted_tables:
+  - raw: 硬泡聚氨醋由于具有较低的导热系数，保温性能优异，适合用于屋面保温工程。尤其是聚氨醋硬泡具有很高的闭孔率（一般都可大于90% ），所以具有良好的防水性能和不透水性，非常适合用于倒置式屋面工程。喷涂硬泡聚氨醋还具有保温层整体性好，可以形成整体保温防水层，有助于提高倒置式屋面工程的整体保温防水性能。鉴于屋面工程的使用特点，用于屋面工程的硬泡聚氨醋保温材料的力学性能主要是压缩强度，而拉f申强度、拉伸粘结强度等力学性能对屋面工程用保温材料并不是主要力学指标，所以本规程对硬泡聚氨醋保温材料不列出拉伸强度、拉伸粘结强度等力学性能指标要求。对于喷涂硬泡聚氨醋，由于其形成整体保温层，为了保证其整体性，还要规定其断裂延伸率指标。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#4.3.6
+  standard_code: JGJ 230-2010
+  chapter: 4 材料
+  section: ''
+  clause_no: 4.3.6
+  text: 硬泡聚氨醋防水保温复合板的主要物理性能应符合表4.3.6 的规定。 kg/m3 > 35 现行国家标准《泡沫塑料及橡胶表观密度 的测定》GB/T 63,13 导热系数， < 0.024 现行国家标准《绝热材料稳态热阻及有关 W／（口1• Kl 特性的测定防护热板法》GB/T 10294 压缩强度，kPa 二主200 现行国家标准《硬质泡沫塑料 压缩性能 的测定》GB/T 8813 不透水性（无结皮． 不透水 现行国家标准《硬泡聚氨酶保温防水王程 0. 2MPa, 30min) 技术规范》GB 50404 尺寸稳定性 王三1. 0 现行国家标准《硬质泡沫塑料 尺寸稳定 (70℃， 48h).% 性试验方法》GB/T 8811 芯材吸水率 < 1. 0 现行国家标准《硬质泡沫塑料 吸水率的 (V/Vl,% 测定》GB/T 8810 8 续表4.3.6 试验项目 性能指标 试验方法 燃烧性能等级 不低于B2 级 现行国家标准《建筑材料及制品燃烧性能 分级》GB 8624 卷材或涂膜性能 满足现行国家标准《屋面工程技术规范》GB 50345 x才防 水材料的要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表4.
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表4. 3. 6的规定。表4.3.6硬泡聚氨醋防水保温复合板主要物理性能试验项目性能指标试验方法现行国家标准《泡沫塑料及橡胶表观密度表观密度，kg/m3>35的测定》GB/T63,13导热系数，<0.024现行国家标准《绝热材料稳态热阻及有关W／（口1•Kl特性的测定防护热板法》GB/T10294现行国家标准《硬质泡沫塑料压缩性能压缩强度，kPa二主200的测定》GB/T8813不透水性（无结皮．现行国家标准《硬泡聚氨酶保温防水王程不透水0. 2MPa, 30min)技术规范》GB50404尺寸稳定性王三1.0现行国家标准《硬质泡沫塑料尺寸稳定(70℃，48h).%性试验方法》GB/T8811芯材吸水率现行国家标准《硬质泡沫塑料吸水率的<1. 0(V/Vl,%测定》GB/T8810续表4.3. 6试验项目性能指标试验方法现行国家标准《建筑材料及制品燃烧性能燃烧性能等级不低于B2级分级》GB8624满足现行国家标准《屋面工程技术规范》GB50345 x才防卷材或涂膜性能水材料的要求4.3. 7泡沫玻璃保温板的主要物理性能应符合表4.3. 7的规定。表4.3. 7泡沫玻璃保温板主要物理性能试验项目性能指标试验方法现行国家标准《无机硬质绝热制品试验方法》表观密度，kg／旷二三150GB/T 5486导热系数，现行国家标准《绝热材料稳态热阻及有关特<0.062W/(m•Kl性的测定防护热板法》GB/T10294现行国家标准《无机硬质绝热制品试验方法》抗压强度，kPa三主400GB/T 5486现行国家标准《元机硬质绝热制品试验方法》吸水率（V/Vl, %豆豆0.5GB/T 5486
+  converted_tables:
+  - raw: 硬泡聚氨醋防水保温复合板由于在硬泡聚氨醋板材上附加了一层防水卷材或防水涂膜，板材防水性能更加优良。如果复合板表层的防水卷材或防水涂膜厚度满足屋面防水设防要求，只要施工时做好板缝的防水处理，则硬泡聚氨醋防水保温复合板可直接用于倒置式屋面，实现倒置式屋面保温防水材料均可在工厂预制、现场安装施工，提高施工效率。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#4.3.8
+  standard_code: JGJ 230-2010
+  chapter: 4 材料
+  section: ''
+  clause_no: 4.3.8
+  text: 屋面复合保温板的主要物理性能应符合表4.3.8 的规定。 表4.3.8 屋面复合保温板主要物理性能 试验项目 性能指标 试验方法 表现密度. kg/m3 二三180 现行国家标准《无机硬质绝热制品试验方法》 GB/T 5486 导热系数， 三二0.070 现行国家标准《绝热材料稳态热阻及有关特 W/<m• Kl 性的测定防护热板法》GB/T 10294 抗压强度，kPa 二主200 现行国家标准《无机硬质绝热制品试验方法》 GB/T 5486 吸水率（V/Vl.% 三三3.0 现行国家标准《无机硬质绝热制品试验方法》 GB/T 5486 9。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表4.3.
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表4.3. 8的规定。表4.3.8屋面复合保温板主要物理性能试验项目性能指标试验方法现行国家标准《无机硬质绝热制品试验方法》表现密度.kg/m3二三180GB/T 5486导热系数，现行国家标准《绝热材料稳态热阻及有关特三二0.070W/<m• Kl性的测定防护热板法》GB/T10294现行国家标准《无机硬质绝热制品试验方法》抗压强度，kPa二主200GB/T 5486现行国家标准《无机硬质绝热制品试验方法》吸水率（V/Vl.%三三3.0GB/T 54864. 3. 9保温材料胶粘剂应与保温材料和防水材料相容，其粘结强度应符合设计要求。4. 3.10 有机泡沫保温材料在运输和贮存中应远离火源和化学榕剂，避免日光暴晒、风吹雨淋，并应避免长期受压和其他机械损伤。
+  converted_tables:
+  - raw: 屋面复合保温板具有导热系数较低、不易燃等优点，只要严格控制好其吸水率，用于倒置式屋面也是一种性能良好的保温材料。河南省地方标准《CCP保温复合板倒置式屋面技术规程》DBJ41/T0392000中规定屋面复合保温板吸水率不大于6%，但是考虑到吸水率过高会显著影响保温板的保温等性能，所以，本规程从严规定用于倒置式屋面的屋面复合保温板其吸水率不大于3. 0%0
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#4.3.11
+  standard_code: JGJ 230-2010
+  chapter: 4 材料
+  section: ''
+  clause_no: 4.3.11
+  text: 现场喷涂硬泡聚氨醋的原材料应密封包装，在贮运过程 中严禁烟火，应通风、干燥，并防止暴晒、雨淋；不得接近热 源、接触强氧化和腐蚀性化学品；进场后应分类存放。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 严禁
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#4.3.13
+  standard_code: JGJ 230-2010
+  chapter: 4 材料
+  section: ''
+  clause_no: 4.3.13
+  text: 屋面复合保温板在运输和贮存过程中，应将屋面复合保温板的保护层面相向侧立堆放、靠紧挤实、堆码整齐，堆放高度不得超过1.Sm ，不得碰撞损坏和品种混杂。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#5.1.1
+  standard_code: JGJ 230-2010
+  chapter: 5 设计
+  section: ''
+  clause_no: 5.1.1
+  text: 倒置式屋面设计应包括下列内容： 1 屋面防水等级、设防要求和保温要求； 2 屋面构造； 3 屋面节能； 4 防水层材料的选用； 5 保温层材料的选用； 6 屋面保护层及排水系统； 7 细部构造。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 面坡度
+    unit: '%'
+    condition: null
+    min_value: null
+    max_value: 3.0
+  - name: 式屋面坡度
+    unit: '%'
+    condition: null
+    min_value: 3.0
+    max_value: null
+  - name: 措施坡度
+    unit: '%'
+    condition: null
+    min_value: 10.0
+    max_value: null
+  - name: 纵向坡度
+    unit: '%'
+    condition: null
+    min_value: 1.0
+    max_value: null
+  - name: 水落差
+    unit: mm
+    condition: null
+    min_value: 200.0
+    max_value: null
+  tables: []
+  converted_tables:
+  - raw: 根据具体工程的屋面形式、建筑功能、环境、气候条件、屋面构造和经济条件不同，进行具体设计。防水材料、隔离层材料和保温层材料的选用要防止假冒伪劣产品，并要选择合理的、经济的材料，要体现倒置性屋面保温层对防水层的保护作用。屋面排水系统要求高，保温层不能有积水，因此要求设计出设计详图。5.1. 2倒置式屋面基本构造是大量实际工程的常规做法。隔离层的设置应根据选择的防水材料和保温层的材料相容性和保护层材料的种类来决定的。倒置式屋面一般不需设隔汽层。5.1. 3为防止倒置式屋面保温层长期积水，使积水能够顺畅排走，需适当加大倒置式屋面的坡度，因此作出此项规定。5.1. 4防滑措施主要是防止防水层、保温层和保护层的向下滑动；防滑条的材料和形式由设计具体确定，其间距根据屋面坡度和保温材料种类确定；防滑条设计应避免采用断开保温层的导热性材料；并应避免保温层形成冷热桥。5.1. 5寒冷地区的采暖建筑，宜采用卵石排水保护层或种植排水保护层；严寒地区的采暖建筑，宜采用松铺混凝土板块排水保护层；炎热地区或冬季较冷夏天较热需要空调降温的建筑，宜采用卵石排水保护层或松铺混凝土板块排水保护层。硬泡聚氨醋保温层宜采用封闭式保护层，多雨地区不宜采用封闭式保护层。5. 1. 6倒置式屋面不会产生水汽积聚，所以可不设置透气孔式排气槽。5.1. 7防止天沟积水，参照了《屋面工程技术规范》GB503452004第4.2.4条的规定。5. 1. 8参照了《屋面工程技术规范》GB50345 -2004第4.2.12条的规定，并强调了通过计算确定。5. 1. 9倒置式屋面中的防水材料耐用年限可以适当延长，从节材和经济的角度考虑，可选用质量较好的防水涂料，防水性能好、有弹性且强度较高的防水卷材价格较高。
+    note: 合并重复提取片段
+  references:
+  - target_standard: GB 50015
+    target_clause: null
+    original_text: 5.1. 8倒置式屋面水落管的数量，应按现行国家标准《建筑给水排水设计规范》GB50015的有关规定，通过计算确定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#5.1.10
+  standard_code: JGJ 230-2010
+  chapter: 5 设计
+  section: ''
+  clause_no: 5.1.10
+  text: 硬泡聚氨醋防水保温复合板可作为次防水层用于两道防 水设防屋面。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 采用宽度
+    unit: mm
+    condition: null
+    min_value: 500.0
+    max_value: null
+  - name: 面单向坡长
+    unit: m
+    condition: null
+    min_value: 9.0
+    max_value: null
+  - name: 坡时坡度
+    unit: '%'
+    condition: null
+    min_value: 3.0
+    max_value: 3.0
+  - name: 找坡层厚度
+    unit: mm
+    condition: null
+    min_value: 30.0
+    max_value: null
+  - name: 凝土厚度
+    unit: mm
+    condition: null
+    min_value: 15.0
+    max_value: 15.0
+  - name: 格缝缝宽
+    unit: mm
+    condition: null
+    min_value: 20.0
+    max_value: 20.0
+  - name: 问距
+    unit: m
+    condition: null
+    min_value: 6.0
+    max_value: null
+  - name: 弧半径
+    unit: mm
+    condition: null
+    min_value: null
+    max_value: 130.0
+  tables: []
+  converted_tables:
+  - raw: 硬泡聚氨醋防水保温复合板上覆有一层防水材料，可作为一道防水层，但其构造特点决定了只可作为两道防水的次防水层。5. 1. 11本条源自《民用建筑外保温系统及外墙装饰防火暂行规定》（公通字［2009]46号）的要求。5. 1. 12当屋面复合保温板面层己做保护层时，可不另设保护层。5.2设计要求5. 2. 1倒置式屋面对基层要求高，要求基层结构不开裂、平整，优选采用结构找坡；对单向坡长较大的屋面，如采用材料找坡，势必增加屋面荷载，也不经济。
+    note: 合并重复提取片段
+  references:
+  - target_standard: GB 50345
+    target_clause: null
+    original_text: mo5. 2. 3防水材料的选用应符合下列规定：1 选用的材料应符合现行国家标准《屋面工程技术规范》GB 50345的规定；应选用耐腐蚀、耐霉烂、适应基层变形能力的防水材料。
+    resolution_status: resolved
+    resolution_note: 库内标准（GB 50345-2012），可交叉引用并确认具体参数
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#5.2.4
+  standard_code: JGJ 230-2010
+  chapter: 5 设计
+  section: ''
+  clause_no: 5.2.4
+  text: 倒置式屋面保温层的厚度确定应根据现行国家标准《民用建筑热工设计规范》GB50176进行热工计算。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50176
+    target_clause: null
+    original_text: 倒置式屋面保温层的厚度确定应根据现行国家标准《民用建筑热工设计规范》GB50176进行热工计算。
+    resolution_status: resolved
+    resolution_note: 库内标准（GB 50176-2016），可交叉引用并确认具体参数
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#5.2.5
+  standard_code: JGJ 230-2010
+  chapter: 5 设计
+  section: ''
+  clause_no: 5.2.5
+  text: 倒置式屋面保温层的设计厚度应按计算厚度增加25%取 值，且最小厚度不得小于25mm。
+  is_abolished: true
+  abolished_date: '2023-04-01'
+  superseded_by: GB 55030-2022
+  abolition_note: 被《GB 55030-2022》废止强制性条文效力（住房城乡建设部公告，2023-04-01实施）
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    - 不得
+    is_mandatory_clause: true
+    mandatory_basis: 黑体强制性条文
+  parameters:
+  - name: 算厚度增加
+    unit: '%'
+    condition: null
+    min_value: 25.0
+    max_value: 25.0
+  - name: 且最小厚度
+    unit: mm
+    condition: null
+    min_value: 25.0
+    max_value: null
+  - name: 时其粒径
+    unit: mm
+    condition: null
+    min_value: 40.0
+    max_value: 40.0
+  - name: 时其粒径
+    unit: mm
+    condition: null
+    min_value: 80.0
+    max_value: 80.0
+  - name: 可干铺厚度
+    unit: mm
+    condition: null
+    min_value: 30.0
+    max_value: null
+  - name: 分格面积
+    unit: m
+    condition: null
+    min_value: 1.0
+    max_value: 1.0
+  - name: 格面积
+    unit: m
+    condition: null
+    min_value: 0.0
+    max_value: null
+  - name: 格面积
+    unit: m
+    condition: null
+    min_value: 36.0
+    max_value: null
+  - name: 缝宽度
+    unit: mm
+    condition: null
+    min_value: null
+    max_value: 20.0
+  - name: 预留宽度
+    unit: mm
+    condition: null
+    min_value: 30.0
+    max_value: 30.0
+  tables: []
+  converted_tables:
+  - raw: 对于开敞式保护层的倒置式屋面，当有雨水进入保温材料下部时，一般情况可完全蒸发掉，而进入封闭式保护层屋面保温层中的雨水可能蒸发不完全；当室外气温低，会在保护层与保温材料交界面及保温材料内部，出现结露；保温材料的长期使用老化，吸水率增大。因此，应考虑、10 ～20年后，保温层的导热系数会比初期增大。所以，实际应用中应控制保温层湿度，并适当增大保温层厚度作为补偿；另外保温层受保护层压置后厚度也会减小。故本规程规定保温层的设计厚度按计算厚度增加不低于25%取值。保温层的厚度如果太薄，不能对防水层形成有效的保护作用，失去了倒置式屋面最根本的意义，而且在施工中和保护层压置后保温层容易损坏，故保温层应保证一定的厚度，本规程规定不得小于25mmo为确保倒置式屋面的保温性能在保温层积水、吸水、结露、长期使用老化、保护层压置等复杂条件下持续满足屋面节能的要求，有必要将此条列为强制性条文。
+    note: 合并重复提取片段
+  references:
+  - target_standard: JGJ 155
+    target_clause: null
+    original_text: 料可干铺，厚度不应小于30mm;当采用种植植物作保护层时，应符合现行行业标准《种植屋面工程技术规程》JGJ155的规定；当采用水泥砂浆保护层时，应设表面分格缝，分格面积宜为1m2;当采用板块材
+    resolution_status: resolved
+    resolution_note: 库内标准（JGJ 155-2013），可交叉引用并确认具体参数
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#5.3.3
+  standard_code: JGJ 230-2010
+  chapter: 5 设计
+  section: ''
+  clause_no: 5.3.3
+  text: 女儿墙、山墙防水保温构造应符合下列规定：1 女儿墙和山墙泛水处的防水卷材应满粘，墙体和屋面转角处的卷材宜空铺，空铺宽度不应小于200mm;低女儿墙和山墙，防水材料可直接铺至压顶下，泛水收头应采用水泥钉配垫片钉压固定和密封膏封严；涂膜应直接涂刷至压顶下，泛水收头应用防水涂料多遍涂刷，压顶应做防水处理（图5.3. 3 1);图5.3. 3 1ff£女儿墙、山墙防水保温构造1 压顶；2 、密封材料；保温层；防水附加层；防水层高女儿墙和山墙，防水材料应连续铺至泛水高度，泛水收头应采用水泥钉配垫片钉压固定和密封膏封严，墙体顶部应做防水处理（图5.3. 3-2 、图5.3. 3-3);低女儿墙和山墙的保温层应铺至压顶下；高女儿墙和山墙内侧的保温层应铺至女儿墙和山墙的顶部；苛川→图5.3. 3-2高女儿墙（无内天沟）、山墙防水保温构造1 金属盖板；2、3密封材料；4 保温层；5 防水附加层；6 防水层；7…外墙保温图5.3. 3 3高女儿墙（有内天沟）、！IJ 墙防水保温构造1 金属盖板；2、3 一密封材料；保温层；找坡层；6一防水附加层；防水层；外墙保温墙体根部与保温层间应设置温度缝，缝宽宜为15mm～20mm ，并应用密封材料封严。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 铺空铺宽度
+    unit: mm
+    condition: null
+    min_value: 200.0
+    max_value: null
+  - name: 度缝缝宽
+    unit: mm
+    condition: null
+    min_value: 15.0
+    max_value: 15.0
+  - name: 度缝缝宽
+    unit: mm
+    condition: null
+    min_value: 20.0
+    max_value: 20.0
+  tables: []
+  converted_tables:
+  - raw: 女儿墙内侧的保温材料应固定牢固，宜采用机械固定法，也可采用外墙外保温相同的固定方法，固定点应采用密封材料密封。保温材料表面应抹聚合物水泥砂浆等保护层。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#5.3.4
+  standard_code: JGJ 230-2010
+  chapter: 5 设计
+  section: ''
+  clause_no: 5.3.4
+  text: 屋面变形缝处防水保温构造（图5.3.4）应符合下列规定： 1 屋面变形缝的泛水高度不应小于250mm; 16 2 防水层和防水附加层应连续铺贴或涂刷覆盖变形缝两侧 挡墙的顶部； 3 变形缝顶部应加扣1昆凝土或金属盖板，金属盖板应铺钉 牢固，接缝应顺流水方向，并应做好防锈处理；变形缝内应填充 泡沫塑料，上部应填放衬垫材料，并应采用卷材封盖； 4 保温材料应覆盖变形缝挡墙的两侧。 3 图5.3.4 屋面变形缝处防水保温构造 I 衬垫材料； 2 保温材料； 3 密封材料； 4 泡沫想料； 5 盖板；6 防水附加层；
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 泛水高度
+    unit: mm
+    condition: null
+    min_value: 250.0
+    max_value: null
+  tables: []
+  converted_tables:
+  - raw: 为避免变形缝处产生热桥效应，变形缝挡墙两侧和上部均应铺设保温材料，挡墙中间用衬垫材料和聚乙烯泡沫塑料棒填嵌。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#5.3.5
+  standard_code: JGJ 230-2010
+  chapter: 5 设计
+  section: ''
+  clause_no: 5.3.5
+  text: 屋面高低跨变形缝处防水保温构造（图5.3. 5 ）应符合下列规定：高低跨变形缝的泛水高度不应小于250mm;2 变形缝挡墙顶部水平段防水层和附加层不宜粘牢；变形缝内应填充泡沫塑料，并应与墙体粘牢；变形缝应采用金属盖板和卷材覆盖，金属盖板水平段宜采取泛水处理，接缝应用密封材料嵌填；5 变形缝挡墙侧面和顶部以及高跨墙面应覆盖保温材料。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 泛水高度
+    unit: mm
+    condition: null
+    min_value: 250.0
+    max_value: null
+  tables: []
+  converted_tables:
+  - raw: 建筑物高低跨两侧差异沉降和变形较大，为避免防水层撕断，将防水层在低跨屋面挡墙上部断开，上部采用金属板泛水封盖。5. 3. 6保温材料在距水落口500mm的范围内应采用切割等方式逐渐减薄，铺设至水落口处，防止产生热桥效应。水落口周边和基层接触处，混凝土易出现裂缝，故在水落口和基层接触的周围嵌填柔性密封材料，避免渗漏发生。女儿墙上侧水落口应设置一定坡度，防止倒泛水。5. 3. 7出人口有水平式和垂直式出人口。水平式出人口多为开门的水平出人，对出人口防水层收头应压在混凝土踏步下，保温材料也应连续铺至混凝土踏步下，混凝土踏步铺设时应设置向外流水坡度，并做滴水，以防止下雨时，出现爬水现象，向室内流水。屋面垂直出人口防水层和保温材料收头应压在混凝土压顶下的凹槽内，防止人员出人时踩坏防水和保温材料。应对卷材收头边处采用配套密封胶密封。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#5.3.6
+  standard_code: JGJ 230-2010
+  chapter: 5 设计
+  section: ''
+  clause_no: 5.3.6
+  text: 屋面水落口处防水保温构造应符合下列规定：1 水落口距女儿墙、山墙端部不宜小于500mm，水落口杯上口的标高应设置在沟底的最低处；卜。，.，.、I 到图5.3.5 屋面高低跨变形缝处防水保温构造1 金属盖板；2一保温层；3一防水附加层：4一一防水层z5一密封材料；泡沫塑料以水落口为中心、直径500rnm 范围内，应增铺防水附加层，防水层贴人水落口杯内不应小于50rnm，并应用防水涂料涂刷；水落口杯与基层接触部位应留宽20mm 、深20mm凹槽，并应用密封材料封严（图5.3. 6 1 、图5.3. 6-2);保温层应铺至水落口边，距水落口周围直径500mm的范围内均匀减薄，并应形成不小于5% 的坡度。图5.3. 6-1直排水落口处防水保温构造水落口；保温层；3-防水附加层；4一防水层；
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 墙端部
+    unit: mm
+    condition: null
+    min_value: null
+    max_value: 500.0
+  - name: 部位应留宽
+    unit: mm
+    condition: null
+    min_value: 20.0
+    max_value: 20.0
+  - name: 留宽mm深
+    unit: mm
+    condition: null
+    min_value: 20.0
+    max_value: 20.0
+  - name: 口周围直径
+    unit: mm
+    condition: null
+    min_value: 500.0
+    max_value: 500.0
+  - name: 薄并应形成
+    unit: '%'
+    condition: null
+    min_value: 5.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#5.3.10
+  standard_code: JGJ 230-2010
+  chapter: 5 设计
+  section: ''
+  clause_no: 5.3.10
+  text: 瓦屋面檐沟防水保温构造应符合下列规定： 1 檐沟处防水附加层深入屋面的长度不宜小于200mm; 2 保温层在天沟、檐沟上下两侧应满铺或连续喷涂； 3 应采取防止保温层下滑的措施，可在屋面板内预埋多排 1>12 锚筋，锚筋间距宜为 1. Sm，伸出保温层长度不宜小于 25mm，锚筋穿破防水层处应采用密封材料封严（图5.3.10 ）。 6 图5.3.10 瓦屋面檐沟防水保温构造 1 屋面瓦； 2 锚筋；3 保温层；4 防水附加层；
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 长度
+    unit: mm
+    condition: null
+    min_value: null
+    max_value: 200.0
+  - name: 层长度
+    unit: mm
+    condition: null
+    min_value: null
+    max_value: 25.0
+  - name: 层每边宽度
+    unit: mm
+    condition: null
+    min_value: 450.0
+    max_value: null
+  - name: 加一层宽度
+    unit: mm
+    condition: null
+    min_value: 300.0
+    max_value: null
+  tables: []
+  converted_tables:
+  - raw: 坡屋面坡度较大，为有效防止保温层和防水层下滑，应在屋面结构层内预埋锚筋，锚筋直径宜为lOmm，间距1500mm,伸出保温层25mm，锚筋在伸出防水层和保温层时四周均应做密封处理，防止渗漏。5. 3.11 平瓦坡屋面天沟是排水最集中的部位，也是积水和雨水冲刷严重的部位，该节点应以柔性防水材料和刚性防水材料互补的多道设防进行技术设计，故在天沟底部设置钢板，既可以防水，又可以抵抗雨水冲刷。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#6.1.1
+  standard_code: JGJ 230-2010
+  chapter: 6 施工
+  section: ''
+  clause_no: 6.1.1
+  text: 施工单位应根据设计要求和工程实际编制专项施工方案。 在施工作业前，应对施工操作人员进行技术交底。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表6.1.
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表6.1. 5的规定。表6.1. 5屋面保温层施工环境温度|项目施工环境温度板块保温层｜采用胶粘剂或水泥砂浆粘结施工时，不低于5℃I喷涂硬泡聚氨醋保温层is℃～35℃6. 1. 6施工中应设置安全防护设施，当坡度大于15% 的坡屋面施工时，应设有防滑梯、安全带和护身栏杆等安全设施。6. 1. 7在倒置式屋面工程施工完成后，应进行成品保护，不得随意打孔、明火作业、运输或堆放重物等。6. 2找坡层、找平层施工6. 2.1屋面的找坡层、找平层应在结构层验收合格后再进行施工。6. 2. 2找坡层、找平层的材料及配合比应符合设计要求。
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#6.2.3
+  standard_code: JGJ 230-2010
+  chapter: 6 施工
+  section: ''
+  clause_no: 6.2.3
+  text: 当找坡层、找平层采用水泥拌合的轻质材料，施工环境温度低于5℃时，应采取冬期施工措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#6.2.4
+  standard_code: JGJ 230-2010
+  chapter: 6 施工
+  section: ''
+  clause_no: 6.2.4
+  text: 找坡层、找平层施工前应将基层表面清理干净，并应进 行浇水湿润、涂刷水泥浆或其他界面材料。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#6.3.1
+  standard_code: JGJ 230-2010
+  chapter: 6 施工
+  section: ''
+  clause_no: 6.3.1
+  text: 铺设防水层前，应对基层进行验收，基层应平整、干净。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50345
+    target_clause: null
+    original_text: 6.3. 2屋面防水层施工应符合现行国家标准《屋面工程技术规范》GB50345的规定。
+    resolution_status: resolved
+    resolution_note: 库内标准（GB 50345-2012），可交叉引用并确认具体参数
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#6.3.3
+  standard_code: JGJ 230-2010
+  chapter: 6 施工
+  section: ''
+  clause_no: 6.3.3
+  text: 防水层在女儿墙、变形缝、管道、山墙等突出屋面结构 处施工时，防水层的泛水高度在保温层和保护层施工后不应小 于250mm 。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 护层施工后
+    unit: mm
+    condition: null
+    min_value: 250.0
+    max_value: null
+  tables: []
+  converted_tables:
+  - raw: 强调泛水高度是保温层、保护层施工完成后的高度。6.4保温层施工6. 4.1防水层施工完成后，应进行质量检验。在倒置式屋面工程中，防水层属于隐蔽项目，所以在保温层施工前应对防水层进行蓄水或淋水检验，确认无质量问题后方可进行保温层施工。6. 4. 2保温层施工时，上人作业或堆放材料、机具易对防水层造成破坏、损坏，所以在施工保温层时，视情况可在防水层上铺设临时保护层。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#6.4.3
+  standard_code: JGJ 230-2010
+  chapter: 6 施工
+  section: ''
+  clause_no: 6.4.3
+  text: 坡屋面保温层应固定牢固，应有防止滑动、脱落的措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#6.4.4
+  standard_code: JGJ 230-2010
+  chapter: 6 施工
+  section: ''
+  clause_no: 6.4.4
+  text: 当采用保温板材时，坡度不大于3% 的不上人屋面可采取干铺法，上人屋面宜采用粘结法；坡度大于3% 的屋面应采用粘结法，并应采取固定防滑措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 材时坡度
+    unit: '%'
+    condition: null
+    min_value: 3.0
+    max_value: null
+  - name: 粘结法坡度
+    unit: '%'
+    condition: null
+    min_value: 3.0
+    max_value: null
+  tables: []
+  converted_tables:
+  - raw: 板状保温材料与屋面防水层之间摩擦系数较小，为防止上人走动导致板状保温材料移位而造成屋面工程质量问题，所以对于坡度不大于3% 的上人屋面的板状保温材料宜采用粘结法施工；坡度大于3% 的屋面应采用粘结法施工，并采取固定防滑措施。6. 4. 5为防止保温层后序工序的其他材料填充人保温板间的缝隙中形成冷桥，在捕设保温板时应边靠边地紧密铺设。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#6.4.5
+  standard_code: JGJ 230-2010
+  chapter: 6 施工
+  section: ''
+  clause_no: 6.4.5
+  text: 保温板材铺设应紧密、拼缝处应严密。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#6.4.6
+  standard_code: JGJ 230-2010
+  chapter: 6 施工
+  section: ''
+  clause_no: 6.4.6
+  text: 保温板材应采用专用工具裁切，裁切边应垂直、平整。在出屋面管道、设备基座周围铺设保温板时，切割应准确。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 在非整张板和有出屋面管道等铺设保温板时，需对保温板进行裁切。裁切应使用专用工具，保证裁切边垂直、平整，保证板与板、板与出屋面管道拼缝严密，防止拼缝过大，缝隙中填充人其他材料形成冷桥。6. 4. 7为防止落水口被杂物堵塞，在落水口位置预留的洞口内应放入钢板网滤水盆；为防止屋面防水层上积水，还应保证保温层中水流畅通。6. 4. 8板状保温材料采用干铺时的技术要求。1、对基层以及铺设时的技术要求。强调了屋面保温层施工时各节点收口部位的处理，屋面工程的质量问题多存在于节点收口处，严格对节点收口处进行处理能有效保证屋面工程质量。板状保温材料质轻、面大且强度较低，所以在施工时应将材料压紧，防止大风时刮走、飘落，施工中还应注意保证板块的完整。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#6.4.7
+  standard_code: JGJ 230-2010
+  chapter: 6 施工
+  section: ''
+  clause_no: 6.4.7
+  text: 在水落口位置处，保温板材的铺设应保证水流畅通。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#6.4.8
+  standard_code: JGJ 230-2010
+  chapter: 6 施工
+  section: ''
+  clause_no: 6.4.8
+  text: 当保温板材采用干铺法时，应符合下列规定： 1 铺设保温板材的基层应平整、干净； 2 相邻板材应错缝拼接，板边厚度一致，分层铺设的板材 上下层接缝应相互错开，板间缝隙应采用同类材料填嵌密实； 3 保温层与基层连接的节点收口部位，应按表面形状修整 保温板材；对保温层周边与垂直面交汇处，应做过渡处理； 4 施工中应有防止板材被大风刮走、飘落的措施，并应保 证板材的完整，防止损伤、断裂、缺棱。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表6.1.
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表6.1. 5的规定；胶粘剂厚度不应小于5mm;保温板材铺设后，在胶粘剂凝固前不得上人踩踏；5 保温层胶粘剂凝固后宜尽快施工保护层，当不能及时进行保护层施工时，应在保温板材上铺设压重材料。6.4. 10喷涂硬泡聚氨醋保温层施工应符合下列规定：喷涂硬泡聚氨醋屋面保温施工应使用专用喷涂设备；喷涂硬泡聚氨醋的配合比应准确计量，发泡厚度应均匀一致；3 施工前应对喷涂设备进行调试及材料性能检测，并宜喷涂三块500mm × 500mm、厚度不小于50mm的试块试验；喷嘴与施工基层的间距宜为200mm～400mm;根据设计厚度，一个作业面应分层喷涂完成，每层厚度不宜大于20mm ，当日的施工作业面应于当日连续喷涂完毕；在天沟、檐沟的连接处应连续喷涂，屋面与女儿墙、变形缝、管道、山墙等突出屋面结构处应连续喷涂至泛水高度；风力不宜大于三级，空气相对湿度宜小于85%;硬泡聚氨醋喷涂后不得将喷涂设备工具置于己喷涂层上，且30min内不得上人。6. 4.11硬泡聚氨醋防水保温复合板施工应符合下列规定：1 施工前应对基层质量进行验收，基层排水坡度应符合设计要求，表面应做到平整、坚实、干净；硬泡聚氨醋防水保温复合板应采用专用粘结砂浆点粘法或条粘法施工；施工环境温度应符合本规程表6.1. 5规定；夏季粘贴保温板材前，施工基层应用清水润f显；保温板材粘贴就位24h 后，应对接缝进行防水处理。
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#6.4.12
+  standard_code: JGJ 230-2010
+  chapter: 6 施工
+  section: ''
+  clause_no: 6.4.12
+  text: 坡屋面保温板材施工应符合下列规定：1 保温板材施工应自屋盖的檐口向上铺贴，阴角和阳角处的板块接搓时应割成角度，接搓应紧密，并应用钢丝网连接，钢丝网宽度宜为300mm;屋面及檐口处的保温板材应采用预埋件固定牢固，固定点应采用密封材料密封；泡沫玻璃作为保温层时，应对泡沫玻璃表面加设玻纤布或聚醋毡保护膜。6.5保护层施工6. 5.1保护层的施工应在屋面保温层验收合格后进行。6. 5. 2保护层施工应符合下列规定：1 保护层施工不得损坏保温层；保护层与保温层之间的隔离层应满铺，不得漏底，搭接宽度不应小于lOOmm;天沟、檐沟、出屋面管道和水落口处防水层外露部分应采取有效的保护措施；保护层的分格缝宜与找平层的分格缝对齐。6. 5.3 卵石保护层施工应符合下列规定：卵石直径应符合规定，卵石应满铺、铺设均匀；卵石质（重）量应符合设计要求；卵石下宜铺设带支点的塑料排水板，通过空腔层排水；卵石铺设前，应先铺设聚醋纤维无纺布等隔离材料，并应保持水落口和天沟等处的排水畅通。6. 5. 4板块材料保护层施工应符合下列规定：1 板块材料保护层的结合层可采用砂或水泥砂浆；在板块铺砌时应根据排水坡度挂线，铺砌的板块应横平竖直，板块的接缝应对齐；在砂结合层上铺砌板块时，砂结合层应洒水压实，并用刮尺刮平，板块对接铺砌、铺设平整，缝隙宽度宜为lOmm;在板块铺砌完成后，宜洒水压平；板缝宜用水泥砂浆勾缝；在砂结合层四周500mm范围内，应采用水泥砂浆作结合层；板块材料保护层宜留设分格缝，其纵横间距不宜大于lOm ，分格缝宽度不宜小于20mm 。6. 5. 5细石混凝土保护层施工应符合下列规定：混凝土的强度等级和厚度应符合设计要求，提凝土收水后应进行收浆压光；混凝土应密实，表面应平整；分格缝应按规定设置，一个分格内的混凝土应连续浇筑；当采用钢筋网细石混凝土作保护层时，钢筋网片保护层厚度不应小于lOmm，钢筋网片在分格缝处应断开；5 混凝土保护层浇筑完后应及时温润养护，养护期不得少于7d ，养护完后应将分格缝清理干净。6. s. 6分格缝的施工应符合下列规定：1 分格缝应设置在屋面板的端头、凸出屋面交接处的根部和现浇屋面的转折处；2 分格缝纵横向交接处应相互贯通，不宜形成T 宇形或L字形缝；屋脊处应设置纵向分格缝；分格缝纵横向间距均不应大于6m;5 分格缝宜与板缝位置一致，并应位于开间处，分格缝应延伸至挑檐、天沟内。既有建筑倒置式屋面改造7.1一般规定7. 1. 1既有建筑屋面改造前，应对屋面的结构、防水性能等情况进行勘查，并宜进行现场检测和采取加固措施。7. 1. 2既有建筑屋面勘查、鉴定、设计和施工，应由具有该资质的单位和专业技术人员承担。7.1. 3既有建筑屋面改造工程宜选用对居民干扰小、工艺便捷、工期短，有利排水防水、节能减排、环境保护的技术。7.1. 4既有建筑屋面勘查时应具备下列资料：房屋原设计资料及相关竣工资料；房屋装修及改造资料；历年屋面修缮资料；城市建设规划和市容要求。7. 1. 5既有建筑屋面改造应重点勘查下列内容：屋面荷载及使用条件的变化；房屋地基基础、结构类型及重要结构构件的安全性状况；屋面材料和基本构造做法；屋面保温及热工缺陷状况；屋面防水状况。7.1. 6既有建筑屋面改造应核验防水层的有效性和保温层的完好程度，并宜根据工程实际需要进行结构可靠性鉴定。7.1. 7既有建筑屋面改造应有安全防护措施，并应保护环境、文明施工。7.2设计7. 2.1既有建筑倒置式屋面改造工程设计，应由原设计单位或具备相应资质的设计单位承担。当增加屋面荷载或改变使用功能时，应先做设计方案或评估报告。7. 2. 2既有建筑倒置式屋面改造设计应符合下列规定：1 屋面改造设计应根据勘查报告或鉴定结论和建筑节能标准要求进行；当原有屋面防水层有效或经修补可达到设计使用要求时，可作为一道防水层，并应再增设一道防水层；当原有屋面防水层渗漏或保温层含水率较大时，应彻底拆除并清理干净，再按正常倒置式屋面设计；保温层宜选用聚苯乙烯泡沫塑料或硬泡聚氨醋等保温材料；屋面改造设计与既有建筑外立面的装饰效果应具有统一性。7. 2.3 既有建筑倒置式屋面改造设计文件应经审查合格。7.3施工7. 3.1既有建筑倒置式屋面改造施工前，施工单位应编制专项施工方案，对施工人员进行技术交底和专业技术培训，并应做好安全防护措施，对施工过程实行质量控制。7. 3. 2既有建筑倒置式屋面改造施工准备工作应包括下列内容：对原屋面保护层进行清理；2 对原防水层的损害部位修复或拆除；3 屋面上的设备、管道等应提前安装完毕，并预留出保温层的厚度；安全防护设施应安装到位。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 丝网宽度
+    unit: mm
+    condition: null
+    min_value: 300.0
+    max_value: 300.0
+  - name: 结合层四周
+    unit: mm
+    condition: null
+    min_value: 500.0
+    max_value: 500.0
+  - name: 未识别对象
+    unit: mm
+    condition: null
+    min_value: 20.0
+    max_value: null
+  - name: 期不得少于
+    unit: d
+    condition: null
+    min_value: 7.0
+    max_value: 7.0
+  - name: 间距均
+    unit: m
+    condition: null
+    min_value: 6.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#7.3.3
+  standard_code: JGJ 230-2010
+  chapter: 7 既有建筑倒置式屋面改造
+  section: ''
+  clause_no: 7.3.3
+  text: 在原屋面上增加保温层的倒置式屋面应符合下列规定：当不拆除屋面原有排汽管时，施工中应采取保护措施；当拆除屋面原有排汽管时，拆除后原有防水层在排汽管洞口处应采取封口措施；屋面应清理干净，表面应用水泥砂浆或聚合物砂浆找平；当屋面坡度不符合要求时，应加设找坡层。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#7.3.4
+  standard_code: JGJ 230-2010
+  chapter: 7 既有建筑倒置式屋面改造
+  section: ''
+  clause_no: 7.3.4
+  text: 原有屋面彻底拆除防水保温层时，屋面改造应符合设计要求，并应按本规程第6.2节～第6.5节的规定施工。质量验收8.1一般规定8.1. 1 倒置式屋面工程施工单位应建立各道工序自检、交接检和专职人员检查的质量控制制度，并应有完整的检查记录；每道工序完成后，应经检查合格后再进行下道工序的施工；检验批、分项工程应自检并经监理单位或建设单位验收合格。8.1. 2倒置式屋面施工的各种材料，应按规定进行进场验收，并应按规定进行见证取样复验。8.1. 3倒置式屋面子分部工程和分项工程划分应符合
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表8.1.
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表8.1. 3的规定。表8.1.3倒置式屋面子分部工程和分项工程划分子分部工程分项工程基层工程：找平层和找坡层、隔离层防水与密封工程：卷材防水层、涂膜防水层、复合防水层、接缝防水密封倒置式屋面保温工程：板状材料保温层、喷涂硬泡聚氨醋保温层细部构造工程2檐口、檐沟和天沟、女儿墙和山墙、水落口、变形缝、伸出屋面管道、屋面出入口、反梁过水孔、设施基座保护层工程：现浇保护层、板块保护层、瓦材保护层8. 1. 4倒置式屋面各分项工程宜按屋面面积每500m2 ～1000m2划分为一个检验批，不足500m2应作为一个检验批。8.1. 5倒置式屋面每个检验批的抽样数量应符合下列规定：防水密封各分项工程，应按每50m 抽查一处，每处应为Sm ，且不得少于3处；细部构造各分项工程，应全部进行检查；其他分项工程应按屋面面积每l00m2抽查一处，每处应为10时，且不得少于3处。8. 1. 6倒置式屋面检验批质量验收应符合下列规定：主控项目抽查质量应符合本规程规定；一般项目抽查质量应符合本规程规定，有允许偏差的项目，80%允许偏差应符合本规程规定，其余20% 不得大于允许偏差值的1.5倍；质量控制资料应完整。8. 1. 7倒置式屋面分项工程质量验收应符合下列规定：分项工程所含检验批均应验收合格；质量控制资料应完整。8. 1. 8倒置式屋面子分部工程质量验收应符合下列规定：1 子分部工程所含分项工程应验收合格；子分部工程验收时，应提交下列文件和记录：1 ）防水和保温工程施工单位专业资质证书，作业人员上岗证书；2）工程设计图纸及会审记录、审图记录、设计变更通知单、技术核定单等；3 ）施工组织设计，防水、保温施工专项方案；4）防水、保温材料产品合格证、质量检验报告和现场抽样复检报告；5 ）分项工程质量验收记录：6 ）隐蔽工程验收记录；7 ）施工检测记录：屋面蓄水和淋水检验记录；8）其他质量记录或文件。防水及保温功能检测应符合设计要求；观感质量应符合本规程规定。8.2基层工程8. 2.1倒置式屋面基层的施工质量验收可包括找坡层、找平层、隔离层等分项工程。8. 2. 2倒置式屋面基层的质量验收应符合现行国家标准《屋面工程质量验收规范》GB50207的规定。
+  converted_tables:
+  - raw: '当需拆除原有屋面的保温层和防水层时，为保证屋面工程施工质量，各层次应严格按照本规程第6.2节～6.5节规定施工。为保证新做屋面工程与基层结合牢靠，保证屋面工程质量，对于原有屋面结构层存在的结合不牢固、面层污染、空鼓、开裂等部位应彻底清除，再用适宜强度的水泥砂浆或聚合物砂浆找平。质量验收8.1一般规定8. 1. 1 倒置式屋面工程施工应建立施工班组自检，合格后报质量员验收，质量员检查验收合格后，报送监理单位（或建设单位）检查验收，合格后方可进行下道工序施工，并有完整的检查记录，严格控制各工序质量，确保屋面工程检验批、分项、分部工程质量的合格。8. 1. 2 材料质量直接关系到工程质量，所以在施工过程中应严把材料质量关，现场材料抽样复验过程往往需要一段时间，在施工过程中先施工后有检验报告现象较多，因此材料外观质量，质量证明文件，检验报告等经监理单位（或建设单位）检查验收合格后，材料方可用到工程中去，使屋面工程所用材料全部合格。8.1. 3倒置式屋面工程为一个子分部工程，分项工程按照屋面各构造层和使用功能进行划分。8.1. 4按《屋面工程质量验收规范》GB50207的要求。分项工程划分成检验批进行验收有助于及时纠正施工中出现的质量问题，确保工程质量，也符合施工实际需要。8.1. 8屋面防水和保温分项工程是屋面重要的分项工程，直接关系到屋面工程质量，防水保温工程施工实际上是对防水、保温材料的一次再加工，必须由专业队伍进行施工，才能确保防水保温工程的质量。专业资质单位应是由当地建设行政主管部门对防水、保温施工企业的规模、技术水平、业绩等综合考核后颁发资质证书的防水、保温专业队伍。作业人员应经过防水、保温施工技术专业培训，并达到符合要求的操作技术水平，由当地建设行政主管部门颁发上岗证书。对非专业队伍和非专业人员施工，当地质量监督部门应责令其停止施工。屋面E程验收的文件和记录体现了施工全过程控制，必须做到真实、准确，不得有涂改和伪造，各相关人员签字盖章后方可有效。施工组织设计应体现防水、保温的内容，并要编制防水、保温施工方案，由施工单位，监理单位（或建设单位）共同审批后，严格按施工方案施工。隐蔽工程的后续工序和分项工程覆盖、包裹、遮挡的前一工序的各项工程，应经过检验符合质量标准，避免因质量问题造成渗漏，或不易修复而直接影响工程质量。按现行国家标准《建筑工程施工质量验收统一标准》GB50300的规定，建筑工程质量验收时对涉及结构安全和使用功能的重要分部工程进行抽样检测，因此屋面工程验收时，应检查屋面有无渗漏、积水和排水系统是否畅通，可在雨后持续淋水2h后进行。有可能做蓄水检验的屋面，其蓄水时间应不少于24h。检验后应填写记录、相关人员签字盖章，作为验收文件。8. 2基层工程8. 2.1目前倒置式屋面主要采用轻质和保温材料找坡以及采用水泥砂浆和细石混凝土找平，故本节的验收内容主要针对采用上述材料的找坡和找平层质量验收。8. 2. 3既有建筑屋面改造，基层坡度同样不宜小于3%。8. 2.41: 2. 5~1 : 3 （水泥z砂）体积水泥砂浆找平层采用比，水泥强度等级不得低于32.5级，细石棍凝土找平层采用强度等级不低于C20 ；拥青砂浆找平层采用1: 8 （沥青：砂）质量比，沥青可采用10号、30号的建筑石油，沥青或其熔合物，其材质和配合比必须符合设计要求。8. 2. 5屋面找平层是防水层的基层，在调研中发现平屋面（坡度3% ～5% ）天沟、檐沟，由于排水坡度过小或找坡不正确，会造成屋面排水不畅或积水现象。基层找坡正确，能将屋面上的雨水迅速排走，延长了防水层、保温层的寿命，其排水坡度须符合设计要求。8. 2. 6隔离层所用材料的质量应符合设计要求，当设计无要求时，隔离层所用的材料应能经得起保护层的施工荷载，故建议塑料模的厚度不应小于0.4mm，土工布应采用聚醋土工布，单位面积质量不应小于200g／町，卷材厚度不应小于2mma为了消除保护层与防水层之间的粘结力及机械咬合力，隔离层必须是完全隔离，对隔离层破损或漏铺部位应及时修复。'
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#8.2.3
+  standard_code: JGJ 230-2010
+  chapter: 8 质量验收
+  section: ''
+  clause_no: 8.2.3
+  text: 既有建筑倒置式屋面改造工程基层的坡度不宜小于3% 。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 坡度
+    unit: '%'
+    condition: null
+    min_value: null
+    max_value: 3.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#8.2.6
+  standard_code: JGJ 230-2010
+  chapter: 8 质量验收
+  section: ''
+  clause_no: 8.2.6
+  text: 隔离层所用材料质量应符合设计要求，并不得有破损和 漏铺。 检验方法：检查隐蔽工程验收记录和观察检查。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#8.2.7
+  standard_code: JGJ 230-2010
+  chapter: 8 质量验收
+  section: ''
+  clause_no: 8.2.7
+  text: 找平层表面应压实平整，不得有酥松、起砂、起皮现象， 表面平整度允许偏差应为5mm 。 检验方法：观察检查、用2m 靠尺和模形塞尺检查。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 允许偏差
+    unit: mm
+    condition: null
+    min_value: 5.0
+    max_value: 5.0
+  - name: 观察检查用
+    unit: m
+    condition: null
+    min_value: 2.0
+    max_value: 2.0
+  tables: []
+  converted_tables:
+  - raw: 由于目前一些施工单位对找平层的施工质量不重视，致使水泥砂浆、细石混凝土找平层的表面有酥松、起砂、起皮和破裂现象，直接影响防水层和基层的粘结质量或导致防水层开裂。沥青砂浆找平层表面不密实会产生蜂窝现象，使卷材胶结材料或涂膜的厚度不均匀，影响防水质量。对找平层的质量要求、表面应坚固密实、平整，水泥砂浆，细石混凝土找平层应充分进行养护，使其水泥充分水化，以确保找平质量。经调研，表面平整度，其允许偏差Smm，提高平整度的要求，可使其卷材胶结材料或涂膜的厚度均匀一致，保证工程质量。8. 2. 8经调查分析认为，卷材、涂膜防水层的不规则拉裂，是由于找平层的开裂造成的，水泥砂浆找平层面积大开裂是难免的，找平层合理分格后，可将变形集中到分格缝处。规范规定其纵横缝的最大间距不宜大于6m ，因此按平层分格缝的位置和间距应符合设计要求。8. 2. 9基层与突出屋面结构（女儿墙、山墙、天窗壁、变形缝、烟囱等）的交接处以及基层的转角处，根据卷材的特性，应按《屋面工程技术规范》GB50345的规定做成圆弧形，以保证卷材、涂膜防水层的质量。8. 2.10 找平层的表面平整度是根据抹灰质量标准规定的，其允许偏差为5mm。提高对基层平整度的要求，可使卷材胶结材料或涂膜的厚度均匀一致，保证屋面工程的质量。8. 3防水与密封工程8. 3.1现行国家标准《屋面工程质量验收规范》GB50207对防水工程的验收作了比较详细的规定，本规程防水工程的验收执行现行国家标准。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#8.2.9
+  standard_code: JGJ 230-2010
+  chapter: 8 质量验收
+  section: ''
+  clause_no: 8.2.9
+  text: 基层与突出屋面结构的交接处和基层的转角处，找平层 均应做成圆弧形，且应整齐平！｜顶，圆弧半径应符合设计要求。 检验方法：观察和尺量检查。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 偏差应分别
+    unit: mm
+    condition: null
+    min_value: 5.0
+    max_value: 5.0
+  - name: 偏差应分别
+    unit: mm
+    condition: null
+    min_value: 7.0
+    max_value: 7.0
+  - name: 未识别对象
+    unit: m
+    condition: null
+    min_value: 2.0
+    max_value: 2.0
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50207
+    target_clause: null
+    original_text: 8. 3防水与密封工程8. 3.1屋面防水与密封工程的验收应符合现行国家标准《屋面工程质量验收规范》GB50207的规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#8.3.2
+  standard_code: JGJ 230-2010
+  chapter: 8 质量验收
+  section: ''
+  clause_no: 8.3.2
+  text: 倒置式屋面保温层施工前屋面防水层应经蓄水或淋水检验，且不应积水和渗漏。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#8.3.3
+  standard_code: JGJ 230-2010
+  chapter: 8 质量验收
+  section: ''
+  clause_no: 8.3.3
+  text: 既有建筑倒置式屋面改造防水层的道数应符合改造设计要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 既有建筑原防水层能否作为一道防水层由屋面改造设计确定，施工时应符合设计要求。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#8.3.4
+  standard_code: JGJ 230-2010
+  chapter: 8 质量验收
+  section: ''
+  clause_no: 8.3.4
+  text: 硬泡聚氨醋防水保温复合板施工应检查板缝防水密封 性能。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 硬泡聚氨醋防水保温复合板可以作为一道防水设防，板缝的防水处理极为关键，要按设计要求密封防水，确保不会渗漏。8.4保温工程8. 4. 1目前倒置式屋面主要采用的保温材料有挤塑型聚苯乙烯泡沫塑料板、硬泡聚氨醋板、硬泡聚氨醋防水保温复合板、泡沫玻璃保温板等板状材料，以及喷涂硬泡聚氨醋等，验收内容主要针对采用上述材料施工的质量验收。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#8.4.2
+  standard_code: JGJ 230-2010
+  chapter: 8 质量验收
+  section: ''
+  clause_no: 8.4.2
+  text: 保温材料的导热系数、吸水率、密度、压缩强度、燃烧性能应符合设计和本规程规定。检验方法：检查出厂合格证、检验报告和现场见证取样复验报告。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 保温材料的导热系数，密度或干密度指标直接影响到屋面保温效果。抗压强度或压缩强度影响到屋面的施工质量，燃烧性能是防止火灾隐患的重要条件，因此，在选择保温材料时，应对保温的导热系数、密度、干密度、抗压强度或压缩强度及燃烧性能严格控制，必须符合设计要求及相关施工规范要求，材料的导热系数，密度抗压强度或压缩强度应进场复验。不同厂家，不同品种的保温材料进行不少于3次复验，复验报告齐全，复验样品应由监理人员现场见证取样，样品检验单位应取得相应的资质。燃烧性能可不必进场复验，但需核其相关质量证明文件。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#8.4.3
+  standard_code: JGJ 230-2010
+  chapter: 8 质量验收
+  section: ''
+  clause_no: 8.4.3
+  text: 保温层的厚度应符合设计要求，平均厚度应大于设计厚度，厚度负偏差不应大于5%且不得大于3mm 。检验方法：用钢针插入和钢尺检查。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 未识别对象
+    unit: '%'
+    condition: null
+    min_value: 5.0
+    max_value: null
+  - name: 负偏差
+    unit: mm
+    condition: null
+    min_value: 3.0
+    max_value: null
+  tables: []
+  converted_tables:
+  - raw: ', 8.4.4 保温材料的厚度、铺设方式以及热桥部位的处理等是影响屋面保温效果的主要因素。在一般情况下，如果保温材料的热工性能和厚度、敷设方式均达到设计标准要求，其保温效果也基本上达到设计要求。因此对保温材料的厚度、敷设方式以及热桥部位应重点控制。'
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#8.4.4
+  standard_code: JGJ 230-2010
+  chapter: 8 质量验收
+  section: ''
+  clause_no: 8.4.4
+  text: 保温层的铺设方式、板材缝隙填充质量及屋面热桥部位 的保温做法，应符合设计和本规程的规定。 检验方法：观察检查。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#8.4.7
+  standard_code: JGJ 230-2010
+  chapter: 8 质量验收
+  section: ''
+  clause_no: 8.4.7
+  text: 保温层的铺设应符合下列规定：保温层应按专项施工方案施工；板材保温层应紧贴基层、铺砌平稳、拼缝严密；喷涂施工的保温层，喷涂材料应配合比计量准确、搅拌均匀，喷涂应分层连续施工、表面平整、坡度正确。检验方法：观察检查。保温层表面平整度允许偏差应符合
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表8.4.
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表8.4. 8的规定：
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#8.4.8
+  standard_code: JGJ 230-2010
+  chapter: 8 质量验收
+  section: ''
+  clause_no: 8.4.8
+  text: 保温层表面平整度允许偏差应符合表8.4.8的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表8.4.8
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表8. 4. 8保温层表面平整度允许偏差项次项目允许偏差（mm)无找平层喷涂硬泡聚氨醋有找平层保温板材保温板材相邻接缝检验方法：用2m 靠尺、模形塞尺和钢尺检查。8.5细部构造工程8. 5.1 屋面细部构造的施工质量验收可包括檐口、檐沟和天沟、女儿墙和山墙、水落口、变形缝、伸出屋面管道、屋面出人口、反梁过水孔、设施基座等分项工程。主控项目
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#8.5.2
+  standard_code: JGJ 230-2010
+  chapter: 8 质量验收
+  section: ''
+  clause_no: 8.5.2
+  text: 细部构造的保温层厚度、高度应符合设计要求。 检验方法：观察和尺量检查。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#8.5.4
+  standard_code: JGJ 230-2010
+  chapter: 8 质量验收
+  section: ''
+  clause_no: 8.5.4
+  text: 檐口、檐沟和天沟的排水坡度应符合设计要求。 37 检验方法：用水平仪（水平尺）、拉线和尺量检查。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#8.6.3
+  standard_code: JGJ 230-2010
+  chapter: 8 质量验收
+  section: ''
+  clause_no: 8.6.3
+  text: 保护层表面的排水坡度应符合设计要求，不得有倒坡或积水现象。检验方法：用坡度尺检查及雨后或淋水检验。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 保护层的铺设不应改变原有的排水坡度，导致排水不畅而造成积水，给屋面防水带来隐患。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#8.6.4
+  standard_code: JGJ 230-2010
+  chapter: 8 质量验收
+  section: ''
+  clause_no: 8.6.4
+  text: 水泥砂浆、细石混凝土应符合材料性能要求。 检验方法：检查配合比及抗压强度试验报告。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 明确提出了设计强度要求，水泥砂浆强度等级不低于M15 ，细石1昆凝土强度等级不低于C20。8. 6. 5卵石铺压应防止过量，以免加大屋面荷载，致使结构开裂或变形过大，甚至造成结构破坏，故应严格控制，符合设计要求。8. 6. 6板材在坡屋面上有下滑的趋势，而且在遇到大风或地震时，板材易被掀起或脱落，提出固定措施要符合设计要求，并且铺置牢固。8. 6. 7目前，一些施工单位对现浇保护层的质量重视不够，致使水泥砂浆、细石混凝土保护层表面出现裂缝、起壳、起砂现象，这样的保护层极易开裂破损，因此对水泥砂浆，水泥？昆凝土保护层的质量要求，除满足强度、排水坡度的设计要求外，还要规定其外观质量要求。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#8.6.7
+  standard_code: JGJ 230-2010
+  chapter: 8 质量验收
+  section: ''
+  clause_no: 8.6.7
+  text: 现浇保护层厚度应符合设计要求，表面不得有裂缝、起壳、起砂等缺陷。检验方法：观察检查。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#8.6.8
+  standard_code: JGJ 230-2010
+  chapter: 8 质量验收
+  section: ''
+  clause_no: 8.6.8
+  text: 板块材料保护层应接缝平整、周边顺直、表面洁净，不得有裂缝、掉角和缺棱等缺陷。检验方法：观察检查。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#8.6.9
+  standard_code: JGJ 230-2010
+  chapter: 8 质量验收
+  section: ''
+  clause_no: 8.6.9
+  text: 卵否保护层的卵石铺设应分布均匀，粒径应满足要求。检验方法：观察和尺量检查。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#8.6.10
+  standard_code: JGJ 230-2010
+  chapter: 8 质量验收
+  section: ''
+  clause_no: 8.6.10
+  text: 保护层施工允许偏差应符合
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表8.6.
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表8.6. 10的规定：表8.6.10保护层施工允许偏差项次项目允许偏差（mm)现浇保护层表面乎整度块体材料保护层分格缝平直度板块材料保护层板块接缝高低差板块材料保护层板块间隙宽度保护层厚度士10%厚度，且绝对值不大于5检验方法：用靠尺、模形塞尺、钢针插入和尺量检查。
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#A.0.2
+  standard_code: JGJ 230-2010
+  chapter: 附录A 倒置式屋面工程防水、保温材料标准和试验方法标准
+  section: ''
+  clause_no: A.0.2
+  text: 倒置式屋面防水材料和试验方法应符合现行国家标准《屋面工程技术规范》GB50345的相关规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50345
+    target_clause: null
+    original_text: 倒置式屋面防水材料和试验方法应符合现行国家标准《屋面工程技术规范》GB50345的相关规定。
+    resolution_status: resolved
+    resolution_note: 库内标准（GB 50345-2012），可交叉引用并确认具体参数
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#B.0.1
+  standard_code: JGJ 230-2010
+  chapter: 附录B 倒置式屋面工程防水、保温材料现场抽样检验要求
+  section: ''
+  clause_no: B.0.1
+  text: B.0.1 保温材料现场抽样检验应符合表B.0. 1的规定。表B.0.1保温材料现场抽样检验序号材料名称现场抽样数量外观质量检验物理性能检验同一生产厂家、同一导热系数、表外形基本平整，挤塑型聚品种、同一批号且不超观密度、压缩强无严重凹凸不平；苯乙烯泡沫过200m3的产品为一度、燃烧性能、厚度允许偏差为塑料板批，每批抽样不少于吸水率、尺寸稳5% ，且不大于4mm一次定性同一生产厂家、同一导热系数、表外形基本平整．模塑型聚品种、同一批号且不超观密度、压缩强无严重凹凸不平；苯乙烯泡沫过200m3的产品为一度、燃烧性能、厚度允许偏差为塑料板批，每批抽样不少于吸水率、尺寸稳5% ，且不大于4mm一次定性导热系数、表按喷涂面积，500时表面平整，无破观密度、压缩强喷涂硬泡以下取一组.500时～损、脱层、起鼓、度、燃烧性能、聚氨醋l000m2取两组，l000m2孔洞及缝隙，厚度吸水率、尺寸稳均匀一致以上每1000时取一组定性同一生产厂家、同一导热系数、表品种、同一批号且不超外形基本平整，观密度、压缩强硬泡聚氨无严重凹凸不平：过200m3的产品为一度、燃烧性能、酶板厚度允许偏差为批，每批抽样不少于吸水率、尺寸稳5% ，旦不大于4mm－次定性同一生产厂家、同一导热系数、表品种、同一批号且不超外形基本平整，观密度、压缩强无严重凹凸不平；泡沫玻璃过200m3的产品为一度、燃烧性能、厚度允许偏差为批，每批抽样不少于吸水率、尺寸稳5% ，且不大于4mm一次定性续表B.0. 1序号材料名称现场抽样数量外观质量检验物理性能检验表面洁净光滑、同一生产厂家、同一导热系数、表观色彩一致、无松散品种、同一批号且不超密度、压缩强屋面复合颗粒．尺寸准确、过200m3的产品为一度、燃烧性能、保温板缺棱掉角不超过l批‘每批抽样不少于吸水率、尺寸稳个、平面弯曲不得‘次定性大于3mm、无裂纹
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 乙烯泡沫过
+    unit: m
+    condition: null
+    min_value: 200.0
+    max_value: 200.0
+  - name: 批每批抽样
+    unit: '%'
+    condition: null
+    min_value: 5.0
+    max_value: null
+  - name: 尺寸稳且
+    unit: mm
+    condition: null
+    min_value: 4.0
+    max_value: null
+  - name: 能聚氨醋l
+    unit: m
+    condition: null
+    min_value: 0.0
+    max_value: 0.0
+  - name: m取两组l
+    unit: m
+    condition: null
+    min_value: 0.0
+    max_value: 0.0
+  - name: 凹凸不平过
+    unit: m
+    condition: null
+    min_value: 200.0
+    max_value: 200.0
+  - name: 尺寸稳旦
+    unit: mm
+    condition: null
+    min_value: 4.0
+    max_value: null
+  - name: 泡沫玻璃过
+    unit: m
+    condition: null
+    min_value: 200.0
+    max_value: 200.0
+  - name: 尺寸准确过
+    unit: m
+    condition: null
+    min_value: 200.0
+    max_value: 200.0
+  - name: 得次定性
+    unit: mm
+    condition: null
+    min_value: 3.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#B.0.2
+  standard_code: JGJ 230-2010
+  chapter: 附录B 倒置式屋面工程防水、保温材料现场抽样检验要求
+  section: ''
+  clause_no: B.0.2
+  text: 防水材料现场抽样检验应按现行国家标准《屋面工程质量验收规范》GB50207的相关规定执行。本规程用词说明为便于在执行本规程条文时区别对待，对要求严格程度不同的用词说明如下：1 ）表示很严格，非这样做不可的：正面词采用“必须”，反面词采用“严禁”；2 ）表示严格，在正常情况下均应这样做的：正面词采用“应”，反面词采用“不应”或“不得”；3 ）表示允许稍有选择，在条件许可时首先应这样做的：正面词采用“宜”，反面词采用“不宜”；4）表示有选择，在一定条件下可以这样做的，采用“可”。条文中指明应按其他有关标准执行时的写法为：“应符合......的规定”或“应按......执行”。引用标准名录《建筑给水排水设计规范》GB50015《民用建筑热工设计规范》GB50176《屋面工程质量验收规范》GB50207《屋面工程技术规范》GB50345《硬泡聚氨醋保温防水工程技术规范》GB50404《元机硬质绝热制品试验方法》GB/T5486《泡沫塑料及橡胶表观密度的测定》GB/T6343《建筑材料及制品燃烧性能分级》GB8624《硬质泡沫塑料吸水率的测定》GB/T8810《硬质泡沫塑料尺寸稳定性试验方法》GB/T8811《硬质泡沫塑料压缩性能的测定》GB/T8813《硬质泡沫塑料拉伸性能试验方法》GB/T9641《绝热材料稳态热阻及有关特性的测定防护热板法》GB/T 10294《绝热用模塑聚苯乙烯泡沫塑料》GB/T10801. 1《绝热用挤塑聚苯乙烯泡沫塑料》GB/T10801. 2《建筑绝热用硬质聚氨醋泡沫塑料》GB/T21558《种植屋面工程技术规程》JG]155 ·《泡沫玻璃绝热制品》JC/T647《喷涂聚氨醋硬泡体保温材料》JC/T998《硬质泡沫塑料水蒸气透过性能的测定》QB/T2411中华人民共和国行业标准倒置式屋面工程技术规程JGJ 230 -2010
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 必须
+    - 严禁
+    - 不应
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50207
+    target_clause: null
+    original_text: 防水材料现场抽样检验应按现行国家标准《屋面工程质量验收规范》GB50207的相关规定执行。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  - target_standard: GB 50015
+    target_clause: null
+    original_text: 写法为：“应符合......的规定”或“应按......执行”。引用标准名录《建筑给水排水设计规范》GB50015《民用建筑热工设计规范》GB50176《屋面工程质量验收规范》GB50207《屋
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  - target_standard: GB 50176
+    target_clause: null
+    original_text: “应按......执行”。引用标准名录《建筑给水排水设计规范》GB50015《民用建筑热工设计规范》GB50176《屋面工程质量验收规范》GB50207《屋面工程技术规范》GB50345《硬泡聚
+    resolution_status: resolved
+    resolution_note: 库内标准（GB 50176-2016），可交叉引用并确认具体参数
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#3.0.4
+  standard_code: JGJ 230-2010
+  chapter: 3 基本规定
+  section: ''
+  clause_no: 3.0.4
+  text: 参照《屋面工程技术规范》GB50345 -2004第3.0.2条。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50345
+    target_clause: 3.0.2
+    original_text: 参照《屋面工程技术规范》GB50345 -2004第3.0.2条。
+    resolution_status: resolved
+    resolution_note: 库内标准（GB 50345-2012），可交叉引用并确认具体参数
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#3.0.5
+  standard_code: JGJ 230-2010
+  chapter: 3 基本规定
+  section: ''
+  clause_no: 3.0.5
+  text: 参照《屋面工程技术规范》GB50345 -20040
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50345
+    target_clause: null
+    original_text: 参照《屋面工程技术规范》GB50345 -20040
+    resolution_status: resolved
+    resolution_note: 库内标准（GB 50345-2012），可交叉引用并确认具体参数
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#3.0.6
+  standard_code: JGJ 230-2010
+  chapter: 3 基本规定
+  section: ''
+  clause_no: 3.0.6
+  text: 参照国务院第393号令《建设工程安全生产管理条例》。3. o. 7按现行国家标准《建筑工程施工质量验收统一标准》GB 50300的规定，建筑工程施工质量验收时，对涉及结构安全和使用功能的重要分部工程应进行抽样检测。因此，屋面工程验收时，应检查屋面有无渗漏、积水和排水系统是否畅通，可在雨后或持续淋水2h 后进行。有可能作蓄水检验的屋面，其蓄水时间不应少于24h。检验后应填写安全和功能检验（检测）报告，作为屋面工程验收的文件和记录之一。3. o. 8目前部分屋面的渗漏以致返修，管理维护不善是原因之一。不少工程交付使用后，又在屋面上增设电视天线，太阳能热水器等设施，尤其是高层建筑中增设广告招牌，对屋面防水层造成局部损坏，导致屋面发生渗漏现象。排水系统不但交工时要畅通，在使用过程中仍要经常检查，防止由于堵塞而造成屋面长期积水和大雨时溢水。为此，要求建筑物使用者加强管理和维护使之经常化、制度化，以利及时发现问题及时进行维修，延长使用寿命。材料4.1一般规定
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 持续淋水
+    unit: h
+    condition: null
+    min_value: 2.0
+    max_value: 2.0
+  - name: 间不应少于
+    unit: h
+    condition: null
+    min_value: 24.0
+    max_value: 24.0
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50300
+    target_clause: null
+    original_text: 3. o. 7按现行国家标准《建筑工程施工质量验收统一标准》GB 50300的规定，建筑工程施工质量验收时，对涉及结构安全和使用功能的重要分部工程应进行抽样检测。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#4.1.1
+  standard_code: JGJ 230-2010
+  chapter: 4 材料
+  section: ''
+  clause_no: 4.1.1
+  text: 倒置式屋面的防水层材料耐久性应符合设计要求；保温 层应选用表观密度小、压缩强度大、导热系数小、吸水率低的保 温材料，不得使用松散保温材料。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 必须
+    - 不应
+    - 禁止
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50345
+    target_clause: null
+    original_text: 本规程对倒置式屋面防水材料和保泪材料的选用，要求除遵守现行国家标准《屋面工程技术规范》GB50345中相关规定外，根据倒置式屋面的特点，作出相应的规定。
+    resolution_status: resolved
+    resolution_note: 库内标准（GB 50345-2012），可交叉引用并确认具体参数
+  - target_standard: GB 50207
+    target_clause: null
+    original_text: 《屋面工程质量验收规范》GB50207中把此条作为主控项目之一。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+  _exclusion_removed:
+  - 除遵守现行国家标准《屋面工程技术规范》GB50345中相关规定外，根据倒置式屋面的特点，作出相应的规定。
+- id: JGJ 230-2010#4.3.7
+  standard_code: JGJ 230-2010
+  chapter: 4 材料
+  section: ''
+  clause_no: 4.3.7
+  text: 泡沫玻璃板具有密度小、化学稳定性好、不燃烧、不吸水、不透温、耐热抗冻、导热系数低、抗老化、使用寿命长等优点，近年来也逐步在建筑保温工程中得以推广应用。泡沫玻璃板的上述优点也决定了其适合用于倒置式屋面工程。泡沫玻璃有一个建材行业标准《泡沫玻璃绝热制品》］C/T647一2005 ，本规程对泡沫玻璃的性能指标要求即依据该标准中的相关内容执行。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#4.3.9
+  standard_code: JGJ 230-2010
+  chapter: 4 材料
+  section: ''
+  clause_no: 4.3.9
+  text: 保温材料胶粘剂应采用与之相适应的专用胶粘剂。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#4.3.10
+  standard_code: JGJ 230-2010
+  chapter: 4 材料
+  section: ''
+  clause_no: 4.3.10
+  text: 有机泡沫保温材料在运输和贮存中应远离火源和化学榕 剂，避免日光暴晒、风吹雨淋，并应避免长期受压和其他机械 损伤。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#5.2.2
+  standard_code: JGJ 230-2010
+  chapter: 5 设计
+  section: ''
+  clause_no: 5.2.2
+  text: 水泥砂浆、细石混凝土在施工时，因砂浆水灰比、含泥量、细骨料比例等因素，会导致开裂，因此需设置分格缝。转角处弧形以确保防水层粘贴牢固。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#5.2.3
+  standard_code: JGJ 230-2010
+  chapter: 5 设计
+  section: ''
+  clause_no: 5.2.3
+  text: 防水层可能长期处于潮湿的环境中，必须选用长期在潮温环境中抗腐蚀性能好、不变质、耐老化、各项物理性能要符合现行国家标准《屋面工程技术规范》GB50345规定的材料。防水层宜选用两种防水材料复合使用，耐老化、耐穿刺的防水材料应设在防水层的上层。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 必须
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50345
+    target_clause: null
+    original_text: 防水层可能长期处于潮湿的环境中，必须选用长期在潮温环境中抗腐蚀性能好、不变质、耐老化、各项物理性能要符合现行国家标准《屋面工程技术规范》GB50345规定的材料。
+    resolution_status: resolved
+    resolution_note: 库内标准（GB 50345-2012），可交叉引用并确认具体参数
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#5.2.6
+  standard_code: JGJ 230-2010
+  chapter: 5 设计
+  section: ''
+  clause_no: 5.2.6
+  text: 倒置式屋面为了防止紫外线的直接照射、人为损害以及防止保温层泡雨水后上浮，应在保温层上做保护层。保护层多为开敞式，即在保温层上做板块材料、卵石保护层。倒置式屋面分上人、非上人和功能性屋面。上人屋面宜采用混凝土板块、地砖、种植等做保护层；非上人屋面宜采用卵石做保护层；功能性屋面宜采用现浇细石？昆凝土保护层或板块材料保护层。5.3细部构造
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#5.3.1
+  standard_code: JGJ 230-2010
+  chapter: 5 设计
+  section: ''
+  clause_no: 5.3.1
+  text: 屋面细部构造的设计应符合下列规定： 1 檐口、檐沟和天沟、女儿墙和山墙、水落口、变形缝、 伸出屋面管道、屋面出人口、设施基座等细部节点部位应增设防 水附加层，平面与立面交接处的卷材应空铺； 2 细部节点应采用高弹性、高延伸性防水和密封材料； 3 细部节点的密封防水构造应使密封部位不渗水，并应满 足防水层合理使用年限的要求； 4 在与室内空间有关联的细部节点处，应铺设保温层。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#5.3.8
+  standard_code: JGJ 230-2010
+  chapter: 5 设计
+  section: ''
+  clause_no: 5.3.8
+  text: 伸出屋面穿过防水层管道多种多样，包括伸出屋面排汽管道、换气管道等等。应采用套管防水处理，即浇捣混凝土时先预埋套管，并焊有一道或多道止水片，当管道通过套管后，两端采用密封材料填嵌。为防止混凝土干缩与套管周边脱开裂缝而导致渗漏，设计时须在套管四周与混凝土找平层间留有凹槽，一般为20mm × 20mm，填嵌密封材料，并将管根部垫高，做成1/10排水坡，以利排水，然后做防水层。防水层与管道套管用金属箍配橡胶垫绑扎牢固，再以密封膏密封，保温材料铺至套管周围。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 有凹槽一般
+    unit: mm
+    condition: null
+    min_value: 20.0
+    max_value: 20.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#5.3.9
+  standard_code: JGJ 230-2010
+  chapter: 5 设计
+  section: ''
+  clause_no: 5.3.9
+  text: 保温层应覆盖包裹整个设施基础，防止此部位产生热桥效应。搁置在保护层上的设备，为防止压坏保护层、保温层和防水层。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#5.3.12
+  standard_code: JGJ 230-2010
+  chapter: 5 设计
+  section: ''
+  clause_no: 5.3.12
+  text: 因聚氨醋防水保温复合板可以作为一道防水层，板缝的处理极为关键。粘贴卷材的胶粘剂应为卷材配套专用，满粘卷材，卷材覆盖板缝的宽度严格控制，不得小于150mm，卷材应铺贴牢固，尺寸准确，不应有空鼓、扭曲榴皱情况，卷材边缘用防水密封胶密封严密。施工6.1一般规定6. 1.1 施工前应进行图纸会审及设计交底，施工单位应编制专项施工方案，作业前的技术交底是为了保证倒置式屋面的构造做法与细部构造等符合设计意图，并做到质量的预控。6.1. 2各构造层次的过程控制和质量检查及完整记录备案为了保证各构造层次的质量，从而保证了整个屋面分部工程的质量。6. 1. 3屋面防水层、保温层的厚度是屋面防水、保温效果最重要的技术要求，施工时应符合设计要求。6.1. 4伸出屋面的管道、烟道、设备、零星设施或预埋件等，均应在防水层施工前固定、安装完毕，并采用防水附加层对其节点加强，顶部密封严密等。6.1. 5屋面工程均为露天施工，且防水层和保温层施工对基层含水率、气温等要求较严格，若环境气温不适合防水层和保温层施工，将元法保证其工程质量，所以在防水层和保温层施工时，有雨雪、大风天气禁止施工，环境气温应符合要求。6.1. 6在坡度大于15% 的坡屋面进行屋面工程施工时，因倾角较大，易发生危险，所以必须设置可靠的防滑和其他防护设施。6. 1. 7对倒置式屋面工程的成品保护是一个非常重要的环节。防水层开始施工直到屋面施工完成，均不得在屋面上进行动火作业，动火作业极易导致防水层损坏，还会引燃保温材料导致火灾事故。屋面工程完工后，上人进行其他作业操作，极易造成防水层、保温层局部破坏出现渗漏或保温层局部失效，确需进行其他工序施工时，应采取有效的保护措施，以防止损坏。6.2找坡层、找平层施工6. 2.1上一道工序完工后，应经验收合格，方可进行一下道工序施工。6. 2. 2找坡层、找平层施工应选用设计要求的材料和按照相应的配合比。6. 2.3 冬期施工时，根据不同的材料应采取相应的防冻措施。6. 2. 4基层表面处理是保证施工质量的重要环节，是不可缺少的一道工序。6. 2. 5屋面每一个构造层的坡度或平整度偏差较大，均会对上一个构造层造成影响，特别是如果保护层坡度、平整度达不到设计要求，会引起屋面排水不畅或积水，给屋面防水造成隐患，还会影响屋面保温效果。6. 2.6分格缝的设置在设计一章中有明确规定，施工时应符合设计要求。6. 2. 7根据长期的工程实践，交接处均应做成圆弧形。落水口周边做成凹坑便于排水，采取相应密封措施防止渗漏。6. 3防水层施工6. 3.1基层是卷材防水层的依附层，其质量好坏将直接影响到防水层的质量，应对基层进行质量验收。基层不干净，将使防水层难以粘结牢固，会产生空鼓现象。如在潮湿的基层上施工防水层，防水层与基层粘结困难，也易产生空鼓现象，立面防水层还会下坠，因此基层干燥也是保证防水层质量的重要环节。6.3. 2 现行国家标准《屋面工程技术规范》GB50345对防水层的施工作了比较详细的规定，本规程防水层的施工不作进一步规定，执行现行国家标准。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 必须
+    - 不应
+    - 不得
+    - 禁止
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 度严格控制
+    unit: mm
+    condition: null
+    min_value: 150.0
+    max_value: null
+  - name: 要求在坡度
+    unit: '%'
+    condition: null
+    min_value: 15.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50345
+    target_clause: null
+    original_text: 6.3. 2 现行国家标准《屋面工程技术规范》GB50345对防水层的施工作了比较详细的规定，本规程防水层的施工不作进一步规定，执行现行国家标准。
+    resolution_status: resolved
+    resolution_note: 库内标准（GB 50345-2012），可交叉引用并确认具体参数
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#6.4.9
+  standard_code: JGJ 230-2010
+  chapter: 6 施工
+  section: ''
+  clause_no: 6.4.9
+  text: 当保温板材采用粘贴法时，应符合下列规定： 1 当采用专用胶粘剂粘贴保温板材时，保温板材与基层在 天沟、檐沟、边角处应满涂胶结材料，其他部位可采用点粘或条 粘，并应使其互相贴严、粘牢，缺角处应用碎屑加胶粘剂拌匀填 补严密； 2 当采用有机胶粘剂粘贴保温板材时，施工环境温度应符 合本规范表6.1.5 的规定； 3 胶粘剂厚度不应小于5mm; 4 保温板材铺设后，在胶粘剂凝固前不得上人踩踏； 5 保温层胶粘剂凝固后宜尽快施工保护层，当不能及时进 行保护层施工时，应在保温板材上铺设压重材料。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 必须
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 帖剂厚度
+    unit: mm
+    condition: null
+    min_value: 5.0
+    max_value: null
+  - name: 基层间距
+    unit: mm
+    condition: null
+    min_value: 200.0
+    max_value: 200.0
+  - name: 基层间距
+    unit: mm
+    condition: null
+    min_value: 400.0
+    max_value: 400.0
+  - name: 涂厚度
+    unit: mm
+    condition: null
+    min_value: 20.0
+    max_value: null
+  - name: 板材粘贴后
+    unit: h
+    condition: null
+    min_value: 21.0
+    max_value: 21.0
+  - name: 并抹至宽度
+    unit: mm
+    condition: null
+    min_value: 150.0
+    max_value: 150.0
+  - name: 至宽度mm
+    unit: mm
+    condition: null
+    min_value: 180.0
+    max_value: 180.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#6.5.2
+  standard_code: JGJ 230-2010
+  chapter: 6 施工
+  section: ''
+  clause_no: 6.5.2
+  text: 保护层施工应符合下列规定： 1 保护层施工不得损坏保温层； 2 保护层与保温层之间的隔离层应满铺，不得漏底，搭接 宽度不应小于lOOmm; 3 天沟、檐沟、出屋面管道和水落口处防水层外露部分应 采取有效的保护措施； 4 保护层的分格缝宜与找平层的分格缝对齐。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 石直径应在
+    unit: mm
+    condition: null
+    min_value: 20.0
+    max_value: 20.0
+  - name: 径应在mm
+    unit: mm
+    condition: null
+    min_value: 60.0
+    max_value: 60.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#6.5.4
+  standard_code: JGJ 230-2010
+  chapter: 6 施工
+  section: ''
+  clause_no: 6.5.4
+  text: '板块材料作保护层时的施工要求。1 为保证板块材料保护层铺设后均匀着力于下部构造，可设置结合层，可选用砂或水泥砂浆，禁止干摆干铺。为保证屋面工程排水顺畅、不积水，在铺设板状材料保护层时也应按设计坡度挂线、抄平，防止在铺设时出现反坡、倒流水等现象。还应保证铺砌的块体横平竖直，板块接缝对齐，以保证保护层的保护作用以及屋面工程美观。为保证铺设质量，采用砂结合层时，砂应适当洒水（最佳含水率）压实，并用刮尺刮平，以防止板块松动及保证平整度。板块拼缝宽度宜控制为lOmm，以方便句缝处理和保证美观。为保证平整度和排水坡度，在板块铺设完成后，还应洒水并轻拍压平，同样也保证块材不会翘角、空鼓。板缝处理时应先用砂将缝填至一半高度，然后用1: 2水泥砂浆勾成凹缝，保证缝内元空隙，保证勾缝质量。采用砂结合层时，在使用过程中，因雨水等冲刷，会造成结合层砂流失而导致保护层破坏，为防止上述情况发生，应在保护层四周500mm 范围内用低强度等级水泥砂浆作为结合层。为防止温度应力造成块材保护层接缝处开裂，板块保护层宜留设纵横间距不大于lOm的分格缝，缝宽不宜小于20mmo6. 5. 5采用整体现浇混凝土保护层时的施工要求。混凝土收水后应进行二次压光，以切断和封闭漉凝土中的毛细管，提高其密实性和抗渗性。抹压面层时，在表面洒水、加水泥浆或撒干水泥，会造成表面龟裂脱皮，降低防水效果。为防止温度应力造成混凝土保护层裂缝，应按规定留设分格缝；为保证每个分格内的混凝土（砂浆）不出现冷缝、分层，每格内的混凝土（砂浆）应连续浇筑。为保证每个分格内的保护层可自由变形，防止产生温度应力裂缝，若保护层配筋时，钢筋网片应在分格缝处断开。养护是保证混凝土保护层质量的关键因素之一，为保证保护层质量，在保护层浇筑完成后应及时养护并不少于7d ，最后清理分格缝。'
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 禁止
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 保护层四周
+    unit: mm
+    condition: null
+    min_value: 500.0
+    max_value: 500.0
+  - name: 未识别对象
+    unit: mm
+    condition: null
+    min_value: 20.0
+    max_value: null
+  - name: 及时养护并
+    unit: d
+    condition: null
+    min_value: 7.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#6.5.6
+  standard_code: JGJ 230-2010
+  chapter: 6 施工
+  section: ''
+  clause_no: 6.5.6
+  text: 分格缝的设置及施工要求。1 分格缝设置在屋面板的端头、凸出屋面交接处、转折处，因纵横向的形变量不一致，保护层易出现裂缝，所以在此部位应设置分格缝。为保证屋面美观以及各分格之间相对变形小，分格缝设置在交接处必须相通，不宜成为T 字形或L 字形缝。在坡屋面的屋脊处或平屋面分水线处应留设分格缝。分格越大，每个分格受温度影响变形越大，为保证保护层质量，分格缝纵横间距均不应大于6m 。为防止因结构屋面板变形而影响保护层质量，分格缝应与结构板缝位置一致，位于开间处，并延伸至挑檐、天沟内。既有建筑倒置式屋面改造7.1一般规定
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 必须
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 间距均
+    unit: m
+    condition: null
+    min_value: 6.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#7.1.1
+  standard_code: JGJ 230-2010
+  chapter: 7 既有建筑倒置式屋面改造
+  section: ''
+  clause_no: 7.1.1
+  text: 既有建筑屋面改造前，应对屋面的结构、防水性能等情 况进行勘查，并宜进行现场检测和采取加固措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 必须
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#7.2.2
+  standard_code: JGJ 230-2010
+  chapter: 7 既有建筑倒置式屋面改造
+  section: ''
+  clause_no: 7.2.2
+  text: 既有建筑倒置式屋面改造设计应符合下列规定： 1 屋面改造设计应根据勘查报告或鉴定结论和建筑节能标 准要求进行； 2 当原有屋面防水层有效或经修补可达到设计使用要求时， 可作为一道防水层，并应再增设一道防水层； 3 当原有屋面防水层渗漏或保温层含水率较大时，应彻底 拆除并清理干净，再按正常倒置式屋面设计； 4 保温层宜选用聚苯乙烯泡沫塑料或硬泡聚氨醋等保温 材料； 5 屋面改造设计与既有建筑外立面的装饰效果应具有统 一性。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#8.4.5
+  standard_code: JGJ 230-2010
+  chapter: 8 质量验收
+  section: ''
+  clause_no: 8.4.5
+  text: 细部构造处的做法和施工质量，是施工质量控制的薄弱环节，因此验收时应作为主控项目。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#8.4.6
+  standard_code: JGJ 230-2010
+  chapter: 8 质量验收
+  section: ''
+  clause_no: 8.4.6
+  text: 坡屋面保温材料的下滑力较大，如不固定牢固，会造成整体下滑，严重的会引起重大质量事故和人身伤亡安全事故，应高度重视。8. 4. 7屋面保温层施工应事先制定专项施工方案，施工方案应科学合理，保温层的施工质量应保证表面平整，坡向正确，铺设牢固、缝隙严密，对现场配料还应检查配料记录。8.5细部构造工程8. 5.1 屋面的檐口、檐沟和天沟、女儿墙和山墙、水落口、变形缝、伸出屋面管道、屋面出人口、反梁过水孔、设施基座等部位，是屋面工程中最容易出现渗漏的薄弱环节。据调查表明有70% 的屋面渗漏是由于细部构造的防水处理不当引起的，所以，对这些部位均应进行防水增强处理，并作重点质量检查验收。8. 5. 4天沟、檐沟的排水坡度和排水方向应能保证雨水及时排走，充分体现防排结合的屋面工程设计思想。如果屋面长期积水或干湿交替，在天沟等低洼处滋生青苔、杂草或发生霉烂，最后导致屋面渗漏。8.6 保护层工程8. 6.1验收内容主要针对倒置式屋面大量采用的各种材料不同形式保护层施工的质量验收。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 调查表明有
+    unit: '%'
+    condition: null
+    min_value: 70.0
+    max_value: 70.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#8.6.2
+  standard_code: JGJ 230-2010
+  chapter: 8 质量验收
+  section: ''
+  clause_no: 8.6.2
+  text: 保护层用原材料质量，是确保其质量的基本条件。如果原材料质量不好，配合比不准确就难以达到对防水层、保温层保护的目的。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcRoof
+    activity_types:
+    - 屋面防水设计
+  conflicts: []
+- id: JGJ 230-2010#2.0.1
+  standard_code: JGJ 230-2010
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.1
+  text: 倒置式屋面 inversion type roof 将保温层设置在防水层之上的屋面。 2. o. 2 挤塑聚苯乙烯泡沫塑料板（XPS) extruded polysty rene foam board 以聚苯乙烯树脂或其共聚物为主要成分，添加少量添加剂， 通过加热挤塑成型的具有闭孔结构的硬质泡沫塑料板。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ 230-2010#2.0.4
+  standard_code: JGJ 230-2010
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.4
+  text: 喷涂硬泡聚氨醋 polyurethane spray foam 现场使用专用喷涂设备连续多遍喷涂发泡聚氨醋形成的硬质 泡沫体。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ 230-2010#4.1.2
+  standard_code: JGJ 230-2010
+  chapter: 4 材料
+  section: ''
+  clause_no: 4.1.2
+  text: 防水、保温材料应具有出厂合格证、质量检验报告和现 场见证取样复验报告。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ 230-2010#4.2.1
+  standard_code: JGJ 230-2010
+  chapter: 4 材料
+  section: ''
+  clause_no: 4.2.1
+  text: 防水材料的物理性能和外观质量应符合现行国家标准 《屋面工程技术规范》GB 50345 的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ 230-2010#4.3.12
+  standard_code: JGJ 230-2010
+  chapter: 4 材料
+  section: ''
+  clause_no: 4.3.12
+  text: 泡沫玻璃板在运输中应有防振、防潮措施，进场后应在 室内存放，堆放场地应坚实、平整、干燥。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ 230-2010#5.1.11
+  standard_code: JGJ 230-2010
+  chapter: 5 设计
+  section: ''
+  clause_no: 5.1.11
+  text: 屋顶与外墙交界处、屋顶开口部位四周的保温层，应采 用宽度不小于500mm 的A 级保温材料设置水平防火隔离带。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ 230-2010#5.1.8
+  standard_code: JGJ 230-2010
+  chapter: 5 设计
+  section: ''
+  clause_no: 5.1.8
+  text: 倒置式屋面水落管的数量，应按现行国家标准《建筑给 水排水设计规范》GB 50015 的有关规定，通过计算确定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ 230-2010#5.1.9
+  standard_code: JGJ 230-2010
+  chapter: 5 设计
+  section: ''
+  clause_no: 5.1.9
+  text: 当采用二道防水设防时，宜选用防水涂料作为其中一道 防水层。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ 230-2010#5.2.1
+  standard_code: JGJ 230-2010
+  chapter: 5 设计
+  section: ''
+  clause_no: 5.2.1
+  text: 倒置式屋面找坡层设计应符合下列规定： 1 屋面宜结构找坡； 2 当屋面单向坡长大于9m 时，应采用结构找坡； 3 当屋面采用材料找坡时，坡度宜为3% ，最薄处找坡层 厚度不得小于30mm。找坡宜采用轻质材料或保温材料。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ 230-2010#5.3.11
+  standard_code: JGJ 230-2010
+  chapter: 5 设计
+  section: ''
+  clause_no: 5.3.11
+  text: 瓦屋面天沟防水保温构造应符合下列规定： 1 天沟底部沿天沟中心线应铺设附加防水层，每边宽度不 应小于450mm ，并应深入平瓦下； 2 天沟部位应设置金属板瓦覆盖，在平瓦下应上翻，并应 和平瓦结合严密（图5.3.11 ）。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ 230-2010#5.3.2
+  standard_code: JGJ 230-2010
+  chapter: 5 设计
+  section: ''
+  clause_no: 5.3.2
+  text: 天沟、檐沟的防水保温构造（图5.3.2 ）应符合下列 规定： 3 图5.3.2 天沟、檐沟的防水保温构造 1 保温层； 2 密封材料； 3 压条钉压；4 水落口； 5 防水附加层； 6一防水层 1 檐沟、天沟及其与屋面板交接处应增设防水附加层； 2 防水层应由沟底翻上至沟外侧顶部。卷材收头应用金属 压条钉压，并应用密封材料封严；涂膜收头应用防水涂料涂刷 2～3遍或用密封材料封严； 3 檐沟外侧顶部及侧面均应抹保温砂浆，其下端应做成鹰 嘴或滴水槽； 14 4 保温层在天沟、檐沟的上下两面应满铺或连续喷涂。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ 230-2010#5.3.7
+  standard_code: JGJ 230-2010
+  chapter: 5 设计
+  section: ''
+  clause_no: 5.3.7
+  text: 屋面出人口处防水保温构造应符合下列规定： 1 屋面出入口泛水距屋面高度不应小于250mm; 2 屋面水平出入口防水层和附加层收头应压在混凝土踏步 下，屋面踏步与屋面保护层接缝处应采用密封材料封 严（图5.3.7-1); 图5.3.7 1 屋面水平出入口处防水保温构造 1 密封材料； 2 保护层；3 踏步g 4 －保温层； 5 找坡层； 6一防水附加层g 7 防水层 19 3 屋面垂直出人口防水层和附加层收头应钉压固定在混凝 土压顶圈梁下（图5.3.7-2); CMUNA 3 4 图5.3.7-2 屋面垂直出入口处防水保温构造 I 上人孔盖及压顶圈梁； 2一保温层； 3 防水附加层g 4- 防水层 4 屋面水平出人口保温层应连续铺设或喷涂至混凝土踏步 处，立面处应粘牢； 5 屋面垂直出人口保温层应连续铺设或喷涂至混凝土压顶 圈梁下。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ 230-2010#6.1.2
+  standard_code: JGJ 230-2010
+  chapter: 6 施工
+  section: ''
+  clause_no: 6.1.2
+  text: 施工单位应对施工进行过程控制和质量检查，并应有完 整的检查记录。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ 230-2010#6.2.1
+  standard_code: JGJ 230-2010
+  chapter: 6 施工
+  section: ''
+  clause_no: 6.2.1
+  text: 屋面的找坡层、找平层应在结构层验收合格后再进行 施工。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ 230-2010#6.2.2
+  standard_code: JGJ 230-2010
+  chapter: 6 施工
+  section: ''
+  clause_no: 6.2.2
+  text: 找坡层、找平层的材料及配合比应符合设计要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ 230-2010#6.2.5
+  standard_code: JGJ 230-2010
+  chapter: 6 施工
+  section: ''
+  clause_no: 6.2.5
+  text: 找坡层、找平层施工应保证设计要求的平整度及坡度。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ 230-2010#6.3.2
+  standard_code: JGJ 230-2010
+  chapter: 6 施工
+  section: ''
+  clause_no: 6.3.2
+  text: 屋面防水层施工应符合现行国家标准《屋面工程技术规 范》GB 50345 的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ 230-2010#6.4.1
+  standard_code: JGJ 230-2010
+  chapter: 6 施工
+  section: ''
+  clause_no: 6.4.1
+  text: 保温层施工前，防水层应验收合格。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ 230-2010#6.4.10
+  standard_code: JGJ 230-2010
+  chapter: 6 施工
+  section: ''
+  clause_no: 6.4.10
+  text: 喷涂硬泡聚氨醋保温层施工应符合下列规定： 1 喷涂硬泡聚氨醋屋面保温施工应使用专用喷涂设备； 2 喷涂硬泡聚氨醋的配合比应准确计量，发泡厚度应均匀 一致； 3 施工前应对喷涂设备进行调试及材料性能检测，并宜喷 涂三块500mm × 500mm、厚度不小于50mm 的试块试验； 4 喷嘴与施工基层的间距宜为200mm～400mm; 5 根据设计厚度，一个作业面应分层喷涂完成，每层厚度 不宜大于20mm ，当日的施工作业面应于当日连续喷涂完毕； 6 在天沟、檐沟的连接处应连续喷涂，屋面与女儿墙、变 形缝、管道、山墙等突出屋面结构处应连续喷涂至泛水高度； 26 7 风力不宜大于三级，空气相对湿度宜小于85%; 8 硬泡聚氨醋喷涂后不得将喷涂设备工具置于己喷涂层上， 且30min 内不得上人。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ 230-2010#6.4.11
+  standard_code: JGJ 230-2010
+  chapter: 6 施工
+  section: ''
+  clause_no: 6.4.11
+  text: 硬泡聚氨醋防水保温复合板施工应符合下列规定： 1 施工前应对基层质量进行验收，基层排水坡度应符合设 计要求，表面应做到平整、坚实、干净； 2 硬泡聚氨醋防水保温复合板应采用专用粘结砂浆点粘法 或条粘法施工； 3 施工环境温度应符合本规程表6.1.5 规定； 4 夏季粘贴保温板材前，施工基层应用清水润f显； 5 保温板材粘贴就位24h 后，应对接缝进行防水处理。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ 230-2010#6.4.2
+  standard_code: JGJ 230-2010
+  chapter: 6 施工
+  section: ''
+  clause_no: 6.4.2
+  text: 保温层施工时应铺设临时保护层，对防水层进行保护。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ 230-2010#6.5.1
+  standard_code: JGJ 230-2010
+  chapter: 6 施工
+  section: ''
+  clause_no: 6.5.1
+  text: 保护层的施工应在屋面保温层验收合格后进行。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ 230-2010#6.5.3
+  standard_code: JGJ 230-2010
+  chapter: 6 施工
+  section: ''
+  clause_no: 6.5.3
+  text: 卵石保护层施工应符合下列规定： 27 1 卵石直径应符合规定，卵石应满铺、铺设均匀； 2 卵石质（重）量应符合设计要求； 3 卵石下宜铺设带支点的塑料排水板，通过空腔层排水； 4 卵石铺设前，应先铺设聚醋纤维无纺布等隔离材料，并 应保持水落口和天沟等处的排水畅通。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ 230-2010#7.1.2
+  standard_code: JGJ 230-2010
+  chapter: 7 既有建筑倒置式屋面改造
+  section: ''
+  clause_no: 7.1.2
+  text: 既有建筑屋面勘查、鉴定、设计和施工，应由具有该资 质的单位和专业技术人员承担。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ 230-2010#7.2.1
+  standard_code: JGJ 230-2010
+  chapter: 7 既有建筑倒置式屋面改造
+  section: ''
+  clause_no: 7.2.1
+  text: 既有建筑倒置式屋面改造工程设计，应由原设计单位或 30 具备相应资质的设计单位承担。当增加屋面荷载或改变使用功能 时，应先做设计方案或评估报告。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ 230-2010#7.3.1
+  standard_code: JGJ 230-2010
+  chapter: 7 既有建筑倒置式屋面改造
+  section: ''
+  clause_no: 7.3.1
+  text: 既有建筑倒置式屋面改造施工前，施工单位应编制专项 施工方案，对施工人员进行技术交底和专业技术培训，并应做好 安全防护措施，对施工过程实行质量控制。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ 230-2010#7.3.2
+  standard_code: JGJ 230-2010
+  chapter: 7 既有建筑倒置式屋面改造
+  section: ''
+  clause_no: 7.3.2
+  text: 既有建筑倒置式屋面改造施工准备工作应包括下列内容： 1 对原屋面保护层进行清理； 2 对原防水层的损害部位修复或拆除； 3 屋面上的设备、管道等应提前安装完毕，并预留出保温 层的厚度； 4 安全防护设施应安装到位。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ 230-2010#8.2.1
+  standard_code: JGJ 230-2010
+  chapter: 8 质量验收
+  section: ''
+  clause_no: 8.2.1
+  text: 倒置式屋面基层的施工质量验收可包括找坡层、找平层、 34 隔离层等分项工程。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ 230-2010#8.2.10
+  standard_code: JGJ 230-2010
+  chapter: 8 质量验收
+  section: ''
+  clause_no: 8.2.10
+  text: 找平层和找坡层表面平整度的允许偏差应分别为5mm 和7mm 。 检验方法：用2m 靠尺、模形塞尺和钢尺检查。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ 230-2010#8.2.2
+  standard_code: JGJ 230-2010
+  chapter: 8 质量验收
+  section: ''
+  clause_no: 8.2.2
+  text: 倒置式屋面基层的质量验收应符合现行国家标准《屋面 工程质量验收规范》GB 50207 的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ 230-2010#8.2.4
+  standard_code: JGJ 230-2010
+  chapter: 8 质量验收
+  section: ''
+  clause_no: 8.2.4
+  text: 找平层、找坡层所用材料的质量及配合比应符合设计 要求。 检验方法：检查出厂合格证、质量检验报告和计量措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ 230-2010#8.2.5
+  standard_code: JGJ 230-2010
+  chapter: 8 质量验收
+  section: ''
+  clause_no: 8.2.5
+  text: 屋面排水坡度应符合设计要求。 检验方法：用水平仪（水平尺）、拉线和尺量检查。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ 230-2010#8.2.8
+  standard_code: JGJ 230-2010
+  chapter: 8 质量验收
+  section: ''
+  clause_no: 8.2.8
+  text: 找平层分格缝位置、间距、缝宽应符合设计要求。 检验方法：观察和尺量检查。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ 230-2010#8.3.1
+  standard_code: JGJ 230-2010
+  chapter: 8 质量验收
+  section: ''
+  clause_no: 8.3.1
+  text: 屋面防水与密封工程的验收应符合现行国家标准《屋面 工程质量验收规范》GB 50207 的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ 230-2010#8.5.3
+  standard_code: JGJ 230-2010
+  chapter: 8 质量验收
+  section: ''
+  clause_no: 8.5.3
+  text: 屋面细部构造的防水构造应符合设计要求。 检验方法：观察检查和检查隐蔽工程验收记录。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ 230-2010#8.5.5
+  standard_code: JGJ 230-2010
+  chapter: 8 质量验收
+  section: ''
+  clause_no: 8.5.5
+  text: 用于细部构造的防水材料和密封材料应分别检查防水性 能和密封可靠性。 检验方法：检查出厂合格证、检验报告和蓄水或淋水检验。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ 230-2010#8.6.5
+  standard_code: JGJ 230-2010
+  chapter: 8 质量验收
+  section: ''
+  clause_no: 8.6.5
+  text: 卵石保护层质（重）量应符合设计要求。 检验方法：按堆积密度计算其质（重）量。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+executable_rules:
+- rule_id: R_JGJ2302010_3_0_7_1
+  source_clause: JGJ 230-2010#3.0.7
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 屋面应进行
+    unit: h
+    condition: null
+    min_value: 24.0
+    max_value: 24.0
+  source_text: 倒置式屋面防水层完成后，平屋面应进行24h蓄水检验，坡屋面应进行持续2h 淋水检验，并应在检验合格后再进行保温层施工。3. 0. 8采用倒置式屋面的建筑应建立管理、保养、维修制度。材料4. 1一般规定4. 1.1 倒置式屋面的防水层材料耐久性应符合设计要求；保温层应选用表观密度小
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_3_0_7_2
+  source_clause: JGJ 230-2010#3.0.7
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 进行持续
+    unit: h
+    condition: null
+    min_value: 2.0
+    max_value: 2.0
+  source_text: 倒置式屋面防水层完成后，平屋面应进行24h蓄水检验，坡屋面应进行持续2h 淋水检验，并应在检验合格后再进行保温层施工。3. 0. 8采用倒置式屋面的建筑应建立管理、保养、维修制度。材料4. 1一般规定4. 1.1 倒置式屋面的防水层材料耐久性应符合设计要求；保温层应选用表观密度小
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_4_2_2_1
+  source_clause: JGJ 230-2010#4.2.2
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 眼水率
+    unit: '%'
+    condition: null
+    min_value: 3.0
+  source_text: 防水层的厚度应符合设计要求。4.3保温材料4. 3.1保温材料的性能应符合下列规定：导热系数不应大于0. 080W/(m • K);使用寿命应满足设计要求；压缩强度或抗压强度不应小于150kPa;体积眼水率不应大于3%;对于屋顶基层采用耐火极限不小于1.OOh的不燃烧体的建筑，其
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_5_1_1_1
+  source_clause: JGJ 230-2010#5.1.1
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 面坡度
+    unit: '%'
+    condition: null
+    max_value: 3.0
+  source_text: 倒置式屋面设计应包括下列内容：1 屋面防水等级、设防要求和保温要求；屋面构造；屋面节能；防水层材料的选用；5 保温层材料的选用；屋面保护层及排水系统；细部构造。5.1. 2倒置式屋面基本构造宜由结构层、找坡层、找平层、防水层、保温层及保护层组成（图5.1. 2 ）。图5.1. 2
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_5_1_1_2
+  source_clause: JGJ 230-2010#5.1.1
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 式屋面坡度
+    unit: '%'
+    condition: null
+    min_value: 3.0
+  source_text: 倒置式屋面设计应包括下列内容：1 屋面防水等级、设防要求和保温要求；屋面构造；屋面节能；防水层材料的选用；5 保温层材料的选用；屋面保护层及排水系统；细部构造。5.1. 2倒置式屋面基本构造宜由结构层、找坡层、找平层、防水层、保温层及保护层组成（图5.1. 2 ）。图5.1. 2
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_5_1_1_3
+  source_clause: JGJ 230-2010#5.1.1
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 措施坡度
+    unit: '%'
+    condition: null
+    min_value: 10.0
+  source_text: 倒置式屋面设计应包括下列内容：1 屋面防水等级、设防要求和保温要求；屋面构造；屋面节能；防水层材料的选用；5 保温层材料的选用；屋面保护层及排水系统；细部构造。5.1. 2倒置式屋面基本构造宜由结构层、找坡层、找平层、防水层、保温层及保护层组成（图5.1. 2 ）。图5.1. 2
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_5_1_1_5
+  source_clause: JGJ 230-2010#5.1.1
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 纵向坡度
+    unit: '%'
+    condition: null
+    min_value: 1.0
+  source_text: 倒置式屋面设计应包括下列内容：1 屋面防水等级、设防要求和保温要求；屋面构造；屋面节能；防水层材料的选用；5 保温层材料的选用；屋面保护层及排水系统；细部构造。5.1. 2倒置式屋面基本构造宜由结构层、找坡层、找平层、防水层、保温层及保护层组成（图5.1. 2 ）。图5.1. 2
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_5_1_1_6
+  source_clause: JGJ 230-2010#5.1.1
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 水落差
+    unit: mm
+    condition: null
+    min_value: 200.0
+  source_text: 倒置式屋面设计应包括下列内容：1 屋面防水等级、设防要求和保温要求；屋面构造；屋面节能；防水层材料的选用；5 保温层材料的选用；屋面保护层及排水系统；细部构造。5.1. 2倒置式屋面基本构造宜由结构层、找坡层、找平层、防水层、保温层及保护层组成（图5.1. 2 ）。图5.1. 2
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_5_1_10_1
+  source_clause: JGJ 230-2010#5.1.10
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 采用宽度
+    unit: mm
+    condition: null
+    min_value: 500.0
+  source_text: 硬泡聚氨醋防水保温复合板可作为次防水层用于两道防水设防屋面。5. 1.11屋顶与外墙交界处、屋顶开口部位四周的保温层，应采用宽度不小于500mm的A 级保温材料设置水平防火隔离带。5. 1.12当采用屋面复合保温板做保温层时，可不另设保护层。5.2设计要求5. 2. 1倒置式屋面
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_5_1_10_2
+  source_clause: JGJ 230-2010#5.1.10
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 面单向坡长
+    unit: m
+    condition: null
+    min_value: 9.0
+  source_text: 硬泡聚氨醋防水保温复合板可作为次防水层用于两道防水设防屋面。5. 1.11屋顶与外墙交界处、屋顶开口部位四周的保温层，应采用宽度不小于500mm的A 级保温材料设置水平防火隔离带。5. 1.12当采用屋面复合保温板做保温层时，可不另设保护层。5.2设计要求5. 2. 1倒置式屋面
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_5_1_10_3
+  source_clause: JGJ 230-2010#5.1.10
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 坡时坡度
+    unit: '%'
+    condition: null
+    min_value: 3.0
+    max_value: 3.0
+  source_text: 硬泡聚氨醋防水保温复合板可作为次防水层用于两道防水设防屋面。5. 1.11屋顶与外墙交界处、屋顶开口部位四周的保温层，应采用宽度不小于500mm的A 级保温材料设置水平防火隔离带。5. 1.12当采用屋面复合保温板做保温层时，可不另设保护层。5.2设计要求5. 2. 1倒置式屋面
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_5_1_10_4
+  source_clause: JGJ 230-2010#5.1.10
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 找坡层厚度
+    unit: mm
+    condition: null
+    min_value: 30.0
+  source_text: 硬泡聚氨醋防水保温复合板可作为次防水层用于两道防水设防屋面。5. 1.11屋顶与外墙交界处、屋顶开口部位四周的保温层，应采用宽度不小于500mm的A 级保温材料设置水平防火隔离带。5. 1.12当采用屋面复合保温板做保温层时，可不另设保护层。5.2设计要求5. 2. 1倒置式屋面
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_5_1_10_5
+  source_clause: JGJ 230-2010#5.1.10
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 凝土厚度
+    unit: mm
+    condition: null
+    min_value: 15.0
+    max_value: 15.0
+  source_text: 硬泡聚氨醋防水保温复合板可作为次防水层用于两道防水设防屋面。5. 1.11屋顶与外墙交界处、屋顶开口部位四周的保温层，应采用宽度不小于500mm的A 级保温材料设置水平防火隔离带。5. 1.12当采用屋面复合保温板做保温层时，可不另设保护层。5.2设计要求5. 2. 1倒置式屋面
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_5_1_10_6
+  source_clause: JGJ 230-2010#5.1.10
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 格缝缝宽
+    unit: mm
+    condition: null
+    min_value: 20.0
+    max_value: 20.0
+  source_text: 硬泡聚氨醋防水保温复合板可作为次防水层用于两道防水设防屋面。5. 1.11屋顶与外墙交界处、屋顶开口部位四周的保温层，应采用宽度不小于500mm的A 级保温材料设置水平防火隔离带。5. 1.12当采用屋面复合保温板做保温层时，可不另设保护层。5.2设计要求5. 2. 1倒置式屋面
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_5_1_10_7
+  source_clause: JGJ 230-2010#5.1.10
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 问距
+    unit: m
+    condition: null
+    min_value: 6.0
+  source_text: 硬泡聚氨醋防水保温复合板可作为次防水层用于两道防水设防屋面。5. 1.11屋顶与外墙交界处、屋顶开口部位四周的保温层，应采用宽度不小于500mm的A 级保温材料设置水平防火隔离带。5. 1.12当采用屋面复合保温板做保温层时，可不另设保护层。5.2设计要求5. 2. 1倒置式屋面
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_5_1_10_8
+  source_clause: JGJ 230-2010#5.1.10
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 弧半径
+    unit: mm
+    condition: null
+    max_value: 130.0
+  source_text: 硬泡聚氨醋防水保温复合板可作为次防水层用于两道防水设防屋面。5. 1.11屋顶与外墙交界处、屋顶开口部位四周的保温层，应采用宽度不小于500mm的A 级保温材料设置水平防火隔离带。5. 1.12当采用屋面复合保温板做保温层时，可不另设保护层。5.2设计要求5. 2. 1倒置式屋面
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_5_2_5_1
+  source_clause: JGJ 230-2010#5.2.5
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 算厚度增加
+    unit: '%'
+    condition: null
+    min_value: 25.0
+    max_value: 25.0
+  source_text: 倒置式屋面保温层的设计厚度应按计算厚度增加25%取值，且最小厚度不得小于25mm。5. 2. 6倒置式屋面保护层设计应符合下列规定：1 保护层可选用卵石、混凝土板块、地砖、瓦材、水泥砂浆、细石混凝土、金属板材、人造草皮、种植植物等材料；保护层的质量应保证当地30年一遇最大风力时保
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_5_2_5_2
+  source_clause: JGJ 230-2010#5.2.5
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 且最小厚度
+    unit: mm
+    condition: null
+    min_value: 25.0
+  source_text: 倒置式屋面保温层的设计厚度应按计算厚度增加25%取值，且最小厚度不得小于25mm。5. 2. 6倒置式屋面保护层设计应符合下列规定：1 保护层可选用卵石、混凝土板块、地砖、瓦材、水泥砂浆、细石混凝土、金属板材、人造草皮、种植植物等材料；保护层的质量应保证当地30年一遇最大风力时保
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_5_2_5_3
+  source_clause: JGJ 230-2010#5.2.5
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 时其粒径
+    unit: mm
+    condition: null
+    min_value: 40.0
+    max_value: 40.0
+  source_text: 倒置式屋面保温层的设计厚度应按计算厚度增加25%取值，且最小厚度不得小于25mm。5. 2. 6倒置式屋面保护层设计应符合下列规定：1 保护层可选用卵石、混凝土板块、地砖、瓦材、水泥砂浆、细石混凝土、金属板材、人造草皮、种植植物等材料；保护层的质量应保证当地30年一遇最大风力时保
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_5_2_5_4
+  source_clause: JGJ 230-2010#5.2.5
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 时其粒径
+    unit: mm
+    condition: null
+    min_value: 80.0
+    max_value: 80.0
+  source_text: 倒置式屋面保温层的设计厚度应按计算厚度增加25%取值，且最小厚度不得小于25mm。5. 2. 6倒置式屋面保护层设计应符合下列规定：1 保护层可选用卵石、混凝土板块、地砖、瓦材、水泥砂浆、细石混凝土、金属板材、人造草皮、种植植物等材料；保护层的质量应保证当地30年一遇最大风力时保
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_5_2_5_5
+  source_clause: JGJ 230-2010#5.2.5
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 可干铺厚度
+    unit: mm
+    condition: null
+    min_value: 30.0
+  source_text: 倒置式屋面保温层的设计厚度应按计算厚度增加25%取值，且最小厚度不得小于25mm。5. 2. 6倒置式屋面保护层设计应符合下列规定：1 保护层可选用卵石、混凝土板块、地砖、瓦材、水泥砂浆、细石混凝土、金属板材、人造草皮、种植植物等材料；保护层的质量应保证当地30年一遇最大风力时保
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_5_2_5_6
+  source_clause: JGJ 230-2010#5.2.5
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 分格面积
+    unit: m
+    condition: null
+    min_value: 1.0
+    max_value: 1.0
+  source_text: 倒置式屋面保温层的设计厚度应按计算厚度增加25%取值，且最小厚度不得小于25mm。5. 2. 6倒置式屋面保护层设计应符合下列规定：1 保护层可选用卵石、混凝土板块、地砖、瓦材、水泥砂浆、细石混凝土、金属板材、人造草皮、种植植物等材料；保护层的质量应保证当地30年一遇最大风力时保
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_5_2_5_7
+  source_clause: JGJ 230-2010#5.2.5
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 格面积
+    unit: m
+    condition: null
+    min_value: 0.0
+  source_text: 倒置式屋面保温层的设计厚度应按计算厚度增加25%取值，且最小厚度不得小于25mm。5. 2. 6倒置式屋面保护层设计应符合下列规定：1 保护层可选用卵石、混凝土板块、地砖、瓦材、水泥砂浆、细石混凝土、金属板材、人造草皮、种植植物等材料；保护层的质量应保证当地30年一遇最大风力时保
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_5_2_5_8
+  source_clause: JGJ 230-2010#5.2.5
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 格面积
+    unit: m
+    condition: null
+    min_value: 36.0
+  source_text: 倒置式屋面保温层的设计厚度应按计算厚度增加25%取值，且最小厚度不得小于25mm。5. 2. 6倒置式屋面保护层设计应符合下列规定：1 保护层可选用卵石、混凝土板块、地砖、瓦材、水泥砂浆、细石混凝土、金属板材、人造草皮、种植植物等材料；保护层的质量应保证当地30年一遇最大风力时保
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_5_2_5_9
+  source_clause: JGJ 230-2010#5.2.5
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 缝宽度
+    unit: mm
+    condition: null
+    max_value: 20.0
+  source_text: 倒置式屋面保温层的设计厚度应按计算厚度增加25%取值，且最小厚度不得小于25mm。5. 2. 6倒置式屋面保护层设计应符合下列规定：1 保护层可选用卵石、混凝土板块、地砖、瓦材、水泥砂浆、细石混凝土、金属板材、人造草皮、种植植物等材料；保护层的质量应保证当地30年一遇最大风力时保
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_5_2_5_10
+  source_clause: JGJ 230-2010#5.2.5
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 预留宽度
+    unit: mm
+    condition: null
+    min_value: 30.0
+    max_value: 30.0
+  source_text: 倒置式屋面保温层的设计厚度应按计算厚度增加25%取值，且最小厚度不得小于25mm。5. 2. 6倒置式屋面保护层设计应符合下列规定：1 保护层可选用卵石、混凝土板块、地砖、瓦材、水泥砂浆、细石混凝土、金属板材、人造草皮、种植植物等材料；保护层的质量应保证当地30年一遇最大风力时保
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_5_3_3_1
+  source_clause: JGJ 230-2010#5.3.3
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 铺空铺宽度
+    unit: mm
+    condition: null
+    min_value: 200.0
+  source_text: 女儿墙、山墙防水保温构造应符合下列规定：1 女儿墙和山墙泛水处的防水卷材应满粘，墙体和屋面转角处的卷材宜空铺，空铺宽度不应小于200mm;低女儿墙和山墙，防水材料可直接铺至压顶下，泛水收头应采用水泥钉配垫片钉压固定和密封膏封严；涂膜应直接涂刷至压顶下，泛水收头应用防水涂料多遍涂刷
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_5_3_3_2
+  source_clause: JGJ 230-2010#5.3.3
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 度缝缝宽
+    unit: mm
+    condition: null
+    min_value: 15.0
+    max_value: 15.0
+  source_text: 女儿墙、山墙防水保温构造应符合下列规定：1 女儿墙和山墙泛水处的防水卷材应满粘，墙体和屋面转角处的卷材宜空铺，空铺宽度不应小于200mm;低女儿墙和山墙，防水材料可直接铺至压顶下，泛水收头应采用水泥钉配垫片钉压固定和密封膏封严；涂膜应直接涂刷至压顶下，泛水收头应用防水涂料多遍涂刷
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_5_3_3_3
+  source_clause: JGJ 230-2010#5.3.3
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 度缝缝宽
+    unit: mm
+    condition: null
+    min_value: 20.0
+    max_value: 20.0
+  source_text: 女儿墙、山墙防水保温构造应符合下列规定：1 女儿墙和山墙泛水处的防水卷材应满粘，墙体和屋面转角处的卷材宜空铺，空铺宽度不应小于200mm;低女儿墙和山墙，防水材料可直接铺至压顶下，泛水收头应采用水泥钉配垫片钉压固定和密封膏封严；涂膜应直接涂刷至压顶下，泛水收头应用防水涂料多遍涂刷
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_5_3_4_1
+  source_clause: JGJ 230-2010#5.3.4
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 泛水高度
+    unit: mm
+    condition: null
+    min_value: 250.0
+  source_text: 屋面变形缝处防水保温构造（图5.3. 4）应符合下列规定：屋面变形缝的泛水高度不应小于250mm;防水层和防水附加层应连续铺贴或涂刷覆盖变形缝两侧挡墙的顶部；变形缝顶部应加扣1昆凝土或金属盖板，金属盖板应铺钉牢固，接缝应顺流水方向，并应做好防锈处理；变形缝内应填充泡沫塑料，上部应
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_5_3_5_1
+  source_clause: JGJ 230-2010#5.3.5
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 泛水高度
+    unit: mm
+    condition: null
+    min_value: 250.0
+  source_text: 屋面高低跨变形缝处防水保温构造（图5.3. 5 ）应符合下列规定：高低跨变形缝的泛水高度不应小于250mm;2 变形缝挡墙顶部水平段防水层和附加层不宜粘牢；变形缝内应填充泡沫塑料，并应与墙体粘牢；变形缝应采用金属盖板和卷材覆盖，金属盖板水平段宜采取泛水处理，接缝应用密封材料嵌填；
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_5_3_6_1
+  source_clause: JGJ 230-2010#5.3.6
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 墙端部
+    unit: mm
+    condition: null
+    max_value: 500.0
+  source_text: 屋面水落口处防水保温构造应符合下列规定：1 水落口距女儿墙、山墙端部不宜小于500mm，水落口杯上口的标高应设置在沟底的最低处；卜。，.，.、I 到图5.3.5 屋面高低跨变形缝处防水保温构造1 金属盖板；2一保温层；3一防水附加层：4一一防水层z5一密封材料；泡沫塑料以水落口为
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_5_3_6_2
+  source_clause: JGJ 230-2010#5.3.6
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 部位应留宽
+    unit: mm
+    condition: null
+    min_value: 20.0
+    max_value: 20.0
+  source_text: 屋面水落口处防水保温构造应符合下列规定：1 水落口距女儿墙、山墙端部不宜小于500mm，水落口杯上口的标高应设置在沟底的最低处；卜。，.，.、I 到图5.3.5 屋面高低跨变形缝处防水保温构造1 金属盖板；2一保温层；3一防水附加层：4一一防水层z5一密封材料；泡沫塑料以水落口为
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_5_3_6_3
+  source_clause: JGJ 230-2010#5.3.6
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 留宽mm深
+    unit: mm
+    condition: null
+    min_value: 20.0
+    max_value: 20.0
+  source_text: 屋面水落口处防水保温构造应符合下列规定：1 水落口距女儿墙、山墙端部不宜小于500mm，水落口杯上口的标高应设置在沟底的最低处；卜。，.，.、I 到图5.3.5 屋面高低跨变形缝处防水保温构造1 金属盖板；2一保温层；3一防水附加层：4一一防水层z5一密封材料；泡沫塑料以水落口为
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_5_3_6_4
+  source_clause: JGJ 230-2010#5.3.6
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 口周围直径
+    unit: mm
+    condition: null
+    min_value: 500.0
+    max_value: 500.0
+  source_text: 屋面水落口处防水保温构造应符合下列规定：1 水落口距女儿墙、山墙端部不宜小于500mm，水落口杯上口的标高应设置在沟底的最低处；卜。，.，.、I 到图5.3.5 屋面高低跨变形缝处防水保温构造1 金属盖板；2一保温层；3一防水附加层：4一一防水层z5一密封材料；泡沫塑料以水落口为
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_5_3_6_5
+  source_clause: JGJ 230-2010#5.3.6
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 薄并应形成
+    unit: '%'
+    condition: null
+    min_value: 5.0
+  source_text: 屋面水落口处防水保温构造应符合下列规定：1 水落口距女儿墙、山墙端部不宜小于500mm，水落口杯上口的标高应设置在沟底的最低处；卜。，.，.、I 到图5.3.5 屋面高低跨变形缝处防水保温构造1 金属盖板；2一保温层；3一防水附加层：4一一防水层z5一密封材料；泡沫塑料以水落口为
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_5_3_10_1
+  source_clause: JGJ 230-2010#5.3.10
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 长度
+    unit: mm
+    condition: null
+    max_value: 200.0
+  source_text: 瓦屋面檐沟防水保温构造应符合下列规定：檐沟处防水附加层深入屋面的长度不宜小于200mm;保温层在天沟、檐沟上下两侧应满铺或连续喷涂；应采取防止保温层下滑的措施，可在屋面板内预埋多排1>12锚筋，锚筋间距宜为1.Sm，伸出保温层长度不宜小于25mm，锚筋穿破防水层处应采用密封材料封
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_5_3_10_2
+  source_clause: JGJ 230-2010#5.3.10
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 层长度
+    unit: mm
+    condition: null
+    max_value: 25.0
+  source_text: 瓦屋面檐沟防水保温构造应符合下列规定：檐沟处防水附加层深入屋面的长度不宜小于200mm;保温层在天沟、檐沟上下两侧应满铺或连续喷涂；应采取防止保温层下滑的措施，可在屋面板内预埋多排1>12锚筋，锚筋间距宜为1.Sm，伸出保温层长度不宜小于25mm，锚筋穿破防水层处应采用密封材料封
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_5_3_10_4
+  source_clause: JGJ 230-2010#5.3.10
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 层每边宽度
+    unit: mm
+    condition: null
+    min_value: 450.0
+  source_text: 瓦屋面檐沟防水保温构造应符合下列规定：檐沟处防水附加层深入屋面的长度不宜小于200mm;保温层在天沟、檐沟上下两侧应满铺或连续喷涂；应采取防止保温层下滑的措施，可在屋面板内预埋多排1>12锚筋，锚筋间距宜为1.Sm，伸出保温层长度不宜小于25mm，锚筋穿破防水层处应采用密封材料封
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_5_3_10_5
+  source_clause: JGJ 230-2010#5.3.10
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 加一层宽度
+    unit: mm
+    condition: null
+    min_value: 300.0
+  source_text: 瓦屋面檐沟防水保温构造应符合下列规定：檐沟处防水附加层深入屋面的长度不宜小于200mm;保温层在天沟、檐沟上下两侧应满铺或连续喷涂；应采取防止保温层下滑的措施，可在屋面板内预埋多排1>12锚筋，锚筋间距宜为1.Sm，伸出保温层长度不宜小于25mm，锚筋穿破防水层处应采用密封材料封
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_6_3_3_1
+  source_clause: JGJ 230-2010#6.3.3
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 护层施工后
+    unit: mm
+    condition: null
+    min_value: 250.0
+  source_text: 防水层在女儿墙、变形缝、管道、山墙等突出屋面结构处施工时，防水层的泛水高度在保温层和保护层施工后不应小于250mm 。6.4保温层施工6. 4.1保温层施工前，防水层应验收合格。6. 4. 2保温层施工时应铺设临时保护层，对防水层进行保护。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_6_4_4_1
+  source_clause: JGJ 230-2010#6.4.4
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 材时坡度
+    unit: '%'
+    condition: null
+    min_value: 3.0
+  source_text: 当采用保温板材时，坡度不大于3% 的不上人屋面可采取干铺法，上人屋面宜采用粘结法；坡度大于3% 的屋面应采用粘结法，并应采取固定防滑措施。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_6_4_4_2
+  source_clause: JGJ 230-2010#6.4.4
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 粘结法坡度
+    unit: '%'
+    condition: null
+    min_value: 3.0
+  source_text: 当采用保温板材时，坡度不大于3% 的不上人屋面可采取干铺法，上人屋面宜采用粘结法；坡度大于3% 的屋面应采用粘结法，并应采取固定防滑措施。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_6_4_12_1
+  source_clause: JGJ 230-2010#6.4.12
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 丝网宽度
+    unit: mm
+    condition: null
+    min_value: 300.0
+    max_value: 300.0
+  source_text: 坡屋面保温板材施工应符合下列规定：1 保温板材施工应自屋盖的檐口向上铺贴，阴角和阳角处的板块接搓时应割成角度，接搓应紧密，并应用钢丝网连接，钢丝网宽度宜为300mm;屋面及檐口处的保温板材应采用预埋件固定牢固，固定点应采用密封材料密封；泡沫玻璃作为保温层时，应对泡沫玻璃表面加设玻
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_6_4_12_2
+  source_clause: JGJ 230-2010#6.4.12
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 结合层四周
+    unit: mm
+    condition: null
+    min_value: 500.0
+    max_value: 500.0
+  source_text: 坡屋面保温板材施工应符合下列规定：1 保温板材施工应自屋盖的檐口向上铺贴，阴角和阳角处的板块接搓时应割成角度，接搓应紧密，并应用钢丝网连接，钢丝网宽度宜为300mm;屋面及檐口处的保温板材应采用预埋件固定牢固，固定点应采用密封材料密封；泡沫玻璃作为保温层时，应对泡沫玻璃表面加设玻
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_6_4_12_4
+  source_clause: JGJ 230-2010#6.4.12
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 期不得少于
+    unit: d
+    condition: null
+    min_value: 7.0
+    max_value: 7.0
+  source_text: 坡屋面保温板材施工应符合下列规定：1 保温板材施工应自屋盖的檐口向上铺贴，阴角和阳角处的板块接搓时应割成角度，接搓应紧密，并应用钢丝网连接，钢丝网宽度宜为300mm;屋面及檐口处的保温板材应采用预埋件固定牢固，固定点应采用密封材料密封；泡沫玻璃作为保温层时，应对泡沫玻璃表面加设玻
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_6_4_12_5
+  source_clause: JGJ 230-2010#6.4.12
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 间距均
+    unit: m
+    condition: null
+    min_value: 6.0
+  source_text: 坡屋面保温板材施工应符合下列规定：1 保温板材施工应自屋盖的檐口向上铺贴，阴角和阳角处的板块接搓时应割成角度，接搓应紧密，并应用钢丝网连接，钢丝网宽度宜为300mm;屋面及檐口处的保温板材应采用预埋件固定牢固，固定点应采用密封材料密封；泡沫玻璃作为保温层时，应对泡沫玻璃表面加设玻
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_8_2_3_1
+  source_clause: JGJ 230-2010#8.2.3
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 坡度
+    unit: '%'
+    condition: null
+    max_value: 3.0
+  source_text: 既有建筑倒置式屋面改造工程基层的坡度不宜小于3%。主控项目8. 2.4找平层、找坡层所用材料的质量及配合比应符合设计要求。检验方法：检查出厂合格证、质量检验报告和计量措施。8. 2.5屋面排水坡度应符合设计要求。检验方法：用水平仪（水平尺）、拉线和尺量检查。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_8_2_7_1
+  source_clause: JGJ 230-2010#8.2.7
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 允许偏差
+    unit: mm
+    condition: null
+    min_value: 5.0
+    max_value: 5.0
+  source_text: 找平层表面应压实平整，不得有酥松、起砂、起皮现象，表面平整度允许偏差应为5mm 。检验方法：观察检查、用2m 靠尺和模形塞尺检查。8. 2.8 找平层分格缝位置、间距、缝宽应符合设计要求。检验方法：观察和尺量检查。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_8_2_7_2
+  source_clause: JGJ 230-2010#8.2.7
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 观察检查用
+    unit: m
+    condition: null
+    min_value: 2.0
+    max_value: 2.0
+  source_text: 找平层表面应压实平整，不得有酥松、起砂、起皮现象，表面平整度允许偏差应为5mm 。检验方法：观察检查、用2m 靠尺和模形塞尺检查。8. 2.8 找平层分格缝位置、间距、缝宽应符合设计要求。检验方法：观察和尺量检查。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_8_2_9_1
+  source_clause: JGJ 230-2010#8.2.9
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 偏差应分别
+    unit: mm
+    condition: null
+    min_value: 5.0
+    max_value: 5.0
+  source_text: 基层与突出屋面结构的交接处和基层的转角处，找平层均应做成圆弧形，且应整齐平！｜顶，圆弧半径应符合设计要求。检验方法：观察和尺量检查。8.2. 10找平层和找坡层表面平整度的允许偏差应分别为5mm和7mm 。检验方法：用2m 靠尺、模形塞尺和钢尺检查。8. 2.11隔离层的搭接缝应
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_8_2_9_2
+  source_clause: JGJ 230-2010#8.2.9
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 偏差应分别
+    unit: mm
+    condition: null
+    min_value: 7.0
+    max_value: 7.0
+  source_text: 基层与突出屋面结构的交接处和基层的转角处，找平层均应做成圆弧形，且应整齐平！｜顶，圆弧半径应符合设计要求。检验方法：观察和尺量检查。8.2. 10找平层和找坡层表面平整度的允许偏差应分别为5mm和7mm 。检验方法：用2m 靠尺、模形塞尺和钢尺检查。8. 2.11隔离层的搭接缝应
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_8_4_3_2
+  source_clause: JGJ 230-2010#8.4.3
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 负偏差
+    unit: mm
+    condition: null
+    min_value: 3.0
+  source_text: 保温层的厚度应符合设计要求，平均厚度应大于设计厚度，厚度负偏差不应大于5%且不得大于3mm 。检验方法：用钢针插入和钢尺检查。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_B_0_1_1
+  source_clause: JGJ 230-2010#B.0.1
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 乙烯泡沫过
+    unit: m
+    condition: null
+    min_value: 200.0
+    max_value: 200.0
+  source_text: B.0.1 保温材料现场抽样检验应符合表B.0. 1的规定。表B.0.1保温材料现场抽样检验序号材料名称现场抽样数量外观质量检验物理性能检验同一生产厂家、同一导热系数、表外形基本平整，挤塑型聚品种、同一批号且不超观密度、压缩强无严重凹凸不平；苯乙烯泡沫过200m3的产品为一度、燃
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_B_0_1_2
+  source_clause: JGJ 230-2010#B.0.1
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 批每批抽样
+    unit: '%'
+    condition: null
+    min_value: 5.0
+  source_text: B.0.1 保温材料现场抽样检验应符合表B.0. 1的规定。表B.0.1保温材料现场抽样检验序号材料名称现场抽样数量外观质量检验物理性能检验同一生产厂家、同一导热系数、表外形基本平整，挤塑型聚品种、同一批号且不超观密度、压缩强无严重凹凸不平；苯乙烯泡沫过200m3的产品为一度、燃
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_B_0_1_3
+  source_clause: JGJ 230-2010#B.0.1
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 尺寸稳且
+    unit: mm
+    condition: null
+    min_value: 4.0
+  source_text: B.0.1 保温材料现场抽样检验应符合表B.0. 1的规定。表B.0.1保温材料现场抽样检验序号材料名称现场抽样数量外观质量检验物理性能检验同一生产厂家、同一导热系数、表外形基本平整，挤塑型聚品种、同一批号且不超观密度、压缩强无严重凹凸不平；苯乙烯泡沫过200m3的产品为一度、燃
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_B_0_1_4
+  source_clause: JGJ 230-2010#B.0.1
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 能聚氨醋l
+    unit: m
+    condition: null
+    min_value: 0.0
+    max_value: 0.0
+  source_text: B.0.1 保温材料现场抽样检验应符合表B.0. 1的规定。表B.0.1保温材料现场抽样检验序号材料名称现场抽样数量外观质量检验物理性能检验同一生产厂家、同一导热系数、表外形基本平整，挤塑型聚品种、同一批号且不超观密度、压缩强无严重凹凸不平；苯乙烯泡沫过200m3的产品为一度、燃
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_B_0_1_5
+  source_clause: JGJ 230-2010#B.0.1
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: m取两组l
+    unit: m
+    condition: null
+    min_value: 0.0
+    max_value: 0.0
+  source_text: B.0.1 保温材料现场抽样检验应符合表B.0. 1的规定。表B.0.1保温材料现场抽样检验序号材料名称现场抽样数量外观质量检验物理性能检验同一生产厂家、同一导热系数、表外形基本平整，挤塑型聚品种、同一批号且不超观密度、压缩强无严重凹凸不平；苯乙烯泡沫过200m3的产品为一度、燃
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_B_0_1_6
+  source_clause: JGJ 230-2010#B.0.1
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 凹凸不平过
+    unit: m
+    condition: null
+    min_value: 200.0
+    max_value: 200.0
+  source_text: B.0.1 保温材料现场抽样检验应符合表B.0. 1的规定。表B.0.1保温材料现场抽样检验序号材料名称现场抽样数量外观质量检验物理性能检验同一生产厂家、同一导热系数、表外形基本平整，挤塑型聚品种、同一批号且不超观密度、压缩强无严重凹凸不平；苯乙烯泡沫过200m3的产品为一度、燃
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_B_0_1_7
+  source_clause: JGJ 230-2010#B.0.1
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 尺寸稳旦
+    unit: mm
+    condition: null
+    min_value: 4.0
+  source_text: B.0.1 保温材料现场抽样检验应符合表B.0. 1的规定。表B.0.1保温材料现场抽样检验序号材料名称现场抽样数量外观质量检验物理性能检验同一生产厂家、同一导热系数、表外形基本平整，挤塑型聚品种、同一批号且不超观密度、压缩强无严重凹凸不平；苯乙烯泡沫过200m3的产品为一度、燃
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_B_0_1_8
+  source_clause: JGJ 230-2010#B.0.1
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 泡沫玻璃过
+    unit: m
+    condition: null
+    min_value: 200.0
+    max_value: 200.0
+  source_text: B.0.1 保温材料现场抽样检验应符合表B.0. 1的规定。表B.0.1保温材料现场抽样检验序号材料名称现场抽样数量外观质量检验物理性能检验同一生产厂家、同一导热系数、表外形基本平整，挤塑型聚品种、同一批号且不超观密度、压缩强无严重凹凸不平；苯乙烯泡沫过200m3的产品为一度、燃
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_B_0_1_9
+  source_clause: JGJ 230-2010#B.0.1
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 尺寸准确过
+    unit: m
+    condition: null
+    min_value: 200.0
+    max_value: 200.0
+  source_text: B.0.1 保温材料现场抽样检验应符合表B.0. 1的规定。表B.0.1保温材料现场抽样检验序号材料名称现场抽样数量外观质量检验物理性能检验同一生产厂家、同一导热系数、表外形基本平整，挤塑型聚品种、同一批号且不超观密度、压缩强无严重凹凸不平；苯乙烯泡沫过200m3的产品为一度、燃
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_B_0_1_10
+  source_clause: JGJ 230-2010#B.0.1
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 得次定性
+    unit: mm
+    condition: null
+    min_value: 3.0
+  source_text: B.0.1 保温材料现场抽样检验应符合表B.0. 1的规定。表B.0.1保温材料现场抽样检验序号材料名称现场抽样数量外观质量检验物理性能检验同一生产厂家、同一导热系数、表外形基本平整，挤塑型聚品种、同一批号且不超观密度、压缩强无严重凹凸不平；苯乙烯泡沫过200m3的产品为一度、燃
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_3_0_6_1
+  source_clause: JGJ 230-2010#3.0.6
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 持续淋水
+    unit: h
+    condition: null
+    min_value: 2.0
+    max_value: 2.0
+  source_text: 参照国务院第393号令《建设工程安全生产管理条例》。3. o. 7按现行国家标准《建筑工程施工质量验收统一标准》GB 50300的规定，建筑工程施工质量验收时，对涉及结构安全和使用功能的重要分部工程应进行抽样检测。因此，屋面工程验收时，应检查屋面有无渗漏、积水和排水系统是否畅通，
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_3_0_6_2
+  source_clause: JGJ 230-2010#3.0.6
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 间不应少于
+    unit: h
+    condition: null
+    min_value: 24.0
+    max_value: 24.0
+  source_text: 参照国务院第393号令《建设工程安全生产管理条例》。3. o. 7按现行国家标准《建筑工程施工质量验收统一标准》GB 50300的规定，建筑工程施工质量验收时，对涉及结构安全和使用功能的重要分部工程应进行抽样检测。因此，屋面工程验收时，应检查屋面有无渗漏、积水和排水系统是否畅通，
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_5_3_8_1
+  source_clause: JGJ 230-2010#5.3.8
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 有凹槽一般
+    unit: mm
+    condition: null
+    min_value: 20.0
+    max_value: 20.0
+  source_text: 伸出屋面穿过防水层管道多种多样，包括伸出屋面排汽管道、换气管道等等。应采用套管防水处理，即浇捣混凝土时先预埋套管，并焊有一道或多道止水片，当管道通过套管后，两端采用密封材料填嵌。为防止混凝土干缩与套管周边脱开裂缝而导致渗漏，设计时须在套管四周与混凝土找平层间留有凹槽，一般为20m
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_5_3_12_1
+  source_clause: JGJ 230-2010#5.3.12
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 度严格控制
+    unit: mm
+    condition: null
+    min_value: 150.0
+  source_text: 因聚氨醋防水保温复合板可以作为一道防水层，板缝的处理极为关键。粘贴卷材的胶粘剂应为卷材配套专用，满粘卷材，卷材覆盖板缝的宽度严格控制，不得小于150mm，卷材应铺贴牢固，尺寸准确，不应有空鼓、扭曲榴皱情况，卷材边缘用防水密封胶密封严密。施工6.1一般规定6. 1.1 施工前应进行
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_5_3_12_2
+  source_clause: JGJ 230-2010#5.3.12
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 要求在坡度
+    unit: '%'
+    condition: null
+    min_value: 15.0
+  source_text: 因聚氨醋防水保温复合板可以作为一道防水层，板缝的处理极为关键。粘贴卷材的胶粘剂应为卷材配套专用，满粘卷材，卷材覆盖板缝的宽度严格控制，不得小于150mm，卷材应铺贴牢固，尺寸准确，不应有空鼓、扭曲榴皱情况，卷材边缘用防水密封胶密封严密。施工6.1一般规定6. 1.1 施工前应进行
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_6_4_9_1
+  source_clause: JGJ 230-2010#6.4.9
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 帖剂厚度
+    unit: mm
+    condition: null
+    min_value: 5.0
+  source_text: 板状保温材料采用粘贴法时的技术要求。1 粘结板状保温材料时，应采用与保温材料相对应的专用胶粘剂，并且要满涂，保证保温层与防水层粘结牢固，板缝间和缺角处应用碎屑加胶拌合填补。粘贴法铺设板状保温材料对环境气温的要求。基层防水层若采用卷材防水时，因搭接处有高低差，为保证保温层粘结效果，
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_6_4_9_2
+  source_clause: JGJ 230-2010#6.4.9
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 基层间距
+    unit: mm
+    condition: null
+    min_value: 200.0
+    max_value: 200.0
+  source_text: 板状保温材料采用粘贴法时的技术要求。1 粘结板状保温材料时，应采用与保温材料相对应的专用胶粘剂，并且要满涂，保证保温层与防水层粘结牢固，板缝间和缺角处应用碎屑加胶拌合填补。粘贴法铺设板状保温材料对环境气温的要求。基层防水层若采用卷材防水时，因搭接处有高低差，为保证保温层粘结效果，
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_6_4_9_3
+  source_clause: JGJ 230-2010#6.4.9
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 基层间距
+    unit: mm
+    condition: null
+    min_value: 400.0
+    max_value: 400.0
+  source_text: 板状保温材料采用粘贴法时的技术要求。1 粘结板状保温材料时，应采用与保温材料相对应的专用胶粘剂，并且要满涂，保证保温层与防水层粘结牢固，板缝间和缺角处应用碎屑加胶拌合填补。粘贴法铺设板状保温材料对环境气温的要求。基层防水层若采用卷材防水时，因搭接处有高低差，为保证保温层粘结效果，
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_6_4_9_4
+  source_clause: JGJ 230-2010#6.4.9
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 涂厚度
+    unit: mm
+    condition: null
+    min_value: 20.0
+  source_text: 板状保温材料采用粘贴法时的技术要求。1 粘结板状保温材料时，应采用与保温材料相对应的专用胶粘剂，并且要满涂，保证保温层与防水层粘结牢固，板缝间和缺角处应用碎屑加胶拌合填补。粘贴法铺设板状保温材料对环境气温的要求。基层防水层若采用卷材防水时，因搭接处有高低差，为保证保温层粘结效果，
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_6_4_9_5
+  source_clause: JGJ 230-2010#6.4.9
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 板材粘贴后
+    unit: h
+    condition: null
+    min_value: 21.0
+    max_value: 21.0
+  source_text: 板状保温材料采用粘贴法时的技术要求。1 粘结板状保温材料时，应采用与保温材料相对应的专用胶粘剂，并且要满涂，保证保温层与防水层粘结牢固，板缝间和缺角处应用碎屑加胶拌合填补。粘贴法铺设板状保温材料对环境气温的要求。基层防水层若采用卷材防水时，因搭接处有高低差，为保证保温层粘结效果，
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_6_4_9_6
+  source_clause: JGJ 230-2010#6.4.9
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 并抹至宽度
+    unit: mm
+    condition: null
+    min_value: 150.0
+    max_value: 150.0
+  source_text: 板状保温材料采用粘贴法时的技术要求。1 粘结板状保温材料时，应采用与保温材料相对应的专用胶粘剂，并且要满涂，保证保温层与防水层粘结牢固，板缝间和缺角处应用碎屑加胶拌合填补。粘贴法铺设板状保温材料对环境气温的要求。基层防水层若采用卷材防水时，因搭接处有高低差，为保证保温层粘结效果，
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_6_4_9_7
+  source_clause: JGJ 230-2010#6.4.9
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 至宽度mm
+    unit: mm
+    condition: null
+    min_value: 180.0
+    max_value: 180.0
+  source_text: 板状保温材料采用粘贴法时的技术要求。1 粘结板状保温材料时，应采用与保温材料相对应的专用胶粘剂，并且要满涂，保证保温层与防水层粘结牢固，板缝间和缺角处应用碎屑加胶拌合填补。粘贴法铺设板状保温材料对环境气温的要求。基层防水层若采用卷材防水时，因搭接处有高低差，为保证保温层粘结效果，
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_6_5_2_1
+  source_clause: JGJ 230-2010#6.5.2
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 石直径应在
+    unit: mm
+    condition: null
+    min_value: 20.0
+    max_value: 20.0
+  source_text: 保护层的施工要求。加强成品（半成品）保护，施工保护层时应避免损坏保温层。为防止保护层施工时灰浆渗入保温层，影响保温层保温性能或与保温材料发生不良化学反应，在保护层与保温层之间应满铺隔离层，且不能漏底，隔离层铺设应搭接，搭接宽度不应小于lOOmm 。为有效保护各细部节点处的防水层外
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_6_5_2_2
+  source_clause: JGJ 230-2010#6.5.2
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 径应在mm
+    unit: mm
+    condition: null
+    min_value: 60.0
+    max_value: 60.0
+  source_text: 保护层的施工要求。加强成品（半成品）保护，施工保护层时应避免损坏保温层。为防止保护层施工时灰浆渗入保温层，影响保温层保温性能或与保温材料发生不良化学反应，在保护层与保温层之间应满铺隔离层，且不能漏底，隔离层铺设应搭接，搭接宽度不应小于lOOmm 。为有效保护各细部节点处的防水层外
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_6_5_4_1
+  source_clause: JGJ 230-2010#6.5.4
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 保护层四周
+    unit: mm
+    condition: null
+    min_value: 500.0
+    max_value: 500.0
+  source_text: 板块材料作保护层时的施工要求。1 为保证板块材料保护层铺设后均匀着力于下部构造，可设置结合层，可选用砂或水泥砂浆，禁止干摆干铺。为保证屋面工程排水顺畅、不积水，在铺设板状材料保护层时也应按设计坡度挂线、抄平，防止在铺设时出现反坡、倒流水等现象。还应保证铺砌的块体横平竖直，板块接缝
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_6_5_4_3
+  source_clause: JGJ 230-2010#6.5.4
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 及时养护并
+    unit: d
+    condition: null
+    min_value: 7.0
+  source_text: 板块材料作保护层时的施工要求。1 为保证板块材料保护层铺设后均匀着力于下部构造，可设置结合层，可选用砂或水泥砂浆，禁止干摆干铺。为保证屋面工程排水顺畅、不积水，在铺设板状材料保护层时也应按设计坡度挂线、抄平，防止在铺设时出现反坡、倒流水等现象。还应保证铺砌的块体横平竖直，板块接缝
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_6_5_6_1
+  source_clause: JGJ 230-2010#6.5.6
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 间距均
+    unit: m
+    condition: null
+    min_value: 6.0
+  source_text: 分格缝的设置及施工要求。1 分格缝设置在屋面板的端头、凸出屋面交接处、转折处，因纵横向的形变量不一致，保护层易出现裂缝，所以在此部位应设置分格缝。为保证屋面美观以及各分格之间相对变形小，分格缝设置在交接处必须相通，不宜成为T 字形或L 字形缝。在坡屋面的屋脊处或平屋面分水线处应留
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2302010_8_4_6_1
+  source_clause: JGJ 230-2010#8.4.6
+  rule_type: constraint
+  when:
+  - activity_type == '屋面防水设计'
+  - component_type IN ['IfcRoof']
+  then:
+    parameter: 调查表明有
+    unit: '%'
+    condition: null
+    min_value: 70.0
+    max_value: 70.0
+  source_text: 坡屋面保温材料的下滑力较大，如不固定牢固，会造成整体下滑，严重的会引起重大质量事故和人身伤亡安全事故，应高度重视。8. 4. 7屋面保温层施工应事先制定专项施工方案，施工方案应科学合理，保温层的施工质量应保证表面平整，坡向正确，铺设牢固、缝隙严密，对现场配料还应检查配料记录。8.
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+extraction_notes:
+- 源提取缺失强制性条文 JGJ 230-2010#4.3.1（公告黑体强条之一），需补录。
+- 源提取缺失强制性条文 JGJ 230-2010#7.2.1（公告黑体强条之一），需补录。
+- 实施日期（2011年？）待核。

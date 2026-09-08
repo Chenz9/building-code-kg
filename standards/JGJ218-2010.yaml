@@ -1,0 +1,6699 @@
+standard:
+  code: JGJ 218-2010
+  name: 展览建筑设计规范
+  name_note: null
+  version: '2010'
+  status: 现行
+  is_abolished: false
+  effective_date: null
+  abolished_date: null
+  superseded_by: null
+  standard_category: 行业标准
+  domain:
+  - 展览
+  - 建筑设计
+  region_scope: 全国
+  region_codes: []
+  has_mandatory_clauses: true
+  mandatory_clause_count: 2
+  mandatory_note: 按住建部公告第725号标注 2 条现行强条（5.2.8、5.2.9，2011-02-01 实施，未被已入册通用规范废止）。
+  total_clauses: 160
+  related_standards: []
+  clauses:
+  - JGJ 218-2010#1.0.1
+  - JGJ 218-2010#1.0.2
+  - JGJ 218-2010#1.0.3
+  - JGJ 218-2010#1.0.4
+  - JGJ 218-2010#1.0.5
+  - JGJ 218-2010#1.0.6
+  - JGJ 218-2010#2.0.12
+  - JGJ 218-2010#2.0.13
+  - JGJ 218-2010#2.0.14
+  - JGJ 218-2010#2.0.1
+  - JGJ 218-2010#2.0.15
+  - JGJ 218-2010#2.0.2
+  - JGJ 218-2010#2.0.3
+  - JGJ 218-2010#2.0.4
+  - JGJ 218-2010#2.0.5
+  - JGJ 218-2010#2.0.6
+  - JGJ 218-2010#2.0.7
+  - JGJ 218-2010#2.0.8
+  - JGJ 218-2010#2.0.9
+  - JGJ 218-2010#2.0.10
+  - JGJ 218-2010#2.0.11
+  - JGJ 218-2010#3.3.1
+  - JGJ 218-2010#3.3.2
+  - JGJ 218-2010#3.3.3
+  - JGJ 218-2010#3.1.1
+  - JGJ 218-2010#3.1.2
+  - JGJ 218-2010#3.3.7
+  - JGJ 218-2010#3.3.8
+  - JGJ 218-2010#3.3.9
+  - JGJ 218-2010#3.3.10
+  - JGJ 218-2010#3.2.1
+  - JGJ 218-2010#3.2.2
+  - JGJ 218-2010#3.2.3
+  - JGJ 218-2010#4.2.4
+  - JGJ 218-2010#4.2.5
+  - JGJ 218-2010#4.2.6
+  - JGJ 218-2010#4.1.1
+  - JGJ 218-2010#4.2.7
+  - JGJ 218-2010#4.1.2
+  - JGJ 218-2010#4.1.3
+  - JGJ 218-2010#4.2.8
+  - JGJ 218-2010#4.2.9
+  - JGJ 218-2010#4.1.4
+  - JGJ 218-2010#4.2.10
+  - JGJ 218-2010#4.1.5
+  - JGJ 218-2010#4.1.6
+  - JGJ 218-2010#4.3.1
+  - JGJ 218-2010#4.1.7
+  - JGJ 218-2010#4.3.2
+  - JGJ 218-2010#1.2.1
+  - JGJ 218-2010#4.2.2
+  - JGJ 218-2010#4.2.3
+  - JGJ 218-2010#4.3.8
+  - JGJ 218-2010#4.3.3
+  - JGJ 218-2010#4.3.5
+  - JGJ 218-2010#4.4.1
+  - JGJ 218-2010#4.3.6
+  - JGJ 218-2010#4.4.2
+  - JGJ 218-2010#4.4.3
+  - JGJ 218-2010#4.3.7
+  - JGJ 218-2010#4.4.4
+  - JGJ 218-2010#4.5.1
+  - JGJ 218-2010#4.5.2
+  - JGJ 218-2010#5.1.1
+  - JGJ 218-2010#5.1.2
+  - JGJ 218-2010#4.5.3
+  - JGJ 218-2010#5.1.3
+  - JGJ 218-2010#5.1.4
+  - JGJ 218-2010#4.5.4
+  - JGJ 218-2010#5.2.1
+  - JGJ 218-2010#5.2.2
+  - JGJ 218-2010#5.3.1
+  - JGJ 218-2010#5.3.2
+  - JGJ 218-2010#5.2.3
+  - JGJ 218-2010#5.2.4
+  - JGJ 218-2010#5.2.5
+  - JGJ 218-2010#5.2.6
+  - JGJ 218-2010#5.2.7
+  - JGJ 218-2010#5.3.3
+  - JGJ 218-2010#5.2.8
+  - JGJ 218-2010#5.2.9
+  - JGJ 218-2010#5.3.4
+  - JGJ 218-2010#5.2.10
+  - JGJ 218-2010#5.3.5
+  - JGJ 218-2010#5.3.6
+  - JGJ 218-2010#6.1.1
+  - JGJ 218-2010#6.1.2
+  - JGJ 218-2010#6.2.1
+  - JGJ 218-2010#6.2.2
+  - JGJ 218-2010#6.2.3
+  - JGJ 218-2010#6.2.4
+  - JGJ 218-2010#6.2.5
+  - JGJ 218-2010#6.3.2
+  - JGJ 218-2010#6.4.1
+  - JGJ 218-2010#6.4.2
+  - JGJ 218-2010#7.1.1
+  - JGJ 218-2010#6.5.1
+  - JGJ 218-2010#7.1.2
+  - JGJ 218-2010#6.5.2
+  - JGJ 218-2010#6.5.3
+  - JGJ 218-2010#7.1.3
+  - JGJ 218-2010#7.1.4
+  - JGJ 218-2010#7.1.15
+  - JGJ 218-2010#7.1.6
+  - JGJ 218-2010#7.1.7
+  - JGJ 218-2010#7.1.8
+  - JGJ 218-2010#7.2.1
+  - JGJ 218-2010#7.2.2
+  - JGJ 218-2010#7.1.9
+  - JGJ 218-2010#7.1.10
+  - JGJ 218-2010#7.2.3
+  - JGJ 218-2010#7.2.4
+  - JGJ 218-2010#7.1.11
+  - JGJ 218-2010#7.1.12
+  - JGJ 218-2010#7.2.5
+  - JGJ 218-2010#7.1.13
+  - JGJ 218-2010#7.2.6
+  - JGJ 218-2010#7.1.14
+  - JGJ 218-2010#7.2.7
+  - JGJ 218-2010#7.2.11
+  - JGJ 218-2010#7.2.12
+  - JGJ 218-2010#7.2.8
+  - JGJ 218-2010#7.3.1
+  - JGJ 218-2010#7.3.2
+  - JGJ 218-2010#7.2.9
+  - JGJ 218-2010#7.4.1
+  - JGJ 218-2010#7.2.10
+  - JGJ 218-2010#7.4.2
+  - JGJ 218-2010#7.4.3
+  - JGJ 218-2010#7.4.8
+  - JGJ 218-2010#7.4.9
+  - JGJ 218-2010#7.4.10
+  - JGJ 218-2010#7.4.11
+  - JGJ 218-2010#7.4.12
+  - JGJ 218-2010#7.4.13
+  - JGJ 218-2010#7.4.4
+  - JGJ 218-2010#7.5.1
+  - JGJ 218-2010#7.4.5
+  - JGJ 218-2010#7.5.2
+  - JGJ 218-2010#7.4.6
+  - JGJ 218-2010#7.4.7
+  - JGJ 218-2010#7.5.9
+  - JGJ 218-2010#7.5.10
+  - JGJ 218-2010#7.5.3
+  - JGJ 218-2010#7.5.11
+  - JGJ 218-2010#7.5.4
+  - JGJ 218-2010#7.5.12
+  - JGJ 218-2010#7.5.5
+  - JGJ 218-2010#7.5.13
+  - JGJ 218-2010#7.5.14
+  - JGJ 218-2010#7.5.15
+  - JGJ 218-2010#7.5.6
+  - JGJ 218-2010#7.5.7
+  - JGJ 218-2010#7.5.8
+  - JGJ 218-2010#1.0.7
+  - JGJ 218-2010#3.3.4
+  - JGJ 218-2010#3.3.6
+  - JGJ 218-2010#4.2.1
+  - JGJ 218-2010#6.3.1
+  - JGJ 218-2010#7.1.5
+  schema_version: v2.1
+  last_reviewed_date: '2026-09-07'
+clauses:
+- id: JGJ 218-2010#1.0.1
+  standard_code: JGJ 218-2010
+  chapter: 1 总则
+  section: ''
+  clause_no: 1.0.1
+  text: 为使展览建筑设计符合安全、适用、卫生、经济及展览工艺等方面的基本要求，制定本规范。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 随着我国经济持续发展，展览业在我国发展迅速，已逐步形成一个新兴产业。近年来，全国各省市不断兴建、筹建或扩建展览场地，先后建造了一批现代化的展览建筑。由于展览建筑的投资大，影响面广且技术难度高，针对功能、安全、卫生、经济及展览设施等方面标准的确定与执行，将直接关系展览建筑的质量和社会效益。本规范的各章内容，满足了展览工艺要求，并在适用、安全、卫生及技术合理方面提出最低限度的要求。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#1.0.2
+  standard_code: JGJ 218-2010
+  chapter: 1 总则
+  section: ''
+  clause_no: 1.0.2
+  text: 本规范适用于新建、改建和扩建的展览建筑的设计。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: 本规范适用于新建、改建和扩建的展览建筑的设计。
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 本条规定了本规范的适用范围。博物馆、美术馆、科技馆等不属于展览建筑的范畴。对于临时性展览建筑，也可以按照永久性展览建筑标准进行设计。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#1.0.3
+  standard_code: JGJ 218-2010
+  chapter: 1 总则
+  section: ''
+  clause_no: 1.0.3
+  text: 展览建筑规模可按基地以内的总展览面积划分为特大型、大型、中型和小型，并应符合表1.0.3的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表1.0.3
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表1.0.3的规定。表1.0.3展览建筑规模建筑规模总展览面积S（m）特大型S>100000大型30000<S≤100000中型10000<S≤30000小型S≤10000
+  converted_tables:
+  - raw: 本条按展览建筑基地以内的总展览面积确定展览建筑的规模。将展览建筑规模定为四个类型是根据展览业行业约定的数据，与实际情况也相符合。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#1.0.4
+  standard_code: JGJ 218-2010
+  chapter: 1 总则
+  section: ''
+  clause_no: 1.0.4
+  text: 展厅的等级可按其展览面积划分为甲等、乙等和丙等，并应符合表1.0.4的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表1.0.4
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表1.0.4的规定。表1.0.4展厅的等级展厅等级展厅的展览面积S（m²）甲等S>10000乙等5000<S≤10000丙等S≤5000
+  converted_tables:
+  - raw: ·展览建筑的展厅划分为甲、乙、丙三个等级，便于区别对待，保证最低限度的技术要求，便于设计。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#1.0.5
+  standard_code: JGJ 218-2010
+  chapter: 1 总则
+  section: ''
+  clause_no: 1.0.5
+  text: 展览建筑应结合我国国情，根据当地的气候条件和地理位置、经济和技术发展水平等因素，因地制宜地进行设计，并应反映当地建筑艺术、科学技术和文化发展等的先进水平。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 本条对展览建筑设计的指导思想作原则性规定，即强调展览建筑设计应结合展览建筑的性质、特点及发展趋势，为运用先进的管理方式提供灵活性强、适应性高的空间，并力求造型美观，环境协调。由于我国地域辽阔，民族众多，自然气候、地理条件有很大差异，如气温和温差、地质条件和抗震、雨雪、施工技术和管理水平等，在设计中需因地制宜，不能-一概而论。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#1.0.6
+  standard_code: JGJ 218-2010
+  chapter: 1 总则
+  section: ''
+  clause_no: 1.0.6
+  text: 展览建筑设计应根据展览建筑的性质、特点和发展趋势，与展览工艺设计相结合，并应遵循可持续发展的原则。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 展览建筑设计需满足展览工艺的要求，为了使展览建筑设计更合理、更经济，需要根据展览工艺所提出的各种条件和要求进行设计。同时要给水、电气、智能化等技术支持需求的不断发展预留设施和空问。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#2.0.12
+  standard_code: JGJ 218-2010
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.12
+  text: 管理方库房administratorsstoreroom供管理方存放非展览用品的区域。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#2.0.13
+  standard_code: JGJ 218-2010
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.13
+  text: 辅助空间 auxiliary space 提供行政办公用房、临时办公用房、设备用房等的区域。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#2.0.14
+  standard_code: JGJ 218-2010
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.14
+  text: 行政办公用房administrativeoffice供管理方办理行政事务和从事各类业务活动的办公室。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#2.0.1
+  standard_code: JGJ 218-2010
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.1
+  text: 展览 exhibition 对临时展品或服务的展出进行组织，通过展示促进产品、服务的推广和信息、技术交流的社会活动。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#2.0.15
+  standard_code: JGJ 218-2010
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.15
+  text: 临时办公用房temporary office对临时展品或服务的展出进行组织，通过展示促进产品、服供展览主办方工作人员使用的办公室。务的推广和信息、技术交流的社会活动。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#2.0.2
+  standard_code: JGJ 218-2010
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.2
+  text: 展览建筑exhibitionbuilding进行展览活动的建筑物。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#2.0.3
+  standard_code: JGJ 218-2010
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.3
+  text: 展览空间exhibition space展览建筑室内和室外所有用于展览的区域总称，包括展厅和展场。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#2.0.4
+  standard_code: JGJ 218-2010
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.4
+  text: 展厅 exhibition hall用于陈列展品或提供服务的室内空间。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#2.0.5
+  standard_code: JGJ 218-2010
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.5
+  text: 展场 exhibition ground用于陈列展品或提供服务的室外场地。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#2.0.6
+  standard_code: JGJ 218-2010
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.6
+  text: 标准展位standard exhibition booth满足展览要求的标准展示单元，尺寸为3m×3m。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 示单元尺寸
+    unit: m
+    condition: null
+    min_value: 3.0
+    max_value: 3.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#2.0.7
+  standard_code: JGJ 218-2010
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.7
+  text: 展位通道exhibition passage展位之间和四周的交通走道。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#2.0.8
+  standard_code: JGJ 218-2010
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.8
+  text: 展览面积exhibition area展位与展位通道所占展览区域的面积。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#2.0.9
+  standard_code: JGJ 218-2010
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.9
+  text: 公共服务空间public servicespace为观众提供商务、购物、休息、娱乐、交通等配套服务的区域。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#2.0.10
+  standard_code: JGJ 218-2010
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.10
+  text: 仓储空间　storage space储藏展品、用品及相关设施的区域。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#2.0.11
+  standard_code: JGJ 218-2010
+  chapter: 2 术语
+  section: ''
+  clause_no: 2.0.11
+  text: 展方库房exhibitersstoreroom供参展方存放展览用品的区域。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#3.3.1
+  standard_code: JGJ 218-2010
+  chapter: 3 场地设计
+  section: ''
+  clause_no: 3.3.1
+  text: 总平面布置应根据近远期建设计划的要求进行整体规划，并宜留有改建和扩建的余地。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 按照建设步骤，多数展览建筑属于一次建成的永久性场
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#3.3.2
+  standard_code: JGJ 218-2010
+  chapter: 3 场地设计
+  section: ''
+  clause_no: 3.3.2
+  text: 总平面布置应功能分区明确、总体布局合理，各部分联系方便、互不干扰。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 功能分区合理，是总平面布置的一项基本原则。展览建速公路从周围通过：许多与市中心保持步行距离。因为便利的条筑不但有集中且大量的人流，还有集中且大量的货运要求在总件是承办大型展览最大的竞争力。平面内处理好内部人流、车流的关系，功能分区明确，互不展览建筑选址还要充分考虑利用周围现有基础配套设施的可干扰。能性，使其具备最佳使用条件，另外，随着人们对地震、水惠等
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#3.3.3
+  standard_code: JGJ 218-2010
+  chapter: 3 场地设计
+  section: 3.1选址：
+  clause_no: 3.3.3
+  text: 交通应组织合理、流线清晰，道路布置应便于人员进出、展品运送、装卸，并应满足消防和人员疏散要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 本条是针对总平面布置中的交通组织而定的。安排各种各种自然灾害的深入了解，对展览建筑的选址标准有了更深人的出人口和场地内部的交通组织是总平面布置的主要工作内容之认识，因此提出选址应综合各种因素，选择位置适中、交通方一，重要的原则是应做到人车分流，道路布置应便于人员进出、便、工程地质及水文地质条件较好的地段。展品运送、装卸和消防疏散。目前环境污染已成为一个十分突出的问题，除了水质、大气
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#3.1.1
+  standard_code: JGJ 218-2010
+  chapter: 3 场地设计
+  section: 3.1选址：
+  clause_no: 3.1.1
+  text: 展览建筑的选址应符合城市总体规划的要求，并应结合城市经济、文化及相关产业的要求进行合理布局。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 览建筑应按
+    unit: m²
+    condition: null
+    min_value: 0.2
+    max_value: null
+  tables: []
+  converted_tables:
+  - raw: 展览业的发展，应当以区域经济为依托。展览建筑的建3.3总平面布置设，需充分考虑当地的产业结构、市场需求和区位因素。不考虑当地和周边城市展览市场的需求，就会带来很大的盲目性。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#3.1.2
+  standard_code: JGJ 218-2010
+  chapter: 3 场地设计
+  section: 3.1选址：
+  clause_no: 3.1.2
+  text: 展览建筑的选址应符合下列规定：3.3. 5室外场地的面积不宜少于展厅占地面积的50%。1交通应便捷，且应与航空港、港口、火车站、汽车站等展览建筑的建筑密度不宜大于35%。3.3. 6交通设施联系方便；特大型展览建筑不应设在城市中心，其附近除当地有统筹建设的停车场或停车库外，基地内应设置
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 占地面积
+    unit: '%'
+    condition: null
+    min_value: 50.0
+    max_value: 50.0
+  - name: 筑密度
+    unit: '%'
+    condition: null
+    min_value: 35.0
+    max_value: null
+  tables: []
+  converted_tables:
+  - raw: 展览建筑的选址需要考虑交通便利性。在交通设施上，馆，还有些属于分步建成的场馆。例如上海某展览中心借鉴国最好有城市轨道交通和方便快捷的公路网络。目前国内外特大外的规划设计理念，采取“三部曲”规划步骤，针对未来展览市型、大型展览建筑的选址多位于城郊结合部或城市中心区的边场发展需要逐步实施扩建工程。以可持续发展原则来指导展览建缘。特大型、大型展览建筑通常带来大量的人员、货物集散，对筑的规划建设、改建、扩建及后续利用是应该普遍遵从的理念。城市的交通结构布局和市民生活本身有着至关重要的影响。一个成功的展览建筑在设计之初就应该考虑为日后的发展留有足国外展览建筑的建设多将交通条件列为选址的首要条件，一够的余地，实行“一次规划、预留充分、逐步实施”。般要求选择交通便利的位置，靠近国际机场，并有两条以上的高
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#3.3.7
+  standard_code: JGJ 218-2010
+  chapter: 3 场地设计
+  section: 3.1选址：
+  clause_no: 3.3.7
+  text: 宜有配套的轨道交通设施；机动车和自行车的停放场地。2特大型、大型展览建筑应充分利用附近的公共服务和基
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 停车场的设置需根据展览建筑的规模、使用特点、用地
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#3.3.8
+  standard_code: JGJ 218-2010
+  chapter: 3 场地设计
+  section: 3.1选址：
+  clause_no: 3.3.8
+  text: 基地应做好绿化设计，绿地率应符合当地有关绿化指标础设施；的规定。栽种的树种应根据城市气候、土壤和能净化空气等条件3不应选在有害气体和烟尘影响的区域内，且与噪声源及确定。储存易燃、易爆物场所的距离应符合国家现行有关安全、卫生和
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 提高环境质量，重视绿化，已成为当前建筑设计界共同前往往一年中只有几次大型展会，会有长时间的不饱满运行和空关心的问题。因实际建设用地情况各不相同，且各地对绿地率计置期。算方法也分别有所规定，故不另列出。3城市期望不同。大型城市中展览建筑更多承担展览经济本身的职能，对城市和城市外周边地区的总体经济产生较大的正
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#3.3.9
+  standard_code: JGJ 218-2010
+  chapter: 3 场地设计
+  section: 3.1选址：
+  clause_no: 3.3.9
+  text: 总平面应设置无障碍设施，并应符合现行行业标准《城环境保护等标准的规定；市道路和建筑物无障碍设计规范》JGJ50的有关规定。4宜选择地势平缓、场地干燥、排水通畅、空气流通、工
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 展览建筑内观众众多，行动不便的伤残人土以及老年人面影响力。中小型城市展览建筑除展览经济本身外，往往承担提和妇女儿童也是其中的重要部分，本条规定体现了社会文明程度和社会对伤残人土以及弱势群体的关怀和关爱。当前我国展览建高城市形象，促进城市内周边区域的发展，提供多功能集会，商筑能完全满足这方面要求的还较少，故专门列出本条加以强调。业等功能。·
+    note: 合并重复提取片段
+  references:
+  - target_standard: JGJ 50
+    target_clause: null
+    original_text: 总平面应设置无障碍设施，并应符合现行行业标准《城环境保护等标准的规定；市道路和建筑物无障碍设计规范》JGJ50的有关规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#3.3.10
+  standard_code: JGJ 218-2010
+  chapter: 3 场地设计
+  section: 3.1选址：
+  clause_no: 3.3.10
+  text: 基地内应设有标识系统。程地质及水文地质条件较好的地段。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 展览建筑的规划设计，涵盖了各种公共服务设施、活动4参展商和观众的范围不同。场地、若干展览场馆和道路，应对各个设施加以明显标识。5地区发展趋势不同。因此，在考虑展览建筑的主要功能和设备设施的配置上，需要根据城市的具体情况和发展预期，合理配置，以保证节约资源和可持续发展。展览建筑的基本布局可以展厅与前厅、过厅的关系来划分。可分为集中式、串联式、并串联式、环绕式、庭院式、混合式等。可根据规模、用地、内容等选择合适的方式，其他功能空间则在此框架上进行合理配置。展览建筑中最主要的流线是参观流灵活多样的综合性展览建筑方向，各个展厅可分可合，每个展厅线、工作人员和参展商流线以及货运流线。由于展览建筑的上述均可满足展示、搭建、洽谈、服务等一系列要求，单元式展厅已几种流线在使用中都对相应空间带来集中而且高强度的压力，但成为适应现代展览业的重要模式。与此同时，展场与展厅一起，同时又存在不同流线的时间差，因此在设计中应根据实际情况，构成了展览的主要空间。合理布置流线，既要保证使用，又要节约用地。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#3.2.1
+  standard_code: JGJ 218-2010
+  chapter: 3 场地设计
+  section: 3.2基地
+  clause_no: 3.2.1
+  text: 特大型展览建筑基地应至少有3面直接临接城市道路：大型、中型展览建筑基地应至少有2面直接临接城市道路；小型展览建筑基地应至少有1面直接临接城市道路。基地应至少有1面直接临接城市主要干道，且城市主要干道的宽度应满足布展、撤展或人员疏散的要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 本条规定是为了保证展览建筑有疏散的道路，并保证疏面积不宜低于展厅占地面积的50%，其中不包括社会停车场的用地。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#3.2.2
+  standard_code: JGJ 218-2010
+  chapter: 3 场地设计
+  section: 3.2基地
+  clause_no: 3.2.2
+  text: 展览建筑的主要出人口及疏散口的位置应符合城市交通规划的要求。特大型、大型、中型展览建筑基地应室少有2个不同方向通向城市道路的出口。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#3.2.3
+  standard_code: JGJ 218-2010
+  chapter: 3 场地设计
+  section: 3.2基地
+  clause_no: 3.2.3
+  text: 基地应具有相应的市政配套条件。展厅应有专用运货设施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 本条规定是为了保证展览建筑基地周边的道路、水、电、动力等市政管线的配套条件，有利于展览建筑的设计、建设、3.1选址使用。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#4.2.4
+  standard_code: JGJ 218-2010
+  chapter: 4 建筑设计
+  section: ''
+  clause_no: 4.2.4
+  text: 展厅设计应便于展品布置，并宜采用无柱大空间。当展厅有柱时，甲等、乙等展厅柱网尺寸不宜小于9m×9m。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 网尺寸
+    unit: m
+    condition: null
+    min_value: null
+    max_value: 9.0
+  tables: []
+  converted_tables:
+  - raw: 展厅的结构形式有多样性，但近期新建的展览建筑的展商可按3人计算。观众可按与参展商4：1计算，因此得出每展厅结构形式多为钢结构及钢筋混凝土框架结构：其中：单层无柱位人数3×（1十4）=15人。通常每展位含通道等需占面积展厅以钢结构为主：双层展厅的上层结构形式亦多为钢结构，其20m²，这样计算人均面积约为1.34m²。例如深圳某会展中心展下层结构则较多采用钢筋混凝土框架系统。采用钢筋混凝土框架览面积10.5万m²，实际使用中控制最大在场人数为70000~~结构时，其柱网多为9m×9m和12m×12m，本条规定甲等、乙75000人，人均面积为1.32m²～1.5m²，已达到饱和状态。上海等展厅柱网尺寸不宜小于9m×9m.这种尺寸兼顾了结构经济性某展览中心展厅面积10.8万m²，车展时最多每天接待10万～和展位布置的便捷性。12万人，考虑到通常参观的滞留时间为半天或更多，实际的同
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#4.2.5
+  standard_code: JGJ 218-2010
+  chapter: 4 建筑设计
+  section: ''
+  clause_no: 4.2.5
+  text: 展厅净高应满足展览使用要求。甲等展厅净高不宜小于12m，乙等展厅净高不宜小于8m，丙等展厅净高不宜小于6m。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 厅净高
+    unit: m
+    condition: null
+    min_value: null
+    max_value: 12.0
+  - name: 未识别对象
+    unit: m
+    condition: null
+    min_value: null
+    max_value: 8.0
+  - name: 未识别对象
+    unit: m
+    condition: null
+    min_value: null
+    max_value: 6.0
+  tables: []
+  converted_tables:
+  - raw: 展厅净高度应满足布展展品的高度要求（考虑两层搭台时在场人数和这种计算方法也是吻合的。另外，参考美国标准建的布展方式）、屋架悬挂宣传画幅的高度要求，同时应考虑在展筑规范，展览区域人员荷载系数为每人1.394m；新加坡建筑防品布置的情况下大空间空调风送达的净空高度要求，参照国内近火规范，展览区域人员荷载系数为每人1.5m，取值和本规范的期新建的大型展览建筑的使用情况，提出相应的净高设计标准。规定是统一的。其他楼层的展厅在实际使用过程中的最大使用人
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#4.2.6
+  standard_code: JGJ 218-2010
+  chapter: 4 建筑设计
+  section: 4.1一般规定
+  clause_no: 4.2.6
+  text: 展厅展位应按标准展位设计，并可按行、列或成组团布置。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表4.1.3
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文）
+    content: 标准展位是展厅布置的基本方式，根据需要可将若干标数按表4.1.3确定。准展位合并使用。展位设计时需要充分考虑布展的灵活可变性，
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#4.1.1
+  standard_code: JGJ 218-2010
+  chapter: 4 建筑设计
+  section: 4.1一般规定
+  clause_no: 4.1.1
+  text: 展览建筑应根据其规模、展厅的等级和需要设置展览空间、公共服务空间、仓储空间和辅助空间。建筑布局应与规模和展厅的等级相适应。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 近年来展览建筑在我国的建设速度很快，从国际型大都位置、交通状况等内容确定。因我国各地公安交通管理部门对停市、省会城市，到地区级城市，甚至发达地区的县级市都开始建车指标要求不尽相同，故此处不再列出。机动车停车场，如当地设展览建筑。在我国的展览建筑的现状和发展趋势上存在以下几主管部门没有明确规定，可按0.6停车位/100m²建筑面积确定个特点：1规模及展览内容差异较大。大型城市的主要展览建筑规停车数量，考虑到单个基地大量停车位对城市交通总量的较大影模较大，展览类型综合。中小型城市的规模较小，展览类型多依响，因此停车数量还应与周边公共交通能力相对应，提倡尽量利用公共交通，因此在选址时应充分考虑交通便利的条件。托当地的主要支柱产业，有一定的专业展览倾向。停车场的位置应合理布局，做到停车便利、人车分流，避免2展览建筑使用频率差异较大。大型城市的展览建筑大都场地内行走距离过长。饱满运行，一年的展会排期在50个左右。在中小型城市中，目
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#4.2.7
+  standard_code: JGJ 218-2010
+  chapter: 4 建筑设计
+  section: 4.1一般规定
+  clause_no: 4.2.7
+  text: 展厅内展位通道尺寸除应满足安全疏散的要求外，尚应符合下列规定： 1 甲等、乙等展厅主要展位通道净宽不宜小于5m，次要展位通道净宽不宜小于3m； 2 丙等展厅展位通道净宽不宜小于3m。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 道净宽
+    unit: m
+    condition: null
+    min_value: null
+    max_value: 5.0
+  tables: []
+  converted_tables:
+  - raw: 展厅内展位通道尺寸的规定主要是考虑了展位前观众的考虑不同展览同时使用的情况。聚集，由于聚集情况具有不确定性，为了不影响主、次通道的人流组织，提出了相应的宽度要求。同时，展位通道尺寸还应满足4.2展览空间消防疏蔬散要求，
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#4.1.2
+  standard_code: JGJ 218-2010
+  chapter: 4 建筑设计
+  section: 4.1一般规定
+  clause_no: 4.1.2
+  text: 展厅不应设置在建筑的地下二层及以下的楼层。位通道净宽不宜小于3m；
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 道净宽
+    unit: m
+    condition: null
+    min_value: null
+    max_value: 3.0
+  tables: []
+  converted_tables:
+  - raw: 由于展览建筑使用人数众多，若展厅设置在地下二层或观众流量大，流动性强的特点。与此同时，现代展览建筑由于使更低的楼层，不利于安全疏散。实际设计时，地下一层周边如有用功能的多样化及灵活性，会造成不同展厅使用时间.上的差异大面积和本地下一层相接的室外下沉广场，并有足够宽度的疏散性，因而在设计上必须有一个好的流线：从使用功能上确定先进门可以不经楼梯直接疏蔬散到此室外安全区，可以视作一层考虑。的管理方式和采用现代化的服务手段，通过合理安排各部门的关
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#4.1.3
+  standard_code: JGJ 218-2010
+  chapter: 4 建筑设计
+  section: 4.1一般规定
+  clause_no: 4.1.3
+  text: 展厅中单位展览面积的最大使用人数宜按表4.1.3确定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: should
+    modal_words:
+    - 不宜
+    - 宜
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表4.1.3
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表4.1.3确定。2丙等展厅展位通道净宽不宜小于3m表4.1.3展厅中单位展览面积的最大使用人数（人/m²）
+  converted_tables:
+  - raw: 本条中“人数”指最大同时在场人数。计算方法为：根系和日常工作流程最大程度上满足观众的参观流线要求。据实际经验，在饱和使用情况时，每3m×3m标准展位，参展
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#4.2.8
+  standard_code: JGJ 218-2010
+  chapter: 4 建筑设计
+  section: 4.1一般规定
+  clause_no: 4.2.8
+  text: 展厅地面应满足展品存放、布置及运输要求，其荷载值应根据展览类型和使用要求确定。展厅平项帛挂荷载应根据展览地上三层及楼层位置地下层地上二层地上层三层以上各层要求确定，且不宜小于0.3kN/m²。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表4.1.1
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文）
+    content: 根根据我国国家标准《建筑结构荷载规范》GB50009-示区、存储区、会议洽谈区、办公区、观众服务区模式转向强调2001中第4.1.1条表4.1.1民用建筑楼面均布活荷载标准值及表达上，为方便设计取值，采用1000m的展览面积作为取值其组合值、频遇值和准永久值系数，展览厅荷载标准值为基数。3.5kN/m²。在国内调查中了解到各地建设时对展厅的荷载确定很不统一，少则3.5kN/m²，多则30kN/m²。由于展览业的发根据条文说明4.1.3所述，每1000m²展览面积极限使用人数为700人，适用人数为300人～500人。除特定有明确内容的展，及各地对展览要求的差异，对其荷载都有特定要求，故应根展示外，男女比例通常为3：1左右，因此取值人数可设定为男据展览种类和具体使用要求区别确定。性300人左右，女性100左右。参照行业标准《城市公共厕所设考虑到展厅布展时常需吊挂彩旗等吊挂物，在展厅设计时需计标准》CJJ14-2005中公共文体活动场所以及机场、火车站等考虑平顶吊挂荷载。在国内调查中了解到各地建设时对平顶帛挂大量人流集聚的单位卫生设施的规定，男厕每个大便器使用人数荷载确定很不统一，少则0.3kN/m²，多则0.7kN/m²，从实际可控制在150人～250人，小便器可控制在75人～100人。女厕使用出发，为了使用方便及避免浪费，本规范提出展厅平顶吊挂每个大便器使用人数可控制在25人～40人。另外，根据调研情荷载不宜小于0.3kN/m²。为了便于布展吊挂，在条件许可的情况，通常10000m²的展览面积，男厕大便器配置数量在25个左况下，建议按间距6m设置固定吊点。右，小便器也在25个左右。女厕大便器在35个左右，通常能满
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#4.2.9
+  standard_code: JGJ 218-2010
+  chapter: 4 建筑设计
+  section: 4.1一般规定
+  clause_no: 4.2.9
+  text: 展厅地面应根据展览使用要求布置综合设备管沟、管井指标0.650.700.650.50或地面出线布点。管沟、管井及布点宜到达每个展位区域。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 根据近期新建的国内外展览建筑的经验，展厅内设备管足基本要求。但是鉴于展览建筑在不同展示内容时，参观者性别沟、管井或地面出线布点宜到达每个展位区域。结合标准展位尺比例有较大的不同，对会发生特定展示内容的展览建筑，需要考寸要求，可以采取每隔6m设置设备管沟、管井或地面出线布点虑特殊男女比例时的情况。的办法。展厅内设备管沟需预留活动盖板，以方便使用。4.4仓储空间4.3公共服务空间
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#4.1.4
+  standard_code: JGJ 218-2010
+  chapter: 4 建筑设计
+  section: 4.1一般规定
+  clause_no: 4.1.4
+  text: 展览建筑内部空间应考虑持票观展时的分区使用，特大
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 目前大多数展览需要持票参观，专业展览在使用中也需不宜局限于某种固定的模式。要识别身份。因此需要考虑划分持票空间和非持票空间，并且应
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#4.2.10
+  standard_code: JGJ 218-2010
+  chapter: 4 建筑设计
+  section: 4.1一般规定
+  clause_no: 4.2.10
+  text: 展场应满足展览存放、布置及运输要求，其荷载值应根型、大型展览建筑宜设置安检设施。据展览类型和使用要求确定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#4.1.5
+  standard_code: JGJ 218-2010
+  chapter: 4 建筑设计
+  section: 4.1一般规定
+  clause_no: 4.1.5
+  text: 展览建筑宜在适当位置设置观众休息区。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: should
+    modal_words:
+    - 宜
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#4.1.6
+  standard_code: JGJ 218-2010
+  chapter: 4 建筑设计
+  section: 4.3公共服务空间
+  clause_no: 4.1.6
+  text: 当展览建筑的主要展览空间在二层或二层以上时，应设置自动扶梯或大型客梯运送人流，并应设置货梯或货运坡道。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#4.3.1
+  standard_code: JGJ 218-2010
+  chapter: 4 建筑设计
+  section: 4.3公共服务空间
+  clause_no: 4.3.1
+  text: 公共服务空间宜包括前厅、过厅、观众休息处(室)、贵宾休息室、新闻中心、会议空间、餐饮空间、厕所等，可根据展览建筑的规模、展厅的等级和实际需要确定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: should
+    modal_words:
+    - 宜
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 在前厅或过厅中根据不同展览情况，可以提供观众休息活，柱网尺寸及荷载原则上应与展厅相同，考虑到其没有布展要空间，布置小卖部、饮水、医疗等服务设施。求，净高要求放低至4m。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#4.1.7
+  standard_code: JGJ 218-2010
+  chapter: 4 建筑设计
+  section: 4.3公共服务空间
+  clause_no: 4.1.7
+  text: 展览建筑应设置无障碍设施，并应符合现行行业标准宾休息室、新闻中心、会议空间、餐饮空间、厕所等，可根据展《城市道路和建筑物无障碍设计规范》JG50的有关规定。览建筑的规模、展厅的等级和实际需要确定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: JG 50
+    target_clause: null
+    original_text: 展览建筑应设置无障碍设施，并应符合现行行业标准宾休息室、新闻中心、会议空间、餐饮空间、厕所等，可根据展《城市道路和建筑物无障碍设计规范》JG50的有关规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#4.3.2
+  standard_code: JGJ 218-2010
+  chapter: 4 建筑设计
+  section: 4.3公共服务空间
+  clause_no: 4.3.2
+  text: 展览建筑的前厅宜集中设置。前厅应分为外区和内区，并应符合下列规定： 1 前厅的面积可根据其服务的展览面积计算得出，每1000㎡展览面积宜设置50㎡～100㎡前厅； 2 前厅内外区之间应设置检票系统； 3 前厅外区应设置为展方服务的检录空间和设施，并宜在室外预留相关服务场地； 4 前厅外区应设置票务、咨询、寄存、监控、邮政、海关等，并宜设置观众休息、公共电话、饮水处等； 5 前厅外区应设置公共厕所； 6 前厅内应根据当地气候条件设置相应设施；多雨地区应设置雨具存放设施，严寒或寒冷地区宜设置门斗。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 本条中的外区是指前厅人口与检票口之间的区域，内区是指前厅中检票口内与过厅或展厅之间的缓冲区域。4.5辅助空间
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#1.2.1
+  standard_code: JGJ 218-2010
+  chapter: 1 总则
+  section: ''
+  clause_no: 1.2.1
+  text: 展览空间应包括展厅和展场。1前厅的面积可根据其服务的展览面积计算得出，每
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#4.2.2
+  standard_code: JGJ 218-2010
+  chapter: 4 建筑设计
+  section: ''
+  clause_no: 4.2.2
+  text: 展厅和展场的空间组织应保证展览的系统性、灵活性和1000m²展览面积宜设置50m²~100m前厅；参观的可选择性，公众参观流线应便捷，并应避免迁回、交叉。2前厅内外区之间应设置检票系统；
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 性灵活性和
+    unit: m²
+    condition: null
+    min_value: 1000.0
+    max_value: 1000.0
+  - name: 面积宜设置
+    unit: m²
+    condition: null
+    min_value: 50.0
+    max_value: 50.0
+  - name: 积宜设置m
+    unit: m
+    condition: null
+    min_value: 100.0
+    max_value: 100.0
+  tables: []
+  converted_tables:
+  - raw: 、4.2.3展览建筑是功能性较强的公共建筑之一，它具有
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#4.2.3
+  standard_code: JGJ 218-2010
+  chapter: 4 建筑设计
+  section: ''
+  clause_no: 4.2.3
+  text: 展品及工作人员流线应与公众参观流线分开。甲等、乙3前厅外区应设置为展方服务的检录空间和设施：并宜在等展厅应能具备集装箱货车直接进入展厅装卸货物的条件，内等室外预留相关服务场地；的配送和垃圾的收集。4前厅外区应设置票务、咨询、寄存、监控、邮政、海关
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#4.3.8
+  standard_code: JGJ 218-2010
+  chapter: 4 建筑设计
+  section: ''
+  clause_no: 4.3.8
+  text: 展览建筑的会议、办公、餐饮等空间宜设置厕所。展厅应设置公共厕所，并应符合下列规定： 1 甲等、乙等展厅宜设置2处以上公共厕所，位置应方便使用； 2 对于男厕所，每1000㎡展览面积应至少设置2个大便器、2个小便器、2个洗手盆； 3 对于女厕所，每1000㎡展览面积应至少设置4个大便器、2个洗手盆； 4 展厅中宜设置一处以上无性别厕所；当未设无性别厕所时，每个厕所宜设置一个儿童厕位； 5 展厅和前厅的公共厕所应设置无障碍厕位；特大型、大型展览建筑宜设无障碍专用厕所；无障碍厕位和专用厕所的设计应符合现行行业标准《城市道路和建筑物无障碍设计规范》JGJ50的有关规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 于男厕所每
+    unit: m
+    condition: null
+    min_value: 1000.0
+    max_value: 1000.0
+  tables: []
+  converted_tables:
+  - raw: 本条是根据使用人数，实际使用情况，并参照《城市公
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#4.3.3
+  standard_code: JGJ 218-2010
+  chapter: 4 建筑设计
+  section: ''
+  clause_no: 4.3.3
+  text: 当展览建筑有多个展厅时，展厅与前厅之间应设置过厅。过厅可与前厅的内区结合，并应符合下列规定： 1 过厅应为展厅提供缓冲空间，其面积可根据其服务的展览面积计算得出，每1000㎡展览面积宜设置50㎡～150㎡过厅； 2 当过厅兼作前厅使用时，过厅应设置前厅的功能设施； 3 过厅和前厅中设置的功能设施不应影响交通组织和人员疏散。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 于女厕所每
+    unit: m²
+    condition: null
+    min_value: 1000.0
+    max_value: 1000.0
+  - name: 计算得出每
+    unit: m²
+    condition: null
+    min_value: 1000.0
+    max_value: 1000.0
+  - name: 面积宜设置
+    unit: m²
+    condition: null
+    min_value: 50.0
+    max_value: 50.0
+  - name: 积宜设置m
+    unit: m
+    condition: null
+    min_value: 150.0
+    max_value: 150.0
+  tables: []
+  converted_tables:
+  - raw: 此面积可根据实际情况与前厅面积统-分配。在气候条
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#4.3.5
+  standard_code: JGJ 218-2010
+  chapter: 4 建筑设计
+  section: 4.4仓储空间
+  clause_no: 4.3.5
+  text: 特大型、大型展览建筑宜设置新闻中心。新闻中心应具备新闻发布、媒体登录、记者服务等功能。新闻中心宜紧邻前厅或主入口区域。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#4.4.1
+  standard_code: JGJ 218-2010
+  chapter: 4 建筑设计
+  section: 4.4仓储空间
+  clause_no: 4.4.1
+  text: 展览建筑仓储空间可分为室内库房及室外堆场两部分。室内库房可根据使用性质的不同，分为展方库房和管理方库房，并可根据使用要求另设装卸区。室外堆场应设置集装箱、包装箱、展览搭建用品等堆放空间和临时垃圾堆放空间。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#4.3.6
+  standard_code: JGJ 218-2010
+  chapter: 4 建筑设计
+  section: 4.4仓储空间
+  clause_no: 4.3.6
+  text: 特大型、大型、中型展览建筑应根据需要设置会议空间。会议空间可分为大型多功能厅、大中型会议空间、商务会议室、商务洽谈空间。当设置的大型多功能厅兼有展览功能时，应符合本规范第4.2节的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#4.4.2
+  standard_code: JGJ 218-2010
+  chapter: 4 建筑设计
+  section: 4.4仓储空间
+  clause_no: 4.4.2
+  text: 展方库房和装卸区应采用大柱网设计，柱网尺寸不宜小商务洽谈空间。当设置的大型多功能厅兼有展览功能时，应符合于9m×9m，净高不宜小于4m。本规范第4.2节的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 时应符合于
+    unit: m
+    condition: null
+    min_value: 9.0
+    max_value: 9.0
+  - name: 符合于m
+    unit: m
+    condition: null
+    min_value: 9.0
+    max_value: 9.0
+  - name: m净高
+    unit: m
+    condition: null
+    min_value: null
+    max_value: 4.0
+  tables: []
+  converted_tables:
+  - raw: 、4.4.3展方库房主要存放展览备用品，其空间要求灵
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#4.4.3
+  standard_code: JGJ 218-2010
+  chapter: 4 建筑设计
+  section: 4.4仓储空间
+  clause_no: 4.4.3
+  text: 库房地面荷载应满足货物存放要求，展方库房地面荷载不应小于相应展厅的荷载标准。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#4.3.7
+  standard_code: JGJ 218-2010
+  chapter: 4 建筑设计
+  section: 4.4仓储空间
+  clause_no: 4.3.7
+  text: 特大型、大型、中型展览建筑应配备餐饮服务，并应符不应小于相应展厅的荷载标准。合下列规定：
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#4.4.4
+  standard_code: JGJ 218-2010
+  chapter: 4 建筑设计
+  section: 4.4仓储空间
+  clause_no: 4.4.4
+  text: 集装箱卡车应能直接到达装卸区。装卸区与展方库房之1特大型、大型、中型展览建筑宜配备独立的商务餐厅；间交通联系应直接、便捷。当配备商务餐厅时，应根据需要设置厨房；餐厅和厨房的建筑设计应符合现行行业标准《饮食建筑设计规范》JGJ64的有关
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: JGJ 64
+    target_clause: null
+    original_text: 当配备商务餐厅时，应根据需要设置厨房；餐厅和厨房的建筑设计应符合现行行业标准《饮食建筑设计规范》JGJ64的有关
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#4.5.1
+  standard_code: JGJ 218-2010
+  chapter: 4 建筑设计
+  section: 4.5辅助空间
+  clause_no: 4.5.1
+  text: 辅助空间宜包括行政办公用房、临时办公用房、设备用2甲等、艺等展厅应就近设置快餐供应点，并应便于快餐房等，并应符合下列规定：1辅助空间应根据展览建筑的规模、展厅的等级和实际需要设置用房：
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 本条介绍了辅助空间的组成，有关房间的设置可结合需件允许的情况下，过厅可以采取半室外的形式。要确定。4.3.6200人以上大中型会议室最好相对独立分区布置，并相
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#4.5.2
+  standard_code: JGJ 218-2010
+  chapter: 4 建筑设计
+  section: ''
+  clause_no: 4.5.2
+  text: 行政办公用房宜包括行政管理用的办公室、会议室、文印室、值班室、员工休息室、员工卫生间和员工机动车、自行车停放处等，并应符合下列规定： 1 行政办公用房的位置及出入口不应造成内部员工流线与观众流线的交叉； 2 行政办公用房可设置在展览建筑内，也可单独设置； 3 行政办公用房的设计应符合现行行业标准《办公建筑设计规范》JGJ67的有关规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: should
+    modal_words:
+    - 宜
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 除值班保卫工作用房外，行政办公用房都不宜设在观众应配置厕所、服务间等设施，配备多媒体会议设施。每10000m²活动的交通线上。在大型展览建筑中可占用一翼或一角，单独设展厅可以临近设置200人以下商务会议室，并考虑灵活分隔的可门便利出入，也可在建筑外独立建造。行政办公用房的设计要求能性。条件许可时，会议区和展厅附近最好能设置商务洽谈空和使用面积需要符合现行行业标准《办公建筑设计规范》JGJ67间，也可和灵活分隔的商务信息发布厅结合布置。的有关规定。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#5.1.1
+  standard_code: JGJ 218-2010
+  chapter: 5 防火设计
+  section: 5.1一般规定
+  clause_no: 5.1.1
+  text: 展览建筑的耐火等级应符合现行国家标准《建筑设计防1行政办公用房的位置及出入口不应造成内部员工流线与火规范》GB50016和《高层民用建筑设计防火规范》GB50045观众流线的交叉；的规定，并不应低于二级。建筑构件的燃烧性能和耐火极限应符2行政办公用房可设置在展览建筑内，也可单独设置；合现行国家标准《建筑设计防火规范》GB50016和《高层民用3行政办公用房的设计应符合现行行业标准《办公建筑设建筑设计防火规范》GB50045的有关规定。计规范》JGJ67的有关规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 展览建筑中人员密集：发生火灾后如不能尽快恢复或为火灾扑救提供足够的安全时间，则可能造成严重后果，故本条规定采用一、二级耐火等级的建筑。5.2防火分区和平面布置
+    note: 合并重复提取片段
+  references:
+  - target_standard: GB 50016
+    target_clause: null
+    original_text: 展览建筑的耐火等级应符合现行国家标准《建筑设计防1行政办公用房的位置及出入口不应造成内部员工流线与火规范》GB50016和《高层民用建筑设计防火规范》GB50045观众流线的交叉；的规定，并不应低于二级。
+    resolution_status: resolved
+    resolution_note: 库内标准（GB 50016-2014），可交叉引用并确认具体参数
+  - target_standard: GB 50045
+    target_clause: null
+    original_text: 展览建筑的耐火等级应符合现行国家标准《建筑设计防1行政办公用房的位置及出入口不应造成内部员工流线与火规范》GB50016和《高层民用建筑设计防火规范》GB50045观众流线的交叉；的规定，并不应低于二级。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  - target_standard: JGJ 67
+    target_clause: null
+    original_text: 计规范》JGJ67的有关规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#5.1.2
+  standard_code: JGJ 218-2010
+  chapter: 5 防火设计
+  section: 5.1一般规定
+  clause_no: 5.1.2
+  text: 展览建筑之间的防火间距、展览建筑与其他建筑的防火间距应符合现行国家标准《建筑设计防火规范》GB 50016和《高层民用建筑设计防火规范》GB50045的有关规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#4.5.3
+  standard_code: JGJ 218-2010
+  chapter: 4 建筑设计
+  section: 5.1一般规定
+  clause_no: 4.5.3
+  text: 临时办公用房应符合下列规定：间距应符合现行国家标准《建筑设计防火规范》GB50016和每10000m²展览面积宜设置不小于50m的临时办公《高层民用建筑设计防火规范》GB50045的有关规定。用房；
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 范GB和每
+    unit: m²
+    condition: null
+    min_value: 10000.0
+    max_value: 10000.0
+  - name: 面积宜设置
+    unit: m
+    condition: null
+    min_value: 50.0
+    max_value: null
+  tables: []
+  converted_tables:
+  - raw: 临时办公用房是供展览主办方工作人员使用，与参展商共厕所设计标准》CJJ14-2005和其他类似场馆推导得到。但在联系最为频繁，因此宜在展厅附近设置。
+    note: 合并重复提取片段
+  references:
+  - target_standard: GB 50016
+    target_clause: null
+    original_text: 临时办公用房应符合下列规定：间距应符合现行国家标准《建筑设计防火规范》GB50016和每10000m²展览面积宜设置不小于50m的临时办公《高层民用建筑设计防火规范》GB50045的有关规定。
+    resolution_status: resolved
+    resolution_note: 库内标准（GB 50016-2014），可交叉引用并确认具体参数
+  - target_standard: GB 50045
+    target_clause: null
+    original_text: 临时办公用房应符合下列规定：间距应符合现行国家标准《建筑设计防火规范》GB50016和每10000m²展览面积宜设置不小于50m的临时办公《高层民用建筑设计防火规范》GB50045的有关规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#5.1.3
+  standard_code: JGJ 218-2010
+  chapter: 5 防火设计
+  section: 5.1一般规定
+  clause_no: 5.1.3
+  text: 仓储空间应与展厅分开布置，公共服务空间和辅助空间2临时办公用房宜设置在展厅附近，并宜与公共服务空间宜与展厅分开布置。仓储空间、公共服务空间和辅助空间的防火和仓储空间有便捷的联系；设计应符合现行国家标准《建筑设计防火规范》GB50016和3临时办公用房可利用固定的房间，也可是在展览期间在《高层民用建筑设计防火规范》GB50045的有关规定。展厅内辟出的专门区域。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50016
+    target_clause: null
+    original_text: 仓储空间、公共服务空间和辅助空间的防火和仓储空间有便捷的联系；设计应符合现行国家标准《建筑设计防火规范》GB50016和3临时办公用房可利用固定的房间，也可是在展览期间在《高层民用建筑设计防火规范》GB50045的有关规定。
+    resolution_status: resolved
+    resolution_note: 库内标准（GB 50016-2014），可交叉引用并确认具体参数
+  - target_standard: GB 50045
+    target_clause: null
+    original_text: 仓储空间、公共服务空间和辅助空间的防火和仓储空间有便捷的联系；设计应符合现行国家标准《建筑设计防火规范》GB50016和3临时办公用房可利用固定的房间，也可是在展览期间在《高层民用建筑设计防火规范》GB50045的有关规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#5.1.4
+  standard_code: JGJ 218-2010
+  chapter: 5 防火设计
+  section: 5.1一般规定
+  clause_no: 5.1.4
+  text: 展览建筑的内部装修设计应符合现行国家标准《建筑内部装修设计防火规范》GB50222的有关规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#4.5.4
+  standard_code: JGJ 218-2010
+  chapter: 4 建筑设计
+  section: ''
+  clause_no: 4.5.4
+  text: 设备用房可设置在展览建筑中，也可单独设置。设备用房的位置应接近服务负荷中心，并应避免其噪声和振动对公共区和展览区造成干扰。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 设备用房为展览建筑的正常运营提供动力，可以在大型展览建筑中占据一隅或一角，也可以在建筑外独立建造。某些特5防火设计殊展览所需的通信设备、空气压缩机等可以临时设置在室外。5.1一般规定
+    note: 合并重复提取片段
+  references:
+  - target_standard: GB 50222
+    target_clause: null
+    original_text: 设备用部装修设计防火规范》GB50222的有关规定。
+    resolution_status: resolved
+    resolution_note: 库内标准（GB 50222-2017），可交叉引用并确认具体参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#5.2.1
+  standard_code: JGJ 218-2010
+  chapter: 5 防火设计
+  section: ''
+  clause_no: 5.2.1
+  text: 对于设置在多层建筑内的地上展厅，防火分区的最大允许建筑面积应符合下列规定：1当展厅内未设置自动灭火系统时，防火分区的最大允许建筑面积不应大于2500m²：2当展厅内设置自动灭火系统时，防火分区的最大允许建筑面积可增加1.0倍；3当展厅局部设置自动灭火系统时，防火分区增加的面积可按该局部面积的1.0倍计。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 筑面积
+    unit: m²
+    condition: null
+    min_value: 2500.0
+    max_value: null
+  tables: []
+  converted_tables:
+  - raw: 、5.2.2根据目前国际、国内大型展览建筑建设的发展情况，展厅由于使用需要，往往要求较大面积和较高空间，其防火分区面积可以适当扩大。但这涉及建筑的综合防火设计问题，不能单纯考虑防火分区，为确保防火安全，减少火灾隐惠，提高建筑的消防安全水平，在扩大时需要进行充分论证。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#5.2.2
+  standard_code: JGJ 218-2010
+  chapter: 5 防火设计
+  section: ''
+  clause_no: 5.2.2
+  text: 对于设置在单层建筑内或多层建筑首层的展厅，当设有自动灭火系统、排烟设施和火灾自动报警系统时，防火分区的最大允许建筑面积不应大于10000㎡。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#5.3.1
+  standard_code: JGJ 218-2010
+  chapter: 5 防火设计
+  section: 5.3安全疏散
+  clause_no: 5.3.1
+  text: 展厅的疏散人数应根据本规范第4.1.3条经计算确定。大允许建筑面积不应大于10000m²。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 筑面积
+    unit: m²
+    condition: null
+    min_value: 10000.0
+    max_value: null
+  tables: []
+  converted_tables:
+  - raw: 经过查阅国内外有关资料和规范，并在征求了设计单位家相关标准控制之内、环保效果好的建筑材料。有关控制建筑材和使用单位的意见的情况下，确定展览厅室的计算面积和疏散人料、装修材料中有害物质含量的国家标准有许多，民用建筑工程数之间的换算关系，考虑到国内展厅内容纳人数与国外相比相对常用的标准为《民用建筑工程室内环境污染控制规范》GB较多，以及设施和管理上也存在一定差距，规范中规定的换算系50325。另外从GB18580~GB18588及《建筑材料放射性核素数较国外标准略高一些。限量》GB6566也都对于建筑材料的控制有具体的规定。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#5.3.2
+  standard_code: JGJ 218-2010
+  chapter: 5 防火设计
+  section: 5.3安全疏散
+  clause_no: 5.3.2
+  text: 多层建筑内的地上展厅、地下展厅和其他空间的安全出口、疏散楼梯的各自总宽度，应符合下列规定： 1 每层安全出口、疏散楼梯的净宽应按表5.3.2的规定经计算确定；当每层人数不等时，疏散楼梯的总宽度可分层计算，下层楼梯的总宽度应按其上层人数最多一层的人数计算； 2 首层外门的总宽度应按人数最多的一层人数计算确定；不供楼上人员疏散的外门，可按本层人数计算确定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#5.2.3
+  standard_code: JGJ 218-2010
+  chapter: 5 防火设计
+  section: 5.3安全疏散
+  clause_no: 5.2.3
+  text: 对于设置在高层建筑内的地上展厅，防火分区的最大允许建筑面积不应大于4000㎡。 对于设置在多层或高层建筑内的地下展厅，防火分区的最大允许建筑面积不应大于2000㎡，并应设置自动灭火系统、排烟设施和火灾自动报警系统。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 筑面积
+    unit: m²
+    condition: null
+    min_value: 4000.0
+    max_value: null
+  tables:
+  - table_id: 表5.3.2
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表5.3.2的规定经允许建筑面积不应大于2000m²，并应设置自动灭火系统、排烟计算确定；当每层人数不等时，疏散楼梯的总宽度可分层计算，下层楼梯的总宽度应按其上层人数最多一层的人数计算；设施和火灾自动报警系统。2首层外门的总宽度应按人数最多的一层人数计算确定；
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#5.2.4
+  standard_code: JGJ 218-2010
+  chapter: 5 防火设计
+  section: 5.3安全疏散
+  clause_no: 5.2.4
+  text: 对于设置在高层建筑裙房的展厅，当裙房与高层建筑之间有防火分隔措施、未设置自动灭火系统时，展厅防火分区的最大允许建筑面积不应大于2500㎡；当裙房与高层建筑之间有防火分隔措施、且设有自动灭火系统时，防火分区的最大允许建筑面积可增加1.0倍。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 筑面积
+    unit: m²
+    condition: null
+    min_value: 2500.0
+    max_value: null
+  tables:
+  - table_id: 表5.3.2
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表5.3.2安全出口、疏散楼梯和房间疏散门每100人的净宽度（m）火分隔措施、且设有自动灭火系统时，防火分区的最大允许建筑楼层位置每100人的净宽度（m）面积可增加1.0倍。地上一、二层≥0.65
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#5.2.5
+  standard_code: JGJ 218-2010
+  chapter: 5 防火设计
+  section: 5.3安全疏散
+  clause_no: 5.2.5
+  text: 当展厅的使用有特殊要求时：可采用性能化设计方法进地上三层≥0.75行防火设计。地上四层及四层以上各层≥1.00
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: may
+    modal_words:
+    - 可
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#5.2.6
+  standard_code: JGJ 218-2010
+  chapter: 5 防火设计
+  section: 5.3安全疏散
+  clause_no: 5.2.6
+  text: 设有展厅的建筑内不得储存甲类和乙类属性的物品。室内库房、维修及加工用房与展厅之间：应采用耐火极限不低于与地面出人口地坪的高差不超过10m的地下建筑≥0.752.00h的隔墙和1.00h的楼板进行分隔，隔墙上的门应采用乙级与地面出入口地坪的高差超过10m的地下建筑≥1.00防火门。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 坪的高差
+    unit: m
+    condition: null
+    min_value: 10.0
+    max_value: null
+  - name: 地下建筑
+    unit: h
+    condition: null
+    min_value: 752.0
+    max_value: null
+  - name: 建筑
+    unit: h
+    condition: null
+    min_value: 1.0
+    max_value: null
+  - name: 地坪的高差
+    unit: m
+    condition: null
+    min_value: 10.0
+    max_value: null
+  tables: []
+  converted_tables:
+  - raw: 设有展厅的建筑需要为布展提供加工、维修的场所，以及放置运输参展物品和展品包装箱的仓库等，这些场所需与展厅进行有效的防火分隔。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#5.2.7
+  standard_code: JGJ 218-2010
+  chapter: 5 防火设计
+  section: 5.3安全疏散
+  clause_no: 5.2.7
+  text: 供垂直运输物品的客货电梯宜设置独立的电梯厅，不应直接设置在展厅内。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 因为普通客货梯不防烟、不防火，火灾时电梯井将可能成为加速火势蔓延扩大的通道，因此需避免将电梯直接设置在展览厅内以减少火灾影响。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#5.3.3
+  standard_code: JGJ 218-2010
+  chapter: 5 防火设计
+  section: 5.3安全疏散
+  clause_no: 5.3.3
+  text: 高层建筑内的展厅和其他空间的安全出口、疏散楼梯间及其前室的门的各自总宽度，应符合下列规定：直接设置在展厅内。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#5.2.8
+  standard_code: JGJ 218-2010
+  chapter: 5 防火设计
+  section: 5.3安全疏散
+  clause_no: 5.2.8
+  text: 展览建筑内的燃油或燃气锅炉房、油浸电力变压器室、1疏散楼梯间及其前室的门的净宽应按通过人数计算，每充有可燃油的高压电容器和多油开关室等不应布置于人员密集场100人不应小1.00m，且最小净宽不应小于0.90m；所的上一层、下一层或贴邻，并应采用耐火极限不低于2.00h的2首层外门的总宽度应按人数最多的一层人数计算，每隔墙和1.50h的楼板进行分隔，隔墙上的门应采用甲级防火门。100人不应小于1.00m：且疏散外门的净宽不应小于1.20m。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: true
+    mandatory_basis: 住建部公告2010年第725号强制性条文
+  parameters:
+  - name: 场人不应小
+    unit: m
+    condition: null
+    min_value: 1.0
+    max_value: 1.0
+  - name: 且最小净宽
+    unit: m
+    condition: null
+    min_value: 0.9
+    max_value: null
+  - name: 耐火极限
+    unit: h
+    condition: null
+    min_value: null
+    max_value: 2.0
+  - name: 算每隔墙和
+    unit: h
+    condition: null
+    min_value: 1.5
+    max_value: 1.5
+  - name: 级防火门人
+    unit: m
+    condition: null
+    min_value: 1.0
+    max_value: null
+  - name: 外门的净宽
+    unit: m
+    condition: null
+    min_value: 1.2
+    max_value: null
+  tables: []
+  converted_tables:
+  - raw: 展厅、前厅、过厅、会议中心等场所聚集人员较多，属于人员密集场所。燃油、燃气锅炉房，可燃油油浸电力变压器，充有可燃油的高压电容器和多油开关等设备在运行时如安全保护设备失灵或操作不慎会引起火灾、爆炸等事故，因此宜独立建造，不宜布置在主体建筑内。但近年来由于受用地紧张等条件的限制，较多的将这些设备用房布置在主体建筑内，在这种情况下，应采取相应的安全措施，除设备的选用应符合安全要求外，设置的位置不应在人员密集场所的上一层、下一层或贴邻，与相邻部位采取防火分隔的措施。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#5.2.9
+  standard_code: JGJ 218-2010
+  chapter: 5 防火设计
+  section: 5.3安全疏散
+  clause_no: 5.2.9
+  text: 使用燃油、燃气的厨房应靠展厅的外墙布置，并应采用耐火极限不低于2.00h的隔墙和乙级防火门窗与展厅分隔，展厅内临时设置的敞开式的食品加工区应采用电能加热设施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 住建部公告2010年第725号强制性条文
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 厨房火灾时有发生，主要原因是燃气泄漏、排油烟管道着火等引起，对于容易发生火灾的场所应与展厅等部位进行专门6室内环境的防火分隔，以保证人民生命财产安全。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#5.3.4
+  standard_code: JGJ 218-2010
+  chapter: 5 防火设计
+  section: 5.3安全疏散
+  clause_no: 5.3.4
+  text: 展厅内任何一点至最近安全出口的直线距离不宜大于耐火极限不低于2.00h的隔墙和乙级防火门窗与展厅分隔，展厅30m，当单、多层建筑物内全部设置自动灭火系统时，其展厅的内临时设置的敬开式的食品加工区应采用电能加热设施。安全疏散距离可增大25%。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 线距离
+    unit: h
+    condition: null
+    min_value: 2.0
+    max_value: null
+  - name: 厅分隔展厅
+    unit: m
+    condition: null
+    min_value: 30.0
+    max_value: 30.0
+  - name: 距离可增大
+    unit: '%'
+    condition: null
+    min_value: 25.0
+    max_value: 25.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#5.2.10
+  standard_code: JGJ 218-2010
+  chapter: 5 防火设计
+  section: 5.3安全疏散
+  clause_no: 5.2.10
+  text: 展位内可燃物品的存放量不应超过1d展览时间的供应量，展位后部不得作为可燃物品的储藏空间。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 存放量
+    unit: d
+    condition: null
+    min_value: 1.0
+    max_value: null
+  tables: []
+  converted_tables:
+  - raw: 展厅不能作为库房使用，所以需要限制可燃物品（包括6.1室内材料可燃展品）的存放量。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#5.3.5
+  standard_code: JGJ 218-2010
+  chapter: 5 防火设计
+  section: 5.3安全疏散
+  clause_no: 5.3.5
+  text: 展厅内的疏散走道应直达安全出口，不应穿过办公、厨量，展位后部不得作为可燃物品的储藏空间。房、储存简、休息间等区域。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 为确保大量人员安全疏散，疏散走道需要独立设置，不6.2采光、照明能穿过其他区域，特提出此要求。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#5.3.6
+  standard_code: JGJ 218-2010
+  chapter: 5 防火设计
+  section: 5.3安全疏散
+  clause_no: 5.3.6
+  text: 建筑设置安全出口的形式应符合现行国家标准《建筑设计防火规范》GB50016、《高层民用建筑设计防火规范》GB50045的有关规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50016
+    target_clause: null
+    original_text: 建筑设置安全出口的形式应符合现行国家标准《建筑设计防火规范》GB50016、《高层民用建筑设计防火规范》GB50045的有关规定。
+    resolution_status: resolved
+    resolution_note: 库内标准（GB 50016-2014），可交叉引用并确认具体参数
+  - target_standard: GB 50045
+    target_clause: null
+    original_text: 建筑设置安全出口的形式应符合现行国家标准《建筑设计防火规范》GB50016、《高层民用建筑设计防火规范》GB50045的有关规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#6.1.1
+  standard_code: JGJ 218-2010
+  chapter: 6 室内环境
+  section: 6.1室内材料
+  clause_no: 6.1.1
+  text: 展览建筑所用建筑材料和装修材料应符合现行国家标准《民用建筑工程室内环境污染控制规范》GB50325的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 条文中所指的装修材料包括室内装修所用的材料及布置5.3安全疏散展览、展位所用的材料。设计及施工时应选用有害物质含量在国
+    note: 合并重复提取片段
+  references:
+  - target_standard: GB 50325
+    target_clause: null
+    original_text: 展览建筑所用建筑材料和装修材料应符合现行国家标准《民用建筑工程室内环境污染控制规范》GB50325的规定。
+    resolution_status: resolved
+    resolution_note: 库内标准（GB 50325-2020），可交叉引用并确认具体参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#6.1.2
+  standard_code: JGJ 218-2010
+  chapter: 6 室内环境
+  section: 6.1室内材料
+  clause_no: 6.1.2
+  text: 展览建筑的展厅和人员通行的区域的地面、楼面面层材料应耐磨、防滑。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#6.2.1
+  standard_code: JGJ 218-2010
+  chapter: 6 室内环境
+  section: 6.2采光、照明
+  clause_no: 6.2.1
+  text: 除特殊要求的展厅外，展览建筑应有自然采光。展厅的采光系数标准宜符合现行国家标准《建筑采光设计标准》GB/T50033的有关规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 《建筑采光设计标准》GB/T50033~2001中的第3.2.7条是为博物馆和美术馆设置的，不同于展览建筑的是博物馆和美术馆的展品对光线较为敏感。但在第3.2.7条下面的注释中对光线不甚敏感的展品展厅的采光等级也有规定。故本规范规定展厅的采光系数标准宜按《建筑采光设计标准》GB/T50033-2001中第3.2.7条执行。
+    note: 合并重复提取片段
+  references:
+  - target_standard: GB/T 50033
+    target_clause: null
+    original_text: 展厅的采光系数标准宜符合现行国家标准《建筑采光设计标准》GB/T50033的有关规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#6.2.2
+  standard_code: JGJ 218-2010
+  chapter: 6 室内环境
+  section: 6.2采光、照明
+  clause_no: 6.2.2
+  text: 展览建筑的展厅不宜采用大面积的透明幕墙或透明顶棚。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: should
+    modal_words:
+    - 不宜
+    - 宜
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 现在一些展览建筑采用大面积玻璃幕墙或玻璃顶椰作为建筑的表现形式，而实际上展厅并不需要过多的自然光线，室内自然光过于明亮给展览带来一定的困难。经调查采用大面积透明幕墙的展厅在室内装修时，不是用非透明材料将幕墙遮挡起来，就是挂起厚厚的窗帘。展厅一般为大跨建筑：屋顶设置一些天窗可改善室内的光环境、空气质量，且节约能源。但若采用大面积玻璃顶棚则会适得其反，过度的光照会影响展厅的正常使用。因此本规范从使用功能方面考虑设立此条。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#6.2.3
+  standard_code: JGJ 218-2010
+  chapter: 6 室内环境
+  section: 6.2采光、照明
+  clause_no: 6.2.3
+  text: 除展品的局部照明外，展览建筑展厅及展览建筑其他功能房间一般照明的照度值（E）、统一眩光值（UGR）和一般显色指数（Ra），应符合现行国家标准《建筑照明设计标准》GB50034的有关规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 展览建筑是以展厅为主的多功能综合建筑，各功能部分有质量下降且不利节能，内置窗帘对减少由阳光直射室内而产生的各自的照明要求。现行国家标准《建筑照明设计标准》GB50034~空调负荷作用不大，而外部遮阳设施，特别是可调节角度的外部2004中相关条文基本涵盖了展览建筑各功能部分，其中第5.2.9条遮阳设施有明显的节能作用，因此设置外部遮阳设施，防止夏季专为展览馆展厅设置，规定了展厅地面的照度标准值为2001x～强烈阳光直射室内，是提高此类展厅室内热环境质量、节约能源300lx，统一眩光值（UGR）为22，一般显色指数（Ra）为80，高的有效措施。于6m的展厅可降低到60。故本规范规定展览建筑的照明设计应按6.5声学环境《建筑采光设计标准》GB/T50033中相关条文执行。
+    note: 合并重复提取片段
+  references:
+  - target_standard: GB 50034
+    target_clause: null
+    original_text: 除展品的局部照明外，展览建筑展厅及展览建筑其他功能房间一般照明的照度值（E）、统一眩光值（UGR）和一般显色指数（Ra），应符合现行国家标准《建筑照明设计标准》GB50034的有关规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#6.2.4
+  standard_code: JGJ 218-2010
+  chapter: 6 室内环境
+  section: 6.2采光、照明
+  clause_no: 6.2.4
+  text: 展览建筑展厅内的展览区域的照明均匀度不应小于0.7，展厅内其他区域的照明均匀度不应小于0.5。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 本条参照现行国家标准《建筑照明设计标准》GB50034-
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#6.2.5
+  standard_code: JGJ 218-2010
+  chapter: 6 室内环境
+  section: 6.2采光、照明
+  clause_no: 6.2.5
+  text: 展览建筑照明应选用节能灯具。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 展览建筑一般的照明应选用节能灯具，但有些展品的特建筑的室内环境质量。其中展览建筑的展厅属于无标定人数建殊照明可根据功能需求选择特殊的照明方式和灯具。筑，观众数量因不同展览而异，观众活动产生的噪声也难做到预先确定和控制，故本规范对展厅空场时的背景噪声水平进行控6.3空气质量制。由于展厅空间较大，且空调一般采用喷口送风的方式，本身
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#6.3.2
+  standard_code: JGJ 218-2010
+  chapter: 6 室内环境
+  section: 6.3空气质量
+  clause_no: 6.3.2
+  text: 展览建筑室内空气环境污染物的控制应满足现行国家标准《民用建筑工程室内环境污染控制规范》GB50325规定的Ⅱ类标准。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 现行国家标准《民用建筑工程室内环境污染控制规范》的声源，混合大量观众所产生的声源形成室内的主要噪声，使室GB50325对建筑材料和装修材料的选用、室内环境污染控制均内声学环境质量下降，因此在展厅室内装修时采取一定的吸声措有明确的规定，并将民用建筑按室内环境污染控制的不同要求划施，可降低室内噪声改善展览期间展厅室内的声学环境质量，提分为两类，展览建筑为Ⅱ类。因此设计时要按此规范对室内环境高观众的观展舒适度。展厅也可通过设置能根据背景噪声自动调污染物进行控制，以保证室内空气质量。节广播音量的系统来达到较佳的声学效果。
+    note: 合并重复提取片段
+  references:
+  - target_standard: GB 50325
+    target_clause: null
+    original_text: 展览建筑室内空气环境污染物的控制应满足现行国家标准《民用建筑工程室内环境污染控制规范》GB50325规定的Ⅱ类标准。
+    resolution_status: resolved
+    resolution_note: 库内标准（GB 50325-2020），可交叉引用并确认具体参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#6.4.1
+  standard_code: JGJ 218-2010
+  chapter: 6 室内环境
+  section: 6.4保温、隔热
+  clause_no: 6.4.1
+  text: 展览建筑展厅的围护结构应根据当地气候条件采取保温、隔热的技术措施，并应符合现行国家标准《公共建筑节能设计标准》GB 50189的有关规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 空间体量大、间款式使用是展览建筑展厅的主要特点，混响时间，如果混响时间没有控制，展厅的声学环境质量就无法应根据这些特点和建设所在地的具体气候条件，从保证室内热环保证，因此应对多功能用途的展厅进行相应的声学设计。在为较境质量及节能的目的对展览建筑展厅的围护结构采取保温、隔热高档次或对声学环境质量有较高要求的展厅进行设计时，设计师的技术措施。应根据不同展厅的空间特点和功能需要，对混响时间等声学指标
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#6.4.2
+  standard_code: JGJ 218-2010
+  chapter: 6 室内环境
+  section: ''
+  clause_no: 6.4.2
+  text: 展览建筑展厅的东、西朝向采用大面积外窗、透明幕墙及屋顶采用大面积透明顶棚时，宜设置外部遮阳设施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 展厅在东、西朝向采用大面积外窗、透明幕墙及屋顶采进行控制，以达到高质量的声学要求。用大面积透明顶棚使得夏季强烈阳光直射室内，造成室内热环境
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#7.1.1
+  standard_code: JGJ 218-2010
+  chapter: 7 建筑设备
+  section: 7.1给水排水
+  clause_no: 7.1.1
+  text: 展览建筑工艺用水的用水定额、水压、水质、水温等条件，应按展览工艺确定，并应符合现行国家标准《建筑给水排水设计规范》GB 50015的有关规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 应根据展览工艺确定用水定额、水压等用水条件。当展承重结构或造成室内进水。同时这些屋面常设计成虹吸式屋面雨览建筑的展览工艺不确定时，根据对上海、江苏、广东等地展览水排水系统，雨水排水系统的设计重现期，应根据建筑的重要性建筑的设计用水量定额调查，其观众、工作人员的生活用水定额和溢流造成的危害程度确定，取值不宜过小。与现行《建筑给水排水设计规范》GB50015中的数据基本吻合。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#6.5.1
+  standard_code: JGJ 218-2010
+  chapter: 6 室内环境
+  section: ''
+  clause_no: 6.5.1
+  text: 对产生较大噪声的建筑设备、展项设施及室外环境的噪声应采取隔声和减噪措施。展厅空场时背景噪声的允许噪声级(A声级)不宜大于55dB。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 室内背景噪声水平直接影响室内声学环境质量，因此对2004中第4.2.1条制定。展览建筑有影响的噪声源要采取隔声、减噪的措施，以保证展览
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#7.1.2
+  standard_code: JGJ 218-2010
+  chapter: 7 建筑设备
+  section: ''
+  clause_no: 7.1.2
+  text: 展览建筑内应根据展览工艺要求设置供展品使用的给水声应采取隔声和减噪措施。展厅空场时背景噪声的允许噪声级及排水管。当展览工艺不确定时，应预留给水、排水接口，并应（A声级）不宜大于55dB。符合下列规定：
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: A声级
+    unit: d
+    condition: null
+    min_value: 55.0
+    max_value: null
+  tables: []
+  converted_tables:
+  - raw: 许多展览建筑的展厅由于展览工艺不确定，通常采用设收集、回用设施。置给水排水预留管，供布展时从这些预留管上临时接管使用。本
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#6.5.2
+  standard_code: JGJ 218-2010
+  chapter: 6 室内环境
+  section: ''
+  clause_no: 6.5.2
+  text: 展厅室内装修宜采取吸声措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 展厅在展览期间有许多不同的用于展览宣传和展会广播
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#6.5.3
+  standard_code: JGJ 218-2010
+  chapter: 6 室内环境
+  section: ''
+  clause_no: 6.5.3
+  text: 对室内声音质量有较高要求的多功能展厅，应进行相应管井内；的声学设计。2给水、排水预留接口宜每隔10m各设置一个；3给水预留管的管径宜为25mm、排水预留管的管径宜为50mm;4给水、排水预留管的接口形式应便于管道的拆装；5给水预留管的起端应有防回流污染措施，并应符合现行国家标准《建筑给水排水设计规范》GB50015的有关规定；6给水预留接口的水压不宜小于0.10MPa，且不宜大于0.35MPa:7排水预留管与排水系统连接时应采用间接排水方式；8对于冬季可能有冰冻的地区，给水、排水预留管应采取防冻措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 接口宜每隔
+    unit: m
+    condition: null
+    min_value: 10.0
+    max_value: 10.0
+  - name: 管的管径
+    unit: mm
+    condition: null
+    min_value: 25.0
+    max_value: 25.0
+  - name: 未识别对象
+    unit: mm
+    condition: null
+    min_value: 50.0
+    max_value: 50.0
+  tables: []
+  converted_tables:
+  - raw: 展厅有时也兼作其他功能使用，如大型集会、招待酒会、6.4保温、隔热运动会、甚至音乐会等。而展厅容积一般都很大，易产生较长的
+    note: 合并重复提取片段
+  references:
+  - target_standard: GB 50015
+    target_clause: null
+    original_text: 应便于管道的拆装；5给水预留管的起端应有防回流污染措施，并应符合现行国家标准《建筑给水排水设计规范》GB50015的有关规定；6给水预留接口的水压不宜小于0.10MPa，且不宜大于0.35MPa
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#7.1.3
+  standard_code: JGJ 218-2010
+  chapter: 7 建筑设备
+  section: ''
+  clause_no: 7.1.3
+  text: 当生活饮用水水池（箱）内的储水48h内不能得到更新时，应设置水消毒处理装置。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 箱内的储水
+    unit: h
+    condition: null
+    min_value: 48.0
+    max_value: 48.0
+  tables: []
+  converted_tables:
+  - raw: 本条参照《建筑给水排水设计规范》GB50015的规定。消防水炮灭火系统等。鉴于部分系统或装置国家尚无相应的工程展览建筑在布展期间和展览期间的用水量差异大，本条文强调应技术规程，系统选择应符合当地地方规范或消防主管部门的技术复核生活饮用水池（箱）内储水的更新周期，当更新周期不能满规定。为保证人员安全，在人员密集场所使用的自动消防水炮应足本条文要求时，应设置水消毒处理装置。具有射水雾化功能。节能设计标准》GB50189中的相关条款，本条规定了展览建筑7.2采暖、通风、空气调节内各功能用房空气调节室内设计参数。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#7.1.4
+  standard_code: JGJ 218-2010
+  chapter: 7 建筑设备
+  section: ''
+  clause_no: 7.1.4
+  text: 公共卫生间宜采用感应式或自闭式龙头等节水型卫生器具。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#7.1.15
+  standard_code: JGJ 218-2010
+  chapter: 7 建筑设备
+  section: ''
+  clause_no: 7.1.15
+  text: 设有自动水炮灭火系统的展厅、大型多功能厅、仓库宜设消防排水设施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: should
+    modal_words:
+    - 宜
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#7.1.6
+  standard_code: JGJ 218-2010
+  chapter: 7 建筑设备
+  section: ''
+  clause_no: 7.1.6
+  text: 可面积较大的展场宜设置地面冲洗设施。：设消防排水设施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: should
+    modal_words:
+    - 宜
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#7.1.7
+  standard_code: JGJ 218-2010
+  chapter: 7 建筑设备
+  section: ''
+  clause_no: 7.1.7
+  text: 汇水面积较大的屋面、金属结构屋面宜采用虹吸式屋面雨水排水系统。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: should
+    modal_words:
+    - 宜
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 大型屋面因汇水面积大，采用重力雨水排水系统时管道7建筑设备数量多、管径大，管道设置困难，本条文建议采用虹吸式屋面雨水排水系统。7.1给水排水
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#7.1.8
+  standard_code: JGJ 218-2010
+  chapter: 7 建筑设备
+  section: 7.2采暖、通风、空气调节
+  clause_no: 7.1.8
+  text: 汇水面积较大的屋面、金属结构屋面雨水排水系统的设计重现期，应根据建筑的重要性和溢流造成的危害程度确定，并不宜小于10年。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 汇水面积较大的屋面、金属结构屋面积水，会影响屋面
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#7.2.1
+  standard_code: JGJ 218-2010
+  chapter: 7 建筑设备
+  section: 7.2采暖、通风、空气调节
+  clause_no: 7.2.1
+  text: 展览建筑的空气调节系统应根据展览建筑等级、当地的计重现期，应根据建筑的重要性和溢流造成的危害程度确定，并室外气象条件、室内温湿度要求以及经济水平等因素确定。不宜小于10年。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 由于空气调节系统的初投资和运行费用较高，因此，展《采暖通风与空气调节设计规范》GB50019中规定，对于舒览建筑是否设置全年使用的空气调节系统应从多个方面进行综合适性空调系统，夏季室内风速≤0.3m/s：冬季室内风速≤分析。建筑物等级、建筑物所在地的室外气象条件、建筑物室内0.2m/s。展厅和门厅属于大空间区域，人员密集，适当提高室温湿度要求以及投资者和经营者的经济能力是影响空调系统设置内气流速度有利于增强人体的热舒适感。因此，本条对展厅和门与否的主要因素：设计人员应充分考虑。厅的冬夏室内风速作了特殊规定。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#7.2.2
+  standard_code: JGJ 218-2010
+  chapter: 7 建筑设备
+  section: 7.2采暖、通风、空气调节
+  clause_no: 7.2.2
+  text: 设有空气调节系统的展览建筑，其空调系统应为参观者和工作人员提供舒适的室内环境。未设空气调节系统的展览建筑应设置通风换气措施，并宜采取自然通风的措施，当自然通风无法满足室内设计参数时，应设置机械通风系统。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 本条规定了展览建筑内的空调系统的基本功能。当不设关于办公室、会议室和餐厅的最小新风量，《采暖通风与空空调系统时，为消除展览建筑物内的余热、余湿，必须设置通风气调节设计规范》GB50019和《公共建筑节能设计标准》GB系统。展览建筑多由高大空间的展厅组成，自然通风的条件较50189中均有明确的规定，本规范沿用。好，应优先采用这种通风方式，节约初投资、运行费用和能耗，对展厅的最小新风量，《采暖通风与空气调节设计规范》GB当自然通风无法满足室内设计参数要求时，应设置机械通风50019未作规定，建议按国家现行卫生标准中CC)2的允许浓度进系统。行计算确定。按卫生部的规定：室内CO的允许浓度为0.1%，
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#7.1.9
+  standard_code: JGJ 218-2010
+  chapter: 7 建筑设备
+  section: 7.2采暖、通风、空气调节
+  clause_no: 7.1.9
+  text: 屋面雨水排水系统应设溢流设施。溢流设施的排水能力和工作人员提供舒适的室内环境。未设空气调节系统的展览建筑应符合现行国家标准《建筑给水排水设计规范》GB50015的有应设置通风换气措施，并宜采取自然通风的措施，当自然通风无关规定。法满足室内设计参数时，应设置机械通风系统。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 为排除超设计重现期的屋面雨水，应设溢流设施。因此在缺乏其他可靠的用水量定额实测数据时，应按《建筑给水
+    note: 合并重复提取片段
+  references:
+  - target_standard: GB 50015
+    target_clause: null
+    original_text: 未设空气调节系统的展览建筑应符合现行国家标准《建筑给水排水设计规范》GB50015的有应设置通风换气措施，并宜采取自然通风的措施，当自然通风无关规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#7.1.10
+  standard_code: JGJ 218-2010
+  chapter: 7 建筑设备
+  section: 7.2采暖、通风、空气调节
+  clause_no: 7.1.10
+  text: 展览建筑宜根据当地的降雨情况设置雨水收集、回用设施，并应符合现行国家标准《建筑与小区雨水利用工程技术规范》GB 50400的有关规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: should
+    modal_words:
+    - 宜
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 展览建筑占地面积大、屋面汇水面积大，适合于雨水的排水设计规范》GB50015选用。收集、利用。宜根据当地的降雨情况和有关规定，合理设置雨水
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#7.2.3
+  standard_code: JGJ 218-2010
+  chapter: 7 建筑设备
+  section: 7.2采暖、通风、空气调节
+  clause_no: 7.2.3
+  text: 采暖地区未设空气调节系统的展览建筑应根据展览的需施，并应符合现行国家标准《建筑与小区雨水利用工程技术规要，设置采暖系统或值班采暖系统。范》GB50400的有关规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 采暖地区的展览建筑，冬季有展览需求时应设置舒适性与此对应的新风量是30m²/（h·人）。鉴于展厅与体育馆、剧场采暖系统；冬季无展览需求时应设置值班采暖系统。当室内有冻等公共建筑一样，均属于人员密集场所，但室内人员停留时间较裂危险的管道较少时，通过经济比较也可以采用其他防冻措施。短，因此人均新风量可适当减少。参照《体育建筑设计规范》JGJ
+    note: 合并重复提取片段
+  references:
+  - target_standard: GB 50400
+    target_clause: null
+    original_text: 范》GB50400的有关规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#7.2.4
+  standard_code: JGJ 218-2010
+  chapter: 7 建筑设备
+  section: 7.2采暖、通风、空气调节
+  clause_no: 7.2.4
+  text: 设置采暖系统的展览建筑的各功能用房室内设计采暖温度宜按表7.2.4确定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 本条参照《采暖通风与空气调节设计规范》GB50019以31和《剧场建筑设计规范》JGJ57，并考虑到展厅内人员的活动及《公共建筑节能设计标准》GB50189中的相关条款制定。本强度应低于体育馆内的观众且高于剧场内的观众，故规定展厅的条款给出的室内设计采暖温度是一温度范围，应根据室外气象条最小新风量为15m/（h·人）。件及工程投资状况选择合理的室内设计采暖温度。门厅在短时间内同样为高人员密度场所，但其中人员逗留的
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#7.1.11
+  standard_code: JGJ 218-2010
+  chapter: 7 建筑设备
+  section: 7.2采暖、通风、空气调节
+  clause_no: 7.1.11
+  text: 展览建筑消防给水和灭火设施的设计应符合现行国家标准《建筑设计防火规范》GB 50016、《高层民用建筑设计防火规范》GB 50045和《自动喷水灭火系统设计规范}GB 50084的有关规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表7.2.4
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表7.2.4确定。准《建筑设计防火规范》GB50016、《高层民用建筑设计防火规表7.2.4各功能用房室内设计采暖温度范》GB50045和《自动喷水灭火系统设计规范》GB50084的有室内设计采暖温度（℃）关规定。房间名称
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#7.1.12
+  standard_code: JGJ 218-2010
+  chapter: 7 建筑设备
+  section: 7.2采暖、通风、空气调节
+  clause_no: 7.1.12
+  text: 室内消火栓的设置应符合下列规定：展厅14~181室内消火栓宜设置在门厅、休息厅、展厅的主要出人口、门厅12～16疏散走道、楼梯间附近等明显且易于操作的部位；办公室18-~202展厅在主要出入口、疏散走道、楼梯间附近等处设置室会议室18~20内消火栓后，经计算仍不能保证有两支水枪的充实水柱能同时到餐厅16~18达室内任何部位时，可沿疏散通道设置埋地型室内消火栓；3埋地型室内消火栓的井盖应设有明显的标志，并不应被
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 室内消火栓宜设置在门厅、休息厅、展厅的主要出入条文对给水排水管道或预留管的设置作了规定：口、蔬散走道、楼梯间附近等明显且易于操作的部位。应避免将1根据对国内外一些展览建筑调研，给水、排水预留接口消火栓设置在展览区域等宜被展品遮挡的部位。展厅尤其是无柱的间隔通常在6m～15m，条文规定宜按10m间隔设置；展厅，按上述要求设置室内消火栓后，经计算仍不能保证有两支2给水、排水预留接口及预留管应设置在综合设备管沟、水枪的充实水柱同时到达室内任何部位时，本条文借鉴国内外展管并内，便于布展时按需取用；览建筑的工程经验，推荐沿蔬散通道设理地型室内消火栓。理地3给水、排水预留管的接口形式常采用快装接口；型室内消火栓宜设置在专用消火栓井内：消火栓井的尺寸应便于4由于展品用水通常直接从预留管上接水使用，为防止产器材的取用，并应设直接启动消防水泵的按钮。消火栓井的净尺生回流污染，应有措施，并符合《建筑给水排水设计规范》GB寸为1m×1m×1m，井内设有室内消火栓、水枪、水带、消防50015的规定；卷盘和直接启动消防水泵的按钮。5由于排水预留管每次使用的间隔长短不一，为防止水封
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#7.2.5
+  standard_code: JGJ 218-2010
+  chapter: 7 建筑设备
+  section: 7.2采暖、通风、空气调节
+  clause_no: 7.2.5
+  text: 位于严寒和寒冷地区的展览建筑在非工作时间或中断使遮挡。用时间内，室内温度应保持在4℃以上，当利用房间蓄热量不能
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 本条参照《采暖通风与空气调节设计规范》GB50019中时间更短，其最小新风量可参照旅馆大堂，定为10m/（h·人）。的相关条款制定。自的是防止在非工作时间，水管及其他水设备
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#7.1.13
+  standard_code: JGJ 218-2010
+  chapter: 7 建筑设备
+  section: 7.2采暖、通风、空气调节
+  clause_no: 7.1.13
+  text: 当展览建筑内设置自动喷水灭火系统时，对于室内最大净空高度大于12m的展厅、大型多功能厅等人员密集场所，宜采用带雾化功能的自动水炮等灭火系统。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 统净空高度
+    unit: m
+    condition: null
+    min_value: 12.0
+    max_value: null
+  tables: []
+  converted_tables:
+  - raw: 对于室内净空高度大于12m的展厅、大型多功能厅等，干，有害气体从排水系统溢出，本条文要求采用间接排水其灭火系统和装置主要有扩大作用面积的自动喷水灭火系统、雨方式。淋系统、大空间洒水灭火装置、大空间扫描射水灭火装置、自动
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#7.2.6
+  standard_code: JGJ 218-2010
+  chapter: 7 建筑设备
+  section: 7.2采暖、通风、空气调节
+  clause_no: 7.2.6
+  text: 位于严寒和寒冷地区的展览建筑有经常开启的外门，且采用带雾化功能的自动水炮等灭火系统。不设门斗时，宜在外门处设置热空气幕。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: should
+    modal_words:
+    - 宜
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 由于展览建筑人流频繁，参观者人口大门无法关闭，为全室性空调方式相比，分层空调夏季可节省冷量30%左右：因防止大量的冷风侵人：降低室内温度，增加能耗，在本条款规定此，可以节省运行能耗和初投资。的条件下应设置热空气幕。热空气幕送风方式及送风温度应按照分层空调适用于大空间建筑，《采暖通风与空气调节设计规《采暖通风与空气调节设计规范》GB50019中的相关条款执行。范》GB50019、《公共建筑节能设计标准》GB50189以及《实
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#7.1.14
+  standard_code: JGJ 218-2010
+  chapter: 7 建筑设备
+  section: 7.2采暖、通风、空气调节
+  clause_no: 7.1.14
+  text: 自动水炮灭火系统的设计应符合现行国家标准《固定消防炮灭火系统设计规范》GB 50338的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#7.2.7
+  standard_code: JGJ 218-2010
+  chapter: 7 建筑设备
+  section: 7.2采暖、通风、空气调节
+  clause_no: 7.2.7
+  text: 设置空气调节系统的展览建筑各功能用房室内设计参数防炮灭火系统设计规范》GB50338的规定。宜按
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: should
+    modal_words:
+    - 宜
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables:
+  - table_id: 表7.2.7
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表7.2.7确定。3大空间展厅的空调系统宜设计成双风机系统；表7.2.7各功能用房空气调节室内设计参数4空调系统的送风机和回（或排）风机宜根据空调负荷的冬季夏季最小新风量变化进行变频调速控制；房间名称相对湿度气流速度温度相对湿度气流速度[m3/(h·人)5冬夏季空调系统运行时，宜根据空调区域的CO2浓度控(3)(%)(m/s)(℃)(%)(m/s)制空调系统的新风量；16~18N0.3展厅23～276空调季时间较长的地区：当经济技术分析合理时，宜设25~27N0.516～~18N0.3门厅置能量回收装置。N0.318~~20≥30N0.2办公室24 ~26
+  converted_tables:
+  - raw: 参照《采暖通风与空气调节设计规范》GB50019、《全用供热空调设计手册》均推荐对建筑空间高度大于或等于10m、国民用建筑工程设计技术措施·暖通空调·动力》、《剧场建筑设且体积大于10000m的大空间建筑物采用分层空调。展览建筑中计规范》JGJ57、《体育建筑设计规范》JGJ31以及《公共建筑的展厅通常为大空间的建筑形式，理应按分层空调的概念来设计其空调系统。大空间展厅内的人员密度较大，而且变化比较频繁，如果一直按照设计工况的较大的人员密度供应新风，将浪费较多的新风分层空调气流将整个建筑空间分隔成下部空调区和上部非空调区，热空气聚集在上部非空调区内，若不及时排出，将导致非处理能耗。因此，对这类人员活动区域宜采用新风需求控制，即空调区向空调区过量的热转移，影响空调区的空调效果。因此，根据室内O浓度检测值来调节新风量，节约新风处理用能，并在非空调区域应采取自然和机械通风措施，消除非空调区的散热使C）浓度始终能满足人体卫生要求。上海浦东国际机场候机大量，减少非空调区向空调区的热转移。厅的空调系统已采用了这项技术。空调区域排风中所含的能量十分可观，加以回收利用可以取喷口的射程是影响室内空调效果的重要因素之一，确定喷口得很好的节能效益和环境效益，设计时应充分考虑。空调季的时的射程一方面要使其满足空调区域气流组织的需要，另外一一方面间长短是影响排风热回收量的重要因素，空调季时间越长，相对还需要将送风的噪声水平控制在要求的范围内。所以，应该依据气流组织计算的结果并综合考虑噪声的要求来确定喷口射程。采来说全年回收的冷、热量越多，故本条推荐在空调季时间较长的用可调节角度的喷口是为了满足冬季送热风、夏季送冷风时的不地区，当经济技术分析合理时，设置排风热回收装置。
+    note: 合并重复提取片段
+  references:
+  - target_standard: GB 50338
+    target_clause: null
+    original_text: 设置空气调节系统的展览建筑各功能用房室内设计参数防炮灭火系统设计规范》GB50338的规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#7.2.11
+  standard_code: JGJ 218-2010
+  chapter: 7 建筑设备
+  section: 7.2采暖、通风、空气调节
+  clause_no: 7.2.11
+  text: '当展览建筑中设有吸烟室时，应为吸烟室设置独立的机18~20≥30N0.2会议室24~26械排风系统，并宜对排风作净化处理。0.316～18≥30<0.2餐厅24 ~26 :'
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 为防止吸烟室的烟气外泄，污染非吸烟区，应设置机械同要求。排风系统，保持吸烟室为负压区，设计合理的气流组织形式；由
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#7.2.12
+  standard_code: JGJ 218-2010
+  chapter: 7 建筑设备
+  section: 7.2采暖、通风、空气调节
+  clause_no: 7.2.12
+  text: 展览建筑中展厅、等候厅、储藏室等经常有人停留或可燃物较多的部位以及疏散走道等应设置排烟系统，排烟系统的设展厅的气流组织应符合下列规定：
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#7.2.8
+  standard_code: JGJ 218-2010
+  chapter: 7 建筑设备
+  section: 7.2采暖、通风、空气调节
+  clause_no: 7.2.8
+  text: 计应按现行国家标准《建筑设计防火规范》GB50016或《高层展厅的气流组织应保证展厅内的温湿度和风速满足参观民用建筑设计防火规范》GB50045的有关规定执行。者和工作人员的舒适要求；
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 分层空调是一种仅对室内下部人员活动区域进行空调。等发生冻裂。而对室内上部非人员活动空间进行通风排热的特殊空调方式，与
+    note: 合并重复提取片段
+  references:
+  - target_standard: GB 50016
+    target_clause: null
+    original_text: 计应按现行国家标准《建筑设计防火规范》GB50016或《高层展厅的气流组织应保证展厅内的温湿度和风速满足参观民用建筑设计防火规范》GB50045的有关规定执行。
+    resolution_status: resolved
+    resolution_note: 库内标准（GB 50016-2014），可交叉引用并确认具体参数
+  - target_standard: GB 50045
+    target_clause: null
+    original_text: 计应按现行国家标准《建筑设计防火规范》GB50016或《高层展厅的气流组织应保证展厅内的温湿度和风速满足参观民用建筑设计防火规范》GB50045的有关规定执行。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#7.3.1
+  standard_code: JGJ 218-2010
+  chapter: 7 建筑设备
+  section: 7.3动力
+  clause_no: 7.3.1
+  text: 压缩空气的用量应根据工艺要求进行计算，供气设备域，应采取自然或机械通风措施；及管道的设计应符合现行国家标准《压缩空气站设计规范》3大空间展厅宜采用喷口侧送风的送风方式；室内气流组GB50029的有关规定。织应根据风口安装位置、出口风速等条件进行计算或模拟，并应
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 根据展览类型的不同，有些参展者有压缩空气的需求，客观全面地对冷热源方案进行分析比较后合理确定。当条件许可在设计时应予以考虑，主要应明确压缩空气的需求量和压力值等时，可考虑采用蓄冷蓄热技术，平衡电网的用电峰谷差。参数。
+    note: 合并重复提取片段
+  references:
+  - target_standard: GB 50029
+    target_clause: null
+    original_text: 压缩空气的用量应根据工艺要求进行计算，供气设备域，应采取自然或机械通风措施；及管道的设计应符合现行国家标准《压缩空气站设计规范》3大空间展厅宜采用喷口侧送风的送风方式；室内气流组GB50029的有关规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#7.3.2
+  standard_code: JGJ 218-2010
+  chapter: 7 建筑设备
+  section: 7.3动力
+  clause_no: 7.3.2
+  text: 燃气用量应根据用气设备的相关参数进行统计计算，燃根据噪声要求确定风口的特征参数；对于夏季送冷风、冬季送热气设施和管道的设计应符合现行国家标准《城镇燃气设计规范》风的空调系统，风口宜选用角度可调节的产品，GB50028的有关规定。4对于高度大于10m的空间，冬季应采取加速室内空气混
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 定对于高度
+    unit: m
+    condition: null
+    min_value: 10.0
+    max_value: null
+  tables: []
+  converted_tables:
+  - raw: 当空调系统的冷热源、展览建筑内的厨房以及参展者有空调系统设计时不仅要考虑到设计工况，而且应考虑全年运使用燃气的需求时，应根据用气量、用气压力等参数按现行国家行模式。在过渡季，空调系统采用全新风或增大新风比运行，都标准《城镇燃气设计规范》GB50028中的要求进行设计。可以有效地改善空调区内的空气品质，大量节省空气处理所需消耗的能量。要实现全新风运行，设计时必须采取一定的措施，保7.4建筑电气证室内风量平衡，双风机系统可以较好地实现过渡季空调系统的全新风运行，推荐采用。7.4. 1本条规定了展览建筑的负荷分级。本条规定了展位电源和电子信息系统的设置要求。建筑物的空调负荷始终处于不断变化的状态，空调系统要适7.4. 31展览建筑的展厅展览空间大，布展内容丰富、展品种类应这种变化就必须采取一定的调控措施。目前的调控手段可分为多样，为适应布展工艺对展位电源、通信和有线及卫星电视接收水侧调控和风侧调控两类，为大型展厅服务的空调箱的风机功率往往较大，对风机进行变频调速控制具有很好的节能效果。等需求，应按一个或多个标准展位设置地面出线盒布点或与其他动力、给水排水管道共同敷设和出线的综合设备管沟、管井，也7.5建筑智能化有沿柱设置的出线方式，上述出线方式应按布展的功能分区布置，可以是各类出线的组合；大型展览建筑设置展场，应根据布
+    note: 合并重复提取片段
+  references:
+  - target_standard: GB 50028
+    target_clause: null
+    original_text: 燃气用量应根据用气设备的相关参数进行统计计算，燃根据噪声要求确定风口的特征参数；对于夏季送冷风、冬季送热气设施和管道的设计应符合现行国家标准《城镇燃气设计规范》风的空调系统，风口宜选用角度可调节的产品，GB50028的有关规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#7.2.9
+  standard_code: JGJ 218-2010
+  chapter: 7 建筑设备
+  section: 7.4建筑电气
+  clause_no: 7.2.9
+  text: 空气调节和通风系统应采取过滤、消声、隔声和减振
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#7.4.1
+  standard_code: JGJ 218-2010
+  chapter: 7 建筑设备
+  section: 7.4建筑电气
+  clause_no: 7.4.1
+  text: 供配电设计应按现行国家标准《供配电系统设计规范》措施。GB50052的规定进行设计，且供电电源应符合下列规定：
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50052
+    target_clause: null
+    original_text: GB50052的规定进行设计，且供电电源应符合下列规定：
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#7.2.10
+  standard_code: JGJ 218-2010
+  chapter: 7 建筑设备
+  section: 7.4建筑电气
+  clause_no: 7.2.10
+  text: 空调系统的用能、设计和相关设备的选择应满足节能的1特大型、大型展览建筑安全防范系统用电应按一级负荷要求：并应符合下列规定：中特别重要负荷供电；根据实际情况：宜选用太阳能、地热能等可再生能源；2甲等、乙等展厅备用照明应按一级负荷供电，丙等展厅2冷热源的选择应根据当地的气候条件、能源政策以及经备用照明应按二级负荷供电；济状况等因素，通过经济技术比较，采用适合当地的冷热源3展览用电应按二级负荷供电。形式；
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 空调采暖系统在公共建筑中是能耗大户，而空调冷热源于使用的间歇性，为防止烟气及气味的互串，要求设置独立的排机组的能耗又占整个空调、采暖系统的大部分。因此，在条件许风系统；为防止对室外环境的污染应设置净化装置。可时，应充分考虑天然能源的利用。当前冷热源设备的品种繁多，电制冷机组（风冷和水冷）、溴化锂吸收式机组及蓄冷蓄热7.3动力设备等各具特色。但采用这些机组和设备时都受到气候、能源、政策、环境、工程经济状况等多种因素的影响和制约，为此必须
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#7.4.2
+  standard_code: JGJ 218-2010
+  chapter: 7 建筑设备
+  section: 7.4建筑电气
+  clause_no: 7.4.2
+  text: 消防用电设备应按现行国家标准《高层民用建筑设计防走道和主要疏散路线的地面上应增设能保持视觉连续的灯光疏散火规范》GB50045和《建筑设计防火规范》GB50016的规定进指示标志或蓄光疏散指示标志，且指示标志的载荷能力应与周围行设计。地面的载荷能力-一致，防护等级不应低于IP54。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50045
+    target_clause: null
+    original_text: 消防用电设备应按现行国家标准《高层民用建筑设计防走道和主要疏散路线的地面上应增设能保持视觉连续的灯光疏散火规范》GB50045和《建筑设计防火规范》GB50016的规定进指示标志或蓄光疏散指示标志，且指示标志的载荷能力应与周围行设计。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  - target_standard: GB 50016
+    target_clause: null
+    original_text: 消防用电设备应按现行国家标准《高层民用建筑设计防走道和主要疏散路线的地面上应增设能保持视觉连续的灯光疏散火规范》GB50045和《建筑设计防火规范》GB50016的规定进指示标志或蓄光疏散指示标志，且指示标志的载荷能力应与周围行设计。
+    resolution_status: resolved
+    resolution_note: 库内标准（GB 50016-2014），可交叉引用并确认具体参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#7.4.3
+  standard_code: JGJ 218-2010
+  chapter: 7 建筑设备
+  section: 7.4建筑电气
+  clause_no: 7.4.3
+  text: 展位的电源和电子信息系统应符合下列规定：
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#7.4.8
+  standard_code: JGJ 218-2010
+  chapter: 7 建筑设备
+  section: 7.4建筑电气
+  clause_no: 7.4.8
+  text: 安全出口标志应设置在门的上部或门框边缘，并应符合1展厅应根据其展览功能要求分区设置满足展位需求的电下列规定：源和电子信息系统综合设备管沟、管井或地面出线盒布点，展场1设置在门的上部时，标志的下边缘距门框不宜大应根据其展览功能要求分区设置满足展位需求的电源和电子信息于0.15m;系统地面出线井；2设置在门框侧边缘时，标志的下边缘距室内地坪不宜大2-个或多个标准展位应设置一组配电插座箱和语音、数于 2.0m。据端口等；配电容量和语音、数据端口等数量应能满足其综合
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 电子信息于
+    unit: m
+    condition: null
+    min_value: 0.15
+    max_value: 0.15
+  - name: 和语音数于
+    unit: m
+    condition: null
+    min_value: 2.0
+    max_value: 2.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#7.4.9
+  standard_code: JGJ 218-2010
+  chapter: 7 建筑设备
+  section: 7.4建筑电气
+  clause_no: 7.4.9
+  text: 展厅、疏散走道、疏散楼梯等部位应设置消防应急照明灯具。展厅备用照明的照度值不应低于一般照明照度值的10％。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 照度值
+    unit: '%'
+    condition: null
+    min_value: null
+    max_value: 10.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#7.4.10
+  standard_code: JGJ 218-2010
+  chapter: 7 建筑设备
+  section: 7.4建筑电气
+  clause_no: 7.4.10
+  text: 消防应急照明系统宜采用集中电源型的系统，并应按消且剩余电流动作保护器的剩余动作电流不应超过30mA；防设备回路供电。当应急照明灯具数量较少、布置分散时，可自4电源线路和电子信息系统线路平行或交叉敷设时，其间带备用电源供电。应急照明灯具产品应符合现行国家标准《消防距应符合现行国家标准《建筑物电子信息系统防雷技术规范》安全标志》GB13495和《消防应急灯具》GB17945的有关GB50343的规定；规定。5地面出线盒布点、综合设备管沟、管井和室外地面出线
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 作电流
+    unit: m
+    condition: null
+    min_value: 30.0
+    max_value: null
+  tables: []
+  converted_tables:
+  - raw: 本条规定消防疏散指示标志的供电要求，集中供电方式息网络安全管理系统应能确保信息网络的运行和信息安全。便于集中维护管理，提高整体性能和使用寿命，不易损坏，可靠
+    note: 合并重复提取片段
+  references:
+  - target_standard: GB 13495
+    target_clause: null
+    original_text: 应急照明灯具产品应符合现行国家标准《消防距应符合现行国家标准《建筑物电子信息系统防雷技术规范》安全标志》GB13495和《消防应急灯具》GB17945的有关GB50343的规定；规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  - target_standard: GB 17945
+    target_clause: null
+    original_text: 应急照明灯具产品应符合现行国家标准《消防距应符合现行国家标准《建筑物电子信息系统防雷技术规范》安全标志》GB13495和《消防应急灯具》GB17945的有关GB50343的规定；规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  - target_standard: GB 50343
+    target_clause: null
+    original_text: 应急照明灯具产品应符合现行国家标准《消防距应符合现行国家标准《建筑物电子信息系统防雷技术规范》安全标志》GB13495和《消防应急灯具》GB17945的有关GB50343的规定；规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#7.4.11
+  standard_code: JGJ 218-2010
+  chapter: 7 建筑设备
+  section: 7.4建筑电气
+  clause_no: 7.4.11
+  text: 展厅每层面积超过1500m²时，应设有备用照明。重要井载荷能力应与周围地面的载荷能力一致，防护等级不应低于物品库房应设有警卫照明。IP54；其电源插座应采用安全型，室外布置时，电源插座的防护
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 厅每层面积
+    unit: m²
+    condition: null
+    min_value: 1500.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#7.4.12
+  standard_code: JGJ 218-2010
+  chapter: 7 建筑设备
+  section: 7.4建筑电气
+  clause_no: 7.4.12
+  text: 展厅和库房的照明线路应采用铜芯绝缘导线暗配线方等级不应低于IP54；式。库房的电源开关应统一设在库区内的库房总门外，并应装设6地面出线布点、综合设备管沟、管井和室外地面出线井防火剩余电流动作保护装置。内的电气装置和管线不应设于水管的正下方和热水管、蒸汽管的
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 不应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#7.4.13
+  standard_code: JGJ 218-2010
+  chapter: 7 建筑设备
+  section: 7.4建筑电气
+  clause_no: 7.4.13
+  text: 展场应采取必要的防雷措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 展场设有大量的露天展览设备，容易遭受雷击，应采取器、线性光纤感温探测器、空气采样烟雾探测器、图像式光截面必要的防直击雷和防雷击电磁脉冲措施。防直击雷措施受建筑环与双波段火灾探测器等合适且有效的火灾探测系统。境的限制，设置手段有限，设计应会同当地防雷职能部门共同协
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#7.4.4
+  standard_code: JGJ 218-2010
+  chapter: 7 建筑设备
+  section: 7.5建筑智能化
+  clause_no: 7.4.4
+  text: 综合设备管沟、管井和室外地面出线井应设置局部等电位联结端子。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#7.5.1
+  standard_code: JGJ 218-2010
+  chapter: 7 建筑设备
+  section: 7.5建筑智能化
+  clause_no: 7.5.1
+  text: 展览建筑的智能化设计应符合现行国家标准《智能建筑位联结端子。设计标准》GB/T50314的有关规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB/T 50314
+    target_clause: null
+    original_text: 设计标准》GB/T50314的有关规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#7.4.5
+  standard_code: JGJ 218-2010
+  chapter: 7 建筑设备
+  section: 7.5建筑智能化
+  clause_no: 7.4.5
+  text: 展厅应设置防火剩余电流动作报警系统。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 由于展览建筑具有人员密集、火灾危险性大等特点，设2展览事务管理系统应满足参展商的检录和展览工作职能置防火剩余电流动作报警系统能准确监控电气线路的故障和异常管理的需求；物业运营管理系统应建立和满足展览建筑各类设施状态，能发现电气火灾的火灾隐患，及时报警提醒维护人员消除的运行数据、资料、维护、成本核算等综合管理；公共服务管理隐患。该条符合现行的国家标准《高层民用建筑设计防火规范》系统应能满足各类公共服务的计费管理和人员管理；智能卡应用GB50045和《建筑设计防火规范》GB50016的有关规定。管理系统应具有身份识别、门匙，并支持各类增值服务，如：消
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#7.5.2
+  standard_code: JGJ 218-2010
+  chapter: 7 建筑设备
+  section: 7.5建筑智能化
+  clause_no: 7.5.2
+  text: 展览建筑应设置信息通信网络系统，并应符合下列规定：
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 信息通信网络系统包括通信接人系统、电话交换系统、展工艺要求设置室外地面出线井。信息网络系统、综合布线系统、室内移动通信覆盖系统、卫星通2本条规定展位应提供电源和智能化系统设施：配置数量信系统、有线电视及卫星电视接收系统、广播系统、会议系统、应满足该类展览建筑的展览工艺要求。信息导引及发布系统、时钟系统和其他相关的信息通信系统。3展位电源配出通常为插座和临时敷设的电缆，为保障人
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#7.4.6
+  standard_code: JGJ 218-2010
+  chapter: 7 建筑设备
+  section: 7.5建筑智能化
+  clause_no: 7.4.6
+  text: 展厅、疏散走道应设置灯光疏散指示标志，安全出口处信息通信网络系统应采用满足展览建筑业务需求的网络应设置消防安全出口标志。结构；
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#7.4.7
+  standard_code: JGJ 218-2010
+  chapter: 7 建筑设备
+  section: 7.5建筑智能化
+  clause_no: 7.4.7
+  text: 对于总建筑面积超过8000m²的展览建筑，其内部疏散2综合布线系统应符合现行国家标准《综合布线系统工程设计规范》GB50311的有关规定，并应满足布展实用、先进、
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 总建筑面积
+    unit: m²
+    condition: null
+    min_value: 8000.0
+    max_value: null
+  tables: []
+  converted_tables:
+  - raw: 由于展览建筑人员密集，疏散难度高，应在其内的疏散费、资料借阅、会议签到、寄存等管理功能；办证与票务管理系走道和主要疏散路线的地面上增设能保持视觉连续的疏散指示标统包含名片、资料和图像采集录入、制证制票以及检票功能：票志，该标志是辅助疏散指示标志。证可以采用一维或二维条码、磁卡或C卡等制卡方式制作；信
+    note: 合并重复提取片段
+  references:
+  - target_standard: GB 50311
+    target_clause: null
+    original_text: 对于总建筑面积超过8000m²的展览建筑，其内部疏散2综合布线系统应符合现行国家标准《综合布线系统工程设计规范》GB50311的有关规定，并应满足布展实用、先进、
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#7.5.9
+  standard_code: JGJ 218-2010
+  chapter: 7 建筑设备
+  section: 7.5建筑智能化
+  clause_no: 7.5.9
+  text: 火灾自动报警系统和消防控制室的设置应符合现行国家灵活、可扩展的需求和语音、数据、图像等信息的传输要求，且标准《高层民用建筑设计防火规范》GB50045和《建筑设计防应根据展位分布情况配置信息插座端口；火规范》GB50016的有关规定；火灾自动报警系统的设计应符展厅等公共区域宜设置无线局域网络系统；合现行国家标准《火灾自动报警系统设计规范》GB50116的有公共区域应配置公用电话和无障碍专用的公用电话；关规定。应设置室内移动通信覆盖系统：
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50045
+    target_clause: null
+    original_text: 符合现行国家灵活、可扩展的需求和语音、数据、图像等信息的传输要求，且标准《高层民用建筑设计防火规范》GB50045和《建筑设计防应根据展位分布情况配置信息插座端口；火规范》GB50016的有关规
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  - target_standard: GB 50016
+    target_clause: null
+    original_text: 《高层民用建筑设计防火规范》GB50045和《建筑设计防应根据展位分布情况配置信息插座端口；火规范》GB50016的有关规定；火灾自动报警系统的设计应符展厅等公共区域宜设置无线局域网络系统；合现
+    resolution_status: resolved
+    resolution_note: 库内标准（GB 50016-2014），可交叉引用并确认具体参数
+  - target_standard: GB 50116
+    target_clause: null
+    original_text: 动报警系统的设计应符展厅等公共区域宜设置无线局域网络系统；合现行国家标准《火灾自动报警系统设计规范》GB50116的有公共区域应配置公用电话和无障碍专用的公用电话；关规定。应设置室内移动通信覆盖
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#7.5.10
+  standard_code: JGJ 218-2010
+  chapter: 7 建筑设备
+  section: 7.5建筑智能化
+  clause_no: 7.5.10
+  text: 展厅宜选择智能型火灾探测器。在单一型火灾探测器不能有效探测火灾的场所，可采用复合型火灾探测器。展厅的高大空间场所应采取合适且有效的火灾探测手段。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: should
+    modal_words:
+    - 不宜
+    - 宜
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 展览建筑布展灵活、展品多样，一般的火灾探测器性能性高，且容量大，电压稳定，适用于配置数量多的场所。白带电单一，根据展品特点采用智能型、复合型火灾探测器将能更准源供电方式线路简单，安装、调试方便，但维护管理不方便，使确、更有效探测火灾隐患；高大空间场所点型火灾探测器的使用用寿命短，适用于配置数量少的场所。受到局限，可采用红外光束感烟探测器、空气管式线型差温探测
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#7.5.3
+  standard_code: JGJ 218-2010
+  chapter: 7 建筑设备
+  section: 7.5建筑智能化
+  clause_no: 7.5.3
+  text: 特大型、大型、中型展览建筑宜设置信息显示屏、多媒空间场所应采取合适旦有效的火灾探测手段。体触摸屏等信息查询导引及发布系统。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#7.5.11
+  standard_code: JGJ 218-2010
+  chapter: 7 建筑设备
+  section: 7.5建筑智能化
+  clause_no: 7.5.11
+  text: 特大型展览建筑宜设置公共安全应急联动系统。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 特大型展览建筑通常由多个大型展厅组成，人员密集，商，采取有效且必要的防范措施，如：利用展场高杆路灯设置避发生突发事件容易引起公共秩序混乱，造成更大的损失，宜设置雷针，建立雷电预警机制，及时切断展场电源，及时通知展场人公共安全应急联动系统，以应对火灾、非法侵人、自然灾害、重员疏散等措施。大安全事故和公共卫生事故等危害生命财产安全的各种突发事件，建立应急及长效的应急联动和安全可靠的技术防范保障体系；公共安全应急联动系统包括火灾自动报警系统、安全防范系统和应急联动指挥控制等系统，配置相应的应急指挥、调度、应急通信体系，建立完善的应急决策和分析技术平台。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#7.5.4
+  standard_code: JGJ 218-2010
+  chapter: 7 建筑设备
+  section: 7.5建筑智能化
+  clause_no: 7.5.4
+  text: 有多种语言讲解需求的展览建筑宜设置电子语音或多媒体信息导览系统。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: should
+    modal_words:
+    - 宜
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#7.5.12
+  standard_code: JGJ 218-2010
+  chapter: 7 建筑设备
+  section: 7.5建筑智能化
+  clause_no: 7.5.12
+  text: 广播系统应根据展厅空间合理选择和布置扬声器，宜配置背景噪声监测设备，并应根据背景噪声自动调节音量。广播系统与火灾应急广播系统合用时，广播系统应符合火灾应急广播的要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 应根据各类展厅的广播要求、建筑声学环境、展厅面积、空间高度、客流分布等因素，合理选择扬声器的类型、功率和布置，通过对广播区域背景噪声的监测：自动调节该区域的广播音量，以满足最佳电声效果；根据展览的分区广播要求，广播区域宜按最小广播区域划分。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#7.5.5
+  standard_code: JGJ 218-2010
+  chapter: 7 建筑设备
+  section: 7.5建筑智能化
+  clause_no: 7.5.5
+  text: 特大型、大型展览建筑应设置信息化应用系统，并应符合下列规定： 1 应根据展览建筑的特点和具体应用要求，建立公共信息服务系统，并应满足展览、会议、信息交流、商贸洽谈、通信、广告、休闲娱乐和办公等需求； 2 宜配置展览事务管理系统、物业运营管理系统、公共服务管理系统、智能卡应用管理系统、办证与票务管理系统、信息网络安全管理系统和展览建筑需要的其他应用管理系统； 3 宜设置专用网站，并应能通过公用通信网发布展览信息、提供网上展览等网络服务。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 信息化应用系统应能建立展览综合业务的信息处理、运身和财产安全，防止触电事故的发生，应设置剩余动作电流不超行、技术平台支持。过30mA的剩余电流动作保护器。1公共信息服务系统应具有展览业务信息的接人、采集，4为保证线路的运行安全，避免电源线路对电子信息系统分类和汇总，并建立数据库，满足向公众提供信息检索、查询、线路的干扰，方便维护管理作此规定。发布、导引等功能；
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#7.5.13
+  standard_code: JGJ 218-2010
+  chapter: 7 建筑设备
+  section: 7.5建筑智能化
+  clause_no: 7.5.13
+  text: 甲等、乙等展厅宜设置可根据布展要求设定工作场景模服务系统，并应满足展览、会议、信息交流、商贸洽谈、通信、式的智能照明控制系统，并应具有分区域就地控制、中央集中控广告、休闲娱乐和办公等需求；制等方式。2宜配置展览事务管理系统、物业运营管理系统、公共服
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 甲等、乙等展厅面积较大、照明灯具数量多，为满足展厅布展方式灵活、功能形式多样等特点，一般具有展览、大型会议、综合表演、清洁、闭馆警卫照明等工作场景模式，采用计算机照明控制系统即能满足功能需求，又能显著节约电能。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#7.5.14
+  standard_code: JGJ 218-2010
+  chapter: 7 建筑设备
+  section: 7.5建筑智能化
+  clause_no: 7.5.14
+  text: 展览建筑宜设置时钟系统。务管理系统、智能卡应用管理系统、办证与票务管理系统、信息
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#7.5.15
+  standard_code: JGJ 218-2010
+  chapter: 7 建筑设备
+  section: 7.5建筑智能化
+  clause_no: 7.5.15
+  text: 展览建筑宜设置客流统计与分析系统。网络安全管理系统和展览建筑需要的其他应用管理系统；3宜设置专用网站，并应能通过公用通信网发布展览信息、提供网上展览等网络服务。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables:
+  - raw: 客流统计与分析系统通过对监测区域的出人口和客流密度监测、分析、纪录，确保客流量不超过限定值，并预警提示进行客流疏导，当发生事故时及时反馈现场情况。
+    note: 合并重复提取片段
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#7.5.6
+  standard_code: JGJ 218-2010
+  chapter: 7 建筑设备
+  section: 7.5建筑智能化
+  clause_no: 7.5.6
+  text: 特大型、大型、中型展览建筑应设置建筑设备管理系统，并应具有检测展厅空气质量和调节新风量的功能。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#7.5.7
+  standard_code: JGJ 218-2010
+  chapter: 7 建筑设备
+  section: 7.5建筑智能化
+  clause_no: 7.5.7
+  text: 安全技术防范系统应根据展览建筑客流大、展厅分散、展位多且展品开放式陈列的特点，按不同的功能分区设置，并应采取合理的人防、技防配套措施，确保人员、财产安全和公共秩序得到保障。安全技术防范系统应符合现行国家标准《安全防范工程技术规范》GB50348的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50348
+    target_clause: null
+    original_text: 安全技术防范系统应符合现行国家标准《安全防范工程技术规范》GB50348的规定。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#7.5.8
+  standard_code: JGJ 218-2010
+  chapter: 7 建筑设备
+  section: 7.5建筑智能化
+  clause_no: 7.5.8
+  text: 特大型、大型展览建筑宜设置防暴安检和检票安全技术防范系统。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 必须
+    - 严禁
+    - 不应
+    - 不得
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50015
+    target_clause: null
+    original_text: 本规范用词说明引用标准名录1为便于在执行本规范条文时区别对待，对于要求严格程《建筑给水排水设计规范》GB50015度不同的用词说明如下：《建筑设计防火规范》GB50016《城镇燃气设计规范》GB
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  - target_standard: GB 50016
+    target_clause: null
+    original_text: 对待，对于要求严格程《建筑给水排水设计规范》GB50015度不同的用词说明如下：《建筑设计防火规范》GB50016《城镇燃气设计规范》GB500281）表示很严格，非这样做不可的：正面词采用“必
+    resolution_status: resolved
+    resolution_note: 库内标准（GB 50016-2014），可交叉引用并确认具体参数
+  - target_standard: GB 50028
+    target_clause: null
+    original_text: 设计规范》GB50015度不同的用词说明如下：《建筑设计防火规范》GB50016《城镇燃气设计规范》GB500281）表示很严格，非这样做不可的：正面词采用“必须”，反面词采用“严禁”；《压缩空
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  - target_standard: GB 50029
+    target_clause: null
+    original_text: 0281）表示很严格，非这样做不可的：正面词采用“必须”，反面词采用“严禁”；《压缩空气站设计规范》GB500292）表示严格，在正常情况下均应这样做的：《建筑采光设计标准》GB/T50033正
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  - target_standard: GB/T 50033
+    target_clause: null
+    original_text: ”；《压缩空气站设计规范》GB500292）表示严格，在正常情况下均应这样做的：《建筑采光设计标准》GB/T50033正面词采用“应”，反面词采用“不应”或“不得”；《建筑照明设计标准》GB5003
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  - target_standard: GB 50034
+    target_clause: null
+    original_text: 采光设计标准》GB/T50033正面词采用“应”，反面词采用“不应”或“不得”；《建筑照明设计标准》GB500343）表示允许稍有选择，在条件许可时首先应这样做的：《高层民用建筑设计防火规范》G
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  - target_standard: GB 50045
+    target_clause: null
+    original_text: 计标准》GB500343）表示允许稍有选择，在条件许可时首先应这样做的：《高层民用建筑设计防火规范》GB50045《供配电系统设计规范》GB50052正面词采用“宜”，反面词采用“不宜”；《低压
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  - target_standard: GB 50052
+    target_clause: null
+    original_text: 有选择，在条件许可时首先应这样做的：《高层民用建筑设计防火规范》GB50045《供配电系统设计规范》GB50052正面词采用“宜”，反面词采用“不宜”；《低压配电设计规范》GB500544）表示
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  - target_standard: GB 50054
+    target_clause: null
+    original_text: 045《供配电系统设计规范》GB50052正面词采用“宜”，反面词采用“不宜”；《低压配电设计规范》GB500544）表示有选择，在一定条件下可以这样做的，采用《自动喷水灭火系统设计规范》GB5
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  - target_standard: GB 50084
+    target_clause: '2'
+    original_text: 电设计规范》GB500544）表示有选择，在一定条件下可以这样做的，采用《自动喷水灭火系统设计规范》GB50084“可”。2条文中指明应按其他有关标准执行的写法为：“应按…….《火灾自动报警系统
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  - target_standard: GB 50116
+    target_clause: null
+    original_text: 2条文中指明应按其他有关标准执行的写法为：“应按…….《火灾自动报警系统设计规范》GB50116执行”或“应符合规定”。
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  - target_standard: GB 50189
+    target_clause: null
+    original_text: 应按…….《火灾自动报警系统设计规范》GB50116执行”或“应符合规定”。《公共建筑节能设计标准》GB50189《建筑内部装修设计防火规范》GB50222《综合布线系统工程设计规范》GB503
+    resolution_status: resolved
+    resolution_note: 库内标准（GB 50189-2015），可交叉引用并确认具体参数
+  - target_standard: GB 50222
+    target_clause: null
+    original_text: 50116执行”或“应符合规定”。《公共建筑节能设计标准》GB50189《建筑内部装修设计防火规范》GB50222《综合布线系统工程设计规范》GB50311《智能建筑设计标准》GB/T50314
+    resolution_status: resolved
+    resolution_note: 库内标准（GB 50222-2017），可交叉引用并确认具体参数
+  - target_standard: GB 50400
+    target_clause: null
+    original_text: 防雷技术规范》GB50343《安全防范工程技术规范》GB50348《建筑与小区雨水利用工程技术规范》GB50400《消防安全标志》GB13495《消防应急灯具》GB17945《城市道路和建筑物无
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  - target_standard: GB 13495
+    target_clause: null
+    original_text: 安全防范工程技术规范》GB50348《建筑与小区雨水利用工程技术规范》GB50400《消防安全标志》GB13495《消防应急灯具》GB17945《城市道路和建筑物无障碍设计规范》JGJ50《饮食
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  - target_standard: GB 17945
+    target_clause: null
+    original_text: 348《建筑与小区雨水利用工程技术规范》GB50400《消防安全标志》GB13495《消防应急灯具》GB17945《城市道路和建筑物无障碍设计规范》JGJ50《饮食建筑设计规范》JGJ64《办公
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  - target_standard: JGJ 50
+    target_clause: null
+    original_text: 400《消防安全标志》GB13495《消防应急灯具》GB17945《城市道路和建筑物无障碍设计规范》JGJ50《饮食建筑设计规范》JGJ64《办公建筑设计规范》JGJ67中华人民共和国行业标
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  - target_standard: JGJ 64
+    target_clause: null
+    original_text: 495《消防应急灯具》GB17945《城市道路和建筑物无障碍设计规范》JGJ50《饮食建筑设计规范》JGJ64《办公建筑设计规范》JGJ67中华人民共和国行业标准展览建筑设计规范JGJ 21
+    resolution_status: resolved
+    resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#1.0.7
+  standard_code: JGJ 218-2010
+  chapter: 1 总则
+  section: ''
+  clause_no: 1.0.7
+  text: 展览建筑设计涉及建筑、结构、防火、热工、节能、隔声、采光、照明、给水排水、暖通空调、电气、智能化、环保等各专业，各专业已有规范规定的除必要的予以重申外，其他不再2  术  语重复。本章列出的术语是本规范专用的，有些在其他规范中未出现过，有些虽在学术界出现但定义不统一或不全面。考虑到本规范使用对象的特点，术语解释侧重于与建筑设计有关的方面。.35散道路有足够的宽度，以维系基地的对外交通、疏散、消防以及组织不同功能出人口的要素，减少布展、撤展或人员疏散时对城市正常交通的影响。3场地设计
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#3.3.4
+  standard_code: JGJ 218-2010
+  chapter: 3 场地设计
+  section: ''
+  clause_no: 3.3.4
+  text: 展览建筑应按不小于0.20㎡/人配置集散用地。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#3.3.6
+  standard_code: JGJ 218-2010
+  chapter: 3 场地设计
+  section: ''
+  clause_no: 3.3.6
+  text: 展览建筑要求有较大的室外场地以满足卸货、堆场、展出、人员集散等要求，同时还要有足够的绿化面积，因此建筑密4建筑设计度不宜过高，最好控制建筑密度在35%以下。例如，上海某展览中心建筑密度约24%，南京某展览中心建筑密度约12%，东4.1一般规定莞某展览中心建筑密度约20%。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: should
+    modal_words:
+    - 不宜
+    - 宜
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 建筑密度在
+    unit: '%'
+    condition: null
+    min_value: 35.0
+    max_value: 35.0
+  - name: 建筑密度约
+    unit: '%'
+    condition: null
+    min_value: 24.0
+    max_value: 24.0
+  - name: 建筑密度约
+    unit: '%'
+    condition: null
+    min_value: 12.0
+    max_value: 12.0
+  - name: 建筑密度约
+    unit: '%'
+    condition: null
+    min_value: 20.0
+    max_value: 20.0
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#4.2.1
+  standard_code: JGJ 218-2010
+  chapter: 4 建筑设计
+  section: ''
+  clause_no: 4.2.1
+  text: 展览业在不断地发展，使用方式已由过去相对固定的展
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#6.3.1
+  standard_code: JGJ 218-2010
+  chapter: 6 室内环境
+  section: ''
+  clause_no: 6.3.1
+  text: 展览建筑通常观众较多，为保证室内的空气质量应有良也有一定噪声，参照现行国家标准《民用建筑隔声设计规范》好的通风。从节约能源考虑，在设计上应优先采用自然通风的方GB50118中规定旅馆建筑中餐厅、宴会厅室内允许噪声级的二式，自然通风有困难或仅靠自然通风达不到换气要求时，应采用级标准应小于或等于55dB（A声级），因此本规范亦规定展厅允机械通风或辅以机械通风的方式。采用人工空气调节的展览建筑许噪声级的标准不宜大于55dB。应有足够的新风量。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters:
+  - name: 用级标准
+    unit: d
+    condition: null
+    min_value: null
+    max_value: 55.0
+  - name: 标准
+    unit: d
+    condition: null
+    min_value: 55.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references:
+  - target_standard: GB 50118
+    target_clause: null
+    original_text: 声，参照现行国家标准《民用建筑隔声设计规范》好的通风。从节约能源考虑，在设计上应优先采用自然通风的方GB50118中规定旅馆建筑中餐厅、宴会厅室内允许噪声级的二式，自然通风有困难或仅靠自然通风达
+    resolution_status: resolved
+    resolution_note: 库内标准（GB 50118-2010），可交叉引用并确认具体参数
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#7.1.5
+  standard_code: JGJ 218-2010
+  chapter: 7 建筑设备
+  section: ''
+  clause_no: 7.1.5
+  text: 展览建筑内的综合设备管沟应有排水措施，用于排除管沟内可能的积水。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: must
+    modal_words:
+    - 应
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    activity_types:
+    - 展览建筑设计
+  conflicts: []
+- id: JGJ 218-2010#3.3.5
+  standard_code: JGJ 218-2010
+  chapter: 3 场地设计
+  section: ''
+  clause_no: 3.3.5
+  text: 室外场地的面积不宜少于展厅占地面积的50％。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: JGJ 218-2010#4.3.4
+  standard_code: JGJ 218-2010
+  chapter: 4 建筑设计
+  section: ''
+  clause_no: 4.3.4
+  text: 特大型、大型展览建筑应设置贵宾休息室，并应符合下列规定： 1 贵宾休息室宜设置单独门厅； 2 贵宾休息室应设置独立的厕所和服务间。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: false
+    mandatory_basis: null
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+executable_rules:
+- rule_id: R_JGJ2182010_2_0_6_1
+  source_clause: JGJ 218-2010#2.0.6
+  rule_type: validation
+  when:
+  - activity_type == '展览建筑设计'
+  - component_type IN ['IfcBuilding']
+  then:
+    parameter: 示单元尺寸
+    unit: m
+    condition: null
+    min_value: 3.0
+    max_value: 3.0
+  source_text: 标准展位standard exhibition booth满足展览要求的标准展示单元，尺寸为3m×3m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2182010_3_1_1_1
+  source_clause: JGJ 218-2010#3.1.1
+  rule_type: constraint
+  when:
+  - activity_type == '展览建筑设计'
+  - component_type IN ['IfcBuilding']
+  then:
+    parameter: 览建筑应按
+    unit: m²
+    condition: null
+    min_value: 0.2
+  source_text: 展览建筑的选址应符合城市总体规划的要求，并应结合展品运送、装卸，并应满足消防和人员疏散要求。城市经济、文化及相关产业的要求进行合理布局。3.3. 4展览建筑应按不小于0.20m²/人配置集散用地。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2182010_3_1_2_1
+  source_clause: JGJ 218-2010#3.1.2
+  rule_type: constraint
+  when:
+  - activity_type == '展览建筑设计'
+  - component_type IN ['IfcBuilding']
+  then:
+    parameter: 占地面积
+    unit: '%'
+    condition: null
+    min_value: 50.0
+    max_value: 50.0
+  source_text: 展览建筑的选址应符合下列规定：3.3. 5室外场地的面积不宜少于展厅占地面积的50%。1交通应便捷，且应与航空港、港口、火车站、汽车站等展览建筑的建筑密度不宜大于35%。3.3. 6交通设施联系方便；特大型展览建筑不应设在城市中心，其附近除当地有统筹建设的停车场或停车库外，基地内
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2182010_3_1_2_2
+  source_clause: JGJ 218-2010#3.1.2
+  rule_type: constraint
+  when:
+  - activity_type == '展览建筑设计'
+  - component_type IN ['IfcBuilding']
+  then:
+    parameter: 筑密度
+    unit: '%'
+    condition: null
+    min_value: 35.0
+  source_text: 展览建筑的选址应符合下列规定：3.3. 5室外场地的面积不宜少于展厅占地面积的50%。1交通应便捷，且应与航空港、港口、火车站、汽车站等展览建筑的建筑密度不宜大于35%。3.3. 6交通设施联系方便；特大型展览建筑不应设在城市中心，其附近除当地有统筹建设的停车场或停车库外，基地内
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2182010_4_2_4_1
+  source_clause: JGJ 218-2010#4.2.4
+  rule_type: constraint
+  when:
+  - activity_type == '展览建筑设计'
+  - component_type IN ['IfcBuilding']
+  then:
+    parameter: 网尺寸
+    unit: m
+    condition: null
+    max_value: 9.0
+  source_text: 展厅设计应便于展品布置，并宜采用无柱大空间。当展厅有柱时，甲等、乙等展厅柱网尺寸不宜小于9m×9m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2182010_4_2_5_1
+  source_clause: JGJ 218-2010#4.2.5
+  rule_type: constraint
+  when:
+  - activity_type == '展览建筑设计'
+  - component_type IN ['IfcBuilding']
+  then:
+    parameter: 厅净高
+    unit: m
+    condition: null
+    max_value: 12.0
+  source_text: 展厅净高应满足展览使用要求。甲等展厅净高不宜小于12m，乙等展厅净高不宜小于8m，丙等展厅净高不宜小于6m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2182010_4_2_7_1
+  source_clause: JGJ 218-2010#4.2.7
+  rule_type: constraint
+  when:
+  - activity_type == '展览建筑设计'
+  - component_type IN ['IfcBuilding']
+  then:
+    parameter: 道净宽
+    unit: m
+    condition: null
+    max_value: 5.0
+  source_text: 展厅内展位通道尺寸除应满足安全疏散的要求外，尚应间、公共服务空间、仓储空间和辅助空间。建筑布局应与规模和符合下列规定：展厅的等级相适应。1甲等、乙等展厅主要展位通道净宽不宜小于5m，次要展
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2182010_4_1_2_1
+  source_clause: JGJ 218-2010#4.1.2
+  rule_type: constraint
+  when:
+  - activity_type == '展览建筑设计'
+  - component_type IN ['IfcBuilding']
+  then:
+    parameter: 道净宽
+    unit: m
+    condition: null
+    max_value: 3.0
+  source_text: 展厅不应设置在建筑的地下二层及以下的楼层。位通道净宽不宜小于3m；
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2182010_4_2_2_1
+  source_clause: JGJ 218-2010#4.2.2
+  rule_type: constraint
+  when:
+  - activity_type == '展览建筑设计'
+  - component_type IN ['IfcBuilding']
+  then:
+    parameter: 性灵活性和
+    unit: m²
+    condition: null
+    min_value: 1000.0
+    max_value: 1000.0
+  source_text: 展厅和展场的空间组织应保证展览的系统性、灵活性和1000m²展览面积宜设置50m²~100m前厅；参观的可选择性，公众参观流线应便捷，并应避免迁回、交叉。2前厅内外区之间应设置检票系统；
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2182010_4_2_2_2
+  source_clause: JGJ 218-2010#4.2.2
+  rule_type: constraint
+  when:
+  - activity_type == '展览建筑设计'
+  - component_type IN ['IfcBuilding']
+  then:
+    parameter: 面积宜设置
+    unit: m²
+    condition: null
+    min_value: 50.0
+    max_value: 50.0
+  source_text: 展厅和展场的空间组织应保证展览的系统性、灵活性和1000m²展览面积宜设置50m²~100m前厅；参观的可选择性，公众参观流线应便捷，并应避免迁回、交叉。2前厅内外区之间应设置检票系统；
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2182010_4_2_2_3
+  source_clause: JGJ 218-2010#4.2.2
+  rule_type: constraint
+  when:
+  - activity_type == '展览建筑设计'
+  - component_type IN ['IfcBuilding']
+  then:
+    parameter: 积宜设置m
+    unit: m
+    condition: null
+    min_value: 100.0
+    max_value: 100.0
+  source_text: 展厅和展场的空间组织应保证展览的系统性、灵活性和1000m²展览面积宜设置50m²~100m前厅；参观的可选择性，公众参观流线应便捷，并应避免迁回、交叉。2前厅内外区之间应设置检票系统；
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2182010_4_3_8_1
+  source_clause: JGJ 218-2010#4.3.8
+  rule_type: constraint
+  when:
+  - activity_type == '展览建筑设计'
+  - component_type IN ['IfcBuilding']
+  then:
+    parameter: 于男厕所每
+    unit: m
+    condition: null
+    min_value: 1000.0
+    max_value: 1000.0
+  source_text: 展览建筑的会议、办公、餐饮等空间宜设置厕所。展厅等，并宜设置观众休息、公共电话、饮水处等；应设置公共厕所，并应符合下列规定：5前厅外区应设置公共厕所；1甲等、乙等展厅宜设置2处以上公共厕所，位置应方便6前厅内应根据当地气候条件设置相应设施；多雨地区应使用；设置雨具存放设施，严寒或
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2182010_4_3_3_1
+  source_clause: JGJ 218-2010#4.3.3
+  rule_type: constraint
+  when:
+  - activity_type == '展览建筑设计'
+  - component_type IN ['IfcBuilding']
+  then:
+    parameter: 于女厕所每
+    unit: m²
+    condition: null
+    min_value: 1000.0
+    max_value: 1000.0
+  source_text: 当展览建筑有多个展厅时，展厅与前厅之间应设置过厅。器、2个小便器、2个洗手盆；过厅可与前厅的内区结合，并应符合下列规定：3对于女厕所，每1000m²展览面积应至少设置4个大便1过厅应为展厅提供缓冲空间。其面积可根据其服务的展器、2个洗手盆；览面积计算得出，每1000m²展览面积宜
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2182010_4_3_3_2
+  source_clause: JGJ 218-2010#4.3.3
+  rule_type: constraint
+  when:
+  - activity_type == '展览建筑设计'
+  - component_type IN ['IfcBuilding']
+  then:
+    parameter: 计算得出每
+    unit: m²
+    condition: null
+    min_value: 1000.0
+    max_value: 1000.0
+  source_text: 当展览建筑有多个展厅时，展厅与前厅之间应设置过厅。器、2个小便器、2个洗手盆；过厅可与前厅的内区结合，并应符合下列规定：3对于女厕所，每1000m²展览面积应至少设置4个大便1过厅应为展厅提供缓冲空间。其面积可根据其服务的展器、2个洗手盆；览面积计算得出，每1000m²展览面积宜
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2182010_4_3_3_3
+  source_clause: JGJ 218-2010#4.3.3
+  rule_type: constraint
+  when:
+  - activity_type == '展览建筑设计'
+  - component_type IN ['IfcBuilding']
+  then:
+    parameter: 面积宜设置
+    unit: m²
+    condition: null
+    min_value: 50.0
+    max_value: 50.0
+  source_text: 当展览建筑有多个展厅时，展厅与前厅之间应设置过厅。器、2个小便器、2个洗手盆；过厅可与前厅的内区结合，并应符合下列规定：3对于女厕所，每1000m²展览面积应至少设置4个大便1过厅应为展厅提供缓冲空间。其面积可根据其服务的展器、2个洗手盆；览面积计算得出，每1000m²展览面积宜
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2182010_4_3_3_4
+  source_clause: JGJ 218-2010#4.3.3
+  rule_type: constraint
+  when:
+  - activity_type == '展览建筑设计'
+  - component_type IN ['IfcBuilding']
+  then:
+    parameter: 积宜设置m
+    unit: m
+    condition: null
+    min_value: 150.0
+    max_value: 150.0
+  source_text: 当展览建筑有多个展厅时，展厅与前厅之间应设置过厅。器、2个小便器、2个洗手盆；过厅可与前厅的内区结合，并应符合下列规定：3对于女厕所，每1000m²展览面积应至少设置4个大便1过厅应为展厅提供缓冲空间。其面积可根据其服务的展器、2个洗手盆；览面积计算得出，每1000m²展览面积宜
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2182010_4_4_2_1
+  source_clause: JGJ 218-2010#4.4.2
+  rule_type: constraint
+  when:
+  - activity_type == '展览建筑设计'
+  - component_type IN ['IfcBuilding']
+  then:
+    parameter: 时应符合于
+    unit: m
+    condition: null
+    min_value: 9.0
+    max_value: 9.0
+  source_text: 展方库房和装卸区应采用大柱网设计，柱网尺寸不宜小商务洽谈空间。当设置的大型多功能厅兼有展览功能时，应符合于9m×9m，净高不宜小于4m。本规范第4.2节的规定。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2182010_4_4_2_2
+  source_clause: JGJ 218-2010#4.4.2
+  rule_type: constraint
+  when:
+  - activity_type == '展览建筑设计'
+  - component_type IN ['IfcBuilding']
+  then:
+    parameter: 符合于m
+    unit: m
+    condition: null
+    min_value: 9.0
+    max_value: 9.0
+  source_text: 展方库房和装卸区应采用大柱网设计，柱网尺寸不宜小商务洽谈空间。当设置的大型多功能厅兼有展览功能时，应符合于9m×9m，净高不宜小于4m。本规范第4.2节的规定。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2182010_4_4_2_3
+  source_clause: JGJ 218-2010#4.4.2
+  rule_type: constraint
+  when:
+  - activity_type == '展览建筑设计'
+  - component_type IN ['IfcBuilding']
+  then:
+    parameter: m净高
+    unit: m
+    condition: null
+    max_value: 4.0
+  source_text: 展方库房和装卸区应采用大柱网设计，柱网尺寸不宜小商务洽谈空间。当设置的大型多功能厅兼有展览功能时，应符合于9m×9m，净高不宜小于4m。本规范第4.2节的规定。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2182010_4_5_3_1
+  source_clause: JGJ 218-2010#4.5.3
+  rule_type: constraint
+  when:
+  - activity_type == '展览建筑设计'
+  - component_type IN ['IfcBuilding']
+  then:
+    parameter: 范GB和每
+    unit: m²
+    condition: null
+    min_value: 10000.0
+    max_value: 10000.0
+  source_text: 临时办公用房应符合下列规定：间距应符合现行国家标准《建筑设计防火规范》GB50016和每10000m²展览面积宜设置不小于50m的临时办公《高层民用建筑设计防火规范》GB50045的有关规定。用房；
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2182010_4_5_3_2
+  source_clause: JGJ 218-2010#4.5.3
+  rule_type: constraint
+  when:
+  - activity_type == '展览建筑设计'
+  - component_type IN ['IfcBuilding']
+  then:
+    parameter: 面积宜设置
+    unit: m
+    condition: null
+    min_value: 50.0
+  source_text: 临时办公用房应符合下列规定：间距应符合现行国家标准《建筑设计防火规范》GB50016和每10000m²展览面积宜设置不小于50m的临时办公《高层民用建筑设计防火规范》GB50045的有关规定。用房；
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2182010_5_2_1_1
+  source_clause: JGJ 218-2010#5.2.1
+  rule_type: constraint
+  when:
+  - activity_type == '展览建筑设计'
+  - component_type IN ['IfcBuilding']
+  then:
+    parameter: 筑面积
+    unit: m²
+    condition: null
+    min_value: 2500.0
+  source_text: 对于设置在多层建筑内的地上展厅，防火分区的最大允许建筑面积应符合下列规定：1当展厅内未设置自动灭火系统时，防火分区的最大允许建筑面积不应大于2500m²：2当展厅内设置自动灭火系统时，防火分区的最大允许建筑面积可增加1.0倍；3当展厅局部设置自动灭火系统时，防火分区增加的面积可按
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2182010_5_3_1_1
+  source_clause: JGJ 218-2010#5.3.1
+  rule_type: constraint
+  when:
+  - activity_type == '展览建筑设计'
+  - component_type IN ['IfcBuilding']
+  then:
+    parameter: 筑面积
+    unit: m²
+    condition: null
+    min_value: 10000.0
+  source_text: 展厅的疏散人数应根据本规范第4.1.3条经计算确定。大允许建筑面积不应大于10000m²。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2182010_5_2_3_1
+  source_clause: JGJ 218-2010#5.2.3
+  rule_type: constraint
+  when:
+  - activity_type == '展览建筑设计'
+  - component_type IN ['IfcBuilding']
+  then:
+    parameter: 筑面积
+    unit: m²
+    condition: null
+    min_value: 4000.0
+  source_text: 对于设置在高层建筑内的地上展厅，防火分区的最大允口、疏散楼梯的各自总宽度，应符合下列规定：许建筑面积不应大于4000m²。对于设置在多层或高层建筑内的地下展厅，防火分区的最大1每层安全出口、疏散楼梯的净宽应按
+  table_source: 表5.3.2
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2182010_5_2_4_1
+  source_clause: JGJ 218-2010#5.2.4
+  rule_type: constraint
+  when:
+  - activity_type == '展览建筑设计'
+  - component_type IN ['IfcBuilding']
+  then:
+    parameter: 筑面积
+    unit: m²
+    condition: null
+    min_value: 2500.0
+  source_text: 对于设置在高层建筑裙房的展厅，当裙房与高层建筑之不供楼上人员疏散的外门：可按本层人数计算确定。间有防火分隔措施、未设置自动灭火系统时，展厅防火分区的最大允许建筑面积不应大于2500m²；当裙房与高层建筑之间有防
+  table_source: 表5.3.2
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2182010_5_2_6_1
+  source_clause: JGJ 218-2010#5.2.6
+  rule_type: constraint
+  when:
+  - activity_type == '展览建筑设计'
+  - component_type IN ['IfcBuilding']
+  then:
+    parameter: 坪的高差
+    unit: m
+    condition: null
+    min_value: 10.0
+  source_text: 设有展厅的建筑内不得储存甲类和乙类属性的物品。室内库房、维修及加工用房与展厅之间：应采用耐火极限不低于与地面出人口地坪的高差不超过10m的地下建筑≥0.752.00h的隔墙和1.00h的楼板进行分隔，隔墙上的门应采用乙级与地面出入口地坪的高差超过10m的地下建筑≥1.00防火门。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2182010_5_2_6_2
+  source_clause: JGJ 218-2010#5.2.6
+  rule_type: constraint
+  when:
+  - activity_type == '展览建筑设计'
+  - component_type IN ['IfcBuilding']
+  then:
+    parameter: 地下建筑
+    unit: h
+    condition: null
+    min_value: 752.0
+  source_text: 设有展厅的建筑内不得储存甲类和乙类属性的物品。室内库房、维修及加工用房与展厅之间：应采用耐火极限不低于与地面出人口地坪的高差不超过10m的地下建筑≥0.752.00h的隔墙和1.00h的楼板进行分隔，隔墙上的门应采用乙级与地面出入口地坪的高差超过10m的地下建筑≥1.00防火门。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2182010_5_2_6_3
+  source_clause: JGJ 218-2010#5.2.6
+  rule_type: constraint
+  when:
+  - activity_type == '展览建筑设计'
+  - component_type IN ['IfcBuilding']
+  then:
+    parameter: 建筑
+    unit: h
+    condition: null
+    min_value: 1.0
+  source_text: 设有展厅的建筑内不得储存甲类和乙类属性的物品。室内库房、维修及加工用房与展厅之间：应采用耐火极限不低于与地面出人口地坪的高差不超过10m的地下建筑≥0.752.00h的隔墙和1.00h的楼板进行分隔，隔墙上的门应采用乙级与地面出入口地坪的高差超过10m的地下建筑≥1.00防火门。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2182010_5_2_6_4
+  source_clause: JGJ 218-2010#5.2.6
+  rule_type: constraint
+  when:
+  - activity_type == '展览建筑设计'
+  - component_type IN ['IfcBuilding']
+  then:
+    parameter: 地坪的高差
+    unit: m
+    condition: null
+    min_value: 10.0
+  source_text: 设有展厅的建筑内不得储存甲类和乙类属性的物品。室内库房、维修及加工用房与展厅之间：应采用耐火极限不低于与地面出人口地坪的高差不超过10m的地下建筑≥0.752.00h的隔墙和1.00h的楼板进行分隔，隔墙上的门应采用乙级与地面出入口地坪的高差超过10m的地下建筑≥1.00防火门。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2182010_5_2_8_1
+  source_clause: JGJ 218-2010#5.2.8
+  rule_type: constraint
+  when:
+  - activity_type == '展览建筑设计'
+  - component_type IN ['IfcBuilding']
+  then:
+    parameter: 场人不应小
+    unit: m
+    condition: null
+    min_value: 1.0
+    max_value: 1.0
+  source_text: 展览建筑内的燃油或燃气锅炉房、油浸电力变压器室、1疏散楼梯间及其前室的门的净宽应按通过人数计算，每充有可燃油的高压电容器和多油开关室等不应布置于人员密集场100人不应小1.00m，且最小净宽不应小于0.90m；所的上一层、下一层或贴邻，并应采用耐火极限不低于2.00h的2首层外门
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2182010_5_2_8_2
+  source_clause: JGJ 218-2010#5.2.8
+  rule_type: constraint
+  when:
+  - activity_type == '展览建筑设计'
+  - component_type IN ['IfcBuilding']
+  then:
+    parameter: 且最小净宽
+    unit: m
+    condition: null
+    min_value: 0.9
+  source_text: 展览建筑内的燃油或燃气锅炉房、油浸电力变压器室、1疏散楼梯间及其前室的门的净宽应按通过人数计算，每充有可燃油的高压电容器和多油开关室等不应布置于人员密集场100人不应小1.00m，且最小净宽不应小于0.90m；所的上一层、下一层或贴邻，并应采用耐火极限不低于2.00h的2首层外门
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2182010_5_2_8_3
+  source_clause: JGJ 218-2010#5.2.8
+  rule_type: constraint
+  when:
+  - activity_type == '展览建筑设计'
+  - component_type IN ['IfcBuilding']
+  then:
+    parameter: 耐火极限
+    unit: h
+    condition: null
+    max_value: 2.0
+  source_text: 展览建筑内的燃油或燃气锅炉房、油浸电力变压器室、1疏散楼梯间及其前室的门的净宽应按通过人数计算，每充有可燃油的高压电容器和多油开关室等不应布置于人员密集场100人不应小1.00m，且最小净宽不应小于0.90m；所的上一层、下一层或贴邻，并应采用耐火极限不低于2.00h的2首层外门
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2182010_5_2_8_4
+  source_clause: JGJ 218-2010#5.2.8
+  rule_type: constraint
+  when:
+  - activity_type == '展览建筑设计'
+  - component_type IN ['IfcBuilding']
+  then:
+    parameter: 算每隔墙和
+    unit: h
+    condition: null
+    min_value: 1.5
+    max_value: 1.5
+  source_text: 展览建筑内的燃油或燃气锅炉房、油浸电力变压器室、1疏散楼梯间及其前室的门的净宽应按通过人数计算，每充有可燃油的高压电容器和多油开关室等不应布置于人员密集场100人不应小1.00m，且最小净宽不应小于0.90m；所的上一层、下一层或贴邻，并应采用耐火极限不低于2.00h的2首层外门
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2182010_5_2_8_5
+  source_clause: JGJ 218-2010#5.2.8
+  rule_type: constraint
+  when:
+  - activity_type == '展览建筑设计'
+  - component_type IN ['IfcBuilding']
+  then:
+    parameter: 级防火门人
+    unit: m
+    condition: null
+    min_value: 1.0
+  source_text: 展览建筑内的燃油或燃气锅炉房、油浸电力变压器室、1疏散楼梯间及其前室的门的净宽应按通过人数计算，每充有可燃油的高压电容器和多油开关室等不应布置于人员密集场100人不应小1.00m，且最小净宽不应小于0.90m；所的上一层、下一层或贴邻，并应采用耐火极限不低于2.00h的2首层外门
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2182010_5_2_8_6
+  source_clause: JGJ 218-2010#5.2.8
+  rule_type: constraint
+  when:
+  - activity_type == '展览建筑设计'
+  - component_type IN ['IfcBuilding']
+  then:
+    parameter: 外门的净宽
+    unit: m
+    condition: null
+    min_value: 1.2
+  source_text: 展览建筑内的燃油或燃气锅炉房、油浸电力变压器室、1疏散楼梯间及其前室的门的净宽应按通过人数计算，每充有可燃油的高压电容器和多油开关室等不应布置于人员密集场100人不应小1.00m，且最小净宽不应小于0.90m；所的上一层、下一层或贴邻，并应采用耐火极限不低于2.00h的2首层外门
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2182010_5_3_4_1
+  source_clause: JGJ 218-2010#5.3.4
+  rule_type: constraint
+  when:
+  - activity_type == '展览建筑设计'
+  - component_type IN ['IfcBuilding']
+  then:
+    parameter: 线距离
+    unit: h
+    condition: null
+    min_value: 2.0
+  source_text: 展厅内任何一点至最近安全出口的直线距离不宜大于耐火极限不低于2.00h的隔墙和乙级防火门窗与展厅分隔，展厅30m，当单、多层建筑物内全部设置自动灭火系统时，其展厅的内临时设置的敬开式的食品加工区应采用电能加热设施。安全疏散距离可增大25%。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2182010_5_3_4_2
+  source_clause: JGJ 218-2010#5.3.4
+  rule_type: constraint
+  when:
+  - activity_type == '展览建筑设计'
+  - component_type IN ['IfcBuilding']
+  then:
+    parameter: 厅分隔展厅
+    unit: m
+    condition: null
+    min_value: 30.0
+    max_value: 30.0
+  source_text: 展厅内任何一点至最近安全出口的直线距离不宜大于耐火极限不低于2.00h的隔墙和乙级防火门窗与展厅分隔，展厅30m，当单、多层建筑物内全部设置自动灭火系统时，其展厅的内临时设置的敬开式的食品加工区应采用电能加热设施。安全疏散距离可增大25%。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2182010_5_3_4_3
+  source_clause: JGJ 218-2010#5.3.4
+  rule_type: constraint
+  when:
+  - activity_type == '展览建筑设计'
+  - component_type IN ['IfcBuilding']
+  then:
+    parameter: 距离可增大
+    unit: '%'
+    condition: null
+    min_value: 25.0
+    max_value: 25.0
+  source_text: 展厅内任何一点至最近安全出口的直线距离不宜大于耐火极限不低于2.00h的隔墙和乙级防火门窗与展厅分隔，展厅30m，当单、多层建筑物内全部设置自动灭火系统时，其展厅的内临时设置的敬开式的食品加工区应采用电能加热设施。安全疏散距离可增大25%。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2182010_5_2_10_1
+  source_clause: JGJ 218-2010#5.2.10
+  rule_type: constraint
+  when:
+  - activity_type == '展览建筑设计'
+  - component_type IN ['IfcBuilding']
+  then:
+    parameter: 存放量
+    unit: d
+    condition: null
+    min_value: 1.0
+  source_text: 展位内可燃物品的存放量不应超过1d展览时间的供应
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2182010_7_1_2_1
+  source_clause: JGJ 218-2010#7.1.2
+  rule_type: constraint
+  when:
+  - activity_type == '展览建筑设计'
+  - component_type IN ['IfcBuilding']
+  then:
+    parameter: A声级
+    unit: d
+    condition: null
+    min_value: 55.0
+  source_text: 展览建筑内应根据展览工艺要求设置供展品使用的给水声应采取隔声和减噪措施。展厅空场时背景噪声的允许噪声级及排水管。当展览工艺不确定时，应预留给水、排水接口，并应（A声级）不宜大于55dB。符合下列规定：
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2182010_6_5_3_1
+  source_clause: JGJ 218-2010#6.5.3
+  rule_type: constraint
+  when:
+  - activity_type == '展览建筑设计'
+  - component_type IN ['IfcBuilding']
+  then:
+    parameter: 接口宜每隔
+    unit: m
+    condition: null
+    min_value: 10.0
+    max_value: 10.0
+  source_text: 对室内声音质量有较高要求的多功能展厅，应进行相应管井内；的声学设计。2给水、排水预留接口宜每隔10m各设置一个；3给水预留管的管径宜为25mm、排水预留管的管径宜为50mm;4给水、排水预留管的接口形式应便于管道的拆装；5给水预留管的起端应有防回流污染措施，并应符合现行国家标准《
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2182010_6_5_3_2
+  source_clause: JGJ 218-2010#6.5.3
+  rule_type: constraint
+  when:
+  - activity_type == '展览建筑设计'
+  - component_type IN ['IfcBuilding']
+  then:
+    parameter: 管的管径
+    unit: mm
+    condition: null
+    min_value: 25.0
+    max_value: 25.0
+  source_text: 对室内声音质量有较高要求的多功能展厅，应进行相应管井内；的声学设计。2给水、排水预留接口宜每隔10m各设置一个；3给水预留管的管径宜为25mm、排水预留管的管径宜为50mm;4给水、排水预留管的接口形式应便于管道的拆装；5给水预留管的起端应有防回流污染措施，并应符合现行国家标准《
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2182010_7_1_3_1
+  source_clause: JGJ 218-2010#7.1.3
+  rule_type: constraint
+  when:
+  - activity_type == '展览建筑设计'
+  - component_type IN ['IfcBuilding']
+  then:
+    parameter: 箱内的储水
+    unit: h
+    condition: null
+    min_value: 48.0
+    max_value: 48.0
+  source_text: 当生活饮用水水池（箱）内的储水48h内不能得到更新时，应设置水消毒处理装置。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2182010_7_1_13_1
+  source_clause: JGJ 218-2010#7.1.13
+  rule_type: constraint
+  when:
+  - activity_type == '展览建筑设计'
+  - component_type IN ['IfcBuilding']
+  then:
+    parameter: 统净空高度
+    unit: m
+    condition: null
+    min_value: 12.0
+  source_text: 当展览建筑内设置自动喷水灭火系统时，对于室内最大满足要求时，应按5℃设置值班采暖系统。净空高度大于12m的展厅、大型多功能厅等人员密集场所，宜
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2182010_7_3_2_1
+  source_clause: JGJ 218-2010#7.3.2
+  rule_type: constraint
+  when:
+  - activity_type == '展览建筑设计'
+  - component_type IN ['IfcBuilding']
+  then:
+    parameter: 定对于高度
+    unit: m
+    condition: null
+    min_value: 10.0
+  source_text: 燃气用量应根据用气设备的相关参数进行统计计算，燃根据噪声要求确定风口的特征参数；对于夏季送冷风、冬季送热气设施和管道的设计应符合现行国家标准《城镇燃气设计规范》风的空调系统，风口宜选用角度可调节的产品，GB50028的有关规定。4对于高度大于10m的空间，冬季应采取加速室内空气混
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2182010_7_4_8_1
+  source_clause: JGJ 218-2010#7.4.8
+  rule_type: constraint
+  when:
+  - activity_type == '展览建筑设计'
+  - component_type IN ['IfcBuilding']
+  then:
+    parameter: 电子信息于
+    unit: m
+    condition: null
+    min_value: 0.15
+    max_value: 0.15
+  source_text: 安全出口标志应设置在门的上部或门框边缘，并应符合1展厅应根据其展览功能要求分区设置满足展位需求的电下列规定：源和电子信息系统综合设备管沟、管井或地面出线盒布点，展场1设置在门的上部时，标志的下边缘距门框不宜大应根据其展览功能要求分区设置满足展位需求的电源和电子信息于0.15m;系
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2182010_7_4_8_2
+  source_clause: JGJ 218-2010#7.4.8
+  rule_type: constraint
+  when:
+  - activity_type == '展览建筑设计'
+  - component_type IN ['IfcBuilding']
+  then:
+    parameter: 和语音数于
+    unit: m
+    condition: null
+    min_value: 2.0
+    max_value: 2.0
+  source_text: 安全出口标志应设置在门的上部或门框边缘，并应符合1展厅应根据其展览功能要求分区设置满足展位需求的电下列规定：源和电子信息系统综合设备管沟、管井或地面出线盒布点，展场1设置在门的上部时，标志的下边缘距门框不宜大应根据其展览功能要求分区设置满足展位需求的电源和电子信息于0.15m;系
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2182010_7_4_9_1
+  source_clause: JGJ 218-2010#7.4.9
+  rule_type: constraint
+  when:
+  - activity_type == '展览建筑设计'
+  - component_type IN ['IfcBuilding']
+  then:
+    parameter: 照度值
+    unit: '%'
+    condition: null
+    max_value: 10.0
+  source_text: 展厅、疏散走道、疏散楼梯等部位应设置消防应急照明性、专业性布展需求；灯具。展厅备用照明的照度值不应低于一般照明照度值的10%。3展位配电应设置带剩余电流动作保护器的电源总开关，
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2182010_7_4_10_1
+  source_clause: JGJ 218-2010#7.4.10
+  rule_type: constraint
+  when:
+  - activity_type == '展览建筑设计'
+  - component_type IN ['IfcBuilding']
+  then:
+    parameter: 作电流
+    unit: m
+    condition: null
+    min_value: 30.0
+  source_text: 消防应急照明系统宜采用集中电源型的系统，并应按消且剩余电流动作保护器的剩余动作电流不应超过30mA；防设备回路供电。当应急照明灯具数量较少、布置分散时，可自4电源线路和电子信息系统线路平行或交叉敷设时，其间带备用电源供电。应急照明灯具产品应符合现行国家标准《消防距应符合现行国家标
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2182010_7_4_11_1
+  source_clause: JGJ 218-2010#7.4.11
+  rule_type: constraint
+  when:
+  - activity_type == '展览建筑设计'
+  - component_type IN ['IfcBuilding']
+  then:
+    parameter: 厅每层面积
+    unit: m²
+    condition: null
+    min_value: 1500.0
+  source_text: 展厅每层面积超过1500m²时，应设有备用照明。重要井载荷能力应与周围地面的载荷能力一致，防护等级不应低于物品库房应设有警卫照明。IP54；其电源插座应采用安全型，室外布置时，电源插座的防护
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2182010_7_4_7_1
+  source_clause: JGJ 218-2010#7.4.7
+  rule_type: constraint
+  when:
+  - activity_type == '展览建筑设计'
+  - component_type IN ['IfcBuilding']
+  then:
+    parameter: 总建筑面积
+    unit: m²
+    condition: null
+    min_value: 8000.0
+  source_text: 对于总建筑面积超过8000m²的展览建筑，其内部疏散2综合布线系统应符合现行国家标准《综合布线系统工程设计规范》GB50311的有关规定，并应满足布展实用、先进、
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2182010_3_3_6_1
+  source_clause: JGJ 218-2010#3.3.6
+  rule_type: constraint
+  when:
+  - activity_type == '展览建筑设计'
+  - component_type IN ['IfcBuilding']
+  then:
+    parameter: 建筑密度在
+    unit: '%'
+    condition: null
+    min_value: 35.0
+    max_value: 35.0
+  source_text: 展览建筑要求有较大的室外场地以满足卸货、堆场、展出、人员集散等要求，同时还要有足够的绿化面积，因此建筑密4建筑设计度不宜过高，最好控制建筑密度在35%以下。例如，上海某展览中心建筑密度约24%，南京某展览中心建筑密度约12%，东4.1一般规定莞某展览中心建筑密度约20%。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2182010_3_3_6_2
+  source_clause: JGJ 218-2010#3.3.6
+  rule_type: constraint
+  when:
+  - activity_type == '展览建筑设计'
+  - component_type IN ['IfcBuilding']
+  then:
+    parameter: 建筑密度约
+    unit: '%'
+    condition: null
+    min_value: 24.0
+    max_value: 24.0
+  source_text: 展览建筑要求有较大的室外场地以满足卸货、堆场、展出、人员集散等要求，同时还要有足够的绿化面积，因此建筑密4建筑设计度不宜过高，最好控制建筑密度在35%以下。例如，上海某展览中心建筑密度约24%，南京某展览中心建筑密度约12%，东4.1一般规定莞某展览中心建筑密度约20%。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2182010_3_3_6_3
+  source_clause: JGJ 218-2010#3.3.6
+  rule_type: constraint
+  when:
+  - activity_type == '展览建筑设计'
+  - component_type IN ['IfcBuilding']
+  then:
+    parameter: 建筑密度约
+    unit: '%'
+    condition: null
+    min_value: 12.0
+    max_value: 12.0
+  source_text: 展览建筑要求有较大的室外场地以满足卸货、堆场、展出、人员集散等要求，同时还要有足够的绿化面积，因此建筑密4建筑设计度不宜过高，最好控制建筑密度在35%以下。例如，上海某展览中心建筑密度约24%，南京某展览中心建筑密度约12%，东4.1一般规定莞某展览中心建筑密度约20%。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2182010_3_3_6_4
+  source_clause: JGJ 218-2010#3.3.6
+  rule_type: constraint
+  when:
+  - activity_type == '展览建筑设计'
+  - component_type IN ['IfcBuilding']
+  then:
+    parameter: 建筑密度约
+    unit: '%'
+    condition: null
+    min_value: 20.0
+    max_value: 20.0
+  source_text: 展览建筑要求有较大的室外场地以满足卸货、堆场、展出、人员集散等要求，同时还要有足够的绿化面积，因此建筑密4建筑设计度不宜过高，最好控制建筑密度在35%以下。例如，上海某展览中心建筑密度约24%，南京某展览中心建筑密度约12%，东4.1一般规定莞某展览中心建筑密度约20%。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2182010_6_3_1_1
+  source_clause: JGJ 218-2010#6.3.1
+  rule_type: constraint
+  when:
+  - activity_type == '展览建筑设计'
+  - component_type IN ['IfcBuilding']
+  then:
+    parameter: 用级标准
+    unit: d
+    condition: null
+    max_value: 55.0
+  source_text: 展览建筑通常观众较多，为保证室内的空气质量应有良也有一定噪声，参照现行国家标准《民用建筑隔声设计规范》好的通风。从节约能源考虑，在设计上应优先采用自然通风的方GB50118中规定旅馆建筑中餐厅、宴会厅室内允许噪声级的二式，自然通风有困难或仅靠自然通风达不到换气要求时，应采用级标准
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_JGJ2182010_6_3_1_2
+  source_clause: JGJ 218-2010#6.3.1
+  rule_type: constraint
+  when:
+  - activity_type == '展览建筑设计'
+  - component_type IN ['IfcBuilding']
+  then:
+    parameter: 标准
+    unit: d
+    condition: null
+    min_value: 55.0
+  source_text: 展览建筑通常观众较多，为保证室内的空气质量应有良也有一定噪声，参照现行国家标准《民用建筑隔声设计规范》好的通风。从节约能源考虑，在设计上应优先采用自然通风的方GB50118中规定旅馆建筑中餐厅、宴会厅室内允许噪声级的二式，自然通风有困难或仅靠自然通风达不到换气要求时，应采用级标准
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+extraction_notes:
+- 实施日期（2010年？）待核。

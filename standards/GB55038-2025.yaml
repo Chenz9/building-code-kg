@@ -1,0 +1,4966 @@
+standard:
+  code: GB 55038-2025
+  name: 住宅项目规范
+  name_note: null
+  version: '2025'
+  status: 现行
+  is_abolished: false
+  effective_date: '2025-05-01'
+  abolished_date: null
+  superseded_by: null
+  standard_category: 国家标准
+  domain:
+  - 通用规范
+  - 全文强制
+  - 住宅建筑
+  region_scope: 全国
+  region_codes: []
+  has_mandatory_clauses: true
+  mandatory_clause_count: 103
+  mandatory_note: null
+  total_clauses: 105
+  related_standards:
+  - code: GB 50118-2010
+    relationship: 废止其4.2.1、4.2.2、4.2.5条强制性条文效力（库内已标）
+  - code: GB 50368-2005
+    relationship: 整本废止（不在库内）
+  - code: GB 50096-2011
+    relationship: 废止其相关强条效力（不在库内）
+  - code: GB 50033-2013
+    relationship: 废止其相关强条效力（不在库内）
+  - code: GB 50327-2001
+    relationship: 废止其相关强条效力（不在库内）
+  - code: GB 50631-2010
+    relationship: 废止其相关强条效力（不在库内）
+  - code: JGJ 242-2011
+    relationship: 废止其相关强条效力（不在库内）
+  - code: JGJ 367-2015
+    relationship: 废止其相关强条效力（不在库内）
+  - code: JGJ 286-2013
+    relationship: 废止其相关强条效力（不在库内）
+  clauses:
+  - GB 55038-2025#1.0.1
+  - GB 55038-2025#1.0.3
+  - GB 55038-2025#1.0.4
+  - GB 55038-2025#1.0.5
+  - GB 55038-2025#2.1.1
+  - GB 55038-2025#2.1.2
+  - GB 55038-2025#2.1.3
+  - GB 55038-2025#2.1.4
+  - GB 55038-2025#2.2.1
+  - GB 55038-2025#2.2.2
+  - GB 55038-2025#2.2.3
+  - GB 55038-2025#2.2.4
+  - GB 55038-2025#2.2.5
+  - GB 55038-2025#2.2.6
+  - GB 55038-2025#2.2.7
+  - GB 55038-2025#2.2.8
+  - GB 55038-2025#2.2.9
+  - GB 55038-2025#2.2.10
+  - GB 55038-2025#2.2.11
+  - GB 55038-2025#2.3.1
+  - GB 55038-2025#2.3.2
+  - GB 55038-2025#2.3.3
+  - GB 55038-2025#2.3.4
+  - GB 55038-2025#2.3.5
+  - GB 55038-2025#2.3.6
+  - GB 55038-2025#2.3.7
+  - GB 55038-2025#2.3.8
+  - GB 55038-2025#3.1.1
+  - GB 55038-2025#3.2.1
+  - GB 55038-2025#3.2.2
+  - GB 55038-2025#3.2.3
+  - GB 55038-2025#3.2.4
+  - GB 55038-2025#3.2.5
+  - GB 55038-2025#3.2.6
+  - GB 55038-2025#3.2.7
+  - GB 55038-2025#3.3.1
+  - GB 55038-2025#3.3.2
+  - GB 55038-2025#3.3.3
+  - GB 55038-2025#4.1.1
+  - GB 55038-2025#4.1.3
+  - GB 55038-2025#4.1.4
+  - GB 55038-2025#4.1.5
+  - GB 55038-2025#4.1.6
+  - GB 55038-2025#4.1.7
+  - GB 55038-2025#4.1.8
+  - GB 55038-2025#4.1.9
+  - GB 55038-2025#4.1.10
+  - GB 55038-2025#4.1.11
+  - GB 55038-2025#4.1.12
+  - GB 55038-2025#4.1.13
+  - GB 55038-2025#4.1.14
+  - GB 55038-2025#4.1.15
+  - GB 55038-2025#4.1.16
+  - GB 55038-2025#4.1.17
+  - GB 55038-2025#4.2.1
+  - GB 55038-2025#4.2.2
+  - GB 55038-2025#4.2.3
+  - GB 55038-2025#4.2.4
+  - GB 55038-2025#4.2.5
+  - GB 55038-2025#4.2.6
+  - GB 55038-2025#4.2.7
+  - GB 55038-2025#4.2.8
+  - GB 55038-2025#4.2.9
+  - GB 55038-2025#4.2.10
+  - GB 55038-2025#4.2.13
+  - GB 55038-2025#5.0.2
+  - GB 55038-2025#5.0.3
+  - GB 55038-2025#5.0.4
+  - GB 55038-2025#5.0.5
+  - GB 55038-2025#5.0.6
+  - GB 55038-2025#6.1.1
+  - GB 55038-2025#6.1.2
+  - GB 55038-2025#6.1.3
+  - GB 55038-2025#6.2.1
+  - GB 55038-2025#6.2.2
+  - GB 55038-2025#6.2.3
+  - GB 55038-2025#6.3.1
+  - GB 55038-2025#6.3.2
+  - GB 55038-2025#6.3.3
+  - GB 55038-2025#7.1.3
+  - GB 55038-2025#7.1.4
+  - GB 55038-2025#7.1.7
+  - GB 55038-2025#7.1.8
+  - GB 55038-2025#7.1.9
+  - GB 55038-2025#7.2.1
+  - GB 55038-2025#7.2.2
+  - GB 55038-2025#7.2.3
+  - GB 55038-2025#7.2.5
+  - GB 55038-2025#7.3.2
+  - GB 55038-2025#7.3.3
+  - GB 55038-2025#7.3.4
+  - GB 55038-2025#7.4.1
+  - GB 55038-2025#7.4.3
+  - GB 55038-2025#7.4.4
+  - GB 55038-2025#7.4.5
+  - GB 55038-2025#7.4.6
+  - GB 55038-2025#7.4.7
+  - GB 55038-2025#7.5.1
+  - GB 55038-2025#7.5.2
+  - GB 55038-2025#7.5.3
+  - GB 55038-2025#7.5.4
+  - GB 55038-2025#7.5.5
+  - GB 55038-2025#7.5.6
+  schema_version: v2.1
+  last_reviewed_date: '2026-09-07'
+  ghost_clauses:
+  - clause_no: 1.1.1
+    text_preview: '的规定.当住宅建筑采用低层或多层高密度布局方式时，其居住街坊的空间环境控制指标应符合表3 1、1、2的规定 3,1 2、住宅建筑间距应按表3,1、2规定的日照标准进行控制 旧区改建项目内新建住宅建筑日照标准不应低于大寒日日照时数1h. ##…'
+    full_text: '的规定.当住宅建筑采用低层或多层高密度布局方式时，其居住街坊的空间环境控制指标应符合表3 1、1、2的规定 3,1 2、住宅建筑间距应按表3,1、2规定的日照标准进行控制 旧区改建项目内新建住宅建筑日照标准不应低于大寒日日照时数1h. ## page=4891635 3.2 场地3、2、1、住宅项目的场地应保障安全.并应符合下列规定。1。存在噪声污染，光污染的地段。应采取相应防护措施、并应达到居住用地声环境和光环境质量要求。2、存在土壤污染的地段 应采取有效措施进行无害化处理,并应达到居住用地土壤环境质量要求，3.场地设计应满足应急疏散要求、3.2 2 居住街坊内应设集中绿地，并应符合下列规定 1，新区建设项目人均集中绿地面积不应小于0.50m2,旧区改建项目人均集中绿地面积不应小于0、35m2,2。集中绿地宽度不应小于8m,3。集中绿地中。在标准的建筑日照阴影线范围之外的绿地面积占比不应小于1，3、并应设老年人和儿童活动场地 3、2.3，住宅项目应配建附属道路。并应符合下列规定，1。应与城镇道路系统联通，并应满足急救,消防及运输车辆的通行要求、2,应与住宅项目场地步行出入口.住宅单元出入口。老年人和儿童活动场地无障碍联通,并应与城镇道路的人行道联通形成无障碍步行系统、3.步行路面应符合防滑要求 3 2、4。住宅项目场地的自然坡度大于8,0。时,应采用台地式布局方式，并应符合下列规定,1.台地之间应设护坡或挡土墙等支挡结构 2,高度大于2,0m的护坡或挡土墙的上缘与高台地上建筑物的水平净距不应小于3。0m,其下缘与低台地上建筑物的水平净距不应小于2.0m、3,2,5。住宅项目场地竖向设计应有利于雨水径流的控制和雨水的资源化利用、并应满足防洪排涝的要求,场地地面排水设计坡度不应小于0.2,3.2，6，住宅建筑高度大于10m时,外墙面至道路边缘的最小距离。应符合表3,2、6'
+    chapter: 1 总则
+    section: ''
+    removed_on: '2026-09-07'
+    reason: PDF 全文回源验证：该条文号在原标准中不存在（OCR 错位混入的伪条文）
+  - clause_no: 1.1.10
+    text_preview: ，1，2条，七。住宅室内装饰装修设计规范，JGJ,367 2015第3，0,4 3，0 7条 八 城市居住区热环境设计标准、JGJ，286.2013第4，1 1。4。2、1条,本规范在住房城乡建设部门户网站公开。并由住房城乡建设部标准定额研…
+    full_text: ，1，2条，七。住宅室内装饰装修设计规范，JGJ,367 2015第3，0,4 3，0 7条 八 城市居住区热环境设计标准、JGJ，286.2013第4，1 1。4。2、1条,本规范在住房城乡建设部门户网站公开。并由住房城乡建设部标准定额研究所组织中国建筑出版传媒有限公司出版发行.中华人民共和国住房和城乡建设部2025年3月13日前言，为适应国际技术法规与技术标准通行规则.2016年以来。住房城乡建设部陆续印发。关于深化工程建设标准化工作改革的意见。等文件，提出政府制定强制性标准.社会团体制定自愿采用性标准的长远目标,明确了逐步用全文强制性工程建设规范取代现行标准中分散的强制性条文的改革任务.逐步形成由法律 行政法规 部门规章中的技术性规定与全文强制性工程建设规范构成的、技术法规、体系。关于规范种类、强制性工程建设规范体系覆盖工程建设领域各类建设工程项目.分为工程项目类规范 简称项目规范，和通用技术类规范 简称通用规范、两种类型。项目规范以工程建设项目整体为对象,以项目的规模,布局，功能、性能和关键技术措施等五大要素为主要内容.通用规范以实现工程建设项目功能性能要求的各专业通用技术为对象、以勘察、设计，施工。维修.养护等通用技术要求为主要内容，在全文强制性工程建设规范体系中,项目规范为主干、通用规范是对各类项目共性的,通用的专业性关键技术措施的规定.关于五大要素指标、强制性工程建设规范中各项要素是保障城乡基础设施建设体系化和效率提升的基本规定,是支撑城乡建设高质量发展的基本要求 项目的规模要求主要规定建设工程项目应具备完整的生产或服务能力.应与经济社会发展水平相适应、项目的布局要求主要规定产业布局 建设工程项目选址，总体设计,总平面布置以及与规模相协调的统筹性技术要求 应考虑供给能力合理分布、提高相关设施建设的整体水平、项目的功能要求主要规定项目构成和用途。明确项目的基本组
+    chapter: 1 总则
+    section: ''
+    removed_on: '2026-09-07'
+    reason: PDF 全文回源验证：该条文号在原标准中不存在（OCR 错位混入的伪条文）
+  - clause_no: 3.1.6
+    text_preview: ',3,2，6。3。5、6，4.1、6。4 7.6 5.2、6、6、1。6、6,3、6,7、1,6。9，1，6 9，6,6 10，1,6 10.4，7 1,1，7,1,3。7.2 1 7 3，2、8 1,1、8，1、2.8、1 3。8，1,4…'
+    full_text: ',3,2，6。3。5、6，4.1、6。4 7.6 5.2、6、6、1。6、6,3、6,7、1,6。9，1，6 9，6,6 10，1,6 10.4，7 1,1，7,1,3。7.2 1 7 3，2、8 1,1、8，1、2.8、1 3。8，1,4 1，3.4。8.1。7.8，2 1 8。2 2、8、2.6 8，2，10 8。2。11 8.2,12，8，3，3.8，3。6.8,4.1,8.4、3.8,4,4、8。5，3，8、7.3。8,7、4。8.7。5.8，7,9条、款 三、民用建筑隔声设计规范，GB、50118。2010第4 2,1 4、2，2,4，2、5条,四 住宅装饰装修工程施工规范，GB，50327，2001第3,1,3 3.1、7，3。2。2.4，1、1 4,3.4，4。3.6,4,3。7、10 1,6条.五、住宅信报箱工程技术规范，GB，50631、2010第1，0.3。3。0 1条。六，住宅建筑电气设计规范,JGJ 242，2011 第4 3.2 8。4、3,10 1，1，10 1，2条.七 住宅室内装饰装修设计规范，JGJ,367.2015第3。0 4，3、0，7条,八，城市居住区热环境设计标准 JGJ,286,2013第4.1,1、4。2。1条，本规范由住房城乡建设部负责管理和解释,二,本规范编制单位,起草人员及审查人员、一 编制单位.中国建筑科学研究院有限公司，中国城市规划设计研究院，中国建筑标准设计研究院有限公司 中国市政工程华北设计研究总院有限公司,建研科技股份有限公司 西安建筑科技大学、重庆大学,华南理工大学,中国中建设计研究院有限公司，中国建筑设计研究院有限公司 中国建筑技术集团有限公司、上海建工集团股份有限公司.龙信建设集团有限公司,南京长江都市建筑设计股份有限公司。黑龙江省寒地建筑科学研究院.二.起草人员.王清勤 赵力,李小阳 鹿勤,曾捷.曾宇.孙'
+    chapter: 3 居住环境
+    section: ''
+    removed_on: '2026-09-07'
+    reason: PDF 全文回源验证：该条文号在原标准中不存在（OCR 错位混入的伪条文）
+  ghost_clause_count: 3
+clauses:
+- id: GB 55038-2025#1.0.1
+  standard_code: GB 55038-2025
+  chapter: 1 总则
+  section: ''
+  clause_no: 1.0.1
+  text: 为促进住宅建设高质量发展，保障居民的基本住房条件和居住环境，制定本规范。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#1.0.3
+  standard_code: GB 55038-2025
+  chapter: 1 总则
+  section: ''
+  clause_no: 1.0.3
+  text: 应遵循下列原则：经济合理，安全耐久；以人为本，健康舒适；因地制宜，绿色低碳；科技赋能，智慧便利。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 宜
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#1.0.4
+  standard_code: GB 55038-2025
+  chapter: 1 总则
+  section: ''
+  clause_no: 1.0.4
+  text: 工程建设所采用的技术方法和措施是否符合本规范要求，由相关责任主体判定。其中，创新性的技术方法和措施，应进行论证并符合本规范中有关性能的要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#1.0.5
+  standard_code: GB 55038-2025
+  chapter: 1 总则
+  section: ''
+  clause_no: 1.0.5
+  text: 违反本规范规定，依照有关法律法规的规定予以处罚。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#2.1.1
+  standard_code: GB 55038-2025
+  chapter: 2 基本规定
+  section: 2.1 规模与布局
+  clause_no: 2.1.1
+  text: 住宅项目建设规模应根据所在地经济社会发展水平、市场需求和配套条件等，经调查研究、科学预测后合理确定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#2.1.2
+  standard_code: GB 55038-2025
+  chapter: 2 基本规定
+  section: 2.1 规模与布局
+  clause_no: 2.1.2
+  text: 住宅项目应包括一栋或多栋住宅建筑 住宅项目较大时、应以城镇道路划分形成若干居住街坊。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#2.1.3
+  standard_code: GB 55038-2025
+  chapter: 2 基本规定
+  section: 2.1 规模与布局
+  clause_no: 2.1.3
+  text: 住宅项目应以满足居住需求为目的，合理布局住宅建筑、工程设施及管线、场地和配套设施，并应符合下列规定：组成。及设备、通信和有线广播电视等智能化系统及设备、消防设施设备等；采暖地区尚应有供暖系统及设备：有燃气供应的地区尚应有燃气系统及设备。配套设施应包括公共管理与公共服务设施、商业服务设施、市政公用设施、交通场站设施及社区服务设施、便民服务设施等。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#2.1.4
+  standard_code: GB 55038-2025
+  chapter: 2 基本规定
+  section: ''
+  clause_no: 2.1.4
+  text: 住宅建筑应根据所在地区气候、地质及地形地貌等自然条件，因地制宜、合理布局。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 宜
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#2.2.1
+  standard_code: GB 55038-2025
+  chapter: 2 基本规定
+  section: 2.2 建设要求
+  clause_no: 2.2.1
+  text: 住宅项目不应在有滑坡、泥石流、山洪、地震断裂带等自然灾害威胁的地段选址建设，且与危险化学品、易燃易爆品等危险源的距离应符合有关安全规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#2.2.2
+  standard_code: GB 55038-2025
+  chapter: 2 基本规定
+  section: 2.2 建设要求
+  clause_no: 2.2.2
+  text: 住宅项目建设应合理、有效利用土地和空间。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#2.2.3
+  standard_code: GB 55038-2025
+  chapter: 2 基本规定
+  section: 2.2 建设要求
+  clause_no: 2.2.3
+  text: 住宅项目应满足无障碍设计原则。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#2.2.4
+  standard_code: GB 55038-2025
+  chapter: 2 基本规定
+  section: 2.2 建设要求
+  clause_no: 2.2.4
+  text: 住宅项目中的园林小品、围墙等附属设施应采取防、防坠落、防风揭等安全措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#2.2.5
+  standard_code: GB 55038-2025
+  chapter: 2 基本规定
+  section: 2.2 建设要求
+  clause_no: 2.2.5
+  text: 住宅建筑应按套型设计，每套住宅应有卧室、起居室厨房和卫生间等基本功能空间。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#2.2.6
+  standard_code: GB 55038-2025
+  chapter: 2 基本规定
+  section: 2.2 建设要求
+  clause_no: 2.2.6
+  text: 住宅建筑的设计工作年限应符合表2.2.6的规定 在规定设计工作年限内应满足安全性、适用性和耐久性要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables:
+  - table_id: 表2.2.6
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表2.2.6的规定，在规定设计工作年限内应满足安全性、适用性和耐久性要求。表2.2.6住宅建筑的设计工作年限设计工作年限类别不应低于50年建筑结构√不应低于20年屋面不应低于25年防水工程室内不应低于建筑结构设计工作年限地下外窗不应低于25年不应低于25年外墙外保温系统
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#2.2.7
+  standard_code: GB 55038-2025
+  chapter: 2 基本规定
+  section: 2.2 建设要求
+  clause_no: 2.2.7
+  text: 住宅建筑应满足居住所需的通风人日照、采光、隔声、防水、防潮、保温、隔热等性能要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#2.2.8
+  standard_code: GB 55038-2025
+  chapter: 2 基本规定
+  section: 2.2 建设要求
+  clause_no: 2.2.8
+  text: 住宅建筑及其设备应能有效利用能源和水资源。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#2.2.9
+  standard_code: GB 55038-2025
+  chapter: 2 基本规定
+  section: 2.2 建设要求
+  clause_no: 2.2.9
+  text: 住宅建筑外窗、外墙装饰、外墙外保温系统及其他附属设施等应安装牢固，不应脱落、坠落。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#2.2.10
+  standard_code: GB 55038-2025
+  chapter: 2 基本规定
+  section: 2.2 建设要求
+  clause_no: 2.2.10
+  text: 住宅建筑应提供保证人员安全疏散的设施与条件。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#2.2.11
+  standard_code: GB 55038-2025
+  chapter: 2 基本规定
+  section: 2.2 建设要求
+  clause_no: 2.2.11
+  text: 持结构的稳定性。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#2.3.1
+  standard_code: GB 55038-2025
+  chapter: 2 基本规定
+  section: 2.3 使用要求
+  clause_no: 2.3.1
+  text: 住宅项目配套建设的公共设施的使用功能不应擅自改变。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#2.3.2
+  standard_code: GB 55038-2025
+  chapter: 2 基本规定
+  section: 2.3 使用要求
+  clause_no: 2.3.2
+  text: 住宅建筑的公共门厅、公共走廊、公共楼梯间、屋面等公共部位不应擅自拆改或占用。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#2.3.3
+  standard_code: GB 55038-2025
+  chapter: 2 基本规定
+  section: 2.3 使用要求
+  clause_no: 2.3.3
+  text: 住宅建筑承重结构、主要使用功能和建筑外观不应擅自改动。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#2.3.4
+  standard_code: GB 55038-2025
+  chapter: 2 基本规定
+  section: 2.3 使用要求
+  clause_no: 2.3.4
+  text: 住宅建筑抗震构件、隔震沟、隔震缝、隔震减震装置及标识不应擅自变动、损坏或者拆除。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#2.3.5
+  standard_code: GB 55038-2025
+  chapter: 2 基本规定
+  section: 2.3 使用要求
+  clause_no: 2.3.5
+  text: 住宅项目公共用途的给水排水、供暖、燃气、供电、通信等设施不应擅自拆改。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#2.3.6
+  standard_code: GB 55038-2025
+  chapter: 2 基本规定
+  section: 2.3 使用要求
+  clause_no: 2.3.6
+  text: 住宅项目的公共空间和场地、公共设备和设施应定期进行维护、检修和管理，并应保证公共设备和设施正常运行。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#2.3.7
+  standard_code: GB 55038-2025
+  chapter: 2 基本规定
+  section: 2.3 使用要求
+  clause_no: 2.3.7
+  text: 住宅项目消防设施应保持完好有效，疏散通道、消防车通道应保持畅通。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#2.3.8
+  standard_code: GB 55038-2025
+  chapter: 2 基本规定
+  section: 2.3 使用要求
+  clause_no: 2.3.8
+  text: 住宅建筑楼面或屋面上不应堆放影响结构安全的重物。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#3.1.1
+  standard_code: GB 55038-2025
+  chapter: 3 居住环境
+  section: 3.1 空间环境
+  clause_no: 3.1.1
+  text: 住宅项目应为居民提供宜居的居住生活环境、其居住街坊的空间环境控制指标应符合当住宅建筑采用低层或多层高密度布局方式时。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 宜
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables:
+  - table_id: 表3.1.1
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表3.1.1-1的规定。当住宅建筑采用低层或多层高密度布局方式时，其居住街坊的空间环境控制指标应符合表3.1.1-2的规定。表3.1.1-1居住街坊的空间环境控制指标住宅建筑建筑密度绿地率住宅用地住宅建筑建筑气候高度控制最大值最小值容积率区划平均层数类别最大值(%)(%)(m)低层(13层）1.0多层(类（4～6层)1.1~1.4多层Ⅱ类（7～9层）1.5~1.7I、MI1.8~24高层类（10～17层）2.4~2.8高层Ⅱ类（18～26层）1.0、1.1低层（1～3层）1.2~1.5多层I类（4～6层）1.6~1.9多层Ⅱ类（7～9层）2.0~2.6高层I类（1017层）高层Ⅱ类（18～26层）2.6~2.9低层（1～3层）1.0~1.2多层I类（4～6层）1.3~1.6I、IV、V1.7~～2.1多层Ⅱ类（7～9层）2.2~2.8高层I类（10～17层）高层Ⅱ类（18～26层）2.8~3.1表3.1.1-2低层或多层高密度居住街坊的空间环境控制指标住宅建筑人均住宅建筑密度绿地率住宅建筑住宅用地建筑气高度控制用地面积最大值最小值容积率层数类别候区划最大值(%)(%)(u)低层32-361.0、1.1（13层）I、VI多层I类1.4、1.524~26（4～6层）低层30～321.1、1.2(1～3层）多层I类1.5~1.721～24（4～6层）低层1.2、27-30(1～3层）ⅡI、IV、多层I类20～221.6~1.8(4～6层)
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#3.2.1
+  standard_code: GB 55038-2025
+  chapter: 3 居住环境
+  section: 3.2 场地
+  clause_no: 3.2.1
+  text: 住宅项目的场地应保障安全，并应符合下列规定：并应达到居住用地声环境和光环境质量要求；并应达到居住用地土壤环境质量要求；场地设计应满足应急疏散要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#3.2.2
+  standard_code: GB 55038-2025
+  chapter: 3 居住环境
+  section: ''
+  clause_no: 3.2.2
+  text: 居住街坊内应设集中绿地，并应符合下列规定：新区建设项目人均集中绿地面积不应小于0.50m，旧区改建项目人均集中绿地面积不应小于0.35m²；面积占比不应小于1/3，并应设老年人和儿童活动场地。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 中绿地面积
+    unit: m
+    condition: null
+    min_value: 0.5
+    max_value: null
+  - name: 中绿地面积
+    unit: m²
+    condition: null
+    min_value: 0.35
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#3.2.3
+  standard_code: GB 55038-2025
+  chapter: 3 居住环境
+  section: ''
+  clause_no: 3.2.3
+  text: 住宅项目应配建附属道路，并应符合下列规定：辆的通行要求人和儿童活动场地无障碍联通，并应与城镇道路的人行道联通形成无障碍步行系统；步行路面应符合防滑要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#3.2.4
+  standard_code: GB 55038-2025
+  chapter: 3 居住环境
+  section: ''
+  clause_no: 3.2.4
+  text: 住宅项目场地的自然坡度大于8.0%时，应采用台地式布局方式，并应符合下列规定：物的水平净距不应小于3.0m，其下缘与低台地上建筑物的水平净距不应小于2.OII。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 自然坡度
+    unit: '%'
+    condition: null
+    min_value: 8.0
+    max_value: null
+  - name: 水平净距
+    unit: m
+    condition: null
+    min_value: 3.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#3.2.5
+  standard_code: GB 55038-2025
+  chapter: 3 居住环境
+  section: ''
+  clause_no: 3.2.5
+  text: 住宅项目场地竖向设计应有利于雨水径流的控制和雨水的资源化利用，并应满足防洪排涝的要求。场地地面排水设计坡度不应小于0.2%。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 水设计坡度
+    unit: '%'
+    condition: null
+    min_value: 0.2
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#3.2.6
+  standard_code: GB 55038-2025
+  chapter: 3 居住环境
+  section: ''
+  clause_no: 3.2.6
+  text: ，住宅建筑高度大于10m时,外墙面至道路边缘的最小距离。应符合表3,2，6的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 宅建筑高度
+    unit: m
+    condition: null
+    min_value: 10.0
+    max_value: null
+  tables:
+  - table_id: 表3.2.6
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表3.2.6的规定。表3.2.6住宅建筑外墙面至道路边缘的最小距离城镇道路（m)附属道路建筑与道路的关系3.0建筑物面向道路无公共出人口2.05.012.5建筑物面向道路有公共出入口2.061.5建筑物山墙面向道路城镇道路的边缘是指道路红线：注：1附属道路的边缘是指路面边线。
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#3.2.7
+  standard_code: GB 55038-2025
+  chapter: 3 居住环境
+  section: ''
+  clause_no: 3.2.7
+  text: 住宅项目室外公共区域夜间照明照度值和一般显色指数不应低于表3.2.7规定的限值。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables:
+  - table_id: 表3.2.7
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表3.2.7规定的限值。表3.2.7住宅项目室外公共区域夜间照明照度值和一般显色指数限值平均水平照度水平照度半柱面照度-般显色垂直照度场所(1x)(1x)(1x)(1x)指数RaEvminEhaEh,min主要附属道路A3其他附属道路健身步道活动场地注：水平照度的参考平面为地面，垂直照度和半柱面照度的计算点或测量点高度为1.5m。
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#3.3.1
+  standard_code: GB 55038-2025
+  chapter: 3 居住环境
+  section: 3.3 配套设施
+  clause_no: 3.3.1
+  text: 住宅项目的配套设施应根据居住人口规模和设施服务半径综合确定，并应按所在居住区分级配置标准统筹配套、同步建设。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#3.3.2
+  standard_code: GB 55038-2025
+  chapter: 3 居住环境
+  section: 3.3 配套设施
+  clause_no: 3.3.2
+  text: 住宅项目应设生活垃圾收集点，并应符合下列规定：应满足垃圾分类收集需求；应设置便于识别的标志；厨余垃圾收集容器应具备封闭功能。住宅项目应设快递箱（柜）或预留安装条件。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#3.3.3
+  standard_code: GB 55038-2025
+  chapter: 3 居住环境
+  section: 3.3 配套设施
+  clause_no: 3.3.3
+  text: 离息公开
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#4.1.1
+  standard_code: GB 55038-2025
+  chapter: 4 建筑空间
+  section: 4.1 套内空间
+  clause_no: 4.1.1
+  text: 。卧室的使用面积应符合下列规定，1。卧室使用面积不应小于5m2 2，兼起居室的卧室使用面积不应小于9m2.3，卧室短边净宽不应小于1.80m,4，1。2 新建住宅建筑的层高和室内净高应符合下列规定，1。层高不应低于3。00m,2。卧室，起居室的室内净高不应低于2。60m,局部净高不应低于2，20m 且局部净高低于2.60m的面积不应大于室内使用面积的1。3，3 利用坡屋顶内空间作卧室 起居室时，室内净高不低于2 20m的使用面积不应小于室内使用面积的1。2，4,厨房，卫生间的室内净高不应低于2.20m。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 室使用面积
+    unit: m
+    condition: null
+    min_value: 5.0
+    max_value: null
+  - name: 室使用面积
+    unit: m²
+    condition: null
+    min_value: 9.0
+    max_value: null
+  - name: 室短边净宽
+    unit: m
+    condition: null
+    min_value: 1.8
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#4.1.3
+  standard_code: GB 55038-2025
+  chapter: 4 建筑空间
+  section: ''
+  clause_no: 4.1.3
+  text: 臣卧室、起居室和厨房不应布置在地下室。当布置在半地下室时，应合理布置，采取必要的通风、防潮、排水及安全防护等措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#4.1.4
+  standard_code: GB 55038-2025
+  chapter: 4 建筑空间
+  section: ''
+  clause_no: 4.1.4
+  text: 厨房的使用面积不应小于3.5m²。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 使用面积
+    unit: m²
+    condition: null
+    min_value: 3.5
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#4.1.5
+  standard_code: GB 55038-2025
+  chapter: 4 建筑空间
+  section: ''
+  clause_no: 4.1.5
+  text: 厨房应配置洗涤池、水龙头、案台、灶具、排油烟机等设施或预留安装位置。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#4.1.6
+  standard_code: GB 55038-2025
+  chapter: 4 建筑空间
+  section: ''
+  clause_no: 4.1.6
+  text: 每套住宅的卫生间应至少配置便器、洗浴器、洗面器三件卫生器具或预留安装位置及条件。布置便器的卫生间的门不应直接开在厨房内。便器、洗浴器和洗面器集中配置的卫生间的使用面积不应小于2.5m²。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 使用面积
+    unit: m²
+    condition: null
+    min_value: 2.5
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#4.1.7
+  standard_code: GB 55038-2025
+  chapter: 4 建筑空间
+  section: ''
+  clause_no: 4.1.7
+  text: 卫生间不应直接布置在其他住户的卧室、起居室、厨房或餐厅的上层。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#4.1.8
+  standard_code: GB 55038-2025
+  chapter: 4 建筑空间
+  section: ''
+  clause_no: 4.1.8
+  text: 卫生间的设置应符合下列规定：配有便器和洗面器或预留安装位置及条件的卫生间；卫生间便器和洗浴器旁应设扶手或预留安装条件；当卫生间门向内开启时，应预留向外开启或推拉开启的空间条件。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#4.1.9
+  standard_code: GB 55038-2025
+  chapter: 4 建筑空间
+  section: ''
+  clause_no: 4.1.9
+  text: 卫生间防水和防潮应符合下列规定：坡，排水坡度不应小于1%；于淋浴喷淋口高度，剩余墙面和顶棚应做防潮层或采取防潮措施；洗面器处墙面防水层高度不应小于1.20m；泛水翻起高度不应小于0.25m。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 坡排水坡度
+    unit: '%'
+    condition: null
+    min_value: 1.0
+    max_value: null
+  - name: 防水层高度
+    unit: m
+    condition: null
+    min_value: 1.2
+    max_value: null
+  - name: 水翻起高度
+    unit: m
+    condition: null
+    min_value: 0.25
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#4.1.10
+  standard_code: GB 55038-2025
+  chapter: 4 建筑空间
+  section: ''
+  clause_no: 4.1.10
+  text: 卫生间地面应采用防滑铺装，地面静摩擦系数（COF）不应小于0.6。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#4.1.11
+  standard_code: GB 55038-2025
+  chapter: 4 建筑空间
+  section: ''
+  clause_no: 4.1.11
+  text: 每套住宅应设放置洗衣机的位置，并应配置洗衣机的给水排水设施及其他使用条件。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#4.1.12
+  standard_code: GB 55038-2025
+  chapter: 4 建筑空间
+  section: ''
+  clause_no: 4.1.12
+  text: 厨房、卫生间、封闭阳台与相邻空间地面的高差不应大于0.015m，并应以斜坡过渡；户门的门槛高度和户门内外高差均不应大于0.015m。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 高差
+    unit: m
+    condition: null
+    min_value: 0.015
+    max_value: null
+  - name: 高差均
+    unit: m
+    condition: null
+    min_value: 0.015
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#4.1.13
+  standard_code: GB 55038-2025
+  chapter: 4 建筑空间
+  section: ''
+  clause_no: 4.1.13
+  text: 套内入口过道净宽不应小于1.10m；通往卧室、起居室的过道净宽不应小于1.00m；通往厨房、卫生间、贮藏室的过道净宽不应小于0.90m。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 口过道净宽
+    unit: m
+    condition: null
+    min_value: 1.1
+    max_value: null
+  - name: 过道净宽
+    unit: m
+    condition: null
+    min_value: 1.0
+    max_value: null
+  - name: 过道净宽
+    unit: m
+    condition: null
+    min_value: 0.9
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#4.1.14
+  standard_code: GB 55038-2025
+  chapter: 4 建筑空间
+  section: ''
+  clause_no: 4.1.14
+  text: 新建住宅建筑户门通行净宽不应小于0.90m，既有住宅建筑改造户门通行净宽不应小于0.80m。卧室门的通行净宽不应小于0.80m，厨房门和卫生间门的通行净宽不应小于0.70m，并应预留无障碍改造的条件。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 门通行净宽
+    unit: m
+    condition: null
+    min_value: 0.9
+    max_value: null
+  - name: 门通行净宽
+    unit: m
+    condition: null
+    min_value: 0.8
+    max_value: null
+  - name: 通行净宽
+    unit: m
+    condition: null
+    min_value: 0.8
+    max_value: null
+  - name: 通行净宽
+    unit: m
+    condition: null
+    min_value: 0.7
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#4.1.15
+  standard_code: GB 55038-2025
+  chapter: 4 建筑空间
+  section: ''
+  clause_no: 4.1.15
+  text: ，设有阳台时。应符合下列规定 1，阳台栏杆净高不应低于1.20m。栏杆的竖向杆件间净距不应大于0，11m。阳台栏杆应采取防止攀登的措施。2 阳台栏杆有放置物品或花盆的设施时,应采取防止物品或花盆坠落的措施，3 开敞式阳台应采取有组织排水并采取防水措施 4，放置洗衣机的阳台地面应采取有组织排水并设置防水层。5。各套住宅之间毗连的阳台应设分户隔板，4,1 16。临空外窗的窗台距室内地面的净高小于0，90m时 应配置防护设施,防护设施的高度应由室内地面或可登踏面起算。且不应小于0 90m，当凸窗窗台高度小于或等于0,45m时。其防护设施高度应从窗台面起算，且不应小于0.90m。当凸窗窗台高度大于0.45m时 其防护设施高度应从窗台面起算 且不应小于0。60m，凸窗的防护设施应贴外窗设置，4.1，17。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 列规定
+    unit: m
+    condition: null
+    min_value: 0.11
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#4.1.16
+  standard_code: GB 55038-2025
+  chapter: 4 建筑空间
+  section: ''
+  clause_no: 4.1.16
+  text: 配置防护设施，防护设施的高度应由室内地面或可登踏面起算，且不应小于0.90m。当凸窗窗台高度小于或等于0.45m时，其防护设施高度应从窗台面起算，且不应小于0.90m；当凸窗窗台高度大于0.45m时，其防护设施高度应从窗台面起算，且不应小于0.60m；凸窗的防护设施应贴外窗设置。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 踏面起算且
+    unit: m
+    condition: null
+    min_value: 0.9
+    max_value: null
+  - name: 窗窗台高度
+    unit: m
+    condition: null
+    min_value: null
+    max_value: 0.45
+  - name: 台面起算且
+    unit: m
+    condition: null
+    min_value: 0.9
+    max_value: null
+  - name: 窗窗台高度
+    unit: m
+    condition: null
+    min_value: 0.45
+    max_value: null
+  - name: 台面起算且
+    unit: m
+    condition: null
+    min_value: 0.6
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#4.1.17
+  standard_code: GB 55038-2025
+  chapter: 4 建筑空间
+  section: ''
+  clause_no: 4.1.17
+  text: 当住宅建筑凹口的净宽与净深之比小于13且净宽小于1.20m时，卧室和起居室的外窗不应设置在凹口内。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 净深之比
+    unit: m
+    condition: null
+    min_value: null
+    max_value: 1.2
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#4.2.1
+  standard_code: GB 55038-2025
+  chapter: 4 建筑空间
+  section: 4.2 公共空间
+  clause_no: 4.2.1
+  text: 设有公共走廊时，应符合下列规定走廊净宽不应小于1.20m，净高不应低于2.20m；当设置封闭外廊时，应设可开启的窗扇。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 定走廊净宽
+    unit: m
+    condition: null
+    min_value: 1.2
+    max_value: null
+  - name: 未识别对象
+    unit: m
+    condition: null
+    min_value: 2.2
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#4.2.2
+  standard_code: GB 55038-2025
+  chapter: 4 建筑空间
+  section: 4.2 公共空间
+  clause_no: 4.2.2
+  text: 公共楼梯的设置应符合下列规定：时，公共楼梯一边设有栏杆的，其梯段净宽不应小于1.00m；公共楼梯两侧均为墙体的，其梯段净宽不应小于1.10m。当最高入户层楼面距室外设计地面的高度超过15m时，公共楼梯的梯段净宽不应小于1.10m。0.175m，且同一个楼梯梯段踏步的宽度、高度均应一致；每个梯段的首步和末步踏步均应设明显标志。大于0.50m时，其水平段扶手高度不应小于1.20m；楼梯栏杆竖向杆件间净距不应大于0.11m。童攀登的措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 其梯段净宽
+    unit: m
+    condition: null
+    min_value: 1.0
+    max_value: null
+  - name: 其梯段净宽
+    unit: m
+    condition: null
+    min_value: 1.1
+    max_value: null
+  - name: 地面的高度
+    unit: m
+    condition: null
+    min_value: 15.0
+    max_value: null
+  - name: 梯段净宽
+    unit: m
+    condition: null
+    min_value: 1.1
+    max_value: null
+  - name: 梯段净宽
+    unit: m
+    condition: null
+    min_value: 0.175
+    max_value: null
+  - name: 设明显标志
+    unit: m
+    condition: null
+    min_value: 0.5
+    max_value: null
+  - name: 段扶手高度
+    unit: m
+    condition: null
+    min_value: 1.2
+    max_value: null
+  - name: 间净距
+    unit: m
+    condition: null
+    min_value: 0.11
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#4.2.3
+  standard_code: GB 55038-2025
+  chapter: 4 建筑空间
+  section: ''
+  clause_no: 4.2.3
+  text: 电梯井道及电梯机房、水泵机房等产生噪声或振动的房间不应紧邻卧室布置。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#4.2.4
+  standard_code: GB 55038-2025
+  chapter: 4 建筑空间
+  section: ''
+  clause_no: 4.2.4
+  text: 新建住宅建筑电梯设置应符合下列规定：外设计地面高度超过9m的住宅建筑，每个住宅单元应至少设置距室外设计地面高度超过33m的住宅建筑，每个住宅单元应至少设置2台电梯。要求：轿厢门净宽不应小于0.90m；采用宽轿厢时，轿厢长边尺寸不应小于1.60m，短边尺寸不应小于1.50m，采用深轿厢时，轿厢宽度不应小于L10m，深度不应小手2.10m。1.10m。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 计地面高度
+    unit: m
+    condition: null
+    min_value: 9.0
+    max_value: null
+  - name: 计地面高度
+    unit: m
+    condition: null
+    min_value: 33.0
+    max_value: null
+  - name: 轿厢门净宽
+    unit: m
+    condition: null
+    min_value: 0.9
+    max_value: null
+  - name: 厢长边尺寸
+    unit: m
+    condition: null
+    min_value: 1.6
+    max_value: null
+  - name: m短边尺寸
+    unit: m
+    condition: null
+    min_value: 1.5
+    max_value: null
+  - name: 时轿厢宽度
+    unit: m
+    condition: null
+    min_value: 10.0
+    max_value: null
+  - name: 度
+    unit: m
+    condition: null
+    min_value: 2.1
+    max_value: null
+  - name: 小手m
+    unit: m
+    condition: null
+    min_value: 1.1
+    max_value: 1.1
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#4.2.5
+  standard_code: GB 55038-2025
+  chapter: 4 建筑空间
+  section: ''
+  clause_no: 4.2.5
+  text: 既有住宅建筑加装电梯，不应影响建筑结构安全性和正常使用功能。加装电梯的载重量不应小于320kg，轿厢门净宽不应小于0.80m。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 梯的载重量
+    unit: kg
+    condition: null
+    min_value: 320.0
+    max_value: null
+  - name: 轿厢门净宽
+    unit: m
+    condition: null
+    min_value: 0.8
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#4.2.6
+  standard_code: GB 55038-2025
+  chapter: 4 建筑空间
+  section: ''
+  clause_no: 4.2.6
+  text: 电梯井应独立设置，且不应敷设与电梯无关的电缆、电线等。电梯井井壁上除开设电梯门洞、检修门洞和通气孔洞外，不应开设其他洞口。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#4.2.7
+  standard_code: GB 55038-2025
+  chapter: 4 建筑空间
+  section: ''
+  clause_no: 4.2.7
+  text: 公共出入口设置应符合下列规定：每个住宅单元至少应有1个无障碍公共山人口。双扇门时，至少应有1扇门的通行净宽不小于0.80m。启时的最远点至平台边缘的距离）不应小于1.50m。应采取防止坠物伤害的安全措施。公共出人口上方应设雨篷，雨篷的宽度不应小于门洞的宽度，雨篷的挑出长度应超过门扇开启时的最远点，且不应小于1.00m。阶和平台的临空侧面应设防护设施，且防护设施净高不应低于1.20m。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 通行净宽
+    unit: m
+    condition: null
+    min_value: 0.8
+    max_value: null
+  - name: 边缘的距离
+    unit: m
+    condition: null
+    min_value: 1.5
+    max_value: null
+  - name: 最远点且
+    unit: m
+    condition: null
+    min_value: 1.0
+    max_value: null
+  - name: 施净高
+    unit: m
+    condition: null
+    min_value: null
+    max_value: 1.2
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#4.2.8
+  standard_code: GB 55038-2025
+  chapter: 4 建筑空间
+  section: ''
+  clause_no: 4.2.8
+  text: 外廊、室内回廊、内天井、室外楼梯及上人屋面等临空处应设防护栏杆，且应符合下列规定的净距不应大于0.11m。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 净距
+    unit: m
+    condition: null
+    min_value: 0.11
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#4.2.9
+  standard_code: GB 55038-2025
+  chapter: 4 建筑空间
+  section: ''
+  clause_no: 4.2.9
+  text: 公共出入口内外公共走廊、公共楼梯、电梯厅等处的地面应采用防滑铺装，地面静摩擦系数（COF）不应小于0.6。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#4.2.10
+  standard_code: GB 55038-2025
+  chapter: 4 建筑空间
+  section: ''
+  clause_no: 4.2.10
+  text: 下列设备设施应设置在住宅建筑公共空间内：式阳台的雨水立管）、供暖（空调）供回水总立管、配电和弱电干线 (管等;公共管道阀门（必须设在套内的燃气引人管阀门除外）、电气设备及用于总体调节和检修的部件（套内排水立管检修口除外);室内供暖管沟和电缆沟的检查孔。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 必须
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#4.2.13
+  standard_code: GB 55038-2025
+  chapter: 4 建筑空间
+  section: ''
+  clause_no: 4.2.13
+  text: 新建住宅建筑采用太阳能热水系统、光伏系统时，应统一规划、同步设计、同步施工，且太阳能热水系统、光伏系统的设置应符合下列规定：应与建筑主体结构连接牢固；信息应采取防水、密封和排水构造措施；不应破坏住宅建筑防水层及附属设施住宅建筑结构的安全等级不应低于二级。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#5.0.2
+  standard_code: GB 55038-2025
+  chapter: 5 结构
+  section: ''
+  clause_no: 5.0.2
+  text: 住宅建筑的抗震设防类别不应低于标准设防类。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#5.0.3
+  standard_code: GB 55038-2025
+  chapter: 5 结构
+  section: ''
+  clause_no: 5.0.3
+  text: 住宅建筑结构应进行承载力极限状态、正常使用极限状态和耐久性设计，并应符合住宅建造过程的安全性要求以及结构设计工作年限内的可靠性要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#5.0.4
+  standard_code: GB 55038-2025
+  chapter: 5 结构
+  section: ''
+  clause_no: 5.0.4
+  text: 新建住宅建筑的钢筋混凝土结构实心楼板厚度不应小于 100mm。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 心楼板厚度
+    unit: mm
+    condition: null
+    min_value: 100.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#5.0.5
+  standard_code: GB 55038-2025
+  chapter: 5 结构
+  section: ''
+  clause_no: 5.0.5
+  text: 临近住宅建筑的永久性边坡的设计工作年限，不应低于受其影响的住宅建筑的结构设计工作年限。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#5.0.6
+  standard_code: GB 55038-2025
+  chapter: 5 结构
+  section: ''
+  clause_no: 5.0.6
+  text: 在住宅建筑设计工作年限内，地基基础应满足承载力、稳定性和耐久性要求，地基基础变形不应影响住宅建筑结构安全和正常使用。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#6.1.1
+  standard_code: GB 55038-2025
+  chapter: 6 室内环境
+  section: 6.1 声环境
+  clause_no: 6.1.1
+  text: 住宅建筑内电梯.水泵。变压器等共用设施设备及空调室外机或新风机组传播至卧室。起居室内的建筑设备结构噪声。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables:
+  - table_id: 表6.1.1
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表6.1.1规定的限值。表6.1.1卧室、起居室内的建筑设备结构噪声限值倍频带等效声压级LeM(dB)低频等效声级房间名称LAe,T,IL. (dB)125Hz63Hz31.5Hz250Hz卧室起居室
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#6.1.2
+  standard_code: GB 55038-2025
+  chapter: 6 室内环境
+  section: 6.1 声环境
+  clause_no: 6.1.2
+  text: 住宅卧室、起居室与相邻房间之间墙X楼板的隔声性能应符合下列规定：级差与粉红噪声频谱修正量之和(DnTC）不应小于50dB；其他分户墙及分户楼板两侧房间之间的计权标准化声压级差与粉红噪声频谱修正量之和（DnT,w十C）不应小于48dB。于 65dB。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 和DnTC
+    unit: d
+    condition: null
+    min_value: 50.0
+    max_value: null
+  - name: nTw十C
+    unit: d
+    condition: null
+    min_value: 48.0
+    max_value: null
+  - name: w十C
+    unit: d
+    condition: null
+    min_value: 65.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#6.1.3
+  standard_code: GB 55038-2025
+  chapter: 6 室内环境
+  section: ''
+  clause_no: 6.1.3
+  text: 住宅外墙、外门窗空气声隔声性能应符合下列规定：(Rw十Cr）不应小于45dB。交通噪声频谱修正量之和（Rw十Cu）不应小于35dB；其他外门窗的计权隔声量与交通噪声频谱修正量之和（Rw十Cr）不应小于30dB。的墙体，且应采取隔声包覆处理措施。上层卫生间排水时，在卧室内测得的排水噪声等效声级不应大于33dB。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: Rw十Cr
+    unit: d
+    condition: null
+    min_value: 45.0
+    max_value: null
+  - name: Rw十Cu
+    unit: d
+    condition: null
+    min_value: 35.0
+    max_value: null
+  - name: Rw十Cr
+    unit: d
+    condition: null
+    min_value: 30.0
+    max_value: null
+  - name: 效声级
+    unit: d
+    condition: null
+    min_value: 33.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#6.2.1
+  standard_code: GB 55038-2025
+  chapter: 6 室内环境
+  section: 6.2 光环境
+  clause_no: 6.2.1
+  text: 每套住宅应至少有一个卧室或起居室能满足日照标准。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#6.2.2
+  standard_code: GB 55038-2025
+  chapter: 6 室内环境
+  section: 6.2 光环境
+  clause_no: 6.2.2
+  text: 每套住宅卧室、起居室、厨房均应有直接采光。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#6.2.3
+  standard_code: GB 55038-2025
+  chapter: 6 室内环境
+  section: 6.2 光环境
+  clause_no: 6.2.3
+  text: ，住宅建筑公共区域的照度和一般显色指数不应低于表6，2。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#6.3.1
+  standard_code: GB 55038-2025
+  chapter: 6 室内环境
+  section: 6.3 热环境
+  clause_no: 6.3.1
+  text: 供暖住宅建筑的屋面.外墙 地面。与室外空气直接接触的楼面等的内表面在室内温、湿度设计条件下不应出现表面结露。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#6.3.2
+  standard_code: GB 55038-2025
+  chapter: 6 室内环境
+  section: 6.3 热环境
+  clause_no: 6.3.2
+  text: 夏季自然通风情况下，夏热冬暖、夏热冬冷和寒冷B区住宅建筑的外墙、屋面的内表面温度不应高于室外空气温度的最高值。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#6.3.3
+  standard_code: GB 55038-2025
+  chapter: 6 室内环境
+  section: 6.3 热环境
+  clause_no: 6.3.3
+  text: 每套住宅的自然通风开口面积不应小于地面面积的5，卧室、起居室、厨房应能自然通风,并应符合下列规定,1，卧室、起居室的直接自然通风开口面积不应小于该房间地面面积的5，当房间外设置阳台时,阳台的自然通风开口面积不应小于房间和阳台地面面积总和的5,2、厨房的自然通风开口面积不应小于该房间地面面积的10，且不应小于0 60m。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 风开口面积
+    unit: '%'
+    condition: null
+    min_value: 5.0
+    max_value: null
+  - name: 地面面积
+    unit: '%'
+    condition: null
+    min_value: 5.0
+    max_value: 5.0
+  - name: 未识别对象
+    unit: '%'
+    condition: null
+    min_value: 5.0
+    max_value: null
+  - name: 面积总和
+    unit: '%'
+    condition: null
+    min_value: 10.0
+    max_value: 10.0
+  - name: 积总和的且
+    unit: m²
+    condition: null
+    min_value: 0.6
+    max_value: null
+  - name: 未识别对象
+    unit: '%'
+    condition: null
+    min_value: 10.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#7.1.3
+  standard_code: GB 55038-2025
+  chapter: 7 建筑设备
+  section: 7.1 给水排水
+  clause_no: 7.1.3
+  text: 管理、安装、使用和检修。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#7.1.4
+  standard_code: GB 55038-2025
+  chapter: 7 建筑设备
+  section: 7.1 给水排水
+  clause_no: 7.1.4
+  text: 住宅应设生活热水系统或预留安装户式热水器的位置和管道。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#7.1.7
+  standard_code: GB 55038-2025
+  chapter: 7 建筑设备
+  section: 7.1 给水排水
+  clause_no: 7.1.7
+  text: 封深度不应小于50mm。构造内无存水弯的卫生器具及无水封的地漏与生活排水管道连接时，在排水口以下应设存水弯，其水封深度不得小于50mm。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 不得
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 封深度
+    unit: mm
+    condition: null
+    min_value: 50.0
+    max_value: null
+  - name: 其水封深度
+    unit: mm
+    condition: null
+    min_value: 50.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#7.1.8
+  standard_code: GB 55038-2025
+  chapter: 7 建筑设备
+  section: 7.1 给水排水
+  clause_no: 7.1.8
+  text: 生活污、废水不应排入雨水排水系统。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#7.1.9
+  standard_code: GB 55038-2025
+  chapter: 7 建筑设备
+  section: 7.1 给水排水
+  clause_no: 7.1.9
+  text: 住宅室内地面标高低于排水管接入的室外排水检查井井盖标高时，其卫生器具和地漏的排水应采用压力排水系统，并应采取防止倒灌的措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#7.2.1
+  standard_code: GB 55038-2025
+  chapter: 7 建筑设备
+  section: 7.2 供暖、通风与空调
+  clause_no: 7.2.1
+  text: 严寒和寒冷地区的住宅建筑应设供暖设施。夏热冬冷地区的住宅建筑应设供暖、空调设施或预留安装位置。夏热冬暖地区的住宅建筑应设空调设施或预留安装位置。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#7.2.2
+  standard_code: GB 55038-2025
+  chapter: 7 建筑设备
+  section: 7.2 供暖、通风与空调
+  clause_no: 7.2.2
+  text: 住宅建筑采用集中供暖系统时，卧室、起居室和卫生间冬季室内供暖计算温度不应低于18℃，厨房冬季室内供暖计算温度不应低于15℃。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#7.2.3
+  standard_code: GB 55038-2025
+  chapter: 7 建筑设备
+  section: 7.2 供暖、通风与空调
+  clause_no: 7.2.3
+  text: 住宅建筑采用集中供暖系统时，应采用热水作为热媒，并应采取可靠的水质保证措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#7.2.5
+  standard_code: GB 55038-2025
+  chapter: 7 建筑设备
+  section: 7.2 供暖、通风与空调
+  clause_no: 7.2.5
+  text: 供暖系统不应有冻结危险，并应采取热膨胀补偿措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#7.3.2
+  standard_code: GB 55038-2025
+  chapter: 7 建筑设备
+  section: ''
+  clause_no: 7.3.2
+  text: 住宅建筑采用管道供气方式时，应按每套住宅分别计量。燃气表的设置应便于使用、检修和保养，并应满足安全要求。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#7.3.3
+  standard_code: GB 55038-2025
+  chapter: 7 建筑设备
+  section: ''
+  clause_no: 7.3.3
+  text: 设置燃具的房间应符合下列规定：室的卧室等直接连通；气量；燃气热水器或燃气采暖热水炉的墙面或地面应能承受其荷载。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#7.3.4
+  standard_code: GB 55038-2025
+  chapter: 7 建筑设备
+  section: ''
+  clause_no: 7.3.4
+  text: 使用燃气的住宅应设燃具的排烟及排气装置，并应符合下列规定：应有防串烟措施；应回流至住宅建筑内或窜入相邻建筑物内；排气装置。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#7.4.1
+  standard_code: GB 55038-2025
+  chapter: 7 建筑设备
+  section: 7.4 电
+  clause_no: 7.4.1
+  text: 住宅建筑应设供配电系统。并应按用电负荷等级供电。住宅建筑主要用电负荷等级不应低于表7.4.1的规定。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables:
+  - table_id: 表7.4.1
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表7.4.1的规定。表住宅建筑主要用电负荷等级用电负荷住宅建筑高度主要用电负荷名称(H)等级>航空障碍照明、智能化系统机房、安全防范系统、一级电梯，排水泵、生活给水泵、值班照明》H>54m走道及楼梯照明二级智能化系统机房、安全防范系统、电梯、排水泵、27mHK54m生活给水泵、走道及楼梯照明、值班照明三级除上述一级负荷和二级负荷以外的用电负荷
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#7.4.3
+  standard_code: GB 55038-2025
+  chapter: 7 建筑设备
+  section: 7.4 电
+  clause_no: 7.4.3
+  text: 每套住宅应设家居配电箱，并应符合下列规定：的电源进线开关电器；电源配电回路应设短路和过负荷保护电器；电源插座回路均应加设剩余电流动作值不大于30mA的剩余电流动作保护电器。小于1.80m，保护电器双排布置的家居配电箱底边距离地面高度不应小于1.60m，家居配电箱的安装位置应便于使用和维修维护。的横截面面积不应小于10mm²。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 不应
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters:
+  - name: 流动作值
+    unit: m
+    condition: null
+    min_value: 30.0
+    max_value: null
+  - name: 作保护电器
+    unit: m
+    condition: null
+    min_value: null
+    max_value: 1.8
+  - name: 离地面高度
+    unit: m
+    condition: null
+    min_value: 1.6
+    max_value: null
+  - name: 横截面面积
+    unit: mm²
+    condition: null
+    min_value: 10.0
+    max_value: null
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#7.4.4
+  standard_code: GB 55038-2025
+  chapter: 7 建筑设备
+  section: ''
+  clause_no: 7.4.4
+  text: 住宅照明回路、空调电源插座回路、电热水器等2kW及以上的用电设备回路、厨房内的电源插座回路、其他功能用房的电源插座回路应分别设置。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#7.4.5
+  standard_code: GB 55038-2025
+  chapter: 7 建筑设备
+  section: ''
+  clause_no: 7.4.5
+  text: 住宅的电源插座均应采用安全型插座 卫生间设置的电源插座尚应加设防止水溅的措施 每套住宅电源插座的设置要求和数量应符合表7.4.5的规定，布置洗衣机,冰箱,排油烟机、排风机、电,燃气热水器。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables:
+  - table_id: 表7.4.5
+    type: parameter_table
+    note: 条件→参数查表（OCR合并正文，行列结构缺失）
+    content: 表7.4.5的规定，布置洗衣机、冰箱、排油烟机、排风机、电/燃气热水器、空调器处，尚应加设1个专用单相三孔电源插座。表7.4.5每套住宅电源插座的设置要求及数量数量设置要求名称(个/间）起居室、兼起居室的卧室单相两孔、三孔电源插座单相两孔、孔电源插座≥2厨房单相两孔、三孔电源插座≥3单相两孔、三孔电源插座卫生间
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#7.4.6
+  standard_code: GB 55038-2025
+  chapter: 7 建筑设备
+  section: ''
+  clause_no: 7.4.6
+  text: 年预计雷击次数大于0.25的住宅建筑应按不低于第二类防雷建筑物采取相应的防雷措施。其他可能发生地闪地区的住宅建筑，应按不低于第三类防雷建筑物采取相应的防雷措施。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    - 可
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#7.4.7
+  standard_code: GB 55038-2025
+  chapter: 7 建筑设备
+  section: ''
+  clause_no: 7.4.7
+  text: 进出住宅建筑的金属管道应与住宅建筑接地装置做等电位联结。装有固定浴盆或淋浴器的卫生间应设等电位联结作为附加防护。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#7.5.1
+  standard_code: GB 55038-2025
+  chapter: 7 建筑设备
+  section: 7.5 智能化
+  clause_no: 7.5.1
+  text: 住宅建筑应设通信系统。在公用电信网络已实现光纤传输的地区，住宅建筑的通信设施应采用光缆到户方式。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#7.5.2
+  standard_code: GB 55038-2025
+  chapter: 7 建筑设备
+  section: 7.5 智能化
+  clause_no: 7.5.2
+  text: 公共移动通信信号应能覆盖至住宅建筑的公共空间和电梯轿厢内。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#7.5.3
+  standard_code: GB 55038-2025
+  chapter: 7 建筑设备
+  section: 7.5 智能化
+  clause_no: 7.5.3
+  text: 住宅建筑应设有线电视系统。有线电视设施应采用光缆或同轴电缆以独立专线方式建设。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#7.5.4
+  standard_code: GB 55038-2025
+  chapter: 7 建筑设备
+  section: 7.5 智能化
+  clause_no: 7.5.4
+  text: 新建住宅项目的智能化系统设备用房和室外地下智能化系统管道应与住宅项目同步建设。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#7.5.5
+  standard_code: GB 55038-2025
+  chapter: 7 建筑设备
+  section: 7.5 智能化
+  clause_no: 7.5.5
+  text: 每套住宅应设家居配线箱，并应符合下列规定：设供电电源；电视系统信息端口；电视系统信息端口。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#7.5.6
+  standard_code: GB 55038-2025
+  chapter: 7 建筑设备
+  section: ''
+  clause_no: 7.5.6
+  text: 住宅建筑疏散通道上和出入口处的门禁应具备紧急情况下就地从内部手动解除的功能。
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words:
+    - 应
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types:
+    - IfcBuilding
+    - IfcSpace
+    activity_types:
+    - 住宅建筑设计
+  conflicts: []
+- id: GB 55038-2025#1.0.2
+  standard_code: GB 55038-2025
+  chapter: 1 总则
+  section: ''
+  clause_no: 1.0.2
+  text: 城镇住宅项目建设。使用和维护必须执行本规范.
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制（GB 55038-2025 全部条文强制）
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+- id: GB 55038-2025#2.2.12
+  standard_code: GB 55038-2025
+  chapter: 2 基本规定
+  section: 2.2 建设要求
+  clause_no: 2.2.12
+  text: 住宅建筑应具备与建筑高度相适应的灭火救援条件.
+  is_abolished: false
+  abolished_date: null
+  superseded_by: null
+  abolition_note: null
+  applicability:
+    scope: ''
+    conditions: []
+    exceptions: []
+  constraint:
+    modal_level: null
+    modal_words: []
+    is_mandatory_clause: true
+    mandatory_basis: 全文强制（GB 55038-2025 全部条文强制）
+  parameters: []
+  tables: []
+  converted_tables: []
+  references: []
+  related_objects:
+    component_types: []
+    activity_types: []
+  conflicts: []
+  _source: jianbiaoku_fulltext
+executable_rules:
+- rule_id: R_GB550382025_3_2_2_1
+  source_clause: GB 55038-2025#3.2.2
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 中绿地面积
+    unit: m
+    condition: null
+    min_value: 0.5
+  source_text: 居住街坊内应设集中绿地，并应符合下列规定：新区建设项目人均集中绿地面积不应小于0.50m，旧区改建项目人均集中绿地面积不应小于0.35m²；面积占比不应小于1/3，并应设老年人和儿童活动场地。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_3_2_2_2
+  source_clause: GB 55038-2025#3.2.2
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 中绿地面积
+    unit: m²
+    condition: null
+    min_value: 0.35
+  source_text: 居住街坊内应设集中绿地，并应符合下列规定：新区建设项目人均集中绿地面积不应小于0.50m，旧区改建项目人均集中绿地面积不应小于0.35m²；面积占比不应小于1/3，并应设老年人和儿童活动场地。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_3_2_4_1
+  source_clause: GB 55038-2025#3.2.4
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 自然坡度
+    unit: '%'
+    condition: null
+    min_value: 8.0
+  source_text: 住宅项目场地的自然坡度大于8.0%时，应采用台地式布局方式，并应符合下列规定：物的水平净距不应小于3.0m，其下缘与低台地上建筑物的水平净距不应小于2.OII。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_3_2_4_2
+  source_clause: GB 55038-2025#3.2.4
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 水平净距
+    unit: m
+    condition: null
+    min_value: 3.0
+  source_text: 住宅项目场地的自然坡度大于8.0%时，应采用台地式布局方式，并应符合下列规定：物的水平净距不应小于3.0m，其下缘与低台地上建筑物的水平净距不应小于2.OII。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_3_2_5_1
+  source_clause: GB 55038-2025#3.2.5
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 水设计坡度
+    unit: '%'
+    condition: null
+    min_value: 0.2
+  source_text: 住宅项目场地竖向设计应有利于雨水径流的控制和雨水的资源化利用，并应满足防洪排涝的要求。场地地面排水设计坡度不应小于0.2%。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_3_2_6_1
+  source_clause: GB 55038-2025#3.2.6
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 宅建筑高度
+    unit: m
+    condition: null
+    min_value: 10.0
+  source_text: 住宅建筑高度大于10m时，外墙面至道路边缘的最小距离，应符合
+  table_source: 表3.2.6
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_4_1_1_1
+  source_clause: GB 55038-2025#4.1.1
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 室使用面积
+    unit: m
+    condition: null
+    min_value: 5.0
+  source_text: 卧室的使用面积应符合下列规定：卧室使用面积不应小于5m；兼起居室的卧室使用面积不应小于9m²卧室短边净宽不应小于1.80m
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_4_1_1_2
+  source_clause: GB 55038-2025#4.1.1
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 室使用面积
+    unit: m²
+    condition: null
+    min_value: 9.0
+  source_text: 卧室的使用面积应符合下列规定：卧室使用面积不应小于5m；兼起居室的卧室使用面积不应小于9m²卧室短边净宽不应小于1.80m
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_4_1_1_3
+  source_clause: GB 55038-2025#4.1.1
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 室短边净宽
+    unit: m
+    condition: null
+    min_value: 1.8
+  source_text: 卧室的使用面积应符合下列规定：卧室使用面积不应小于5m；兼起居室的卧室使用面积不应小于9m²卧室短边净宽不应小于1.80m
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_4_1_4_1
+  source_clause: GB 55038-2025#4.1.4
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 使用面积
+    unit: m²
+    condition: null
+    min_value: 3.5
+  source_text: 厨房的使用面积不应小于3.5m²。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_4_1_6_1
+  source_clause: GB 55038-2025#4.1.6
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 使用面积
+    unit: m²
+    condition: null
+    min_value: 2.5
+  source_text: 每套住宅的卫生间应至少配置便器、洗浴器、洗面器三件卫生器具或预留安装位置及条件。布置便器的卫生间的门不应直接开在厨房内。便器、洗浴器和洗面器集中配置的卫生间的使用面积不应小于2.5m²。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_4_1_9_1
+  source_clause: GB 55038-2025#4.1.9
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 坡排水坡度
+    unit: '%'
+    condition: null
+    min_value: 1.0
+  source_text: 卫生间防水和防潮应符合下列规定：坡，排水坡度不应小于1%；于淋浴喷淋口高度，剩余墙面和顶棚应做防潮层或采取防潮措施；洗面器处墙面防水层高度不应小于1.20m；泛水翻起高度不应小于0.25m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_4_1_9_2
+  source_clause: GB 55038-2025#4.1.9
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 防水层高度
+    unit: m
+    condition: null
+    min_value: 1.2
+  source_text: 卫生间防水和防潮应符合下列规定：坡，排水坡度不应小于1%；于淋浴喷淋口高度，剩余墙面和顶棚应做防潮层或采取防潮措施；洗面器处墙面防水层高度不应小于1.20m；泛水翻起高度不应小于0.25m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_4_1_9_3
+  source_clause: GB 55038-2025#4.1.9
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 水翻起高度
+    unit: m
+    condition: null
+    min_value: 0.25
+  source_text: 卫生间防水和防潮应符合下列规定：坡，排水坡度不应小于1%；于淋浴喷淋口高度，剩余墙面和顶棚应做防潮层或采取防潮措施；洗面器处墙面防水层高度不应小于1.20m；泛水翻起高度不应小于0.25m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_4_1_12_1
+  source_clause: GB 55038-2025#4.1.12
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 高差
+    unit: m
+    condition: null
+    min_value: 0.015
+  source_text: 厨房、卫生间、封闭阳台与相邻空间地面的高差不应大于0.015m，并应以斜坡过渡；户门的门槛高度和户门内外高差均不应大于0.015m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_4_1_12_2
+  source_clause: GB 55038-2025#4.1.12
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 高差均
+    unit: m
+    condition: null
+    min_value: 0.015
+  source_text: 厨房、卫生间、封闭阳台与相邻空间地面的高差不应大于0.015m，并应以斜坡过渡；户门的门槛高度和户门内外高差均不应大于0.015m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_4_1_13_1
+  source_clause: GB 55038-2025#4.1.13
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 口过道净宽
+    unit: m
+    condition: null
+    min_value: 1.1
+  source_text: 套内入口过道净宽不应小于1.10m；通往卧室、起居室的过道净宽不应小于1.00m；通往厨房、卫生间、贮藏室的过道净宽不应小于0.90m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_4_1_13_2
+  source_clause: GB 55038-2025#4.1.13
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 过道净宽
+    unit: m
+    condition: null
+    min_value: 1.0
+  source_text: 套内入口过道净宽不应小于1.10m；通往卧室、起居室的过道净宽不应小于1.00m；通往厨房、卫生间、贮藏室的过道净宽不应小于0.90m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_4_1_13_3
+  source_clause: GB 55038-2025#4.1.13
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 过道净宽
+    unit: m
+    condition: null
+    min_value: 0.9
+  source_text: 套内入口过道净宽不应小于1.10m；通往卧室、起居室的过道净宽不应小于1.00m；通往厨房、卫生间、贮藏室的过道净宽不应小于0.90m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_4_1_14_1
+  source_clause: GB 55038-2025#4.1.14
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 门通行净宽
+    unit: m
+    condition: null
+    min_value: 0.9
+  source_text: 新建住宅建筑户门通行净宽不应小于0.90m，既有住宅建筑改造户门通行净宽不应小于0.80m。卧室门的通行净宽不应小于0.80m，厨房门和卫生间门的通行净宽不应小于0.70m，并应预留无障碍改造的条件。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_4_1_14_2
+  source_clause: GB 55038-2025#4.1.14
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 门通行净宽
+    unit: m
+    condition: null
+    min_value: 0.8
+  source_text: 新建住宅建筑户门通行净宽不应小于0.90m，既有住宅建筑改造户门通行净宽不应小于0.80m。卧室门的通行净宽不应小于0.80m，厨房门和卫生间门的通行净宽不应小于0.70m，并应预留无障碍改造的条件。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_4_1_14_3
+  source_clause: GB 55038-2025#4.1.14
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 通行净宽
+    unit: m
+    condition: null
+    min_value: 0.8
+  source_text: 新建住宅建筑户门通行净宽不应小于0.90m，既有住宅建筑改造户门通行净宽不应小于0.80m。卧室门的通行净宽不应小于0.80m，厨房门和卫生间门的通行净宽不应小于0.70m，并应预留无障碍改造的条件。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_4_1_14_4
+  source_clause: GB 55038-2025#4.1.14
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 通行净宽
+    unit: m
+    condition: null
+    min_value: 0.7
+  source_text: 新建住宅建筑户门通行净宽不应小于0.90m，既有住宅建筑改造户门通行净宽不应小于0.80m。卧室门的通行净宽不应小于0.80m，厨房门和卫生间门的通行净宽不应小于0.70m，并应预留无障碍改造的条件。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_4_1_15_1
+  source_clause: GB 55038-2025#4.1.15
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 列规定
+    unit: m
+    condition: null
+    min_value: 0.11
+  source_text: 设有阳台时，应符合下列规定：不应大于0.11m，阳台栏杆应采取防止攀登的措施；或花盆坠落的措施；开式阳台应采取有组织排水并采取防水措施；放置洗衣机的阳台地面应采取有组织排水并设置防水层；各套住宅之间毗连的阳台应设分户隔板
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_4_1_16_1
+  source_clause: GB 55038-2025#4.1.16
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 踏面起算且
+    unit: m
+    condition: null
+    min_value: 0.9
+  source_text: 配置防护设施，防护设施的高度应由室内地面或可登踏面起算，且不应小于0.90m。当凸窗窗台高度小于或等于0.45m时，其防护设施高度应从窗台面起算，且不应小于0.90m；当凸窗窗台高度大于0.45m时，其防护设施高度应从窗台面起算，且不应小于0.60m；凸窗的防护设施应贴外窗设置。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_4_1_16_2
+  source_clause: GB 55038-2025#4.1.16
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 窗窗台高度
+    unit: m
+    condition: null
+    max_value: 0.45
+  source_text: 配置防护设施，防护设施的高度应由室内地面或可登踏面起算，且不应小于0.90m。当凸窗窗台高度小于或等于0.45m时，其防护设施高度应从窗台面起算，且不应小于0.90m；当凸窗窗台高度大于0.45m时，其防护设施高度应从窗台面起算，且不应小于0.60m；凸窗的防护设施应贴外窗设置。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_4_1_16_3
+  source_clause: GB 55038-2025#4.1.16
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 台面起算且
+    unit: m
+    condition: null
+    min_value: 0.9
+  source_text: 配置防护设施，防护设施的高度应由室内地面或可登踏面起算，且不应小于0.90m。当凸窗窗台高度小于或等于0.45m时，其防护设施高度应从窗台面起算，且不应小于0.90m；当凸窗窗台高度大于0.45m时，其防护设施高度应从窗台面起算，且不应小于0.60m；凸窗的防护设施应贴外窗设置。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_4_1_16_4
+  source_clause: GB 55038-2025#4.1.16
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 窗窗台高度
+    unit: m
+    condition: null
+    min_value: 0.45
+  source_text: 配置防护设施，防护设施的高度应由室内地面或可登踏面起算，且不应小于0.90m。当凸窗窗台高度小于或等于0.45m时，其防护设施高度应从窗台面起算，且不应小于0.90m；当凸窗窗台高度大于0.45m时，其防护设施高度应从窗台面起算，且不应小于0.60m；凸窗的防护设施应贴外窗设置。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_4_1_16_5
+  source_clause: GB 55038-2025#4.1.16
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 台面起算且
+    unit: m
+    condition: null
+    min_value: 0.6
+  source_text: 配置防护设施，防护设施的高度应由室内地面或可登踏面起算，且不应小于0.90m。当凸窗窗台高度小于或等于0.45m时，其防护设施高度应从窗台面起算，且不应小于0.90m；当凸窗窗台高度大于0.45m时，其防护设施高度应从窗台面起算，且不应小于0.60m；凸窗的防护设施应贴外窗设置。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_4_1_17_1
+  source_clause: GB 55038-2025#4.1.17
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 净深之比
+    unit: m
+    condition: null
+    max_value: 1.2
+  source_text: 当住宅建筑凹口的净宽与净深之比小于13且净宽小于1.20m时，卧室和起居室的外窗不应设置在凹口内。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_4_2_1_1
+  source_clause: GB 55038-2025#4.2.1
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 定走廊净宽
+    unit: m
+    condition: null
+    min_value: 1.2
+  source_text: 设有公共走廊时，应符合下列规定走廊净宽不应小于1.20m，净高不应低于2.20m；当设置封闭外廊时，应设可开启的窗扇。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_4_2_2_1
+  source_clause: GB 55038-2025#4.2.2
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 其梯段净宽
+    unit: m
+    condition: null
+    min_value: 1.0
+  source_text: 公共楼梯的设置应符合下列规定：时，公共楼梯一边设有栏杆的，其梯段净宽不应小于1.00m；公共楼梯两侧均为墙体的，其梯段净宽不应小于1.10m。当最高入户层楼面距室外设计地面的高度超过15m时，公共楼梯的梯段净宽不应小于1.10m。0.175m，且同一个楼梯梯段踏步的宽度、高度均应
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_4_2_2_2
+  source_clause: GB 55038-2025#4.2.2
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 其梯段净宽
+    unit: m
+    condition: null
+    min_value: 1.1
+  source_text: 公共楼梯的设置应符合下列规定：时，公共楼梯一边设有栏杆的，其梯段净宽不应小于1.00m；公共楼梯两侧均为墙体的，其梯段净宽不应小于1.10m。当最高入户层楼面距室外设计地面的高度超过15m时，公共楼梯的梯段净宽不应小于1.10m。0.175m，且同一个楼梯梯段踏步的宽度、高度均应
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_4_2_2_3
+  source_clause: GB 55038-2025#4.2.2
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 地面的高度
+    unit: m
+    condition: null
+    min_value: 15.0
+  source_text: 公共楼梯的设置应符合下列规定：时，公共楼梯一边设有栏杆的，其梯段净宽不应小于1.00m；公共楼梯两侧均为墙体的，其梯段净宽不应小于1.10m。当最高入户层楼面距室外设计地面的高度超过15m时，公共楼梯的梯段净宽不应小于1.10m。0.175m，且同一个楼梯梯段踏步的宽度、高度均应
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_4_2_2_4
+  source_clause: GB 55038-2025#4.2.2
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 梯段净宽
+    unit: m
+    condition: null
+    min_value: 1.1
+  source_text: 公共楼梯的设置应符合下列规定：时，公共楼梯一边设有栏杆的，其梯段净宽不应小于1.00m；公共楼梯两侧均为墙体的，其梯段净宽不应小于1.10m。当最高入户层楼面距室外设计地面的高度超过15m时，公共楼梯的梯段净宽不应小于1.10m。0.175m，且同一个楼梯梯段踏步的宽度、高度均应
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_4_2_2_5
+  source_clause: GB 55038-2025#4.2.2
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 梯段净宽
+    unit: m
+    condition: null
+    min_value: 0.175
+  source_text: 公共楼梯的设置应符合下列规定：时，公共楼梯一边设有栏杆的，其梯段净宽不应小于1.00m；公共楼梯两侧均为墙体的，其梯段净宽不应小于1.10m。当最高入户层楼面距室外设计地面的高度超过15m时，公共楼梯的梯段净宽不应小于1.10m。0.175m，且同一个楼梯梯段踏步的宽度、高度均应
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_4_2_2_6
+  source_clause: GB 55038-2025#4.2.2
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 设明显标志
+    unit: m
+    condition: null
+    min_value: 0.5
+  source_text: 公共楼梯的设置应符合下列规定：时，公共楼梯一边设有栏杆的，其梯段净宽不应小于1.00m；公共楼梯两侧均为墙体的，其梯段净宽不应小于1.10m。当最高入户层楼面距室外设计地面的高度超过15m时，公共楼梯的梯段净宽不应小于1.10m。0.175m，且同一个楼梯梯段踏步的宽度、高度均应
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_4_2_2_7
+  source_clause: GB 55038-2025#4.2.2
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 段扶手高度
+    unit: m
+    condition: null
+    min_value: 1.2
+  source_text: 公共楼梯的设置应符合下列规定：时，公共楼梯一边设有栏杆的，其梯段净宽不应小于1.00m；公共楼梯两侧均为墙体的，其梯段净宽不应小于1.10m。当最高入户层楼面距室外设计地面的高度超过15m时，公共楼梯的梯段净宽不应小于1.10m。0.175m，且同一个楼梯梯段踏步的宽度、高度均应
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_4_2_2_8
+  source_clause: GB 55038-2025#4.2.2
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 间净距
+    unit: m
+    condition: null
+    min_value: 0.11
+  source_text: 公共楼梯的设置应符合下列规定：时，公共楼梯一边设有栏杆的，其梯段净宽不应小于1.00m；公共楼梯两侧均为墙体的，其梯段净宽不应小于1.10m。当最高入户层楼面距室外设计地面的高度超过15m时，公共楼梯的梯段净宽不应小于1.10m。0.175m，且同一个楼梯梯段踏步的宽度、高度均应
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_4_2_4_1
+  source_clause: GB 55038-2025#4.2.4
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 计地面高度
+    unit: m
+    condition: null
+    min_value: 9.0
+  source_text: 新建住宅建筑电梯设置应符合下列规定：外设计地面高度超过9m的住宅建筑，每个住宅单元应至少设置距室外设计地面高度超过33m的住宅建筑，每个住宅单元应至少设置2台电梯。要求：轿厢门净宽不应小于0.90m；采用宽轿厢时，轿厢长边尺寸不应小于1.60m，短边尺寸不应小于1.50m，采用深
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_4_2_4_2
+  source_clause: GB 55038-2025#4.2.4
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 计地面高度
+    unit: m
+    condition: null
+    min_value: 33.0
+  source_text: 新建住宅建筑电梯设置应符合下列规定：外设计地面高度超过9m的住宅建筑，每个住宅单元应至少设置距室外设计地面高度超过33m的住宅建筑，每个住宅单元应至少设置2台电梯。要求：轿厢门净宽不应小于0.90m；采用宽轿厢时，轿厢长边尺寸不应小于1.60m，短边尺寸不应小于1.50m，采用深
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_4_2_4_3
+  source_clause: GB 55038-2025#4.2.4
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 轿厢门净宽
+    unit: m
+    condition: null
+    min_value: 0.9
+  source_text: 新建住宅建筑电梯设置应符合下列规定：外设计地面高度超过9m的住宅建筑，每个住宅单元应至少设置距室外设计地面高度超过33m的住宅建筑，每个住宅单元应至少设置2台电梯。要求：轿厢门净宽不应小于0.90m；采用宽轿厢时，轿厢长边尺寸不应小于1.60m，短边尺寸不应小于1.50m，采用深
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_4_2_4_4
+  source_clause: GB 55038-2025#4.2.4
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 厢长边尺寸
+    unit: m
+    condition: null
+    min_value: 1.6
+  source_text: 新建住宅建筑电梯设置应符合下列规定：外设计地面高度超过9m的住宅建筑，每个住宅单元应至少设置距室外设计地面高度超过33m的住宅建筑，每个住宅单元应至少设置2台电梯。要求：轿厢门净宽不应小于0.90m；采用宽轿厢时，轿厢长边尺寸不应小于1.60m，短边尺寸不应小于1.50m，采用深
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_4_2_4_5
+  source_clause: GB 55038-2025#4.2.4
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: m短边尺寸
+    unit: m
+    condition: null
+    min_value: 1.5
+  source_text: 新建住宅建筑电梯设置应符合下列规定：外设计地面高度超过9m的住宅建筑，每个住宅单元应至少设置距室外设计地面高度超过33m的住宅建筑，每个住宅单元应至少设置2台电梯。要求：轿厢门净宽不应小于0.90m；采用宽轿厢时，轿厢长边尺寸不应小于1.60m，短边尺寸不应小于1.50m，采用深
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_4_2_4_6
+  source_clause: GB 55038-2025#4.2.4
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 时轿厢宽度
+    unit: m
+    condition: null
+    min_value: 10.0
+  source_text: 新建住宅建筑电梯设置应符合下列规定：外设计地面高度超过9m的住宅建筑，每个住宅单元应至少设置距室外设计地面高度超过33m的住宅建筑，每个住宅单元应至少设置2台电梯。要求：轿厢门净宽不应小于0.90m；采用宽轿厢时，轿厢长边尺寸不应小于1.60m，短边尺寸不应小于1.50m，采用深
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_4_2_4_7
+  source_clause: GB 55038-2025#4.2.4
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 度
+    unit: m
+    condition: null
+    min_value: 2.1
+  source_text: 新建住宅建筑电梯设置应符合下列规定：外设计地面高度超过9m的住宅建筑，每个住宅单元应至少设置距室外设计地面高度超过33m的住宅建筑，每个住宅单元应至少设置2台电梯。要求：轿厢门净宽不应小于0.90m；采用宽轿厢时，轿厢长边尺寸不应小于1.60m，短边尺寸不应小于1.50m，采用深
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_4_2_4_8
+  source_clause: GB 55038-2025#4.2.4
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 小手m
+    unit: m
+    condition: null
+    min_value: 1.1
+    max_value: 1.1
+  source_text: 新建住宅建筑电梯设置应符合下列规定：外设计地面高度超过9m的住宅建筑，每个住宅单元应至少设置距室外设计地面高度超过33m的住宅建筑，每个住宅单元应至少设置2台电梯。要求：轿厢门净宽不应小于0.90m；采用宽轿厢时，轿厢长边尺寸不应小于1.60m，短边尺寸不应小于1.50m，采用深
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_4_2_5_1
+  source_clause: GB 55038-2025#4.2.5
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 梯的载重量
+    unit: kg
+    condition: null
+    min_value: 320.0
+  source_text: 既有住宅建筑加装电梯，不应影响建筑结构安全性和正常使用功能。加装电梯的载重量不应小于320kg，轿厢门净宽不应小于0.80m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_4_2_5_2
+  source_clause: GB 55038-2025#4.2.5
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 轿厢门净宽
+    unit: m
+    condition: null
+    min_value: 0.8
+  source_text: 既有住宅建筑加装电梯，不应影响建筑结构安全性和正常使用功能。加装电梯的载重量不应小于320kg，轿厢门净宽不应小于0.80m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_4_2_7_1
+  source_clause: GB 55038-2025#4.2.7
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 通行净宽
+    unit: m
+    condition: null
+    min_value: 0.8
+  source_text: 公共出入口设置应符合下列规定：每个住宅单元至少应有1个无障碍公共山人口。双扇门时，至少应有1扇门的通行净宽不小于0.80m。启时的最远点至平台边缘的距离）不应小于1.50m。应采取防止坠物伤害的安全措施。公共出人口上方应设雨篷，雨篷的宽度不应小于门洞的宽度，雨篷的挑出长度应超过门
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_4_2_7_2
+  source_clause: GB 55038-2025#4.2.7
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 边缘的距离
+    unit: m
+    condition: null
+    min_value: 1.5
+  source_text: 公共出入口设置应符合下列规定：每个住宅单元至少应有1个无障碍公共山人口。双扇门时，至少应有1扇门的通行净宽不小于0.80m。启时的最远点至平台边缘的距离）不应小于1.50m。应采取防止坠物伤害的安全措施。公共出人口上方应设雨篷，雨篷的宽度不应小于门洞的宽度，雨篷的挑出长度应超过门
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_4_2_7_3
+  source_clause: GB 55038-2025#4.2.7
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 最远点且
+    unit: m
+    condition: null
+    min_value: 1.0
+  source_text: 公共出入口设置应符合下列规定：每个住宅单元至少应有1个无障碍公共山人口。双扇门时，至少应有1扇门的通行净宽不小于0.80m。启时的最远点至平台边缘的距离）不应小于1.50m。应采取防止坠物伤害的安全措施。公共出人口上方应设雨篷，雨篷的宽度不应小于门洞的宽度，雨篷的挑出长度应超过门
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_4_2_7_4
+  source_clause: GB 55038-2025#4.2.7
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 施净高
+    unit: m
+    condition: null
+    max_value: 1.2
+  source_text: 公共出入口设置应符合下列规定：每个住宅单元至少应有1个无障碍公共山人口。双扇门时，至少应有1扇门的通行净宽不小于0.80m。启时的最远点至平台边缘的距离）不应小于1.50m。应采取防止坠物伤害的安全措施。公共出人口上方应设雨篷，雨篷的宽度不应小于门洞的宽度，雨篷的挑出长度应超过门
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_4_2_8_1
+  source_clause: GB 55038-2025#4.2.8
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 净距
+    unit: m
+    condition: null
+    min_value: 0.11
+  source_text: 外廊、室内回廊、内天井、室外楼梯及上人屋面等临空处应设防护栏杆，且应符合下列规定的净距不应大于0.11m。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_5_0_4_1
+  source_clause: GB 55038-2025#5.0.4
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 心楼板厚度
+    unit: mm
+    condition: null
+    min_value: 100.0
+  source_text: 新建住宅建筑的钢筋混凝土结构实心楼板厚度不应小于 100mm。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_6_1_2_1
+  source_clause: GB 55038-2025#6.1.2
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 和DnTC
+    unit: d
+    condition: null
+    min_value: 50.0
+  source_text: 住宅卧室、起居室与相邻房间之间墙X楼板的隔声性能应符合下列规定：级差与粉红噪声频谱修正量之和(DnTC）不应小于50dB；其他分户墙及分户楼板两侧房间之间的计权标准化声压级差与粉红噪声频谱修正量之和（DnT,w十C）不应小于48dB。于 65dB。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_6_1_2_2
+  source_clause: GB 55038-2025#6.1.2
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: nTw十C
+    unit: d
+    condition: null
+    min_value: 48.0
+  source_text: 住宅卧室、起居室与相邻房间之间墙X楼板的隔声性能应符合下列规定：级差与粉红噪声频谱修正量之和(DnTC）不应小于50dB；其他分户墙及分户楼板两侧房间之间的计权标准化声压级差与粉红噪声频谱修正量之和（DnT,w十C）不应小于48dB。于 65dB。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_6_1_2_3
+  source_clause: GB 55038-2025#6.1.2
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: w十C
+    unit: d
+    condition: null
+    min_value: 65.0
+  source_text: 住宅卧室、起居室与相邻房间之间墙X楼板的隔声性能应符合下列规定：级差与粉红噪声频谱修正量之和(DnTC）不应小于50dB；其他分户墙及分户楼板两侧房间之间的计权标准化声压级差与粉红噪声频谱修正量之和（DnT,w十C）不应小于48dB。于 65dB。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_6_1_3_1
+  source_clause: GB 55038-2025#6.1.3
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: Rw十Cr
+    unit: d
+    condition: null
+    min_value: 45.0
+  source_text: 住宅外墙、外门窗空气声隔声性能应符合下列规定：(Rw十Cr）不应小于45dB。交通噪声频谱修正量之和（Rw十Cu）不应小于35dB；其他外门窗的计权隔声量与交通噪声频谱修正量之和（Rw十Cr）不应小于30dB。的墙体，且应采取隔声包覆处理措施。上层卫生间排水时，在卧室内测得的排水
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_6_1_3_2
+  source_clause: GB 55038-2025#6.1.3
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: Rw十Cu
+    unit: d
+    condition: null
+    min_value: 35.0
+  source_text: 住宅外墙、外门窗空气声隔声性能应符合下列规定：(Rw十Cr）不应小于45dB。交通噪声频谱修正量之和（Rw十Cu）不应小于35dB；其他外门窗的计权隔声量与交通噪声频谱修正量之和（Rw十Cr）不应小于30dB。的墙体，且应采取隔声包覆处理措施。上层卫生间排水时，在卧室内测得的排水
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_6_1_3_3
+  source_clause: GB 55038-2025#6.1.3
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: Rw十Cr
+    unit: d
+    condition: null
+    min_value: 30.0
+  source_text: 住宅外墙、外门窗空气声隔声性能应符合下列规定：(Rw十Cr）不应小于45dB。交通噪声频谱修正量之和（Rw十Cu）不应小于35dB；其他外门窗的计权隔声量与交通噪声频谱修正量之和（Rw十Cr）不应小于30dB。的墙体，且应采取隔声包覆处理措施。上层卫生间排水时，在卧室内测得的排水
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_6_1_3_4
+  source_clause: GB 55038-2025#6.1.3
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 效声级
+    unit: d
+    condition: null
+    min_value: 33.0
+  source_text: 住宅外墙、外门窗空气声隔声性能应符合下列规定：(Rw十Cr）不应小于45dB。交通噪声频谱修正量之和（Rw十Cu）不应小于35dB；其他外门窗的计权隔声量与交通噪声频谱修正量之和（Rw十Cr）不应小于30dB。的墙体，且应采取隔声包覆处理措施。上层卫生间排水时，在卧室内测得的排水
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_6_3_3_1
+  source_clause: GB 55038-2025#6.3.3
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 风开口面积
+    unit: '%'
+    condition: null
+    min_value: 5.0
+  source_text: 每套住宅的自然通风开口面积不应小于地面面积的5%。卧室、起居室、厨房应能自然通风，并应符合下列规定：地面面积的5%；当房间外设置阳台时，阳台的自然通风开口面积不应小于房间和阳台地面面积总和的5%。10%，且不应小于0.60m²；当厨房外设置阳台时，阳台的自然通风开口面积不应小于厨
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_6_3_3_2
+  source_clause: GB 55038-2025#6.3.3
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 地面面积
+    unit: '%'
+    condition: null
+    min_value: 5.0
+    max_value: 5.0
+  source_text: 每套住宅的自然通风开口面积不应小于地面面积的5%。卧室、起居室、厨房应能自然通风，并应符合下列规定：地面面积的5%；当房间外设置阳台时，阳台的自然通风开口面积不应小于房间和阳台地面面积总和的5%。10%，且不应小于0.60m²；当厨房外设置阳台时，阳台的自然通风开口面积不应小于厨
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_6_3_3_4
+  source_clause: GB 55038-2025#6.3.3
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 面积总和
+    unit: '%'
+    condition: null
+    min_value: 10.0
+    max_value: 10.0
+  source_text: 每套住宅的自然通风开口面积不应小于地面面积的5%。卧室、起居室、厨房应能自然通风，并应符合下列规定：地面面积的5%；当房间外设置阳台时，阳台的自然通风开口面积不应小于房间和阳台地面面积总和的5%。10%，且不应小于0.60m²；当厨房外设置阳台时，阳台的自然通风开口面积不应小于厨
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_6_3_3_5
+  source_clause: GB 55038-2025#6.3.3
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 积总和的且
+    unit: m²
+    condition: null
+    min_value: 0.6
+  source_text: 每套住宅的自然通风开口面积不应小于地面面积的5%。卧室、起居室、厨房应能自然通风，并应符合下列规定：地面面积的5%；当房间外设置阳台时，阳台的自然通风开口面积不应小于房间和阳台地面面积总和的5%。10%，且不应小于0.60m²；当厨房外设置阳台时，阳台的自然通风开口面积不应小于厨
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_7_1_7_1
+  source_clause: GB 55038-2025#7.1.7
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 封深度
+    unit: mm
+    condition: null
+    min_value: 50.0
+  source_text: 封深度不应小于50mm。构造内无存水弯的卫生器具及无水封的地漏与生活排水管道连接时，在排水口以下应设存水弯，其水封深度不得小于50mm。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_7_1_7_2
+  source_clause: GB 55038-2025#7.1.7
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 其水封深度
+    unit: mm
+    condition: null
+    min_value: 50.0
+  source_text: 封深度不应小于50mm。构造内无存水弯的卫生器具及无水封的地漏与生活排水管道连接时，在排水口以下应设存水弯，其水封深度不得小于50mm。
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_7_4_3_1
+  source_clause: GB 55038-2025#7.4.3
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 流动作值
+    unit: m
+    condition: null
+    min_value: 30.0
+  source_text: 每套住宅应设家居配电箱，并应符合下列规定：的电源进线开关电器；电源配电回路应设短路和过负荷保护电器；电源插座回路均应加设剩余电流动作值不大于30mA的剩余电流动作保护电器。小于1.80m，保护电器双排布置的家居配电箱底边距离地面高度不应小于1.60m，家居配电箱的安装位置应便于使
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_7_4_3_2
+  source_clause: GB 55038-2025#7.4.3
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 作保护电器
+    unit: m
+    condition: null
+    max_value: 1.8
+  source_text: 每套住宅应设家居配电箱，并应符合下列规定：的电源进线开关电器；电源配电回路应设短路和过负荷保护电器；电源插座回路均应加设剩余电流动作值不大于30mA的剩余电流动作保护电器。小于1.80m，保护电器双排布置的家居配电箱底边距离地面高度不应小于1.60m，家居配电箱的安装位置应便于使
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_7_4_3_3
+  source_clause: GB 55038-2025#7.4.3
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 离地面高度
+    unit: m
+    condition: null
+    min_value: 1.6
+  source_text: 每套住宅应设家居配电箱，并应符合下列规定：的电源进线开关电器；电源配电回路应设短路和过负荷保护电器；电源插座回路均应加设剩余电流动作值不大于30mA的剩余电流动作保护电器。小于1.80m，保护电器双排布置的家居配电箱底边距离地面高度不应小于1.60m，家居配电箱的安装位置应便于使
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+- rule_id: R_GB550382025_7_4_3_4
+  source_clause: GB 55038-2025#7.4.3
+  rule_type: validation
+  when:
+  - activity_type == '住宅建筑设计'
+  - component_type IN ['IfcBuilding', 'IfcSpace']
+  then:
+    parameter: 横截面面积
+    unit: mm²
+    condition: null
+    min_value: 10.0
+  source_text: 每套住宅应设家居配电箱，并应符合下列规定：的电源进线开关电器；电源配电回路应设短路和过负荷保护电器；电源插座回路均应加设剩余电流动作值不大于30mA的剩余电流动作保护电器。小于1.80m，保护电器双排布置的家居配电箱底边距离地面高度不应小于1.60m，家居配电箱的安装位置应便于使
+  table_source: null
+  auto_generated: true
+  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+extraction_notes:
+- 全文强制性工程建设规范，全部条文必须严格执行（2025-05-01 实施）。台账已登记。
