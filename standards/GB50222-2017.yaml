@@ -62,8 +62,8 @@ standard:
   - GB 50222-2017#4.0.18
   - GB 50222-2017#4.0.19
   - GB 50222-2017#4.0.20
-  - GB 50222-2017#5.1.2
   - GB 50222-2017#5.1.1
+  - GB 50222-2017#5.1.2
   - GB 50222-2017#5.1.3
   - GB 50222-2017#5.2.1
   - GB 50222-2017#5.2.2
@@ -568,8 +568,8 @@ clauses:
   - name: 干膜厚度
     unit: mm
     condition: null
-    min_value: 1.0
-    max_value: null
+    min_value: null
+    max_value: 1.0
   tables: []
   converted_tables: []
   references: []
@@ -1153,7 +1153,7 @@ clauses:
     is_mandatory_clause: false
     mandatory_basis: null
   parameters:
-  - name: 材料的距离
+  - name: 高温部位与装修材料距离
     unit: mm
     condition: null
     min_value: 500.0
@@ -2812,14 +2812,14 @@ executable_rules:
   - activity_type == '内部装修防火设计'
   - component_type IN ['IfcCovering', 'IfcWall', 'IfcCeiling', 'IfcDoor']
   then:
-    parameter: 位面积质量
+    parameter: 单位面积质量
     unit: g/m²
     condition: null
     max_value: 300.0
   source_text: 单位面积质量小于300g/m²的纸质、布质壁纸，当直接粘贴在A级基材上时，可作为B1级装修材料使用。
   table_source: null
   auto_generated: true
-  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+  note: 参数已人工校正（2026-09-08）：参数名与阈值方向已对照原文核定
 - rule_id: R_GB502222017_3_0_6_1
   source_clause: GB 50222-2017#3.0.6
   rule_type: validation
@@ -2827,14 +2827,14 @@ executable_rules:
   - activity_type == '内部装修防火设计'
   - component_type IN ['IfcCovering', 'IfcWall', 'IfcCeiling', 'IfcDoor']
   then:
-    parameter: 上湿涂覆比
+    parameter: 湿涂覆比
     unit: kg/m²
     condition: null
     max_value: 1.5
   source_text: 施涂于A级基材上的无机装修涂料，可作为A级装修材料使用；施涂于A级基材上，湿涂覆比小于1.5kg/m²，且涂层干膜厚度不大于1.0mm的有机装修涂料，可作为B1级装修材料使用。
   table_source: null
   auto_generated: true
-  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+  note: 参数已人工校正（2026-09-08）：参数名与阈值方向已对照原文核定
 - rule_id: R_GB502222017_3_0_6_2
   source_clause: GB 50222-2017#3.0.6
   rule_type: validation
@@ -2845,11 +2845,11 @@ executable_rules:
     parameter: 干膜厚度
     unit: mm
     condition: null
-    min_value: 1.0
+    max_value: 1.0
   source_text: 施涂于A级基材上的无机装修涂料，可作为A级装修材料使用；施涂于A级基材上，湿涂覆比小于1.5kg/m²，且涂层干膜厚度不大于1.0mm的有机装修涂料，可作为B1级装修材料使用。
   table_source: null
   auto_generated: true
-  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+  note: 参数已人工校正（2026-09-08）：参数名与阈值方向已对照原文核定
 - rule_id: R_GB502222017_4_0_16_1
   source_clause: GB 50222-2017#4.0.16
   rule_type: constraint
@@ -2857,16 +2857,16 @@ executable_rules:
   - activity_type == '内部装修防火设计'
   - component_type IN ['IfcCovering', 'IfcWall', 'IfcCeiling', 'IfcDoor']
   then:
-    parameter: 材料的距离
+    parameter: 高温部位与装修材料距离
     unit: mm
     condition: null
     min_value: 500.0
   source_text: 照明灯具及电气设备、线路的高温部位，当靠近非A级装修材料或构件时，应采取隔热、散热等防火保护措施，与窗帘、幕、幕布、软包等装修材料的距离不应小于500mm；灯饰应采用不低于B1级的材料。
   table_source: null
   auto_generated: true
-  note: 由参数自动生成，待人工精修（参数名/条件可能需校正）
+  note: 参数已人工校正（2026-09-08）：参数名与阈值方向已对照原文核定
 extraction_notes:
 - 4.0.5 已回源补录（2026-08-25）；5.1.1 正文已回源修复（降级句残片清除）。
-- 疑似残缺/误标条文 GB 50222-2017#5.1.1：'的基础上降低一级。'，建议核对源 PDF 重提取。
 - 示范本。源提取缺失 4.0.5、真实 5.1.1 及表5.1.1（降级句残片误标为 5.1.1），已写入 extraction_notes。
 - 2026-09-08 OCR 精细识别+官方PDF高清回源复核更新：4.0.19 文本 B1→B3；表5.1.1/表5.2.1 升级为装饰织物分列结构（窗帘/帷幕[/床罩/家具包布]）并归位至定义条文 5.1.1/5.2.1；表5.1.1 序号6其他行装饰织物 B2→—、表5.3.1 序号10固定家具 B2→B1；表6.0.5 定义归位至 6.0.5；清理引用条文的误挂表与 converted_tables 残片。
+- 2026-09-08 外部评审整改：3.0.6「干膜厚度」阈值方向 min→max 修正（原文为「不大于1.0mm」，此前镜像规则同错）；4.0.16 参数名「材料的距离」→「高温部位与装修材料距离」；3 条自动规则参数名碎片修正（位面积质量→单位面积质量、上湿涂覆比→湿涂覆比、材料的距离→高温部位与装修材料距离）并将 4 条规则 note 由「待人工精修」更新为已人工校正；standard.clauses 索引 5.1.1/5.1.2 顺序修正；清除已失效的「疑似残缺条文 5.1.1」旧记录。
