@@ -107,6 +107,9 @@ body.dragging .main{filter:brightness(.8)}
 [data-theme="light"] .b-abol{background:#ffe3e3;color:#a02020}
 .b-ok{background:var(--ok);color:#06120f}
 .b-modal{background:var(--panel3);color:var(--text);border:1px solid var(--border)}
+.b-pol-pos{background:rgba(55,138,221,.16);color:#378add;border:1px solid rgba(55,138,221,.45)}
+.b-pol-neg{background:rgba(226,75,74,.16);color:#e24b4a;border:1px solid rgba(226,75,74,.45)}
+.b-pol-mix{background:rgba(186,117,23,.16);color:#ba7517;border:1px solid rgba(186,117,23,.45)}
 .b-info{background:var(--accent2);color:#041426}
 .b-warn{background:var(--warn);color:#221703}
 .b-gray{background:var(--panel3);color:var(--muted);border:1px solid var(--border)}
@@ -169,6 +172,12 @@ body.dragging .main{filter:brightness(.8)}
 .linkbtn:hover{color:var(--accent)}
 .ctext{white-space:pre-wrap;word-break:break-word}
 .ctext mark,.kv mark,.rule mark{background:var(--mark);color:inherit;border-radius:2px}
+/* 术语卡片：text 开头 {中文: English} 时渲染 */
+.termcard{border-left:3px solid var(--accent);background:color-mix(in srgb,var(--accent) 8%,var(--panel));padding:.55rem .8rem;border-radius:6px;margin:.25rem 0}
+.term-head{display:flex;align-items:baseline;gap:.6rem;flex-wrap:wrap}
+.term-cn{font-weight:700;font-size:1.04rem}
+.term-en{color:var(--accent);font-style:italic;font-size:.95rem}
+.term-def{margin-top:.35rem;line-height:1.7;opacity:.94}
 .clause.abol .ctext{text-decoration:line-through;text-decoration-color:color-mix(in srgb,var(--danger) 60%,transparent)}
 
 /* ---------- 结构化信息 ---------- */
@@ -256,6 +265,102 @@ details.rawbox summary:hover{color:var(--accent)}
   border-radius:8px;padding:.8rem 1rem;color:var(--text);white-space:pre-wrap;font-size:.85rem;
 }
 .foot{color:var(--dim);font-size:.78rem;text-align:center;padding:2rem 0 1rem;border-top:1px solid var(--border);margin-top:2rem}
+/* ---------- 编辑模式 ---------- */
+body.editing [data-ep]{
+  outline:1px dashed color-mix(in srgb,var(--accent) 40%,transparent);
+  outline-offset:2px;border-radius:3px;cursor:text;
+}
+body.editing [data-ep]:hover{background:color-mix(in srgb,var(--accent) 10%,transparent)}
+body.editing [data-ep]:focus{
+  outline:2px solid var(--accent);background:var(--panel2);
+  box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 18%,transparent);
+}
+body.editing [data-ep][data-ep-kind="list"]:hover::after{
+  content:"（分号分隔多项）";font-size:.68rem;color:var(--dim);margin-left:.3rem;
+}
+body.editing [data-ep]:empty::after{
+  content:"（点击填写）";color:var(--dim);font-style:italic;font-size:.8rem;
+}
+body.editing [data-ep]:empty{display:inline-block;min-width:4rem}
+[data-ep].dirty{background:color-mix(in srgb,var(--warn) 16%,transparent);outline-color:var(--warn)}
+[data-ep].dirty::before{content:"●";color:var(--warn);font-size:.6rem;vertical-align:super;margin-right:.15rem}
+.ep-num{font-family:ui-monospace,Consolas,monospace}
+body.editing .cno{cursor:pointer}
+.tbtn{
+  background:none;border:1px solid var(--border);color:var(--muted);border-radius:4px;
+  font-size:.68rem;padding:0 .3rem;cursor:pointer;line-height:1.5;
+}
+.tbtn:hover{border-color:var(--accent);color:var(--accent)}
+.tbl-head{display:flex;align-items:center;gap:.4rem;flex-wrap:wrap;margin-bottom:.15rem}
+.tbl-head .cap{font-size:.8rem;color:var(--muted);font-weight:600}
+.tblsrc{
+  font-size:.68rem;color:var(--dim);border:1px solid var(--border);border-radius:4px;
+  padding:0 .3rem;white-space:nowrap;
+}
+pre.tbltext{
+  background:var(--panel2);border:1px dashed var(--border);border-radius:6px;
+  padding:.5rem .6rem;font-size:.76rem;white-space:pre-wrap;margin:0;
+  font-family:-apple-system,"Microsoft YaHei",sans-serif;line-height:1.65;max-height:22rem;overflow:auto;
+}
+.tblnote{font-size:.75rem;color:var(--muted);margin-top:.2rem;font-style:italic}
+
+/* ---------- 修订抽屉 ---------- */
+#revPanel{
+  position:fixed;top:0;right:0;bottom:0;width:440px;max-width:92vw;z-index:80;
+  background:var(--panel);border-left:1px solid var(--border);
+  box-shadow:-12px 0 40px rgba(0,0,0,.35);display:none;flex-direction:column;
+}
+#revPanel.open{display:flex}
+.rp-head{
+  display:flex;align-items:center;gap:.5rem;padding:.6rem .8rem;border-bottom:1px solid var(--border);
+}
+.rp-head b{font-size:.95rem}
+.rp-body{flex:1;overflow:auto;padding:.7rem .8rem}
+.rp-foot{border-top:1px solid var(--border);padding:.6rem .8rem;display:flex;gap:.4rem;flex-wrap:wrap}
+.rp-item{
+  border:1px solid var(--border);border-radius:8px;padding:.5rem .6rem;margin-bottom:.5rem;
+  background:var(--panel2);font-size:.82rem;
+}
+.rp-item.rev{opacity:.5}
+.rp-item .h{display:flex;align-items:center;gap:.4rem;margin-bottom:.25rem;flex-wrap:wrap}
+.rp-item .no{
+  font-family:ui-monospace,Consolas,monospace;color:var(--accent);font-weight:700;font-size:.85rem;
+}
+.rp-item .fd{font-size:.72rem;color:var(--dim);font-family:ui-monospace,Consolas,monospace}
+.rp-item .ts{font-size:.68rem;color:var(--dim);margin-left:auto}
+.diff{font-size:.78rem;line-height:1.6;word-break:break-word}
+.diff .old{color:var(--danger);text-decoration:line-through;opacity:.8}
+.diff .new{color:var(--ok)}
+.diff .arrow{color:var(--dim);margin:0 .25rem}
+.rp-empty{color:var(--dim);font-size:.85rem;text-align:center;padding:2rem 0}
+
+/* ---------- 模态 ---------- */
+.mask{
+  position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:90;display:none;
+  align-items:center;justify-content:center;padding:1.5rem;
+}
+.mask.open{display:flex}
+.modal{
+  background:var(--panel);border:1px solid var(--border);border-radius:12px;
+  max-width:900px;width:100%;max-height:88vh;display:flex;flex-direction:column;
+  box-shadow:0 20px 60px rgba(0,0,0,.5);
+}
+.modal .mh{padding:.7rem 1rem;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:.5rem}
+.modal .mb{padding:.8rem 1rem;overflow:auto;flex:1}
+.modal .mf{padding:.7rem 1rem;border-top:1px solid var(--border);display:flex;gap:.4rem;justify-content:flex-end;flex-wrap:wrap}
+.modal textarea{
+  width:100%;background:var(--panel2);border:1px solid var(--border);border-radius:6px;
+  padding:.5rem;color:var(--text);font-family:ui-monospace,Consolas,monospace;font-size:.8rem;resize:vertical;
+}
+.modal input[type=text]{
+  background:var(--panel2);border:1px solid var(--border);border-radius:6px;padding:.3rem .5rem;color:var(--text);
+}
+.dirtybar{
+  background:color-mix(in srgb,var(--warn) 18%,var(--panel));border:1px solid var(--warn);
+  border-radius:8px;padding:.45rem .8rem;font-size:.82rem;margin-bottom:.8rem;display:flex;
+  align-items:center;gap:.5rem;flex-wrap:wrap;
+}
+
 @media (max-width:900px){
   .sidebar{position:absolute;z-index:30;height:100%;box-shadow:0 0 30px rgba(0,0,0,.5)}
   .sidebar.narrow{position:static}
@@ -274,6 +379,7 @@ details.rawbox summary:hover{color:var(--accent)}
       <label class="btn" title="加载整个目录（Chrome/Edge）">选择文件夹
         <input type="file" id="dirInput" webkitdirectory multiple hidden>
       </label>
+      <button class="btn" id="btnConnect" title="连接文件夹并保留写入句柄，可「写回原文件」（Chrome/Edge）">🔗 连接(可回写)</button>
       <button class="btn" id="btnPaste">粘贴文本</button>
       <select id="fileSel" class="sel" title="已加载文件"></select>
       <input id="search" class="search" placeholder="搜索：条号 / 正文 / 参数 / 条件…">
@@ -286,6 +392,15 @@ details.rawbox summary:hover{color:var(--accent)}
       <button class="btn icon" id="btnFontS" title="缩小字号">A-</button>
       <button class="btn icon" id="btnFontL" title="放大字号">A+</button>
       <button class="btn icon" id="btnTheme" title="切换主题">◐</button>
+      <span style="width:1px;height:1.4rem;background:var(--border);margin:0 .15rem"></span>
+      <button class="btn" id="btnEdit" title="开启后可直接点字段修改">✎ 编辑模式</button>
+      <button class="btn" id="btnRev" title="修订记录 / 留痕 / 撤销">修订 <span id="revCount">0</span></button>
+      <div class="seg" id="expSeg" title="导出">
+        <button data-exp="yaml">导出 YAML</button>
+        <button data-exp="save">写回原文件</button>
+        <button data-exp="md">修订清单</button>
+        <button data-exp="py">修复脚本</button>
+      </div>
     </div>
   </header>
 
@@ -315,6 +430,37 @@ details.rawbox summary:hover{color:var(--accent)}
         <button class="btn" id="btnPaste2" style="padding:.45rem 1rem">粘贴文本</button>
       </div>
       <div class="dropzone-tip">检测到 standard + clauses 结构时自动进入「书模式」：章节目录 + 条文正文 + 适用范围 / 条件 / 例外 / 参数 / 表格 / 引用 / 规则</div>
+    </div>
+  </div>
+
+  <!-- 修订留痕抽屉 -->
+  <aside id="revPanel">
+    <div class="rp-head">
+      <b>修订记录（留痕）</b>
+      <span id="revStat" style="font-size:.75rem;color:var(--dim)"></span>
+      <button class="btn icon" id="rpClose" style="margin-left:auto" title="关闭">✕</button>
+    </div>
+    <div class="rp-body">
+      <div style="display:flex;gap:.4rem;align-items:center;margin-bottom:.6rem;flex-wrap:wrap">
+        <span style="font-size:.78rem;color:var(--muted)">操作人</span>
+        <input id="author" class="search" style="min-width:120px;padding:.2rem .5rem;font-size:.8rem" placeholder="署名，写入留痕">
+      </div>
+      <div id="revList"></div>
+    </div>
+    <div class="rp-foot">
+      <button class="btn" id="rpExportMd">导出清单 .md</button>
+      <button class="btn" id="rpExportJson">导出 .json</button>
+      <button class="btn" id="rpRevertAll" style="margin-left:auto;color:var(--danger)">全部还原</button>
+      <button class="btn" id="rpClear">清空记录</button>
+    </div>
+  </aside>
+
+  <!-- 通用模态 -->
+  <div class="mask" id="mask">
+    <div class="modal">
+      <div class="mh"><b id="mkTitle">编辑</b><button class="btn icon" id="mkClose" style="margin-left:auto">✕</button></div>
+      <div class="mb" id="mkBody"></div>
+      <div class="mf" id="mkFoot"></div>
     </div>
   </div>
 </div>
@@ -838,10 +984,447 @@ const S = {
   openCh: new Set(),    // 目录展开的章
   showStruct: true,
   rawClause: new Set(), // 显示原始结构的条文
+
+  /* ---- 编辑 / 留痕 ---- */
+  edit: false,
+  author: '',
+  changes: [],          // {id,ts,author,file,clause_no,path,field,before,after,status}
+  seq: 0,
+  handles: Object.create(null), // 文件名 -> FileSystemFileHandle（文件夹加载时才有）
+  dirHandle: null,        // 目录句柄，写回前用于生成 .bak 备份
 };
 
 const $ = function(id){ return document.getElementById(id); };
 const side = $('side'), content = $('content');
+
+/* =========================================================================
+   3.5 YAML 序列化（导出用）
+   目标：贴近 PyYAML(safe_dump, allow_unicode, default_flow_style=False) 风格
+   ========================================================================= */
+function dq(s){
+  return '"' + String(s).replace(/\\/g, '\\\\').replace(/"/g, '\\"')
+    .replace(/\n/g, '\\n').replace(/\r/g, '\\r').replace(/\t/g, '\\t') + '"';
+}
+function needsQuote(s){
+  if(s === '') return true;
+  if(/[\n\r]/.test(s)) return true;       // 含换行必须走双引号转义，否则会破坏行结构
+  if(/^[\s\u00a0]|[\s\u00a0]$/.test(s)) return true;
+  if(/^[-?:,\[\]{}#&*!|>'"%@`]/.test(s)) return true;
+  if(/:\s/.test(s) || /\s#/.test(s)) return true;
+  if(/:$/.test(s)) return true;            // 以冒号结尾：否则会被当成映射键
+  if(/^\s*[-?]\s/.test(s)) return true;   // "- x" / "? x" 开头：否则会被当成序列项
+  if(/^(true|false|null|yes|no|on|off|~)$/i.test(s)) return true;
+  if(/^[-+]?(\d+\.?\d*|\.\d+)([eE][-+]?\d+)?$/.test(s)) return true;
+  if(/^0[xXoO][0-9a-fA-F_]+$/.test(s)) return true;
+  if(/^[-+]?(\.inf|\.Inf|\.INF|\.nan)$/.test(s)) return true;
+  if(/[\x00-\x08\x0b\x0c\x0e-\x1f\uFFFE\uFFFF]/.test(s)) return true;
+  return false;
+}
+function scalarInline(v){
+  if(v === null || v === undefined) return 'null';
+  if(typeof v === 'boolean') return v ? 'true' : 'false';
+  if(typeof v === 'number') return isFinite(v) ? String(v) : (v > 0 ? '.inf' : '-.inf');
+  const s = String(v);
+  return needsQuote(s) ? dq(s) : s;
+}
+function keyLine(k){
+  const s = String(k);
+  return /[:#\n\r"'\u00a0]|^\s|\s$/.test(s) ? dq(s) : s;
+}
+function dumpNode(v, ind, out){
+  const pad = ' '.repeat(ind);
+  if(v === null || v === undefined){ out.push(pad + 'null'); return; }
+  if(typeof v === 'boolean' || typeof v === 'number'){ out.push(pad + scalarInline(v)); return; }
+  if(typeof v === 'string'){ out.push(pad + scalarInline(v)); return; }
+  if(Array.isArray(v)){
+    if(v.length === 0){ out.push(pad + '[]'); return; }
+    v.forEach(function(x){
+      if(x === null || typeof x !== 'object'){
+        out.push(pad + '- ' + scalarInline(x));
+      } else if((Array.isArray(x) && x.length === 0) ||
+                (!Array.isArray(x) && Object.keys(x).length === 0)){
+        out.push(pad + '- ' + (Array.isArray(x) ? '[]' : '{}'));
+      } else {
+        const sub = [];
+        dumpNode(x, ind + 2, sub);
+        sub[0] = pad + '- ' + sub[0].slice(ind + 2);
+        for(let i = 0; i < sub.length; i++) out.push(sub[i]);
+      }
+    });
+    return;
+  }
+  const keys = Object.keys(v);
+  if(keys.length === 0){ out.push(pad + '{}'); return; }
+  keys.forEach(function(k){
+    const val = v[k], kl = keyLine(k);
+    if(val === null || typeof val !== 'object'){
+      out.push(pad + kl + ': ' + scalarInline(val));
+    } else if((Array.isArray(val) && val.length === 0) ||
+              (!Array.isArray(val) && Object.keys(val).length === 0)){
+      out.push(pad + kl + ': ' + (Array.isArray(val) ? '[]' : '{}'));
+    } else {
+      out.push(pad + kl + ':');
+      dumpNode(val, ind + 2, out);
+    }
+  });
+}
+function YAMLDump(v, header){
+  const out = [];
+  if(header) out.push(header);
+  if(v !== null && typeof v === 'object' && !Array.isArray(v)){
+    const keys = Object.keys(v);
+    keys.forEach(function(k, i){
+      const val = v[k], kl = keyLine(k);
+      if(val === null || typeof val !== 'object'){
+        out.push(kl + ': ' + scalarInline(val));
+      } else if((Array.isArray(val) && val.length === 0) ||
+                (!Array.isArray(val) && Object.keys(val).length === 0)){
+        out.push(kl + ': ' + (Array.isArray(val) ? '[]' : '{}'));
+      } else {
+        out.push(kl + ':');
+        dumpNode(val, 2, out);
+      }
+    });
+  } else {
+    dumpNode(v, 0, out);
+  }
+  return out.join('\n') + '\n';
+}
+
+/* =========================================================================
+   3.6 修订留痕引擎
+   ========================================================================= */
+function nowStr(){
+  const d = new Date(), p = function(n){ return String(n).padStart(2, '0'); };
+  return d.getFullYear() + '-' + p(d.getMonth() + 1) + '-' + p(d.getDate()) + ' ' +
+         p(d.getHours()) + ':' + p(d.getMinutes()) + ':' + p(d.getSeconds());
+}
+/* 智能类型转换：编辑框拿到的是字符串，要还原成原字段的类型 */
+function coerce(raw, oldVal){
+  const s = String(raw).trim();
+  if(typeof oldVal === 'number'){
+    if(s === '' || s === 'null' || s === '—') return null;
+    const n = Number(s);
+    return isNaN(n) ? oldVal : n;
+  }
+  if(typeof oldVal === 'boolean'){
+    if(/^(true|1|是|yes|y)$/i.test(s)) return true;
+    if(/^(false|0|否|no|n)$/i.test(s)) return false;
+    return oldVal;
+  }
+  if(oldVal === null || oldVal === undefined){
+    if(s === '' || s === 'null' || s === '—') return null;
+    if(/^(true|false)$/i.test(s)) return s.toLowerCase() === 'true';
+    if(/^-?\d+(\.\d+)?$/.test(s)) return Number(s);
+    return s;
+  }
+  if(s === '' || s === '—') return null;
+  return s;
+}
+function applyEdit(path, raw, field, clauseNo){
+  const f = S.files[S.cur];
+  if(!f || !f.data) return false;
+  const oldVal = getByPath(f.data, path);
+  const oldTxt = (oldVal === null || oldVal === undefined) ? '' : asText(oldVal);
+  const newVal = coerce(raw, oldVal);
+  const newTxt = (newVal === null || newVal === undefined) ? '' : asText(newVal);
+  if(oldTxt === newTxt) return false;
+  if(!setByPath(f.data, path, newVal)){ toast('该字段不可写：' + path); return false; }
+  S.changes.push({
+    id: 'C' + String(++S.seq).padStart(4, '0'),
+    ts: nowStr(),
+    author: S.author || '（未署名）',
+    file: f.name,
+    clause_no: clauseNo || '',
+    path: path,
+    field: field || path.split('.').pop(),
+    before: oldTxt,
+    after: newTxt,
+    status: 'applied'
+  });
+  refreshRevUI();
+  return true;
+}
+/* 列表型字段（conditions / exceptions / component_types …）：换行或分号分隔 */
+function applyListEdit(path, raw, field, clauseNo){
+  const items = String(raw).split(/[\n;；]+/).map(function(x){ return x.trim(); }).filter(function(x){ return x !== ''; });
+  const f = S.files[S.cur];
+  const oldVal = getByPath(f.data, path);
+  if(Array.isArray(oldVal)){
+    const oldTxt = oldVal.map(function(x){ return asText(x); }).join('；');
+    if(oldTxt === items.join('；')) return false;
+  }
+  const old = Array.isArray(oldVal) ? oldVal.slice() : (oldVal === null || oldVal === undefined ? [] : [oldVal]);
+  if(!setByPath(f.data, path, items)) return false;
+  S.changes.push({
+    id: 'C' + String(++S.seq).padStart(4, '0'),
+    ts: nowStr(), author: S.author || '（未署名）', file: f.name,
+    clause_no: clauseNo || '', path: path, field: field || path.split('.').pop(),
+    before: old.map(function(x){ return typeof x === 'object' ? JSON.stringify(x) : String(x); }).join('；'),
+    after: items.join('；'), status: 'applied'
+  });
+  refreshRevUI();
+  return true;
+}
+function revertChange(id){
+  const ch = S.changes.filter(function(x){ return x.id === id; })[0];
+  if(!ch || ch.status === 'reverted') return;
+  const f = S.files[S.cur];
+  if(f && f.name === ch.file){
+    const oldVal = getByPath(f.data, ch.path);
+    setByPath(f.data, ch.path, coerce(ch.before, oldVal));
+  }
+  ch.status = 'reverted';
+  ch.reverted_at = nowStr();
+  refreshRevUI();
+  render();
+}
+function revertAll(){
+  S.changes.slice().reverse().forEach(function(ch){
+    if(ch.status === 'applied') revertChange(ch.id);
+  });
+}
+function pendingChanges(){ return S.changes.filter(function(c){ return c.status === 'applied'; }); }
+
+function refreshRevUI(){
+  const n = pendingChanges().length;
+  const el = $('revCount');
+  if(el) el.textContent = String(n);
+  const b = $('btnRev');
+  if(b) b.classList.toggle('on', n > 0);
+  const st = $('revStat');
+  if(st) st.textContent = '生效 ' + n + ' / 记录 ' + S.changes.length;
+  renderRevList();
+}
+function renderRevList(){
+  const box = $('revList');
+  if(!box) return;
+  if(!S.changes.length){ box.innerHTML = '<div class="rp-empty">还没有任何修改。<br>打开「编辑模式」后，直接点正文、适用范围、参数、表格等字段即可修改。</div>'; return; }
+  box.innerHTML = S.changes.slice().reverse().map(function(c){
+    return '<div class="rp-item' + (c.status === 'reverted' ? ' rev' : '') + '">' +
+      '<div class="h">' +
+        '<span class="no">' + esc(c.clause_no || '—') + '</span>' +
+        '<span class="fd">' + esc(c.field) + '</span>' +
+        '<span class="ts">' + esc(c.ts) + ' · ' + esc(c.author) + '</span>' +
+      '</div>' +
+      '<div class="fd" style="margin-bottom:.25rem">' + esc(c.id) + '  ' + esc(c.path) + '</div>' +
+      '<div class="diff">' +
+        '<span class="old">' + esc(short(c.before || '（空）', 160)) + '</span>' +
+        '<span class="arrow">→</span>' +
+        '<span class="new">' + esc(short(c.after || '（空）', 160)) + '</span>' +
+      '</div>' +
+      '<div style="margin-top:.3rem;display:flex;gap:.35rem">' +
+        (c.status === 'applied'
+          ? '<button class="tbtn" data-rev="' + esc(c.id) + '">还原此条</button>'
+          : '<span class="ts">已还原 ' + esc(c.reverted_at || '') + '</span>') +
+        '<button class="tbtn" data-del="' + esc(c.id) + '">删除记录</button>' +
+      '</div>' +
+    '</div>';
+  }).join('');
+}
+
+/* =========================================================================
+   3.7 导出 / 回写
+   ========================================================================= */
+function download(name, text, mime){
+  const blob = new Blob([text], {type: (mime || 'text/plain') + ';charset=utf-8'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url; a.download = name;
+  document.body.appendChild(a); a.click();
+  setTimeout(function(){ URL.revokeObjectURL(url); a.remove(); }, 400);
+}
+function baseName(n){ return String(n).replace(/\.(yaml|yml|json|txt)$/i, ''); }
+function stamp(){
+  const d = new Date(), p = function(x){ return String(x).padStart(2, '0'); };
+  return d.getFullYear() + p(d.getMonth() + 1) + p(d.getDate()) + '-' + p(d.getHours()) + p(d.getMinutes()) + p(d.getSeconds());
+}
+function exportYAML(){
+  const f = S.files[S.cur];
+  if(!f) return;
+  const hd = '# 由「YAML 通用阅读器」导出　源文件：' + f.name + '\n' +
+             '# 导出时间：' + nowStr() + '　操作人：' + (S.author || '（未署名）') + '\n' +
+             '# 本次修订：' + pendingChanges().length + ' 处（完整留痕见同名 .changes.md / .changes.json）\n';
+  download(baseName(f.name) + '.修订_' + stamp() + '.yaml', YAMLDump(f.data, hd), 'text/yaml');
+  toast('已导出 YAML（' + pendingChanges().length + ' 处修订已应用）');
+}
+function changesMD(){
+  const f = S.files[S.cur];
+  const pend = pendingChanges(), all = S.changes;
+  let s = '# 修订清单 · ' + (f ? f.name : '') + '\n\n' +
+    '- 导出时间：' + nowStr() + '\n' +
+    '- 操作人：' + (S.author || '（未署名）') + '\n' +
+    '- 生效修订：**' + pend.length + '** 处；累计记录 ' + all.length + ' 条（含已还原）\n\n';
+  if(!all.length) return s + '_本次没有修改。_\n';
+  s += '| # | 条号 | 字段 | 修改前 | 修改后 | 时间 | 操作人 | 状态 |\n|---|---|---|---|---|---|---|---|\n';
+  all.forEach(function(c, i){
+    const cut = function(x){ return String(x || '（空）').replace(/\|/g, '\\|').replace(/\n/g, ' '); };
+    s += '| ' + (i + 1) + ' | ' + (c.clause_no || '—') + ' | ' + c.field + ' | ' +
+         short(cut(c.before), 60) + ' | ' + short(cut(c.after), 60) + ' | ' + c.ts + ' | ' +
+         c.author + ' | ' + (c.status === 'applied' ? '生效' : '已还原') + ' |\n';
+  });
+  s += '\n## 明细\n\n';
+  all.forEach(function(c, i){
+    s += '### ' + (i + 1) + '. ' + (c.clause_no || '—') + ' · ' + c.field + '\n\n' +
+      '- 记录号：`' + c.id + '`　状态：' + (c.status === 'applied' ? '生效' : '已还原 ' + (c.reverted_at || '')) + '\n' +
+      '- 路径：`' + c.path + '`\n' +
+      '- 时间：' + c.ts + '　操作人：' + c.author + '\n\n' +
+      '**修改前**\n\n```\n' + (c.before || '（空）') + '\n```\n\n' +
+      '**修改后**\n\n```\n' + (c.after || '（空）') + '\n```\n\n';
+  });
+  return s;
+}
+function exportMD(){ download(baseName(S.files[S.cur].name) + '.changes_' + stamp() + '.md', changesMD(), 'text/markdown'); }
+function exportJSON(){
+  download(baseName(S.files[S.cur].name) + '.changes_' + stamp() + '.json',
+    JSON.stringify({file: S.files[S.cur].name, exported_at: nowStr(), author: S.author || '', changes: S.changes}, null, 2),
+    'application/json');
+}
+/* 生成可重放的 Python 修复脚本（与项目既有 _fix_*.py 范式一致） */
+function exportPy(){
+  const f = S.files[S.cur];
+  const pend = pendingChanges();
+  if(!pend.length){ toast('没有生效中的修订，无需生成脚本'); return; }
+  const pyEsc = function(s){ return JSON.stringify(s === null || s === undefined ? '' : String(s)); };
+  let body = '';
+  pend.forEach(function(c, i){
+    body += '\n    # ' + (i + 1) + '. ' + (c.clause_no || '') + ' · ' + c.field +
+            '（' + c.ts + ' · ' + c.author + '）\n';
+    body += '    SET(' + pyEsc(c.path) + ', ' + reprVal(c.after, c.before) + ')\n';
+  });
+  const src = '# -*- coding: utf-8 -*-\n' +
+'"""\n' +
+'自动生成的修订重放脚本\n' +
+'源文件 : ' + f.name + '\n' +
+'生成时间: ' + nowStr() + '\n' +
+'操作人  : ' + (S.author || '（未署名）') + '\n' +
+'修订条数: ' + pend.length + '\n\n' +
+'用法:\n' +
+'    python ' + baseName(f.name) + '_replay_' + stamp() + '.py            # 默认原地改（先备份 .bak）\n' +
+'    python ' + baseName(f.name) + '_replay_' + stamp() + '.py --out 新文件.yaml\n\n' +
+'说明: 路径语法 a.b@i ，@i 为数组下标（条号含点，不能当键名）。\n' +
+'"""\n' +
+'import sys, shutil, io, datetime, argparse\n' +
+'import yaml\n\n' +
+'SRC = ' + pyEsc(f.name) + '\n\n' +
+'def load(p):\n' +
+'    with io.open(p, encoding="utf-8") as fh:\n' +
+'        return yaml.safe_load(fh)\n\n' +
+'def parse_path(p):\n' +
+'    out = []\n' +
+'    for seg in p.split("."):\n' +
+'        if "@" in seg:\n' +
+'            k, i = seg.rsplit("@", 1)\n' +
+'            out.append((k, int(i)))\n' +
+'        else:\n' +
+'            out.append((seg, None))\n' +
+'    return out\n\n' +
+'def walk(doc, path, create=True):\n' +
+'    cur = doc\n' +
+'    for k, i in path[:-1]:\n' +
+'        cur = cur[k]\n' +
+'        if i is not None:\n' +
+'            cur = cur[i]\n' +
+'    return cur, path[-1]\n\n' +
+'def SET(path, value):\n' +
+'    global DOC, N\n' +
+'    parent, (k, i) = walk(DOC, parse_path(path))\n' +
+'    if i is None:\n' +
+'        parent[k] = value\n' +
+'    else:\n' +
+'        parent[k][i] = value\n' +
+'    N += 1\n' +
+'    print("  [ok] %s" % path)\n\n' +
+'def main():\n' +
+'    ap = argparse.ArgumentParser()\n' +
+'    ap.add_argument("--src", default=SRC)\n' +
+'    ap.add_argument("--out", default=None)\n' +
+'    a = ap.parse_args()\n\n' +
+'    global DOC, N\n' +
+'    DOC = load(a.src)\n' +
+'    N = 0\n' +
+body +
+'\n    out = a.out or a.src\n' +
+'    if out == a.src:\n' +
+'        bak = a.src + ".bak_replay_" + datetime.datetime.now().strftime("%Y%m%d-%H%M%S")\n' +
+'        shutil.copy2(a.src, bak)\n' +
+'        print("已备份 ->", bak)\n' +
+'    with io.open(out, "w", encoding="utf-8", newline="\\n") as fh:\n' +
+'        yaml.safe_dump(DOC, fh, allow_unicode=True, sort_keys=False,\n' +
+'                       default_flow_style=False, width=4096)\n' +
+'    print("完成: 应用 %d 处修订 -> %s" % (N, out))\n\n' +
+'if __name__ == "__main__":\n' +
+'    main()\n';
+  download(baseName(f.name) + '_replay_' + stamp() + '.py', src, 'text/x-python');
+}
+/* 把「修改后」的字符串还原成合适的 Python 字面量：能变数字就变数字，否则字符串 */
+function reprVal(afterTxt, beforeTxt){
+  const s = String(afterTxt === null || afterTxt === undefined ? '' : afterTxt);
+  if(s === '') return 'None';
+  if(/^-?\d+(\.\d+)?$/.test(s)) return s;
+  if(s === 'true' || s === 'false') return s === 'true' ? 'True' : 'False';
+  return JSON.stringify(s);
+}
+/* 回写原文件：需要 File System Access API + 通过「选择文件夹」加载 */
+async function saveBack(){
+  const f = S.files[S.cur];
+  if(!f) return;
+  const h = S.handles[f.name];
+  if(!h){
+    toast('当前文件没有可写句柄。请用「选择文件夹」加载，或用「导出 YAML」下载后手动覆盖。');
+    return;
+  }
+  try{
+    if(await ensurePerm(h, 'readwrite') === false) return;
+    /* 先写一份 .bak 备份到同一目录（若拿到了目录句柄） */
+    if(S.dirHandle){
+      try{
+        const bh = await S.dirHandle.getFileHandle(f.name + '.bak_rev_' + stamp(), {create: true});
+        const wb = await bh.createWritable();
+        await wb.write(f.text || '');
+        await wb.close();
+      }catch(e){ /* 备份失败不阻断写回 */ }
+    }
+    const text = YAMLDump(f.data, null);
+    const w = await h.createWritable();
+    await w.write(text);
+    await w.close();
+    toast('已写回原文件：' + f.name + '（同目录已留 .bak_rev_ 备份）');
+  }catch(e){ toast('写回失败：' + (e && e.message ? e.message : e)); }
+}
+async function ensurePerm(h, mode){
+  if(!h.queryPermission || !h.requestPermission) return true;
+  const opt = {mode: mode || 'readwrite'};
+  if(await h.queryPermission(opt) === 'granted') return true;
+  if(await h.requestPermission(opt) === 'granted') return true;
+  toast('未获得写入授权');
+  return false;
+}
+
+/* 轻量提示条 */
+let toastTimer = null;
+function toast(msg){
+  let el = $('toast');
+  if(!el){
+    el = document.createElement('div');
+    el.id = 'toast';
+    el.style.cssText = 'position:fixed;left:50%;bottom:2.2rem;transform:translateX(-50%);z-index:200;' +
+      'background:var(--panel3);border:1px solid var(--border);color:var(--text);padding:.5rem 1rem;' +
+      'border-radius:8px;font-size:.85rem;box-shadow:0 6px 24px rgba(0,0,0,.4);max-width:80vw';
+    document.body.appendChild(el);
+  }
+  el.textContent = msg;
+  el.style.display = 'block';
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(function(){ el.style.display = 'none'; }, 3200);
+}
+function openModal(title, bodyHTML, footHTML){
+  $('mkTitle').textContent = title;
+  $('mkBody').innerHTML = bodyHTML;
+  $('mkFoot').innerHTML = footHTML || '<button class="btn" id="mkCancel">关闭</button>';
+  $('mask').classList.add('open');
+}
+function closeModal(){ $('mask').classList.remove('open'); }
 
 /* =========================================================================
    4. 通用树渲染
@@ -873,7 +1456,8 @@ function treeHTML(key, val, path, depth, idxLabel){
 
   let valHTML = '';
   if(!isBranch){
-    if(t === 'string') valHTML = '<span class="v-str">' + hl(val, S.q) + '</span>';
+    if(S.edit) valHTML = '<span class="v-str">' + ed(val, path, path.split('.').pop(), '') + '</span>';
+    else if(t === 'string') valHTML = '<span class="v-str">' + hl(val, S.q) + '</span>';
     else if(t === 'number') valHTML = '<span class="v-num">' + esc(val) + '</span>';
     else if(t === 'boolean') valHTML = '<span class="v-bool">' + esc(val) + '</span>';
     else valHTML = '<span class="v-null">null</span>';
@@ -938,15 +1522,46 @@ function countNodes(v){
   else Object.keys(v).forEach(function(k){ n += countNodes(v[k]); });
   return n;
 }
-function getByPath(root, path){
-  if(!path) return root;
-  const parts = path.split('.');
+/* 路径语法：a.b.c，数组用 name@idx（因为条号本身含点，不能当 key） */
+function pathParts(path){
+  const out = [];
+  String(path).split('.').forEach(function(seg){
+    const toks = seg.split('@');
+    toks.forEach(function(tk, i){
+      if(i === 0) out.push({k: tk, i: -1});
+      else out.push({k: null, i: parseInt(tk, 10)});
+    });
+  });
+  return out;
+}
+function walkTo(root, ps, last){
   let cur = root;
-  for(const p of parts){
+  const n = last ? ps.length : ps.length - 1;
+  for(let i = 0; i < n; i++){
     if(cur === null || cur === undefined) return undefined;
-    cur = cur[p];
+    cur = ps[i].k === null ? cur[ps[i].i] : cur[ps[i].k];
+    if(ps[i].k !== null && ps[i].i >= 0) cur = cur[ps[i].i];
   }
   return cur;
+}
+function getByPath(root, path){
+  if(!path) return root;
+  const ps = pathParts(path);
+  return walkTo(root, ps, true);
+}
+function setByPath(root, path, val){
+  const ps = pathParts(path);
+  const cur = walkTo(root, ps, false);
+  if(cur === null || typeof cur !== 'object') return false;
+  const last = ps[ps.length - 1];
+  if(last.k === null){ cur[last.i] = val; return true; }
+  if(last.i >= 0){
+    if(!cur[last.k]) return false;
+    cur[last.k][last.i] = val;
+    return true;
+  }
+  cur[last.k] = val;
+  return true;
 }
 
 /* =========================================================================
@@ -980,6 +1595,9 @@ function renderBook(d){
 
   let clauses = (d.clauses || []).slice();
   clauses.sort(function(x, y){ return cmpClause(x.clause_no, y.clause_no); });
+  /* 条文在原始 d.clauses 中的真实下标（排序只影响副本，编辑路径必须用真实下标） */
+  const idxOf = new Map();
+  (d.clauses || []).forEach(function(c, i){ idxOf.set(c, i); });
 
   /* ---- 统计 ---- */
   let nMand = 0, nAbol = 0, nParam = 0, nCond = 0, nTable = 0, nRef = 0, nScope = 0;
@@ -1022,7 +1640,7 @@ function renderBook(d){
   /* ---- 封面 ---- */
   const relStd = arr(std.related_standards);
   const cover = '<div class="cover">' +
-    '<h1><span class="code">' + esc(std.code || '') + '</span>《' + esc(std.name || '') + '》</h1>' +
+    '<h1><span class="code">' + ed(std.code, 'standard.code', '标准编号') + '</span>《' + ed(std.name, 'standard.name', '标准名称') + '》</h1>' +
     '<div style="display:flex;gap:.35rem;flex-wrap:wrap;margin:.4rem 0">' +
       '<span class="badge ' + (std.is_abolished ? 'b-abol' : 'b-ok') + '">' + esc(std.status || '—') + '</span>' +
       (std.standard_category ? '<span class="badge b-gray">' + esc(std.standard_category) + '</span>' : '') +
@@ -1096,15 +1714,84 @@ function renderBook(d){
     ch.items.forEach(function(c){
       const sec = c.section || '';
       if(sec && sec !== curSec){ curSec = sec; body += '<h3 class="section">' + esc(sec) + '</h3>'; }
-      body += clauseHTML(c, ruleMap[c.id] || ruleMap[(c.standard_code || '') + '#' + c.clause_no] || [], ql);
+      body += clauseHTML(c, ruleMap[c.id] || ruleMap[(c.standard_code || '') + '#' + c.clause_no] || [], ql, idxOf.get(c));
     });
   });
-  content.innerHTML = cover + stats + filterBar +
+  content.innerHTML = editBar() + dirtyBar() + cover + stats + filterBar +
     (visible.length ? body : '<div class="dimnote">没有命中的条文，试试清空搜索或切换筛选。</div>') +
     '<div class="foot">共 ' + visible.length + ' 条 · 由本地 YAML 阅读器渲染</div>';
+  markDirty();
+}
+function editBar(){
+  if(!S.edit) return '';
+  return '<div class="dirtybar" style="border-color:var(--accent);background:color-mix(in srgb,var(--accent) 12%,var(--panel))">' +
+    '✎ <b>编辑模式已开启</b>：直接点击条文正文、适用范围、条件/例外、参数单元格即可修改，失焦即自动生成一条留痕；表格点「编辑表格」批量改。' +
+    '</div>';
+}
+function dirtyBar(){
+  const n = pendingChanges().length;
+  if(!n) return '';
+  return '<div class="dirtybar">⚠ 已修改 <b>' + n + '</b> 处，尚未写回文件。' +
+    '<button class="btn" data-act="openrev" style="padding:.15rem .5rem">查看留痕</button>' +
+    '<button class="btn" data-act="expyaml" style="padding:.15rem .5rem">导出 YAML</button>' +
+    '<button class="btn" data-act="saveback" style="padding:.15rem .5rem">写回原文件</button>' +
+    '</div>';
+}
+/* 把已改动的字段标黄 */
+function markDirty(){
+  const paths = Object.create(null);
+  pendingChanges().forEach(function(c){ paths[c.path] = true; });
+  content.querySelectorAll('[data-ep]').forEach(function(el){
+    if(paths[el.getAttribute('data-ep')]) el.classList.add('dirty');
+  });
 }
 
-function clauseHTML(c, crules, ql){
+function cnOf(v){ return String(v == null ? '' : v).split('/')[0]; }
+function enOf(v){ const p = String(v == null ? '' : v).split('/'); return p.length > 1 ? p[1] : ''; }
+function polCls(p){
+  if(/反面/.test(p)) return 'b-pol-neg';
+  if(/并存/.test(p)) return 'b-pol-mix';
+  return 'b-pol-pos';
+}
+function constraintBadges(ct){
+  let s = '';
+  // 已被 strictness 主语气词或 modal_words_primary 占位的词，不再重复显示为独立 badge，
+  // 避免「应 正面 应」这种重复（如 GB50222 1.0.3）。
+  const shown = Object.create(null);
+  if(ct.strictness) shown[cnOf(ct.strictness)] = true;
+  arr(ct.modal_words_primary).forEach(function(w){ shown[cnOf(w)] = true; });
+  if(ct.strictness){
+    const t = esc(ct.strictness) + (enOf(ct.strictness) ? ' · ' + esc(enOf(ct.strictness)) : '');
+    s += '<span class="badge b-modal" title="' + t + '">' + esc(cnOf(ct.strictness)) + '</span>';
+  } else if(ct.modal_level){
+    s += '<span class="badge b-modal">' + esc(ct.modal_level) + '</span>';
+  }
+  const p = ct.polarity;
+  if(p && String(p).indexOf('无') !== 0){
+    s += '<span class="badge ' + polCls(p) + '" title="' + esc(p) + '">' + esc(cnOf(p)) + '</span>';
+  }
+  s += arr(ct.modal_words).filter(function(w){
+    return !shown[cnOf(w)];
+  }).map(function(w){
+    return '<span class="badge b-modal" title="语气词：' + esc(w) + '">' + esc(w) + '</span>';
+  }).join('');
+  return s;
+}
+
+/* 术语卡片：text 开头 {中文: English} 时三段渲染，否则按普通正文 */
+function termCardHTML(t, ql){
+  var m = String(t == null ? '' : t).match(/^\s*\{\s*([^:：]+?)\s*[:：]\s*([^}]+?)\s*\}\s*([\s\S]*)$/);
+  if(!m) return hl(t, ql);
+  var cn = m[1].trim(), en = m[2].trim(), def = m[3];
+  return '<div class="termcard">' +
+    '<div class="term-head"><span class="term-cn">' + esc(cn) + '</span>' +
+    '<span class="term-en">' + esc(en) + '</span></div>' +
+    (def ? '<div class="term-def">' + hl(def, ql) + '</div>' : '') +
+    '</div>';
+}
+
+function clauseHTML(c, crules, ql, ci){
+  const cbase = 'clauses@' + ci;
   const ct = c.constraint || {};
   const ap = c.applicability || {};
   const mand = ct.is_mandatory_clause === true || c.is_mandatory_clause === true;
@@ -1122,50 +1809,74 @@ function clauseHTML(c, crules, ql){
     (mand ? '<span class="badge b-mand">强条</span>' : '') +
     (abol ? '<span class="badge b-abol">已废止' + (c.superseded_by ? ' → ' + esc(c.superseded_by) : '') + '</span>' : '') +
     (isCommentary ? '<span class="badge b-gray">条文说明</span>' : '') +
-    (ct.modal_level ? '<span class="badge b-modal">' + esc(ct.modal_level) + '</span>' : '') +
-    arr(ct.modal_words).map(function(w){ return '<span class="badge b-modal">' + esc(w) + '</span>'; }).join('') +
+    constraintBadges(ct) +
     '<span class="spacer"></span>' +
     '<button class="linkbtn" data-raw="' + esc(c.clause_no) + '">原始结构</button>' +
   '</div>';
-  h += '<div class="ctext">' + hl(c.text, ql) + '</div>';
+  h += '<div class="ctext">' + (S.edit
+    ? ed(c.text, cbase + '.text', '条文正文', c.clause_no)
+    : termCardHTML(c.text, ql)) + '</div>';
 
   if(S.showStruct){
     const parts = [];
-    if(ap.scope) parts.push(kvHTML('适用范围', ap.scope, ql));
-    if(arr(ap.conditions).length)
-      parts.push('<div class="kv"><span class="lbl">适用条件</span><span class="val"><span class="chips">' +
-        arr(ap.conditions).map(function(x){ return '<span class="chip cond">' + hl(chipText(x), ql) + '</span>'; }).join('') + '</span></span></div>');
-    if(arr(ap.exceptions).length)
-      parts.push('<div class="kv"><span class="lbl">例外 / 排除</span><span class="val"><span class="chips">' +
-        arr(ap.exceptions).map(function(x){ return '<span class="chip exc">' + hl(chipText(x), ql) + '</span>'; }).join('') + '</span></span></div>');
+    if(ap.scope || S.edit)
+      parts.push('<div class="kv"><span class="lbl">适用范围</span><span class="val">' +
+        (S.edit ? ed(ap.scope, cbase + '.applicability.scope', '适用范围', c.clause_no) : hl(ap.scope, ql)) +
+        '</span></div>');
+    if(arr(ap.conditions).length || S.edit)
+      parts.push('<div class="kv"><span class="lbl">适用条件</span><span class="val">' +
+        (S.edit
+          ? ed(arr(ap.conditions).map(chipText).join('；'), cbase + '.applicability.conditions', '适用条件', c.clause_no, 'list')
+          : '<span class="chips">' + arr(ap.conditions).map(function(x){ return '<span class="chip cond">' + hl(chipText(x), ql) + '</span>'; }).join('') + '</span>') +
+        '</span></div>');
+    if(arr(ap.exceptions).length || S.edit)
+      parts.push('<div class="kv"><span class="lbl">例外 / 排除</span><span class="val">' +
+        (S.edit
+          ? ed(arr(ap.exceptions).map(chipText).join('；'), cbase + '.applicability.exceptions', '例外/排除', c.clause_no, 'list')
+          : '<span class="chips">' + arr(ap.exceptions).map(function(x){ return '<span class="chip exc">' + hl(chipText(x), ql) + '</span>'; }).join('') + '</span>') +
+        '</span></div>');
+
+    const cis = arr(ct.constraint_items);
+    if(cis.length){
+      parts.push('<div class="kv"><span class="lbl">条内拆分</span><span class="val" style="overflow:auto">' +
+        '<table class="mini"><thead><tr><th>#</th><th>分句</th><th>等级</th><th>极性</th><th>语气词</th></tr></thead><tbody>' +
+        cis.map(function(it){
+          return '<tr>' +
+            '<td>' + esc(it.seq) + '</td>' +
+            '<td>' + hl(it.text_segment, ql) + '</td>' +
+            '<td>' + (it.strictness ? '<span class="badge b-modal" title="' + esc(it.strictness) + '">' + esc(cnOf(it.strictness)) + '</span>' : '—') + '</td>' +
+            '<td>' + (it.polarity ? '<span class="badge ' + polCls(it.polarity) + '" title="' + esc(it.polarity) + '">' + esc(cnOf(it.polarity)) + '</span>' : '—') + '</td>' +
+            '<td>' + esc(it.modal_word || '—') + '</td></tr>';
+        }).join('') + '</tbody></table>' +
+        '<div class="dimnote">本条正反面语气并存，已按分句细化；上层 polarity 标记为「正反并存/mixed」。</div>' +
+        '</span></div>');
+    }
 
     const ps = arr(c.parameters);
     if(ps.length){
       parts.push('<div class="kv"><span class="lbl">参数阈值</span><span class="val" style="overflow:auto">' +
-        '<table class="mini"><thead><tr><th>参数</th><th>条件</th><th>阈值</th><th>单位</th></tr></thead><tbody>' +
-        ps.map(function(p){
-          return '<tr><td>' + hl(p.name, ql) + '</td><td>' + hl(chipText(p.condition) || '—', ql) + '</td>' +
-                 '<td><b style="color:var(--danger)">' + esc(paramLimit(p)) + '</b></td>' +
-                 '<td>' + esc(p.unit || '—') + '</td></tr>' +
-                 (p._v21_param_note ? '<tr><td colspan="4" class="dimnote">注：' + esc(p._v21_param_note) + '</td></tr>' : '');
-        }).join('') + '</tbody></table></span></div>');
+        '<table class="mini"><thead><tr><th>参数</th><th>条件</th>' +
+        (S.edit ? '<th>下限 min</th><th>上限 max</th>' : '<th>阈值</th>') +
+        '<th>单位</th></tr></thead><tbody>' +
+        ps.map(function(p, pi){
+          const pb = cbase + '.parameters@' + pi;
+          const cell = function(v, fld){ return S.edit ? ed(v, pb + '.' + fld, '参数·' + fld, c.clause_no) : hl(v, ql); };
+          return '<tr>' +
+            '<td>' + cell(p.name, 'name') + '</td>' +
+            '<td>' + (S.edit ? cell(p.condition, 'condition') : hl(chipText(p.condition) || '—', ql)) + '</td>' +
+            (S.edit
+              ? '<td class="ep-num">' + ed(p.min_value, pb + '.min_value', '参数·下限', c.clause_no) + '</td>' +
+                '<td class="ep-num">' + ed(p.max_value, pb + '.max_value', '参数·上限', c.clause_no) + '</td>'
+              : '<td><b style="color:var(--danger)">' + esc(paramLimit(p)) + '</b></td>') +
+            '<td>' + cell(p.unit, 'unit') + '</td></tr>' +
+            (p._v21_param_note ? '<tr><td colspan="5" class="dimnote">注：' + esc(p._v21_param_note) + '</td></tr>' : '');
+        }).join('') + '</tbody></table>' +
+        (S.edit ? '<div class="dimnote">提示：下限/上限填数字，留空表示 null；「不应大于 X」填上限，「不应低于 X」填下限。</div>' : '') +
+        '</span></div>');
     }
 
-    arr(c.tables).forEach(function(t){
-      const heads = arr(t.headers), rows = arr(t.rows);
-      let th = '';
-      if(rows.length){
-        th += '<div class="kv"><span class="lbl">' + esc(t.type || 'table') + '</span><span class="val">' +
-          '<div class="tbwrap"><table class="data">' +
-          (t.id || t.description ? '<caption>' + esc(t.id || '') + ' ' + esc(t.description || '') + '</caption>' : '') +
-          (heads.length ? '<thead><tr>' + heads.map(function(x){ return '<th>' + esc(x) + '</th>'; }).join('') + '</tr></thead>' : '') +
-          '<tbody>' + rows.map(function(r){
-            if(Array.isArray(r)) return '<tr>' + r.map(function(x){ return '<td>' + esc(asText(x)) + '</td>'; }).join('') + '</tr>';
-            if(r && typeof r === 'object') return '<tr>' + Object.keys(r).map(function(k){ return '<td><b>' + esc(k) + '</b>：' + esc(asText(r[k])) + '</td>'; }).join('') + '</tr>';
-            return '<tr><td>' + esc(asText(r)) + '</td></tr>';
-          }).join('') + '</tbody></table></div></span></div>';
-      }
-      parts.push(th);
+    arr(c.tables).forEach(function(t, ti){
+      parts.push(tableHTML(t, ql, cbase + '.tables@' + ti, c.clause_no));
     });
 
     arr(c.converted_tables).forEach(function(t){
@@ -1228,8 +1939,8 @@ function clauseHTML(c, crules, ql){
         '</div></span></div>');
     });
 
-    if(c.abolition_note) parts.push(kvHTML('废止说明', c.abolition_note, ql));
-    if(ct.mandatory_basis) parts.push(kvHTML('强条依据', ct.mandatory_basis, ql));
+    if(c.abolition_note || S.edit) parts.push(kvHTML('废止说明', c.abolition_note, ql, cbase + '.abolition_note', c.clause_no));
+    if(ct.mandatory_basis || S.edit) parts.push(kvHTML('强条依据', ct.mandatory_basis, ql, cbase + '.constraint.mandatory_basis', c.clause_no));
 
     if(parts.length) h += '<div class="struct">' + parts.join('') + '</div>';
   }
@@ -1242,8 +1953,191 @@ function clauseHTML(c, crules, ql){
   h += '</article>';
   return h;
 }
-function kvHTML(label, val, ql){
-  return '<div class="kv"><span class="lbl">' + esc(label) + '</span><span class="val">' + hl(val, ql) + '</span></div>';
+function kvHTML(label, val, ql, epPath, cno){
+  const body = (S.edit && epPath)
+    ? ed(val, epPath, label, cno)
+    : hl(val, ql);
+  return '<div class="kv"><span class="lbl">' + esc(label) + '</span><span class="val">' + body + '</span></div>';
+}
+/* 可编辑包裹：非编辑态就是普通文本，编辑态变成 contenteditable + 路径标记 */
+function ed(val, path, field, cno, kind){
+  if(!S.edit) return esc(val === null || val === undefined ? '' : val);
+  const txt = (val === null || val === undefined) ? '' : String(val);
+  return '<span contenteditable="true" data-ep="' + esc(path) + '"' +
+    ' data-ep-field="' + esc(field || '') + '"' +
+    (cno ? ' data-ep-clause="' + esc(cno) + '"' : '') +
+    (kind ? ' data-ep-kind="' + esc(kind) + '"' : '') + '>' + esc(txt) + '</span>';
+}
+
+/* ---- 表格渲染：兼容 headers+rows（结构化）与 content（原始文本）---- */
+function tableHTML(t, ql, base, cno){
+  const tid = t.table_id !== undefined ? t.table_id : t.id;
+  const idKey = t.table_id !== undefined ? 'table_id' : 'id';
+  const title = (t.title !== undefined ? t.title : (t.description !== undefined ? t.description : t.caption));
+  const titleKey = (t.title !== undefined ? 'title' : (t.description !== undefined ? 'description' : 'caption'));
+  const heads = arr(t.headers), rows = arr(t.rows);
+  const content = (t.content === null || t.content === undefined) ? '' : asText(t.content);
+
+  let h = '<div class="kv"><span class="lbl">' + esc(t.type || 'table') + '</span><span class="val">';
+  h += '<div class="tbl-head">';
+  h += '<span class="cap">' + ed(tid, base + '.' + idKey, '表号', cno) + '</span>';
+  h += '<span>' + ed(title, base + '.' + titleKey, '表标题', cno) + '</span>';
+  h += rows.length ? '<span class="tblsrc">结构化 ' + rows.length + ' 行</span>'
+                   : (content ? '<span class="tblsrc">原始文本 · 未结构化</span>' : '');
+  h += '<button class="tbtn" data-edittbl="' + esc(base) + '" data-tblcno="' + esc(cno || '') + '">编辑表格</button>';
+  h += '</div>';
+
+  if(rows.length){
+    let cols = heads.slice();
+    if(!cols.length && rows[0] && !Array.isArray(rows[0]) && typeof rows[0] === 'object') cols = Object.keys(rows[0]);
+    h += '<div class="tbwrap"><table class="data">';
+    h += '<thead><tr>' + cols.map(function(c){ return '<th>' + esc(c) + '</th>'; }).join('') + '</tr></thead><tbody>';
+    rows.forEach(function(r){
+      if(Array.isArray(r)){
+        h += '<tr>' + cols.map(function(_, i){ return '<td>' + hl(r[i] === undefined ? '' : r[i], ql) + '</td>'; }).join('') + '</tr>';
+      } else if(r && typeof r === 'object'){
+        h += '<tr>' + cols.map(function(k){ return '<td>' + hl(r[k] === undefined ? '' : r[k], ql) + '</td>'; }).join('') + '</tr>';
+      } else {
+        h += '<tr><td colspan="' + Math.max(1, cols.length) + '">' + hl(r, ql) + '</td></tr>';
+      }
+    });
+    h += '</tbody></table></div>';
+  } else if(content){
+    h += '<pre class="tbltext">' + hl(content, ql) + '</pre>';
+  } else {
+    h += '<div class="dimnote">（该表既无结构化数据也无原始文本，点「编辑表格」补录）</div>';
+  }
+  if(t.note) h += '<div class="tblnote">注：' + ed(t.note, base + '.note', '表注', cno) + '</div>';
+  else if(S.edit) h += '<div class="tblnote">注：' + ed('', base + '.note', '表注', cno) + '（点此补表注）</div>';
+  h += '</span></div>';
+  return h;
+}
+
+/* ---- 表格编辑模态（TSV） ---- */
+function rowsToTSV(heads, rows){
+  let cols = heads.slice();
+  if(!cols.length && rows[0] && !Array.isArray(rows[0]) && typeof rows[0] === 'object') cols = Object.keys(rows[0]);
+  const lines = [cols.join('\t')];
+  rows.forEach(function(r){
+    if(Array.isArray(r)) lines.push(cols.map(function(_, i){ return String(r[i] === undefined ? '' : r[i]); }).join('\t'));
+    else if(r && typeof r === 'object') lines.push(cols.map(function(k){ return String(r[k] === undefined ? '' : r[k]); }).join('\t'));
+    else lines.push(String(r === null || r === undefined ? '' : r));
+  });
+  return lines.join('\n');
+}
+function editTable(base, cno){
+  const f = S.files[S.cur];
+  const t = getByPath(f.data, base);
+  if(!t || typeof t !== 'object'){ toast('找不到该表格'); return; }
+  const heads = arr(t.headers), rows = arr(t.rows);
+  const hasRows = rows.length > 0;
+  const dictMode = hasRows && !Array.isArray(rows[0]) && typeof rows[0] === 'object';
+  let body = '';
+  if(hasRows){
+    body = '<div style="font-size:.8rem;color:var(--muted);margin-bottom:.4rem">' +
+      '以 <b>制表符（Tab）</b> 分列。第一行是表头，可增删列；其余每行一条数据。' +
+      (dictMode ? '本表为「键:值」形态，保存时按表头回填键名。' : '') + '</div>' +
+      '<textarea id="taTbl" rows="16" spellcheck="false">' + esc(rowsToTSV(heads, rows)) + '</textarea>';
+  } else {
+    body = '<div style="font-size:.8rem;color:var(--muted);margin-bottom:.4rem">' +
+      '该表尚未结构化，只有抽取到的原始文本。可直接修订文本；<br>' +
+      '若已看清表结构，勾选下方「转为结构化表格」并填写 TSV（首行为表头），保存后即可变成真正的表格。</div>' +
+      '<textarea id="taRaw" rows="9" spellcheck="false">' + esc(asText(t.content || '')) + '</textarea>' +
+      '<label style="display:block;margin:.6rem 0 .3rem;font-size:.82rem;cursor:pointer">' +
+      '<input type="checkbox" id="cbStruct"> 转为结构化表格（下方填 TSV，Tab 分列）</label>' +
+      '<textarea id="taTbl" rows="8" spellcheck="false" placeholder="列1\t列2\t列3"></textarea>';
+  }
+  body += '<div style="margin-top:.5rem;display:flex;gap:.5rem;align-items:center">' +
+    '<span style="font-size:.8rem;color:var(--muted);white-space:nowrap">表注</span>' +
+    '<input type="text" id="taNote" value="' + esc(t.note || '') + '" style="flex:1"></div>';
+
+  openModal('编辑表格 · ' + (cno || '') + ' · ' + (t.table_id || t.id || ''), body,
+    '<button class="btn" id="mkCancel">取消</button><button class="btn on" id="mkSave">保存修订</button>');
+
+  const ta = $('taTbl');
+  if(ta) ta.addEventListener('keydown', function(e){
+    if(e.key === 'Tab'){
+      e.preventDefault();
+      const s = this.selectionStart, en = this.selectionEnd;
+      this.value = this.value.slice(0, s) + '\t' + this.value.slice(en);
+      this.selectionStart = this.selectionEnd = s + 1;
+    }
+  });
+  $('mkCancel').onclick = closeModal;
+  $('mkSave').onclick = function(){
+    const noteRaw = ($('taNote') || {}).value;
+    const noteVal = String(noteRaw === undefined ? '' : noteRaw).trim();
+    if(String(t.note || '') !== noteVal)
+      applyEdit(base + '.note', noteVal, '表注', cno);
+
+    if(hasRows){
+      const txt = ($('taTbl') || {}).value || '';
+      const lines = txt.replace(/\r/g, '').split('\n').filter(function(l){ return l.trim() !== ''; });
+      if(!lines.length){ toast('表格不能为空'); return; }
+      const cols = lines[0].split('\t').map(function(x){ return x; });
+      const newRows = lines.slice(1).map(function(l){
+        const cells = l.split('\t');
+        if(dictMode){
+          const o = {};
+          cols.forEach(function(k, i){ o[k] = cells[i] === undefined ? '' : cells[i]; });
+          return o;
+        }
+        return cols.map(function(_, i){ return cells[i] === undefined ? '' : cells[i]; });
+      });
+      applyStructEdit(base + '.headers', cols, '表头', cno);
+      applyStructEdit(base + '.rows', newRows, '表格数据', cno);
+    } else {
+      const rawVal = String(($('taRaw') || {}).value || '');
+      applyEdit(base + '.content', rawVal, '表格原始文本', cno);
+      const doStruct = $('cbStruct') && $('cbStruct').checked;
+      if(doStruct){
+        const txt = ($('taTbl') || {}).value || '';
+        const lines = txt.replace(/\r/g, '').split('\n').filter(function(l){ return l.trim() !== ''; });
+        if(lines.length >= 2){
+          const cols = lines[0].split('\t');
+          const newRows = lines.slice(1).map(function(l){
+            const cells = l.split('\t');
+            return cols.map(function(_, i){ return cells[i] === undefined ? '' : cells[i]; });
+          });
+          applyStructEdit(base + '.headers', cols, '表头', cno);
+          applyStructEdit(base + '.rows', newRows, '表格数据', cno);
+          applyEdit(base + '.content', '', '表格原始文本（转为结构化后清空）', cno);
+        } else {
+          toast('结构化需要至少 2 行（表头 + 数据）');
+        }
+      }
+    }
+    closeModal();
+    render();
+    toast('表格修订已记录');
+  };
+}
+/* 结构化字段（数组 / 对象）整体替换 + 留痕 */
+function summarize(v){
+  if(v === null || v === undefined) return '';
+  if(Array.isArray(v)){
+    if(!v.length) return '（空）';
+    return v.length + ' 项：' + v.slice(0, 3).map(function(x){
+      return typeof x === 'object' ? JSON.stringify(x) : String(x);
+    }).join(' | ') + (v.length > 3 ? ' …' : '');
+  }
+  if(typeof v === 'object') return JSON.stringify(v);
+  return String(v);
+}
+function applyStructEdit(path, newVal, field, cno){
+  const f = S.files[S.cur];
+  if(!f || !f.data) return false;
+  const oldVal = getByPath(f.data, path);
+  if(JSON.stringify(oldVal) === JSON.stringify(newVal)) return false;
+  if(!setByPath(f.data, path, newVal)){ toast('该字段不可写：' + path); return false; }
+  S.changes.push({
+    id: 'C' + String(++S.seq).padStart(4, '0'),
+    ts: nowStr(), author: S.author || '（未署名）', file: f.name,
+    clause_no: cno || '', path: path, field: field || path.split('.').pop(),
+    before: summarize(oldVal), after: summarize(newVal), status: 'applied'
+  });
+  refreshRevUI();
+  return true;
 }
 
 /* =========================================================================
@@ -1252,6 +2146,7 @@ function kvHTML(label, val, ql){
 function render(){
   const f = S.files[S.cur];
   if(!f){ return; }
+  document.body.classList.toggle('editing', !!S.edit);
   if(S.mode === 'book' && isStandardDoc(f.data)){
     side.classList.remove('narrow');
     renderBook(f.data);
@@ -1261,8 +2156,10 @@ function render(){
     let html;
     try { html = renderTree(f.data, ''); }
     catch(e){ html = '<div class="err">渲染失败：' + esc(e && e.message) + '</div>'; }
-    content.innerHTML = '<div style="font-size:.85rem;color:var(--muted);margin-bottom:.8rem">' +
+    content.innerHTML = editBar() + dirtyBar() +
+      '<div style="font-size:.85rem;color:var(--muted);margin-bottom:.8rem">' +
       '<b>' + esc(f.name) + '</b> · 通用树模式（' + (isStandardDoc(f.data) ? '标准文档，可切回书模式' : '非标准结构，仅树模式') + '）</div>' + html;
+    markDirty();
   }
   document.querySelectorAll('#modeSeg button').forEach(function(b){
     b.classList.toggle('on', b.dataset.mode === S.mode);
@@ -1365,7 +2262,15 @@ content.addEventListener('click', function(e){
   const fb = e.target.closest('[data-filter]');
   if(fb){ S.filter = fb.dataset.filter; render(); return; }
   const act = e.target.closest('[data-act]');
-  if(act && act.dataset.act === 'togglestruct'){ S.showStruct = !S.showStruct; render(); return; }
+  if(act){
+    const a = act.dataset.act;
+    if(a === 'togglestruct'){ S.showStruct = !S.showStruct; render(); return; }
+    if(a === 'openrev'){ $('revPanel').classList.add('open'); renderRevList(); return; }
+    if(a === 'expyaml'){ exportYAML(); return; }
+    if(a === 'saveback'){ saveBack(); return; }
+  }
+  const et = e.target.closest('[data-edittbl]');
+  if(et){ editTable(et.dataset.edittbl, et.dataset.tblcno || ''); return; }
   const raw = e.target.closest('[data-raw]');
   if(raw){
     const no = raw.dataset.raw;
@@ -1444,8 +2349,128 @@ document.addEventListener('drop', function(e){
   if(e.dataTransfer && e.dataTransfer.files && e.dataTransfer.files.length) addFiles(e.dataTransfer.files);
 });
 
+/* =========================================================================
+   7. 编辑模式 / 留痕 事件
+   ========================================================================= */
+$('btnEdit').addEventListener('click', function(){
+  S.edit = !S.edit;
+  this.classList.toggle('on', S.edit);
+  document.body.classList.toggle('editing', S.edit);
+  render();
+  toast(S.edit ? '编辑模式已开启：点字段即可修改' : '编辑模式已关闭（已记录的留痕保留）');
+});
+$('btnRev').addEventListener('click', function(){ $('revPanel').classList.toggle('open'); renderRevList(); });
+$('rpClose').addEventListener('click', function(){ $('revPanel').classList.remove('open'); });
+$('author').addEventListener('input', function(e){
+  S.author = e.target.value;
+  try { localStorage.setItem('yaml_reader_author', S.author); } catch(err){}
+  S.changes.forEach(function(c){ if(c.status === 'applied' && c.author === '（未署名）') c.author = S.author || '（未署名）'; });
+  renderRevList();
+});
+$('rpRevertAll').addEventListener('click', function(){
+  if(!pendingChanges().length){ toast('没有生效中的修订'); return; }
+  if(!confirm('确定要还原全部 ' + pendingChanges().length + ' 处修订吗？（留痕记录会保留，标记为已还原）')) return;
+  revertAll();
+});
+$('rpClear').addEventListener('click', function(){
+  if(!S.changes.length) return;
+  if(!confirm('清空全部留痕记录？（已经生效的修改不会撤销）')) return;
+  S.changes = []; refreshRevUI();
+});
+$('rpExportMd').addEventListener('click', exportMD);
+$('rpExportJson').addEventListener('click', exportJSON);
+$('revList').addEventListener('click', function(e){
+  const r = e.target.closest('[data-rev]');
+  if(r){ revertChange(r.dataset.rev); toast('已还原 ' + r.dataset.rev); return; }
+  const d = e.target.closest('[data-del]');
+  if(d){
+    S.changes = S.changes.filter(function(x){ return x.id !== d.dataset.del; });
+    refreshRevUI();
+  }
+});
+$('expSeg').addEventListener('click', function(e){
+  const b = e.target.closest('button'); if(!b) return;
+  const k = b.dataset.exp;
+  if(!S.files[S.cur]){ toast('请先加载文件'); return; }
+  if(k === 'yaml') exportYAML();
+  else if(k === 'md') exportMD();
+  else if(k === 'py') exportPy();
+  else if(k === 'save') saveBack();
+});
+$('mkClose').addEventListener('click', closeModal);
+$('mask').addEventListener('click', function(e){ if(e.target === $('mask')) closeModal(); });
+document.addEventListener('keydown', function(e){
+  if(e.key === 'Escape') closeModal();
+});
+
+/* 内容区：编辑提交（失焦即记录） */
+content.addEventListener('focusout', function(e){
+  const el = e.target.closest ? e.target.closest('[data-ep]') : null;
+  if(!el || !S.edit) return;
+  const path = el.getAttribute('data-ep');
+  const field = el.getAttribute('data-ep-field') || '';
+  const cno = el.getAttribute('data-ep-clause') || '';
+  const kind = el.getAttribute('data-ep-kind');
+  const raw = (el.innerText || '').replace(/\u00a0/g, ' ').replace(/\s+$/, '');
+  const ok = (kind === 'list') ? applyListEdit(path, raw, field, cno) : applyEdit(path, raw, field, cno);
+  if(ok){
+    const st = content.scrollTop;
+    render();
+    content.scrollTop = st;
+    toast('已记录留痕 · ' + (cno ? cno + ' ' : '') + field);
+  } else {
+    const cur = getByPath(S.files[S.cur].data, path);
+    el.innerText = (cur === null || cur === undefined) ? '' : String(cur);
+  }
+});
+/* 编辑态下回车不要插入 <div>，直接提交 */
+content.addEventListener('keydown', function(e){
+  if(!S.edit) return;
+  const el = e.target.closest ? e.target.closest('[data-ep]') : null;
+  if(!el) return;
+  if(e.key === 'Enter' && !e.shiftKey){ e.preventDefault(); el.blur(); }
+  if(e.key === 'Escape'){ e.preventDefault(); el.blur(); }
+});
+
+/* 连接文件夹（可回写） */
+$('btnConnect').addEventListener('click', connectDir);
+async function connectDir(){
+  if(!window.showDirectoryPicker){
+    toast('当前浏览器不支持 File System Access API。请用 Chrome / Edge，或使用「导出 YAML」下载后手动覆盖。');
+    return;
+  }
+  try{
+    const dh = await window.showDirectoryPicker();
+    S.dirHandle = dh;
+    let n = 0;
+    for await (const entry of dh.entries()){
+      const h = entry[1];
+      if(!h || h.kind !== 'file') continue;
+      if(!/\.(ya?ml|json|txt)$/i.test(h.name)) continue;
+      const file = await h.getFile();
+      if(file.size > 24 * 1024 * 1024) continue;
+      const text = await file.text();
+      let data = null, err = null;
+      try { data = YAMLParse(text); } catch(e){ err = e; }
+      S.files.push({name: h.name, data: data, text: text, err: err ? String(err.message || err) : null});
+      S.handles[h.name] = h;
+      n++;
+    }
+    if(!n){ toast('该目录下没有 yaml / json 文件'); return; }
+    finishLoad();
+    toast('已连接 ' + n + ' 个文件，可直接「写回原文件」');
+  }catch(e){
+    if(e && e.name !== 'AbortError') toast('连接失败：' + (e.message || e));
+  }
+}
+
 /* 主题跟随系统（默认深色） */
 document.documentElement.setAttribute('data-theme', S.theme);
+try {
+  const a = localStorage.getItem('yaml_reader_author');
+  if(a){ S.author = a; $('author').value = a; }
+} catch(e){}
+refreshRevUI();
 </script>
 </body>
 </html>

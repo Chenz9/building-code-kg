@@ -1,0 +1,301 @@
+# ============================================================
+# 工程规范结构化索引库 — 结构规范定义 v2.2.2（当前权威）
+# ============================================================
+# 本文件是 v2.2 字段定义的权威参考。每个规范的正式交付为
+# 同目录下的 <标准编号>.yaml（含 standard / clauses / executable_rules 三段）。
+#
+# 修订要点（v2.2.2，2026-09-10）：
+#   - ★ 边界语义：否定词 + 紧邻边界动词（不得少于3间 / 不应大于50N）语义是
+#       边界约束（≥/≤），polarity 归 正面/required，不再误标为 反面/prohibited（§6.2）
+#   - ★ 跨档 mixed：定级取严与极性判定相互独立，「必须…不得…」也须识别为
+#       正反并存并生成 constraint_items（§6.2）
+#   - ★ text 唯一权威：modal_words 由 text 重推导，清除正文中不存在的遗留词
+#   - 审计规则扩充至 11 条，新增 MODAL_TEXT_MISMATCH / MODAL_DERIVE_MISMATCH /
+#       MODAL_ITEMS_ONLY_MIXED / MODAL_BOUNDARY_POLARITY（§6.5）
+#
+# 修订要点（相对 v2.1）：
+#   - 【核心】语气字段重构：modal_level 废弃，改为
+#       strictness（严格等级）× polarity（正/反面）正交叠加
+#     依据《工程建设标准编写规定》"本规范用词说明"四档两极体系（v2.2 §6）
+#   - 枚举采用「中文/英文」双列写法，兼顾人工阅读与程序解析（v2.2 §6.1）
+#   - 新增 modal_words_primary：定级主词，解决混词无级问题
+#   - 新增 constraint_items：polarity=正反并存/mixed 的条文在条内细化拆分
+#   - is_mandatory_clause（是否强条）与语气等级解耦：前者是法定属性，
+#     后者是文本属性，二者正交，不可互相推导（v2.2 §6.4）
+#
+# 继承 v2.1 的修订要点：
+#   - 规范级元数据 schema_version / last_reviewed_date（v2.1 §7）
+#   - 参数命名规范：禁 OCR 碎片，必须是语义短语（v2.1 §2.1）
+#   - 单位词典：禁错配单位（v2.1 §2.2）
+#   - applicability.exceptions 风格统一（v2.1 §3）
+#   - 全文强制规范（GB 55xxx）全部 is_mandatory_clause=True（v2.1 §4）
+#   - parameter_table 的 content 改为结构化 {headers, rows}（v2.1 表格）
+# ============================================================
+
+# ---------- 第一层：规范元数据（standard） ----------
+standard:
+  code: "GB 50222-2017"          # 标准编号
+  name: "建筑内部装修设计防火规范"
+  version: "2017"
+  status: "现行"                 # 现行 / 局部修订 / 废止
+  is_abolished: false
+  effective_date: "2018-04-01"
+  abolished_date: null           # 规范整体废止日期；条文级废止见 clause 层
+  superseded_by: null
+  standard_category: "国家标准"  # 可由 code 前缀自动推断（GB→国标/JGJ→行标/DB→地标/T/→团标）
+  domain: ["防火", "建筑装修", "消防设计"]
+  region_scope: "全国"           # 地方标准填具体省市
+  region_codes: []
+  total_clauses: 48
+  has_mandatory_clauses: true
+  mandatory_clause_count: 18     # 标准真实强条数（含源提取缺失项）
+  schema_version: "v2.2"         # 内容遵循的 schema 版本（v2.0 / v2.1 / v2.2）
+  last_reviewed_date: "YYYY-MM-DD"  # 上次人工或脚本复核日期；新增/修改条款后必更新
+  related_standards:
+    - code: "GB 55037-2022"
+      relationship: "上位通用规范（已废止本规范全部强制性条文效力）"
+  clauses:                        # 完整条文 ID 列表
+    - "GB 50222-2017#1.0.1"
+
+# ---------- 第二层：条文索引（clause，列表每项一个） ----------
+clause:
+  id: "GB 50222-2017#4.0.1"
+  standard_code: "GB 50222-2017"
+  chapter: "特别场所"
+  section: ""
+  clause_no: "4.0.1"
+  text: "建筑内部装修不应擅自减少、改动、拆除、遮挡消防设施……"
+  # 条文级废止
+  is_abolished: true
+  abolished_date: "2023-06-01"
+  superseded_by: "GB 55037-2022"
+  abolition_note: "被《建筑防火通用规范》GB 55037-2022 废止强制性效力"
+  applicability: {scope: "", conditions: [], exceptions: []}
+  # ---- v2.2 语气字段（见 §6）----
+  constraint:
+    strictness: "应/shall"                 # 严格等级（四档 + 无），见 §6.1
+    polarity: "反面/prohibited"            # 正/反面极性，见 §6.2
+    modal_words: ["不应"]                  # 证据：出现词全集，可混层级，不做裁剪
+    modal_words_primary: ["不应"]          # 定级主词（取最高档；同档多词则全列）
+    is_mandatory_clause: true              # 是否强条（法定属性，与语气正交）
+    mandatory_basis: "公告第1632号强制性条文"  # 非强条为 null
+    constraint_items: []                   # 仅 polarity=正反并存/mixed 时填充，见 §6.3
+  parameters:                     # 数值参数（v2.1 §2：name 必为语义短语，单位必合法）
+    - name: "距离"               # v2.1 §2.1：禁 OCR 碎片；必须是可读语义短语
+      min_value: 500
+      max_value: null
+      unit: "mm"                 # v2.1 §2.2：单位必须语义匹配
+      condition: null
+  tables:                         # 结构化表格（查表类 → parameter_table）
+    - id: "表5.2.1"
+      type: "parameter_table"
+      description: "高层民用建筑内部各部位装修材料的燃烧性能等级"
+      headers: ["建筑物及场所", "建筑规模、性质", "顶棚", "墙面", "地面", "隔断", "固定家具", "装饰织物", "其他装修装饰材料"]
+      rows:
+        - ["商店的营业厅", "每层建筑面积>1500㎡或总建筑面积>3000㎡", "A", "B1", "B1", "B1", "B1", "B1", "B2"]
+      content: null                # 旧兜底字段，结构化后可为 null
+  converted_tables: []
+  references:
+    - target_standard: "GB 6566"
+      target_clause: null
+      original_text: "符合现行国家标准《建筑材料放射性核素限量》GB 6566的规定"
+      resolution_status: "resolved"
+      resolution_note: "规范性引用，出处明确；被引标准不在本库，待补录后确认参数"
+  related_objects:
+    component_types: ["IfcCovering", "IfcWall", "IfcCeiling", "IfcDoor"]
+    activity_types: ["内部装修防火设计"]
+  conflicts: []                   # 同概念多规范不同规定时记录来源，不裁决
+  _source: null                   # 仅当文本源自特定外部源（建标库/OCR/PDF回填）时标注
+
+# ---------- 第三层：可执行规则（executable_rule，列表每项一个） ----------
+executable_rule:
+  rule_id: "R_GB50222_4_0_16_lamp_clearance"
+  source_clause: "GB 50222-2017#4.0.16"
+  rule_type: "constraint"         # constraint / validation / calculation
+  when:
+    - "near_soft_combustible_material == true"
+  not_when:                       # 黑名单例外，命中任一即跳过本规则
+    - "space_area_m2 > 400"
+  then:
+    min_clearance_mm: 500
+  source_text: "与窗帘、幕布、软包等装修材料的距离不应小于500mm"
+  table_source: null
+
+# ---------- 表格转换原则 ----------
+#   qualitative_table  → convert_to_text   （资料清单/阶段要求）
+#   parameter_table    → convert_to_rules  （保护层厚度/燃烧等级查表）
+#   calculation_table  → preserve_structure（承载力查表，保留行列）
+#   parameter_table 的 content 改为结构化 {headers, rows} 矩阵，
+#   弃用 lookup_matrix 等新类型，沿用现有 type 枚举，避免 schema 膨胀。
+
+# ============================================================
+# v2.2 §6 语气字段规约（本次新增，核心）
+# ============================================================
+#
+# §6.1 strictness — 严格等级（四档 + 无）
+#   依据《工程建设标准编写规定》"本规范用词说明"：
+#
+#     等级          中文/英文枚举     正面词      反面词        含义
+#     ------------------------------------------------------------------
+#     L1 强制       "必须/hard"       必须        严禁、禁止    非这样做不可
+#     L2 严格       "应/shall"        应          不应、不得    正常情况下均应这样做
+#     L3 推荐       "宜/should"       宜          不宜          条件许可时首先应这样做
+#     L4 允许       "可/may"          可          —            一定条件下可以这样做
+#     无语气词      "无/none"         —           —            定义性 / 说明性条文
+#
+#   枚举写法说明（中文/英文双列）：
+#     - 中文在前便于人工阅读，英文在后便于程序解析
+#     - 程序取值：v = node["strictness"]; cn, en = v.split("/")
+#     - 合法值仅上表 5 个，禁止自造（如 "shall" / "应" 单列均不合法）
+#
+#   定级规则（取严）：
+#     1. 一条条文出现多个档位的词时，取**最高档**（hard > shall > should > may）
+#     2. 「禁止」为正文实见、不在标准用词表内的第 5 个反面词，语义等同「严禁」，归 L1
+#     3. 抽取陷阱：「国家明令禁止及淘汰的材料」中「禁止」是名词性定语，
+#        不是语气词；仅当「禁止」直接支配动作（禁止停放 / 禁止干摆干铺）时才计入
+#
+# §6.2 polarity — 正/反面极性（与 strictness 正交叠加）
+#     "正面/required"      正面词主导（义务 / 允许）
+#     "反面/prohibited"    反面词主导（禁止）
+#     "正反并存/mixed"     同一档位内正反词同时出现，如「宜…不宜…」「应…不应…」
+#     "无/null"            无语气词（与 strictness=无/none 同现）
+#
+#   设计要点：
+#     - 不把「禁止」并入等级做成 8 档枚举，而是两字段正交叠加，
+#       因为「必须/严禁」「应/不应」等级相同而极性相反
+#     - mixed 不压缩为单一极性（尤不取"负向优先"），否则会掩盖条文内的正向义务
+#
+#   ★ 边界语义（v2.2.2）：「不得/不应 + 紧邻边界动词」是**边界约束**（下限≥ / 上限≤），
+#       不是"禁止做某事"，polarity 应为 正面/required：
+#         「并不得少于3间」        → ≥3 间    → 正面/required（不是 prohibited）
+#         「不应大于 50N」         → ≤50N     → 正面/required
+#         「吊杆…不得大于 300mm」  → ≤300mm   → 正面/required
+#       反例（仍为 prohibited）：「不应直接安装在低于B1级的装修材料上」
+#         ——「低于」是材料定语，中间隔着实义动词「直接安装在」，属真禁止。
+#       判定：否定词与边界动词间隔 ≤3 字，且中间不含实义动词（在/装/设/采/使/改/用/拆/埋/做）。
+#       边界方向（≥/≤）由 parameters[].min/max 或原文承载，不另设枚举值。
+#
+#   ★ 跨档 mixed（v2.2.2）：定级取严与极性判定**相互独立**。
+#       一条文可同时是 hard 档且正反并存（如「必须…不得…」），
+#       不得因命中最高档就停止扫描低档的反面词。
+#
+#   ★ text 是唯一权威：modal_words / strictness / polarity 均由 text 重推导，
+#       不允许出现正文中不存在的语气词（遗留误抽须清除）。
+#
+# §6.3 constraint_items — mixed 条文的条内细化拆分
+#     仅当 polarity = "正反并存/mixed" 时填充，其余为 []
+#     seq 从 1 连续编号（= "含语气词的分句"序号，非原文分句位置）
+#     按分句切分原条文，逐句标注其自身的等级与极性：
+#
+#       constraint_items:
+#         - seq: 1
+#           text_segment: "消防配电干线宜按防火分区划分"
+#           strictness: "宜/should"
+#           polarity: "正面/required"
+#           modal_word: "宜"
+#         - seq: 2
+#           text_segment: "消防配电支线不宜穿越防火分区"
+#           strictness: "宜/should"
+#           polarity: "反面/prohibited"
+#           modal_word: "不宜"
+#
+#     切分规则：以「，；。、」为界，但须保护数字小数点（如 1.0m、3.5mm）
+#     与条文编号（如 3.4.1）不被误切
+#
+# §6.4 is_mandatory_clause — 是否强条（法定属性，与语气正交）
+#     - 全文强制规范（GB 55xxx）的所有 clause 必须 is_mandatory_clause=True
+#     - 非全文强制的，以发布公告 / 注册表 mandatory_clauses 为准
+#     - 语气严格等级高 ≠ 强条；强条也可能无语气词（如列表式指标）
+#       二者不可互相推导，一致性问题由审计规则提示人工确认
+#
+# §6.5 审计规则（v2.2.2；实现见 tools/audit_modal_v22.py，全库 0 违规为门禁）
+#     MODAL_ENUM_STRICTNESS    strictness 非 §6.1 合法值
+#     MODAL_ENUM_POLARITY      polarity 非 §6.2 合法值
+#     MODAL_MIXED_ITEMS        polarity=mixed 但 constraint_items 为空
+#     MODAL_ITEMS_ONLY_MIXED   非 mixed 却带 constraint_items（须清空）
+#     MODAL_PRIMARY_MISSING    modal_words 非空但 strictness = 无/none（抽取器漏判）
+#     MODAL_NULL_BUT_MANDATORY 强条但 strictness = 无/none
+#     MODAL_ITEM_ENUM          constraint_items 内 strictness/polarity 非法
+#     MODAL_LEGACY_FIELD       残留已废弃的 modal_level
+#     MODAL_TEXT_MISMATCH      modal_words 含正文中不存在的词（遗留误抽）
+#     MODAL_DERIVE_MISMATCH    strictness/polarity/words/primary 与「由 text 重推导」不符
+#     MODAL_BOUNDARY_POLARITY  边界语义（≥/≤）被标为 反面/prohibited
+#
+#   ⚠ 跨档 mixed 是最易漏的一类：定级取严的同时必须独立判定极性，
+#     否则「必须 + 不得」这类条文会被误标为单一 正面/required。
+#
+
+# ---------- v2.1 字段规约（延续有效） ----------
+#
+# §1 文本字段
+#   - text 必须与官方原文逐字一致（OCR 截断/错别字必须在补丁中修复）
+#   - 修订时同时更新 last_reviewed_date
+#
+# §2.1 参数名（parameters[].name）
+#   禁出现以下 OCR 碎片（典型反词库）：
+#     "取防水措施" "容器室长度" "气装置长度" "指挥语音于"
+#     "线时其壁厚" "口之间距离" "合下列规定" "列规定m"
+#   命名规范：可读语义短语，最好包含主语+度量。
+#
+# §2.2 单位（parameters[].unit）
+#   强制词典：
+#     长度：mm / cm / m        面积：mm² / m² / ㎡     体积：m³ / L
+#     时间：s / min / h / d / a    质量：kg / t        力：N / kN
+#     电流：mA / A / kA        电压：mV / V / kV      频率：Hz
+#     声学：dB / dBA           温度：℃ / K            角度：° / rad
+#
+# §3 applicability.exceptions
+#   - 元素为被排除对象的语义短语，不写"除…外"、"不适用于…"前缀
+#
+# §4 已并入 v2.2 §6.4（是否强条）
+#
+# §5 IFC 映射 —— related_objects.component_types
+#   related_objects.component_types 引用 IFC 实体类型
+#   若对齐深圳标准 SJG 114-2022：实体类型用父类，属性集加 SZ 后缀
+#
+#   ★ 宏观章节必须为空（v2.2.1 强制）：
+#     术语 / 总则 / 基本规定 / 符号代号 / 引用文件 / 分类分级 / 分部（单位）工程验收
+#     等章节的条文是「全册级」要求，不指向任何具体构件。若按册统一挂一组 IFC 类型
+#     （甚至挂全册并集），等于「什么都指向」，信息量为零，且会污染下游按构件检索。
+#     → 命中宏观章节时 component_types 必须为 []。
+#     识别关键词（章名剔除序号与字间空格后匹配任一）：
+#       总则 / 术语 / 符号 / 代号 / 基本规定 / 基本技术要求 / 一般要求 / 一般性规定 /
+#       规范性引用文件 / 引用标准 / 分类 / 分级 / 分部工程 / 单位工程
+#     注：OCR 来源章名常夹空格（「1 总 则」「2 术 语」），匹配前须先剔除空格。
+#
+#   ★ 保留 activity_types：宏观条文仍属于该册业务活动范畴，清空 component_types
+#     不影响 activity_types，二者独立。
+#
+#   ★ 禁止「全册兜底」：同一册所有章节挂同一组 IFC 类型，属粒度不足（非本规约管辖，
+#     但应逐步按条文内容细化），不得视为合规填充。
+#
+#   工具：python 04_脚本与中间产物/_fix_macro_component_types.py [--apply] [--scan-all]
+#
+# §7 元数据
+#   standard.schema_version    必填，可选值 v2.0 / v2.1 / v2.2
+#   standard.last_reviewed_date 必填，YYYY-MM-DD 格式；脚本批量改字段后必须更新
+
+# ============================================================
+# §8 术语/符号条款文本约定（v2.2 增补，2026-09-11）
+# ============================================================
+#   术语条款（chapter 含「术语」）的 text 采用「字典式」内联约定，三段内容：
+#     ① 术语名（中文）② 英文对应词 ③ 定义
+#   以 `{中文: English}` 把前两段包成字典对，第三段（定义）接在 `}` 之后（空格分隔）：
+#
+#     text: "{装饰织物: decorative fabric} 满足建筑内部功能需求，由棉、麻、丝、毛等
+#            天然纤维及其他合成纤维制作的纺织品，如窗帘、帷幕等。"
+#
+#   约定要点：
+#   - 仅作用于「术语」章条款；符号/代号章（如「A声级」「R」「ρ」）无「中文名+英文」
+#     结构，不强套此约定，保持原样。
+#   - `text` 以 `{` 开头会被 YAML 解析为 flow mapping，故**必须整体加双引号**。
+#   - 三段顺序固定：名 → 英文 → 定义；定义可以包含数字/单位/符号，无格式限制。
+#   - 普通（非术语）条款 text 完全不变，本约定对其零影响。
+#   - 阅读器约定：检测到 text 开头 `{中文: English}` 时渲染为「术语卡片」
+#     （中文名 / 英文 / 定义 三段），否则按普通条文渲染。
+#
+#   工具链：
+#   - 规范化：python 04_脚本与中间产物/_migrate_terms.py [--apply]   （CRLF 安全，仅替换 text 行）
+#   - 扫描：    python 04_脚本与中间产物/_scan_terms.py
+#   注：本约定只改 text 的「呈现格式」，不影响 constraint / applicability / parameters 等字段；
+#       text-vs-source 比对审计需先剥除 `{...}` 包裹再比较，否则术语条会误报差异。

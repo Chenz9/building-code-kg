@@ -2,9 +2,8 @@
 """
 audit_v21.py — 全库 v2.1 合规审计
 
-扫描 standards/ 目录下的 *.yaml（不含 SCHEMA_*）；
-也可传入自定义目录作为第一个参数。
-按 SCHEMA_v2.1.yaml 字段规约逐条核查，记录违规项到 audit_v21_report.json（当前目录）。
+扫描 standards/*.yaml（可用命令行参数或 STANDARDS_DIR 指定其他目录；不含 SCHEMA_*），
+按 SCHEMA_v2.1.yaml 字段规约逐条核查，记录违规项到 _audit_v21_report.json。
 
 检查项：
   META      standard.schema_version / last_reviewed_date 是否齐全
@@ -23,9 +22,10 @@ from collections import Counter
 from datetime import datetime
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
 
-V21_DIR = sys.argv[1] if len(sys.argv) > 1 else os.path.normpath(
-    os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "standards"))
-REPORT = os.path.join(os.getcwd(), "audit_v21_report.json")
+_HERE = os.path.dirname(os.path.abspath(__file__))
+# 目录可由命令行传入；默认取本仓库 standards/，保证 clone 后可独立复跑
+V21_DIR = sys.argv[1] if len(sys.argv) > 1 else os.path.join(_HERE, "..", "standards")
+REPORT = os.path.join(_HERE, "_audit_v21_report.json")
 
 # OCR 碎片黑名单（v2.1 §2.1）
 NAME_BLACKLIST = {

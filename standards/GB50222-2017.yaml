@@ -76,8 +76,8 @@ standard:
   - GB 50222-2017#6.0.3
   - GB 50222-2017#6.0.4
   - GB 50222-2017#6.0.5
-  schema_version: v2.1
-  last_reviewed_date: '2026-09-08'
+  schema_version: v2.2
+  last_reviewed_date: '2026-09-10'
 clauses:
 - id: GB 50222-2017#1.0.1
   standard_code: GB 50222-2017
@@ -94,20 +94,19 @@ clauses:
     conditions: []
     exceptions: []
   constraint:
-    modal_level: null
+    strictness: 无/none
+    polarity: 无/null
     modal_words: []
+    modal_words_primary: []
     is_mandatory_clause: false
     mandatory_basis: null
+    constraint_items: []
   parameters: []
   tables: []
   converted_tables: []
   references: []
   related_objects:
-    component_types:
-    - IfcCovering
-    - IfcWall
-    - IfcCeiling
-    - IfcDoor
+    component_types: []
     activity_types:
     - 内部装修防火设计
   conflicts: []
@@ -125,23 +124,22 @@ clauses:
     scope: 工业和民用建筑内部装修防火设计
     conditions: []
     exceptions:
-    - building_type: 古建筑
-    - building_type: 木结构建筑
+    - 古建筑
+    - 木结构建筑
   constraint:
-    modal_level: null
+    strictness: 无/none
+    polarity: 无/null
     modal_words: []
+    modal_words_primary: []
     is_mandatory_clause: false
     mandatory_basis: null
+    constraint_items: []
   parameters: []
   tables: []
   converted_tables: []
   references: []
   related_objects:
-    component_types:
-    - IfcCovering
-    - IfcWall
-    - IfcCeiling
-    - IfcDoor
+    component_types: []
     activity_types:
     - 内部装修防火设计
   conflicts: []
@@ -160,21 +158,21 @@ clauses:
     conditions: []
     exceptions: []
   constraint:
-    modal_level: must
+    strictness: 应/shall
+    polarity: 正面/required
     modal_words:
+    - 应
+    modal_words_primary:
     - 应
     is_mandatory_clause: false
     mandatory_basis: null
+    constraint_items: []
   parameters: []
   tables: []
   converted_tables: []
   references: []
   related_objects:
-    component_types:
-    - IfcCovering
-    - IfcWall
-    - IfcCeiling
-    - IfcDoor
+    component_types: []
     activity_types:
     - 内部装修防火设计
   conflicts: []
@@ -193,21 +191,21 @@ clauses:
     conditions: []
     exceptions: []
   constraint:
-    modal_level: must
+    strictness: 应/shall
+    polarity: 正面/required
     modal_words:
+    - 应
+    modal_words_primary:
     - 应
     is_mandatory_clause: false
     mandatory_basis: null
+    constraint_items: []
   parameters: []
   tables: []
   converted_tables: []
   references: []
   related_objects:
-    component_types:
-    - IfcCovering
-    - IfcWall
-    - IfcCeiling
-    - IfcDoor
+    component_types: []
     activity_types:
     - 内部装修防火设计
   conflicts: []
@@ -216,30 +214,29 @@ clauses:
   chapter: 2 术语
   section: ''
   clause_no: 2.0.1
-  text: 建筑内部装修interior decoration of buildings为满足功能需求，对建筑内部空间所进行的修饰、保护及固定设施安装等活动。
+  text: "{建筑内部装修: interior decoration of buildings} 为满足功能需求，对建筑内部空间所进行的修饰、保护及固定设施安装等活动。"
   is_abolished: false
   abolished_date: null
   superseded_by: null
   abolition_note: null
   applicability:
-    scope: 术语定义：建筑内部装修
+    scope: 术语
     conditions: []
     exceptions: []
   constraint:
-    modal_level: null
+    strictness: 无/none
+    polarity: 无/null
     modal_words: []
+    modal_words_primary: []
     is_mandatory_clause: false
     mandatory_basis: null
+    constraint_items: []
   parameters: []
   tables: []
   converted_tables: []
   references: []
   related_objects:
-    component_types:
-    - IfcCovering
-    - IfcWall
-    - IfcCeiling
-    - IfcDoor
+    component_types: []
     activity_types:
     - 内部装修防火设计
   conflicts: []
@@ -248,30 +245,29 @@ clauses:
   chapter: 2 术语
   section: ''
   clause_no: 2.0.2
-  text: 装饰织物decorative fabric满足建筑内部功能需求，由棉、麻、丝、毛等天然纤维及其他合成纤维制作的纺织品，如窗帘、帷幕等。
+  text: "{装饰织物: decorative fabric} 满足建筑内部功能需求，由棉、麻、丝、毛等天然纤维及其他合成纤维制作的纺织品，如窗帘、帷幕等。"
   is_abolished: false
   abolished_date: null
   superseded_by: null
   abolition_note: null
   applicability:
-    scope: 术语定义：装饰织物
+    scope: 术语
     conditions: []
     exceptions: []
   constraint:
-    modal_level: null
+    strictness: 无/none
+    polarity: 无/null
     modal_words: []
+    modal_words_primary: []
     is_mandatory_clause: false
     mandatory_basis: null
+    constraint_items: []
   parameters: []
   tables: []
   converted_tables: []
   references: []
   related_objects:
-    component_types:
-    - IfcCovering
-    - IfcWall
-    - IfcCeiling
-    - IfcDoor
+    component_types: []
     activity_types:
     - 内部装修防火设计
   conflicts: []
@@ -280,30 +276,29 @@ clauses:
   chapter: 2 术语
   section: ''
   clause_no: 2.0.3
-  text: 隔断partition建筑内部固定的、不到顶的垂直分隔物。
+  text: "{隔断: partition} 建筑内部固定的、不到顶的垂直分隔物。"
   is_abolished: false
   abolished_date: null
   superseded_by: null
   abolition_note: null
   applicability:
-    scope: 术语定义：隔断
+    scope: 术语
     conditions: []
     exceptions: []
   constraint:
-    modal_level: null
+    strictness: 无/none
+    polarity: 无/null
     modal_words: []
+    modal_words_primary: []
     is_mandatory_clause: false
     mandatory_basis: null
+    constraint_items: []
   parameters: []
   tables: []
   converted_tables: []
   references: []
   related_objects:
-    component_types:
-    - IfcCovering
-    - IfcWall
-    - IfcCeiling
-    - IfcDoor
+    component_types: []
     activity_types:
     - 内部装修防火设计
   conflicts: []
@@ -312,30 +307,29 @@ clauses:
   chapter: 2 术语
   section: ''
   clause_no: 2.0.4
-  text: 固定家具fixed furniture与建筑结构固定在一起或不易改变位置的家具。如建筑内部的壁橱、壁柜、陈列台、大型货架等。
+  text: "{固定家具: fixed furniture} 与建筑结构固定在一起或不易改变位置的家具。如建筑内部的壁橱、壁柜、陈列台、大型货架等。"
   is_abolished: false
   abolished_date: null
   superseded_by: null
   abolition_note: null
   applicability:
-    scope: 术语定义：固定家具
+    scope: 术语
     conditions: []
     exceptions: []
   constraint:
-    modal_level: null
+    strictness: 无/none
+    polarity: 无/null
     modal_words: []
+    modal_words_primary: []
     is_mandatory_clause: false
     mandatory_basis: null
+    constraint_items: []
   parameters: []
   tables: []
   converted_tables: []
   references: []
   related_objects:
-    component_types:
-    - IfcCovering
-    - IfcWall
-    - IfcCeiling
-    - IfcDoor
+    component_types: []
     activity_types:
     - 内部装修防火设计
   conflicts: []
@@ -354,21 +348,21 @@ clauses:
     conditions: []
     exceptions: []
   constraint:
-    modal_level: may
+    strictness: 可/may
+    polarity: 正面/required
     modal_words:
+    - 可
+    modal_words_primary:
     - 可
     is_mandatory_clause: false
     mandatory_basis: null
+    constraint_items: []
   parameters: []
   tables: []
   converted_tables: []
   references: []
   related_objects:
-    component_types:
-    - IfcCovering
-    - IfcWall
-    - IfcCeiling
-    - IfcDoor
+    component_types: []
     activity_types:
     - 内部装修防火设计
   conflicts: []
@@ -387,11 +381,15 @@ clauses:
     conditions: []
     exceptions: []
   constraint:
-    modal_level: must
+    strictness: 应/shall
+    polarity: 正面/required
     modal_words:
+    - 应
+    modal_words_primary:
     - 应
     is_mandatory_clause: false
     mandatory_basis: null
+    constraint_items: []
   parameters: []
   tables:
   - id: 表3.0.2
@@ -412,11 +410,7 @@ clauses:
   converted_tables: []
   references: []
   related_objects:
-    component_types:
-    - IfcCovering
-    - IfcWall
-    - IfcCeiling
-    - IfcDoor
+    component_types: []
     activity_types:
     - 内部装修防火设计
   conflicts: []
@@ -436,11 +430,15 @@ clauses:
     - 材料燃烧性能存在争议时
     exceptions: []
   constraint:
-    modal_level: must
+    strictness: 应/shall
+    polarity: 正面/required
     modal_words:
+    - 应
+    modal_words_primary:
     - 应
     is_mandatory_clause: false
     mandatory_basis: null
+    constraint_items: []
   parameters: []
   tables: []
   converted_tables: []
@@ -451,11 +449,7 @@ clauses:
     resolution_status: resolved
     resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
   related_objects:
-    component_types:
-    - IfcCovering
-    - IfcWall
-    - IfcCeiling
-    - IfcDoor
+    component_types: []
     activity_types:
     - 内部装修防火设计
   conflicts: []
@@ -475,11 +469,15 @@ clauses:
     - 燃烧性能达到 B1 级
     exceptions: []
   constraint:
-    modal_level: may
+    strictness: 可/may
+    polarity: 正面/required
     modal_words:
+    - 可
+    modal_words_primary:
     - 可
     is_mandatory_clause: false
     mandatory_basis: null
+    constraint_items: []
   parameters:
   - name: 纸面石膏板/矿棉吸声板燃烧性能等级
     unit: null
@@ -491,10 +489,7 @@ clauses:
   converted_tables: []
   references: []
   related_objects:
-    component_types:
-    - IfcCovering
-    - IfcWall
-    - IfcCeiling
+    component_types: []
     activity_types:
     - 内部装修防火设计
   conflicts: []
@@ -514,11 +509,15 @@ clauses:
     - 当直接粘贴在A级基材上时
     exceptions: []
   constraint:
-    modal_level: may
+    strictness: 可/may
+    polarity: 正面/required
     modal_words:
+    - 可
+    modal_words_primary:
     - 可
     is_mandatory_clause: false
     mandatory_basis: null
+    constraint_items: []
   parameters:
   - name: 单位面积质量
     unit: g/m²
@@ -529,11 +528,7 @@ clauses:
   converted_tables: []
   references: []
   related_objects:
-    component_types:
-    - IfcCovering
-    - IfcWall
-    - IfcCeiling
-    - IfcDoor
+    component_types: []
     activity_types:
     - 内部装修防火设计
   conflicts: []
@@ -554,11 +549,15 @@ clauses:
     - 有机装修涂料：湿涂覆比 < 1.5 kg/m² 且涂层干膜厚度 ≤ 1.0 mm
     exceptions: []
   constraint:
-    modal_level: may
+    strictness: 可/may
+    polarity: 正面/required
     modal_words:
+    - 可
+    modal_words_primary:
     - 可
     is_mandatory_clause: false
     mandatory_basis: null
+    constraint_items: []
   parameters:
   - name: 湿涂覆比
     unit: kg/m²
@@ -574,11 +573,7 @@ clauses:
   converted_tables: []
   references: []
   related_objects:
-    component_types:
-    - IfcCovering
-    - IfcWall
-    - IfcCeiling
-    - IfcDoor
+    component_types: []
     activity_types:
     - 内部装修防火设计
   conflicts: []
@@ -598,21 +593,21 @@ clauses:
     - 当使用多层装修材料时
     exceptions: []
   constraint:
-    modal_level: must
+    strictness: 应/shall
+    polarity: 正面/required
     modal_words:
+    - 应
+    modal_words_primary:
     - 应
     is_mandatory_clause: false
     mandatory_basis: null
+    constraint_items: []
   parameters: []
   tables: []
   converted_tables: []
   references: []
   related_objects:
-    component_types:
-    - IfcCovering
-    - IfcWall
-    - IfcCeiling
-    - IfcDoor
+    component_types: []
     activity_types:
     - 内部装修防火设计
   conflicts: []
@@ -631,11 +626,15 @@ clauses:
     conditions: []
     exceptions: []
   constraint:
-    modal_level: must
+    strictness: 应/shall
+    polarity: 反面/prohibited
     modal_words:
+    - 不应
+    modal_words_primary:
     - 不应
     is_mandatory_clause: true
     mandatory_basis: 黑体强制性条文
+    constraint_items: []
   parameters: []
   tables: []
   converted_tables: []
@@ -665,11 +664,27 @@ clauses:
     - 消火栓箱门四周装修材料与箱门颜色应有明显区别或箱门表面设置发光标志
     exceptions: []
   constraint:
-    modal_level: must
+    strictness: 应/shall
+    polarity: 正反并存/mixed
     modal_words:
     - 不应
+    - 应
+    modal_words_primary:
+    - 不应
+    - 应
     is_mandatory_clause: true
     mandatory_basis: 黑体强制性条文
+    constraint_items:
+    - seq: 1
+      text_segment: 建筑内部消火栓箱门不应被装饰物遮掩
+      strictness: 应/shall
+      polarity: 反面/prohibited
+      modal_word: 不应
+    - seq: 2
+      text_segment: 消火栓箱门四周的装修材料颜色应与消火栓箱门的颜色有明显区别或在消火栓箱门表面设置发光标志
+      strictness: 应/shall
+      polarity: 正面/required
+      modal_word: 应
   parameters: []
   tables: []
   converted_tables: []
@@ -699,11 +714,15 @@ clauses:
     - 不应采用影响人员安全疏散的镜面反光材料
     exceptions: []
   constraint:
-    modal_level: must
+    strictness: 应/shall
+    polarity: 反面/prohibited
     modal_words:
+    - 不应
+    modal_words_primary:
     - 不应
     is_mandatory_clause: true
     mandatory_basis: 黑体强制性条文
+    constraint_items: []
   parameters: []
   tables: []
   converted_tables: []
@@ -734,11 +753,15 @@ clauses:
     - 地下民用建筑：顶棚、墙面、地面均 A 级
     exceptions: []
   constraint:
-    modal_level: must
+    strictness: 应/shall
+    polarity: 正面/required
     modal_words:
+    - 应
+    modal_words_primary:
     - 应
     is_mandatory_clause: true
     mandatory_basis: 黑体强制性条文
+    constraint_items: []
   parameters: []
   tables: []
   converted_tables: []
@@ -768,11 +791,15 @@ clauses:
     - 顶棚、墙面、地面均 A 级
     exceptions: []
   constraint:
-    modal_level: must
+    strictness: 应/shall
+    polarity: 正面/required
     modal_words:
+    - 应
+    modal_words_primary:
     - 应
     is_mandatory_clause: true
     mandatory_basis: 原黑体强制性条文（已废止）
+    constraint_items: []
   parameters: []
   tables: []
   converted_tables: []
@@ -801,11 +828,15 @@ clauses:
     - 建筑物内设有上下层相连通的中庭、走马廊、开散楼梯、自动扶梯时
     exceptions: []
   constraint:
-    modal_level: must
+    strictness: 应/shall
+    polarity: 正面/required
     modal_words:
+    - 应
+    modal_words_primary:
     - 应
     is_mandatory_clause: true
     mandatory_basis: 黑体强制性条文
+    constraint_items: []
   parameters: []
   tables: []
   converted_tables: []
@@ -836,11 +867,15 @@ clauses:
     - ≥ B1 级
     exceptions: []
   constraint:
-    modal_level: must
+    strictness: 应/shall
+    polarity: 正面/required
     modal_words:
+    - 应
+    modal_words_primary:
     - 应
     is_mandatory_clause: false
     mandatory_basis: null
+    constraint_items: []
   parameters: []
   tables: []
   converted_tables: []
@@ -870,11 +905,15 @@ clauses:
     exceptions:
     - A级装修材料
   constraint:
-    modal_level: must
+    strictness: 应/shall
+    polarity: 正面/required
     modal_words:
+    - 应
+    modal_words_primary:
     - 应
     is_mandatory_clause: true
     mandatory_basis: 黑体强制性条文
+    constraint_items: []
   parameters: []
   tables: []
   converted_tables: []
@@ -904,11 +943,15 @@ clauses:
     - 内部所有装修均 A 级
     exceptions: []
   constraint:
-    modal_level: must
+    strictness: 应/shall
+    polarity: 正面/required
     modal_words:
+    - 应
+    modal_words_primary:
     - 应
     is_mandatory_clause: true
     mandatory_basis: 黑体强制性条文
+    constraint_items: []
   parameters: []
   tables: []
   converted_tables: []
@@ -939,11 +982,15 @@ clauses:
     - 地面及其他 ≥ B1 级
     exceptions: []
   constraint:
-    modal_level: must
+    strictness: 应/shall
+    polarity: 正面/required
     modal_words:
+    - 应
+    modal_words_primary:
     - 应
     is_mandatory_clause: true
     mandatory_basis: 黑体强制性条文
+    constraint_items: []
   parameters: []
   tables: []
   converted_tables: []
@@ -973,11 +1020,15 @@ clauses:
     - 顶棚、墙面、地面均 A 级
     exceptions: []
   constraint:
-    modal_level: must
+    strictness: 应/shall
+    polarity: 正面/required
     modal_words:
+    - 应
+    modal_words_primary:
     - 应
     is_mandatory_clause: true
     mandatory_basis: 黑体强制性条文
+    constraint_items: []
   parameters: []
   tables: []
   converted_tables: []
@@ -1007,11 +1058,15 @@ clauses:
     exceptions:
     - A级装修材料
   constraint:
-    modal_level: must
+    strictness: 应/shall
+    polarity: 正面/required
     modal_words:
+    - 应
+    modal_words_primary:
     - 应
     is_mandatory_clause: true
     mandatory_basis: 黑体强制性条文
+    constraint_items: []
   parameters: []
   tables: []
   converted_tables: []
@@ -1040,11 +1095,15 @@ clauses:
     conditions: []
     exceptions: []
   constraint:
-    modal_level: must
+    strictness: 应/shall
+    polarity: 正面/required
     modal_words:
+    - 应
+    modal_words_primary:
     - 应
     is_mandatory_clause: true
     mandatory_basis: 黑体强制性条文
+    constraint_items: []
   parameters: []
   tables: []
   converted_tables: []
@@ -1076,11 +1135,15 @@ clauses:
     - 3 与卤钨灯等高温照明灯具贴邻部位 A 级
     exceptions: []
   constraint:
-    modal_level: must
+    strictness: 应/shall
+    polarity: 正面/required
     modal_words:
+    - 应
+    modal_words_primary:
     - 应
     is_mandatory_clause: true
     mandatory_basis: 黑体强制性条文
+    constraint_items: []
   parameters: []
   tables: []
   converted_tables: []
@@ -1113,11 +1176,43 @@ clauses:
     - 4 阳台装修 ≥ B1 级
     exceptions: []
   constraint:
-    modal_level: must
+    strictness: 应/shall
+    polarity: 正反并存/mixed
     modal_words:
     - 不应
+    - 宜
+    - 应
+    modal_words_primary:
+    - 不应
+    - 应
     is_mandatory_clause: false
     mandatory_basis: null
+    constraint_items:
+    - seq: 1
+      text_segment: 住宅建筑装修设计尚应符合下列规定
+      strictness: 应/shall
+      polarity: 正面/required
+      modal_word: 应
+    - seq: 2
+      text_segment: 1 不应改动住宅内部烟道、风道
+      strictness: 应/shall
+      polarity: 反面/prohibited
+      modal_word: 不应
+    - seq: 3
+      text_segment: 2 厨房内的固定橱柜宜采用不低于B1级的装修材料
+      strictness: 宜/should
+      polarity: 正面/required
+      modal_word: 宜
+    - seq: 4
+      text_segment: 3 卫生间顶棚宜采用A级装修材料
+      strictness: 宜/should
+      polarity: 正面/required
+      modal_word: 宜
+    - seq: 5
+      text_segment: 4 阳台装修宜采用不低于B1级的装修材料
+      strictness: 宜/should
+      polarity: 正面/required
+      modal_word: 宜
   parameters: []
   tables: []
   converted_tables: []
@@ -1147,11 +1242,17 @@ clauses:
     - 当靠近非A级装修材料或构件时
     exceptions: []
   constraint:
-    modal_level: must
+    strictness: 应/shall
+    polarity: 正面/required
     modal_words:
     - 不应
+    - 应
+    modal_words_primary:
+    - 不应
+    - 应
     is_mandatory_clause: false
     mandatory_basis: null
+    constraint_items: []
   parameters:
   - name: 高温部位与装修材料距离
     unit: mm
@@ -1186,11 +1287,27 @@ clauses:
     - 第2款：当用于顶棚和墙面装修的木质类板材内部含有电器、电线等物体时
     exceptions: []
   constraint:
-    modal_level: must
+    strictness: 应/shall
+    polarity: 正反并存/mixed
     modal_words:
     - 不应
+    - 应
+    modal_words_primary:
+    - 不应
+    - 应
     is_mandatory_clause: false
     mandatory_basis: null
+    constraint_items:
+    - seq: 1
+      text_segment: 建筑内部的配电箱、控制面板、接线盒、开关、插座等不应直接安装在低于B1级的装修材料上
+      strictness: 应/shall
+      polarity: 反面/prohibited
+      modal_word: 不应
+    - seq: 2
+      text_segment: 应采用不低于B1级的材料
+      strictness: 应/shall
+      polarity: 正面/required
+      modal_word: 应
   parameters: []
   tables: []
   converted_tables: []
@@ -1221,11 +1338,17 @@ clauses:
     - 第2款：当室内顶棚、墙面、地面和隔断装修材料内部安装水暖(或蒸汽)供暖系统时
     exceptions: []
   constraint:
-    modal_level: must
+    strictness: 应/shall
+    polarity: 正面/required
     modal_words:
     - 不应
+    - 应
+    modal_words_primary:
+    - 不应
+    - 应
     is_mandatory_clause: false
     mandatory_basis: null
+    constraint_items: []
   parameters: []
   tables: []
   converted_tables: []
@@ -1255,11 +1378,16 @@ clauses:
     - 当需要设置采用B3级装饰材料制成的壁挂、布艺等时
     exceptions: []
   constraint:
-    modal_level: must
+    strictness: 应/shall
+    polarity: 反面/prohibited
     modal_words:
+    - 不宜
+    - 不应
+    modal_words_primary:
     - 不应
     is_mandatory_clause: false
     mandatory_basis: null
+    constraint_items: []
   parameters: []
   tables: []
   converted_tables: []
@@ -1289,11 +1417,15 @@ clauses:
     - 按本规范有关规定类比执行
     exceptions: []
   constraint:
-    modal_level: must
+    strictness: 应/shall
+    polarity: 正面/required
     modal_words:
-    - 不应
+    - 应
+    modal_words_primary:
+    - 应
     is_mandatory_clause: false
     mandatory_basis: null
+    constraint_items: []
   parameters: []
   tables: []
   converted_tables: []
@@ -1323,10 +1455,15 @@ clauses:
     - 燃烧性能等级不应低于本规范表 5.1.1 的规定
     exceptions: []
   constraint:
-    modal_level: null
-    modal_words: []
+    strictness: 应/shall
+    polarity: 正面/required
+    modal_words:
+    - 不应
+    modal_words_primary:
+    - 不应
     is_mandatory_clause: true
     mandatory_basis: 黑体强制性条文
+    constraint_items: []
   parameters: []
   tables:
   - id: 表5.1.1
@@ -1637,11 +1774,15 @@ clauses:
     exceptions:
     - 本规范第4章规定的场所和本规范表5.1.1中序号为11～13规定的部位
   constraint:
-    modal_level: may
+    strictness: 可/may
+    polarity: 正面/required
     modal_words:
+    - 可
+    modal_words_primary:
     - 可
     is_mandatory_clause: false
     mandatory_basis: null
+    constraint_items: []
   parameters: []
   tables: []
   converted_tables: []
@@ -1674,11 +1815,15 @@ clauses:
     - 本规范第4章规定的场所和本规范表5.1.1中序号为11～13规定的部位
     - 顶棚（第1款中除顶棚外不参与降级）
   constraint:
-    modal_level: may
+    strictness: 可/may
+    polarity: 正面/required
     modal_words:
+    - 可
+    modal_words_primary:
     - 可
     is_mandatory_clause: false
     mandatory_basis: null
+    constraint_items: []
   parameters: []
   tables: []
   converted_tables: []
@@ -1708,11 +1853,15 @@ clauses:
     - 燃烧性能等级不应低于本规范表 5.2.1 的规定
     exceptions: []
   constraint:
-    modal_level: must
+    strictness: 应/shall
+    polarity: 正面/required
     modal_words:
+    - 不应
+    modal_words_primary:
     - 不应
     is_mandatory_clause: true
     mandatory_basis: 黑体强制性条文
+    constraint_items: []
   parameters: []
   tables:
   - id: 表5.2.1
@@ -2073,11 +2222,15 @@ clauses:
     exceptions:
     - 本规范第4章规定的场所和本规范表5.2.1中序号为10～12规定的部位
   constraint:
-    modal_level: may
+    strictness: 可/may
+    polarity: 正面/required
     modal_words:
+    - 可
+    modal_words_primary:
     - 可
     is_mandatory_clause: false
     mandatory_basis: null
+    constraint_items: []
   parameters: []
   tables: []
   converted_tables: []
@@ -2110,11 +2263,15 @@ clauses:
     - 大于400㎡的观众厅、会议厅和100m以上的高层民用建筑
     - 顶棚（除顶棚外不参与降级）
   constraint:
-    modal_level: may
+    strictness: 可/may
+    polarity: 正面/required
     modal_words:
+    - 可
+    modal_words_primary:
     - 可
     is_mandatory_clause: false
     mandatory_basis: null
+    constraint_items: []
   parameters: []
   tables: []
   converted_tables: []
@@ -2145,11 +2302,15 @@ clauses:
     - 其他均 A 级
     exceptions: []
   constraint:
-    modal_level: must
+    strictness: 应/shall
+    polarity: 正面/required
     modal_words:
+    - 应
+    modal_words_primary:
     - 应
     is_mandatory_clause: false
     mandatory_basis: null
+    constraint_items: []
   parameters: []
   tables: []
   converted_tables: []
@@ -2179,11 +2340,15 @@ clauses:
     - 燃烧性能等级不应低于本规范表 5.3.1 的规定
     exceptions: []
   constraint:
-    modal_level: must
+    strictness: 应/shall
+    polarity: 正面/required
     modal_words:
+    - 不应
+    modal_words_primary:
     - 不应
     is_mandatory_clause: true
     mandatory_basis: 黑体强制性条文
+    constraint_items: []
   parameters: []
   tables:
   - id: 表5.3.1
@@ -2335,11 +2500,15 @@ clauses:
     exceptions:
     - 本规范第4章规定的场所和本规范表5.3.1中序号为6～8规定的部位
   constraint:
-    modal_level: may
+    strictness: 可/may
+    polarity: 正面/required
     modal_words:
+    - 可
+    modal_words_primary:
     - 可
     is_mandatory_clause: false
     mandatory_basis: null
+    constraint_items: []
   parameters: []
   tables: []
   converted_tables: []
@@ -2369,11 +2538,15 @@ clauses:
     - 燃烧性能等级不应低于本规范表 6.0.1 的规定
     exceptions: []
   constraint:
-    modal_level: must
+    strictness: 应/shall
+    polarity: 正面/required
     modal_words:
+    - 不应
+    modal_words_primary:
     - 不应
     is_mandatory_clause: true
     mandatory_basis: 黑体强制性条文
+    constraint_items: []
   parameters: []
   tables:
   - id: 表6.0.1
@@ -2510,11 +2683,15 @@ clauses:
     - 本规范第4章规定的场所和部位
     - 顶棚（除顶棚外不参与降级）
   constraint:
-    modal_level: may
+    strictness: 可/may
+    polarity: 正面/required
     modal_words:
+    - 可
+    modal_words_primary:
     - 可
     is_mandatory_clause: false
     mandatory_basis: null
+    constraint_items: []
   parameters: []
   tables: []
   converted_tables: []
@@ -2544,11 +2721,15 @@ clauses:
     - 当厂房的地面为架空地板时
     exceptions: []
   constraint:
-    modal_level: must
+    strictness: 应/shall
+    polarity: 正面/required
     modal_words:
+    - 应
+    modal_words_primary:
     - 应
     is_mandatory_clause: false
     mandatory_basis: null
+    constraint_items: []
   parameters: []
   tables: []
   converted_tables: []
@@ -2578,11 +2759,15 @@ clauses:
     - 当采用现行国家标准《建筑设计防火规范》GB50016规定的防火分隔和疏散设施时
     exceptions: []
   constraint:
-    modal_level: may
+    strictness: 可/may
+    polarity: 正面/required
     modal_words:
+    - 可
+    modal_words_primary:
     - 可
     is_mandatory_clause: false
     mandatory_basis: null
+    constraint_items: []
   parameters: []
   tables: []
   converted_tables: []
@@ -2617,12 +2802,15 @@ clauses:
     - 燃烧性能等级不应低于本规范表 6.0.5 的规定
     exceptions: []
   constraint:
-    modal_level: must
+    strictness: 应/shall
+    polarity: 正面/required
     modal_words:
     - 不应
-    - 不得
+    modal_words_primary:
+    - 不应
     is_mandatory_clause: true
     mandatory_basis: 黑体强制性条文
+    constraint_items: []
   parameters: []
   tables:
   - id: 表6.0.5

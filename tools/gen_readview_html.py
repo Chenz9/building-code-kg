@@ -4,7 +4,11 @@
 用法: python _gen_readview_html.py <yaml路径> <输出html路径>
 可复用于 GB 55031 等后续样板。
 """
-import sys, html, yaml, datetime
+import sys, re, html, yaml, datetime
+from collections import Counter
+
+# 术语条内联字典约定（SCHEMA_v2.2 §8）：text 形如 "{中文: English} 定义"
+TERM_RE = re.compile(r'^\s*\{\s*([^:：]+?)\s*[:：]\s*([^}]+?)\s*\}\s*([\s\S]*)$')
 
 DARK = False  # 与 IDE 主题一致时改 True
 
@@ -15,13 +19,41 @@ def build(src, out):
     rows = []
     for c in d['clauses']:
         ap = c.get('applicability') or {}
+        ct = c.get('constraint') or {}
         rows.append(dict(
             no=c['clause_no'], text=c.get('text', ''), chapter=c.get('chapter', ''),
-            is_mand=(c.get('constraint') or {}).get('is_mandatory_clause', False),
+            is_mand=ct.get('is_mandatory_clause', False),
             abol=c.get('is_abolished', False), abol_by=c.get('superseded_by') or '',
             scope=ap.get('scope', ''), conds=ap.get('conditions') or [],
             exs=ap.get('exceptions') or [], params=c.get('parameters') or [],
+            strictness=ct.get('strictness') or ct.get('modal_level') or '',
+            polarity=ct.get('polarity') or '',
+            mwords=ct.get('modal_words') or [],
+            citems=ct.get('constraint_items') or [],
         ))
+
+    def cn(v):
+        return str(v).split('/')[0] if v else ''
+    def pcls(p):
+        if '反面' in str(p): return 'b-neg'
+        if '并存' in str(p): return 'b-mix'
+        return 'b-pos'
+
+    def term_html(t):
+        """术语条（{中文: English} 定义）渲染成三段卡片；普通条文按原样转义。"""
+        t = str(t or '')
+        m = TERM_RE.match(t)
+        if not m:
+            return html.escape(t)
+        cn_, en_, df = m.group(1).strip(), m.group(2).strip(), m.group(3).strip()
+        h = ['<div class="termcard"><div class="term-head">',
+             f'<span class="term-cn">{html.escape(cn_)}</span>',
+             f'<span class="term-en">{html.escape(en_)}</span>',
+             '</div>']
+        if df:
+            h.append(f'<div class="term-def">{html.escape(df)}</div>')
+        h.append('</div>')
+        return ''.join(h)
 
     def k(r):
         return tuple(int(x) if x.isdigit() else 0 for x in r['no'].split('.'))
@@ -45,10 +77,24 @@ def build(src, out):
     o.append('.clause.mand{border-left:4px solid #d85a30}')
     o.append('.clause-no{font-weight:600;color:#1d9e75;font-size:1.1rem}')
     o.append('.clause-text{margin:.5rem 0;line-height:1.7}')
+    o.append('.termcard{margin:.5rem 0;border:1px solid #e2e2dd;border-radius:6px;'
+             'padding:.6rem .8rem;background:#fafaf8}')
+    o.append('.term-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:.6rem;margin-bottom:.35rem}')
+    o.append('.term-cn{font-weight:600;color:#1d9e75;font-size:1.02rem}')
+    o.append('.term-en{font-size:.85rem;color:#888;font-style:italic}')
+    o.append('.term-def{line-height:1.7;border-top:1px dashed #e2e2dd;padding-top:.35rem}')
     o.append('.badge{display:inline-block;padding:2px 8px;border-radius:4px;font-size:.8rem;margin-right:.4rem}')
     o.append('.b-mand{background:#d85a30;color:#fff}')
     o.append('.b-abol{background:#993c1d;color:#fff}')
     o.append('.b-ok{background:#1d9e75;color:#fff}')
+    o.append('.b-str{background:#e6f1fb;color:#185fa5;border:1px solid #b5d4f4}')
+    o.append('.b-pos{background:#eaf3de;color:#3b6d11;border:1px solid #c0dd97}')
+    o.append('.b-neg{background:#fcebeb;color:#a32d2d;border:1px solid #f7c1c1}')
+    o.append('.b-mix{background:#faeeda;color:#854f0b;border:1px solid #fac775}')
+    o.append('.b-word{background:#f1efe8;color:#5f5e5a;border:1px solid #d3d1c7}')
+    o.append('table.split{border-collapse:collapse;width:100%;margin:.5rem 0;font-size:.85rem}')
+    o.append('table.split th,table.split td{border:1px solid #e5e5e5;padding:.3rem .5rem;text-align:left}')
+    o.append('table.split th{background:#f6f6f4;font-weight:600}')
     o.append('.scope{background:#e1f5ee;padding:.3rem .6rem;border-radius:4px;margin:.5rem 0;font-size:.9rem}')
     o.append('.scope::before{content:"适用范围：";font-weight:600}')
     o.append('.cond{background:#e6f1fb;padding:.3rem .6rem;border-radius:4px;margin:.25rem 0;font-size:.85rem}')
@@ -69,12 +115,22 @@ def build(src, out):
     o.append(f'<h1>{std["code"]}《{std["name"]}》</h1>')
     o.append(f'<p style="color:#666;font-size:.9rem">完整复核阅读视图 · 生成于 {ts} · '
              f'{len(rows)} 条 / 强条 {n_mand} / 已废止 {n_abol}<br>'
-             f'正本：<code>03_标准结构化/_v2/{std["code"].replace(" ", "")}.yaml</code>')
+             f'数据源：<code>standards/{std["code"].replace(" ", "")}.yaml</code>')
 
     o.append('<div class=summary>')
     for num, lab in [(len(rows), '条文总数'), (n_mand, '强条'),
                      (n_abol, '被废止强条'), (n_scope, 'V4 适用范围填充')]:
         o.append(f'<div class=stat><div class=stat-num>{num}</div><div class=stat-label>{lab}</div></div>')
+    o.append('</div>')
+
+    tier_cnt = Counter((cn(r['strictness']) or '无') for r in rows)
+    pol_cnt = Counter((cn(r['polarity']) or '无') for r in rows)
+    o.append('<div class=toc><strong>语气分布（v2.2 strictness × polarity）：</strong><br>')
+    for tk, tv in tier_cnt.most_common():
+        o.append(f'<span class="badge b-str">{html.escape(tk)} <b>{tv}</b></span>')
+    o.append('　')
+    for pk, pv in pol_cnt.most_common():
+        o.append(f'<span class="badge {pcls(pk)}">{html.escape(pk)} <b>{pv}</b></span>')
     o.append('</div>')
 
     o.append('<div class=toc><strong>章节目录：</strong><br>')
@@ -106,8 +162,27 @@ def build(src, out):
             o.append(f' <span class="badge b-abol">已废止 → {html.escape(r["abol_by"])}</span>')
         if r['scope']:
             o.append(' <span class="badge b-ok">V4✓</span>')
+        if r['strictness'] and r['strictness'] != '无/none':
+            o.append(f' <span class="badge b-str" title="{html.escape(r["strictness"])}">'
+                     f'{html.escape(cn(r["strictness"]))}</span>')
+        if r['polarity'] and cn(r['polarity']) != '无':
+            o.append(f' <span class="badge {pcls(r["polarity"])}" '
+                     f'title="{html.escape(r["polarity"])}">{html.escape(cn(r["polarity"]))}</span>')
+        for w in r['mwords']:
+            o.append(f' <span class="badge b-word">{html.escape(str(w))}</span>')
         o.append('</div>')
-        o.append(f'<div class=clause-text>{html.escape(r["text"])}</div>')
+        o.append(f'<div class=clause-text>{term_html(r["text"])}</div>')
+        if r['citems']:
+            o.append('<table class=split><thead><tr><th>#</th><th>分句</th>'
+                     '<th>等级</th><th>极性</th><th>语气词</th></tr></thead><tbody>')
+            for it in r['citems']:
+                o.append('<tr><td>{}</td><td>{}</td><td>{}</td><td>{}</td><td>{}</td></tr>'.format(
+                    html.escape(str(it.get('seq', ''))),
+                    html.escape(str(it.get('text_segment', ''))),
+                    html.escape(cn(it.get('strictness', ''))),
+                    html.escape(cn(it.get('polarity', ''))),
+                    html.escape(str(it.get('modal_word', '')))))
+            o.append('</tbody></table>')
         if r['scope']:
             o.append(f'<div class=scope>{html.escape(r["scope"])}</div>')
         for c in r['conds']:
