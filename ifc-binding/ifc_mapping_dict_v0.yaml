@@ -1,0 +1,701 @@
+# ============================================================
+# 规范 ↔ IFC 映射词表 v0.3（2026-09-22）
+# ============================================================
+# 用途：GB50222 / GB55031 / GB55024 三册黄金样本的模型绑定层唯一词表。
+#       审计脚本（实体白名单校验）、IDS 导出、自研规则引擎共用本文件。
+# 决策依据：07_IFC模型绑定/决策记录_20260921.md（6 项决策已拍板）。
+# 状态：draft —— 待 5 条 MVP 闭环 + 20 条黄金样本迭代为 v1。
+# 事实核查来源：buildingSMART IFC4 FINAL 官方文档（已核实的标注 ✅）。
+#
+# v0.2 变更（评审 7 细节）：
+#   ① 表4 材料级路径修正：分类与关联拆开不成链；材料级分类走
+#      IfcExternalReferenceRelationship（IfcMaterial 非 IfcObjectDefinition，
+#      不能作 IfcRelAssociatesClassification.RelatedObjects——官方实体层级证实）
+#   ② 新增 material_channels 块：材料级三通道（分类/属性/关联）官方路径
+#   ③ 表1 多候选实体策略：方案 B（拆多条绑定），见 binding_strategy
+#   ④ entity_whitelist 拆分 component / relation / resource 三表
+#   ⑤ 表4 墙面绑定策略明确（装修面层→CLADDING，墙体本体才→IfcWall）
+#
+# v0.3 变更（评审 5 处收紧 + 3 矩阵缺口）：
+#   ① 表1 补「栏杆/栏板」→ IfcRailing（含 PredefinedType 枚举与检查形态说明）
+#   ② 白名单 component_ifc4 补 IfcRailing（并预留 IfcMember/IfcPlate 栏杆构件细分）
+#   ③ 新增 member_alias_map：系统成员 ObjectType 别名表（has_all 归一用，
+#      schema §9.5 匹配语义分支 3）——不同项目写法差异不得导致静默失败
+#   ④ 新增 process_parameters：纯过程参数落点（ifc_binding.target=process）
+#   ⑤ 表2 补湿区空间（厕所/浴室/公共厨房/垃圾间——GB55031 6.3.3 防水层收窄用）
+#
+# ⚠ 核心红线（可行性分析 D1，已官方证实）：
+#   燃烧性能等级（GB8624 的 A/B1/B2/B3）≠ 耐火极限（GB50016 构件耐火等级）。
+#   前者绑 FlammabilityRating / 材料分类；后者绑 FireRating。
+#   两者错绑 = 语义级事故，审计规则 C-BINDING-02 强制拦截。
+# ============================================================
+
+meta:
+  version: v0.5
+  date: "2026-09-22"
+  ifc_baseline: IFC4                # 决策⑥：IFC4 基线
+  ifc_extension: IFC4.3             # 仅扩展列可引用，引用时须显式声明
+  scope: [GB 50222-2017, GB 55031-2022, GB 55024-2022]
+  status: draft
+  changelog:
+    - "v0.5（2026-09-22）：space_map 补 GB50222 第5–6章表格场所类别 18 条（表5.1.1/5.2.1/5.3.1/6.0.1/6.0.5 的『建筑物及场所』行），随批次1d落地。"
+    - "v0.4（2026-09-22）：space_map 补 GB50222 第4章特别场所 16 条（中庭/走马廊/开敞楼梯/自动扶梯/消防水泵房/机械加压送风排烟机房/固定灭火系统钢瓶间/配电室/变压器室/发电机房/储油间/通风和空调机房/厨房/库房/贮藏间/阳台），随批次1b落地。"
+    - "v0.3（2026-09-22）：space_map 补 湿区（厕所/浴室/公共厨房/垃圾间）+ 安装场所（室外/埋地/水下）；member_alias_map 首次落地。"
+
+# ------------------------------------------------------------
+# 表1 部位 → 构件实体 + PredefinedType
+# binding_strategy: split（方案 B）——一个部位若存在多种候选实体/枚举，
+#   拆成多条 model_bindings 分别绑定，保持单条绑定语义单纯；
+#   规则引擎按多条绑定分别生成规则（勿用 ifc_entity_candidates 多值）
+# 覆盖度: strong=IFC4 直接对应 / medium=需 ObjectType 辅助 / weak=无直接实体
+# ------------------------------------------------------------
+part_component_map:
+  - part: 顶棚
+    ifc_entity: IfcCovering
+    predefined_type: CEILING
+    coverage: strong
+    common_psets: [Pset_CoveringCommon]
+    notes: "装修面层视角；结构顶板用 IfcSlab"
+  - part: 墙面（装修面层）
+    ifc_entity: IfcCovering
+    predefined_type: CLADDING
+    coverage: strong
+    common_psets: [Pset_CoveringCommon]
+    notes: "GB50222『墙面』指装修面层→CLADDING；涉及墙体本体（耐火极限/传热）时另拆一条 IfcWall.STANDARD 绑定（方案 B，勿单条绑定多候选）"
+  - part: 墙体（结构/围护本体）
+    ifc_entity: IfcWall
+    predefined_type: STANDARD
+    coverage: strong
+    common_psets: [Pset_WallCommon]
+    notes: "隔断墙用 PARTITION；外墙建议 IsExternal=true。★ 与『墙面（装修面层）』是两条绑定：面层燃烧性能 → IfcCovering.CLADDING；本体耐火极限 → IfcWall.STANDARD.FireRating"
+  - part: 地面（装修面层）
+    ifc_entity: IfcCovering
+    predefined_type: FLOORING
+    coverage: strong
+    common_psets: [Pset_CoveringCommon]
+    alt: "楼板本体（层高/厚度约束）另拆 IfcSlab.FLOOR 绑定"
+  - part: 楼板（结构）
+    ifc_entity: IfcSlab
+    predefined_type: FLOOR
+    coverage: strong
+    common_psets: [Pset_SlabCommon]
+    notes: "湿区楼面防水层等构造要求挂本体（GB55031 6.3.3）"
+  - part: 屋面构造层
+    ifc_entity: IfcSlab
+    predefined_type: ROOF
+    coverage: strong
+    common_psets: [Pset_SlabCommon]
+    notes: "热工参数（ThermalTransmittance）挂构造层"
+  - part: 屋面（整体）
+    ifc_entity: IfcRoof
+    predefined_type: FLAT_ROOF      # 按实际形式；无坡度信息可缺省
+    coverage: medium
+    common_psets: [Pset_RoofCommon]
+    notes: "整体性约束（如构造做法存在性）挂 IfcRoof；与 IfcSlab.ROOF 拆两条绑定"
+  - part: 门
+    ifc_entity: IfcDoor
+    predefined_type: null
+    coverage: strong
+    common_psets: [Pset_DoorCommon]
+  - part: 窗
+    ifc_entity: IfcWindow
+    predefined_type: null
+    coverage: strong
+    common_psets: [Pset_WindowCommon]
+  - part: 隔断
+    ifc_entity: IfcWall
+    predefined_type: PARTITION
+    coverage: strong
+    common_psets: [Pset_WallCommon]
+  - part: 幕墙
+    ifc_entity: IfcCurtainWall
+    predefined_type: null
+    coverage: strong
+    common_psets: [Pset_CurtainWallCommon]
+  - part: 固定家具
+    ifc_entity: IfcFurniture
+    predefined_type: null
+    coverage: medium
+    notes: "固定式才绑；活动家具不属建筑装修交付范围"
+  - part: 楼梯
+    ifc_entity: IfcStair
+    predefined_type: null
+    coverage: strong
+  - part: 坡道
+    ifc_entity: IfcRamp
+    predefined_type: null
+    coverage: strong
+  - part: 栏杆/栏板
+    ifc_entity: IfcRailing
+    predefined_type: HANDRAIL | GUARDRAIL | BALUSTRADE
+    coverage: medium
+    common_psets: [Pset_RailingCommon]
+    notes: "★ 检查形态（v0.3 补）：GB55031 第6.6节栏杆条文的约束分两类——
+              (甲) 属性型（如『应采取防止攀滑措施』）→ 可走自定义 GB_栏杆 Pset 属性（exists/in）；
+              (乙) 几何型（如 6.6.3『杆件净间距不应大于 0.11m』）→ 属几何推导量，
+              规则引擎 v1 不支持，**降级 needs_expert_review + 参数保留供几何引擎消费**。
+              白名单收录不放行几何检查——补白名单≠可自动检查，必须先定检查形态。"
+    alt_entities: "栏杆构件细分（立柱/扶手/栏板）可用 IfcMember / IfcPlate 表达，v0.3 已预留白名单，但需项目约定 ObjectType"
+  - part: 疏散净宽（门洞/走道几何）
+    ifc_entity: IfcDoor
+    predefined_type: null
+    coverage: weak
+    notes: "疏散宽度是几何推导量（Qto_*BaseQuantities Width）——规则引擎走几何检查路径"
+
+# ------------------------------------------------------------
+# 材料级三通道（v0.2 修正：分类与关联分开，不成链）
+# 依据：IfcMaterial 是 IfcMaterialDefinition，不是 IfcObjectDefinition——
+#       不能作 IfcRelAssociatesClassification.RelatedObjects（✅ IFC4 实体层级证实）
+# ------------------------------------------------------------
+material_channels:
+  material_association:             # 通道1 材料关联
+    path: "IfcRelAssociatesMaterial（构件 → IfcMaterial）"
+    source: "✅ IFC4：IfcMaterialDefinition.AssociatedTo 逆属性"
+  material_classification:          # 通道2 材料级分类（GB8624 分级挂材料本体）
+    path: "IfcExternalReferenceRelationship → IfcClassificationReference(GB8624)，RelatedResourceObjects=[IfcMaterial]"
+    source: "✅ IFC4：IfcMaterialDefinition.HasExternalReferences 逆属性（classification 属 external reference）"
+    warning: "不要写 IfcRelAssociatesClassification → IfcMaterial（schema 非法）；该关系只挂构件"
+  element_classification:           # 通道2b 构件级分类（表达『该构件材料属某级』）
+    path: "IfcRelAssociatesClassification → IfcClassificationReference(GB8624)，RelatedObjects=[构件]"
+    notes: "与通道2 二选一或并用；工程上构件级最通用，材料级最精确"
+  material_properties:              # 通道3 材料级属性
+    path: "IfcMaterialProperties(Material=IfcMaterial) → Properties"
+    source: "✅ IFC4：IfcMaterialProperties 非抽象、直接带 Material 属性；IfcMaterial.HasProperties 逆属性"
+    standard_pset: "Pset_MaterialCombustion（✅ IFC4 官方标准材料燃烧属性集）"
+    custom_rule: "GB 分级等无标准属性的概念用自定义 IfcMaterialProperties（命名遵守表6 GB_ 前缀）"
+
+# ------------------------------------------------------------
+# 表2 空间映射（项目约定层——IFC4 无中国规范房间枚举）
+# IfcSpace.PredefinedType 在 IFC4 下枚举贫乏，实际承载靠 ObjectType / IfcZone
+# project_convention: required —— 换项目须先对齐本表，否则黄金样本结论不可迁移
+# carrier: IfcSpace.ObjectType（逐空间）| IfcZone.Name（空间组，见本表末 zone 组）
+# ------------------------------------------------------------
+space_map:
+  - space_name: 疏散楼梯间
+    carrier: IfcSpace.ObjectType
+    convention_value: "疏散楼梯间"
+    zone_hint: "消防疏散区组（IfcZone）"
+    project_convention: required
+  - space_name: 前室
+    carrier: IfcSpace.ObjectType
+    convention_value: "前室"
+    notes: "含合用前室，命名须可区分（前室/合用前室）"
+    project_convention: required
+  - space_name: 疏散走道
+    carrier: IfcSpace.ObjectType
+    convention_value: "疏散走道"
+    project_convention: required
+  - space_name: 消防控制室
+    carrier: IfcSpace.ObjectType
+    convention_value: "消防控制室"
+    project_convention: required
+  - space_name: 变电所/配电间
+    carrier: IfcSpace.ObjectType
+    convention_value: "按图纸命名（变电所/配电间分列）"
+    project_convention: required
+  - space_name: 柴油发电机房
+    carrier: IfcSpace.ObjectType
+    convention_value: "柴油发电机房"
+    project_convention: required
+  - space_name: 设备机房（通用）
+    carrier: IfcSpace.ObjectType
+    convention_value: "按专业命名（弱电机房/制冷机房…）"
+    project_convention: required
+    notes: "机房类约束多为净高/门宽/防火等级，走空间数量集 Qto_SpaceBaseQuantities"
+  # ---- v0.3 补：湿区（GB55031 6.3.3 防水层条文的空间收窄）----
+  - space_name: 厕所（卫生间）
+    carrier: IfcSpace.ObjectType
+    convention_value: "厕所 / 卫生间（同一 space 只取一种写法，项目内统一）"
+    project_convention: required
+  - space_name: 浴室
+    carrier: IfcSpace.ObjectType
+    convention_value: "浴室"
+    project_convention: required
+  - space_name: 公共厨房
+    carrier: IfcSpace.ObjectType
+    convention_value: "公共厨房"
+    project_convention: required
+  - space_name: 垃圾间
+    carrier: IfcSpace.ObjectType
+    convention_value: "垃圾间"
+    project_convention: required
+  # ---- 安装场所补充（GB55024 4.5.3 灯具分场所 IP 等级；随 v0.3 同批落地）----
+  # 说明：室外/埋地/水下 严格说是「安装场所」而非房间空间，但 IFC4 无更贴切的
+  #   空间上下文载体，黄金样本以 IfcSpace.ObjectType 表达（换项目须对齐约定）。
+  - space_name: 室外
+    carrier: IfcSpace.ObjectType
+    convention_value: "室外"
+    project_convention: required
+  - space_name: 埋地
+    carrier: IfcSpace.ObjectType
+    convention_value: "埋地"
+    project_convention: required
+  - space_name: 水下
+    carrier: IfcSpace.ObjectType
+    convention_value: "水下"
+    project_convention: required
+  # ---- GB50222 第4章 特别场所条款（4.0.6 / 4.0.9 / 4.0.11 / 4.0.13 / 4.0.15）----
+  # 说明：本节条目均直接来自 GB50222-2017 第4章条文用词，属「项目约定层」，换项目须对齐。
+  - space_name: 中庭
+    carrier: IfcSpace.ObjectType
+    convention_value: "中庭"
+    project_convention: required
+    notes: "GB50222 4.0.6 上下层连通部位之一"
+  - space_name: 走马廊
+    carrier: IfcSpace.ObjectType
+    convention_value: "走马廊"
+    project_convention: required
+    notes: "GB50222 4.0.6 连通部位之一"
+  - space_name: 开敞楼梯
+    carrier: IfcSpace.ObjectType
+    convention_value: "开敞楼梯"
+    project_convention: required
+    notes: "GB50222 4.0.6；若建模为 IfcStair 而非 IfcSpace，则以该楼梯所在空间（中庭/门厅）的 ObjectType 承载"
+  - space_name: 自动扶梯
+    carrier: IfcSpace.ObjectType
+    convention_value: "自动扶梯"
+    project_convention: required
+    notes: "GB50222 4.0.6；同开敞楼梯，以所在空间 ObjectType 承载"
+  - space_name: 消防水泵房
+    carrier: IfcSpace.ObjectType
+    convention_value: "消防水泵房"
+    project_convention: required
+    notes: "GB50222 4.0.9 机房类（内部装修全 A 级）"
+  - space_name: 机械加压送风排烟机房
+    carrier: IfcSpace.ObjectType
+    convention_value: "机械加压送风排烟机房"
+    project_convention: required
+    notes: "GB50222 4.0.9；条文原文写法（如项目分列送风机房/排烟机房须另行对齐）"
+  - space_name: 固定灭火系统钢瓶间
+    carrier: IfcSpace.ObjectType
+    convention_value: "固定灭火系统钢瓶间"
+    project_convention: required
+    notes: "GB50222 4.0.9"
+  - space_name: 配电室
+    carrier: IfcSpace.ObjectType
+    convention_value: "配电室"
+    project_convention: required
+    notes: "GB50222 4.0.9；与上方『变电所/配电间』为不同写法，项目须统一后再绑定"
+  - space_name: 变压器室
+    carrier: IfcSpace.ObjectType
+    convention_value: "变压器室"
+    project_convention: required
+    notes: "GB50222 4.0.9"
+  - space_name: 发电机房
+    carrier: IfcSpace.ObjectType
+    convention_value: "发电机房"
+    project_convention: required
+    notes: "GB50222 4.0.9；与上方『柴油发电机房』为不同写法，项目须统一后再绑定"
+  - space_name: 储油间
+    carrier: IfcSpace.ObjectType
+    convention_value: "储油间"
+    project_convention: required
+    notes: "GB50222 4.0.9"
+  - space_name: 通风和空调机房
+    carrier: IfcSpace.ObjectType
+    convention_value: "通风和空调机房"
+    project_convention: required
+    notes: "GB50222 4.0.9；条文原文写法（如项目分列通风机房/空调机房须另行对齐）"
+  - space_name: 厨房
+    carrier: IfcSpace.ObjectType
+    convention_value: "厨房"
+    project_convention: required
+    notes: "GB50222 4.0.11（含住宅厨房与公共厨房）；GB55031 的『公共厨房』为独立条目"
+  - space_name: 库房
+    carrier: IfcSpace.ObjectType
+    convention_value: "库房"
+    project_convention: required
+    notes: "GB50222 4.0.13（民用建筑内）"
+  - space_name: 贮藏间
+    carrier: IfcSpace.ObjectType
+    convention_value: "贮藏间"
+    project_convention: required
+    notes: "GB50222 4.0.13"
+  - space_name: 阳台
+    carrier: IfcSpace.ObjectType
+    convention_value: "阳台"
+    project_convention: required
+    notes: "GB50222 4.0.15（住宅阳台装修）"
+
+  - space_name: 候机楼的候机大厅、贵宾候机室、售票厅、商店、餐饮场所等
+    carrier: IfcSpace.ObjectType
+    convention_value: 候机楼的候机大厅、贵宾候机室、售票厅、商店、餐饮场所等
+    project_convention: required
+    notes: GB50222 表5.1.1『建筑物及场所』行（场所类别，含『等』为开放式列举）；项目须将实际房间映射至本类别后以 ObjectType 承载，换项目须先对齐。
+  - space_name: 养老院、托儿所、幼儿园的居住及活动场所
+    carrier: IfcSpace.ObjectType
+    convention_value: 养老院、托儿所、幼儿园的居住及活动场所
+    project_convention: required
+    notes: GB50222 表5.1.1『建筑物及场所』行（场所类别，含『等』为开放式列举）；项目须将实际房间映射至本类别后以 ObjectType 承载，换项目须先对齐。
+  - space_name: 医院的病房区、诊疗区、手术区
+    carrier: IfcSpace.ObjectType
+    convention_value: 医院的病房区、诊疗区、手术区
+    project_convention: required
+    notes: GB50222 表5.1.1『建筑物及场所』行（场所类别，含『等』为开放式列举）；项目须将实际房间映射至本类别后以 ObjectType 承载，换项目须先对齐。
+  - space_name: 教学场所、教学实验场所
+    carrier: IfcSpace.ObjectType
+    convention_value: 教学场所、教学实验场所
+    project_convention: required
+    notes: GB50222 表5.1.1『建筑物及场所』行（场所类别，含『等』为开放式列举）；项目须将实际房间映射至本类别后以 ObjectType 承载，换项目须先对齐。
+  - space_name: 纪念馆、展览馆、博物馆、图书馆、档案馆、资料馆等的公众活动场所
+    carrier: IfcSpace.ObjectType
+    convention_value: 纪念馆、展览馆、博物馆、图书馆、档案馆、资料馆等的公众活动场所
+    project_convention: required
+    notes: GB50222 表5.1.1『建筑物及场所』行（场所类别，含『等』为开放式列举）；项目须将实际房间映射至本类别后以 ObjectType 承载，换项目须先对齐。
+  - space_name: 存放文物、纪念展览物品、重要图书、档案、资料的场所
+    carrier: IfcSpace.ObjectType
+    convention_value: 存放文物、纪念展览物品、重要图书、档案、资料的场所
+    project_convention: required
+    notes: GB50222 表5.1.1『建筑物及场所』行（场所类别，含『等』为开放式列举）；项目须将实际房间映射至本类别后以 ObjectType 承载，换项目须先对齐。
+  - space_name: 歌舞娱乐游艺场所
+    carrier: IfcSpace.ObjectType
+    convention_value: 歌舞娱乐游艺场所
+    project_convention: required
+    notes: GB50222 表5.1.1『建筑物及场所』行（场所类别，含『等』为开放式列举）；项目须将实际房间映射至本类别后以 ObjectType 承载，换项目须先对齐。
+  - space_name: A、B级电子信息系统机房及装有重要机器、仪器的房间
+    carrier: IfcSpace.ObjectType
+    convention_value: A、B级电子信息系统机房及装有重要机器、仪器的房间
+    project_convention: required
+    notes: GB50222 表5.1.1『建筑物及场所』行（场所类别，含『等』为开放式列举）；项目须将实际房间映射至本类别后以 ObjectType 承载，换项目须先对齐。
+  - space_name: 其他公共场所
+    carrier: IfcSpace.ObjectType
+    convention_value: 其他公共场所
+    project_convention: required
+    notes: GB50222 表5.1.1『建筑物及场所』行（场所类别，含『等』为开放式列举）；项目须将实际房间映射至本类别后以 ObjectType 承载，换项目须先对齐。
+  - space_name: 住宅
+    carrier: IfcSpace.ObjectType
+    convention_value: 住宅
+    project_convention: required
+    notes: GB50222 表5.1.1『建筑物及场所』行（场所类别，含『等』为开放式列举）；项目须将实际房间映射至本类别后以 ObjectType 承载，换项目须先对齐。
+  - space_name: 餐饮场所
+    carrier: IfcSpace.ObjectType
+    convention_value: 餐饮场所
+    project_convention: required
+    notes: GB50222 表5.2.1『建筑物及场所』行（场所类别，含『等』为开放式列举）；项目须将实际房间映射至本类别后以 ObjectType 承载，换项目须先对齐。
+  - space_name: 观众厅、会议厅、多功能厅、等候厅等，商店的营业厅
+    carrier: IfcSpace.ObjectType
+    convention_value: 观众厅、会议厅、多功能厅、等候厅等，商店的营业厅
+    project_convention: required
+    notes: GB50222 表5.3.1『建筑物及场所』行（场所类别，含『等』为开放式列举）；项目须将实际房间映射至本类别后以 ObjectType 承载，换项目须先对齐。
+  - space_name: 宾馆、饭店的客房及公共活动用房等
+    carrier: IfcSpace.ObjectType
+    convention_value: 宾馆、饭店的客房及公共活动用房等
+    project_convention: required
+    notes: GB50222 表5.3.1『建筑物及场所』行（场所类别，含『等』为开放式列举）；项目须将实际房间映射至本类别后以 ObjectType 承载，换项目须先对齐。
+  - space_name: 医院的诊疗区、手术区
+    carrier: IfcSpace.ObjectType
+    convention_value: 医院的诊疗区、手术区
+    project_convention: required
+    notes: GB50222 表5.3.1『建筑物及场所』行（场所类别，含『等』为开放式列举）；项目须将实际房间映射至本类别后以 ObjectType 承载，换项目须先对齐。
+  - space_name: 办公场所
+    carrier: IfcSpace.ObjectType
+    convention_value: 办公场所
+    project_convention: required
+    notes: GB50222 表5.3.1『建筑物及场所』行（场所类别，含『等』为开放式列举）；项目须将实际房间映射至本类别后以 ObjectType 承载，换项目须先对齐。
+  - space_name: 汽车库、修车库
+    carrier: IfcSpace.ObjectType
+    convention_value: 汽车库、修车库
+    project_convention: required
+    notes: GB50222 表5.3.1『建筑物及场所』行（场所类别，含『等』为开放式列举）；项目须将实际房间映射至本类别后以 ObjectType 承载，换项目须先对齐。
+  - space_name: 甲、乙类厂房；丙类厂房中的甲、乙类生产车间；有明火的丁类厂房、高温车间
+    carrier: IfcSpace.ObjectType
+    convention_value: 甲、乙类厂房；丙类厂房中的甲、乙类生产车间；有明火的丁类厂房、高温车间
+    project_convention: required
+    notes: GB50222 表6.0.1『建筑物及场所』行（场所类别，含『等』为开放式列举）；项目须将实际房间映射至本类别后以 ObjectType 承载，换项目须先对齐。
+  - space_name: 甲、乙类仓库
+    carrier: IfcSpace.ObjectType
+    convention_value: 甲、乙类仓库
+    project_convention: required
+    notes: GB50222 表6.0.5『建筑物及场所』行（场所类别，含『等』为开放式列举）；项目须将实际房间映射至本类别后以 ObjectType 承载，换项目须先对齐。
+
+# 空间组（carrier=IfcZone.Name 用；成员须为上方 space_map 中的空间）
+space_zones:
+  - zone_name: 消防疏散区组
+    members: [疏散楼梯间, 前室, 疏散走道]
+    semantics: "经 IfcRelAssignsToGroup 编组；构件空间上下文取 zone.Name 判定"
+  - zone_name: 湿区组
+    members: [厕所（卫生间）, 浴室, 公共厨房, 垃圾间]
+    semantics: "GB55031 6.3.3 防水层条文的空间收窄载体；成员变更多为图纸级调整"
+
+# ------------------------------------------------------------
+# 表3 系统映射（IFC4 基线，✅ 已核实官方文档）
+# 系统实体：IfcDistributionSystem + PredefinedType；成员经 IfcRelAssignsToGroup 编组
+# ------------------------------------------------------------
+system_map:
+  - system_name: 防雷接地系统
+    ifc_entity: IfcDistributionSystem
+    predefined_type: LIGHTNINGPROTECTION
+    coverage: strong
+    source: "✅ IFC4 FINAL（IfcDistributionSystemEnum.LIGHTNINGPROTECTION：A path for conducting lightning current to the ground）"
+    member_binding: "装置级成员（接闪器/引下线/接地装置）→ IfcDistributionElement + ObjectType + 自定义 GB_防雷 Pset（覆盖度 weak，预期 needs_expert_review）"
+  - system_name: 等电位联结系统
+    ifc_entity: IfcDistributionSystem
+    predefined_type: EARTHING
+    coverage: strong
+    source: "✅ IFC4（EARTHING：equipotential bonding, conducting current to the ground）"
+  - system_name: 电气系统（总体）
+    ifc_entity: IfcDistributionSystem
+    predefined_type: ELECTRICAL
+    coverage: strong
+    source: "✅ IFC4 CHANGE：总体电力系统用 IfcDistributionSystem.ELECTRICAL"
+  - system_name: 电气回路（开关回路级）
+    ifc_entity: IfcDistributionCircuit
+    predefined_type: ELECTRICAL
+    coverage: strong
+    source: "✅ IFC4 中 IfcElectricalCircuit 已被 IfcDistributionCircuit 取代"
+  - system_name: 消防系统
+    ifc_entity: IfcDistributionSystem
+    predefined_type: FIREPROTECTION
+    coverage: medium
+    notes: "主动消防（探测/扑救）；被动防火（耐火等级）是构件属性，勿混入系统绑定"
+  - system_name: 通风空调系统
+    ifc_entity: IfcDistributionSystem
+    predefined_type: VENTILATION
+    coverage: strong
+  - system_name: 照明回路
+    ifc_entity: IfcDistributionSystem
+    predefined_type: LIGHTING
+    coverage: strong
+  - system_name: 通信/智能化系统
+    ifc_entity: IfcDistributionSystem
+    predefined_type: COMMUNICATION
+    alt_predefined: [DATA, SECURITY]
+    coverage: medium
+    notes: "智能化细分（安防/数据）用 SECURITY/DATA，GB55024 按条文语义选"
+
+# ------------------------------------------------------------
+# 系统成员别名表（v0.3 新增——has_all 归一用，schema §9.5 匹配语义分支 3）
+# 用法：模型侧成员的 ObjectType 先按本表归一为规范名，再与 member_requirements 比对。
+# ★ 别名只写在这里，禁止写进规则 value（保持规则与项目约定解耦）。
+# ★ 归一失败时按精确匹配处理（不静默放过）；未收录写法应由审计提示补录。
+# ------------------------------------------------------------
+member_alias_map:
+  - canonical: 接闪器
+    system: LIGHTNINGPROTECTION
+    aliases: [避雷针, 接闪杆, 接闪带, 接闪网, AirTermination, AirTerminal, 避雷带, 避雷网]
+    notes: "平屋面多用『接闪带』、突出物用『接闪杆/避雷针』——同一条文成员要求，写法须归一"
+  - canonical: 引下线
+    system: LIGHTNINGPROTECTION
+    aliases: [专设引下线, 引下导体, DownConductor, Downconductor, 防雷引下线]
+    notes: "GB55024 8.8.2 出现『专设引下线』——同一概念"
+  - canonical: 接地装置
+    system: LIGHTNINGPROTECTION
+    aliases: [接地体, 接地极, 接地网, 人工接地装置, Earthing, Grounding, EarthingArrangement]
+  - canonical: 短路保护
+    system: ELECTRICAL
+    aliases: [短路保护电器, 短路保护装置, 过电流保护（短路）, ShortCircuitProtection]
+    notes: "GB55024 4.5.1 保护功能类成员——成员非构件（无 IFC 实体承载），见该条降级处理"
+  - canonical: 过负荷保护
+    system: ELECTRICAL
+    aliases: [过载保护, 过负荷保护装置, OverloadProtection]
+  - canonical: 接地故障保护
+    system: ELECTRICAL
+    aliases: [接地故障保护电器, 故障保护, EarthFaultProtection]
+  - canonical: 剩余电流动作保护电器
+    system: ELECTRICAL
+    aliases: [剩余电流保护器, 漏电保护器, RCD, ResidualCurrentDevice]
+    notes: "GB55024 4.6.5——设备类成员，可挂 IfcElectricDistributionBoard/IfcDistributionElement"
+
+# ------------------------------------------------------------
+# 纯过程参数落点（v0.3 新增——schema §9.3 ifc_binding.target=process）
+# 适用：过程/检测/验收章条文含数值或记录要求，但不落任何构件。
+# 形状：
+#   parameters:
+#     - id: p_<std>_<clause>_<n>
+#       name: <检测项名>
+#       operator: gte | lte | in | exists
+#       min_value / max_value / value: <值>
+#       unit: <单位>
+#       ifc_binding:
+#         target: process
+#         activity_ref: act_<std>_<clause>     # 必填，关联 activity_types
+#         document_refs: [<记录/报告名>]         # 可空（缺省继承 activity_types）
+#         note: "<值来源说明>"
+# ★ 红线：target=process 时不得给 pset/property（不落构件）；不得为放参数把过程
+#   条文挂到无关构件（C-BINDING-10 拦）。
+# ★ 诚实提醒（2026-09-22 核实）：GB55024 9.4.1「布线工程施工后，必须进行回路的
+#   绝缘电阻检测」**原文无数值阈值**——其 0.5MΩ 等具体值来自 GB 50303 等其他标准。
+#   本词表禁止跨标准借值：该条 parameters 应为空（或仅记检测项名），阈值由项目
+#   EIR / 其他标准承载。凡是条文未给值的检测项，一律按此处理。
+# ------------------------------------------------------------
+process_parameters:
+  shape_example:
+    parameters:
+      - id: p_<std>_<clause>_<n>
+        name: <检测项名（如 回路绝缘电阻检测值）>
+        operator: gte
+        min_value: null            # ★ 条文未给值时必须为 null，禁借其他标准的值
+        max_value: null
+        unit: null
+        ifc_binding:
+          target: process
+          activity_ref: act_<std>_<clause>
+          document_refs: [检测记录]
+          note: "值来源须在 EIR 或引用标准中声明；本册条文未赋值的，此处留空"
+  verified_cases:
+    - clause: "GB 55024-2022#9.4.1"
+      text: "布线工程施工后，必须进行回路的绝缘电阻检测。"
+      verdict: "原文无数值 → parameters 留空；activity_types 记『回路绝缘电阻检测』+ document_refs：[绝缘电阻测试记录]"
+    - clause: "GB 55024-2022#9.5.6"
+      text: "竣工验收时应检查下列工程质量控制记录：1…16 过程验收记录。"
+      verdict: "16 项记录清单 → activity_types.document_refs 逐项列出（document_refs 多值实证样本）"
+
+# ------------------------------------------------------------
+# 表4 规范概念 → IFC 属性落点（双路径：构件级 quick_check ∥ 材料级 primary）
+# ★ 单一事实源（决策②）：本表只描述『落点』；数值一律存 parameters，绑定引用 param id
+# ------------------------------------------------------------
+concept_property_map:
+  - concept: 燃烧性能等级（A/B1/B2/B3）
+    gb_basis: GB 8624-2012（GB50222 沿用 A/B1/B2/B3 分组）
+    primary:
+      target: material
+      channels: "材料级分类（material_channels.material_classification）+ 材料关联（material_channels.material_association），两通道组合使用、不成链"
+    quick_check:
+      target: element
+      pset: Pset_CoveringCommon
+      property: FlammabilityRating
+    material_pset_reference: "Pset_MaterialCombustion（✅ IFC4 官方标准，燃烧性能材料属性集；GB 分级值另用自定义属性）"
+    value_format: "IfcLabel：A / B1 / B2 / B3"
+    warning: "禁止绑 FireRating（那是耐火极限，见下条）——审计规则 C-BINDING-02"
+  - concept: 耐火极限（构件）
+    gb_basis: GB 50016（建筑构件耐火极限）
+    primary:
+      target: element
+      pset: Pset_WallCommon          # 对应实体各自的 Pset_*Common
+      property: FireRating
+    value_format: "IfcLabel：项目约定 GB 小时制（1.00h / 2.00h）；ISO 形式（REI 120）为备选"
+    warning: "与燃烧性能等级严格区分；FireRating 属构件/类型级，不属材料级。★ 与燃烧性能同条出现时（如 4.0.5 墙面面层 A 级 + 墙体本体耐火极限），必须拆成两条绑定两个参数"
+  - concept: 传热系数（K/U 值）
+    gb_basis: GB 55031 / GB 50189
+    primary:
+      target: element
+      pset: Pset_SlabCommon          # 屋面构造层；墙 Pset_WallCommon / 窗 Pset_WindowCommon 同名属性
+      property: ThermalTransmittance
+    value_format: "IfcThermalTransmittanceMeasure，W/(m²·K)"
+    notes: "材料层热工参数走 material_channels.material_properties（Pset_MaterialThermal）"
+  - concept: 接地电阻
+    gb_basis: GB 55024
+    primary:
+      target: system
+      path: "IfcDistributionSystem.LIGHTNINGPROTECTION + 自定义 GB_防雷 Pset"
+    value_format: "IfcResistanceMeasure，Ω"
+    coverage: weak
+    notes: "IFC4 无标准属性；自定义 Pset 命名遵守表6（GB_ 前缀）"
+  - concept: 防水层（构造措施）
+    gb_basis: GB 55031 6.3.3
+    primary:
+      target: element
+      pset: GB_防水                 # 自定义（GB_ 前缀）
+      property: 防水层
+    value_format: "IfcLabel：设 / 未设（或做法编号）"
+    coverage: medium
+    notes: "定性措施走 exists 检查；防水等级（一级/二级/三级）另见下条"
+  - concept: 建筑面积
+    gb_basis: GB 55031
+    primary:
+      target: space_or_building
+      path: "Qto_SpaceBaseQuantities.NetFloorArea / Qto_BuildingBaseQuantities.GrossFloorArea"
+    value_format: "IfcQuantityArea，m²"
+    notes: "属 IfcElementQuantity 数量集，非 Pset；binding_level=building/storey/space"
+  - concept: 空间净高
+    gb_basis: GB 55031
+    primary:
+      target: space
+      path: "Qto_SpaceBaseQuantities.Height / 几何推导"
+    coverage: medium
+    notes: "涉及梁底/管线底标高时只能几何推导，规则引擎走几何检查路径"
+  - concept: 气密性（门窗）
+    gb_basis: GB 55031 / GB/T 7106
+    primary:
+      target: element
+      pset: Pset_WindowCommon        # 门用 Pset_DoorCommon 同名属性
+      property: AirInfiltration
+    coverage: medium
+  - concept: 防水等级
+    gb_basis: GB 55031 / GB 50108
+    primary:
+      target: element
+      path: "IfcSlab.ROOF / IfcRoof + 自定义 GB_ Pset（等级：一级/二级/三级）"
+    coverage: weak
+    notes: "IFC 无标准属性；值域项目约定（1/2/3 级），随词表 v1 收敛"
+  - concept: 杆件净间距（栏杆几何）
+    gb_basis: GB 55031 6.6.3
+    primary:
+      target: geometric
+      path: "IfcRailing 几何（杆件间距推导）"
+    value_format: "IfcLengthMeasure，m"
+    coverage: weak
+    notes: "★ 几何推导量，v1 降级 needs_expert_review；参数保留（max_value=0.11, unit=m）供几何引擎消费，不生成规则"
+  - concept: 疏散净宽度
+    gb_basis: GB 55031 / GB 50016
+    primary:
+      target: geometric
+      path: "Qto_DoorBaseQuantities.Width / 走道几何"
+    coverage: weak
+    notes: "几何推导量，不走 Pset 绑定；规则引擎实现为几何检查"
+
+# ------------------------------------------------------------
+# 表5 分类系统（材料/构件分类库）
+# ------------------------------------------------------------
+classification_systems:
+  - system: GB8624
+    full_name: 建筑材料及制品燃烧性能分级（GB 8624-2012）
+    notation_used_by_gb50222: [A, B1, B2, B3]
+    notation_in_material_certs: [A1, A2, B, C, D, E, F]
+    group_mapping: "A1/A2→A组；B/C→B1组；D/E→B2组；F→B3组（铺地材料带 fl 后缀同理）"
+    binding_path: "材料级走 material_channels.material_classification；构件级走 element_classification"
+    warning: "材料证书用 2012 版细分级、规范条文用分组级——比对规则必须先做组映射，否则 A1 会被误判不满足 A"
+  - system: GB50016-耐火等级
+    full_name: 建筑设计防火规范 建筑耐火等级（一/二/三/四级）
+    binding_path: "构件 Pset_*Common.FireRating（值=耐火极限小时数）；整栋等级走 IfcBuilding 自定义 Pset"
+    notes: "构件级与整栋级两个粒度，勿混绑"
+
+# ------------------------------------------------------------
+# 表6 项目命名约定（黄金样本阶段即冻结，换项目先对齐）
+# ------------------------------------------------------------
+naming_conventions:
+  custom_pset_prefix: "GB_"          # buildingSMART 约定：自定义属性集禁用 Pset_ 前缀
+  custom_pset_examples:
+    - "GB_防雷（属性：接地电阻Ω、冲击接地电阻Ω、验收日期）"
+    - "GB_装修防火（属性：装修部位、燃烧性能等级、依据条号）"
+    - "GB_防水（属性：防水层、防水等级、依据条号）"
+    - "GB_栏杆（属性：防攀滑措施、杆件净间距、依据条号）"
+  space_object_type_rule: "IfcSpace.ObjectType 取规范原文用语（疏散楼梯间/前室/合用前室/疏散走道…），禁自造缩写"
+  zone_grouping: "消防疏散相关空间编入 IfcZone（消防疏散区组）、湿区编入湿区组，供空间上下文条件快速筛选；zone.Name 取值见 space_zones"
+  firerating_value_rule: "GB 小时制（1.00h）；同时存在 ISO 形式（REI 120）时以项目约定为准并在 EIR 声明"
+  predefined_type_required_entities: [IfcCovering, IfcSlab, IfcWall, IfcRoof, IfcDistributionSystem, IfcRailing]
+  # ↑ 审计 C-RATIO-02（v0.3 对齐）：分母 = 该册 model_bindings 中 ifc_entity 命中
+  #   本列表的绑定条数；其中 predefined_type 非 null 的占比 < 90% → warning
+  #   ★ v0.3 增补 IfcRailing（HANDRAIL/GUARDRAIL/BALUSTRADE 三枚举须明确）
+
+# ------------------------------------------------------------
+# 实体白名单（v0.2 拆分三类；审计 C-BINDING-01 只检查 component 表）
+#   component：可出现在 model_bindings.ifc_entity
+#   relation：只出现在 DSL 路径与引擎遍历，禁作 ifc_entity
+#   resource：资源实体（材料/分类），只作绑定通道的端点，禁作 ifc_entity
+# ------------------------------------------------------------
+entity_whitelist:
+  component_ifc4:
+    [IfcCovering, IfcWall, IfcSlab, IfcRoof, IfcCurtainWall, IfcDoor, IfcWindow,
+     IfcStair, IfcRamp, IfcFurniture, IfcRailing, IfcMember, IfcPlate,
+     IfcSpace, IfcZone, IfcSite, IfcBuilding,
+     IfcBuildingStorey, IfcDistributionSystem, IfcDistributionCircuit,
+     IfcDistributionElement, IfcElectricDistributionBoard]
+    # v0.3 增补：IfcRailing（GB55031 第6.6节栏杆整类）；
+    #           IfcMember / IfcPlate 预留（栏杆立柱/扶手/栏板细分，需项目约定 ObjectType）
+  component_ifc4_3_ext: []           # 待需要时增补并注明枚举来源
+  relation_ifc4:
+    [IfcRelAssociatesMaterial, IfcRelAssociatesClassification,
+     IfcExternalReferenceRelationship, IfcRelContainedInSpatialStructure,
+     IfcRelAssignsToGroup, IfcRelDefinesByProperties, IfcRelAggregates,
+     IfcRelServicesBuildings]
+  resource_ifc4:
+    [IfcMaterial, IfcMaterialProperties, IfcClassification, IfcClassificationReference,
+     IfcPropertySet, IfcPropertySingleValue, IfcElementQuantity]
+  forbidden:
+    - entity: IfcCeiling
+      reason: "IFC4 不存在；顶棚=IfcCovering+CEILING"
+    - entity: IfcFloor
+      reason: "IFC1.0 旧名，IFC2.0 起并入 IfcSlab；地面=IfcSlab+FLOOR / IfcCovering+FLOORING"
+  building_as_component_restricted: "IfcBuilding 仅 binding_level=building 可用（整栋级指标）"
+  system_requires_type: "IfcDistributionSystem/IfcSystem 必须带 predefined_type 或 ObjectType"

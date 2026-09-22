@@ -1,0 +1,37 @@
+# ============================================================
+# 工具链 v0.4 能力实证场景（反例）
+# ============================================================
+# 三处埋雷（与正例逐项对应）：
+#   ① 湿区楼面缺 GB_防水 属性 → exists 应 fail
+#   ② 走廊墙面 B1（非 A）→ 面层规则 fail；墙体 FireRating 0.50h → 本体规则 fail
+#   ③ 防雷系统成员仅「引下线」→ has_all 应 fail（缺接闪器、接地装置）
+# 对照组保持：办公区楼板仍不在湿区组内 → 不得产生记录（空间组条件有效性证词）
+# ============================================================
+project_name: 工具链v0.4实证项目（反例）
+spatial: {site: 场地, building: 测试楼, storeys: [1F]}
+spaces:
+  - {name: 厕所（卫生间）, object_type: 厕所（卫生间）, storey: 1F}
+  - {name: 办公室, object_type: 办公室, storey: 1F}
+zones:
+  - {name: 湿区组, spaces: [厕所（卫生间）]}
+classification: {name: "GB 8624-2012"}
+
+elements:
+  # ---- ① 埋雷：湿区楼面**缺** GB_防水 属性 ----
+  - {ifc_class: IfcSlab, name: 湿区楼面, predefined_type: FLOOR, container: 厕所（卫生间）}
+  # ---- 对照组 ----
+  - {ifc_class: IfcSlab, name: 办公区楼板, predefined_type: FLOOR, container: 办公室}
+
+  # ---- ② 埋雷：面层 B1（< A）、墙体 0.50h（< 1.00h）----
+  - {ifc_class: IfcCovering, name: 走廊墙面, predefined_type: CLADDING, container: 办公室,
+     psets: [{name: Pset_CoveringCommon, properties: {FlammabilityRating: B1}}]}
+  - {ifc_class: IfcWall, name: 墙体-办公室, predefined_type: STANDARD, container: 办公室,
+     psets: [{name: Pset_WallCommon, properties: {FireRating: "0.50h"}}]}
+
+systems:
+  # ---- ③ 埋雷：成员缺 2 项（只有引下线）----
+  - ifc_class: IfcDistributionSystem
+    name: 防雷接地系统
+    predefined_type: LIGHTNINGPROTECTION
+    members:
+      - {name: 引下线-1, object_type: 专设引下线}

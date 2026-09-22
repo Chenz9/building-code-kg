@@ -1,0 +1,54 @@
+# MVP 正例场景（全部合规：A 级 / 传热系数有值 / 防雷三装置齐）
+# 等价于 scripts/_gen_test_ifc.py build(positive=True) 的硬编码产物
+project_name: MVP测试项目
+spatial: {site: 场地, building: 测试楼, storeys: [1F]}
+spaces:
+  - {name: 疏散楼梯间, object_type: 疏散楼梯间, storey: 1F}
+  - {name: 前室, object_type: 前室, storey: 1F}
+  - {name: 办公室, object_type: 办公室, storey: 1F}
+classification: {name: "GB 8624-2012"}
+
+elements:
+  # ---- GB50222 4.0.5：3 空间 × 3 部位，全部 A 级三通道齐备 ----
+  - {ifc_class: IfcCovering, name: 顶棚-疏散楼梯间, predefined_type: CEILING, container: 疏散楼梯间,
+     psets: [{name: Pset_CoveringCommon, properties: {FlammabilityRating: A}}],
+     material: {name: A级-顶棚材料, classification: A1}, element_classification: A}
+  - {ifc_class: IfcCovering, name: 墙面-疏散楼梯间, predefined_type: CLADDING, container: 疏散楼梯间,
+     psets: [{name: Pset_CoveringCommon, properties: {FlammabilityRating: A}}],
+     material: {name: A级-墙面材料, classification: A1}, element_classification: A}
+  - {ifc_class: IfcCovering, name: 地面-疏散楼梯间, predefined_type: FLOORING, container: 疏散楼梯间,
+     psets: [{name: Pset_CoveringCommon, properties: {FlammabilityRating: A}}],
+     material: {name: A级-地面材料, classification: A1}, element_classification: A}
+  - {ifc_class: IfcCovering, name: 顶棚-前室, predefined_type: CEILING, container: 前室,
+     psets: [{name: Pset_CoveringCommon, properties: {FlammabilityRating: A}}],
+     material: {name: A级-顶棚材料, classification: A1}, element_classification: A}
+  - {ifc_class: IfcCovering, name: 墙面-前室, predefined_type: CLADDING, container: 前室,
+     psets: [{name: Pset_CoveringCommon, properties: {FlammabilityRating: A}}],
+     material: {name: A级-墙面材料, classification: A1}, element_classification: A}
+  - {ifc_class: IfcCovering, name: 地面-前室, predefined_type: FLOORING, container: 前室,
+     psets: [{name: Pset_CoveringCommon, properties: {FlammabilityRating: A}}],
+     material: {name: A级-地面材料, classification: A1}, element_classification: A}
+  - {ifc_class: IfcCovering, name: 顶棚-办公室, predefined_type: CEILING, container: 办公室,
+     psets: [{name: Pset_CoveringCommon, properties: {FlammabilityRating: A}}],
+     material: {name: A级-顶棚材料, classification: A1}, element_classification: A}
+  - {ifc_class: IfcCovering, name: 墙面-办公室, predefined_type: CLADDING, container: 办公室,
+     psets: [{name: Pset_CoveringCommon, properties: {FlammabilityRating: A}}],
+     material: {name: A级-墙面材料, classification: A1}, element_classification: A}
+  - {ifc_class: IfcCovering, name: 地面-办公室, predefined_type: FLOORING, container: 办公室,
+     psets: [{name: Pset_CoveringCommon, properties: {FlammabilityRating: A}}],
+     material: {name: A级-地面材料, classification: A1}, element_classification: A}
+
+  # ---- GB55031 6.1.1：屋面构造层带传热系数 ----
+  - {ifc_class: IfcSlab, name: 屋面构造层, predefined_type: ROOF, container: 1F,
+     psets: [{name: Pset_SlabCommon, properties: {ThermalTransmittance: 0.25}}]}
+
+systems:
+  # ---- GB55024 7.1.1：防雷三装置齐 ----
+  - ifc_class: IfcDistributionSystem
+    name: 防雷接地系统
+    predefined_type: LIGHTNINGPROTECTION
+    psets: [{name: GB_防雷, properties: {"接地电阻(Ω)": 4.0}}]
+    members:
+      - {name: 接闪器, object_type: 接闪器}
+      - {name: 引下线, object_type: 引下线}
+      - {name: 接地装置, object_type: 接地装置}

@@ -35,7 +35,7 @@
 | 我的取值达标了吗       | `parameters[].min_value/max_value/unit`                                                               |
 | 该查哪张表          | `tables[].headers/rows`（两册共 8 张表 84 行已结构化）                                                            |
 | 是不是强条 / 有没有被废止 | `constraint.is_mandatory_clause` + `is_abolished` + `superseded_by`                                   |
-| 能不能进 BIM 审查    | `related_objects.component_types` 映射到 IFC 实体；**宏观章节（术语/总则/基本规定/分类分级/分部验收）强制置空**，具体工程章节按条文映射（逐条精修在路线图） |
+| 能不能进 BIM 审查    | `related_objects.component_types` 映射到 IFC 实体；**宏观章节（术语/总则/基本规定/分类分级/分部验收）强制置空**；GB 50222-2017 已按 [`ifc-binding/`](ifc-binding/README.md) 精修到「IFC 实体 + `PredefinedType` + 空间上下文」，其余两册仍为宽匹配（见路线图） |
 | 能不能直接被规则引擎跑    | `executable_rules`（when → then）                                                                       |
 
 ## 2. 仓库结构
@@ -52,6 +52,14 @@
 │   ├── GB50222-2017.yaml          # 深度复核样板 ①：49 条（防火装修；18 强条已废止效力）
 │   ├── GB55031-2022.yaml          # 深度复核样板 ②：141 条（民用建筑通用规范，全文强制）
 │   └── GB55024-2022.yaml          # 深度复核样板 ③：207 条（建筑电气与智能化通用规范，全文强制；适用性回填 80/207）
+├── ifc-binding/                   # IFC 绑定层（**草案**）：把「对哪些构件生效」精修到 IFC 实体 + PredefinedType + 空间上下文
+│   ├── README.md                  # 说明、依赖、实测命令、设计红线
+│   ├── SCHEMA_v2.3_draft.yaml     # schema 草案 v0.4（**非权威**，权威仍是 schema/SCHEMA_v2.2.yaml）
+│   ├── ifc_mapping_dict_v0.yaml   # 映射词表 v0.3（部位/构件 → IFC 实体与枚举，含 space_map、别名表）
+│   ├── binding_templates_v1.yaml  # T1–T6 + T1_table 批量重映射模板 v1.1
+│   ├── tools/                     # 编译 / 审计（15 项）/ 自研引擎 / 造测试模型 / IDS 导出
+│   ├── samples/                   # 黄金样本 20 条：源数据 + 编译产物
+│   └── scenarios/                 # 正反例测试场景（驱动工厂造 IFC 模型）
 └── tools/
     ├── yaml-reader.html           # 通用 YAML 阅读器（离线单文件，零依赖）
     ├── audit_v21.py               # v2.1 合规审计脚本（开源，可独立复跑验证）
@@ -137,10 +145,11 @@ executable_rules:        # 面向规则引擎：when 条件数组 → then 结�
 | 语气词频次    | 应 24 · 不应 13 · 可 11 · 宜 1 · 不宜 1                       |
 | 条内细化拆分   | 3 条（`polarity` 为正反并存，已按分句拆进 `constraint_items`）        |
 | 结构化表格    | 6 张，共 79 行（已按定义条文归位；另有 2 张已转文本）                        |
-| 数值参数     | 5                                                      |
+| 数值参数     | 64（原 5；按绑定层补齐，原参数值未改动）                             |
 | 跨标准引用    | 2（GB 50016 协调、GB 8624 材料分级）                            |
-| 可执行规则    | 13 条（其中 4 条参数镜像已于 2026-09-08 人工校正参数名与阈值方向）             |
-| 文件体积     | 84 KB                                                  |
+| 可执行规则    | 77 条 = 13 条册级遗留 + **64 条条文级**（v2.3 绑定层编译产物）           |
+| IFC 绑定层    | **49 条 `binding_level`**（element 30 / document 7 / macro 12）· **99 条 `model_bindings`**，审计 0 error / 0 warning（见 [`ifc-binding/`](ifc-binding/README.md)） |
+| 文件体积     | 242 KB                                                 |
 
 章节分布：总则 4 / 术语 4 / 装修材料的分类和分级 7 / 特别场所 20 / 民用建筑 9 / 厂房仓库 5。
 
@@ -251,6 +260,7 @@ python tools/gen_readview_html.py standards/GB55031-2022.yaml 阅读视图.html
 | **V1–V7**     | 必填完整性、编号唯一性、OCR 截断、弱提取、适用性缺失、对象缺失                                                                                                                 | 全 0                | 全 0                      | 全 0                                    |
 | **v2.1 合规**   | 参数名语义、单位词典、排除项书写风格、强条归位、规则镜像一致性                                                                                                                   | 全 0                | 全 0                      | 全 0                                    |
 | **v2.2 语气字段** | `strictness` × `polarity` 正交、枚举中英双列合法、`modal_words_primary` 非空、`constraint_items` 仅 mixed 有值、**边界语义（≥/≤）不得标为禁止**、**字段须与由** **`text`** **重推导结果一致** | 全 0                | 全 0（1 条目的条豁免）        | 全 0（1 条目的条豁免，见 `_modal_allowlist.txt`） |
+| **v2.3 绑定层**   | `binding_level` × `model_bindings` 合法性、**空间收窄丢失**、组合占比、`PredefinedType` 使用率、**落盘规则须与源数据重编译一致**（15 项；`ifc-binding/tools/audit_binding_v23.py`） | **0 error / 0 warning** | 尚未重映射                    | 尚未重映射                                  |
 | **V4 适用范围**   | 每条人工回填「对谁有效」                                                                                                                                      | 49 / 49            | 141 / 141                | **80 / 207（回填进行中）**                  |
 | **回源核验**      | 官方 PDF 120 DPI 渲染逐页视觉比对 + OCR 双源交叉                                                                                                                | 两轮（38 处 + 8 处修正合入） | 两轮（114 处 + 49 处修正合入）   | 机器门禁全 0（逐页视觉比对进行中）                |
 | **全册逐条人工校对**  | 逐条语义级人工确认                                                                                                                                         | **进行中，尚未完成**       | **进行中，尚未完成**          | **进行中，尚未完成**                       |
@@ -305,6 +315,8 @@ python tools/audit_modal_v22.py    # → scanned: 3 files / violations: 0
 
 * [x] 第三册开源：GB 55024-2022《建筑电气与智能化通用规范》（全文强制，207 条）（2026-09-21；**适用性回填 80/207，进行中**）
 
+* [x] IFC 绑定层草案 + 工具链开源，并完成 **GB 50222-2017 全册绑定精修**（2026-09-22；49 条 `binding_level` / 99 条绑定 / 64 条参数，审计 0 error 0 warning，见 [`ifc-binding/`](ifc-binding/README.md)）
+
 * [ ] 完成三册样板全册逐条人工校对
 
 * [ ] 回填 GB 55024-2022 的 `applicability`（剩余 127 条）
@@ -313,7 +325,7 @@ python tools/audit_modal_v22.py    # → scanned: 3 files / violations: 0
 
 * [ ] 开源 V1–V7 审计脚本，并把阈值方向校验（min/max 反写检测）等本次整改沉淀的新机检规则纳入
 
-* [ ] IFC 映射逐条精修：当前 rules 的 `when` 中 `component_type` 为保守宽匹配（四类实体全量覆盖），尚不构成精确的 BIM 构件级映射
+* [ ] IFC 映射逐条精修（续）：GB 50222-2017 已完成；**GB 55031 / GB 55024 仍为宽匹配**，待按 `ifc-binding/binding_templates_v1.yaml` 的 T1–T6 逐册重映射
 
 * [ ] 提供 English field dictionary，便于国际工具链对接
 

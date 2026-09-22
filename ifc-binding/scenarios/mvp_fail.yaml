@@ -1,0 +1,59 @@
+# MVP 反例场景（定向埋雷 5 处，用于验证引擎命中率与 scope 边界）
+# 等价于 scripts/_gen_test_ifc.py build(positive=False) 的硬编码产物
+project_name: MVP测试项目
+spatial: {site: 场地, building: 测试楼, storeys: [1F]}
+spaces:
+  - {name: 疏散楼梯间, object_type: 疏散楼梯间, storey: 1F}
+  - {name: 前室, object_type: 前室, storey: 1F}
+  - {name: 办公室, object_type: 办公室, storey: 1F}
+classification: {name: "GB 8624-2012"}
+
+# 埋雷清单：
+#   雷1 楼梯间顶棚 B1（pset+构件分类+材料分类三通道全 B，应 fail）
+#   雷2 楼梯间地面 无 pset，仅材料级分类 A1（应经材料回退 pass —— 通道回退证词）
+#   雷3 办公室顶棚 B1（scope 证伪：4.0.5 不约束办公室，引擎必须零记录）
+#   雷4 屋面构造层 无 pset（exists 检查应 fail）
+#   雷5 防雷系统 仅 1 名成员（has_all 应 fail）
+
+elements:
+  # 埋雷1：楼梯间顶棚 B1
+  - {ifc_class: IfcCovering, name: 顶棚-疏散楼梯间, predefined_type: CEILING, container: 疏散楼梯间,
+     psets: [{name: Pset_CoveringCommon, properties: {FlammabilityRating: B1}}],
+     material: {name: B1级-顶棚材料, classification: B}, element_classification: B1}
+  - {ifc_class: IfcCovering, name: 墙面-疏散楼梯间, predefined_type: CLADDING, container: 疏散楼梯间,
+     psets: [{name: Pset_CoveringCommon, properties: {FlammabilityRating: A}}],
+     material: {name: A级-墙面材料, classification: A1}, element_classification: A}
+  # 埋雷2：楼梯间地面无 pset，仅材料级分类 A1
+  - {ifc_class: IfcCovering, name: 地面-疏散楼梯间, predefined_type: FLOORING, container: 疏散楼梯间,
+     material: {name: A级-地面材料, classification: A1}}
+  - {ifc_class: IfcCovering, name: 顶棚-前室, predefined_type: CEILING, container: 前室,
+     psets: [{name: Pset_CoveringCommon, properties: {FlammabilityRating: A}}],
+     material: {name: A级-顶棚材料, classification: A1}, element_classification: A}
+  - {ifc_class: IfcCovering, name: 墙面-前室, predefined_type: CLADDING, container: 前室,
+     psets: [{name: Pset_CoveringCommon, properties: {FlammabilityRating: A}}],
+     material: {name: A级-墙面材料, classification: A1}, element_classification: A}
+  - {ifc_class: IfcCovering, name: 地面-前室, predefined_type: FLOORING, container: 前室,
+     psets: [{name: Pset_CoveringCommon, properties: {FlammabilityRating: A}}],
+     material: {name: A级-地面材料, classification: A1}, element_classification: A}
+  # 埋雷3：办公室顶棚 B1（scope 证伪）
+  - {ifc_class: IfcCovering, name: 顶棚-办公室, predefined_type: CEILING, container: 办公室,
+     psets: [{name: Pset_CoveringCommon, properties: {FlammabilityRating: B1}}],
+     material: {name: B1级-顶棚材料, classification: B}, element_classification: B1}
+  - {ifc_class: IfcCovering, name: 墙面-办公室, predefined_type: CLADDING, container: 办公室,
+     psets: [{name: Pset_CoveringCommon, properties: {FlammabilityRating: A}}],
+     material: {name: A级-墙面材料, classification: A1}, element_classification: A}
+  - {ifc_class: IfcCovering, name: 地面-办公室, predefined_type: FLOORING, container: 办公室,
+     psets: [{name: Pset_CoveringCommon, properties: {FlammabilityRating: A}}],
+     material: {name: A级-地面材料, classification: A1}, element_classification: A}
+
+  # 埋雷4：屋面构造层无 pset（缺 ThermalTransmittance）
+  - {ifc_class: IfcSlab, name: 屋面构造层, predefined_type: ROOF, container: 1F}
+
+systems:
+  # 埋雷5：防雷系统仅接闪器，缺引下线/接地装置；接地电阻 15Ω
+  - ifc_class: IfcDistributionSystem
+    name: 防雷接地系统
+    predefined_type: LIGHTNINGPROTECTION
+    psets: [{name: GB_防雷, properties: {"接地电阻(Ω)": 15.0}}]
+    members:
+      - {name: 接闪器, object_type: 接闪器}

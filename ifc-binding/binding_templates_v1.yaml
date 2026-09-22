@@ -1,0 +1,386 @@
+# ============================================================
+# 绑定模板 T1–T6 v1.1（2026-09-22）
+# ============================================================
+# 用途：把「词表 → 321 条 model_bindings」之间的桥补上。
+#   321 条先按下方 classification_rules 归类到 T1–T6，
+#   再按模板批量生成 model_bindings 骨架，最后逐条校对。
+#   不是逐条从零写。
+#
+# 依据：SCHEMA_v2.3_草案.yaml v0.4（§9.1 binding_level / §9.2 model_bindings /
+#   §9.3 parameters.ifc_binding / §9.4 编译规则 / §9.5 DSL / §9.6 审计）
+#   词表：ifc_mapping_dict_v0.yaml（v0.3）
+#   工具：tools/{ifc_model_factory,rule_engine,rule_compiler,ids_export,audit_binding_v23}.py
+#
+# v1.1 变更（评审 5 处收紧 + 3 矩阵缺口落地）：
+#   ① T1 增 space_context.carrier 双载体说明（IfcSpace.ObjectType / IfcZone.Name）
+#   ② T1 增 **T1_table 子模板**（表格型条文分阶段：骨架先行 + PENDING_TABLE_STRUCTURE）
+#   ③ T3 增 member_alias_map 别名归一说明（has_all 匹配语义分支 3）
+#   ④ T4 增「栏杆几何 vs 属性」二分处置（补白名单≠可自动检查）
+#   ⑤ T5 增 **纯过程参数落点**（ifc_binding.target=process）+ 原文无数值红线
+#
+# 骨架中 <> 为占位符；"★" 为必读要点；样例条号均已在 3 册开源 YAML 中核实存在。
+# ============================================================
+
+meta:
+  version: v1.1
+  date: "2026-09-22"
+  schema: SCHEMA_v2.3_草案 v0.4
+  dict: ifc_mapping_dict_v0.yaml (v0.3)
+  coverage: 21 条样本（黄金样本覆盖矩阵_20260922.md）
+  verified: "tools/_regression_mvp.py 36 项全过（25 基线 + 11 项 v0.4 实证）"
+
+# ------------------------------------------------------------
+# 归类决策树（按序判定，先命中先归类）
+# ------------------------------------------------------------
+classification_rules:
+  - order: 1
+    rule: "宏观章（总则/术语/符号代号/基本规定/分类分级/一般规定）或 管理性条文（保养/维修/监管/制度）"
+    template: T6
+    binding_level: macro
+  - order: 2
+    rule: "过程章/过程词：施工、检验、验收、进场、送检、检测、调试、试运行、试压、记录、报告（且非『应设…装置』类构件要求）"
+    template: T5
+    binding_level: process
+  - order: 3
+    rule: "场地/基地/总平面/道路/出入口/红线/管线综合"
+    template: T6
+    binding_level: site
+  - order: 4
+    rule: "『应设/应有/应采取 X』且 X 为性能措施（保温/隔热/防水/防潮/隔声/防火保护/防滑…），无具体数值"
+    template: T2
+    binding_level: element
+  - order: 5
+    rule: "『应设 A、B、C』且 A/B/C 是系统构成成员（接闪器/引下线/接地装置、短路/过负荷/接地故障保护…）"
+    template: T3
+    binding_level: system
+  - order: 6
+    rule: "含数值+单位约束系统/设备/线路属性（电阻、电流、间距、防护等级、时间、容量…）"
+    template: T4
+    binding_level: system
+  - order: 7
+    rule: "含部位+等级值域（顶棚/墙面/地面 + 燃烧性能/耐火极限/等级/不低于/不应低于）"
+    template: T1
+    binding_level: element
+  - order: 8
+    rule: "表格型条文（『应符合本规范表 X.X.X 的规定』）"
+    template: T1_table
+    binding_level: element
+    note: "★ v1.1 改分阶段：**第一步**先建骨架绑定（值占位 PENDING_TABLE_STRUCTURE，
+            `mapping_status=draft` 不编译规则）；**第二步** V6 表格结构化后批量填值。
+            不再整体阻塞——骨架先行可让矩阵其余样本继续推进。"
+  - order: 9
+    rule: "以上皆不命中"
+    template: 降级
+    binding_level: element
+    note: "mapping_status=needs_expert_review + rationale 说明原因（禁空绑定）"
+
+# ------------------------------------------------------------
+# T1 部位值域
+# ------------------------------------------------------------
+T1:
+  name: 部位值域
+  binding_level: element
+  text_patterns:
+    - "部位词：顶棚|墙面|地面|楼面|隔断|固定家具|装饰织物|幕墙|屋面"
+    - "等级词：燃烧性能|耐火极限|等级|不低于|不应低于|应采用.{0,4}级"
+    - "否定变体：不应直接安装在低于|不得低于（→ not_in 表达）"
+  model_bindings_skeleton:
+    - id: mb_<std>_<clause>_<role>
+      role: <部位中文名>
+      ifc_entity: <词表 part_component_map 查得>
+      predefined_type: <必填（若命中 predefined_type_required_entities）>
+      space_context:
+        carrier: IfcSpace.ObjectType | IfcZone.Name      # ★ v1.1：双载体
+        values: [<空间原文用语 | zone 名>]
+        zone_hint: <carrier=IfcZone.Name 时的分组说明>
+      material_binding: {required: true, classification_system: GB8624}        # 燃烧性能类必填
+      property_requirements:
+        - parameter_ref: <p_id>
+          pset: <Pset_*Common>
+          property: FlammabilityRating    # 燃烧性能（≠ FireRating 耐火极限！）
+      mapping_status: reviewed
+      confidence: high
+      rationale: "<引用条文的部位+值域语义>"
+  parameters_skeleton:
+    - id: <p_id>
+      name: <名称>
+      operator: in            # 值域枚举；否定用 not_in
+      value: [<GB8624 组级：A / B1 / B2 / B3>]
+      ifc_binding: {target: element, pset: <Pset>, property: FlammabilityRating, classification: GB8624}
+  rule_form: "when: entity+pdt(+空间条件)；check: pset 属性 op=in/not_in + parameter_ref"
+  compile_branch: "§9.4 分支1（值域规则）"
+  id_capability: "值域 in 与否定 not_in 均可导出 IDS（not_in→cardinality=prohibited）；空间限定不导出"
+  checklist:
+    - "★ 燃烧性能→FlammabilityRating；耐火极限→FireRating。混用是 C-BINDING 级错绑"
+    - "★ 分级双体系：证书细分级 A1/A2/B/C… 与条文分组级 A/B1/B2/B3；引擎按词表 group_mapping 归一（A1→A）"
+    - "『不低于B1』是序关系 → 编译为 in [A, B1]（组级全序 A>B1>B2>B3），不是单值"
+    - "同条多部位不同值域 → 一部位一绑定一参数（参数可复用，值域不同则分设 id）"
+    - "一个部位有多个候选实体（墙面 IfcCovering.CLADDING / IfcWall.STANDARD）→ 拆多条绑定（方案B），禁 ifc_entity_candidates"
+    - "★ **『其他部位』类条文不得声明 space_context**（部位集合补集 ≠ 空间收窄）——否则触发 C-BINDING-04(a)"
+    - "★ 空间范围可用 **IfcZone.Name**（成组条文，如消防疏散区/湿区），不必逐空间枚举；zone 名进词表 space_zones"
+    - "★ 同条既约束面层燃烧性能又约束本体耐火极限 → 两条绑定两个参数（夹具样本 21 已实证）"
+  samples_verified:
+    - {clause: "GB 50222-2017#4.0.5", role: MVP①, note: "顶棚/墙面/地面 A 级 + 空间上下文 + 材料回退（引擎 8/8、IDS 双轨已实证）"}
+    - {clause: "GB 50222-2017#4.0.5（扩展·合成）", role: 拆条专项, note: "面层 CLADDING ∥ 本体 IfcWall.STANDARD，两条规则各自命中（§4.3 实证）"}
+  candidates:
+    - "GB 50222-2017#4.0.4（疏散走道/门厅顶棚 A 级、其他部位不低于 B1——多值域 + b 分支）"
+    - "GB 50222-2017#4.0.10（消防控制室顶棚墙面 A 级、地面及其他不低于 B1）"
+    - "GB 50222-2017#4.0.17（配电箱不应装在低于 B1 级材料上——not_in 否定）"
+
+# ------------------------------------------------------------
+# T1_table 表格型（v1.1 新增：分阶段，不阻塞）
+# ------------------------------------------------------------
+T1_table:
+  name: 表格型部位值域（表驱动）
+  binding_level: element
+  text_patterns:
+    - "应符合本规范表\\s*\\d+\\.\\d+\\.\\d+ 的规定|不应低于表\\s*\\d+"
+  step1_skeleton:                          # 第一步：骨架先行（现在可做）
+    model_bindings:
+      - id: mb_<std>_<clause>_<role>
+        role: <部位>
+        ifc_entity: <词表 part_component_map>
+        predefined_type: <必填>
+        space_context: {carrier: IfcSpace.ObjectType | IfcZone.Name, values: [<场所/空间>]}
+        material_binding: {required: true, classification_system: GB8624}
+        property_requirements:
+          - parameter_ref: PENDING_TABLE_STRUCTURE      # ★ 占位符：表未结构化
+            pset: <Pset_*Common>
+            property: FlammabilityRating
+        mapping_status: draft                           # ★ draft → 不编译规则（§9.4 分支4）
+        confidence: low
+        rationale: "表格型条文，值域待表 5.1.1 结构化后填（V6 遗留）"
+  step2_after_v6:
+    - "按「行=部位、列=场所类型」展开为多条绑定；每个单元格值域一个参数"
+    - "值域为序关系（不低于某级）→ 编译为 in [该级及以上全集]"
+    - "完成后 mapping_status 置 reviewed，跑 rule_compiler 生成规则"
+  checklist:
+    - "★ 未结构化前**禁止猜值**——占位 PENDING_TABLE_STRUCTURE（诚实降级优于编造）"
+    - "★ 审计 C-BINDING-09 会拦「parameter_ref 指向不存在的参数」——占位符需在审计中豁免（draft 绑定不参与参数校验）"
+    - "表格展开后条目数可能很多 → 注意 C-BINDING-03 组合占比（拆细能自动降低占比）"
+  candidates:
+    - "GB 50222-2017#5.1.1（单层多层民用建筑各部位装修材料燃烧性能等级）"
+    - "GB 50222-2017#5.2.1（地下民用建筑各部位等级）"
+
+# ------------------------------------------------------------
+# T2 属性存在性
+# ------------------------------------------------------------
+T2:
+  name: 属性存在性（交付完整性）
+  binding_level: element
+  text_patterns:
+    - "应设|应有|应采取|应满足.{0,8}要求"
+    - "措施词：保温|隔热|防水|防潮|隔声|气密|水密|防滑|防火保护|防坠落|防结露"
+  model_bindings_skeleton:
+    - id: mb_<std>_<clause>_<role>
+      role: <部位/构造>
+      ifc_entity: <词表 part_component_map>
+      predefined_type: <必填>
+      space_context:
+        carrier: IfcSpace.ObjectType | IfcZone.Name      # ★ 视条文；成组场所优先 IfcZone
+        values: [<空间 | zone 名>]
+      property_requirements:
+        - parameter_ref: null          # ★ 存在性检查：无值域
+          pset: <Pset_*Common | GB_自定义>
+          property: <ThermalTransmittance | 防水层 | ...>
+      mapping_status: mapped
+      confidence: high|medium
+      rationale: "该措施在 IFC 中落为交付属性；数值由项目 EIR 定，本条不定值"
+  parameters_skeleton: []
+  rule_form: "when: entity+pdt(+空间/空间组条件)；check: pset 属性 op=exists"
+  compile_branch: "§9.4 分支2（存在性规则）"
+  id_capability: "存在性可导出 IDS（requirement=property 无值）"
+  checklist:
+    - "★ 定性措施条不编数值参数——数值若属项目约定，写进 EIR 不写进规范 YAML"
+    - "★ 条文未给数值时 parameters 留空（禁跨标准借值，词表 process_parameters 段有红线）"
+    - "多种措施（保温+隔热+防水）→ 一个属性一个 property_requirements 条目"
+    - "『应设防水层』类空间范围使用 IfcZone 成组（厕浴/厨房/垃圾间 → 湿区组），比逐空间枚举可维护"
+    - "口诀：存在性检查失败=交付缺属性（error），不是设计不合格——message 措辞要区分"
+  samples_verified:
+    - {clause: "GB 55031-2022#6.1.1", role: MVP②, note: "屋面保温隔热防水 → Pset_SlabCommon.ThermalTransmittance exists"}
+    - {clause: "GB 55031-2022#6.3.3", role: 空间组专项, note: "湿区组楼面应设防水层 → GB_防水.防水层 exists（IfcZone 载体，§4.2 实证）"}
+  candidates:
+    - "GB 55031-2022#6.2.2（外墙保温隔热隔声防火防水防潮防结露——多措施）"
+    - "GB 55031-2022#6.3.1（楼面地面满足隔声保温防水防火）"
+
+# ------------------------------------------------------------
+# T3 系统成员
+# ------------------------------------------------------------
+T3:
+  name: 系统成员齐备
+  binding_level: system
+  text_patterns:
+    - "应设 A、B、C（并列装置/部件名）"
+    - "系统词：防雷|接地|火灾自动报警|消防给水|排烟|供配电|照明"
+  model_bindings_skeleton:
+    - id: mb_<std>_<clause>_<system>
+      role: <系统名>
+      ifc_entity: IfcDistributionSystem
+      predefined_type: <LIGHTNINGPROTECTION | EARTHING | ...（词表 system_map）>
+      member_requirements: [<成员**规范名**>, ...]   # ★ has_all 唯一事实源
+      property_requirements: []
+      mapping_status: reviewed
+      confidence: high
+      rationale: "<系统级承载；成员 ObjectType 项目约定，写法差异由词表别名归一对齐>"
+    - id: mb_<std>_<clause>_devices        # 装置绑定（成员载体）
+      role: <装置名>
+      ifc_entity: IfcDistributionElement
+      predefined_type: null
+      system_context: {ifc_entity: IfcDistributionSystem, predefined_type: <同上>}
+      property_requirements: []
+      mapping_status: needs_expert_review   # ★ 成员条件未编译（v1 限制）
+      confidence: low
+      rationale: "IFC4 无专用实体，ObjectType 项目约定承载"
+  parameters_skeleton: []
+  rule_form: "when: 系统 entity+pdt；check: object.system.members_object_types op=has_all value=member_requirements"
+  compile_branch: "§9.4 分支3（成员规则）；mapping_refs=[系统绑定]+[成员绑定]"
+  id_capability: "has_all 不导出 IDS（跨对象编组关系）——走自研引擎"
+  checklist:
+    - "★ 成员清单只能存在 member_requirements 一处（原先只存 compiled_rules 导致无法重编译——已修）"
+    - "★ **member_requirements 写规范名**（接闪器/引下线/接地装置）；模型侧别名（避雷针/接闪带/接地网）由词表 `member_alias_map` 归一——别名禁写进规则 value"
+    - "★ has_all 匹配三分支：精确 / `/正则/` / 别名归一（schema §9.5）；未收录写法应补词表而非放宽规则"
+    - "★ IfcDistributionSystem 必须带 predefined_type（C-BINDING-08）"
+    - "系统限定条件（如『防雷建筑物』）属建筑物级条件，v1 不参数化"
+  samples_verified:
+    - {clause: "GB 55024-2022#7.1.1", role: MVP③, note: "接闪器/引下线/接地装置 has_all + needs_expert_review 降级"}
+    - {clause: "GB 55024-2022#7.1.1", role: 别名专项, note: "模型写避雷针/专设引下线/接地网 → 归一后 pass（§4.4 实证）"}
+  candidates:
+    - "GB 55024-2022#7.1.5（防雷建筑物尚应符合…多装置）"
+    - "GB 55024-2022#4.5.1（照明配电终端回路保护功能齐备——成员非构件，降级样本）"
+
+# ------------------------------------------------------------
+# T4 系统/设备属性值域
+# ------------------------------------------------------------
+T4:
+  name: 系统/设备属性值域
+  binding_level: system
+  text_patterns:
+    - "数值+单位：Ω|mA|V|A|mm|m|s|h|kPa|MPa|℃|IP\\d{2}|次/a"
+    - "比较词：不应大于|不得大于|不应小于|不小于|不低于|应大于|应小于"
+  model_bindings_skeleton:
+    - id: mb_<std>_<clause>_<obj>
+      role: <对象>
+      ifc_entity: <IfcDistributionSystem | IfcDistributionElement | 构件实体 | IfcRailing>
+      predefined_type: <必填>
+      property_requirements:
+        - parameter_ref: <p_id>
+          pset: <GB_自定义 Pset 或 Pset_*Common>
+          property: <接地电阻(Ω) | 额定剩余电流(mA) | 杆件净间距 | ...>
+      mapping_status: reviewed
+      confidence: high|medium
+      rationale: "<数值约束语义>"
+  parameters_skeleton:
+    - id: <p_id>
+      name: <名称>
+      operator: lte        # gt/gte/lt/lte
+      max_value: <数值>
+      min_value: null
+      unit: <单位>
+      ifc_binding: {target: system|element, pset: <Pset>, property: <属性>}
+  rule_form: "when: entity+pdt；check: pset 属性 op=gt/gte/lt/lte + parameter_ref（阈值经 min/max_value）"
+  compile_branch: "§9.4 分支1（值域规则，operator 为比较符）"
+  id_capability: "★ 数值范围可导出 IDS（xs:restriction minInclusive/maxInclusive）——已实测（≤10Ω 正例过/反例挂）"
+  checklist:
+    - "★ 单位必须入 parameters.unit；属性名与单位分离（属性名禁带单位尾，C-PARAM 级）"
+    - "★ 单位一致性须人工核对：IDC 属性实际单位 vs 条文单位（mA/A、mm/m）——引擎与 IDS 均按字面数值比较，不换算"
+    - "自定义属性集用 GB_ 前缀（禁 Pset_ 前缀）"
+    - "同条多阈值（IP54/IP67/IP68 分场所）→ 分条绑定或用空间/场所条件区分"
+    - "★ **几何型约束二分处置**（v1.1）：能用属性承载的走 T4 属性路径；纯几何（栏杆净间距/引下线间距/视距）
+        → `mapping_status=needs_expert_review` + 参数保留（供几何引擎），**不生成规则**。
+        补白名单（如 IfcRailing）不等于可自动检查——必须先定检查形态。"
+  candidates:
+    - "GB 55024-2022#4.6.5（额定剩余电流动作值不应大于 30mA——lte）"
+    - "GB 55024-2022#4.5.3（防护等级不应低于 IP54/IP67/IP68——枚举集）"
+    - "GB 55024-2022#8.8.2（引下线与可燃材料墙壁间距应大于 0.1m——gt，几何降级样本）"
+    - "GB 55031-2022#6.6.3（栏杆杆件净间距不应大于 0.11m——lte，几何降级；属性型栏杆要求另走 GB_栏杆 Pset）"
+
+# ------------------------------------------------------------
+# T5 过程活动
+# ------------------------------------------------------------
+T5:
+  name: 过程/活动（施工·检验·验收）
+  binding_level: process
+  text_patterns:
+    - "进场|送检|检验批|隐蔽工程|见证取样|检测|调试|试运行|试压|回路的绝缘电阻检测"
+    - "验收|竣工验收|过程验收|记录|报告|资料审查"
+  model_bindings_skeleton: []          # ★ 过程章无模型绑定（C-BINDING-10）
+  activity_types_skeleton:
+    - id: act_<std>_<clause>
+      name: <活动名，如 进场材料送检>
+      phase: <inspection | construction | commissioning | acceptance>
+      document_refs: [<报告/记录名>, ...]
+      related_clauses: []
+  parameters_skeleton: []              # 条文明给数值的检测项才填，见 process_parameter_skeleton
+  process_parameter_skeleton:          # ★ v1.1 新增：纯过程参数落点（不挂构件）
+    - id: p_<std>_<clause>_<n>
+      name: <检测项名>
+      operator: <gte | lte | in | exists>
+      min_value: <数值或 null>
+      max_value: <数值或 null>
+      unit: <单位或 null>
+      ifc_binding:
+        target: process
+        activity_ref: act_<std>_<clause>     # ★ 必填，关联 activity_types
+        document_refs: [<记录/报告名>]
+        note: "<值来源说明>"
+  rule_form: "无模型检查规则；结构校验：activity_types 每项须含 id/name/phase"
+  compile_branch: "§9.4 分支5（不生成规则；不参与 RULE_COMPILE_MISMATCH）"
+  id_capability: "不走 IDS（文档交付要求）"
+  checklist:
+    - "★ 过程章 model_bindings 必须为空——审计 C-BINDING-10 会报 error"
+    - "★ 宏观关键词表须含『检验和验收』类词（曾在 GB55024 第 9 章踩坑：第 8 章『施工』判宏观、第 9 章两不靠）"
+    - "document_refs 写交付物名，不写流程描述"
+    - "★ **纯过程参数用 `ifc_binding.target=process`**（activity_ref 必填、禁给 pset/property）；
+        禁止为放参数把过程条文挂到无关构件（如绝缘电阻挂 IfcDistributionCircuit）"
+    - "★ **原文无数值就留空**：GB55024 9.4.1 只要求『进行绝缘电阻检测』，0.5MΩ 出自 GB 50303——
+        本册禁止跨标准借值（诚实红线）"
+  samples_verified:
+    - {clause: "GB 55024-2022#9.1.1", role: MVP④, note: "进场送检 process + activity_types 结构化通过"}
+    - {clause: "GB 55024-2022#9.4.1", role: 过程参数专项, note: "原文无数值 → parameters 留空（词表 process_parameters 已核实）"}
+  candidates:
+    - "GB 55024-2022#9.4.1（布线工程必须进行回路绝缘电阻检测）"
+    - "GB 55024-2022#9.5.6（竣工验收检查质量控制记录清单 16 项——document_refs 多值）"
+
+# ------------------------------------------------------------
+# T6 宏观 / 场地
+# ------------------------------------------------------------
+T6:
+  name: 宏观 / 场地（不落构件或落几何降级）
+  binding_level: macro | site
+  text_patterns:
+    - "宏观：总则|术语|符号|代号|基本规定|一般规定|分类|分级|保养|维修|监管"
+    - "场地：基地|总平面|道路|出入口|道路红线|建筑控制线|管线综合|绿地"
+  model_bindings_skeleton:
+    macro: []                          # ★ 宏观章禁有 model_bindings（C-BINDING-10）
+    site:
+      - id: mb_<std>_<clause>_site
+        role: <对象>
+        ifc_entity: IfcSite
+        predefined_type: null
+        property_requirements: []
+        mapping_status: needs_expert_review
+        confidence: low
+        rationale: "<几何/跨对象关系，规则引擎 v1 不支持；降级人工或几何引擎>"
+  parameters_skeleton:
+    site_example:
+      - id: <p_id>
+        name: <名称>
+        operator: gte
+        min_value: <数值>
+        max_value: null
+        unit: m
+        ifc_binding: {target: site, path: "几何复核（IfcSite ↔ 周边设施）"}
+  rule_form: "site 级：结构校验（绑定须带 mapping_status + rationale），不生成模型规则"
+  compile_branch: "§9.4 分支5（needs_expert_review 不生成规则）"
+  id_capability: "几何推导量不导出 IDS"
+  checklist:
+    - "★ macro 章 component_types 必须为 []（v2.2.1 已全库归零，勿回填）"
+    - "★ site 级绑定必须带 rationale 说明为何降级（否则结构校验失败）"
+    - "★ C-BINDING-03 组合占比分母**已排除 site/macro/process 级与整条降级条文**
+        （否则 site 条文多的册会误报『全册兜底』）"
+    - "距离/宽度/视距类 → 参数保留（供人工/几何引擎消费）但 rule 为空"
+  samples_verified:
+    - {clause: "GB 55031-2022#4.3.4", role: MVP⑤, note: "基地出入口 20m 距离 → site 降级 + 几何复核"}
+  candidates:
+    - "GB 55031-2022#4.3.6（基地内机动车道路宽度——site 降级，4 个参数）"
+    - "GB 55031-2022#2.2.6（日常保养维修监管——管理类，macro/降级）"

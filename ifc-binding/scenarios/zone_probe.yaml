@@ -1,0 +1,40 @@
+# ============================================================
+# 工具链 v0.4 能力实证场景（正例）
+# ============================================================
+# 覆盖三项目标能力：
+#   ① IfcZone 空间组（carrier=IfcZone.Name）：湿区组 ⊇ {厕所（卫生间）}
+#   ② 多候选拆条（方案 B）：墙面装修面层 IfcCovering.CLADDING ∥ 墙体本体 IfcWall.STANDARD
+#   ③ has_all 别名归一：成员 ObjectType 写「避雷针」→ 归一为「接闪器」
+# 对照组设计：办公区楼板不在湿区组内 → 空间组条件应将其排除（不得产生记录）
+# ============================================================
+project_name: 工具链v0.4实证项目
+spatial: {site: 场地, building: 测试楼, storeys: [1F]}
+spaces:
+  - {name: 厕所（卫生间）, object_type: 厕所（卫生间）, storey: 1F}   # 词表 space_map 原文用语
+  - {name: 办公室, object_type: 办公室, storey: 1F}
+zones:
+  - {name: 湿区组, spaces: [厕所（卫生间）]}
+classification: {name: "GB 8624-2012"}
+
+elements:
+  # ---- ① IfcZone 空间组：湿区楼面设防水层（exists 通过）----
+  - {ifc_class: IfcSlab, name: 湿区楼面, predefined_type: FLOOR, container: 厕所（卫生间）,
+     psets: [{name: GB_防水, properties: {防水层: 设}}]}
+  # ---- 对照组：办公区楼板不在湿区组 → 空间组条件须排除 ----
+  - {ifc_class: IfcSlab, name: 办公区楼板, predefined_type: FLOOR, container: 办公室}
+
+  # ---- ② 多候选拆条：同一语义角色两条绑定，分别命中不同实体 ----
+  - {ifc_class: IfcCovering, name: 走廊墙面, predefined_type: CLADDING, container: 办公室,
+     psets: [{name: Pset_CoveringCommon, properties: {FlammabilityRating: A}}]}
+  - {ifc_class: IfcWall, name: 墙体-办公室, predefined_type: STANDARD, container: 办公室,
+     psets: [{name: Pset_WallCommon, properties: {FireRating: "1.00h"}}]}
+
+systems:
+  # ---- ③ has_all 别名：成员写「避雷针」（别名）应归一为「接闪器」后比对通过
+  - ifc_class: IfcDistributionSystem
+    name: 防雷接地系统
+    predefined_type: LIGHTNINGPROTECTION
+    members:
+      - {name: 接闪带, object_type: 避雷针}
+      - {name: 引下线-1, object_type: 专设引下线}
+      - {name: 接地体-1, object_type: 接地网}

@@ -1,0 +1,1288 @@
+meta:
+  version: v1.0
+  date: '2026-09-22'
+  dict_version: v0.3
+  schema: SCHEMA_v2.3_草案 v0.4
+  templates: binding_templates_v1.yaml v1.1
+  samples: 19
+  coverage: 黄金样本覆盖矩阵_20260922.md 样本 2–20
+samples:
+- clause_id: GB 50222-2017#4.0.4
+  standard_code: GB 50222-2017
+  clause_no: 4.0.4
+  text: 地上建筑的水平疏散走道和安全出口的门厅，其顶棚应采用A级装修材料，其他部位应采用不低于B1级的装修材料；地下民用建筑的疏散走道和安全出口的门厅，其顶棚、墙面和地面均应采用A级装修材料。
+  related_objects:
+    binding_level: element
+    component_types:
+    - IfcCovering
+    model_bindings:
+    - id: mb_gb50222_4_0_4_corridor_ceiling
+      role: 疏散走道顶棚
+      ifc_entity: IfcCovering
+      predefined_type: CEILING
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 疏散走道
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_4_0_4_corridor_class
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: high
+      rationale: 地上水平疏散走道/安全出口门厅顶棚应采用 A 级（安全出口门厅未入 space_map，v1 仅以『疏散走道』收窄）
+    - id: mb_gb50222_4_0_4_other_ceiling
+      role: 其他部位顶棚
+      ifc_entity: IfcCovering
+      predefined_type: CEILING
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_4_0_4_other_class
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: high
+      rationale: 『其他部位』是部位集合补集（非空间收窄）→ 不声明 space_context，规则 when 仅 entity/pdt（v0.4
+        (b) 分支实证）
+    - id: mb_gb50222_4_0_4_ug_wall
+      role: 地下疏散走道墙面
+      ifc_entity: IfcCovering
+      predefined_type: CLADDING
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements: []
+      mapping_status: needs_expert_review
+      confidence: low
+      rationale: 『地下民用建筑』是建筑级属性，规则引擎 v1 无(地上/地下)判定路径；按空间无条件套用将误伤地上走道墙面 → 降级人工/建筑级属性补齐
+    - id: mb_gb50222_4_0_4_ug_floor
+      role: 地下疏散走道地面
+      ifc_entity: IfcCovering
+      predefined_type: FLOORING
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements: []
+      mapping_status: needs_expert_review
+      confidence: low
+      rationale: 同上（地下地面 A 级）；地上/地下不可区分 → 降级人工/建筑级属性补齐
+  parameters:
+  - id: p_gb50222_4_0_4_corridor_class
+    name: 疏散走道顶棚装修材料燃烧性能等级
+    operator: in
+    value:
+    - A
+    unit: null
+    ifc_binding:
+      target: element
+      pset: Pset_CoveringCommon
+      property: FlammabilityRating
+      classification: GB8624
+  - id: p_gb50222_4_0_4_other_class
+    name: 其他部位顶棚装修材料燃烧性能等级
+    operator: in
+    value:
+    - A
+    - B1
+    unit: null
+    ifc_binding:
+      target: element
+      pset: Pset_CoveringCommon
+      property: FlammabilityRating
+      classification: GB8624
+    note: 「不低于B1」是组级全序（A>B1>B2>B3）→ 编译为 in [A, B1]
+  compiled_rules:
+  - rule_id: R_4_0_4_ceiling_1
+    source_clause: GB 50222-2017#4.0.4
+    mapping_refs:
+    - mb_gb50222_4_0_4_corridor_ceiling
+    parameter_refs:
+    - p_gb50222_4_0_4_corridor_class
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcCovering
+      - path: object.predefined_type
+        op: eq
+        value: CEILING
+      - path: object.space.usage
+        op: in
+        value:
+        - 疏散走道
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#4.0.4 疏散走道顶棚：FlammabilityRating = ['A'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_CoveringCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_4_0_4_corridor_class
+  - rule_id: R_4_0_4_ceiling_2
+    source_clause: GB 50222-2017#4.0.4
+    mapping_refs:
+    - mb_gb50222_4_0_4_other_ceiling
+    parameter_refs:
+    - p_gb50222_4_0_4_other_class
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcCovering
+      - path: object.predefined_type
+        op: eq
+        value: CEILING
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#4.0.4 其他部位顶棚：FlammabilityRating = ['A', 'B1'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_CoveringCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_4_0_4_other_class
+- clause_id: GB 50222-2017#4.0.10
+  standard_code: GB 50222-2017
+  clause_no: 4.0.10
+  text: 消防控制室等重要房间，其顶棚和墙面应采用A级装修材料，地面及其他装修应采用不低于B1级的装修材料。
+  related_objects:
+    binding_level: element
+    component_types:
+    - IfcCovering
+    model_bindings:
+    - id: mb_gb50222_4_0_10_ceiling
+      role: 消防控制室顶棚
+      ifc_entity: IfcCovering
+      predefined_type: CEILING
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 消防控制室
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_4_0_10_a
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: high
+      rationale: 顶棚 A 级；与墙面复用同一参数（同参多绑定）
+    - id: mb_gb50222_4_0_10_wall
+      role: 消防控制室墙面
+      ifc_entity: IfcCovering
+      predefined_type: CLADDING
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 消防控制室
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_4_0_10_a
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: high
+      rationale: 墙面 A 级（装修面层 → CLADDING）
+    - id: mb_gb50222_4_0_10_floor
+      role: 消防控制室地面
+      ifc_entity: IfcCovering
+      predefined_type: FLOORING
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 消防控制室
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_4_0_10_b1
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: high
+      rationale: 地面不低于 B1 级（值域 [A,B1]）
+  parameters:
+  - id: p_gb50222_4_0_10_a
+    name: 消防控制室顶棚墙面装修材料燃烧性能等级
+    operator: in
+    value:
+    - A
+    unit: null
+    ifc_binding:
+      target: element
+      pset: Pset_CoveringCommon
+      property: FlammabilityRating
+      classification: GB8624
+  - id: p_gb50222_4_0_10_b1
+    name: 消防控制室地面装修材料燃烧性能等级
+    operator: in
+    value:
+    - A
+    - B1
+    unit: null
+    ifc_binding:
+      target: element
+      pset: Pset_CoveringCommon
+      property: FlammabilityRating
+      classification: GB8624
+  compiled_rules:
+  - rule_id: R_4_0_10_ceiling_1
+    source_clause: GB 50222-2017#4.0.10
+    mapping_refs:
+    - mb_gb50222_4_0_10_ceiling
+    parameter_refs:
+    - p_gb50222_4_0_10_a
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcCovering
+      - path: object.predefined_type
+        op: eq
+        value: CEILING
+      - path: object.space.usage
+        op: in
+        value:
+        - 消防控制室
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#4.0.10 消防控制室顶棚：FlammabilityRating = ['A'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_CoveringCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_4_0_10_a
+  - rule_id: R_4_0_10_wall_2
+    source_clause: GB 50222-2017#4.0.10
+    mapping_refs:
+    - mb_gb50222_4_0_10_wall
+    parameter_refs:
+    - p_gb50222_4_0_10_a
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcCovering
+      - path: object.predefined_type
+        op: eq
+        value: CLADDING
+      - path: object.space.usage
+        op: in
+        value:
+        - 消防控制室
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#4.0.10 消防控制室墙面：FlammabilityRating = ['A'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_CoveringCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_4_0_10_a
+  - rule_id: R_4_0_10_floor_3
+    source_clause: GB 50222-2017#4.0.10
+    mapping_refs:
+    - mb_gb50222_4_0_10_floor
+    parameter_refs:
+    - p_gb50222_4_0_10_b1
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcCovering
+      - path: object.predefined_type
+        op: eq
+        value: FLOORING
+      - path: object.space.usage
+        op: in
+        value:
+        - 消防控制室
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#4.0.10 消防控制室地面：FlammabilityRating = ['A', 'B1'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_CoveringCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_4_0_10_b1
+- clause_id: GB 50222-2017#4.0.17
+  standard_code: GB 50222-2017
+  clause_no: 4.0.17
+  text: 建筑内部的配电箱、控制面板、接线盒、开关、插座等不应直接安装在低于B1级的装修材料上；用于顶棚和墙面装修的木质类板材，当内部含有电器、电线等物体时，应采用不低于B1级的材料。
+  related_objects:
+    binding_level: element
+    component_types:
+    - IfcCovering
+    model_bindings:
+    - id: mb_gb50222_4_0_17_covering
+      role: 装修面层（配电箱等依附面）
+      ifc_entity: IfcCovering
+      predefined_type: CLADDING
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_4_0_17_notbelow
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: medium
+      rationale: 『不应直接安装在低于B1级的装修材料上』→ 装修面层不得为 B2/B3；无法在 IFC 中识别『配电箱所依附的具体面层』，故对全部装修面层取最严解读（not_in
+        否定逻辑实证样本）
+  parameters:
+  - id: p_gb50222_4_0_17_notbelow
+    name: 装修面层燃烧性能等级（禁值域）
+    operator: not_in
+    value:
+    - B2
+    - B3
+    unit: null
+    ifc_binding:
+      target: element
+      pset: Pset_CoveringCommon
+      property: FlammabilityRating
+      classification: GB8624
+    note: 禁值表达；等价于 in [A, B1]，但保留 not_in 以实证 IDS prohibited 基数导出
+  compiled_rules:
+  - rule_id: R_4_0_17_covering_1
+    source_clause: GB 50222-2017#4.0.17
+    mapping_refs:
+    - mb_gb50222_4_0_17_covering
+    parameter_refs:
+    - p_gb50222_4_0_17_notbelow
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcCovering
+      - path: object.predefined_type
+        op: eq
+        value: CLADDING
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#4.0.17 装修面层（配电箱等依附面）：FlammabilityRating 落入禁值域 ['B2',
+        'B3']
+      check:
+        path: object.pset[Pset_CoveringCommon].FlammabilityRating
+        op: not_in
+        parameter_ref: p_gb50222_4_0_17_notbelow
+- clause_id: GB 50222-2017#5.1.1
+  standard_code: GB 50222-2017
+  clause_no: 5.1.1
+  text: 单层、多层民用建筑内部各部位装修材料的燃烧性能等级，不应低于本规范表5.1.1的规定。
+  related_objects:
+    binding_level: element
+    component_types:
+    - IfcCovering
+    model_bindings:
+    - id: mb_gb50222_5_1_1_table_skeleton
+      role: 各部位装修材料（表5.1.1 骨架）
+      ifc_entity: IfcCovering
+      predefined_type: CEILING
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: PENDING_TABLE_STRUCTURE
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: draft
+      confidence: low
+      rationale: 表格型条文（表5.1.1）：行=建筑物及场所、列=部位（顶棚/墙面/地面/隔断/固定家具/窗帘/帷幕/其他装修装饰材料）；表已在正本结构化（tables[].headers+rows
+        齐备），待『行→space_context / 列→predefined_type』绑定展开（batch 1d）；第一步只建骨架，draft 不编译规则
+  parameters: []
+  compiled_rules: []
+- clause_id: GB 55031-2022#6.1.1
+  standard_code: GB 55031-2022
+  clause_no: 6.1.1
+  text: 屋面应合理采取保温、隔热、防水等措施。屋面防水应按排水与防水相结合的原则，根据建筑物的重要程度及使用功能，结合工程特点、气候条件等按不同等级设置防水层。
+  related_objects:
+    binding_level: element
+    component_types:
+    - IfcSlab
+    - IfcRoof
+    model_bindings:
+    - id: mb_gb55031_6_1_1_roofslab
+      role: 屋面构造层
+      ifc_entity: IfcSlab
+      predefined_type: ROOF
+      property_requirements:
+      - parameter_ref: null
+        pset: Pset_SlabCommon
+        property: ThermalTransmittance
+      mapping_status: mapped
+      confidence: high
+      rationale: 保温隔热措施落屋面构造层，交付应含传热系数；防水等级值域项目约定，本条不定值（词表覆盖度 weak）
+    - id: mb_gb55031_6_1_1_roof
+      role: 屋面（整体）
+      ifc_entity: IfcRoof
+      predefined_type: FLAT_ROOF
+      property_requirements: []
+      mapping_status: mapped
+      confidence: medium
+      rationale: 整体性约束挂 IfcRoof；按坡度信息选枚举，无信息可缺省
+  parameters: []
+  compiled_rules:
+  - rule_id: R_6_1_1_roofslab_1
+    source_clause: GB 55031-2022#6.1.1
+    mapping_refs:
+    - mb_gb55031_6_1_1_roofslab
+    parameter_refs: []
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcSlab
+      - path: object.predefined_type
+        op: eq
+        value: ROOF
+    not_when: []
+    then:
+      severity: error
+      message: GB 55031-2022#6.1.1 屋面构造层：缺少属性 ThermalTransmittance（交付完整性检查）
+      check:
+        path: object.pset[Pset_SlabCommon].ThermalTransmittance
+        op: exists
+- clause_id: GB 55031-2022#6.2.2
+  standard_code: GB 55031-2022
+  clause_no: 6.2.2
+  text: 外墙应根据气候条件和建筑使用要求，采取保温隔热、隔声、防火、防水、防潮和防结露等措施。
+  related_objects:
+    binding_level: element
+    component_types:
+    - IfcWall
+    model_bindings:
+    - id: mb_gb55031_6_2_2_extwall
+      role: 外墙（围护本体）
+      ifc_entity: IfcWall
+      predefined_type: STANDARD
+      property_requirements:
+      - parameter_ref: null
+        pset: Pset_WallCommon
+        property: ThermalTransmittance
+      - parameter_ref: null
+        pset: Pset_WallCommon
+        property: AcousticRating
+      - parameter_ref: null
+        pset: Pset_WallCommon
+        property: FireRating
+      - parameter_ref: null
+        pset: GB_外墙
+        property: 防水
+      - parameter_ref: null
+        pset: GB_外墙
+        property: 防潮
+      - parameter_ref: null
+        pset: GB_外墙
+        property: 防结露
+      mapping_status: mapped
+      confidence: medium
+      rationale: 六类措施（保温隔热/隔声/防火/防水/防潮/防结露）→ 一属性一条目，全部为存在性交付检查；数值属项目 EIR，本条不定值
+  parameters: []
+  compiled_rules:
+  - rule_id: R_6_2_2_extwall_1
+    source_clause: GB 55031-2022#6.2.2
+    mapping_refs:
+    - mb_gb55031_6_2_2_extwall
+    parameter_refs: []
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcWall
+      - path: object.predefined_type
+        op: eq
+        value: STANDARD
+    not_when: []
+    then:
+      severity: error
+      message: GB 55031-2022#6.2.2 外墙（围护本体）：缺少属性 ThermalTransmittance（交付完整性检查）
+      check:
+        path: object.pset[Pset_WallCommon].ThermalTransmittance
+        op: exists
+  - rule_id: R_6_2_2_extwall_2
+    source_clause: GB 55031-2022#6.2.2
+    mapping_refs:
+    - mb_gb55031_6_2_2_extwall
+    parameter_refs: []
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcWall
+      - path: object.predefined_type
+        op: eq
+        value: STANDARD
+    not_when: []
+    then:
+      severity: error
+      message: GB 55031-2022#6.2.2 外墙（围护本体）：缺少属性 AcousticRating（交付完整性检查）
+      check:
+        path: object.pset[Pset_WallCommon].AcousticRating
+        op: exists
+  - rule_id: R_6_2_2_extwall_3
+    source_clause: GB 55031-2022#6.2.2
+    mapping_refs:
+    - mb_gb55031_6_2_2_extwall
+    parameter_refs: []
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcWall
+      - path: object.predefined_type
+        op: eq
+        value: STANDARD
+    not_when: []
+    then:
+      severity: error
+      message: GB 55031-2022#6.2.2 外墙（围护本体）：缺少属性 FireRating（交付完整性检查）
+      check:
+        path: object.pset[Pset_WallCommon].FireRating
+        op: exists
+  - rule_id: R_6_2_2_extwall_4
+    source_clause: GB 55031-2022#6.2.2
+    mapping_refs:
+    - mb_gb55031_6_2_2_extwall
+    parameter_refs: []
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcWall
+      - path: object.predefined_type
+        op: eq
+        value: STANDARD
+    not_when: []
+    then:
+      severity: error
+      message: GB 55031-2022#6.2.2 外墙（围护本体）：缺少属性 防水（交付完整性检查）
+      check:
+        path: object.pset[GB_外墙].防水
+        op: exists
+  - rule_id: R_6_2_2_extwall_5
+    source_clause: GB 55031-2022#6.2.2
+    mapping_refs:
+    - mb_gb55031_6_2_2_extwall
+    parameter_refs: []
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcWall
+      - path: object.predefined_type
+        op: eq
+        value: STANDARD
+    not_when: []
+    then:
+      severity: error
+      message: GB 55031-2022#6.2.2 外墙（围护本体）：缺少属性 防潮（交付完整性检查）
+      check:
+        path: object.pset[GB_外墙].防潮
+        op: exists
+  - rule_id: R_6_2_2_extwall_6
+    source_clause: GB 55031-2022#6.2.2
+    mapping_refs:
+    - mb_gb55031_6_2_2_extwall
+    parameter_refs: []
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcWall
+      - path: object.predefined_type
+        op: eq
+        value: STANDARD
+    not_when: []
+    then:
+      severity: error
+      message: GB 55031-2022#6.2.2 外墙（围护本体）：缺少属性 防结露（交付完整性检查）
+      check:
+        path: object.pset[GB_外墙].防结露
+        op: exists
+- clause_id: GB 55031-2022#6.3.3
+  standard_code: GB 55031-2022
+  clause_no: 6.3.3
+  text: 建筑内的厕所（卫生间）、浴室、公共厨房、垃圾间等场所的楼面、地面，开敞式外廊、阳台的楼面应设防水层。
+  related_objects:
+    binding_level: element
+    component_types:
+    - IfcSlab
+    model_bindings:
+    - id: mb_gb55031_6_3_3_wetfloor
+      role: 湿区楼面（防水层）
+      ifc_entity: IfcSlab
+      predefined_type: FLOOR
+      space_context:
+        carrier: IfcZone.Name
+        values:
+        - 湿区组
+        zone_hint: 湿区（厕所/浴室/公共厨房/垃圾间，词表 space_zones）
+      property_requirements:
+      - parameter_ref: null
+        pset: GB_防水
+        property: 防水层
+      mapping_status: mapped
+      confidence: medium
+      rationale: 『应设防水层』是定性措施 → 交付完整性检查；空间范围用湿区组收窄（逐空间枚举的可维护替代）
+  parameters: []
+  compiled_rules:
+  - rule_id: R_6_3_3_wetfloor_1
+    source_clause: GB 55031-2022#6.3.3
+    mapping_refs:
+    - mb_gb55031_6_3_3_wetfloor
+    parameter_refs: []
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcSlab
+      - path: object.predefined_type
+        op: eq
+        value: FLOOR
+      - path: object.zone.name
+        op: in
+        value:
+        - 湿区组
+    not_when: []
+    then:
+      severity: error
+      message: GB 55031-2022#6.3.3 湿区楼面（防水层）：缺少属性 防水层（交付完整性检查）
+      check:
+        path: object.pset[GB_防水].防水层
+        op: exists
+- clause_id: GB 55024-2022#7.1.1
+  standard_code: GB 55024-2022
+  clause_no: 7.1.1
+  text: 各类防雷建筑物应设接闪器、引下线、接地装置，并应采取防闪电电涌侵入的措施。
+  related_objects:
+    binding_level: system
+    component_types:
+    - IfcDistributionSystem
+    - IfcDistributionElement
+    model_bindings:
+    - id: mb_gb55024_7_1_1_lps
+      role: 防雷接地系统
+      ifc_entity: IfcDistributionSystem
+      predefined_type: LIGHTNINGPROTECTION
+      member_requirements:
+      - 接闪器
+      - 引下线
+      - 接地装置
+      property_requirements: []
+      mapping_status: reviewed
+      confidence: high
+      rationale: 系统级承载；成员写法差异（避雷针/接闪带/接地网）由词表别名归一对齐
+    - id: mb_gb55024_7_1_1_devices
+      role: 防雷装置
+      ifc_entity: IfcDistributionElement
+      predefined_type: null
+      system_context:
+        ifc_entity: IfcDistributionSystem
+        predefined_type: LIGHTNINGPROTECTION
+      property_requirements: []
+      mapping_status: needs_expert_review
+      confidence: low
+      rationale: 装置级 ObjectType 项目约定承载（v1 限制：element 级 system_context 不编译为 when）
+  parameters: []
+  compiled_rules:
+  - rule_id: R_7_1_1_lps_1
+    source_clause: GB 55024-2022#7.1.1
+    mapping_refs:
+    - mb_gb55024_7_1_1_lps
+    - mb_gb55024_7_1_1_devices
+    parameter_refs: []
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcDistributionSystem
+      - path: object.predefined_type
+        op: eq
+        value: LIGHTNINGPROTECTION
+    not_when: []
+    then:
+      severity: error
+      message: GB 55024-2022#7.1.1 防雷接地系统：系统成员不齐备（应含 接闪器, 引下线, 接地装置）
+      check:
+        path: object.system.members_object_types
+        op: has_all
+        value:
+        - 接闪器
+        - 引下线
+        - 接地装置
+- clause_id: GB 55024-2022#7.1.5
+  standard_code: GB 55024-2022
+  clause_no: 7.1.5
+  text: 各类防雷建筑物除应符合本规范第7.1.2条～第7.1.4条的规定外，尚应符合下列规定：1 在建筑物的地下一层或地面层处，下列物体应与防雷装置做防雷等电位连接：1
+    )建筑物结构钢筋及金属构件；2 )进出建筑物处的金属管道和线路。2当建筑物的电气与智能化系统需要做防雷击电磁脉冲时，应在设计时将建筑物的金属支撑物、金属框架或结构钢筋等自然构件、金属管道、配电的保护接地系统等与防雷装置组成一个接地系统。
+  related_objects:
+    binding_level: system
+    component_types:
+    - IfcDistributionSystem
+    - IfcDistributionElement
+    model_bindings:
+    - id: mb_gb55024_7_1_5_bonding
+      role: 等电位联结系统
+      ifc_entity: IfcDistributionSystem
+      predefined_type: EARTHING
+      member_requirements:
+      - 结构钢筋及金属构件
+      - 金属管道和线路
+      property_requirements: []
+      mapping_status: reviewed
+      confidence: medium
+      rationale: 等电位联结对象（结构钢筋及金属构件 / 进出建筑物的金属管道和线路）→ EARTHING 系统成员；成员集合**扩展**于 7.1.1
+        的三装置（矩阵『成员枚举扩展』样本）
+    - id: mb_gb55024_7_1_5_devices
+      role: 等电位联结导体
+      ifc_entity: IfcDistributionElement
+      predefined_type: null
+      system_context:
+        ifc_entity: IfcDistributionSystem
+        predefined_type: EARTHING
+      property_requirements: []
+      mapping_status: needs_expert_review
+      confidence: low
+      rationale: 联结导体无专用 IFC 实体，ObjectType 项目约定（同 7.1.1 限制）
+  parameters: []
+  compiled_rules:
+  - rule_id: R_7_1_5_bonding_1
+    source_clause: GB 55024-2022#7.1.5
+    mapping_refs:
+    - mb_gb55024_7_1_5_bonding
+    - mb_gb55024_7_1_5_devices
+    parameter_refs: []
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcDistributionSystem
+      - path: object.predefined_type
+        op: eq
+        value: EARTHING
+    not_when: []
+    then:
+      severity: error
+      message: GB 55024-2022#7.1.5 等电位联结系统：系统成员不齐备（应含 结构钢筋及金属构件, 金属管道和线路）
+      check:
+        path: object.system.members_object_types
+        op: has_all
+        value:
+        - 结构钢筋及金属构件
+        - 金属管道和线路
+- clause_id: GB 55024-2022#4.5.1
+  standard_code: GB 55024-2022
+  clause_no: 4.5.1
+  text: 建筑物应设置照明供配电系统。照明配电终端回路应设短路保护、过负荷保护和接地故障保护，室外照明配电终端回路还应设置剩余电流动作保护电器作为附加防护。
+  related_objects:
+    binding_level: system
+    component_types:
+    - IfcDistributionSystem
+    - IfcDistributionElement
+    model_bindings:
+    - id: mb_gb55024_4_5_1_lighting
+      role: 照明配电终端回路
+      ifc_entity: IfcDistributionSystem
+      predefined_type: LIGHTING
+      member_requirements:
+      - 短路保护
+      - 过负荷保护
+      - 接地故障保护
+      property_requirements: []
+      mapping_status: needs_expert_review
+      confidence: low
+      rationale: 保护功能类成员（短路/过负荷/接地故障保护）**不是构件**，IFC4 无实体承载，且『回路是否为终端回路』无关系路径 → 整体降级人工复核（矩阵『成员非构件』样本）
+    - id: mb_gb55024_4_5_1_protective
+      role: 保护电器（附加防护）
+      ifc_entity: IfcDistributionElement
+      predefined_type: null
+      system_context:
+        ifc_entity: IfcDistributionSystem
+        predefined_type: LIGHTING
+      property_requirements: []
+      mapping_status: needs_expert_review
+      confidence: low
+      rationale: 室外照明终端回路的剩余电流动作保护电器——ObjectType 项目约定
+  parameters: []
+  compiled_rules: []
+- clause_id: GB 55024-2022#4.6.5
+  standard_code: GB 55024-2022
+  clause_no: 4.6.5
+  text: 当采用剩余电流动作保护电器作为电击防护附加防护措施时，应符合下列规定：1 额定剩余电流动作值不应大于30mA。2额定电流不超过32A的下列回路应装设剩余电流动作保护电器：1
+    )供一般人员使用的电源插座回路；2 )室内移动电气设备；3 )人员可触及的室外电气设备。3剩余电流动作保护电器不应作为唯一的保护措施。4采用剩余电流动作保护电器时应装设保护接地导体
+    （PE）。
+  related_objects:
+    binding_level: element
+    component_types:
+    - IfcElectricDistributionBoard
+    model_bindings:
+    - id: mb_gb55024_4_6_5_rcd
+      role: 剩余电流动作保护电器
+      ifc_entity: IfcElectricDistributionBoard
+      predefined_type: null
+      property_requirements:
+      - parameter_ref: p_gb55024_4_6_5_rcd
+        pset: GB_电气
+        property: 额定剩余电流动作值
+      mapping_status: reviewed
+      confidence: medium
+      rationale: 额定剩余电流动作值 ≤30mA（原文仅 1 款给值；2–4 款为配置/措施要求，v1 不单列）。★ 落点取词表 member_alias_map
+        提示的 IfcElectricDistributionBoard，与样本 13 灯具（IfcDistributionElement）实体分离——避免全域规则把灯具/系统成员误卷入
+  parameters:
+  - id: p_gb55024_4_6_5_rcd
+    name: 额定剩余电流动作值
+    operator: lte
+    max_value: 30
+    min_value: null
+    unit: mA
+    ifc_binding:
+      target: element
+      pset: GB_电气
+      property: 额定剩余电流动作值
+    note: ★ 单位一致性须人工核对（属性实际单位 vs 条文 mA）；引擎与 IDS 按字面数值比较，不换算
+  compiled_rules:
+  - rule_id: R_4_6_5_rcd_1
+    source_clause: GB 55024-2022#4.6.5
+    mapping_refs:
+    - mb_gb55024_4_6_5_rcd
+    parameter_refs:
+    - p_gb55024_4_6_5_rcd
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcElectricDistributionBoard
+    not_when: []
+    then:
+      severity: error
+      message: GB 55024-2022#4.6.5 剩余电流动作保护电器：额定剩余电流动作值 不满足 lte 30mA
+      check:
+        path: object.pset[GB_电气].额定剩余电流动作值
+        op: lte
+        parameter_ref: p_gb55024_4_6_5_rcd
+- clause_id: GB 55024-2022#4.5.3
+  standard_code: GB 55024-2022
+  clause_no: 4.5.3
+  text: 室外灯具防护等级不应低于IP54，埋地灯具防护等级不应低于IP67，水下灯具的防护等级不应低于IP68。
+  related_objects:
+    binding_level: element
+    component_types:
+    - IfcDistributionElement
+    model_bindings:
+    - id: mb_gb55024_4_5_3_outdoor
+      role: 室外灯具
+      ifc_entity: IfcDistributionElement
+      predefined_type: null
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 室外
+      property_requirements:
+      - parameter_ref: p_gb55024_4_5_3_outdoor_ip
+        pset: GB_灯具
+        property: 防护等级
+      mapping_status: reviewed
+      confidence: medium
+      rationale: 室外灯具 IP 等级不得低于 IP54（枚举集见参数 note）
+    - id: mb_gb55024_4_5_3_buried
+      role: 埋地灯具
+      ifc_entity: IfcDistributionElement
+      predefined_type: null
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 埋地
+      property_requirements:
+      - parameter_ref: p_gb55024_4_5_3_buried_ip
+        pset: GB_灯具
+        property: 防护等级
+      mapping_status: reviewed
+      confidence: medium
+      rationale: 埋地灯具 IP 等级不得低于 IP67
+    - id: mb_gb55024_4_5_3_underwater
+      role: 水下灯具
+      ifc_entity: IfcDistributionElement
+      predefined_type: null
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 水下
+      property_requirements:
+      - parameter_ref: p_gb55024_4_5_3_underwater_ip
+        pset: GB_灯具
+        property: 防护等级
+      mapping_status: reviewed
+      confidence: medium
+      rationale: 水下灯具 IP 等级不得低于 IP68
+  parameters:
+  - id: p_gb55024_4_5_3_outdoor_ip
+    name: 室外灯具防护等级
+    operator: in
+    value:
+    - IP54
+    - IP55
+    - IP56
+    - IP65
+    - IP66
+    - IP67
+    - IP68
+    unit: null
+    ifc_binding:
+      target: element
+      pset: GB_灯具
+      property: 防护等级
+    note: 『不应低于IP54』→ 取不低于该级的常见 IP 码全集；IP 序为部分序，全集属**项目约定**，随词表 v1 收敛
+  - id: p_gb55024_4_5_3_buried_ip
+    name: 埋地灯具防护等级
+    operator: in
+    value:
+    - IP67
+    - IP68
+    unit: null
+    ifc_binding:
+      target: element
+      pset: GB_灯具
+      property: 防护等级
+  - id: p_gb55024_4_5_3_underwater_ip
+    name: 水下灯具防护等级
+    operator: in
+    value:
+    - IP68
+    unit: null
+    ifc_binding:
+      target: element
+      pset: GB_灯具
+      property: 防护等级
+  compiled_rules:
+  - rule_id: R_4_5_3_outdoor_1
+    source_clause: GB 55024-2022#4.5.3
+    mapping_refs:
+    - mb_gb55024_4_5_3_outdoor
+    parameter_refs:
+    - p_gb55024_4_5_3_outdoor_ip
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcDistributionElement
+      - path: object.space.usage
+        op: in
+        value:
+        - 室外
+    not_when: []
+    then:
+      severity: error
+      message: GB 55024-2022#4.5.3 室外灯具：防护等级 = ['IP54', 'IP55', 'IP56', 'IP65', 'IP66',
+        'IP67', 'IP68'] 之外（不满足值域）
+      check:
+        path: object.pset[GB_灯具].防护等级
+        op: in
+        parameter_ref: p_gb55024_4_5_3_outdoor_ip
+  - rule_id: R_4_5_3_buried_2
+    source_clause: GB 55024-2022#4.5.3
+    mapping_refs:
+    - mb_gb55024_4_5_3_buried
+    parameter_refs:
+    - p_gb55024_4_5_3_buried_ip
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcDistributionElement
+      - path: object.space.usage
+        op: in
+        value:
+        - 埋地
+    not_when: []
+    then:
+      severity: error
+      message: GB 55024-2022#4.5.3 埋地灯具：防护等级 = ['IP67', 'IP68'] 之外（不满足值域）
+      check:
+        path: object.pset[GB_灯具].防护等级
+        op: in
+        parameter_ref: p_gb55024_4_5_3_buried_ip
+  - rule_id: R_4_5_3_underwater_3
+    source_clause: GB 55024-2022#4.5.3
+    mapping_refs:
+    - mb_gb55024_4_5_3_underwater
+    parameter_refs:
+    - p_gb55024_4_5_3_underwater_ip
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcDistributionElement
+      - path: object.space.usage
+        op: in
+        value:
+        - 水下
+    not_when: []
+    then:
+      severity: error
+      message: GB 55024-2022#4.5.3 水下灯具：防护等级 = ['IP68'] 之外（不满足值域）
+      check:
+        path: object.pset[GB_灯具].防护等级
+        op: in
+        parameter_ref: p_gb55024_4_5_3_underwater_ip
+- clause_id: GB 55024-2022#8.8.2
+  standard_code: GB 55024-2022
+  clause_no: 8.8.2
+  text: 专设引下线与可燃材料的墙壁或墙体保温层间距应大于0.1m。
+  related_objects:
+    binding_level: element
+    component_types:
+    - IfcDistributionElement
+    model_bindings:
+    - id: mb_gb55024_8_8_2_spacing
+      role: 专设引下线（与可燃材料墙壁/保温层净距）
+      ifc_entity: IfcDistributionElement
+      predefined_type: null
+      property_requirements: []
+      mapping_status: needs_expert_review
+      confidence: low
+      rationale: 跨对象几何净距（引下线 ↔ 墙壁/保温层），规则引擎 v1 不支持几何测量 → 降级人工/几何引擎；参数保留（>0.1m）供几何引擎消费
+  parameters:
+  - id: p_gb55024_8_8_2_spacing
+    name: 专设引下线与可燃材料墙壁/保温层间距
+    operator: gt
+    min_value: 0.1
+    max_value: null
+    unit: m
+    ifc_binding:
+      target: geometric
+      path: 几何复核（引下线 ↔ 墙壁/保温层净距）
+    note: 几何推导量，不生成模型规则；值保留供几何引擎消费
+  compiled_rules: []
+- clause_id: GB 55031-2022#6.6.3
+  standard_code: GB 55031-2022
+  clause_no: 6.6.3
+  text: 少年儿童专用活动场所的栏杆应采取防止攀滑措施，当采用垂直杆件做栏杆时，其杆件净间距不应大于0.11m。
+  related_objects:
+    binding_level: element
+    component_types:
+    - IfcRailing
+    model_bindings:
+    - id: mb_gb55031_6_6_3_antslide
+      role: 栏杆防攀滑措施
+      ifc_entity: IfcRailing
+      predefined_type: HANDRAIL
+      property_requirements:
+      - parameter_ref: null
+        pset: GB_栏杆
+        property: 防攀滑措施
+      mapping_status: mapped
+      confidence: medium
+      rationale: 『应采取防止攀滑措施』是属性型要求 → 自定义 GB_栏杆 Pset 存在性检查（补白名单即可自动查）
+    - id: mb_gb55031_6_6_3_barspacing
+      role: 栏杆杆件净间距
+      ifc_entity: IfcRailing
+      predefined_type: HANDRAIL
+      property_requirements: []
+      mapping_status: needs_expert_review
+      confidence: low
+      rationale: 『杆件净间距不应大于0.11m』是几何推导量，规则引擎 v1 不支持 → 降级；参数保留供几何引擎（★ 补白名单≠可自动检查，检查形态须二分）
+  parameters:
+  - id: p_gb55031_6_6_3_gap
+    name: 栏杆杆件净间距
+    operator: lte
+    max_value: 0.11
+    min_value: null
+    unit: m
+    ifc_binding:
+      target: geometric
+      path: IfcRailing 几何（杆件间距推导）
+    note: 几何推导量，不生成模型规则；值保留供几何引擎消费
+  compiled_rules:
+  - rule_id: R_6_6_3_antslide_1
+    source_clause: GB 55031-2022#6.6.3
+    mapping_refs:
+    - mb_gb55031_6_6_3_antslide
+    parameter_refs: []
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcRailing
+      - path: object.predefined_type
+        op: eq
+        value: HANDRAIL
+    not_when: []
+    then:
+      severity: error
+      message: GB 55031-2022#6.6.3 栏杆防攀滑措施：缺少属性 防攀滑措施（交付完整性检查）
+      check:
+        path: object.pset[GB_栏杆].防攀滑措施
+        op: exists
+- clause_id: GB 55024-2022#9.1.1
+  standard_code: GB 55024-2022
+  clause_no: 9.1.1
+  text: 当设备、材料、成品和半成品进场后，因产品质量问题有异议或现场无条件做检测时，应送有资质的实验室做检测。
+  related_objects:
+    binding_level: process
+    component_types: []
+    activity_types:
+    - id: act_gb55024_9_1_1
+      name: 进场材料送检
+      phase: inspection
+      document_refs:
+      - 进场检验报告
+      - 实验室检测报告
+      related_clauses: []
+    model_bindings: []
+  parameters: []
+  compiled_rules: []
+- clause_id: GB 55024-2022#9.4.1
+  standard_code: GB 55024-2022
+  clause_no: 9.4.1
+  text: 布线工程施工后，必须进行回路的绝缘电阻检测。
+  related_objects:
+    binding_level: process
+    component_types: []
+    activity_types:
+    - id: act_gb55024_9_4_1
+      name: 回路绝缘电阻检测
+      phase: inspection
+      document_refs:
+      - 绝缘电阻测试记录
+      related_clauses: []
+    model_bindings: []
+  parameters:
+  - id: p_gb55024_9_4_1_insulation
+    name: 回路绝缘电阻检测值
+    operator: gte
+    min_value: null
+    max_value: null
+    unit: null
+    ifc_binding:
+      target: process
+      activity_ref: act_gb55024_9_4_1
+      document_refs:
+      - 绝缘电阻测试记录
+      note: 原文未给阈值（0.5MΩ 出自 GB 50303，禁止跨标准借值）；阈值由项目 EIR / 引用标准承载——本册仅登记检测项与记录
+  compiled_rules: []
+- clause_id: GB 55024-2022#9.5.6
+  standard_code: GB 55024-2022
+  clause_no: 9.5.6
+  text: 竣工验收时应检查下列工程质量控制记录：1 设计文件和图纸会审记录及设计变更与工程洽商记录；2 主要设备、器具、材料的合格证和进场验收记录；3 隐蔽工程检查记录；4
+    电气设备交接试验检验记录；5 电动机检查（抽芯）记录；6 接地电阻测试记录；7 绝缘电阻测试记录；8 接地故障回路阻抗测试记录；9 剩余电流动作保护电器测试记录；10
+    电气设备空载试运行和负荷试运行记录；11 各类电源自动切换或通断装置的动作检验记录，EPS/UPS应急持续供电时间记录；12 灯具固定装置及悬吊装置的载荷强度试验记录；13
+    建筑照明通电试运行记录；14 吊装、壁装智能化设备安装预埋件安全性检查记录；15 紧急广播系统检测记录；16 过程验收记录。
+  related_objects:
+    binding_level: process
+    component_types: []
+    activity_types:
+    - id: act_gb55024_9_5_6
+      name: 竣工验收质量控制记录检查
+      phase: acceptance
+      document_refs:
+      - 设计文件、图纸会审、设计变更与工程洽商记录
+      - 主要设备器具材料合格证和进场验收记录
+      - 隐蔽工程检查记录
+      - 电气设备交接试验检验记录
+      - 电动机检查（抽芯）记录
+      - 接地电阻测试记录
+      - 绝缘电阻测试记录
+      - 接地故障回路阻抗测试记录
+      - 剩余电流动作保护电器测试记录
+      - 电气设备空载试运行和负荷试运行记录
+      - 电源自动切换/通断装置动作检验记录、EPS/UPS 应急持续供电时间记录
+      - 灯具固定装置及悬吊装置载荷强度试验记录
+      - 建筑照明通电试运行记录
+      - 吊装、壁装智能化设备安装预埋件安全性检查记录
+      - 紧急广播系统检测记录
+      - 过程验收记录
+      related_clauses: []
+    model_bindings: []
+  parameters: []
+  compiled_rules: []
+- clause_id: GB 55031-2022#4.3.4
+  standard_code: GB 55031-2022
+  clause_no: 4.3.4
+  text: 建筑基地机动车出入口位置应符合下列规定：1 不应直接与城市快速路相连接；2 距周边中小学及幼儿园的出入口最近边缘不应小于20.0m。3 应有良好的视线，行车视距范围内不应有遮挡视线的障碍物。
+  related_objects:
+    binding_level: site
+    component_types:
+    - IfcSite
+    model_bindings:
+    - id: mb_gb55031_4_3_4_site_entrance
+      role: 基地机动车出入口
+      ifc_entity: IfcSite
+      predefined_type: null
+      property_requirements: []
+      mapping_status: needs_expert_review
+      confidence: low
+      rationale: 与中小学/幼儿园出入口的 20.0m 距离是跨对象几何关系，规则引擎 v1 不支持几何检查，降级人工/几何引擎复核
+  parameters:
+  - id: p_gb55031_4_3_4_school_dist
+    name: 与中小学幼儿园出入口最近边缘距离
+    operator: gte
+    min_value: 20.0
+    max_value: null
+    unit: m
+    ifc_binding:
+      target: site
+      path: 几何复核（IfcSite 出入口 ↔ 周边设施）
+  compiled_rules: []
+- clause_id: GB 55031-2022#4.3.6
+  standard_code: GB 55031-2022
+  clause_no: 4.3.6
+  text: 建筑基地内机动车道路应符合下列规定：1单车道宽度不应小于3.0m，兼作消防车道时不应小于4.0m；双车道宽度不应小于6.0m；尽端式道路长度大于120m时，应设置回车场地。
+  related_objects:
+    binding_level: site
+    component_types:
+    - IfcSite
+    model_bindings:
+    - id: mb_gb55031_4_3_6_site_road
+      role: 基地内机动车道路
+      ifc_entity: IfcSite
+      predefined_type: null
+      property_requirements: []
+      mapping_status: needs_expert_review
+      confidence: low
+      rationale: 道路宽度/回车场地属场地几何与布局条件，规则引擎 v1 不支持 → 降级；4 个参数保留供几何引擎/人工复核
+  parameters:
+  - id: p_gb55031_4_3_6_single_lane
+    name: 单车道宽度
+    operator: gte
+    min_value: 3.0
+    max_value: null
+    unit: m
+    ifc_binding:
+      target: site
+      path: 几何复核（基地道路宽度）
+  - id: p_gb55031_4_3_6_fire_lane
+    name: 兼作消防车道的单车道宽度
+    operator: gte
+    min_value: 4.0
+    max_value: null
+    unit: m
+    ifc_binding:
+      target: site
+      path: 几何复核（基地道路宽度）
+  - id: p_gb55031_4_3_6_double_lane
+    name: 双车道宽度
+    operator: gte
+    min_value: 6.0
+    max_value: null
+    unit: m
+    ifc_binding:
+      target: site
+      path: 几何复核（基地道路宽度）
+  - id: p_gb55031_4_3_6_turnaround_len
+    name: 尽端式道路长度（超过则需回车场地）
+    operator: gt
+    min_value: 120.0
+    max_value: null
+    unit: m
+    ifc_binding:
+      target: site
+      path: 几何复核（尽端式道路 + 回车场地）
+  compiled_rules: []

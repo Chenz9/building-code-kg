@@ -1,0 +1,93 @@
+# ============================================================
+# 黄金样本 20 条 · 正例场景（全部预期 pass）
+# ============================================================
+# 供 tools/ifc_model_factory.py 生成 golden20_pass.ifc；
+# 供 tools/rule_engine.py 跑 golden20_bindings.yaml → 期望 0 fail / 0 error。
+# 设计要点：
+#   · 对照组：办公区楼板不在湿区组 → 空间组条件应排除（不产生记录）
+#   · has_all 别名：防雷系统成员写别名（避雷针/专设引下线/接地网），由词表归一
+#   · 样本 12 用 IfcElectricDistributionBoard（词表 member_alias_map 提示的落点），
+#     与样本 13 灯具（IfcDistributionElement）实体分离，避免全域规则互相污染
+# ============================================================
+project_name: 黄金样本20正例
+spatial: {site: 场地, building: 测试楼, storeys: [1F]}
+
+spaces:
+  - {name: 疏散走道, object_type: 疏散走道, storey: 1F}
+  - {name: 消防控制室, object_type: 消防控制室, storey: 1F}
+  - {name: 办公室, object_type: 办公室, storey: 1F}
+  - {name: 厕所（卫生间）, object_type: 厕所（卫生间）, storey: 1F}
+  - {name: 室外, object_type: 室外, storey: 1F}
+  - {name: 埋地, object_type: 埋地, storey: 1F}
+  - {name: 水下, object_type: 水下, storey: 1F}
+
+zones:
+  - {name: 湿区组, spaces: [厕所（卫生间）]}
+
+classification: {name: "GB 8624-2012"}
+
+elements:
+  # ---- 装修部位值域（样本 2/3/4）----
+  - {ifc_class: IfcCovering, name: 疏散走道顶棚, predefined_type: CEILING, container: 疏散走道,
+     psets: [{name: Pset_CoveringCommon, properties: {FlammabilityRating: A}}]}
+  - {ifc_class: IfcCovering, name: 办公室顶棚, predefined_type: CEILING, container: 办公室,
+     psets: [{name: Pset_CoveringCommon, properties: {FlammabilityRating: A}}]}
+  - {ifc_class: IfcCovering, name: 消防控制室顶棚, predefined_type: CEILING, container: 消防控制室,
+     psets: [{name: Pset_CoveringCommon, properties: {FlammabilityRating: A}}]}
+  - {ifc_class: IfcCovering, name: 消防控制室墙面, predefined_type: CLADDING, container: 消防控制室,
+     psets: [{name: Pset_CoveringCommon, properties: {FlammabilityRating: A}}]}
+  - {ifc_class: IfcCovering, name: 消防控制室地面, predefined_type: FLOORING, container: 消防控制室,
+     psets: [{name: Pset_CoveringCommon, properties: {FlammabilityRating: B1}}]}
+  - {ifc_class: IfcCovering, name: 办公室墙面, predefined_type: CLADDING, container: 办公室,
+     psets: [{name: Pset_CoveringCommon, properties: {FlammabilityRating: A}}]}
+
+  # ---- 屋面构造层（样本 6：exists 传热系数）----
+  - {ifc_class: IfcSlab, name: 屋面构造层, predefined_type: ROOF,
+     psets: [{name: Pset_SlabCommon, properties: {ThermalTransmittance: 0.30}}]}
+
+  # ---- 外墙多措施（样本 7：6 项 exists）----
+  - ifc_class: IfcWall
+    name: 外墙
+    predefined_type: STANDARD
+    psets:
+      - {name: Pset_WallCommon, properties: {ThermalTransmittance: 0.45, AcousticRating: "45", FireRating: "1.00h"}}
+      - {name: GB_外墙, properties: {防水: 设, 防潮: 设, 防结露: 设}}
+
+  # ---- 湿区楼面（样本 8：IfcZone 空间组）----
+  - {ifc_class: IfcSlab, name: 湿区楼面, predefined_type: FLOOR, container: 厕所（卫生间）,
+     psets: [{name: GB_防水, properties: {防水层: 设}}]}
+  # ---- 对照组：办公区楼板不在湿区组 → 应零记录 ----
+  - {ifc_class: IfcSlab, name: 办公区楼板, predefined_type: FLOOR, container: 办公室}
+
+  # ---- 灯具分场所 IP（样本 13）----
+  - {ifc_class: IfcDistributionElement, name: 室外灯具, container: 室外,
+     psets: [{name: GB_灯具, properties: {防护等级: IP65}}]}
+  - {ifc_class: IfcDistributionElement, name: 埋地灯具, container: 埋地,
+     psets: [{name: GB_灯具, properties: {防护等级: IP67}}]}
+  - {ifc_class: IfcDistributionElement, name: 水下灯具, container: 水下,
+     psets: [{name: GB_灯具, properties: {防护等级: IP68}}]}
+
+  # ---- 剩余电流动作保护电器（样本 12：lte 30mA）----
+  - {ifc_class: IfcElectricDistributionBoard, name: 末端配电箱-RCD,
+     psets: [{name: GB_电气, properties: {额定剩余电流动作值: 30}}]}
+
+  # ---- 栏杆（样本 15 属性型：防攀滑措施 exists）----
+  - {ifc_class: IfcRailing, name: 儿童活动区栏杆, predefined_type: HANDRAIL,
+     psets: [{name: GB_栏杆, properties: {防攀滑措施: 设}}]}
+
+systems:
+  # ---- 防雷接地系统（样本 9：has_all + 别名归一）----
+  - ifc_class: IfcDistributionSystem
+    name: 防雷接地系统
+    predefined_type: LIGHTNINGPROTECTION
+    members:
+      - {name: 接闪器-1, object_type: 避雷针}        # 别名 → 接闪器
+      - {name: 引下线-1, object_type: 专设引下线}     # 别名 → 引下线
+      - {name: 接地装置-1, object_type: 接地网}       # 别名 → 接地装置
+  # ---- 等电位联结系统（样本 10：成员枚举扩展）----
+  - ifc_class: IfcDistributionSystem
+    name: 等电位联结系统
+    predefined_type: EARTHING
+    members:
+      - {name: 结构钢筋, object_type: 结构钢筋及金属构件}
+      - {name: 金属管道, object_type: 金属管道和线路}

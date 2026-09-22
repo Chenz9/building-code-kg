@@ -1,0 +1,185 @@
+# ============================================================
+# 工具链 v0.4 能力实证绑定（3 样本）
+# ============================================================
+# 用途：证明 schema v0.4 三项新增能力**可执行**（不是纸面规范）：
+#   S-A  IfcZone 空间组（space_context.carrier=IfcZone.Name → when 用 object.zone.name）
+#   S-B  多候选拆条（同一角色两条绑定，IfcCovering.CLADDING ∥ IfcWall.STANDARD）
+#   S-C  has_all 别名归一（member_requirements 用规范名；模型侧写别名）
+#
+# ⚠ 声明：S-B 的 clause_no 标为「4.0.5（扩展）」——它不是 GB50222 4.0.5 原文的
+#   真实内容，而是为验证「方案 B 拆条」构造的**合成样本**（原文只约束装修材料
+#   燃烧性能，不含墙体本体耐火极限）。真实迁移时须按条文 text 逐条判定，禁止照抄。
+# 引擎实证：python tools/rule_engine.py tools/fixtures/zone_probe_bindings.yaml \
+#           tools/_build/zone_probe.ifc out.json
+# ============================================================
+
+meta:
+  version: v1.0
+  date: "2026-09-22"
+  dict_version: v0.3
+  samples: 3
+
+samples:
+
+  # ---------- S-A：IfcZone 空间组（湿区防水层，exists） ----------
+  - clause_id: "GB 55031-2022#6.3.3"
+    standard_code: "GB 55031-2022"
+    clause_no: "6.3.3"
+    text: "建筑内的厕所（卫生间）、浴室、公共厨房、垃圾间等场所的楼面、地面，开敞式外廊、阳台的楼面应设防水层。"
+    related_objects:
+      binding_level: element
+      component_types: [IfcSlab]
+      model_bindings:
+        - id: mb_gb55031_6_3_3_wetfloor
+          role: 湿区楼面（防水层）
+          ifc_entity: IfcSlab
+          predefined_type: FLOOR
+          space_context:
+            carrier: IfcZone.Name          # ★ v0.4：空间组载体
+            values: [湿区组]
+            zone_hint: "湿区（厕所/浴室/公共厨房/垃圾间，词表 space_zones）"
+          property_requirements:
+            - parameter_ref: null          # 存在性检查（定性措施，条文无数值）
+              pset: GB_防水
+              property: 防水层
+          mapping_status: mapped
+          confidence: medium
+          rationale: "『应设防水层』是定性措施 → 交付完整性检查；空间范围用湿区组收窄（逐空间枚举的可维护替代）"
+    parameters: []
+    compiled_rules:
+      - rule_id: R_gb55031_6_3_3_wetfloor_exists
+        source_clause: "GB 55031-2022#6.3.3"
+        mapping_refs: [mb_gb55031_6_3_3_wetfloor]
+        parameter_refs: []
+        when:
+          all:
+            - {path: object.entity, op: eq, value: IfcSlab}
+            - {path: object.predefined_type, op: eq, value: FLOOR}
+            - {path: object.zone.name, op: in, value: [湿区组]}     # ★ carrier=IfcZone.Name 编译产物
+        not_when: []
+        then:
+          severity: error
+          message: "湿区楼面缺少防水层属性（GB55031-2022 6.3.3）"
+          check: {path: "object.pset[GB_防水].防水层", op: exists}
+
+  # ---------- S-B：多候选拆条（方案 B 实证） ----------
+  - clause_id: "GB 50222-2017#4.0.5（扩展·拆条实证）"
+    standard_code: "GB 50222-2017"
+    clause_no: "4.0.5"
+    text: "（合成样本）墙面装修面层燃烧性能 A 级 ∥ 墙体本体耐火极限 1.00h —— 验证『一个语义角色多候选实体拆多条绑定』。"
+    related_objects:
+      binding_level: element
+      component_types: [IfcCovering, IfcWall]      # 派生集合 = 两条绑定去重
+      model_bindings:
+        - id: mb_gb50222_4_0_5_ext_cladding
+          role: 墙面（装修面层）
+          ifc_entity: IfcCovering
+          predefined_type: CLADDING
+          property_requirements:
+            - parameter_ref: p_gb50222_4_0_5_ext_cladding_class
+              pset: Pset_CoveringCommon
+              property: FlammabilityRating
+          mapping_status: reviewed
+          confidence: high
+          rationale: "面层燃烧性能（GB8624 分组级）→ IfcCovering.CLADDING（方案 B 第一条）"
+        - id: mb_gb50222_4_0_5_ext_wall
+          role: 墙体（围护本体）
+          ifc_entity: IfcWall
+          predefined_type: STANDARD
+          property_requirements:
+            - parameter_ref: p_gb50222_4_0_5_ext_wall_fire
+              pset: Pset_WallCommon
+              property: FireRating
+          mapping_status: reviewed
+          confidence: high
+          rationale: "墙体本体耐火极限（GB50016）→ IfcWall.STANDARD.FireRating（方案 B 第二条；★ 与 FlammabilityRating 严格区分）"
+    parameters:
+      - id: p_gb50222_4_0_5_ext_cladding_class
+        name: 墙面装修面层燃烧性能等级
+        operator: in
+        value: [A]
+        unit: null
+        ifc_binding:
+          target: element
+          pset: Pset_CoveringCommon
+          property: FlammabilityRating
+          classification: GB8624
+      - id: p_gb50222_4_0_5_ext_wall_fire
+        name: 墙体本体耐火极限
+        operator: in
+        value: ["1.00h"]
+        unit: h
+        ifc_binding:
+          target: element
+          pset: Pset_WallCommon
+          property: FireRating
+    compiled_rules:
+      - rule_id: R_gb50222_4_0_5_ext_cladding_A
+        source_clause: "GB 50222-2017#4.0.5（扩展·拆条实证）"
+        mapping_refs: [mb_gb50222_4_0_5_ext_cladding]
+        parameter_refs: [p_gb50222_4_0_5_ext_cladding_class]
+        when:
+          all:
+            - {path: object.entity, op: eq, value: IfcCovering}
+            - {path: object.predefined_type, op: eq, value: CLADDING}
+        not_when: []
+        then:
+          severity: error
+          message: "墙面装修面层燃烧性能不满足 A 级"
+          check: {path: "object.pset[Pset_CoveringCommon].FlammabilityRating", op: in, parameter_ref: p_gb50222_4_0_5_ext_cladding_class}
+      - rule_id: R_gb50222_4_0_5_ext_wall_fire
+        source_clause: "GB 50222-2017#4.0.5（扩展·拆条实证）"
+        mapping_refs: [mb_gb50222_4_0_5_ext_wall]
+        parameter_refs: [p_gb50222_4_0_5_ext_wall_fire]
+        when:
+          all:
+            - {path: object.entity, op: eq, value: IfcWall}
+            - {path: object.predefined_type, op: eq, value: STANDARD}
+        not_when: []
+        then:
+          severity: error
+          message: "墙体本体耐火极限不满足 1.00h"
+          check: {path: "object.pset[Pset_WallCommon].FireRating", op: in, parameter_ref: p_gb50222_4_0_5_ext_wall_fire}
+
+  # ---------- S-C：has_all 别名归一 ----------
+  - clause_id: "GB 55024-2022#7.1.1"
+    standard_code: "GB 55024-2022"
+    clause_no: "7.1.1"
+    text: "各类防雷建筑物应设接闪器、引下线、接地装置，并应采取防闪电电涌侵入的措施。"
+    related_objects:
+      binding_level: system
+      component_types: [IfcDistributionSystem, IfcDistributionElement]
+      model_bindings:
+        - id: mb_gb55024_7_1_1_lps
+          role: 防雷接地系统
+          ifc_entity: IfcDistributionSystem
+          predefined_type: LIGHTNINGPROTECTION
+          member_requirements: [接闪器, 引下线, 接地装置]    # ★ 规范名（别名由词表 member_alias_map 归一）
+          property_requirements: []
+          mapping_status: reviewed
+          confidence: high
+          rationale: "系统级承载；成员写法差异（避雷针/接闪带/接地网）由词表别名归一对齐，不得导致 has_all 静默失败"
+        - id: mb_gb55024_7_1_1_devices
+          role: 防雷装置
+          ifc_entity: IfcDistributionElement
+          predefined_type: null
+          system_context: {ifc_entity: IfcDistributionSystem, predefined_type: LIGHTNINGPROTECTION}
+          property_requirements: []
+          mapping_status: needs_expert_review
+          confidence: low
+          rationale: "装置级 ObjectType 项目约定承载（v1 限制：element 级 system_context 不编译为 when）"
+    parameters: []
+    compiled_rules:
+      - rule_id: R_gb55024_7_1_1_lps_members
+        source_clause: "GB 55024-2022#7.1.1"
+        mapping_refs: [mb_gb55024_7_1_1_lps, mb_gb55024_7_1_1_devices]
+        parameter_refs: []
+        when:
+          all:
+            - {path: object.entity, op: eq, value: IfcDistributionSystem}
+            - {path: object.predefined_type, op: eq, value: LIGHTNINGPROTECTION}
+        not_when: []
+        then:
+          severity: error
+          message: "防雷接地系统缺少必需装置（接闪器/引下线/接地装置）"
+          check: {path: object.system.members_object_types, op: has_all, value: [接闪器, 引下线, 接地装置]}

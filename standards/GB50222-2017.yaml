@@ -106,7 +106,9 @@ clauses:
   converted_tables: []
   references: []
   related_objects:
+    binding_level: macro
     component_types: []
+    model_bindings: []
     activity_types:
     - 内部装修防火设计
   conflicts: []
@@ -139,7 +141,9 @@ clauses:
   converted_tables: []
   references: []
   related_objects:
+    binding_level: macro
     component_types: []
+    model_bindings: []
     activity_types:
     - 内部装修防火设计
   conflicts: []
@@ -172,7 +176,9 @@ clauses:
   converted_tables: []
   references: []
   related_objects:
+    binding_level: macro
     component_types: []
+    model_bindings: []
     activity_types:
     - 内部装修防火设计
   conflicts: []
@@ -205,7 +211,9 @@ clauses:
   converted_tables: []
   references: []
   related_objects:
+    binding_level: macro
     component_types: []
+    model_bindings: []
     activity_types:
     - 内部装修防火设计
   conflicts: []
@@ -236,7 +244,9 @@ clauses:
   converted_tables: []
   references: []
   related_objects:
+    binding_level: macro
     component_types: []
+    model_bindings: []
     activity_types:
     - 内部装修防火设计
   conflicts: []
@@ -267,7 +277,9 @@ clauses:
   converted_tables: []
   references: []
   related_objects:
+    binding_level: macro
     component_types: []
+    model_bindings: []
     activity_types:
     - 内部装修防火设计
   conflicts: []
@@ -298,7 +310,9 @@ clauses:
   converted_tables: []
   references: []
   related_objects:
+    binding_level: macro
     component_types: []
+    model_bindings: []
     activity_types:
     - 内部装修防火设计
   conflicts: []
@@ -329,7 +343,9 @@ clauses:
   converted_tables: []
   references: []
   related_objects:
+    binding_level: macro
     component_types: []
+    model_bindings: []
     activity_types:
     - 内部装修防火设计
   conflicts: []
@@ -362,7 +378,9 @@ clauses:
   converted_tables: []
   references: []
   related_objects:
+    binding_level: macro
     component_types: []
+    model_bindings: []
     activity_types:
     - 内部装修防火设计
   conflicts: []
@@ -410,7 +428,9 @@ clauses:
   converted_tables: []
   references: []
   related_objects:
+    binding_level: macro
     component_types: []
+    model_bindings: []
     activity_types:
     - 内部装修防火设计
   conflicts: []
@@ -449,7 +469,9 @@ clauses:
     resolution_status: resolved
     resolution_note: 规范性引用，出处明确，引用关系已确认；被引标准不在本库，待补录后确认参数
   related_objects:
+    binding_level: macro
     component_types: []
+    model_bindings: []
     activity_types:
     - 内部装修防火设计
   conflicts: []
@@ -479,17 +501,28 @@ clauses:
     mandatory_basis: null
     constraint_items: []
   parameters:
-  - name: 纸面石膏板/矿棉吸声板燃烧性能等级
+  - id: p_gb50222_3_0_4_accel
+    name: 纸面石膏板/矿棉吸声板燃烧性能等级
+    operator: in
+    value:
+    - B1
     unit: null
     condition: 安装在金属龙骨上
     min_value: null
     max_value: null
+    ifc_binding:
+      target: material
+      path: 材料级分类（material_channels.material_classification）
+      classification: GB8624
     _v21_param_note: 等级型枚举参数：燃烧性能达到 B1 级时可视同 A 级装修材料使用（无数值阈值）
+    note: 『可作为 A 级使用』是等价换算（放宽）条款，不构成独立可检约束；需材料检测报告 + 金属龙骨构造佐证 → 文档级。
   tables: []
   converted_tables: []
   references: []
   related_objects:
+    binding_level: document
     component_types: []
+    model_bindings: []
     activity_types:
     - 内部装修防火设计
   conflicts: []
@@ -519,16 +552,25 @@ clauses:
     mandatory_basis: null
     constraint_items: []
   parameters:
-  - name: 单位面积质量
+  - id: p_gb50222_3_0_5_mass
+    name: 单位面积质量
+    operator: lt
     unit: g/m²
     condition: null
     min_value: null
     max_value: 300.0
+    ifc_binding:
+      target: material
+      path: 材料级参数（自定义 GB_ 属性）
+      classification: null
+    note: 换算条件（<300g/m² + A 级基材）需材料证明；放宽条款，不作硬约束。
   tables: []
   converted_tables: []
   references: []
   related_objects:
+    binding_level: document
     component_types: []
+    model_bindings: []
     activity_types:
     - 内部装修防火设计
   conflicts: []
@@ -559,21 +601,36 @@ clauses:
     mandatory_basis: null
     constraint_items: []
   parameters:
-  - name: 湿涂覆比
+  - id: p_gb50222_3_0_6_wetratio
+    name: 湿涂覆比
+    operator: lt
     unit: kg/m²
     condition: null
     min_value: null
     max_value: 1.5
-  - name: 干膜厚度
+    ifc_binding:
+      target: material
+      path: 材料级参数（自定义 GB_ 属性）
+      classification: null
+    note: 有机涂料视同 B1 的条件之一；与干膜厚度联合判定，需材料证明。
+  - id: p_gb50222_3_0_6_dryfilm
+    name: 干膜厚度
+    operator: lte
     unit: mm
     condition: null
     min_value: null
     max_value: 1.0
+    ifc_binding:
+      target: material
+      path: 材料级参数（自定义 GB_ 属性）
+      classification: null
   tables: []
   converted_tables: []
   references: []
   related_objects:
+    binding_level: document
     component_types: []
+    model_bindings: []
     activity_types:
     - 内部装修防火设计
   conflicts: []
@@ -607,7 +664,9 @@ clauses:
   converted_tables: []
   references: []
   related_objects:
+    binding_level: document
     component_types: []
+    model_bindings: []
     activity_types:
     - 内部装修防火设计
   conflicts: []
@@ -640,11 +699,13 @@ clauses:
   converted_tables: []
   references: []
   related_objects:
+    binding_level: document
     component_types:
     - IfcCovering
     - IfcWall
     - IfcCeiling
     - IfcDoor
+    model_bindings: []
     activity_types:
     - 内部装修防火设计
   conflicts: []
@@ -690,11 +751,13 @@ clauses:
   converted_tables: []
   references: []
   related_objects:
+    binding_level: document
     component_types:
     - IfcCovering
     - IfcWall
     - IfcCeiling
     - IfcDoor
+    model_bindings: []
     activity_types:
     - 内部装修防火设计
   conflicts: []
@@ -728,11 +791,34 @@ clauses:
   converted_tables: []
   references: []
   related_objects:
+    binding_level: element
     component_types:
     - IfcCovering
-    - IfcWall
-    - IfcCeiling
-    - IfcDoor
+    model_bindings:
+    - id: mb_gb50222_4_0_3_corridor_ceiling
+      role: 疏散走道顶棚（镜面反光限制）
+      ifc_entity: IfcCovering
+      predefined_type: CEILING
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 疏散走道
+      mapping_status: needs_expert_review
+      confidence: low
+      property_requirements: []
+      rationale: 『镜面反光材料』IFC 无标准属性可承载（须自定义 GB_装修面层.镜面反光 标志）；『安全出口』未入空间词表，v1 仅以『疏散走道』收窄 → 降级人工/自定义属性补齐。
+    - id: mb_gb50222_4_0_3_corridor_wall
+      role: 疏散走道墙面（镜面反光限制）
+      ifc_entity: IfcCovering
+      predefined_type: CLADDING
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 疏散走道
+      mapping_status: needs_expert_review
+      confidence: low
+      property_requirements: []
+      rationale: 同条墙面分项，降级原因同上。
     activity_types:
     - 内部装修防火设计
   conflicts: []
@@ -762,18 +848,144 @@ clauses:
     is_mandatory_clause: true
     mandatory_basis: 黑体强制性条文
     constraint_items: []
-  parameters: []
+  parameters:
+  - id: p_gb50222_4_0_4_corridor_class
+    name: 疏散走道顶棚装修材料燃烧性能等级
+    operator: in
+    value:
+    - A
+    unit: null
+    ifc_binding:
+      target: element
+      pset: Pset_CoveringCommon
+      property: FlammabilityRating
+      classification: GB8624
+  - id: p_gb50222_4_0_4_other_class
+    name: 其他部位顶棚装修材料燃烧性能等级
+    operator: in
+    value:
+    - A
+    - B1
+    unit: null
+    ifc_binding:
+      target: element
+      pset: Pset_CoveringCommon
+      property: FlammabilityRating
+      classification: GB8624
+    note: 「不低于B1」是组级全序（A>B1>B2>B3）→ 编译为 in [A, B1]
   tables: []
   converted_tables: []
   references: []
   related_objects:
+    binding_level: element
     component_types:
     - IfcCovering
-    - IfcWall
-    - IfcCeiling
-    - IfcDoor
+    model_bindings:
+    - id: mb_gb50222_4_0_4_corridor_ceiling
+      role: 疏散走道顶棚
+      ifc_entity: IfcCovering
+      predefined_type: CEILING
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 疏散走道
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_4_0_4_corridor_class
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: high
+      rationale: 地上水平疏散走道/安全出口门厅顶棚应采用 A 级（安全出口门厅未入 space_map，v1 仅以『疏散走道』收窄）
+    - id: mb_gb50222_4_0_4_other_ceiling
+      role: 其他部位顶棚
+      ifc_entity: IfcCovering
+      predefined_type: CEILING
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_4_0_4_other_class
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: high
+      rationale: 『其他部位』是部位集合补集（非空间收窄）→ 不声明 space_context，规则 when 仅 entity/pdt（v0.4 (b) 分支实证）
+    - id: mb_gb50222_4_0_4_ug_wall
+      role: 地下疏散走道墙面
+      ifc_entity: IfcCovering
+      predefined_type: CLADDING
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements: []
+      mapping_status: needs_expert_review
+      confidence: low
+      rationale: 『地下民用建筑』是建筑级属性，规则引擎 v1 无(地上/地下)判定路径；按空间无条件套用将误伤地上走道墙面 → 降级人工/建筑级属性补齐
+    - id: mb_gb50222_4_0_4_ug_floor
+      role: 地下疏散走道地面
+      ifc_entity: IfcCovering
+      predefined_type: FLOORING
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements: []
+      mapping_status: needs_expert_review
+      confidence: low
+      rationale: 同上（地下地面 A 级）；地上/地下不可区分 → 降级人工/建筑级属性补齐
     activity_types:
     - 内部装修防火设计
+  executable_rules:
+  - rule_id: R_4_0_4_ceiling_1
+    source_clause: GB 50222-2017#4.0.4
+    mapping_refs:
+    - mb_gb50222_4_0_4_corridor_ceiling
+    parameter_refs:
+    - p_gb50222_4_0_4_corridor_class
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcCovering
+      - path: object.predefined_type
+        op: eq
+        value: CEILING
+      - path: object.space.usage
+        op: in
+        value:
+        - 疏散走道
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#4.0.4 疏散走道顶棚：FlammabilityRating = ['A'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_CoveringCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_4_0_4_corridor_class
+  - rule_id: R_4_0_4_ceiling_2
+    source_clause: GB 50222-2017#4.0.4
+    mapping_refs:
+    - mb_gb50222_4_0_4_other_ceiling
+    parameter_refs:
+    - p_gb50222_4_0_4_other_class
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcCovering
+      - path: object.predefined_type
+        op: eq
+        value: CEILING
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#4.0.4 其他部位顶棚：FlammabilityRating = ['A', 'B1'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_CoveringCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_4_0_4_other_class
   conflicts: []
 - id: GB 50222-2017#4.0.5
   standard_code: GB 50222-2017
@@ -800,17 +1012,167 @@ clauses:
     is_mandatory_clause: true
     mandatory_basis: 原黑体强制性条文（已废止）
     constraint_items: []
-  parameters: []
+  parameters:
+  - id: p_gb50222_4_0_5_fire_class
+    name: 装修材料燃烧性能等级
+    operator: in
+    value:
+    - A
+    unit: null
+    ifc_binding:
+      target: element
+      pset: Pset_CoveringCommon
+      property: FlammabilityRating
+      classification: GB8624
   tables: []
   converted_tables: []
   references: []
   related_objects:
+    binding_level: element
     component_types:
-    - IfcWall
-    - IfcFloor
-    - IfcCeiling
+    - IfcCovering
+    model_bindings:
+    - id: mb_gb50222_4_0_5_ceiling
+      role: 顶棚
+      ifc_entity: IfcCovering
+      predefined_type: CEILING
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 疏散楼梯间
+        - 前室
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_4_0_5_fire_class
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: high
+      rationale: 条文对疏散楼梯间和前室顶棚装修材料燃烧性能的约束（A级）
+    - id: mb_gb50222_4_0_5_wall
+      role: 墙面（装修面层）
+      ifc_entity: IfcCovering
+      predefined_type: CLADDING
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 疏散楼梯间
+        - 前室
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_4_0_5_fire_class
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: high
+      rationale: 同条墙面分项（装修面层→CLADDING，方案B不混墙体本体）
+    - id: mb_gb50222_4_0_5_floor
+      role: 地面（装修面层）
+      ifc_entity: IfcCovering
+      predefined_type: FLOORING
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 疏散楼梯间
+        - 前室
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_4_0_5_fire_class
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: high
+      rationale: 同条地面分项（装修面层→FLOORING）
     activity_types:
     - 内部装修防火设计
+  executable_rules:
+  - rule_id: R_4_0_5_ceiling_1
+    source_clause: GB 50222-2017#4.0.5
+    mapping_refs:
+    - mb_gb50222_4_0_5_ceiling
+    parameter_refs:
+    - p_gb50222_4_0_5_fire_class
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcCovering
+      - path: object.predefined_type
+        op: eq
+        value: CEILING
+      - path: object.space.usage
+        op: in
+        value:
+        - 疏散楼梯间
+        - 前室
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#4.0.5 顶棚：FlammabilityRating = ['A'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_CoveringCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_4_0_5_fire_class
+  - rule_id: R_4_0_5_wall_2
+    source_clause: GB 50222-2017#4.0.5
+    mapping_refs:
+    - mb_gb50222_4_0_5_wall
+    parameter_refs:
+    - p_gb50222_4_0_5_fire_class
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcCovering
+      - path: object.predefined_type
+        op: eq
+        value: CLADDING
+      - path: object.space.usage
+        op: in
+        value:
+        - 疏散楼梯间
+        - 前室
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#4.0.5 墙面（装修面层）：FlammabilityRating = ['A'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_CoveringCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_4_0_5_fire_class
+  - rule_id: R_4_0_5_floor_3
+    source_clause: GB 50222-2017#4.0.5
+    mapping_refs:
+    - mb_gb50222_4_0_5_floor
+    parameter_refs:
+    - p_gb50222_4_0_5_fire_class
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcCovering
+      - path: object.predefined_type
+        op: eq
+        value: FLOORING
+      - path: object.space.usage
+        op: in
+        value:
+        - 疏散楼梯间
+        - 前室
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#4.0.5 地面（装修面层）：FlammabilityRating = ['A'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_CoveringCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_4_0_5_fire_class
   conflicts: []
 - id: GB 50222-2017#4.0.6
   standard_code: GB 50222-2017
@@ -837,18 +1199,178 @@ clauses:
     is_mandatory_clause: true
     mandatory_basis: 黑体强制性条文
     constraint_items: []
-  parameters: []
+  parameters:
+  - id: p_gb50222_4_0_6_connected
+    name: 连通部位顶棚墙面装修材料燃烧性能等级
+    operator: in
+    value:
+    - A
+    unit: null
+    ifc_binding:
+      target: element
+      pset: Pset_CoveringCommon
+      property: FlammabilityRating
+      classification: GB8624
+  - id: p_gb50222_4_0_6_other
+    name: 其他部位装修材料燃烧性能等级
+    operator: in
+    value:
+    - A
+    - B1
+    unit: null
+    ifc_binding:
+      target: element
+      pset: Pset_CoveringCommon
+      property: FlammabilityRating
+      classification: GB8624
+    note: 「不低于B1」是组级全序（A>B1>B2>B3）→ 编译为 in [A, B1]。
   tables: []
   converted_tables: []
   references: []
   related_objects:
+    binding_level: element
     component_types:
     - IfcCovering
-    - IfcWall
-    - IfcCeiling
-    - IfcDoor
+    model_bindings:
+    - id: mb_gb50222_4_0_6_connected_ceiling
+      role: 连通部位顶棚
+      ifc_entity: IfcCovering
+      predefined_type: CEILING
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 中庭
+        - 走马廊
+        - 开敞楼梯
+        - 自动扶梯
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_4_0_6_connected
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: high
+      rationale: 上下层连通部位（中庭/走马廊/开敞楼梯/自动扶梯）顶棚应采用 A 级（space_context 逐空间收窄）。
+    - id: mb_gb50222_4_0_6_connected_wall
+      role: 连通部位墙面
+      ifc_entity: IfcCovering
+      predefined_type: CLADDING
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 中庭
+        - 走马廊
+        - 开敞楼梯
+        - 自动扶梯
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_4_0_6_connected
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: high
+      rationale: 同条墙面分项（装修面层 → CLADDING），A 级。
+    - id: mb_gb50222_4_0_6_other_floor
+      role: 其他部位地面
+      ifc_entity: IfcCovering
+      predefined_type: FLOORING
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_4_0_6_other
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: medium
+      rationale: 『其他部位』按 4.0.4 同口径解释为『部位补集』（顶棚/墙面已 A 级）→ 取地面（FLOORING）绑定，不声明 space_context（v0.4 (b) 分支）；不低于 B1 = in [A,B1]。隔断/固定家具暂未纳入，待人工确认解释口径。
     activity_types:
     - 内部装修防火设计
+  executable_rules:
+  - rule_id: R_4_0_6_ceiling_1
+    source_clause: GB 50222-2017#4.0.6
+    mapping_refs:
+    - mb_gb50222_4_0_6_connected_ceiling
+    parameter_refs:
+    - p_gb50222_4_0_6_connected
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcCovering
+      - path: object.predefined_type
+        op: eq
+        value: CEILING
+      - path: object.space.usage
+        op: in
+        value:
+        - 中庭
+        - 走马廊
+        - 开敞楼梯
+        - 自动扶梯
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#4.0.6 连通部位顶棚：FlammabilityRating = ['A'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_CoveringCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_4_0_6_connected
+  - rule_id: R_4_0_6_wall_2
+    source_clause: GB 50222-2017#4.0.6
+    mapping_refs:
+    - mb_gb50222_4_0_6_connected_wall
+    parameter_refs:
+    - p_gb50222_4_0_6_connected
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcCovering
+      - path: object.predefined_type
+        op: eq
+        value: CLADDING
+      - path: object.space.usage
+        op: in
+        value:
+        - 中庭
+        - 走马廊
+        - 开敞楼梯
+        - 自动扶梯
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#4.0.6 连通部位墙面：FlammabilityRating = ['A'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_CoveringCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_4_0_6_connected
+  - rule_id: R_4_0_6_floor_3
+    source_clause: GB 50222-2017#4.0.6
+    mapping_refs:
+    - mb_gb50222_4_0_6_other_floor
+    parameter_refs:
+    - p_gb50222_4_0_6_other
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcCovering
+      - path: object.predefined_type
+        op: eq
+        value: FLOORING
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#4.0.6 其他部位地面：FlammabilityRating = ['A', 'B1'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_CoveringCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_4_0_6_other
   conflicts: []
 - id: GB 50222-2017#4.0.7
   standard_code: GB 50222-2017
@@ -876,18 +1398,139 @@ clauses:
     is_mandatory_clause: false
     mandatory_basis: null
     constraint_items: []
-  parameters: []
+  parameters:
+  - id: p_gb50222_4_0_7_joint
+    name: 变形缝两侧基层表面装修材料燃烧性能等级
+    operator: in
+    value:
+    - A
+    - B1
+    unit: null
+    ifc_binding:
+      target: element
+      pset: Pset_CoveringCommon
+      property: FlammabilityRating
+      classification: GB8624
+    note: 「不低于B1」编译为 in [A, B1]。
   tables: []
   converted_tables: []
   references: []
   related_objects:
+    binding_level: element
     component_types:
     - IfcCovering
-    - IfcWall
-    - IfcCeiling
-    - IfcDoor
+    model_bindings:
+    - id: mb_gb50222_4_0_7_ceiling
+      role: 变形缝两侧顶棚表面装修
+      ifc_entity: IfcCovering
+      predefined_type: CEILING
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_4_0_7_joint
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: medium
+      rationale: 变形缝非 IFC 空间/构件（v1 无法识别『缝两侧基层』）→ 不声明 space_context，对面层取下限 B1（不与 A 级要求冲突）。
+    - id: mb_gb50222_4_0_7_wall
+      role: 变形缝两侧墙面表面装修
+      ifc_entity: IfcCovering
+      predefined_type: CLADDING
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_4_0_7_joint
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: medium
+      rationale: 同条墙面分项，口径同上。
+    - id: mb_gb50222_4_0_7_floor
+      role: 变形缝两侧地面表面装修
+      ifc_entity: IfcCovering
+      predefined_type: FLOORING
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_4_0_7_joint
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: medium
+      rationale: 同条地面分项，口径同上。
     activity_types:
     - 内部装修防火设计
+  executable_rules:
+  - rule_id: R_4_0_7_ceiling_1
+    source_clause: GB 50222-2017#4.0.7
+    mapping_refs:
+    - mb_gb50222_4_0_7_ceiling
+    parameter_refs:
+    - p_gb50222_4_0_7_joint
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcCovering
+      - path: object.predefined_type
+        op: eq
+        value: CEILING
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#4.0.7 变形缝两侧顶棚表面装修：FlammabilityRating = ['A', 'B1'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_CoveringCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_4_0_7_joint
+  - rule_id: R_4_0_7_wall_2
+    source_clause: GB 50222-2017#4.0.7
+    mapping_refs:
+    - mb_gb50222_4_0_7_wall
+    parameter_refs:
+    - p_gb50222_4_0_7_joint
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcCovering
+      - path: object.predefined_type
+        op: eq
+        value: CLADDING
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#4.0.7 变形缝两侧墙面表面装修：FlammabilityRating = ['A', 'B1'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_CoveringCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_4_0_7_joint
+  - rule_id: R_4_0_7_floor_3
+    source_clause: GB 50222-2017#4.0.7
+    mapping_refs:
+    - mb_gb50222_4_0_7_floor
+    parameter_refs:
+    - p_gb50222_4_0_7_joint
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcCovering
+      - path: object.predefined_type
+        op: eq
+        value: FLOORING
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#4.0.7 变形缝两侧地面表面装修：FlammabilityRating = ['A', 'B1'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_CoveringCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_4_0_7_joint
   conflicts: []
 - id: GB 50222-2017#4.0.8
   standard_code: GB 50222-2017
@@ -919,11 +1562,34 @@ clauses:
   converted_tables: []
   references: []
   related_objects:
+    binding_level: element
     component_types:
     - IfcCovering
-    - IfcWall
-    - IfcCeiling
-    - IfcDoor
+    model_bindings:
+    - id: mb_gb50222_4_0_8_ceiling
+      role: 无窗房间顶棚
+      ifc_entity: IfcCovering
+      predefined_type: CEILING
+      mapping_status: needs_expert_review
+      confidence: low
+      property_requirements: []
+      rationale: 值 = 表5.1.1/5.2.1/5.3.1/6.0.1/6.0.5 基准 + 「提高一级」运算（v1 均不支持）；『无窗房间』是空间属性（IfcSpace 无标准外窗标志）→ 分阶段：待表结构化 + 自定义属性后回填。
+    - id: mb_gb50222_4_0_8_wall
+      role: 无窗房间墙面
+      ifc_entity: IfcCovering
+      predefined_type: CLADDING
+      mapping_status: needs_expert_review
+      confidence: low
+      property_requirements: []
+      rationale: 同条墙面分项，降级原因同上。
+    - id: mb_gb50222_4_0_8_floor
+      role: 无窗房间地面
+      ifc_entity: IfcCovering
+      predefined_type: FLOORING
+      mapping_status: needs_expert_review
+      confidence: low
+      property_requirements: []
+      rationale: 同条地面分项，降级原因同上。
     activity_types:
     - 内部装修防火设计
   conflicts: []
@@ -952,18 +1618,262 @@ clauses:
     is_mandatory_clause: true
     mandatory_basis: 黑体强制性条文
     constraint_items: []
-  parameters: []
+  parameters:
+  - id: p_gb50222_4_0_9_machine_room
+    name: 机房类内部装修材料燃烧性能等级
+    operator: in
+    value:
+    - A
+    unit: null
+    ifc_binding:
+      target: element
+      pset: Pset_CoveringCommon
+      property: FlammabilityRating
+      classification: GB8624
   tables: []
   converted_tables: []
   references: []
   related_objects:
+    binding_level: element
     component_types:
     - IfcCovering
     - IfcWall
-    - IfcCeiling
-    - IfcDoor
+    model_bindings:
+    - id: mb_gb50222_4_0_9_ceiling
+      role: 机房类顶棚
+      ifc_entity: IfcCovering
+      predefined_type: CEILING
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 消防水泵房
+        - 机械加压送风排烟机房
+        - 固定灭火系统钢瓶间
+        - 配电室
+        - 变压器室
+        - 发电机房
+        - 储油间
+        - 通风和空调机房
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_4_0_9_machine_room
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: high
+      rationale: 机房类（含条文列举 8 类）内部『所有装修』均 A 级；顶棚分项，space_context 逐空间收窄（『等』为开放列举，未列同类机房按 4.0.20 类比执行）。
+    - id: mb_gb50222_4_0_9_wall
+      role: 机房类墙面
+      ifc_entity: IfcCovering
+      predefined_type: CLADDING
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 消防水泵房
+        - 机械加压送风排烟机房
+        - 固定灭火系统钢瓶间
+        - 配电室
+        - 变压器室
+        - 发电机房
+        - 储油间
+        - 通风和空调机房
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_4_0_9_machine_room
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: high
+      rationale: 同条墙面分项（装修面层 → CLADDING），A 级。
+    - id: mb_gb50222_4_0_9_floor
+      role: 机房类地面
+      ifc_entity: IfcCovering
+      predefined_type: FLOORING
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 消防水泵房
+        - 机械加压送风排烟机房
+        - 固定灭火系统钢瓶间
+        - 配电室
+        - 变压器室
+        - 发电机房
+        - 储油间
+        - 通风和空调机房
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_4_0_9_machine_room
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: high
+      rationale: 同条地面分项（装修面层 → FLOORING），A 级。
+    - id: mb_gb50222_4_0_9_partition
+      role: 机房类隔断
+      ifc_entity: IfcWall
+      predefined_type: PARTITION
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 消防水泵房
+        - 机械加压送风排烟机房
+        - 固定灭火系统钢瓶间
+        - 配电室
+        - 变压器室
+        - 发电机房
+        - 储油间
+        - 通风和空调机房
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_4_0_9_machine_room
+        pset: Pset_WallCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: medium
+      rationale: 『所有装修』含隔断装修材料（GB50222 3.0.1 分类）→ 隔断按 part_component_map 映射 IfcWall.PARTITION；A 级。
     activity_types:
     - 内部装修防火设计
+  executable_rules:
+  - rule_id: R_4_0_9_ceiling_1
+    source_clause: GB 50222-2017#4.0.9
+    mapping_refs:
+    - mb_gb50222_4_0_9_ceiling
+    parameter_refs:
+    - p_gb50222_4_0_9_machine_room
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcCovering
+      - path: object.predefined_type
+        op: eq
+        value: CEILING
+      - path: object.space.usage
+        op: in
+        value:
+        - 消防水泵房
+        - 机械加压送风排烟机房
+        - 固定灭火系统钢瓶间
+        - 配电室
+        - 变压器室
+        - 发电机房
+        - 储油间
+        - 通风和空调机房
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#4.0.9 机房类顶棚：FlammabilityRating = ['A'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_CoveringCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_4_0_9_machine_room
+  - rule_id: R_4_0_9_wall_2
+    source_clause: GB 50222-2017#4.0.9
+    mapping_refs:
+    - mb_gb50222_4_0_9_wall
+    parameter_refs:
+    - p_gb50222_4_0_9_machine_room
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcCovering
+      - path: object.predefined_type
+        op: eq
+        value: CLADDING
+      - path: object.space.usage
+        op: in
+        value:
+        - 消防水泵房
+        - 机械加压送风排烟机房
+        - 固定灭火系统钢瓶间
+        - 配电室
+        - 变压器室
+        - 发电机房
+        - 储油间
+        - 通风和空调机房
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#4.0.9 机房类墙面：FlammabilityRating = ['A'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_CoveringCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_4_0_9_machine_room
+  - rule_id: R_4_0_9_floor_3
+    source_clause: GB 50222-2017#4.0.9
+    mapping_refs:
+    - mb_gb50222_4_0_9_floor
+    parameter_refs:
+    - p_gb50222_4_0_9_machine_room
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcCovering
+      - path: object.predefined_type
+        op: eq
+        value: FLOORING
+      - path: object.space.usage
+        op: in
+        value:
+        - 消防水泵房
+        - 机械加压送风排烟机房
+        - 固定灭火系统钢瓶间
+        - 配电室
+        - 变压器室
+        - 发电机房
+        - 储油间
+        - 通风和空调机房
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#4.0.9 机房类地面：FlammabilityRating = ['A'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_CoveringCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_4_0_9_machine_room
+  - rule_id: R_4_0_9_partition_4
+    source_clause: GB 50222-2017#4.0.9
+    mapping_refs:
+    - mb_gb50222_4_0_9_partition
+    parameter_refs:
+    - p_gb50222_4_0_9_machine_room
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcWall
+      - path: object.predefined_type
+        op: eq
+        value: PARTITION
+      - path: object.space.usage
+        op: in
+        value:
+        - 消防水泵房
+        - 机械加压送风排烟机房
+        - 固定灭火系统钢瓶间
+        - 配电室
+        - 变压器室
+        - 发电机房
+        - 储油间
+        - 通风和空调机房
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#4.0.9 机房类隔断：FlammabilityRating = ['A'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_WallCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_4_0_9_machine_room
   conflicts: []
 - id: GB 50222-2017#4.0.10
   standard_code: GB 50222-2017
@@ -991,18 +1901,173 @@ clauses:
     is_mandatory_clause: true
     mandatory_basis: 黑体强制性条文
     constraint_items: []
-  parameters: []
+  parameters:
+  - id: p_gb50222_4_0_10_a
+    name: 消防控制室顶棚墙面装修材料燃烧性能等级
+    operator: in
+    value:
+    - A
+    unit: null
+    ifc_binding:
+      target: element
+      pset: Pset_CoveringCommon
+      property: FlammabilityRating
+      classification: GB8624
+  - id: p_gb50222_4_0_10_b1
+    name: 消防控制室地面装修材料燃烧性能等级
+    operator: in
+    value:
+    - A
+    - B1
+    unit: null
+    ifc_binding:
+      target: element
+      pset: Pset_CoveringCommon
+      property: FlammabilityRating
+      classification: GB8624
   tables: []
   converted_tables: []
   references: []
   related_objects:
+    binding_level: element
     component_types:
     - IfcCovering
-    - IfcWall
-    - IfcCeiling
-    - IfcDoor
+    model_bindings:
+    - id: mb_gb50222_4_0_10_ceiling
+      role: 消防控制室顶棚
+      ifc_entity: IfcCovering
+      predefined_type: CEILING
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 消防控制室
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_4_0_10_a
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: high
+      rationale: 顶棚 A 级；与墙面复用同一参数（同参多绑定）
+    - id: mb_gb50222_4_0_10_wall
+      role: 消防控制室墙面
+      ifc_entity: IfcCovering
+      predefined_type: CLADDING
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 消防控制室
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_4_0_10_a
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: high
+      rationale: 墙面 A 级（装修面层 → CLADDING）
+    - id: mb_gb50222_4_0_10_floor
+      role: 消防控制室地面
+      ifc_entity: IfcCovering
+      predefined_type: FLOORING
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 消防控制室
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_4_0_10_b1
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: high
+      rationale: 地面不低于 B1 级（值域 [A,B1]）
     activity_types:
     - 内部装修防火设计
+  executable_rules:
+  - rule_id: R_4_0_10_ceiling_1
+    source_clause: GB 50222-2017#4.0.10
+    mapping_refs:
+    - mb_gb50222_4_0_10_ceiling
+    parameter_refs:
+    - p_gb50222_4_0_10_a
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcCovering
+      - path: object.predefined_type
+        op: eq
+        value: CEILING
+      - path: object.space.usage
+        op: in
+        value:
+        - 消防控制室
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#4.0.10 消防控制室顶棚：FlammabilityRating = ['A'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_CoveringCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_4_0_10_a
+  - rule_id: R_4_0_10_wall_2
+    source_clause: GB 50222-2017#4.0.10
+    mapping_refs:
+    - mb_gb50222_4_0_10_wall
+    parameter_refs:
+    - p_gb50222_4_0_10_a
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcCovering
+      - path: object.predefined_type
+        op: eq
+        value: CLADDING
+      - path: object.space.usage
+        op: in
+        value:
+        - 消防控制室
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#4.0.10 消防控制室墙面：FlammabilityRating = ['A'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_CoveringCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_4_0_10_a
+  - rule_id: R_4_0_10_floor_3
+    source_clause: GB 50222-2017#4.0.10
+    mapping_refs:
+    - mb_gb50222_4_0_10_floor
+    parameter_refs:
+    - p_gb50222_4_0_10_b1
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcCovering
+      - path: object.predefined_type
+        op: eq
+        value: FLOORING
+      - path: object.space.usage
+        op: in
+        value:
+        - 消防控制室
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#4.0.10 消防控制室地面：FlammabilityRating = ['A', 'B1'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_CoveringCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_4_0_10_b1
   conflicts: []
 - id: GB 50222-2017#4.0.11
   standard_code: GB 50222-2017
@@ -1029,18 +2094,161 @@ clauses:
     is_mandatory_clause: true
     mandatory_basis: 黑体强制性条文
     constraint_items: []
-  parameters: []
+  parameters:
+  - id: p_gb50222_4_0_11_kitchen
+    name: 厨房装修材料燃烧性能等级
+    operator: in
+    value:
+    - A
+    unit: null
+    ifc_binding:
+      target: element
+      pset: Pset_CoveringCommon
+      property: FlammabilityRating
+      classification: GB8624
   tables: []
   converted_tables: []
   references: []
   related_objects:
+    binding_level: element
     component_types:
     - IfcCovering
-    - IfcWall
-    - IfcCeiling
-    - IfcDoor
+    model_bindings:
+    - id: mb_gb50222_4_0_11_ceiling
+      role: 厨房顶棚
+      ifc_entity: IfcCovering
+      predefined_type: CEILING
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 厨房
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_4_0_11_kitchen
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: high
+      rationale: 厨房（含住宅厨房）顶棚 A 级；space_context 收窄至『厨房』。
+    - id: mb_gb50222_4_0_11_wall
+      role: 厨房墙面
+      ifc_entity: IfcCovering
+      predefined_type: CLADDING
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 厨房
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_4_0_11_kitchen
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: high
+      rationale: 同条墙面分项（装修面层 → CLADDING），A 级。
+    - id: mb_gb50222_4_0_11_floor
+      role: 厨房地面
+      ifc_entity: IfcCovering
+      predefined_type: FLOORING
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 厨房
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_4_0_11_kitchen
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: high
+      rationale: 同条地面分项（装修面层 → FLOORING），A 级。
     activity_types:
     - 内部装修防火设计
+  executable_rules:
+  - rule_id: R_4_0_11_ceiling_1
+    source_clause: GB 50222-2017#4.0.11
+    mapping_refs:
+    - mb_gb50222_4_0_11_ceiling
+    parameter_refs:
+    - p_gb50222_4_0_11_kitchen
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcCovering
+      - path: object.predefined_type
+        op: eq
+        value: CEILING
+      - path: object.space.usage
+        op: in
+        value:
+        - 厨房
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#4.0.11 厨房顶棚：FlammabilityRating = ['A'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_CoveringCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_4_0_11_kitchen
+  - rule_id: R_4_0_11_wall_2
+    source_clause: GB 50222-2017#4.0.11
+    mapping_refs:
+    - mb_gb50222_4_0_11_wall
+    parameter_refs:
+    - p_gb50222_4_0_11_kitchen
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcCovering
+      - path: object.predefined_type
+        op: eq
+        value: CLADDING
+      - path: object.space.usage
+        op: in
+        value:
+        - 厨房
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#4.0.11 厨房墙面：FlammabilityRating = ['A'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_CoveringCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_4_0_11_kitchen
+  - rule_id: R_4_0_11_floor_3
+    source_clause: GB 50222-2017#4.0.11
+    mapping_refs:
+    - mb_gb50222_4_0_11_floor
+    parameter_refs:
+    - p_gb50222_4_0_11_kitchen
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcCovering
+      - path: object.predefined_type
+        op: eq
+        value: FLOORING
+      - path: object.space.usage
+        op: in
+        value:
+        - 厨房
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#4.0.11 厨房地面：FlammabilityRating = ['A'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_CoveringCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_4_0_11_kitchen
   conflicts: []
 - id: GB 50222-2017#4.0.12
   standard_code: GB 50222-2017
@@ -1072,11 +2280,34 @@ clauses:
   converted_tables: []
   references: []
   related_objects:
+    binding_level: element
     component_types:
     - IfcCovering
-    - IfcWall
-    - IfcCeiling
-    - IfcDoor
+    model_bindings:
+    - id: mb_gb50222_4_0_12_ceiling
+      role: 明火餐厅/科研试验室顶棚
+      ifc_entity: IfcCovering
+      predefined_type: CEILING
+      mapping_status: needs_expert_review
+      confidence: low
+      property_requirements: []
+      rationale: 值 = 表5.x 基准 + 「提高一级」运算（v1 不支持）；且『经常使用明火器具』为使用行为、IFC 不可判定 → 降级。
+    - id: mb_gb50222_4_0_12_wall
+      role: 明火餐厅/科研试验室墙面
+      ifc_entity: IfcCovering
+      predefined_type: CLADDING
+      mapping_status: needs_expert_review
+      confidence: low
+      property_requirements: []
+      rationale: 同条墙面分项，降级原因同上。
+    - id: mb_gb50222_4_0_12_floor
+      role: 明火餐厅/科研试验室地面
+      ifc_entity: IfcCovering
+      predefined_type: FLOORING
+      mapping_status: needs_expert_review
+      confidence: low
+      property_requirements: []
+      rationale: 同条地面分项，降级原因同上。
     activity_types:
     - 内部装修防火设计
   conflicts: []
@@ -1104,18 +2335,169 @@ clauses:
     is_mandatory_clause: true
     mandatory_basis: 黑体强制性条文
     constraint_items: []
-  parameters: []
+  parameters:
+  - id: p_gb50222_4_0_13_store
+    name: 库房贮藏间内部装修材料燃烧性能等级
+    operator: in
+    value:
+    - A
+    - B1
+    unit: null
+    ifc_binding:
+      target: element
+      pset: Pset_CoveringCommon
+      property: FlammabilityRating
+      classification: GB8624
+    note: 「不低于B1」编译为 in [A, B1]；『除应符合相应场所规定外』为优先适用其他条款的声明，不改变本下限。
   tables: []
   converted_tables: []
   references: []
   related_objects:
+    binding_level: element
     component_types:
     - IfcCovering
-    - IfcWall
-    - IfcCeiling
-    - IfcDoor
+    model_bindings:
+    - id: mb_gb50222_4_0_13_ceiling
+      role: 库房/贮藏间顶棚
+      ifc_entity: IfcCovering
+      predefined_type: CEILING
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 库房
+        - 贮藏间
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_4_0_13_store
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: high
+      rationale: 库房/贮藏间内部所有装修不低于 B1（= in [A,B1]，下限口径）；space_context 收窄至库房/贮藏间。
+    - id: mb_gb50222_4_0_13_wall
+      role: 库房/贮藏间墙面
+      ifc_entity: IfcCovering
+      predefined_type: CLADDING
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 库房
+        - 贮藏间
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_4_0_13_store
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: high
+      rationale: 同条墙面分项（装修面层 → CLADDING）。
+    - id: mb_gb50222_4_0_13_floor
+      role: 库房/贮藏间地面
+      ifc_entity: IfcCovering
+      predefined_type: FLOORING
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 库房
+        - 贮藏间
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_4_0_13_store
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: high
+      rationale: 同条地面分项（装修面层 → FLOORING）。
     activity_types:
     - 内部装修防火设计
+  executable_rules:
+  - rule_id: R_4_0_13_ceiling_1
+    source_clause: GB 50222-2017#4.0.13
+    mapping_refs:
+    - mb_gb50222_4_0_13_ceiling
+    parameter_refs:
+    - p_gb50222_4_0_13_store
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcCovering
+      - path: object.predefined_type
+        op: eq
+        value: CEILING
+      - path: object.space.usage
+        op: in
+        value:
+        - 库房
+        - 贮藏间
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#4.0.13 库房/贮藏间顶棚：FlammabilityRating = ['A', 'B1'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_CoveringCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_4_0_13_store
+  - rule_id: R_4_0_13_wall_2
+    source_clause: GB 50222-2017#4.0.13
+    mapping_refs:
+    - mb_gb50222_4_0_13_wall
+    parameter_refs:
+    - p_gb50222_4_0_13_store
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcCovering
+      - path: object.predefined_type
+        op: eq
+        value: CLADDING
+      - path: object.space.usage
+        op: in
+        value:
+        - 库房
+        - 贮藏间
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#4.0.13 库房/贮藏间墙面：FlammabilityRating = ['A', 'B1'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_CoveringCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_4_0_13_store
+  - rule_id: R_4_0_13_floor_3
+    source_clause: GB 50222-2017#4.0.13
+    mapping_refs:
+    - mb_gb50222_4_0_13_floor
+    parameter_refs:
+    - p_gb50222_4_0_13_store
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcCovering
+      - path: object.predefined_type
+        op: eq
+        value: FLOORING
+      - path: object.space.usage
+        op: in
+        value:
+        - 库房
+        - 贮藏间
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#4.0.13 库房/贮藏间地面：FlammabilityRating = ['A', 'B1'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_CoveringCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_4_0_13_store
   conflicts: []
 - id: GB 50222-2017#4.0.14
   standard_code: GB 50222-2017
@@ -1149,11 +2531,28 @@ clauses:
   converted_tables: []
   references: []
   related_objects:
+    binding_level: element
     component_types:
+    - IfcFurniture
     - IfcCovering
-    - IfcWall
-    - IfcCeiling
-    - IfcDoor
+    model_bindings:
+    - id: mb_gb50222_4_0_14_booth
+      role: 展台（第1款）
+      ifc_entity: IfcFurniture
+      predefined_type: USERDEFINED
+      object_type: 展台
+      mapping_status: needs_expert_review
+      confidence: low
+      property_requirements: []
+      rationale: 第1款展台材料不低于 B1；IfcFurniture 无标准燃烧性能属性集（Pset_FurnitureTypeCommon 无 FlammabilityRating）→ 需自定义 GB_展台 Pset，暂降级。
+    - id: mb_gb50222_4_0_14_adjacent_wall
+      role: 电加热设备/高温灯具贴邻墙面（第2、3款）
+      ifc_entity: IfcCovering
+      predefined_type: CLADDING
+      mapping_status: needs_expert_review
+      confidence: low
+      property_requirements: []
+      rationale: 第2/3款『贴邻部位』的 A 级约束依赖几何邻接关系（v1 规则引擎无邻接判定）→ 降级人工/几何引擎。
     activity_types:
     - 内部装修防火设计
   conflicts: []
@@ -1213,16 +2612,93 @@ clauses:
       strictness: 宜/should
       polarity: 正面/required
       modal_word: 宜
-  parameters: []
+  parameters:
+  - id: p_gb50222_4_0_15_bath
+    name: 住宅卫生间顶棚装修材料燃烧性能等级
+    operator: in
+    value:
+    - A
+    unit: null
+    ifc_binding:
+      target: element
+      pset: Pset_CoveringCommon
+      property: FlammabilityRating
+      classification: GB8624
+  - id: p_gb50222_4_0_15_cabinet
+    name: 住宅厨房固定橱柜装修材料燃烧性能等级
+    operator: in
+    value:
+    - A
+    - B1
+    unit: null
+    ifc_binding:
+      target: element
+      pset: Pset_FurnitureTypeCommon
+      property: FlammabilityRating
+      classification: GB8624
+  - id: p_gb50222_4_0_15_balcony
+    name: 住宅阳台装修材料燃烧性能等级
+    operator: in
+    value:
+    - A
+    - B1
+    unit: null
+    ifc_binding:
+      target: element
+      pset: Pset_CoveringCommon
+      property: FlammabilityRating
+      classification: GB8624
   tables: []
   converted_tables: []
   references: []
   related_objects:
+    binding_level: element
     component_types:
     - IfcCovering
-    - IfcWall
-    - IfcCeiling
-    - IfcDoor
+    - IfcFurniture
+    model_bindings:
+    - id: mb_gb50222_4_0_15_bath_ceiling
+      role: 卫生间顶棚（第3款）
+      ifc_entity: IfcCovering
+      predefined_type: CEILING
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 厕所（卫生间）
+      property_requirements:
+      - parameter_ref: p_gb50222_4_0_15_bath
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: needs_expert_review
+      confidence: low
+      rationale: 第3款为『宜』（strictness=宜/推荐），不作强制规则；值（A 级）与空间保留于参数，供项目按推荐级复核。
+    - id: mb_gb50222_4_0_15_cabinet
+      role: 厨房固定橱柜（第2款）
+      ifc_entity: IfcFurniture
+      predefined_type: USERDEFINED
+      object_type: 固定橱柜
+      property_requirements:
+      - parameter_ref: p_gb50222_4_0_15_cabinet
+        pset: Pset_FurnitureTypeCommon
+        property: FireRating
+      mapping_status: needs_expert_review
+      confidence: low
+      rationale: 第2款为『宜』；且 IfcFurniture 无标准燃烧性能属性集（Pset_FurnitureTypeCommon 无 FlammabilityRating，此处 property 名仅为占位）→ 降级。
+    - id: mb_gb50222_4_0_15_balcony
+      role: 阳台装修（第4款）
+      ifc_entity: IfcCovering
+      predefined_type: FLOORING
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 阳台
+      property_requirements:
+      - parameter_ref: p_gb50222_4_0_15_balcony
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: needs_expert_review
+      confidence: low
+      rationale: 第4款为『宜』；不低于 B1 → 参数留值，不作强制规则。
     activity_types:
     - 内部装修防火设计
   conflicts: []
@@ -1254,20 +2730,62 @@ clauses:
     mandatory_basis: null
     constraint_items: []
   parameters:
-  - name: 高温部位与装修材料距离
+  - id: p_gb50222_4_0_16_distance
+    name: 高温部位与装修材料距离
+    operator: gte
     unit: mm
     condition: null
     min_value: 500.0
     max_value: null
+    ifc_binding:
+      target: geometric
+      path: 几何推导（灯具/电气高温部位与窗帘、帷幕、幕布、软包等的最近距离）
+      classification: null
+    note: 正本参数『高温部位与装修材料距离』（单位 mm）；几何量，v1 不生成规则。
+  - id: p_gb50222_4_0_16_lamp
+    name: 灯饰装修材料燃烧性能等级
+    operator: in
+    value:
+    - A
+    - B1
+    unit: null
+    ifc_binding:
+      target: element
+      pset: Pset_FurnitureTypeCommon
+      property: FlammabilityRating
+      classification: GB8624
   tables: []
   converted_tables: []
   references: []
   related_objects:
+    binding_level: element
     component_types:
     - IfcCovering
-    - IfcWall
-    - IfcCeiling
-    - IfcDoor
+    - IfcFurniture
+    model_bindings:
+    - id: mb_gb50222_4_0_16_distance
+      role: 高温部位与装修材料距离
+      ifc_entity: IfcCovering
+      predefined_type: CLADDING
+      property_requirements:
+      - parameter_ref: p_gb50222_4_0_16_distance
+        pset: GB_装修防火
+        property: 高温部位与装修材料距离
+      mapping_status: needs_expert_review
+      confidence: low
+      rationale: 距离≥500mm 为几何推导量（v1 规则引擎不支持）→ 参数保留（min_value=500, unit=mm）供几何引擎消费；『应采取隔热散热措施』为措施类要求，人工复核。
+    - id: mb_gb50222_4_0_16_lamp_decor
+      role: 灯饰材料
+      ifc_entity: IfcFurniture
+      predefined_type: USERDEFINED
+      object_type: 灯饰
+      property_requirements:
+      - parameter_ref: p_gb50222_4_0_16_lamp
+        pset: Pset_FurnitureTypeCommon
+        property: FlammabilityRating
+      mapping_status: needs_expert_review
+      confidence: low
+      rationale: 灯饰不低于 B1；灯饰无标准 IFC 实体（暂以 IfcFurniture/ObjectType=灯饰 表达），且 IfcFurniture 无标准燃烧属性集 → 降级。
     activity_types:
     - 内部装修防火设计
   conflicts: []
@@ -1308,18 +2826,67 @@ clauses:
       strictness: 应/shall
       polarity: 正面/required
       modal_word: 应
-  parameters: []
+  parameters:
+  - id: p_gb50222_4_0_17_notbelow
+    name: 装修面层燃烧性能等级（禁值域）
+    operator: not_in
+    value:
+    - B2
+    - B3
+    unit: null
+    ifc_binding:
+      target: element
+      pset: Pset_CoveringCommon
+      property: FlammabilityRating
+      classification: GB8624
+    note: 禁值表达；等价于 in [A, B1]，但保留 not_in 以实证 IDS prohibited 基数导出
   tables: []
   converted_tables: []
   references: []
   related_objects:
+    binding_level: element
     component_types:
     - IfcCovering
-    - IfcWall
-    - IfcCeiling
-    - IfcDoor
+    model_bindings:
+    - id: mb_gb50222_4_0_17_covering
+      role: 装修面层（配电箱等依附面）
+      ifc_entity: IfcCovering
+      predefined_type: CLADDING
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_4_0_17_notbelow
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: medium
+      rationale: 『不应直接安装在低于B1级的装修材料上』→ 装修面层不得为 B2/B3；无法在 IFC 中识别『配电箱所依附的具体面层』，故对全部装修面层取最严解读（not_in 否定逻辑实证样本）
     activity_types:
     - 内部装修防火设计
+  executable_rules:
+  - rule_id: R_4_0_17_covering_1
+    source_clause: GB 50222-2017#4.0.17
+    mapping_refs:
+    - mb_gb50222_4_0_17_covering
+    parameter_refs:
+    - p_gb50222_4_0_17_notbelow
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcCovering
+      - path: object.predefined_type
+        op: eq
+        value: CLADDING
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#4.0.17 装修面层（配电箱等依附面）：FlammabilityRating 落入禁值域 ['B2', 'B3']
+      check:
+        path: object.pset[Pset_CoveringCommon].FlammabilityRating
+        op: not_in
+        parameter_ref: p_gb50222_4_0_17_notbelow
   conflicts: []
 - id: GB 50222-2017#4.0.18
   standard_code: GB 50222-2017
@@ -1349,16 +2916,60 @@ clauses:
     is_mandatory_clause: false
     mandatory_basis: null
     constraint_items: []
-  parameters: []
+  parameters:
+  - id: p_gb50222_4_0_18_electric
+    name: 电加热供暖系统装修/绝热材料燃烧性能等级
+    operator: in
+    value:
+    - A
+    unit: null
+    ifc_binding:
+      target: element
+      pset: Pset_CoveringCommon
+      property: FlammabilityRating
+      classification: GB8624
+    note: 本条两分支（电加热全 A / 水暖顶棚 A 其他 B1）；参数暂记电加热分支，待条件可判定后补水暖分支参数。
   tables: []
   converted_tables: []
   references: []
   related_objects:
+    binding_level: element
     component_types:
     - IfcCovering
-    - IfcWall
-    - IfcCeiling
-    - IfcDoor
+    model_bindings:
+    - id: mb_gb50222_4_0_18_ceiling
+      role: 埋设供暖系统顶棚
+      ifc_entity: IfcCovering
+      predefined_type: CEILING
+      property_requirements:
+      - parameter_ref: p_gb50222_4_0_18_electric
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: needs_expert_review
+      confidence: low
+      rationale: 条件依赖（装修材料内部是否埋设电加热/水暖供暖系统，IFC 无对应标志）+ 两分支差异化值域（电加热全 A / 水暖顶棚 A 其他 B1）→ 需先定空间/构造标志字段，暂降级；参数保留电加热分支 A 级。
+    - id: mb_gb50222_4_0_18_wall
+      role: 埋设供暖系统墙面
+      ifc_entity: IfcCovering
+      predefined_type: CLADDING
+      property_requirements:
+      - parameter_ref: p_gb50222_4_0_18_electric
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: needs_expert_review
+      confidence: low
+      rationale: 同条墙面分项，降级原因同上。
+    - id: mb_gb50222_4_0_18_floor
+      role: 埋设供暖系统地面
+      ifc_entity: IfcCovering
+      predefined_type: FLOORING
+      property_requirements:
+      - parameter_ref: p_gb50222_4_0_18_electric
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: needs_expert_review
+      confidence: low
+      rationale: 同条地面分项，降级原因同上。
     activity_types:
     - 内部装修防火设计
   conflicts: []
@@ -1393,11 +3004,20 @@ clauses:
   converted_tables: []
   references: []
   related_objects:
+    binding_level: element
     component_types:
     - IfcCovering
-    - IfcWall
-    - IfcCeiling
-    - IfcDoor
+    model_bindings:
+    - id: mb_gb50222_4_0_19_decor_fabric
+      role: 装饰织物（壁挂/布艺等，B3 限制）
+      ifc_entity: IfcCovering
+      predefined_type: USERDEFINED
+      object_type: 装饰织物
+      mapping_status: not_applicable
+      confidence: low
+      property_requirements: []
+      reason: IFC4 IfcCoveringTypeEnum 无『装饰织物』枚举，壁挂/布艺无对应构件实体（ifc_entity 仅为白名单占位，object_type 承载语义）；且『不应靠近电气线路/火源/热源』为几何/设计措施 → 本绑定不产生可执行规则，转人工复核。
+      rationale: 不宜设置 B3 级装饰织物 → B3 材料级约束，挂材料分类通道（material_classification），非构件属性；设置条件（靠近/隔离）不可机检。
     activity_types:
     - 内部装修防火设计
   conflicts: []
@@ -1431,11 +3051,13 @@ clauses:
   converted_tables: []
   references: []
   related_objects:
+    binding_level: macro
     component_types:
     - IfcCovering
     - IfcWall
     - IfcCeiling
     - IfcDoor
+    model_bindings: []
     activity_types:
     - 内部装修防火设计
   conflicts: []
@@ -1464,7 +3086,138 @@ clauses:
     is_mandatory_clause: true
     mandatory_basis: 黑体强制性条文
     constraint_items: []
-  parameters: []
+  parameters:
+  - id: p_gb50222_5_1_1_ceiling_a
+    name: 表5.1.1 顶棚装修材料燃烧性能等级（A 级下限）
+    operator: in
+    value:
+    - A
+    unit: null
+    ifc_binding:
+      target: element
+      pset: Pset_CoveringCommon
+      property: FlammabilityRating
+      classification: GB8624
+    note: 表5.1.1「顶棚」列取 A 的场所（序号 1_7_8_9_10_11_12_13）；条文『不应低于』→ 值域 in ['A']。
+  - id: p_gb50222_5_1_1_ceiling_b1
+    name: 表5.1.1 顶棚装修材料燃烧性能等级（B1 级下限）
+    operator: in
+    value:
+    - A
+    - B1
+    unit: null
+    ifc_binding:
+      target: element
+      pset: Pset_CoveringCommon
+      property: FlammabilityRating
+      classification: GB8624
+    note: 表5.1.1「顶棚」列取 B1 的场所（序号 16_17）；条文『不应低于』→ 值域 in ['A', 'B1']。
+  - id: p_gb50222_5_1_1_cladding_a
+    name: 表5.1.1 墙面装修材料燃烧性能等级（A 级下限）
+    operator: in
+    value:
+    - A
+    unit: null
+    ifc_binding:
+      target: element
+      pset: Pset_CoveringCommon
+      property: FlammabilityRating
+      classification: GB8624
+    note: 表5.1.1「墙面」列取 A 的场所（序号 1_7_8_11_13）；条文『不应低于』→ 值域 in ['A']。
+  - id: p_gb50222_5_1_1_cladding_b1
+    name: 表5.1.1 墙面装修材料燃烧性能等级（B1 级下限）
+    operator: in
+    value:
+    - A
+    - B1
+    unit: null
+    ifc_binding:
+      target: element
+      pset: Pset_CoveringCommon
+      property: FlammabilityRating
+      classification: GB8624
+    note: 表5.1.1「墙面」列取 B1 的场所（序号 9_10_12_16_17）；条文『不应低于』→ 值域 in ['A', 'B1']。
+  - id: p_gb50222_5_1_1_flooring_b1
+    name: 表5.1.1 地面装修材料燃烧性能等级（B1 级下限）
+    operator: in
+    value:
+    - A
+    - B1
+    unit: null
+    ifc_binding:
+      target: element
+      pset: Pset_CoveringCommon
+      property: FlammabilityRating
+      classification: GB8624
+    note: 表5.1.1「地面」列取 B1 的场所（序号 1_7_8_10_11_12_13_17）；条文『不应低于』→ 值域 in ['A', 'B1']。
+  - id: p_gb50222_5_1_1_flooring_b2
+    name: 表5.1.1 地面装修材料燃烧性能等级（B2 级下限）
+    operator: in
+    value:
+    - A
+    - B1
+    - B2
+    unit: null
+    ifc_binding:
+      target: element
+      pset: Pset_CoveringCommon
+      property: FlammabilityRating
+      classification: GB8624
+    note: 表5.1.1「地面」列取 B2 的场所（序号 9_16）；条文『不应低于』→ 值域 in ['A', 'B1', 'B2']。
+  - id: p_gb50222_5_1_1_partition_b1
+    name: 表5.1.1 隔断装修材料燃烧性能等级（B1 级下限）
+    operator: in
+    value:
+    - A
+    - B1
+    unit: null
+    ifc_binding:
+      target: element
+      pset: Pset_WallCommon
+      property: FlammabilityRating
+      classification: GB8624
+    note: 表5.1.1「隔断」列取 B1 的场所（序号 1_7_8_10_11_12_13_17）；条文『不应低于』→ 值域 in ['A', 'B1']。
+  - id: p_gb50222_5_1_1_partition_b2
+    name: 表5.1.1 隔断装修材料燃烧性能等级（B2 级下限）
+    operator: in
+    value:
+    - A
+    - B1
+    - B2
+    unit: null
+    ifc_binding:
+      target: element
+      pset: Pset_WallCommon
+      property: FlammabilityRating
+      classification: GB8624
+    note: 表5.1.1「隔断」列取 B2 的场所（序号 9_16）；条文『不应低于』→ 值域 in ['A', 'B1', 'B2']。
+  - id: p_gb50222_5_1_1_furniture_b1
+    name: 表5.1.1 固定家具装修材料燃烧性能等级（B1 级下限）
+    operator: in
+    value:
+    - A
+    - B1
+    unit: null
+    ifc_binding:
+      target: element
+      pset: GB_装修防火
+      property: 燃烧性能等级
+      classification: GB8624
+    note: 表5.1.1「固定家具」列取 B1 的场所（序号 1_12_13）；条文『不应低于』→ 值域 in ['A', 'B1']。
+  - id: p_gb50222_5_1_1_furniture_b2
+    name: 表5.1.1 固定家具装修材料燃烧性能等级（B2 级下限）
+    operator: in
+    value:
+    - A
+    - B1
+    - B2
+    unit: null
+    ifc_binding:
+      target: element
+      pset: GB_装修防火
+      property: 燃烧性能等级
+      classification: GB8624
+    note: 表5.1.1「固定家具」列取 B2 的场所（序号 7_8_9_10_11_16_17）；条文『不应低于』→ 值域 in ['A', 'B1', 'B2']。
   tables:
   - id: 表5.1.1
     type: parameter_table
@@ -1749,13 +3502,535 @@ clauses:
   converted_tables: []
   references: []
   related_objects:
+    binding_level: element
     component_types:
     - IfcCovering
     - IfcWall
-    - IfcCeiling
-    - IfcDoor
+    - IfcFurniture
+    model_bindings:
+    - id: mb_gb50222_5_1_1_ceiling_a
+      role: 顶棚装修材料（表5.1.1 序号 1_7_8_9_10_11_12_13，A 级下限）
+      ifc_entity: IfcCovering
+      predefined_type: CEILING
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 候机楼的候机大厅、贵宾候机室、售票厅、商店、餐饮场所等
+        - 养老院、托儿所、幼儿园的居住及活动场所
+        - 医院的病房区、诊疗区、手术区
+        - 教学场所、教学实验场所
+        - 纪念馆、展览馆、博物馆、图书馆、档案馆、资料馆等的公众活动场所
+        - 存放文物、纪念展览物品、重要图书、档案、资料的场所
+        - 歌舞娱乐游艺场所
+        - A、B级电子信息系统机房及装有重要机器、仪器的房间
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_5_1_1_ceiling_a
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: high
+      rationale: 表5.1.1 逐格展开（行→space_context、列→predefined_type）：顶棚 列取 A 的场所 共 8 个（序号 1_7_8_9_10_11_12_13）合并为一条绑定；『不应低于』编译为 in ['A']。
+    - id: mb_gb50222_5_1_1_ceiling_b1
+      role: 顶棚装修材料（表5.1.1 序号 16_17，B1 级下限）
+      ifc_entity: IfcCovering
+      predefined_type: CEILING
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 其他公共场所
+        - 住宅
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_5_1_1_ceiling_b1
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: high
+      rationale: 表5.1.1 逐格展开（行→space_context、列→predefined_type）：顶棚 列取 B1 的场所 共 2 个（序号 16_17）合并为一条绑定；『不应低于』编译为 in ['A', 'B1']。
+    - id: mb_gb50222_5_1_1_cladding_a
+      role: 墙面装修材料（表5.1.1 序号 1_7_8_11_13，A 级下限）
+      ifc_entity: IfcCovering
+      predefined_type: CLADDING
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 候机楼的候机大厅、贵宾候机室、售票厅、商店、餐饮场所等
+        - 养老院、托儿所、幼儿园的居住及活动场所
+        - 医院的病房区、诊疗区、手术区
+        - 存放文物、纪念展览物品、重要图书、档案、资料的场所
+        - A、B级电子信息系统机房及装有重要机器、仪器的房间
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_5_1_1_cladding_a
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: high
+      rationale: 表5.1.1 逐格展开（行→space_context、列→predefined_type）：墙面 列取 A 的场所 共 5 个（序号 1_7_8_11_13）合并为一条绑定；『不应低于』编译为 in ['A']。
+    - id: mb_gb50222_5_1_1_cladding_b1
+      role: 墙面装修材料（表5.1.1 序号 9_10_12_16_17，B1 级下限）
+      ifc_entity: IfcCovering
+      predefined_type: CLADDING
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 教学场所、教学实验场所
+        - 纪念馆、展览馆、博物馆、图书馆、档案馆、资料馆等的公众活动场所
+        - 歌舞娱乐游艺场所
+        - 其他公共场所
+        - 住宅
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_5_1_1_cladding_b1
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: high
+      rationale: 表5.1.1 逐格展开（行→space_context、列→predefined_type）：墙面 列取 B1 的场所 共 5 个（序号 9_10_12_16_17）合并为一条绑定；『不应低于』编译为 in ['A', 'B1']。
+    - id: mb_gb50222_5_1_1_flooring_b1
+      role: 地面装修材料（表5.1.1 序号 1_7_8_10_11_12_13_17，B1 级下限）
+      ifc_entity: IfcCovering
+      predefined_type: FLOORING
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 候机楼的候机大厅、贵宾候机室、售票厅、商店、餐饮场所等
+        - 养老院、托儿所、幼儿园的居住及活动场所
+        - 医院的病房区、诊疗区、手术区
+        - 纪念馆、展览馆、博物馆、图书馆、档案馆、资料馆等的公众活动场所
+        - 存放文物、纪念展览物品、重要图书、档案、资料的场所
+        - 歌舞娱乐游艺场所
+        - A、B级电子信息系统机房及装有重要机器、仪器的房间
+        - 住宅
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_5_1_1_flooring_b1
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: high
+      rationale: 表5.1.1 逐格展开（行→space_context、列→predefined_type）：地面 列取 B1 的场所 共 8 个（序号 1_7_8_10_11_12_13_17）合并为一条绑定；『不应低于』编译为 in ['A', 'B1']。
+    - id: mb_gb50222_5_1_1_flooring_b2
+      role: 地面装修材料（表5.1.1 序号 9_16，B2 级下限）
+      ifc_entity: IfcCovering
+      predefined_type: FLOORING
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 教学场所、教学实验场所
+        - 其他公共场所
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_5_1_1_flooring_b2
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: high
+      rationale: 表5.1.1 逐格展开（行→space_context、列→predefined_type）：地面 列取 B2 的场所 共 2 个（序号 9_16）合并为一条绑定；『不应低于』编译为 in ['A', 'B1', 'B2']。
+    - id: mb_gb50222_5_1_1_partition_b1
+      role: 隔断装修材料（表5.1.1 序号 1_7_8_10_11_12_13_17，B1 级下限）
+      ifc_entity: IfcWall
+      predefined_type: PARTITION
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 候机楼的候机大厅、贵宾候机室、售票厅、商店、餐饮场所等
+        - 养老院、托儿所、幼儿园的居住及活动场所
+        - 医院的病房区、诊疗区、手术区
+        - 纪念馆、展览馆、博物馆、图书馆、档案馆、资料馆等的公众活动场所
+        - 存放文物、纪念展览物品、重要图书、档案、资料的场所
+        - 歌舞娱乐游艺场所
+        - A、B级电子信息系统机房及装有重要机器、仪器的房间
+        - 住宅
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_5_1_1_partition_b1
+        pset: Pset_WallCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: high
+      rationale: 表5.1.1 逐格展开（行→space_context、列→predefined_type）：隔断 列取 B1 的场所 共 8 个（序号 1_7_8_10_11_12_13_17）合并为一条绑定；『不应低于』编译为 in ['A', 'B1']。
+    - id: mb_gb50222_5_1_1_partition_b2
+      role: 隔断装修材料（表5.1.1 序号 9_16，B2 级下限）
+      ifc_entity: IfcWall
+      predefined_type: PARTITION
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 教学场所、教学实验场所
+        - 其他公共场所
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_5_1_1_partition_b2
+        pset: Pset_WallCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: high
+      rationale: 表5.1.1 逐格展开（行→space_context、列→predefined_type）：隔断 列取 B2 的场所 共 2 个（序号 9_16）合并为一条绑定；『不应低于』编译为 in ['A', 'B1', 'B2']。
+    - id: mb_gb50222_5_1_1_furniture_b1
+      role: 固定家具装修材料（表5.1.1 序号 1_12_13，B1 级下限）
+      ifc_entity: IfcFurniture
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 候机楼的候机大厅、贵宾候机室、售票厅、商店、餐饮场所等
+        - 歌舞娱乐游艺场所
+        - A、B级电子信息系统机房及装有重要机器、仪器的房间
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_5_1_1_furniture_b1
+        pset: GB_装修防火
+        property: 燃烧性能等级
+      mapping_status: reviewed
+      confidence: high
+      rationale: 表5.1.1 逐格展开（行→space_context、列→predefined_type）：固定家具 列取 B1 的场所 共 3 个（序号 1_12_13）合并为一条绑定；『不应低于』编译为 in ['A', 'B1']。
+    - id: mb_gb50222_5_1_1_furniture_b2
+      role: 固定家具装修材料（表5.1.1 序号 7_8_9_10_11_16_17，B2 级下限）
+      ifc_entity: IfcFurniture
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 养老院、托儿所、幼儿园的居住及活动场所
+        - 医院的病房区、诊疗区、手术区
+        - 教学场所、教学实验场所
+        - 纪念馆、展览馆、博物馆、图书馆、档案馆、资料馆等的公众活动场所
+        - 存放文物、纪念展览物品、重要图书、档案、资料的场所
+        - 其他公共场所
+        - 住宅
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_5_1_1_furniture_b2
+        pset: GB_装修防火
+        property: 燃烧性能等级
+      mapping_status: reviewed
+      confidence: high
+      rationale: 表5.1.1 逐格展开（行→space_context、列→predefined_type）：固定家具 列取 B2 的场所 共 7 个（序号 7_8_9_10_11_16_17）合并为一条绑定；『不应低于』编译为 in ['A', 'B1', 'B2']。
+    - id: mb_gb50222_5_1_1_cond_rows
+      role: 受建筑规模/性质约束的行（表5.1.1 序号 2、3、4、5、6、14、15）
+      ifc_entity: IfcCovering
+      predefined_type: CEILING
+      mapping_status: needs_expert_review
+      confidence: low
+      property_requirements: []
+      rationale: 该等行的要求随『建筑规模、性质』分档（取值：>3000座位、≤3000座位、其他、建筑面积>10000㎡、建筑面积≤10000㎡、每个厅建筑面积>400㎡、每个厅建筑面积≤400㎡、每层建筑面积>1500㎡或总建筑面积>3000㎡、每层建筑面积≤1500㎡或总建筑面积≤3000㎡、营业面积>100㎡、营业面积≤100㎡、设置送回风道(管)的集中空气调节系统）——建筑面积/座位数/建筑分类/系统配置等条件 IFC 无法承载，v1 引擎无对应 DSL → 不编译为规则，转人工按项目实际档次取值；本体条文值域见正本表 5.1.1。
     activity_types:
     - 内部装修防火设计
+  executable_rules:
+  - rule_id: R_5_1_1_a_1
+    source_clause: GB 50222-2017#5.1.1
+    mapping_refs:
+    - mb_gb50222_5_1_1_ceiling_a
+    parameter_refs:
+    - p_gb50222_5_1_1_ceiling_a
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcCovering
+      - path: object.predefined_type
+        op: eq
+        value: CEILING
+      - path: object.space.usage
+        op: in
+        value:
+        - 候机楼的候机大厅、贵宾候机室、售票厅、商店、餐饮场所等
+        - 养老院、托儿所、幼儿园的居住及活动场所
+        - 医院的病房区、诊疗区、手术区
+        - 教学场所、教学实验场所
+        - 纪念馆、展览馆、博物馆、图书馆、档案馆、资料馆等的公众活动场所
+        - 存放文物、纪念展览物品、重要图书、档案、资料的场所
+        - 歌舞娱乐游艺场所
+        - A、B级电子信息系统机房及装有重要机器、仪器的房间
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#5.1.1 顶棚装修材料（表5.1.1 序号 1_7_8_9_10_11_12_13，A 级下限）：FlammabilityRating = ['A'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_CoveringCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_5_1_1_ceiling_a
+  - rule_id: R_5_1_1_b1_2
+    source_clause: GB 50222-2017#5.1.1
+    mapping_refs:
+    - mb_gb50222_5_1_1_ceiling_b1
+    parameter_refs:
+    - p_gb50222_5_1_1_ceiling_b1
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcCovering
+      - path: object.predefined_type
+        op: eq
+        value: CEILING
+      - path: object.space.usage
+        op: in
+        value:
+        - 其他公共场所
+        - 住宅
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#5.1.1 顶棚装修材料（表5.1.1 序号 16_17，B1 级下限）：FlammabilityRating = ['A', 'B1'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_CoveringCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_5_1_1_ceiling_b1
+  - rule_id: R_5_1_1_a_3
+    source_clause: GB 50222-2017#5.1.1
+    mapping_refs:
+    - mb_gb50222_5_1_1_cladding_a
+    parameter_refs:
+    - p_gb50222_5_1_1_cladding_a
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcCovering
+      - path: object.predefined_type
+        op: eq
+        value: CLADDING
+      - path: object.space.usage
+        op: in
+        value:
+        - 候机楼的候机大厅、贵宾候机室、售票厅、商店、餐饮场所等
+        - 养老院、托儿所、幼儿园的居住及活动场所
+        - 医院的病房区、诊疗区、手术区
+        - 存放文物、纪念展览物品、重要图书、档案、资料的场所
+        - A、B级电子信息系统机房及装有重要机器、仪器的房间
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#5.1.1 墙面装修材料（表5.1.1 序号 1_7_8_11_13，A 级下限）：FlammabilityRating = ['A'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_CoveringCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_5_1_1_cladding_a
+  - rule_id: R_5_1_1_b1_4
+    source_clause: GB 50222-2017#5.1.1
+    mapping_refs:
+    - mb_gb50222_5_1_1_cladding_b1
+    parameter_refs:
+    - p_gb50222_5_1_1_cladding_b1
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcCovering
+      - path: object.predefined_type
+        op: eq
+        value: CLADDING
+      - path: object.space.usage
+        op: in
+        value:
+        - 教学场所、教学实验场所
+        - 纪念馆、展览馆、博物馆、图书馆、档案馆、资料馆等的公众活动场所
+        - 歌舞娱乐游艺场所
+        - 其他公共场所
+        - 住宅
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#5.1.1 墙面装修材料（表5.1.1 序号 9_10_12_16_17，B1 级下限）：FlammabilityRating = ['A', 'B1'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_CoveringCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_5_1_1_cladding_b1
+  - rule_id: R_5_1_1_b1_5
+    source_clause: GB 50222-2017#5.1.1
+    mapping_refs:
+    - mb_gb50222_5_1_1_flooring_b1
+    parameter_refs:
+    - p_gb50222_5_1_1_flooring_b1
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcCovering
+      - path: object.predefined_type
+        op: eq
+        value: FLOORING
+      - path: object.space.usage
+        op: in
+        value:
+        - 候机楼的候机大厅、贵宾候机室、售票厅、商店、餐饮场所等
+        - 养老院、托儿所、幼儿园的居住及活动场所
+        - 医院的病房区、诊疗区、手术区
+        - 纪念馆、展览馆、博物馆、图书馆、档案馆、资料馆等的公众活动场所
+        - 存放文物、纪念展览物品、重要图书、档案、资料的场所
+        - 歌舞娱乐游艺场所
+        - A、B级电子信息系统机房及装有重要机器、仪器的房间
+        - 住宅
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#5.1.1 地面装修材料（表5.1.1 序号 1_7_8_10_11_12_13_17，B1 级下限）：FlammabilityRating = ['A', 'B1'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_CoveringCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_5_1_1_flooring_b1
+  - rule_id: R_5_1_1_b2_6
+    source_clause: GB 50222-2017#5.1.1
+    mapping_refs:
+    - mb_gb50222_5_1_1_flooring_b2
+    parameter_refs:
+    - p_gb50222_5_1_1_flooring_b2
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcCovering
+      - path: object.predefined_type
+        op: eq
+        value: FLOORING
+      - path: object.space.usage
+        op: in
+        value:
+        - 教学场所、教学实验场所
+        - 其他公共场所
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#5.1.1 地面装修材料（表5.1.1 序号 9_16，B2 级下限）：FlammabilityRating = ['A', 'B1', 'B2'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_CoveringCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_5_1_1_flooring_b2
+  - rule_id: R_5_1_1_b1_7
+    source_clause: GB 50222-2017#5.1.1
+    mapping_refs:
+    - mb_gb50222_5_1_1_partition_b1
+    parameter_refs:
+    - p_gb50222_5_1_1_partition_b1
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcWall
+      - path: object.predefined_type
+        op: eq
+        value: PARTITION
+      - path: object.space.usage
+        op: in
+        value:
+        - 候机楼的候机大厅、贵宾候机室、售票厅、商店、餐饮场所等
+        - 养老院、托儿所、幼儿园的居住及活动场所
+        - 医院的病房区、诊疗区、手术区
+        - 纪念馆、展览馆、博物馆、图书馆、档案馆、资料馆等的公众活动场所
+        - 存放文物、纪念展览物品、重要图书、档案、资料的场所
+        - 歌舞娱乐游艺场所
+        - A、B级电子信息系统机房及装有重要机器、仪器的房间
+        - 住宅
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#5.1.1 隔断装修材料（表5.1.1 序号 1_7_8_10_11_12_13_17，B1 级下限）：FlammabilityRating = ['A', 'B1'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_WallCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_5_1_1_partition_b1
+  - rule_id: R_5_1_1_b2_8
+    source_clause: GB 50222-2017#5.1.1
+    mapping_refs:
+    - mb_gb50222_5_1_1_partition_b2
+    parameter_refs:
+    - p_gb50222_5_1_1_partition_b2
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcWall
+      - path: object.predefined_type
+        op: eq
+        value: PARTITION
+      - path: object.space.usage
+        op: in
+        value:
+        - 教学场所、教学实验场所
+        - 其他公共场所
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#5.1.1 隔断装修材料（表5.1.1 序号 9_16，B2 级下限）：FlammabilityRating = ['A', 'B1', 'B2'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_WallCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_5_1_1_partition_b2
+  - rule_id: R_5_1_1_b1_9
+    source_clause: GB 50222-2017#5.1.1
+    mapping_refs:
+    - mb_gb50222_5_1_1_furniture_b1
+    parameter_refs:
+    - p_gb50222_5_1_1_furniture_b1
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcFurniture
+      - path: object.space.usage
+        op: in
+        value:
+        - 候机楼的候机大厅、贵宾候机室、售票厅、商店、餐饮场所等
+        - 歌舞娱乐游艺场所
+        - A、B级电子信息系统机房及装有重要机器、仪器的房间
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#5.1.1 固定家具装修材料（表5.1.1 序号 1_12_13，B1 级下限）：燃烧性能等级 = ['A', 'B1'] 之外（不满足值域）
+      check:
+        path: object.pset[GB_装修防火].燃烧性能等级
+        op: in
+        parameter_ref: p_gb50222_5_1_1_furniture_b1
+  - rule_id: R_5_1_1_b2_10
+    source_clause: GB 50222-2017#5.1.1
+    mapping_refs:
+    - mb_gb50222_5_1_1_furniture_b2
+    parameter_refs:
+    - p_gb50222_5_1_1_furniture_b2
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcFurniture
+      - path: object.space.usage
+        op: in
+        value:
+        - 养老院、托儿所、幼儿园的居住及活动场所
+        - 医院的病房区、诊疗区、手术区
+        - 教学场所、教学实验场所
+        - 纪念馆、展览馆、博物馆、图书馆、档案馆、资料馆等的公众活动场所
+        - 存放文物、纪念展览物品、重要图书、档案、资料的场所
+        - 其他公共场所
+        - 住宅
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#5.1.1 固定家具装修材料（表5.1.1 序号 7_8_9_10_11_16_17，B2 级下限）：燃烧性能等级 = ['A', 'B1', 'B2'] 之外（不满足值域）
+      check:
+        path: object.pset[GB_装修防火].燃烧性能等级
+        op: in
+        parameter_ref: p_gb50222_5_1_1_furniture_b2
   conflicts: []
 - id: GB 50222-2017#5.1.2
   standard_code: GB 50222-2017
@@ -1788,11 +4063,18 @@ clauses:
   converted_tables: []
   references: []
   related_objects:
+    binding_level: element
     component_types:
     - IfcCovering
-    - IfcWall
-    - IfcCeiling
-    - IfcDoor
+    model_bindings:
+    - id: mb_gb50222_5_1_2_relax_cond
+      role: 表5.1.1 降级适用（条件不可机检）
+      ifc_entity: IfcCovering
+      predefined_type: CEILING
+      mapping_status: needs_expert_review
+      confidence: low
+      property_requirements: []
+      rationale: 降级条件：单层/多层民用建筑内面积<100㎡ 的房间 + 2.00h 防火隔墙 + 甲级防火门窗；且排除第4章场所与表5.1.1 序号 11~13。 上述条件依赖建筑面积/防火隔墙耐火极限/门窗等级/自动灭火与火灾报警系统配置——v1 引擎无对应 DSL 关系路径，不编译为规则；**按基准表 5.1.1 从严执行**（不放宽即安全侧，不会产生不安全的降级放行）。基准值域见 5.1.1 展开绑定。
     activity_types:
     - 内部装修防火设计
   conflicts: []
@@ -1829,11 +4111,18 @@ clauses:
   converted_tables: []
   references: []
   related_objects:
+    binding_level: element
     component_types:
     - IfcCovering
-    - IfcWall
-    - IfcCeiling
-    - IfcDoor
+    model_bindings:
+    - id: mb_gb50222_5_1_3_relax_cond
+      role: 表5.1.1 降级适用（条件不可机检）
+      ifc_entity: IfcCovering
+      predefined_type: CEILING
+      mapping_status: needs_expert_review
+      confidence: low
+      property_requirements: []
+      rationale: 降级条件：单层/多层民用建筑内设自动灭火系统（除顶棚可降一级）；同时设火灾自动报警+自动灭火（全部位可降一级）。排除第4章场所与表5.1.1 序号 11~13。 上述条件依赖建筑面积/防火隔墙耐火极限/门窗等级/自动灭火与火灾报警系统配置——v1 引擎无对应 DSL 关系路径，不编译为规则；**按基准表 5.1.1 从严执行**（不放宽即安全侧，不会产生不安全的降级放行）。基准值域见 5.1.1 展开绑定。
     activity_types:
     - 内部装修防火设计
   conflicts: []
@@ -1862,7 +4151,125 @@ clauses:
     is_mandatory_clause: true
     mandatory_basis: 黑体强制性条文
     constraint_items: []
-  parameters: []
+  parameters:
+  - id: p_gb50222_5_2_1_ceiling_a
+    name: 表5.2.1 顶棚装修材料燃烧性能等级（A 级下限）
+    operator: in
+    value:
+    - A
+    unit: null
+    ifc_binding:
+      target: element
+      pset: Pset_CoveringCommon
+      property: FlammabilityRating
+      classification: GB8624
+    note: 表5.2.1「顶棚」列取 A 的场所（序号 1_6_7_8_10_11_12_13_16_17）；条文『不应低于』→ 值域 in ['A']。
+  - id: p_gb50222_5_2_1_cladding_a
+    name: 表5.2.1 墙面装修材料燃烧性能等级（A 级下限）
+    operator: in
+    value:
+    - A
+    unit: null
+    ifc_binding:
+      target: element
+      pset: Pset_CoveringCommon
+      property: FlammabilityRating
+      classification: GB8624
+    note: 表5.2.1「墙面」列取 A 的场所（序号 1_6_7_10_12）；条文『不应低于』→ 值域 in ['A']。
+  - id: p_gb50222_5_2_1_cladding_b1
+    name: 表5.2.1 墙面装修材料燃烧性能等级（B1 级下限）
+    operator: in
+    value:
+    - A
+    - B1
+    unit: null
+    ifc_binding:
+      target: element
+      pset: Pset_CoveringCommon
+      property: FlammabilityRating
+      classification: GB8624
+    note: 表5.2.1「墙面」列取 B1 的场所（序号 8_11_13_16_17）；条文『不应低于』→ 值域 in ['A', 'B1']。
+  - id: p_gb50222_5_2_1_flooring_b1
+    name: 表5.2.1 地面装修材料燃烧性能等级（B1 级下限）
+    operator: in
+    value:
+    - A
+    - B1
+    unit: null
+    ifc_binding:
+      target: element
+      pset: Pset_CoveringCommon
+      property: FlammabilityRating
+      classification: GB8624
+    note: 表5.2.1「地面」列取 B1 的场所（序号 1_6_7_10_11_12_13_16_17）；条文『不应低于』→ 值域 in ['A', 'B1']。
+  - id: p_gb50222_5_2_1_flooring_b2
+    name: 表5.2.1 地面装修材料燃烧性能等级（B2 级下限）
+    operator: in
+    value:
+    - A
+    - B1
+    - B2
+    unit: null
+    ifc_binding:
+      target: element
+      pset: Pset_CoveringCommon
+      property: FlammabilityRating
+      classification: GB8624
+    note: 表5.2.1「地面」列取 B2 的场所（序号 8）；条文『不应低于』→ 值域 in ['A', 'B1', 'B2']。
+  - id: p_gb50222_5_2_1_partition_b1
+    name: 表5.2.1 隔断装修材料燃烧性能等级（B1 级下限）
+    operator: in
+    value:
+    - A
+    - B1
+    unit: null
+    ifc_binding:
+      target: element
+      pset: Pset_WallCommon
+      property: FlammabilityRating
+      classification: GB8624
+    note: 表5.2.1「隔断」列取 B1 的场所（序号 1_6_7_10_11_12_13_16_17）；条文『不应低于』→ 值域 in ['A', 'B1']。
+  - id: p_gb50222_5_2_1_partition_b2
+    name: 表5.2.1 隔断装修材料燃烧性能等级（B2 级下限）
+    operator: in
+    value:
+    - A
+    - B1
+    - B2
+    unit: null
+    ifc_binding:
+      target: element
+      pset: Pset_WallCommon
+      property: FlammabilityRating
+      classification: GB8624
+    note: 表5.2.1「隔断」列取 B2 的场所（序号 8）；条文『不应低于』→ 值域 in ['A', 'B1', 'B2']。
+  - id: p_gb50222_5_2_1_furniture_b1
+    name: 表5.2.1 固定家具装修材料燃烧性能等级（B1 级下限）
+    operator: in
+    value:
+    - A
+    - B1
+    unit: null
+    ifc_binding:
+      target: element
+      pset: GB_装修防火
+      property: 燃烧性能等级
+      classification: GB8624
+    note: 表5.2.1「固定家具」列取 B1 的场所（序号 1_11_12）；条文『不应低于』→ 值域 in ['A', 'B1']。
+  - id: p_gb50222_5_2_1_furniture_b2
+    name: 表5.2.1 固定家具装修材料燃烧性能等级（B2 级下限）
+    operator: in
+    value:
+    - A
+    - B1
+    - B2
+    unit: null
+    ifc_binding:
+      target: element
+      pset: GB_装修防火
+      property: 燃烧性能等级
+      classification: GB8624
+    note: 表5.2.1「固定家具」列取 B2 的场所（序号 6_7_8_10_13_16_17）；条文『不应低于』→ 值域 in ['A', 'B1', 'B2']。
   tables:
   - id: 表5.2.1
     type: parameter_table
@@ -2197,13 +4604,493 @@ clauses:
   converted_tables: []
   references: []
   related_objects:
+    binding_level: element
     component_types:
     - IfcCovering
     - IfcWall
-    - IfcCeiling
-    - IfcDoor
+    - IfcFurniture
+    model_bindings:
+    - id: mb_gb50222_5_2_1_ceiling_a
+      role: 顶棚装修材料（表5.2.1 序号 1_6_7_8_10_11_12_13_16_17，A 级下限）
+      ifc_entity: IfcCovering
+      predefined_type: CEILING
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 候机楼的候机大厅、贵宾候机室、售票厅、商店、餐饮场所等
+        - 养老院、托儿所、幼儿园的居住及活动场所
+        - 医院的病房区、诊疗区、手术区
+        - 教学场所、教学实验场所
+        - 存放文物、纪念展览物品、重要图书、档案、资料的场所
+        - 歌舞娱乐游艺场所
+        - A、B级电子信息系统机房及装有重要机器、仪器的房间
+        - 餐饮场所
+        - 其他公共场所
+        - 住宅
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_5_2_1_ceiling_a
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: high
+      rationale: 表5.2.1 逐格展开（行→space_context、列→predefined_type）：顶棚 列取 A 的场所 共 10 个（序号 1_6_7_8_10_11_12_13_16_17）合并为一条绑定；『不应低于』编译为 in ['A']。
+    - id: mb_gb50222_5_2_1_cladding_a
+      role: 墙面装修材料（表5.2.1 序号 1_6_7_10_12，A 级下限）
+      ifc_entity: IfcCovering
+      predefined_type: CLADDING
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 候机楼的候机大厅、贵宾候机室、售票厅、商店、餐饮场所等
+        - 养老院、托儿所、幼儿园的居住及活动场所
+        - 医院的病房区、诊疗区、手术区
+        - 存放文物、纪念展览物品、重要图书、档案、资料的场所
+        - A、B级电子信息系统机房及装有重要机器、仪器的房间
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_5_2_1_cladding_a
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: high
+      rationale: 表5.2.1 逐格展开（行→space_context、列→predefined_type）：墙面 列取 A 的场所 共 5 个（序号 1_6_7_10_12）合并为一条绑定；『不应低于』编译为 in ['A']。
+    - id: mb_gb50222_5_2_1_cladding_b1
+      role: 墙面装修材料（表5.2.1 序号 8_11_13_16_17，B1 级下限）
+      ifc_entity: IfcCovering
+      predefined_type: CLADDING
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 教学场所、教学实验场所
+        - 歌舞娱乐游艺场所
+        - 餐饮场所
+        - 其他公共场所
+        - 住宅
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_5_2_1_cladding_b1
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: high
+      rationale: 表5.2.1 逐格展开（行→space_context、列→predefined_type）：墙面 列取 B1 的场所 共 5 个（序号 8_11_13_16_17）合并为一条绑定；『不应低于』编译为 in ['A', 'B1']。
+    - id: mb_gb50222_5_2_1_flooring_b1
+      role: 地面装修材料（表5.2.1 序号 1_6_7_10_11_12_13_16_17，B1 级下限）
+      ifc_entity: IfcCovering
+      predefined_type: FLOORING
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 候机楼的候机大厅、贵宾候机室、售票厅、商店、餐饮场所等
+        - 养老院、托儿所、幼儿园的居住及活动场所
+        - 医院的病房区、诊疗区、手术区
+        - 存放文物、纪念展览物品、重要图书、档案、资料的场所
+        - 歌舞娱乐游艺场所
+        - A、B级电子信息系统机房及装有重要机器、仪器的房间
+        - 餐饮场所
+        - 其他公共场所
+        - 住宅
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_5_2_1_flooring_b1
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: high
+      rationale: 表5.2.1 逐格展开（行→space_context、列→predefined_type）：地面 列取 B1 的场所 共 9 个（序号 1_6_7_10_11_12_13_16_17）合并为一条绑定；『不应低于』编译为 in ['A', 'B1']。
+    - id: mb_gb50222_5_2_1_flooring_b2
+      role: 地面装修材料（表5.2.1 序号 8，B2 级下限）
+      ifc_entity: IfcCovering
+      predefined_type: FLOORING
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 教学场所、教学实验场所
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_5_2_1_flooring_b2
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: high
+      rationale: 表5.2.1 逐格展开（行→space_context、列→predefined_type）：地面 列取 B2 的场所 共 1 个（序号 8）合并为一条绑定；『不应低于』编译为 in ['A', 'B1', 'B2']。
+    - id: mb_gb50222_5_2_1_partition_b1
+      role: 隔断装修材料（表5.2.1 序号 1_6_7_10_11_12_13_16_17，B1 级下限）
+      ifc_entity: IfcWall
+      predefined_type: PARTITION
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 候机楼的候机大厅、贵宾候机室、售票厅、商店、餐饮场所等
+        - 养老院、托儿所、幼儿园的居住及活动场所
+        - 医院的病房区、诊疗区、手术区
+        - 存放文物、纪念展览物品、重要图书、档案、资料的场所
+        - 歌舞娱乐游艺场所
+        - A、B级电子信息系统机房及装有重要机器、仪器的房间
+        - 餐饮场所
+        - 其他公共场所
+        - 住宅
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_5_2_1_partition_b1
+        pset: Pset_WallCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: high
+      rationale: 表5.2.1 逐格展开（行→space_context、列→predefined_type）：隔断 列取 B1 的场所 共 9 个（序号 1_6_7_10_11_12_13_16_17）合并为一条绑定；『不应低于』编译为 in ['A', 'B1']。
+    - id: mb_gb50222_5_2_1_partition_b2
+      role: 隔断装修材料（表5.2.1 序号 8，B2 级下限）
+      ifc_entity: IfcWall
+      predefined_type: PARTITION
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 教学场所、教学实验场所
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_5_2_1_partition_b2
+        pset: Pset_WallCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: high
+      rationale: 表5.2.1 逐格展开（行→space_context、列→predefined_type）：隔断 列取 B2 的场所 共 1 个（序号 8）合并为一条绑定；『不应低于』编译为 in ['A', 'B1', 'B2']。
+    - id: mb_gb50222_5_2_1_furniture_b1
+      role: 固定家具装修材料（表5.2.1 序号 1_11_12，B1 级下限）
+      ifc_entity: IfcFurniture
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 候机楼的候机大厅、贵宾候机室、售票厅、商店、餐饮场所等
+        - 歌舞娱乐游艺场所
+        - A、B级电子信息系统机房及装有重要机器、仪器的房间
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_5_2_1_furniture_b1
+        pset: GB_装修防火
+        property: 燃烧性能等级
+      mapping_status: reviewed
+      confidence: high
+      rationale: 表5.2.1 逐格展开（行→space_context、列→predefined_type）：固定家具 列取 B1 的场所 共 3 个（序号 1_11_12）合并为一条绑定；『不应低于』编译为 in ['A', 'B1']。
+    - id: mb_gb50222_5_2_1_furniture_b2
+      role: 固定家具装修材料（表5.2.1 序号 6_7_8_10_13_16_17，B2 级下限）
+      ifc_entity: IfcFurniture
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 养老院、托儿所、幼儿园的居住及活动场所
+        - 医院的病房区、诊疗区、手术区
+        - 教学场所、教学实验场所
+        - 存放文物、纪念展览物品、重要图书、档案、资料的场所
+        - 餐饮场所
+        - 其他公共场所
+        - 住宅
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_5_2_1_furniture_b2
+        pset: GB_装修防火
+        property: 燃烧性能等级
+      mapping_status: reviewed
+      confidence: high
+      rationale: 表5.2.1 逐格展开（行→space_context、列→predefined_type）：固定家具 列取 B2 的场所 共 7 个（序号 6_7_8_10_13_16_17）合并为一条绑定；『不应低于』编译为 in ['A', 'B1', 'B2']。
+    - id: mb_gb50222_5_2_1_cond_rows
+      role: 受建筑规模/性质约束的行（表5.2.1 序号 2、3、4、5、9、14、15）
+      ifc_entity: IfcCovering
+      predefined_type: CEILING
+      mapping_status: needs_expert_review
+      confidence: low
+      property_requirements: []
+      rationale: 该等行的要求随『建筑规模、性质』分档（取值：一类建筑、二类建筑、建筑面积>10000㎡、建筑面积≤10000㎡、每个厅建筑面积>400㎡、每个厅建筑面积≤400㎡、每层建筑面积>1500㎡或总建筑面积>3000㎡、每层建筑面积≤1500㎡或总建筑面积≤3000㎡）——建筑面积/座位数/建筑分类/系统配置等条件 IFC 无法承载，v1 引擎无对应 DSL → 不编译为规则，转人工按项目实际档次取值；本体条文值域见正本表 5.2.1。
     activity_types:
     - 内部装修防火设计
+  executable_rules:
+  - rule_id: R_5_2_1_a_1
+    source_clause: GB 50222-2017#5.2.1
+    mapping_refs:
+    - mb_gb50222_5_2_1_ceiling_a
+    parameter_refs:
+    - p_gb50222_5_2_1_ceiling_a
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcCovering
+      - path: object.predefined_type
+        op: eq
+        value: CEILING
+      - path: object.space.usage
+        op: in
+        value:
+        - 候机楼的候机大厅、贵宾候机室、售票厅、商店、餐饮场所等
+        - 养老院、托儿所、幼儿园的居住及活动场所
+        - 医院的病房区、诊疗区、手术区
+        - 教学场所、教学实验场所
+        - 存放文物、纪念展览物品、重要图书、档案、资料的场所
+        - 歌舞娱乐游艺场所
+        - A、B级电子信息系统机房及装有重要机器、仪器的房间
+        - 餐饮场所
+        - 其他公共场所
+        - 住宅
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#5.2.1 顶棚装修材料（表5.2.1 序号 1_6_7_8_10_11_12_13_16_17，A 级下限）：FlammabilityRating = ['A'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_CoveringCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_5_2_1_ceiling_a
+  - rule_id: R_5_2_1_a_2
+    source_clause: GB 50222-2017#5.2.1
+    mapping_refs:
+    - mb_gb50222_5_2_1_cladding_a
+    parameter_refs:
+    - p_gb50222_5_2_1_cladding_a
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcCovering
+      - path: object.predefined_type
+        op: eq
+        value: CLADDING
+      - path: object.space.usage
+        op: in
+        value:
+        - 候机楼的候机大厅、贵宾候机室、售票厅、商店、餐饮场所等
+        - 养老院、托儿所、幼儿园的居住及活动场所
+        - 医院的病房区、诊疗区、手术区
+        - 存放文物、纪念展览物品、重要图书、档案、资料的场所
+        - A、B级电子信息系统机房及装有重要机器、仪器的房间
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#5.2.1 墙面装修材料（表5.2.1 序号 1_6_7_10_12，A 级下限）：FlammabilityRating = ['A'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_CoveringCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_5_2_1_cladding_a
+  - rule_id: R_5_2_1_b1_3
+    source_clause: GB 50222-2017#5.2.1
+    mapping_refs:
+    - mb_gb50222_5_2_1_cladding_b1
+    parameter_refs:
+    - p_gb50222_5_2_1_cladding_b1
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcCovering
+      - path: object.predefined_type
+        op: eq
+        value: CLADDING
+      - path: object.space.usage
+        op: in
+        value:
+        - 教学场所、教学实验场所
+        - 歌舞娱乐游艺场所
+        - 餐饮场所
+        - 其他公共场所
+        - 住宅
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#5.2.1 墙面装修材料（表5.2.1 序号 8_11_13_16_17，B1 级下限）：FlammabilityRating = ['A', 'B1'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_CoveringCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_5_2_1_cladding_b1
+  - rule_id: R_5_2_1_b1_4
+    source_clause: GB 50222-2017#5.2.1
+    mapping_refs:
+    - mb_gb50222_5_2_1_flooring_b1
+    parameter_refs:
+    - p_gb50222_5_2_1_flooring_b1
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcCovering
+      - path: object.predefined_type
+        op: eq
+        value: FLOORING
+      - path: object.space.usage
+        op: in
+        value:
+        - 候机楼的候机大厅、贵宾候机室、售票厅、商店、餐饮场所等
+        - 养老院、托儿所、幼儿园的居住及活动场所
+        - 医院的病房区、诊疗区、手术区
+        - 存放文物、纪念展览物品、重要图书、档案、资料的场所
+        - 歌舞娱乐游艺场所
+        - A、B级电子信息系统机房及装有重要机器、仪器的房间
+        - 餐饮场所
+        - 其他公共场所
+        - 住宅
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#5.2.1 地面装修材料（表5.2.1 序号 1_6_7_10_11_12_13_16_17，B1 级下限）：FlammabilityRating = ['A', 'B1'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_CoveringCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_5_2_1_flooring_b1
+  - rule_id: R_5_2_1_b2_5
+    source_clause: GB 50222-2017#5.2.1
+    mapping_refs:
+    - mb_gb50222_5_2_1_flooring_b2
+    parameter_refs:
+    - p_gb50222_5_2_1_flooring_b2
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcCovering
+      - path: object.predefined_type
+        op: eq
+        value: FLOORING
+      - path: object.space.usage
+        op: in
+        value:
+        - 教学场所、教学实验场所
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#5.2.1 地面装修材料（表5.2.1 序号 8，B2 级下限）：FlammabilityRating = ['A', 'B1', 'B2'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_CoveringCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_5_2_1_flooring_b2
+  - rule_id: R_5_2_1_b1_6
+    source_clause: GB 50222-2017#5.2.1
+    mapping_refs:
+    - mb_gb50222_5_2_1_partition_b1
+    parameter_refs:
+    - p_gb50222_5_2_1_partition_b1
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcWall
+      - path: object.predefined_type
+        op: eq
+        value: PARTITION
+      - path: object.space.usage
+        op: in
+        value:
+        - 候机楼的候机大厅、贵宾候机室、售票厅、商店、餐饮场所等
+        - 养老院、托儿所、幼儿园的居住及活动场所
+        - 医院的病房区、诊疗区、手术区
+        - 存放文物、纪念展览物品、重要图书、档案、资料的场所
+        - 歌舞娱乐游艺场所
+        - A、B级电子信息系统机房及装有重要机器、仪器的房间
+        - 餐饮场所
+        - 其他公共场所
+        - 住宅
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#5.2.1 隔断装修材料（表5.2.1 序号 1_6_7_10_11_12_13_16_17，B1 级下限）：FlammabilityRating = ['A', 'B1'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_WallCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_5_2_1_partition_b1
+  - rule_id: R_5_2_1_b2_7
+    source_clause: GB 50222-2017#5.2.1
+    mapping_refs:
+    - mb_gb50222_5_2_1_partition_b2
+    parameter_refs:
+    - p_gb50222_5_2_1_partition_b2
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcWall
+      - path: object.predefined_type
+        op: eq
+        value: PARTITION
+      - path: object.space.usage
+        op: in
+        value:
+        - 教学场所、教学实验场所
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#5.2.1 隔断装修材料（表5.2.1 序号 8，B2 级下限）：FlammabilityRating = ['A', 'B1', 'B2'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_WallCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_5_2_1_partition_b2
+  - rule_id: R_5_2_1_b1_8
+    source_clause: GB 50222-2017#5.2.1
+    mapping_refs:
+    - mb_gb50222_5_2_1_furniture_b1
+    parameter_refs:
+    - p_gb50222_5_2_1_furniture_b1
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcFurniture
+      - path: object.space.usage
+        op: in
+        value:
+        - 候机楼的候机大厅、贵宾候机室、售票厅、商店、餐饮场所等
+        - 歌舞娱乐游艺场所
+        - A、B级电子信息系统机房及装有重要机器、仪器的房间
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#5.2.1 固定家具装修材料（表5.2.1 序号 1_11_12，B1 级下限）：燃烧性能等级 = ['A', 'B1'] 之外（不满足值域）
+      check:
+        path: object.pset[GB_装修防火].燃烧性能等级
+        op: in
+        parameter_ref: p_gb50222_5_2_1_furniture_b1
+  - rule_id: R_5_2_1_b2_9
+    source_clause: GB 50222-2017#5.2.1
+    mapping_refs:
+    - mb_gb50222_5_2_1_furniture_b2
+    parameter_refs:
+    - p_gb50222_5_2_1_furniture_b2
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcFurniture
+      - path: object.space.usage
+        op: in
+        value:
+        - 养老院、托儿所、幼儿园的居住及活动场所
+        - 医院的病房区、诊疗区、手术区
+        - 教学场所、教学实验场所
+        - 存放文物、纪念展览物品、重要图书、档案、资料的场所
+        - 餐饮场所
+        - 其他公共场所
+        - 住宅
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#5.2.1 固定家具装修材料（表5.2.1 序号 6_7_8_10_13_16_17，B2 级下限）：燃烧性能等级 = ['A', 'B1', 'B2'] 之外（不满足值域）
+      check:
+        path: object.pset[GB_装修防火].燃烧性能等级
+        op: in
+        parameter_ref: p_gb50222_5_2_1_furniture_b2
   conflicts: []
 - id: GB 50222-2017#5.2.2
   standard_code: GB 50222-2017
@@ -2236,11 +5123,18 @@ clauses:
   converted_tables: []
   references: []
   related_objects:
+    binding_level: element
     component_types:
     - IfcCovering
-    - IfcWall
-    - IfcCeiling
-    - IfcDoor
+    model_bindings:
+    - id: mb_gb50222_5_2_2_relax_cond
+      role: 表5.2.1 降级适用（条件不可机检）
+      ifc_entity: IfcCovering
+      predefined_type: CEILING
+      mapping_status: needs_expert_review
+      confidence: low
+      property_requirements: []
+      rationale: 降级条件：高层民用建筑裙房内面积<500㎡ 房间 + 自动灭火系统 + 2.00h 防火隔墙 + 甲级门窗；限顶棚/墙面/地面；排除第4章场所与表5.2.1 序号 10~12。 上述条件依赖建筑面积/防火隔墙耐火极限/门窗等级/自动灭火与火灾报警系统配置——v1 引擎无对应 DSL 关系路径，不编译为规则；**按基准表 5.2.1 从严执行**（不放宽即安全侧，不会产生不安全的降级放行）。基准值域见 5.2.1 展开绑定。
     activity_types:
     - 内部装修防火设计
   conflicts: []
@@ -2277,11 +5171,18 @@ clauses:
   converted_tables: []
   references: []
   related_objects:
+    binding_level: element
     component_types:
     - IfcCovering
-    - IfcWall
-    - IfcCeiling
-    - IfcDoor
+    model_bindings:
+    - id: mb_gb50222_5_2_3_relax_cond
+      role: 表5.2.1 降级适用（条件不可机检）
+      ifc_entity: IfcCovering
+      predefined_type: CEILING
+      mapping_status: needs_expert_review
+      confidence: low
+      property_requirements: []
+      rationale: 降级条件：设火灾自动报警+自动灭火系统（除顶棚外可降一级）；且排除第4章场所、表5.2.1 序号 10~12、>400㎡ 观众厅/会议厅、100m 以上高层。 上述条件依赖建筑面积/防火隔墙耐火极限/门窗等级/自动灭火与火灾报警系统配置——v1 引擎无对应 DSL 关系路径，不编译为规则；**按基准表 5.2.1 从严执行**（不放宽即安全侧，不会产生不安全的降级放行）。基准值域见 5.2.1 展开绑定。
     activity_types:
     - 内部装修防火设计
   conflicts: []
@@ -2311,16 +5212,72 @@ clauses:
     is_mandatory_clause: false
     mandatory_basis: null
     constraint_items: []
-  parameters: []
+  parameters:
+  - id: p_gb50222_5_2_4_a
+    name: 电视塔等特殊高层建筑装修材料燃烧性能等级
+    operator: in
+    value:
+    - A
+    unit: null
+    ifc_binding:
+      target: element
+      pset: Pset_CoveringCommon
+      property: FlammabilityRating
+      classification: GB8624
+    note: 「其他均应采用 A 级」——装饰织物不低于 B1 的部分因 IFC 无装饰织物实体，参数另记（见下）。
+  - id: p_gb50222_5_2_4_decor
+    name: 电视塔等特殊高层建筑装饰织物燃烧性能等级
+    operator: in
+    value:
+    - A
+    - B1
+    unit: null
+    ifc_binding:
+      target: material
+      path: 材料级分类（material_channels.material_classification）
+      classification: GB8624
+    note: 装饰织物（窗帘/帷幕等）无 IFC 构件实体，仅保留参数供材料级消费。
   tables: []
   converted_tables: []
   references: []
   related_objects:
+    binding_level: element
     component_types:
     - IfcCovering
-    - IfcWall
-    - IfcCeiling
-    - IfcDoor
+    model_bindings:
+    - id: mb_gb50222_5_2_4_ceiling
+      role: 特殊高层建筑顶棚
+      ifc_entity: IfcCovering
+      predefined_type: CEILING
+      property_requirements:
+      - parameter_ref: p_gb50222_5_2_4_a
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: needs_expert_review
+      confidence: low
+      rationale: 『电视塔等特殊高层建筑』为建筑类型属性（IFC 无标准建筑类型枚举可判定）→ 条件不可机检，降级人工/建筑级属性；参数保留 A 级。
+    - id: mb_gb50222_5_2_4_wall
+      role: 特殊高层建筑墙面
+      ifc_entity: IfcCovering
+      predefined_type: CLADDING
+      property_requirements:
+      - parameter_ref: p_gb50222_5_2_4_a
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: needs_expert_review
+      confidence: low
+      rationale: 同条墙面分项，降级原因同上。
+    - id: mb_gb50222_5_2_4_floor
+      role: 特殊高层建筑地面
+      ifc_entity: IfcCovering
+      predefined_type: FLOORING
+      property_requirements:
+      - parameter_ref: p_gb50222_5_2_4_a
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: needs_expert_review
+      confidence: low
+      rationale: 同条地面分项，降级原因同上。
     activity_types:
     - 内部装修防火设计
   conflicts: []
@@ -2349,7 +5306,147 @@ clauses:
     is_mandatory_clause: true
     mandatory_basis: 黑体强制性条文
     constraint_items: []
-  parameters: []
+  parameters:
+  - id: p_gb50222_5_3_1_ceiling_a
+    name: 表5.3.1 顶棚装修材料燃烧性能等级（A 级下限）
+    operator: in
+    value:
+    - A
+    unit: null
+    ifc_binding:
+      target: element
+      pset: Pset_CoveringCommon
+      property: FlammabilityRating
+      classification: GB8624
+    note: 表5.3.1「顶棚」列取 A 的场所（序号 1_2_3_4_5_6_7_8_9_10_11_12）；条文『不应低于』→ 值域 in ['A']。
+  - id: p_gb50222_5_3_1_cladding_a
+    name: 表5.3.1 墙面装修材料燃烧性能等级（A 级下限）
+    operator: in
+    value:
+    - A
+    unit: null
+    ifc_binding:
+      target: element
+      pset: Pset_CoveringCommon
+      property: FlammabilityRating
+      classification: GB8624
+    note: 表5.3.1「墙面」列取 A 的场所（序号 1_3_4_5_6_7_8_9_12）；条文『不应低于』→ 值域 in ['A']。
+  - id: p_gb50222_5_3_1_cladding_b1
+    name: 表5.3.1 墙面装修材料燃烧性能等级（B1 级下限）
+    operator: in
+    value:
+    - A
+    - B1
+    unit: null
+    ifc_binding:
+      target: element
+      pset: Pset_CoveringCommon
+      property: FlammabilityRating
+      classification: GB8624
+    note: 表5.3.1「墙面」列取 B1 的场所（序号 2_10_11）；条文『不应低于』→ 值域 in ['A', 'B1']。
+  - id: p_gb50222_5_3_1_flooring_a
+    name: 表5.3.1 地面装修材料燃烧性能等级（A 级下限）
+    operator: in
+    value:
+    - A
+    unit: null
+    ifc_binding:
+      target: element
+      pset: Pset_CoveringCommon
+      property: FlammabilityRating
+      classification: GB8624
+    note: 表5.3.1「地面」列取 A 的场所（序号 1_6_9）；条文『不应低于』→ 值域 in ['A']。
+  - id: p_gb50222_5_3_1_flooring_b1
+    name: 表5.3.1 地面装修材料燃烧性能等级（B1 级下限）
+    operator: in
+    value:
+    - A
+    - B1
+    unit: null
+    ifc_binding:
+      target: element
+      pset: Pset_CoveringCommon
+      property: FlammabilityRating
+      classification: GB8624
+    note: 表5.3.1「地面」列取 B1 的场所（序号 2_3_4_5_7_8_10_11_12）；条文『不应低于』→ 值域 in ['A', 'B1']。
+  - id: p_gb50222_5_3_1_partition_a
+    name: 表5.3.1 隔断装修材料燃烧性能等级（A 级下限）
+    operator: in
+    value:
+    - A
+    unit: null
+    ifc_binding:
+      target: element
+      pset: Pset_WallCommon
+      property: FlammabilityRating
+      classification: GB8624
+    note: 表5.3.1「隔断」列取 A 的场所（序号 6_12）；条文『不应低于』→ 值域 in ['A']。
+  - id: p_gb50222_5_3_1_partition_b1
+    name: 表5.3.1 隔断装修材料燃烧性能等级（B1 级下限）
+    operator: in
+    value:
+    - A
+    - B1
+    unit: null
+    ifc_binding:
+      target: element
+      pset: Pset_WallCommon
+      property: FlammabilityRating
+      classification: GB8624
+    note: 表5.3.1「隔断」列取 B1 的场所（序号 1_2_3_5_7_8_9_10）；条文『不应低于』→ 值域 in ['A', 'B1']。
+  - id: p_gb50222_5_3_1_partition_b2
+    name: 表5.3.1 隔断装修材料燃烧性能等级（B2 级下限）
+    operator: in
+    value:
+    - A
+    - B1
+    - B2
+    unit: null
+    ifc_binding:
+      target: element
+      pset: Pset_WallCommon
+      property: FlammabilityRating
+      classification: GB8624
+    note: 表5.3.1「隔断」列取 B2 的场所（序号 4_11）；条文『不应低于』→ 值域 in ['A', 'B1', 'B2']。
+  - id: p_gb50222_5_3_1_furniture_a
+    name: 表5.3.1 固定家具装修材料燃烧性能等级（A 级下限）
+    operator: in
+    value:
+    - A
+    unit: null
+    ifc_binding:
+      target: element
+      pset: GB_装修防火
+      property: 燃烧性能等级
+      classification: GB8624
+    note: 表5.3.1「固定家具」列取 A 的场所（序号 6_12）；条文『不应低于』→ 值域 in ['A']。
+  - id: p_gb50222_5_3_1_furniture_b1
+    name: 表5.3.1 固定家具装修材料燃烧性能等级（B1 级下限）
+    operator: in
+    value:
+    - A
+    - B1
+    unit: null
+    ifc_binding:
+      target: element
+      pset: GB_装修防火
+      property: 燃烧性能等级
+      classification: GB8624
+    note: 表5.3.1「固定家具」列取 B1 的场所（序号 1_2_3_5_7_8_9_10）；条文『不应低于』→ 值域 in ['A', 'B1']。
+  - id: p_gb50222_5_3_1_furniture_b2
+    name: 表5.3.1 固定家具装修材料燃烧性能等级（B2 级下限）
+    operator: in
+    value:
+    - A
+    - B1
+    - B2
+    unit: null
+    ifc_binding:
+      target: element
+      pset: GB_装修防火
+      property: 燃烧性能等级
+      classification: GB8624
+    note: 表5.3.1「固定家具」列取 B2 的场所（序号 4_11）；条文『不应低于』→ 值域 in ['A', 'B1', 'B2']。
   tables:
   - id: 表5.3.1
     type: parameter_table
@@ -2476,13 +5573,585 @@ clauses:
   converted_tables: []
   references: []
   related_objects:
+    binding_level: element
     component_types:
     - IfcCovering
     - IfcWall
-    - IfcCeiling
-    - IfcDoor
+    - IfcFurniture
+    model_bindings:
+    - id: mb_gb50222_5_3_1_ceiling_a
+      role: 顶棚装修材料（表5.3.1 序号 1_2_3_4_5_6_7_8_9_10_11_12，A 级下限）
+      ifc_entity: IfcCovering
+      predefined_type: CEILING
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 观众厅、会议厅、多功能厅、等候厅等，商店的营业厅
+        - 宾馆、饭店的客房及公共活动用房等
+        - 医院的诊疗区、手术区
+        - 教学场所、教学实验场所
+        - 纪念馆、展览馆、博物馆、图书馆、档案馆、资料馆等的公众活动场所
+        - 存放文物、纪念展览物品、重要图书、档案、资料的场所
+        - 歌舞娱乐游艺场所
+        - A、B级电子信息系统机房及装有重要机器、仪器的房间
+        - 餐饮场所
+        - 办公场所
+        - 其他公共场所
+        - 汽车库、修车库
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_5_3_1_ceiling_a
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: high
+      rationale: 表5.3.1 逐格展开（行→space_context、列→predefined_type）：顶棚 列取 A 的场所 共 12 个（序号 1_2_3_4_5_6_7_8_9_10_11_12）合并为一条绑定；『不应低于』编译为 in ['A']。
+    - id: mb_gb50222_5_3_1_cladding_a
+      role: 墙面装修材料（表5.3.1 序号 1_3_4_5_6_7_8_9_12，A 级下限）
+      ifc_entity: IfcCovering
+      predefined_type: CLADDING
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 观众厅、会议厅、多功能厅、等候厅等，商店的营业厅
+        - 医院的诊疗区、手术区
+        - 教学场所、教学实验场所
+        - 纪念馆、展览馆、博物馆、图书馆、档案馆、资料馆等的公众活动场所
+        - 存放文物、纪念展览物品、重要图书、档案、资料的场所
+        - 歌舞娱乐游艺场所
+        - A、B级电子信息系统机房及装有重要机器、仪器的房间
+        - 餐饮场所
+        - 汽车库、修车库
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_5_3_1_cladding_a
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: high
+      rationale: 表5.3.1 逐格展开（行→space_context、列→predefined_type）：墙面 列取 A 的场所 共 9 个（序号 1_3_4_5_6_7_8_9_12）合并为一条绑定；『不应低于』编译为 in ['A']。
+    - id: mb_gb50222_5_3_1_cladding_b1
+      role: 墙面装修材料（表5.3.1 序号 2_10_11，B1 级下限）
+      ifc_entity: IfcCovering
+      predefined_type: CLADDING
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 宾馆、饭店的客房及公共活动用房等
+        - 办公场所
+        - 其他公共场所
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_5_3_1_cladding_b1
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: high
+      rationale: 表5.3.1 逐格展开（行→space_context、列→predefined_type）：墙面 列取 B1 的场所 共 3 个（序号 2_10_11）合并为一条绑定；『不应低于』编译为 in ['A', 'B1']。
+    - id: mb_gb50222_5_3_1_flooring_a
+      role: 地面装修材料（表5.3.1 序号 1_6_9，A 级下限）
+      ifc_entity: IfcCovering
+      predefined_type: FLOORING
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 观众厅、会议厅、多功能厅、等候厅等，商店的营业厅
+        - 存放文物、纪念展览物品、重要图书、档案、资料的场所
+        - 餐饮场所
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_5_3_1_flooring_a
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: high
+      rationale: 表5.3.1 逐格展开（行→space_context、列→predefined_type）：地面 列取 A 的场所 共 3 个（序号 1_6_9）合并为一条绑定；『不应低于』编译为 in ['A']。
+    - id: mb_gb50222_5_3_1_flooring_b1
+      role: 地面装修材料（表5.3.1 序号 2_3_4_5_7_8_10_11_12，B1 级下限）
+      ifc_entity: IfcCovering
+      predefined_type: FLOORING
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 宾馆、饭店的客房及公共活动用房等
+        - 医院的诊疗区、手术区
+        - 教学场所、教学实验场所
+        - 纪念馆、展览馆、博物馆、图书馆、档案馆、资料馆等的公众活动场所
+        - 歌舞娱乐游艺场所
+        - A、B级电子信息系统机房及装有重要机器、仪器的房间
+        - 办公场所
+        - 其他公共场所
+        - 汽车库、修车库
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_5_3_1_flooring_b1
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: high
+      rationale: 表5.3.1 逐格展开（行→space_context、列→predefined_type）：地面 列取 B1 的场所 共 9 个（序号 2_3_4_5_7_8_10_11_12）合并为一条绑定；『不应低于』编译为 in ['A', 'B1']。
+    - id: mb_gb50222_5_3_1_partition_a
+      role: 隔断装修材料（表5.3.1 序号 6_12，A 级下限）
+      ifc_entity: IfcWall
+      predefined_type: PARTITION
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 存放文物、纪念展览物品、重要图书、档案、资料的场所
+        - 汽车库、修车库
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_5_3_1_partition_a
+        pset: Pset_WallCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: high
+      rationale: 表5.3.1 逐格展开（行→space_context、列→predefined_type）：隔断 列取 A 的场所 共 2 个（序号 6_12）合并为一条绑定；『不应低于』编译为 in ['A']。
+    - id: mb_gb50222_5_3_1_partition_b1
+      role: 隔断装修材料（表5.3.1 序号 1_2_3_5_7_8_9_10，B1 级下限）
+      ifc_entity: IfcWall
+      predefined_type: PARTITION
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 观众厅、会议厅、多功能厅、等候厅等，商店的营业厅
+        - 宾馆、饭店的客房及公共活动用房等
+        - 医院的诊疗区、手术区
+        - 纪念馆、展览馆、博物馆、图书馆、档案馆、资料馆等的公众活动场所
+        - 歌舞娱乐游艺场所
+        - A、B级电子信息系统机房及装有重要机器、仪器的房间
+        - 餐饮场所
+        - 办公场所
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_5_3_1_partition_b1
+        pset: Pset_WallCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: high
+      rationale: 表5.3.1 逐格展开（行→space_context、列→predefined_type）：隔断 列取 B1 的场所 共 8 个（序号 1_2_3_5_7_8_9_10）合并为一条绑定；『不应低于』编译为 in ['A', 'B1']。
+    - id: mb_gb50222_5_3_1_partition_b2
+      role: 隔断装修材料（表5.3.1 序号 4_11，B2 级下限）
+      ifc_entity: IfcWall
+      predefined_type: PARTITION
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 教学场所、教学实验场所
+        - 其他公共场所
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_5_3_1_partition_b2
+        pset: Pset_WallCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: high
+      rationale: 表5.3.1 逐格展开（行→space_context、列→predefined_type）：隔断 列取 B2 的场所 共 2 个（序号 4_11）合并为一条绑定；『不应低于』编译为 in ['A', 'B1', 'B2']。
+    - id: mb_gb50222_5_3_1_furniture_a
+      role: 固定家具装修材料（表5.3.1 序号 6_12，A 级下限）
+      ifc_entity: IfcFurniture
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 存放文物、纪念展览物品、重要图书、档案、资料的场所
+        - 汽车库、修车库
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_5_3_1_furniture_a
+        pset: GB_装修防火
+        property: 燃烧性能等级
+      mapping_status: reviewed
+      confidence: high
+      rationale: 表5.3.1 逐格展开（行→space_context、列→predefined_type）：固定家具 列取 A 的场所 共 2 个（序号 6_12）合并为一条绑定；『不应低于』编译为 in ['A']。
+    - id: mb_gb50222_5_3_1_furniture_b1
+      role: 固定家具装修材料（表5.3.1 序号 1_2_3_5_7_8_9_10，B1 级下限）
+      ifc_entity: IfcFurniture
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 观众厅、会议厅、多功能厅、等候厅等，商店的营业厅
+        - 宾馆、饭店的客房及公共活动用房等
+        - 医院的诊疗区、手术区
+        - 纪念馆、展览馆、博物馆、图书馆、档案馆、资料馆等的公众活动场所
+        - 歌舞娱乐游艺场所
+        - A、B级电子信息系统机房及装有重要机器、仪器的房间
+        - 餐饮场所
+        - 办公场所
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_5_3_1_furniture_b1
+        pset: GB_装修防火
+        property: 燃烧性能等级
+      mapping_status: reviewed
+      confidence: high
+      rationale: 表5.3.1 逐格展开（行→space_context、列→predefined_type）：固定家具 列取 B1 的场所 共 8 个（序号 1_2_3_5_7_8_9_10）合并为一条绑定；『不应低于』编译为 in ['A', 'B1']。
+    - id: mb_gb50222_5_3_1_furniture_b2
+      role: 固定家具装修材料（表5.3.1 序号 4_11，B2 级下限）
+      ifc_entity: IfcFurniture
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 教学场所、教学实验场所
+        - 其他公共场所
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_5_3_1_furniture_b2
+        pset: GB_装修防火
+        property: 燃烧性能等级
+      mapping_status: reviewed
+      confidence: high
+      rationale: 表5.3.1 逐格展开（行→space_context、列→predefined_type）：固定家具 列取 B2 的场所 共 2 个（序号 4_11）合并为一条绑定；『不应低于』编译为 in ['A', 'B1', 'B2']。
     activity_types:
     - 内部装修防火设计
+  executable_rules:
+  - rule_id: R_5_3_1_a_1
+    source_clause: GB 50222-2017#5.3.1
+    mapping_refs:
+    - mb_gb50222_5_3_1_ceiling_a
+    parameter_refs:
+    - p_gb50222_5_3_1_ceiling_a
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcCovering
+      - path: object.predefined_type
+        op: eq
+        value: CEILING
+      - path: object.space.usage
+        op: in
+        value:
+        - 观众厅、会议厅、多功能厅、等候厅等，商店的营业厅
+        - 宾馆、饭店的客房及公共活动用房等
+        - 医院的诊疗区、手术区
+        - 教学场所、教学实验场所
+        - 纪念馆、展览馆、博物馆、图书馆、档案馆、资料馆等的公众活动场所
+        - 存放文物、纪念展览物品、重要图书、档案、资料的场所
+        - 歌舞娱乐游艺场所
+        - A、B级电子信息系统机房及装有重要机器、仪器的房间
+        - 餐饮场所
+        - 办公场所
+        - 其他公共场所
+        - 汽车库、修车库
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#5.3.1 顶棚装修材料（表5.3.1 序号 1_2_3_4_5_6_7_8_9_10_11_12，A 级下限）：FlammabilityRating = ['A'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_CoveringCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_5_3_1_ceiling_a
+  - rule_id: R_5_3_1_a_2
+    source_clause: GB 50222-2017#5.3.1
+    mapping_refs:
+    - mb_gb50222_5_3_1_cladding_a
+    parameter_refs:
+    - p_gb50222_5_3_1_cladding_a
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcCovering
+      - path: object.predefined_type
+        op: eq
+        value: CLADDING
+      - path: object.space.usage
+        op: in
+        value:
+        - 观众厅、会议厅、多功能厅、等候厅等，商店的营业厅
+        - 医院的诊疗区、手术区
+        - 教学场所、教学实验场所
+        - 纪念馆、展览馆、博物馆、图书馆、档案馆、资料馆等的公众活动场所
+        - 存放文物、纪念展览物品、重要图书、档案、资料的场所
+        - 歌舞娱乐游艺场所
+        - A、B级电子信息系统机房及装有重要机器、仪器的房间
+        - 餐饮场所
+        - 汽车库、修车库
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#5.3.1 墙面装修材料（表5.3.1 序号 1_3_4_5_6_7_8_9_12，A 级下限）：FlammabilityRating = ['A'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_CoveringCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_5_3_1_cladding_a
+  - rule_id: R_5_3_1_b1_3
+    source_clause: GB 50222-2017#5.3.1
+    mapping_refs:
+    - mb_gb50222_5_3_1_cladding_b1
+    parameter_refs:
+    - p_gb50222_5_3_1_cladding_b1
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcCovering
+      - path: object.predefined_type
+        op: eq
+        value: CLADDING
+      - path: object.space.usage
+        op: in
+        value:
+        - 宾馆、饭店的客房及公共活动用房等
+        - 办公场所
+        - 其他公共场所
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#5.3.1 墙面装修材料（表5.3.1 序号 2_10_11，B1 级下限）：FlammabilityRating = ['A', 'B1'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_CoveringCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_5_3_1_cladding_b1
+  - rule_id: R_5_3_1_a_4
+    source_clause: GB 50222-2017#5.3.1
+    mapping_refs:
+    - mb_gb50222_5_3_1_flooring_a
+    parameter_refs:
+    - p_gb50222_5_3_1_flooring_a
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcCovering
+      - path: object.predefined_type
+        op: eq
+        value: FLOORING
+      - path: object.space.usage
+        op: in
+        value:
+        - 观众厅、会议厅、多功能厅、等候厅等，商店的营业厅
+        - 存放文物、纪念展览物品、重要图书、档案、资料的场所
+        - 餐饮场所
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#5.3.1 地面装修材料（表5.3.1 序号 1_6_9，A 级下限）：FlammabilityRating = ['A'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_CoveringCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_5_3_1_flooring_a
+  - rule_id: R_5_3_1_b1_5
+    source_clause: GB 50222-2017#5.3.1
+    mapping_refs:
+    - mb_gb50222_5_3_1_flooring_b1
+    parameter_refs:
+    - p_gb50222_5_3_1_flooring_b1
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcCovering
+      - path: object.predefined_type
+        op: eq
+        value: FLOORING
+      - path: object.space.usage
+        op: in
+        value:
+        - 宾馆、饭店的客房及公共活动用房等
+        - 医院的诊疗区、手术区
+        - 教学场所、教学实验场所
+        - 纪念馆、展览馆、博物馆、图书馆、档案馆、资料馆等的公众活动场所
+        - 歌舞娱乐游艺场所
+        - A、B级电子信息系统机房及装有重要机器、仪器的房间
+        - 办公场所
+        - 其他公共场所
+        - 汽车库、修车库
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#5.3.1 地面装修材料（表5.3.1 序号 2_3_4_5_7_8_10_11_12，B1 级下限）：FlammabilityRating = ['A', 'B1'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_CoveringCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_5_3_1_flooring_b1
+  - rule_id: R_5_3_1_a_6
+    source_clause: GB 50222-2017#5.3.1
+    mapping_refs:
+    - mb_gb50222_5_3_1_partition_a
+    parameter_refs:
+    - p_gb50222_5_3_1_partition_a
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcWall
+      - path: object.predefined_type
+        op: eq
+        value: PARTITION
+      - path: object.space.usage
+        op: in
+        value:
+        - 存放文物、纪念展览物品、重要图书、档案、资料的场所
+        - 汽车库、修车库
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#5.3.1 隔断装修材料（表5.3.1 序号 6_12，A 级下限）：FlammabilityRating = ['A'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_WallCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_5_3_1_partition_a
+  - rule_id: R_5_3_1_b1_7
+    source_clause: GB 50222-2017#5.3.1
+    mapping_refs:
+    - mb_gb50222_5_3_1_partition_b1
+    parameter_refs:
+    - p_gb50222_5_3_1_partition_b1
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcWall
+      - path: object.predefined_type
+        op: eq
+        value: PARTITION
+      - path: object.space.usage
+        op: in
+        value:
+        - 观众厅、会议厅、多功能厅、等候厅等，商店的营业厅
+        - 宾馆、饭店的客房及公共活动用房等
+        - 医院的诊疗区、手术区
+        - 纪念馆、展览馆、博物馆、图书馆、档案馆、资料馆等的公众活动场所
+        - 歌舞娱乐游艺场所
+        - A、B级电子信息系统机房及装有重要机器、仪器的房间
+        - 餐饮场所
+        - 办公场所
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#5.3.1 隔断装修材料（表5.3.1 序号 1_2_3_5_7_8_9_10，B1 级下限）：FlammabilityRating = ['A', 'B1'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_WallCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_5_3_1_partition_b1
+  - rule_id: R_5_3_1_b2_8
+    source_clause: GB 50222-2017#5.3.1
+    mapping_refs:
+    - mb_gb50222_5_3_1_partition_b2
+    parameter_refs:
+    - p_gb50222_5_3_1_partition_b2
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcWall
+      - path: object.predefined_type
+        op: eq
+        value: PARTITION
+      - path: object.space.usage
+        op: in
+        value:
+        - 教学场所、教学实验场所
+        - 其他公共场所
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#5.3.1 隔断装修材料（表5.3.1 序号 4_11，B2 级下限）：FlammabilityRating = ['A', 'B1', 'B2'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_WallCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_5_3_1_partition_b2
+  - rule_id: R_5_3_1_a_9
+    source_clause: GB 50222-2017#5.3.1
+    mapping_refs:
+    - mb_gb50222_5_3_1_furniture_a
+    parameter_refs:
+    - p_gb50222_5_3_1_furniture_a
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcFurniture
+      - path: object.space.usage
+        op: in
+        value:
+        - 存放文物、纪念展览物品、重要图书、档案、资料的场所
+        - 汽车库、修车库
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#5.3.1 固定家具装修材料（表5.3.1 序号 6_12，A 级下限）：燃烧性能等级 = ['A'] 之外（不满足值域）
+      check:
+        path: object.pset[GB_装修防火].燃烧性能等级
+        op: in
+        parameter_ref: p_gb50222_5_3_1_furniture_a
+  - rule_id: R_5_3_1_b1_10
+    source_clause: GB 50222-2017#5.3.1
+    mapping_refs:
+    - mb_gb50222_5_3_1_furniture_b1
+    parameter_refs:
+    - p_gb50222_5_3_1_furniture_b1
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcFurniture
+      - path: object.space.usage
+        op: in
+        value:
+        - 观众厅、会议厅、多功能厅、等候厅等，商店的营业厅
+        - 宾馆、饭店的客房及公共活动用房等
+        - 医院的诊疗区、手术区
+        - 纪念馆、展览馆、博物馆、图书馆、档案馆、资料馆等的公众活动场所
+        - 歌舞娱乐游艺场所
+        - A、B级电子信息系统机房及装有重要机器、仪器的房间
+        - 餐饮场所
+        - 办公场所
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#5.3.1 固定家具装修材料（表5.3.1 序号 1_2_3_5_7_8_9_10，B1 级下限）：燃烧性能等级 = ['A', 'B1'] 之外（不满足值域）
+      check:
+        path: object.pset[GB_装修防火].燃烧性能等级
+        op: in
+        parameter_ref: p_gb50222_5_3_1_furniture_b1
+  - rule_id: R_5_3_1_b2_11
+    source_clause: GB 50222-2017#5.3.1
+    mapping_refs:
+    - mb_gb50222_5_3_1_furniture_b2
+    parameter_refs:
+    - p_gb50222_5_3_1_furniture_b2
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcFurniture
+      - path: object.space.usage
+        op: in
+        value:
+        - 教学场所、教学实验场所
+        - 其他公共场所
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#5.3.1 固定家具装修材料（表5.3.1 序号 4_11，B2 级下限）：燃烧性能等级 = ['A', 'B1', 'B2'] 之外（不满足值域）
+      check:
+        path: object.pset[GB_装修防火].燃烧性能等级
+        op: in
+        parameter_ref: p_gb50222_5_3_1_furniture_b2
   conflicts: []
 - id: GB 50222-2017#5.3.2
   standard_code: GB 50222-2017
@@ -2514,11 +6183,18 @@ clauses:
   converted_tables: []
   references: []
   related_objects:
+    binding_level: element
     component_types:
     - IfcCovering
-    - IfcWall
-    - IfcCeiling
-    - IfcDoor
+    model_bindings:
+    - id: mb_gb50222_5_3_2_relax_cond
+      role: 表5.3.1 降级适用（条件不可机检）
+      ifc_entity: IfcCovering
+      predefined_type: CEILING
+      mapping_status: needs_expert_review
+      confidence: low
+      property_requirements: []
+      rationale: 降级条件：单独建造的地下民用建筑的地上部分（门厅/休息室/办公室等）；排除第4章场所与表5.3.1 序号 6~8。 上述条件依赖建筑面积/防火隔墙耐火极限/门窗等级/自动灭火与火灾报警系统配置——v1 引擎无对应 DSL 关系路径，不编译为规则；**按基准表 5.3.1 从严执行**（不放宽即安全侧，不会产生不安全的降级放行）。基准值域见 5.3.1 展开绑定。
     activity_types:
     - 内部装修防火设计
   conflicts: []
@@ -2547,7 +6223,67 @@ clauses:
     is_mandatory_clause: true
     mandatory_basis: 黑体强制性条文
     constraint_items: []
-  parameters: []
+  parameters:
+  - id: p_gb50222_6_0_1_ceiling_a
+    name: 表6.0.1 顶棚装修材料燃烧性能等级（A 级下限）
+    operator: in
+    value:
+    - A
+    unit: null
+    ifc_binding:
+      target: element
+      pset: Pset_CoveringCommon
+      property: FlammabilityRating
+      classification: GB8624
+    note: 表6.0.1「顶棚」列取 A 的场所（序号 1）；条文『不应低于』→ 值域 in ['A']。
+  - id: p_gb50222_6_0_1_cladding_a
+    name: 表6.0.1 墙面装修材料燃烧性能等级（A 级下限）
+    operator: in
+    value:
+    - A
+    unit: null
+    ifc_binding:
+      target: element
+      pset: Pset_CoveringCommon
+      property: FlammabilityRating
+      classification: GB8624
+    note: 表6.0.1「墙面」列取 A 的场所（序号 1）；条文『不应低于』→ 值域 in ['A']。
+  - id: p_gb50222_6_0_1_flooring_a
+    name: 表6.0.1 地面装修材料燃烧性能等级（A 级下限）
+    operator: in
+    value:
+    - A
+    unit: null
+    ifc_binding:
+      target: element
+      pset: Pset_CoveringCommon
+      property: FlammabilityRating
+      classification: GB8624
+    note: 表6.0.1「地面」列取 A 的场所（序号 1）；条文『不应低于』→ 值域 in ['A']。
+  - id: p_gb50222_6_0_1_partition_a
+    name: 表6.0.1 隔断装修材料燃烧性能等级（A 级下限）
+    operator: in
+    value:
+    - A
+    unit: null
+    ifc_binding:
+      target: element
+      pset: Pset_WallCommon
+      property: FlammabilityRating
+      classification: GB8624
+    note: 表6.0.1「隔断」列取 A 的场所（序号 1）；条文『不应低于』→ 值域 in ['A']。
+  - id: p_gb50222_6_0_1_furniture_a
+    name: 表6.0.1 固定家具装修材料燃烧性能等级（A 级下限）
+    operator: in
+    value:
+    - A
+    unit: null
+    ifc_binding:
+      target: element
+      pset: GB_装修防火
+      property: 燃烧性能等级
+      classification: GB8624
+    note: 表6.0.1「固定家具」列取 A 的场所（序号 1）；条文『不应低于』→ 值域 in ['A']。
   tables:
   - id: 表6.0.1
     type: parameter_table
@@ -2657,13 +6393,239 @@ clauses:
   converted_tables: []
   references: []
   related_objects:
+    binding_level: element
     component_types:
     - IfcCovering
     - IfcWall
-    - IfcCeiling
-    - IfcDoor
+    - IfcFurniture
+    model_bindings:
+    - id: mb_gb50222_6_0_1_ceiling_a
+      role: 顶棚装修材料（表6.0.1 序号 1，A 级下限）
+      ifc_entity: IfcCovering
+      predefined_type: CEILING
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 甲、乙类厂房；丙类厂房中的甲、乙类生产车间；有明火的丁类厂房、高温车间
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_6_0_1_ceiling_a
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: high
+      rationale: 表6.0.1 逐格展开（行→space_context、列→predefined_type）：顶棚 列取 A 的场所 共 1 个（序号 1）合并为一条绑定；『不应低于』编译为 in ['A']。
+    - id: mb_gb50222_6_0_1_cladding_a
+      role: 墙面装修材料（表6.0.1 序号 1，A 级下限）
+      ifc_entity: IfcCovering
+      predefined_type: CLADDING
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 甲、乙类厂房；丙类厂房中的甲、乙类生产车间；有明火的丁类厂房、高温车间
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_6_0_1_cladding_a
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: high
+      rationale: 表6.0.1 逐格展开（行→space_context、列→predefined_type）：墙面 列取 A 的场所 共 1 个（序号 1）合并为一条绑定；『不应低于』编译为 in ['A']。
+    - id: mb_gb50222_6_0_1_flooring_a
+      role: 地面装修材料（表6.0.1 序号 1，A 级下限）
+      ifc_entity: IfcCovering
+      predefined_type: FLOORING
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 甲、乙类厂房；丙类厂房中的甲、乙类生产车间；有明火的丁类厂房、高温车间
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_6_0_1_flooring_a
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: high
+      rationale: 表6.0.1 逐格展开（行→space_context、列→predefined_type）：地面 列取 A 的场所 共 1 个（序号 1）合并为一条绑定；『不应低于』编译为 in ['A']。
+    - id: mb_gb50222_6_0_1_partition_a
+      role: 隔断装修材料（表6.0.1 序号 1，A 级下限）
+      ifc_entity: IfcWall
+      predefined_type: PARTITION
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 甲、乙类厂房；丙类厂房中的甲、乙类生产车间；有明火的丁类厂房、高温车间
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_6_0_1_partition_a
+        pset: Pset_WallCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: high
+      rationale: 表6.0.1 逐格展开（行→space_context、列→predefined_type）：隔断 列取 A 的场所 共 1 个（序号 1）合并为一条绑定；『不应低于』编译为 in ['A']。
+    - id: mb_gb50222_6_0_1_furniture_a
+      role: 固定家具装修材料（表6.0.1 序号 1，A 级下限）
+      ifc_entity: IfcFurniture
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 甲、乙类厂房；丙类厂房中的甲、乙类生产车间；有明火的丁类厂房、高温车间
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_6_0_1_furniture_a
+        pset: GB_装修防火
+        property: 燃烧性能等级
+      mapping_status: reviewed
+      confidence: high
+      rationale: 表6.0.1 逐格展开（行→space_context、列→predefined_type）：固定家具 列取 A 的场所 共 1 个（序号 1）合并为一条绑定；『不应低于』编译为 in ['A']。
+    - id: mb_gb50222_6_0_1_cond_rows
+      role: 受建筑规模/性质约束的行（表6.0.1 序号 2、3、4、5）
+      ifc_entity: IfcCovering
+      predefined_type: CEILING
+      mapping_status: needs_expert_review
+      confidence: low
+      property_requirements: []
+      rationale: 该等行的要求随『建筑规模』分档（取值：单/多层、地下、高层）——建筑面积/座位数/建筑分类/系统配置等条件 IFC 无法承载，v1 引擎无对应 DSL → 不编译为规则，转人工按项目实际档次取值；本体条文值域见正本表 6.0.1。
     activity_types:
     - 内部装修防火设计
+  executable_rules:
+  - rule_id: R_6_0_1_a_1
+    source_clause: GB 50222-2017#6.0.1
+    mapping_refs:
+    - mb_gb50222_6_0_1_ceiling_a
+    parameter_refs:
+    - p_gb50222_6_0_1_ceiling_a
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcCovering
+      - path: object.predefined_type
+        op: eq
+        value: CEILING
+      - path: object.space.usage
+        op: in
+        value:
+        - 甲、乙类厂房；丙类厂房中的甲、乙类生产车间；有明火的丁类厂房、高温车间
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#6.0.1 顶棚装修材料（表6.0.1 序号 1，A 级下限）：FlammabilityRating = ['A'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_CoveringCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_6_0_1_ceiling_a
+  - rule_id: R_6_0_1_a_2
+    source_clause: GB 50222-2017#6.0.1
+    mapping_refs:
+    - mb_gb50222_6_0_1_cladding_a
+    parameter_refs:
+    - p_gb50222_6_0_1_cladding_a
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcCovering
+      - path: object.predefined_type
+        op: eq
+        value: CLADDING
+      - path: object.space.usage
+        op: in
+        value:
+        - 甲、乙类厂房；丙类厂房中的甲、乙类生产车间；有明火的丁类厂房、高温车间
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#6.0.1 墙面装修材料（表6.0.1 序号 1，A 级下限）：FlammabilityRating = ['A'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_CoveringCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_6_0_1_cladding_a
+  - rule_id: R_6_0_1_a_3
+    source_clause: GB 50222-2017#6.0.1
+    mapping_refs:
+    - mb_gb50222_6_0_1_flooring_a
+    parameter_refs:
+    - p_gb50222_6_0_1_flooring_a
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcCovering
+      - path: object.predefined_type
+        op: eq
+        value: FLOORING
+      - path: object.space.usage
+        op: in
+        value:
+        - 甲、乙类厂房；丙类厂房中的甲、乙类生产车间；有明火的丁类厂房、高温车间
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#6.0.1 地面装修材料（表6.0.1 序号 1，A 级下限）：FlammabilityRating = ['A'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_CoveringCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_6_0_1_flooring_a
+  - rule_id: R_6_0_1_a_4
+    source_clause: GB 50222-2017#6.0.1
+    mapping_refs:
+    - mb_gb50222_6_0_1_partition_a
+    parameter_refs:
+    - p_gb50222_6_0_1_partition_a
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcWall
+      - path: object.predefined_type
+        op: eq
+        value: PARTITION
+      - path: object.space.usage
+        op: in
+        value:
+        - 甲、乙类厂房；丙类厂房中的甲、乙类生产车间；有明火的丁类厂房、高温车间
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#6.0.1 隔断装修材料（表6.0.1 序号 1，A 级下限）：FlammabilityRating = ['A'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_WallCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_6_0_1_partition_a
+  - rule_id: R_6_0_1_a_5
+    source_clause: GB 50222-2017#6.0.1
+    mapping_refs:
+    - mb_gb50222_6_0_1_furniture_a
+    parameter_refs:
+    - p_gb50222_6_0_1_furniture_a
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcFurniture
+      - path: object.space.usage
+        op: in
+        value:
+        - 甲、乙类厂房；丙类厂房中的甲、乙类生产车间；有明火的丁类厂房、高温车间
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#6.0.1 固定家具装修材料（表6.0.1 序号 1，A 级下限）：燃烧性能等级 = ['A'] 之外（不满足值域）
+      check:
+        path: object.pset[GB_装修防火].燃烧性能等级
+        op: in
+        parameter_ref: p_gb50222_6_0_1_furniture_a
   conflicts: []
 - id: GB 50222-2017#6.0.2
   standard_code: GB 50222-2017
@@ -2697,11 +6659,18 @@ clauses:
   converted_tables: []
   references: []
   related_objects:
+    binding_level: element
     component_types:
     - IfcCovering
-    - IfcWall
-    - IfcCeiling
-    - IfcDoor
+    model_bindings:
+    - id: mb_gb50222_6_0_2_relax_cond
+      role: 表6.0.1 降级适用（条件不可机检）
+      ifc_entity: IfcCovering
+      predefined_type: CEILING
+      mapping_status: needs_expert_review
+      confidence: low
+      property_requirements: []
+      rationale: 降级条件：单层/多层丙、丁、戊类厂房内同时设火灾自动报警+自动灭火系统（除顶棚外可降一级）；排除第4章场所和部位。 上述条件依赖建筑面积/防火隔墙耐火极限/门窗等级/自动灭火与火灾报警系统配置——v1 引擎无对应 DSL 关系路径，不编译为规则；**按基准表 6.0.1 从严执行**（不放宽即安全侧，不会产生不安全的降级放行）。基准值域见 6.0.1 展开绑定。
     activity_types:
     - 内部装修防火设计
   conflicts: []
@@ -2730,16 +6699,39 @@ clauses:
     is_mandatory_clause: false
     mandatory_basis: null
     constraint_items: []
-  parameters: []
+  parameters:
+  - id: p_gb50222_6_0_3_floor
+    name: 厂房架空地板装修材料燃烧性能等级
+    operator: in
+    value:
+    - A
+    - B1
+    unit: null
+    ifc_binding:
+      target: element
+      pset: Pset_CoveringCommon
+      property: FlammabilityRating
+      classification: GB8624
+    note: 「不低于B1」编译为 in [A, B1]；因条件（架空地板）不可机检，本条降级不生成规则。
   tables: []
   converted_tables: []
   references: []
   related_objects:
+    binding_level: element
     component_types:
     - IfcCovering
-    - IfcWall
-    - IfcCeiling
-    - IfcDoor
+    model_bindings:
+    - id: mb_gb50222_6_0_3_floor
+      role: 厂房架空地板面层
+      ifc_entity: IfcCovering
+      predefined_type: FLOORING
+      property_requirements:
+      - parameter_ref: p_gb50222_6_0_3_floor
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: needs_expert_review
+      confidence: low
+      rationale: 条件为『架空地板』——IFC 无标准属性标志（IfcSlab/IfcCovering 无架空构造标志）→ 条件不可机检，降级人工/自定义构造标志；参数保留 [A,B1]。
     activity_types:
     - 内部装修防火设计
   conflicts: []
@@ -2778,11 +6770,13 @@ clauses:
     resolution_status: resolved
     resolution_note: 库内标准（GB 50016-2014），可交叉引用并确认具体参数
   related_objects:
+    binding_level: document
     component_types:
     - IfcCovering
     - IfcWall
     - IfcCeiling
     - IfcDoor
+    model_bindings: []
     activity_types:
     - 内部装修防火设计
   conflicts: []
@@ -2811,7 +6805,55 @@ clauses:
     is_mandatory_clause: true
     mandatory_basis: 黑体强制性条文
     constraint_items: []
-  parameters: []
+  parameters:
+  - id: p_gb50222_6_0_5_ceiling_a
+    name: 表6.0.5 顶棚装修材料燃烧性能等级（A 级下限）
+    operator: in
+    value:
+    - A
+    unit: null
+    ifc_binding:
+      target: element
+      pset: Pset_CoveringCommon
+      property: FlammabilityRating
+      classification: GB8624
+    note: 表6.0.5「顶棚」列取 A 的场所（序号 1）；条文『不应低于』→ 值域 in ['A']。
+  - id: p_gb50222_6_0_5_cladding_a
+    name: 表6.0.5 墙面装修材料燃烧性能等级（A 级下限）
+    operator: in
+    value:
+    - A
+    unit: null
+    ifc_binding:
+      target: element
+      pset: Pset_CoveringCommon
+      property: FlammabilityRating
+      classification: GB8624
+    note: 表6.0.5「墙面」列取 A 的场所（序号 1）；条文『不应低于』→ 值域 in ['A']。
+  - id: p_gb50222_6_0_5_flooring_a
+    name: 表6.0.5 地面装修材料燃烧性能等级（A 级下限）
+    operator: in
+    value:
+    - A
+    unit: null
+    ifc_binding:
+      target: element
+      pset: Pset_CoveringCommon
+      property: FlammabilityRating
+      classification: GB8624
+    note: 表6.0.5「地面」列取 A 的场所（序号 1）；条文『不应低于』→ 值域 in ['A']。
+  - id: p_gb50222_6_0_5_partition_a
+    name: 表6.0.5 隔断装修材料燃烧性能等级（A 级下限）
+    operator: in
+    value:
+    - A
+    unit: null
+    ifc_binding:
+      target: element
+      pset: Pset_WallCommon
+      property: FlammabilityRating
+      classification: GB8624
+    note: 表6.0.5「隔断」列取 A 的场所（序号 1）；条文『不应低于』→ 值域 in ['A']。
   tables:
   - id: 表6.0.5
     type: parameter_table
@@ -2870,13 +6912,198 @@ clauses:
   converted_tables: []
   references: []
   related_objects:
+    binding_level: element
     component_types:
     - IfcCovering
     - IfcWall
-    - IfcCeiling
-    - IfcDoor
+    model_bindings:
+    - id: mb_gb50222_6_0_5_ceiling_a
+      role: 顶棚装修材料（表6.0.5 序号 1，A 级下限）
+      ifc_entity: IfcCovering
+      predefined_type: CEILING
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 甲、乙类仓库
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_6_0_5_ceiling_a
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: high
+      rationale: 表6.0.5 逐格展开（行→space_context、列→predefined_type）：顶棚 列取 A 的场所 共 1 个（序号 1）合并为一条绑定；『不应低于』编译为 in ['A']。
+    - id: mb_gb50222_6_0_5_cladding_a
+      role: 墙面装修材料（表6.0.5 序号 1，A 级下限）
+      ifc_entity: IfcCovering
+      predefined_type: CLADDING
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 甲、乙类仓库
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_6_0_5_cladding_a
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: high
+      rationale: 表6.0.5 逐格展开（行→space_context、列→predefined_type）：墙面 列取 A 的场所 共 1 个（序号 1）合并为一条绑定；『不应低于』编译为 in ['A']。
+    - id: mb_gb50222_6_0_5_flooring_a
+      role: 地面装修材料（表6.0.5 序号 1，A 级下限）
+      ifc_entity: IfcCovering
+      predefined_type: FLOORING
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 甲、乙类仓库
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_6_0_5_flooring_a
+        pset: Pset_CoveringCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: high
+      rationale: 表6.0.5 逐格展开（行→space_context、列→predefined_type）：地面 列取 A 的场所 共 1 个（序号 1）合并为一条绑定；『不应低于』编译为 in ['A']。
+    - id: mb_gb50222_6_0_5_partition_a
+      role: 隔断装修材料（表6.0.5 序号 1，A 级下限）
+      ifc_entity: IfcWall
+      predefined_type: PARTITION
+      space_context:
+        carrier: IfcSpace.ObjectType
+        values:
+        - 甲、乙类仓库
+      material_binding:
+        required: true
+        classification_system: GB8624
+      property_requirements:
+      - parameter_ref: p_gb50222_6_0_5_partition_a
+        pset: Pset_WallCommon
+        property: FlammabilityRating
+      mapping_status: reviewed
+      confidence: high
+      rationale: 表6.0.5 逐格展开（行→space_context、列→predefined_type）：隔断 列取 A 的场所 共 1 个（序号 1）合并为一条绑定；『不应低于』编译为 in ['A']。
+    - id: mb_gb50222_6_0_5_cond_rows
+      role: 受建筑规模/性质约束的行（表6.0.5 序号 2、3）
+      ifc_entity: IfcCovering
+      predefined_type: CEILING
+      mapping_status: needs_expert_review
+      confidence: low
+      property_requirements: []
+      rationale: 该等行的要求随『建筑规模』分档（取值：单层及多层仓库、高层及地下仓库、高架仓库）——建筑面积/座位数/建筑分类/系统配置等条件 IFC 无法承载，v1 引擎无对应 DSL → 不编译为规则，转人工按项目实际档次取值；本体条文值域见正本表 6.0.5。
     activity_types:
     - 内部装修防火设计
+  executable_rules:
+  - rule_id: R_6_0_5_a_1
+    source_clause: GB 50222-2017#6.0.5
+    mapping_refs:
+    - mb_gb50222_6_0_5_ceiling_a
+    parameter_refs:
+    - p_gb50222_6_0_5_ceiling_a
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcCovering
+      - path: object.predefined_type
+        op: eq
+        value: CEILING
+      - path: object.space.usage
+        op: in
+        value:
+        - 甲、乙类仓库
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#6.0.5 顶棚装修材料（表6.0.5 序号 1，A 级下限）：FlammabilityRating = ['A'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_CoveringCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_6_0_5_ceiling_a
+  - rule_id: R_6_0_5_a_2
+    source_clause: GB 50222-2017#6.0.5
+    mapping_refs:
+    - mb_gb50222_6_0_5_cladding_a
+    parameter_refs:
+    - p_gb50222_6_0_5_cladding_a
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcCovering
+      - path: object.predefined_type
+        op: eq
+        value: CLADDING
+      - path: object.space.usage
+        op: in
+        value:
+        - 甲、乙类仓库
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#6.0.5 墙面装修材料（表6.0.5 序号 1，A 级下限）：FlammabilityRating = ['A'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_CoveringCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_6_0_5_cladding_a
+  - rule_id: R_6_0_5_a_3
+    source_clause: GB 50222-2017#6.0.5
+    mapping_refs:
+    - mb_gb50222_6_0_5_flooring_a
+    parameter_refs:
+    - p_gb50222_6_0_5_flooring_a
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcCovering
+      - path: object.predefined_type
+        op: eq
+        value: FLOORING
+      - path: object.space.usage
+        op: in
+        value:
+        - 甲、乙类仓库
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#6.0.5 地面装修材料（表6.0.5 序号 1，A 级下限）：FlammabilityRating = ['A'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_CoveringCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_6_0_5_flooring_a
+  - rule_id: R_6_0_5_a_4
+    source_clause: GB 50222-2017#6.0.5
+    mapping_refs:
+    - mb_gb50222_6_0_5_partition_a
+    parameter_refs:
+    - p_gb50222_6_0_5_partition_a
+    when:
+      all:
+      - path: object.entity
+        op: eq
+        value: IfcWall
+      - path: object.predefined_type
+        op: eq
+        value: PARTITION
+      - path: object.space.usage
+        op: in
+        value:
+        - 甲、乙类仓库
+    not_when: []
+    then:
+      severity: error
+      message: GB 50222-2017#6.0.5 隔断装修材料（表6.0.5 序号 1，A 级下限）：FlammabilityRating = ['A'] 之外（不满足值域）
+      check:
+        path: object.pset[Pset_WallCommon].FlammabilityRating
+        op: in
+        parameter_ref: p_gb50222_6_0_5_partition_a
   conflicts: []
 executable_rules:
 - rule_id: R_GB50222_3_0_4_board_grade
