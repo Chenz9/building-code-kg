@@ -1,0 +1,416 @@
+# ============================================================
+# 工程规范结构化索引库 — 结构规范定义 v2.3（正本）
+# ============================================================
+# 状态：正本。2026-09-22 由 v0.4 草案升格（原草案留存 07_IFC模型绑定/ 备查）。
+#       升格依据（全部实测，非沿用文档）：MVP 5 条闭环 + 黄金样本 20 条落地
+#       （golden20：19 样本 / 21 编译规则，正例 24 记录全 pass、反例 16 埋雷
+#       全命中）；tools/_regression_mvp.py 55/55 PASS；audit_binding_v23
+#       对真实数据 0 error / 0 warning；--selftest 14/14 全触发。
+# 范围决议（2026-09-22）：2014 年（含）以前发布的 11 册冻结于 v2.2、不迁移；
+#       §9.7「其余 30 册按模板复用」据此收窄为「2014 年以后的 22 册」。
+# 依据：决策记录_20260921.md（6 项决策已拍板）；词表 ifc_mapping_dict_v0.yaml。
+# 修订：v0.3（2026-09-21 晚，评审 6 处一致性）——
+#       ① has_all 补入操作符列表；② not_applicable 的 reason 字段入字段清单；
+#       ③ ifc_binding 解析优先级（material_binding 联动三分支）；
+#       ④ C-BINDING-03 组合维度定义；⑤ C-RATIO-01 分母定义；
+#       ⑥ RULE_COMPILE_MISMATCH 编译基准三分支。
+#      v0.3.1（2026-09-22，工具链抽象 + 4 审计落地后）——
+#       ⑦ §9.2 增 member_requirements（has_all 单一事实源；原仅存于 compiled_rules，
+#          无法重编译）；⑧ §9.4 编译分支补 member_requirements→has_all 与
+#          mapping_refs 约定；⑨ C-BINDING-04 收紧为「space_context 收窄丢失」
+#          且定为 error（原表述为 warning 且定义含糊）；
+#          ⑩ §9.5 IDS 出口边界实测修正：数值范围与 not_in（prohibited 基数）
+#          **均可导出**（v0.2「否定不可导出」为误判，已实测推翻）
+#      v0.4（2026-09-22，评审 5 处收紧）——
+#       ⑪ §9.6 C-BINDING-04 改**三分支**判定：(a) 主映射有 space_context 而规则
+#          when 缺 space.usage → error；(b) 主映射无 space_context 时 when 仅
+#          entity/pdt → **合法不报警**（消除 T1『其他部位』/ T4『全楼设备』误报）；
+#          (c) 规则值域比主映射更窄 → warning；
+#       ⑫ §9.2 space_context.carrier 增 **IfcZone.Name**（空间组经
+#          IfcRelAssignsToGroup 反查；配 zone_hint）+ §9.5 增 object.zone.name 路径；
+#       ⑬ §9.5 has_all 匹配语义（默认精确 / `/正则/` / 词表 member_alias_map 别名归一）；
+#       ⑭ §9.3 ifc_binding.target 增 **process**（纯过程参数落点，activity_ref）；
+#       ⑮ §9.6 C-BINDING-03 分母收紧（仅 element/system 级，排除整条降级条文）；
+#          并新增 **C-BINDING-04a**（源数据侧收窄检查，不依赖编译产物）。
+#      v0.5（2026-09-24，升正本后死名专项）——
+#       ⑯ §9.6 C-BINDING-01 扩展：未迁移册 component_types 命中 forbidden 同报；
+#          forbidden 死名清单补 IfcEntrance（词表 v0.6，GB55019 宽匹配残留清除）。
+#
+# v2.3 相对 v2.2 的增量（只增不改，全部可选字段，旧 YAML 不动不炸）：
+#   §9.1  related_objects.binding_level     绑定粒度（新增）
+#   §9.2  related_objects.model_bindings    模型绑定层（新增，核心）
+#   §9.3  parameters[].id / .ifc_binding    参数唯一标识 + 落点描述（新增）
+#   §9.4  executable_rules 编译语义重定义    由 parameters + model_bindings 编译生成
+#   §9.5  规则 DSL 正式规范                 对象路径/关系路径/操作符/输出追溯链
+#   §9.6  审计规则（v2.3 门禁增量）
+#   §9.7  向后兼容与迁移
+#
+# v2.2 全部字段继续有效；本文件未提及者一律沿用 SCHEMA_v2.2.yaml。
+# ============================================================
+
+# ============================================================
+# §9.1 binding_level — 绑定粒度（related_objects 下，与 component_types 同层）
+# ============================================================
+#   枚举（单选）：
+#     macro      宏观章节（术语/总则/基本规定/分类分级…）—— 不挂任何模型对象
+#     site       场地级（IfcSite：室外场地、总平面、道路）
+#     building   整栋级（IfcBuilding：总面积、总高度、能耗指标）★仅此层可用 IfcBuilding
+#     storey     楼层级（IfcBuildingStorey：层高、楼层面积）
+#     space      空间级（IfcSpace/IfcZone：房间净高、空间用途、装修部位）
+#     system     系统级（IfcDistributionSystem 等：防雷、电气、消防系统）
+#     element    构件级（IfcWall/IfcCovering/…：默认粒度）
+#     process    过程活动（施工/检验/验收/运维章——用 activity_types，不挂构件）
+#     document   文档级（说明书/计算书/图纸要求——人工复核）
+#
+#   规则：
+#     - binding_level=macro / process / document 时 model_bindings 必须为空或仅
+#       activity/document 类声明；不得出现构件实体
+#     - binding_level=system 时 model_bindings 中至少一条绑定系统实体
+#       （IfcDistributionSystem 等，且必须带 predefined_type）
+#     - binding_level=building 时才允许 IfcBuilding 出现（审计 C-BINDING-06）
+#     - 与 applicability 的关系：applicability.scope/conditions/exceptions 仍是
+#       「自然语言语义描述」，binding_level 是「机器绑定粒度」——两者独立，互不替代
+#
+#   ★ 多候选实体策略（方案 B，v0.2 修订）：一个语义角色（如『墙面』）存在多种
+#     候选实体/枚举（IfcCovering.CLADDING / IfcWall.STANDARD）时，**拆成多条
+#     model_bindings 分别绑定**，不用 ifc_entity_candidates 多值字段——保持单条
+#     绑定语义单纯，规则引擎按多条绑定分别生成规则。
+#
+#   ★ activity_types 结构化形式（binding_level=process 时落地，v0.2 补）：
+#     v2.2 的纯字符串列表继续合法；process 章建议用结构化条目：
+#
+#       activity_types:
+#         - id: act_gb55024_9_1          # 命名 act_<标准号小写>_<条号下划线>
+#           name: 进场材料送检            # 活动名（语义短语）
+#           phase: inspection            # design / construction / inspection / acceptance / operation
+#           document_refs:               # 佐证文档类型（人工复核锚点）
+#             - 进场检验报告
+#             - 实验室检测报告
+#           related_clauses: []          # 可选：跨条关联
+#
+#     结构化 activity_types 出现时，本条文 model_bindings 必须为空或仅文档类声明
+#     （C-BINDING-10 的 process 分支按此判定）。
+
+# ============================================================
+# §9.2 model_bindings — 模型绑定层（related_objects 下，列表）
+# ============================================================
+#   每条绑定的字段：
+#
+#     id                 命名：mb_<标准号小写无横杠>_<条号点转下划线>_<role>
+#     role               语义角色（中文短语：顶棚 / 屋面 / 防雷接地系统…）
+#     ifc_entity         IFC4 实体名（必须命中词表 entity_whitelist.component_ifc4）
+#     predefined_type    实体枚举值（词表 predefined_type_required_entities
+#                        中的实体必填；其余可为 null）
+#     space_context      空间上下文（可选）——v0.4 扩展 carrier 支持空间组：
+#                        {carrier: IfcSpace.ObjectType | IfcZone.Name,
+#                         values: [疏散楼梯间, 前室],
+#                         zone_hint: "消防疏散区组(IfcZone)"}   # 仅 carrier=IfcZone.Name
+#                        values 每项必须命中词表 space_map（一条条文常约束多个空间）。
+#                        ★ carrier 语义（引擎/编译器实现依此，不得另行猜测）：
+#                          - IfcSpace.ObjectType：**逐空间匹配**——取构件所属 IfcSpace
+#                            的 ObjectType（DSL 路径 object.space.usage）
+#                          - IfcZone.Name：**空间组匹配**——先经 IfcRelAssignsToGroup
+#                            反查构件所属空间所在的 IfcZone，再取 zone.Name
+#                            （DSL 路径 object.zone.name）；用于「消防疏散区」类成组
+#                            条文，避免逐空间枚举。此时 values 为 **zone 名**
+#                            （项目约定），不参与 space_map 命中校验
+#                          - zone_hint：人工/审计核对用的分组说明（须与词表 space_map
+#                            成员一致），**不参与规则求值**
+#     system_context     系统上下文（可选）：{ifc_entity, predefined_type}，
+#                        供 element 级成员声明所属系统
+#     material_binding   材料级细检声明（可选，只声明『需要』与『分类系统』，
+#                        具体路径由词表 material_channels/concept_property_map 决定）：
+#                        {required: true, classification_system: GB8624}
+#                        ★ 不含 property 字段（避免与词表表4 落点重复——v0.2 修订）
+#     property_requirements 属性要求（列表，每项）：
+#                        {parameter_ref: <parameters[].id>, pset: Pset_CoveringCommon,
+#                         property: FlammabilityRating}
+#                        ★ 只引用，不存值（单一事实源，审计 C-BINDING-05）
+#                        ★ 存在性检查（交付完整性，如『屋面应有传热系数』）
+#                          parameter_ref 可为 null，此时编译为 check op=exists
+#     member_requirements 系统成员要求（仅 binding_level=system 的系统级绑定
+#                        可选）：成员 ObjectType 列表，如 [接闪器, 引下线, 接地装置]
+#                        ★ has_all 检查的单一事实源——compiled_rules 中
+#                          check op=has_all 的 value 必须与此一致，不得只在
+#                          规则里存值（审计 RULE_COMPILE_MISMATCH 依赖此字段
+#                          重编译比对，v0.3.1 补）
+#                        ★ 匹配语义见 §9.5（默认精确 / `/正则/` / 词表
+#                          member_alias_map 别名归一）——成员写法差异不得静默失败
+#     mapping_status     draft / mapped / reviewed / needs_expert_review / not_applicable
+#     reason             mapping_status=not_applicable 时必填，一句话说明为何不适用
+#                        （如『条文约束对象为行政审批流程，不落模型』）；
+#                        其余状态可为 null / 缺省（v0.3 补入字段清单）
+#     confidence         high / medium / low
+#     rationale          一句话依据（引用条文语义）
+#     source_text        可选；条文原文摘录（默认不填，text 已是权威）
+#
+#   component_types 降级为派生 hint：
+#     - model_bindings 存在时，component_types 应等于各绑定 ifc_entity 的去重集合
+#     - 迁移期手填值保留不删；不一致时审计提示（C-BINDING-07，warning 级）
+
+# ============================================================
+# §9.3 parameters[].id / .ifc_binding — 参数唯一标识与落点
+# ============================================================
+#   id（新增，有 model_bindings 的条文必填，其余可选）：
+#     命名：p_<标准号小写无横杠>_<条号点转下划线>_<序号>
+#     例：p_gb50222_4_0_5_fire_class
+#     机器可批量生成（全库迁移脚本一次跑齐），生成后稳定不复用
+#
+#   ifc_binding（新增，可选）：值的落点描述（值本身仍只存 parameters）
+#     - target: material / element / type / system / process
+#     - pset / property：标准 Pset 属性（须命中词表 concept_property_map）
+#     - classification: 分类系统名（材料分类路径时）
+#
+#   ★ target=process（v0.4 补——纯过程参数的落点）：
+#     条文属过程/检测/验收章、含数值或记录要求，但**不落任何构件**时使用：
+#       - activity_ref: <activity_types[].id>   # 关联过程活动（必填）
+#       - document_refs: [<记录/报告名>]         # 佐证文档；缺省继承 activity_types
+#       - 不得同时给 pset / property（过程参数不落构件属性）
+#       - 编译语义：不生成模型检查规则（同 process 章，§9.4 分支5）；数值仍存
+#         parameters（供文档核查/人工复核消费），RULE_COMPILE_MISMATCH 跳过
+#     ★ 红线：**不得为放参数而把过程条文挂到无关构件**（如把回路绝缘电阻挂
+#       IfcDistributionCircuit 的 pset）——那是语义错配，C-BINDING-10 会拦。
+#     ★ 事实提醒：条文**未给数值**时 parameters 允许为空——禁止从其他标准
+#       （如 GB 50303）借值填进本册（text 是唯一权威）。例：GB55024 9.4.1
+#       「必须进行回路的绝缘电阻检测」原文无数值，其阈值属项目 EIR/其他标准。
+#
+#   例（GB50222 4.0.5 顶棚）：
+#     parameters:
+#       - id: p_gb50222_4_0_5_fire_class
+#         name: 顶棚装修材料燃烧性能等级
+#         operator: in
+#         value: [A]           # ★ 唯一事实源；binding 层永不重复此值
+#         unit: null
+#         ifc_binding:
+#           target: element
+#           pset: Pset_CoveringCommon
+#           property: FlammabilityRating
+#           classification: GB8624   # 材料级细检路径同时声明（走优先级 2）
+#
+#   ★ ifc_binding 解析优先级（material_binding 联动，v0.3 补——引擎实现依此）：
+#     1. material_binding.required=true 且 ifc_binding.target=material
+#        → 只走材料级细检：材料关联 + 材料级分类（词表 material_channels：
+#          IfcRelAssociatesMaterial → IfcMaterial；IfcExternalReferenceRelationship →
+#          IfcClassificationReference(GB8624)）。
+#          ★ 不是 IfcRelAssociatesClassification→IfcMaterial——IfcMaterial 非
+#            IfcObjectDefinition，不能作其 RelatedObjects（IFC4 官方实体层级证实）
+#     2. material_binding.required=true 且 ifc_binding.target=element
+#        → 先走构件级 quick_check（pset 属性）；取不到值时回退材料级细检
+#     3. material_binding.required=false / 缺省 → 只走构件级 quick_check
+#     本优先级同时约束 §9.5 对象路径 object.pset[...] 与 object.material.* 的
+#     求值顺序（quick_check 在前、材料级在后），规则引擎不得另行猜测。
+
+# ============================================================
+# §9.4 executable_rules — 编译语义（重定义）
+# ============================================================
+#   v2.2 现状：when 为自由文本表达式列表，then 直存数值（参数镜像）。
+#   v2.3 起（对含 model_bindings 的条文）：
+#     - 规则由 parameters + model_bindings **编译生成**，禁止手写字面值
+#     - then 只放 severity / message / 追溯引用（clause/mapping/parameter ids）
+#     - 数值经 parameter_refs 引用，检查时由引擎解析当前值
+#     - 镜像锚点：审计新增 RULE_COMPILE_MISMATCH —— 落盘规则 vs 由源数据
+#       现场重编译结果必须一致（延续 v2.2 的 MODAL_DERIVE_MISMATCH 思路）
+#     - 不含 model_bindings 的条文（macro/process/未迁移册）沿用 v2.2 语义
+#
+#   ★ 编译规则（RULE_COMPILE_MISMATCH 的比对基准，v0.3 补——分支）：
+#     1. 有 model_bindings 且 property_requirements 引用了 parameters
+#        → 生成完整规则（when + check 值域，值经 parameter_ref 引用）
+#        check.op = 该 parameter.operator（in/gte/lte/regex…）
+#     2. 有 model_bindings 但 property_requirements.parameter_ref=null
+#        → 生成存在性规则（check op=exists——交付完整性）
+#     3. 绑定带 member_requirements（系统级）
+#        → 生成成员规则（check op=has_all，value 取自 member_requirements）
+#        mapping_refs = [系统绑定] + [其成员绑定（system_context 指向该系统者）]
+#     4. mapping_status ∈ needs_expert_review / not_applicable / draft
+#        → 不生成规则（诚实降级）
+#     5. 无 model_bindings（含未迁移册、macro/process 章）
+#        → 沿用 v2.2 语义，不参与 RULE_COMPILE_MISMATCH 比对
+#     ★ then.message 为人工文案，不参与一致性比对（只比结构化骨架）
+#     ★ when 的 space 条件路径由 space_context.carrier 决定（v0.4）：
+#         carrier=IfcSpace.ObjectType → object.space.usage
+#         carrier=IfcZone.Name        → object.zone.name
+#     ★ 已知 v1 限制：element 级 system_context 不编译为 when 条件
+#       （DSL 尚无「对象是否属于某系统」关系路径）——此类绑定须
+#       needs_expert_review，不得直接生成规则
+#
+#   编译产物结构：
+#     executable_rule:
+#       rule_id: R_gb50222_4_0_5_ceiling_A
+#       source_clause: "GB 50222-2017#4.0.5"
+#       rule_type: constraint
+#       mapping_refs: [mb_gb50222_4_0_5_ceiling]      # 追溯：绑定
+#       parameter_refs: [p_gb50222_4_0_5_fire_class]  # 追溯：参数（值不复制）
+#       when:                                            # DSL，见 §9.5
+#         all:
+#           - {path: object.entity, op: eq, value: IfcCovering}
+#           - {path: object.predefined_type, op: eq, value: CEILING}
+#           - {path: object.space.usage, op: in, value: [疏散楼梯间, 前室]}
+#       not_when: []
+#       then:
+#         severity: error
+#         message: "疏散楼梯间和前室的顶棚燃烧性能不满足 A 级（GB50222-2017 4.0.5）"
+#         check: {path: object.pset[Pset_CoveringCommon].FlammabilityRating,
+#                 op: in, parameter_ref: p_gb50222_4_0_5_fire_class}
+#       source_text: "疏散楼梯间和前室的顶棚、墙面和地面均应采用A级装修材料"
+
+# ============================================================
+# §9.5 规则 DSL 正式规范（规则引擎 / 审计 / IDS 导出共用语义）
+# ============================================================
+#
+#   对象路径（object.*）：
+#     object.entity                    实体类型（IfcCovering）
+#     object.predefined_type           枚举值（CEILING）
+#     object.object_type               ObjectType 自定义值（接闪器）
+#     object.pset[Pset_X].prop         构件属性（Pset_CoveringCommon.FlammabilityRating）
+#     object.qto[Qto_X].prop           数量集属性（Qto_SpaceBaseQuantities.NetFloorArea）
+#     object.material.classification.GB8624     材料分类（材料级路径）
+#     object.material.pset[GB_X].prop   材料自定义属性
+#     object.space.usage               所在空间用途（IfcSpace.ObjectType，词表 space_map）
+#     object.space.storey              所在楼层
+#     object.zone.name                 所在空间组的 IfcZone.Name（v0.4 新增；经
+#                                      relation.assigns_to_group 反查——空间上下文
+#                                      carrier=IfcZone.Name 时使用）
+#     object.system.type               所属系统（IfcDistributionSystem.PredefinedType）
+#
+#   关系路径（relation.*，供引擎遍历，规则里通常只做上下文取值）：
+#     relation.contained_in_space      IfcRelContainedInSpatialStructure（构件→空间）
+#     relation.associates_material     IfcRelAssociatesMaterial（构件→材料）
+#     relation.defines_by_properties   IfcRelDefinesByProperties（对象→属性）
+#     relation.assigns_to_group        IfcRelAssignsToGroup（成员→系统；空间→IfcZone）
+#
+#   操作符：eq / neq / in / not_in / gt / gte / lt / lte / regex / exists / has_all
+#     ★ has_all（v0.3 补入操作符表；v0.4 补匹配语义）：仅用于集合路径（如
+#       object.system.members_object_types）；语义 = 左侧集合包含 value 列表的
+#       **全部元素**（左侧 ⊇ 右侧，超集判定）；value 必须是列表。
+#       匹配语义三分支（引擎实现依此，防止项目 ObjectType 写法差异导致静默失败）：
+#         (1) 默认**精确匹配**（ObjectType 全等；比较前统一去首尾空白）
+#         (2) value 元素以 `/` 开头结尾（如 `/接闪./`）→ 按**正则**匹配
+#         (3) **别名归一**：同义写法（接闪器/避雷针/接闪杆/AirTermination）由词表
+#             member_alias_map 定义；匹配前先把模型侧成员归一为规范名再比对。
+#             ★ 别名只写在词表，**禁止写进规则 value**（保持规则与项目约定解耦）
+#     ★ 数值比较（gt/gte/lt/lte）与 in/not_in 的取值一律经 parameter_ref 解析，
+#       value 字面量仅限枚举值 / 实体名 / 空间名 / 正则串 / 集合元素名
+#
+#   逻辑：when.all（AND）/ not_when（黑名单）/ 顶层可嵌 {and: [...]} {or: [...]} {not: {...}}
+#   条件结构（受限，禁自由文本）：{path: <路径>, op: <操作符>, value: <字面量>}
+#                                或 {path: <路径>, op: <操作符>, parameter_ref: <参数id>}
+#
+#   ★ 求值顺序（v0.3 补，与 §9.3 优先级联动）：check 路径为 object.pset[...] 且
+#     绑定声明 material_binding.required=true 时，pset 取不到值则依次回退：
+#     构件级分类（material_channels.element_classification）→ 材料级分类
+#     （material_channels.material_classification，经 GB8624 组映射 A1/A2→A…）；
+#     回退全失败 → result=error（与 fail 区分）
+#
+#   IDS 导出边界（双轨制，决策④）：
+#     可导出 IDS：{对象路径=entity/predefined_type/pset.prop} + 值域型 check
+#                （in / 范围 / regex）→ 生成 .ids 交付要求
+#     不可导出（自研引擎）：space.usage / zone.name 上下文条件、跨对象关系、
+#                几何推导量、材料级细检路径
+#
+#   IDS 导出边界具体示例（v0.2 补，v0.3.1 按实测修正，防止导出脚本走偏）：
+#     ✅ 可导出（2026-09-22 全部实测通过，见 tools/_regression_mvp.py §5）：
+#        - IfcCovering（+CEILING）的 Pset_CoveringCommon.FlammabilityRating ∈ {A}
+#          → IDS：applicability=entity IfcCovering，requirement=property(FlammabilityRating, 值域{A})
+#          注：空间限定（楼梯间/前室）**不进 IDS**——导出的 IDS 是全楼顶棚要求，
+#          比条文更严（过度要求），交付时须在 IDS 说明中注明此差异
+#        - 属性存在性（op exists）→ requirement=property（无值），交付完整性检查
+#        - ★ 数值范围（op gt/gte/lt/lte）→ xs:restriction（minInclusive/maxInclusive…）
+#          实测：防雷系统 接地电阻 ≤10Ω —— 4Ω pass / 15Ω fail ✓
+#        - ★ 否定（op not_in）→ requirement cardinality=prohibited + enumeration 限制
+#          实测：顶棚 FlammabilityRating 不得为 B1 —— 正例 3/3 pass、反例 2 条 fail ✓
+#          （v0.2 曾误判「否定不可导出」——prohibited 基数即 IDS 的禁值语义，已修正）
+#     ❌ 不可导出（自研引擎 / 人工）：
+#        - object.space.usage in [疏散楼梯间, 前室] / object.zone.name in [湿区组]
+#          （IDS 对 IfcRelContainedInSpatialStructure / IfcRelAssignsToGroup 的
+#          空间与编组上下文支持不明确，且 ObjectType/Name 项目约定不属 IDS facet 语义）
+#        - 系统成员存在性（object.system.members_object_types）——跨对象编组关系
+#        - 材料级分类回退（IfcExternalReferenceRelationship → GB8624 组映射）——
+#          IDS 无「构件 pset 缺值则回退材料分类」语义
+#        - 几何推导量（距离/视距/遮挡）——需几何引擎
+#
+#   系统成员路径（v0.2 补，供 7.1.1 类条文）：
+#     object.system.members_object_types  系统经 IfcRelAssignsToGroup 编组的成员
+#                                         ObjectType 集合（如 [接闪器, 引下线, 接地装置]）
+#     配套操作符：has_all（集合包含判定，匹配语义见操作符表）
+#
+#   输出追溯链（每条检查结果）：
+#     rule_id → clause_id → mapping_id → parameter_id → ifc_guid → result
+#     result: pass / fail / error（error=路径取不到值/模型信息缺失，与 fail 区分）
+#     severity: error / warning / info
+
+# ============================================================
+# §9.6 审计规则（v2.3 门禁增量；与 v2.2 门禁叠加，不替代）
+# ============================================================
+#   C-BINDING-01  ifc_entity 不在词表 component 白名单 / 命中 forbidden（IfcCeiling、IfcFloor、IfcEntrance）→ error
+#                 （只查 component_ifc4 白名单；relation/resource 实体只允许出现在
+#                  DSL 路径与引擎遍历中，出现在 ifc_entity 一律 error；
+#                  未迁移册轻量检查：component_types 命中 forbidden 同报）
+#   C-BINDING-02  燃烧性能等级绑到 FireRating / 耐火极限绑到 FlammabilityRating → error
+#   C-BINDING-03  同册最大单一绑定组合占比 > 30% → warning（全册兜底复发）
+#                 ★ 组合维度（v0.3 定义）= (ifc_entity, predefined_type) 对，去重后
+#                 按条计数
+#                 ★ 分母（v0.4 收紧）= 该册 binding_level ∈ {element, system} 的条文数；
+#                 其中**全部绑定的 mapping_status ∈ {needs_expert_review,
+#                 not_applicable}** 的条文不计入（整条预期降级，不算兜底复发）。
+#                 理由：site 条文多时 (IfcSite, null) 组合占比会被推高而误报
+#   C-BINDING-04  when 收窄条件丢失（恒真规则）→ 三分支判定（v0.4 收紧）：
+#                 (a) 主映射（mapping_refs[0]）声明 space_context，但规则 when 缺
+#                     空间条件（object.space.usage / object.zone.name）→ **error**
+#                 (b) 主映射**无** space_context，规则 when 仅 entity/pdt → **合法，
+#                     不报警**（T4「全楼设备」类条文、系统级 has_all 规则即此形态）
+#                 (c) 主映射声明 space_context，规则 when 有空间条件，但其 value 是
+#                     主映射 values 的**真子集** → **warning**（值域被悄悄收窄→漏检）
+#                 ★ 依据：'其他部位'（GB50222 4.0.4「其他部位应采用不低于B1级」）
+#                   属部位集合补集，**不是**空间收窄——此类条文本就不应声明
+#                   space_context，归 (b)；而值域收窄归 (c)
+#   C-BINDING-04a 源数据侧收窄检查（v0.4 新增，**不依赖编译产物**）：
+#                 对每个声明 space_context 且 mapping_status ∈ {mapped, reviewed}
+#                 的绑定，由源数据编译出的规范形态规则 when 必须含对应空间条件
+#                 （值等于 space_context.values）→ 否则 error。
+#                 作用：即使 compiled_rules 缺失或编译部分失败，也能捕捉「收窄丢失」
+#                 （C-BINDING-04 查落盘产物，04a 查「源数据→编译函数」自洽性）
+#   C-BINDING-05  property_requirements / ifc_binding 出现字面数值（非 parameter_ref）→ error
+#   C-BINDING-06  IfcBuilding 出现于 binding_level≠building 的绑定 → error
+#   C-BINDING-07  component_types 与 model_bindings 派生集合不一致 → warning（迁移期）
+#   C-BINDING-08  system 级绑定缺 predefined_type / ObjectType → error
+#   C-BINDING-09  property_requirements.parameter_ref 指向不存在的参数 id → error
+#   C-BINDING-10  binding_level=macro/process 却带构件实体 → error
+#   C-BINDING-11  mapping_status=not_applicable 但缺 reason → error
+#   C-BINDING-12  space_context 合法性（v0.4 新增）：
+#                 carrier 不在枚举 {IfcSpace.ObjectType, IfcZone.Name} → error；
+#                 carrier=IfcSpace.ObjectType 但 values 有项未命中词表 space_map
+#                 → warning（项目约定漂移）
+#   C-RATIO-01    册级 not_applicable 占比 > 15% → warning
+#                 ★ 分母（v0.3 定义）= 该册 binding_level ≠ macro 的条文总数
+#                 （macro 章本就不需要绑定，不应拉低/抬高比例）
+#   C-RATIO-02    词表 predefined_type_required_entities 的 PredefinedType 使用率 < 90% → warning
+#                 ★ 分母（v0.3 定义）= 该册 model_bindings 中 ifc_entity 命中
+#                 predefined_type_required_entities 的绑定条数（非全册条文数）
+#   C-RULE-01     RULE_COMPILE_MISMATCH：落盘规则 ≠ 源数据重编译结果 → error
+#                 （比对基准见 §9.4 编译规则三分支；无 model_bindings 条文不参与）
+#   黄金样本专项：正例通过率 / 反例命中率 = 100%（验收脚本，非全库门禁）
+
+# ============================================================
+# §9.7 向后兼容与迁移
+# ============================================================
+#   1. 全部新字段可选 → 33 册旧 YAML 无须任何改动即可继续通过 v2.2 门禁
+#   2. 某册实际应用 §9 字段后才 bump 该册 standard.schema_version = v2.3
+#   3. 迁移顺序：parameters[].id 全库机器生成（一次性脚本，含备份与
+#      「生成数==参数数」守恒校验）→ 3 册逐条补 binding_level + model_bindings
+#      → executable_rules 编译器落地 → 其余 19 册按模板复用
+#      （2026-09-22 范围决议：2014 年及以前 11 册冻结于 v2.2 不迁移，
+#       22−3 试点 = 19 册）
+#   4. 生成 id 与重编译均须走既有的 CRLF 安全写入规范（参考 _migrate_terms2.py 范式）
+
+# ============================================================
+# MVP 闭环目标（5 条，验证通过后本草案升正本）
+# ============================================================
+#   ① GB50222 4.0.5   疏散楼梯间前室顶棚/墙面/地面 A 级 —— 双路径（构件+材料）
+#   ② GB55031 6.1.1   屋面保温/隔热/防水 —— 部位→实体+PredefinedType + 热工属性
+#   ③ GB55024 7.1.1   防雷 —— 系统级 IfcDistributionSystem.LIGHTNINGPROTECTION
+#   ④ GB55024 第9章   检验和验收 —— binding_level=process + activity_types
+#   ⑤ GB55031 4.3.4   空映射 —— 补绑定或显式 not_applicable
+#   配套：自建测试 IFC 模型（正反例各一套）；IDS 导出走值域部分；
+#         自研引擎（ifcopenshell，py313 win64 wheel 已核实可用）跑空间/跨对象/否定逻辑。
+#   v0.4 追加工具实证：IfcZone 空间组（object.zone.name）、has_all 别名归一、
+#         多候选拆条双实体分别命中 —— 见 tools/fixtures/zone_probe_bindings.yaml。

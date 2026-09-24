@@ -6,10 +6,10 @@
 
 > `[ ] IFC 映射逐条精修：当前 rules 的 when 中 component_type 为保守宽匹配（四类实体全量覆盖），尚不构成精确的 BIM 构件级映射`
 
-> ⚠️ **当前状态：草案（draft），不是权威 schema。**
-> - 本目录的 `SCHEMA_v2.3_draft.yaml` 是 v0.4 草案；仓库权威 schema 仍是 [`schema/SCHEMA_v2.2.yaml`](../schema/SCHEMA_v2.2.yaml)。
-> - 目前**只有 GB 50222-2017 一册**完成了全册绑定并合入 `standards/`；GB 55031 / GB 55024 尚未按本层重映射。
-> - 工具与词表可用、可复跑，但接口仍可能随后续批次调整。
+> **状态更新（2026-09-24）：SCHEMA v2.3 已升正本。**
+> - 仓库权威 schema 现为 [`schema/SCHEMA_v2.3.yaml`](../schema/SCHEMA_v2.3.yaml)；本目录的 `SCHEMA_v2.3_draft.yaml` 为升格前草案，仅备查。
+> - **GB 50222-2017 一册**已完成全册绑定并合入 `standards/`（`schema_version` v2.3）；GB 55031 / GB 55024 尚未按本层重映射。
+> - 工具与词表可用、可复跑；`audit_binding_v23.py` 对未迁移册亦做 `component_types` 死名轻量检查（C-BINDING-01）。
 
 ***
 
@@ -18,8 +18,8 @@
 ```
 ifc-binding/
 ├── README.md                     # 你正在看的文件
-├── SCHEMA_v2.3_draft.yaml        # 绑定层 schema 草案（v0.4）：字段定义 + 15 项审计口径
-├── ifc_mapping_dict_v0.yaml      # 映射词表（v0.3）：中文部位/构件 → IFC 实体与 PredefinedType，含 space_map 与别名表
+├── SCHEMA_v2.3_draft.yaml        # 升格前草案（备查；正本已移至 schema/SCHEMA_v2.3.yaml）
+├── ifc_mapping_dict_v0.yaml      # 映射词表（v0.6）：中文部位/构件 → IFC 实体与 PredefinedType，含 space_map 与别名表
 ├── binding_templates_v1.yaml     # T1–T6 + T1_table 批量重映射模板（v1.1）
 ├── tools/
 │   ├── audit_binding_v23.py      # 绑定层审计（15 项检查；--selftest 自证）
@@ -50,9 +50,9 @@ pip install ifcopenshell    # 完整（实测 0.8.5 可用）
 ## 3. 快速验证（以下命令均在本仓库实测通过）
 
 ```bash
-# ① 审计器自证：15 项检查逐一用合成违规数据触发，确认审计器本身没瞎
+# ① 审计器自证：15 项检查（含未迁移册 CT 死名支路）逐一用合成违规数据触发，确认审计器本身没瞎
 python ifc-binding/tools/audit_binding_v23.py --selftest
-#   → == 自证结论：全部触发（17/17）
+#   → == 自证结论：全部触发（18/18）
 
 # ② 审一份真实绑定层
 python ifc-binding/tools/audit_binding_v23.py ifc-binding/samples/golden20_bindings.yaml
@@ -95,7 +95,7 @@ python ifc-binding/tools/rule_engine.py ifc-binding/samples/golden20_bindings.ya
 
 ## 6. 已知边界
 
-* 草案 schema 未升正本；其余 30 余册标准尚未按本层重映射。
+* 其余 20 余册 2014 年后发布的标准尚未按本层重映射（2014 年前 11 册冻结于 v2.2，不迁移）。
 * 几何推导量（如「距 XX 不小于 0.5m」）当前保留参数、不生成规则，待几何引擎接入。
 * `element` 级绑定若不带空间收窄，其规则是**实体全域**的——模型里同类实体的其他用途会被误卷入。批量迁移时要选**最贴切**的实体，而不是最宽的上位实体。
 * ifcopenshell 0.8.5 的两个坑：`unit.assign_unit` 会 `IndexError`（须手工建 `IfcUnitAssignment`）；`IsGroupedBy` 是 `IfcGroup` 侧的**逆属性**，成员侧要走 `IfcObjectDefinition.HasAssignments`——写反了会恒返回 `None`，空间组条件静默失效。

@@ -58,10 +58,10 @@
 │   ├── GB55019-2021.yaml          # 通用规范④：102 条（无障碍通用规范，全文强制；适用性回填 17/102）
 │   ├── GB55036-2022.yaml          # 通用规范⑤：122 条（消防设施通用规范，全文强制；适用性回填 21/122）
 │   └── GB55032-2022.yaml          # 通用规范⑥：66 条（施工质量控制通用规范，全文强制；适用性回填 0/66）
-├── ifc-binding/                   # IFC 绑定层（**草案**）：把「对哪些构件生效」精修到 IFC 实体 + PredefinedType + 空间上下文
+├── ifc-binding/                   # IFC 绑定层（schema v2.3 已升正本）：把「对哪些构件生效」精修到 IFC 实体 + PredefinedType + 空间上下文
 │   ├── README.md                  # 说明、依赖、实测命令、设计红线
-│   ├── SCHEMA_v2.3_draft.yaml     # schema 草案 v0.4（**非权威**，权威仍是 schema/SCHEMA_v2.2.yaml）
-│   ├── ifc_mapping_dict_v0.yaml   # 映射词表 v0.3（部位/构件 → IFC 实体与枚举，含 space_map、别名表）
+│   ├── SCHEMA_v2.3_draft.yaml     # 升格前草案（备查；正本为 schema/SCHEMA_v2.3.yaml）
+│   ├── ifc_mapping_dict_v0.yaml   # 映射词表 v0.6（部位/构件 → IFC 实体与枚举，含 space_map、别名表）
 │   ├── binding_templates_v1.yaml  # T1–T6 + T1_table 批量重映射模板 v1.1
 │   ├── tools/                     # 编译 / 审计（15 项）/ 自研引擎 / 造测试模型 / IDS 导出
 │   ├── samples/                   # 黄金样本 20 条：源数据 + 编译产物
@@ -337,7 +337,8 @@ python tools/audit_modal_v22.py    # → scanned: 6 files / violations: 0
 
 * [x] 第四至六册开源：GB 55019-2021《无障碍通用规范》、GB 55036-2022《消防设施通用规范》、GB 55032-2022《施工质量控制通用规范》（均为全文强制，合计 290 条）（2026-09-23；**适用性回填进行中，GB55032 尚未开始**）
 
-* [x] IFC 绑定层草案 + 工具链开源，并完成 **GB 50222-2017 全册绑定精修**（2026-09-22；49 条 `binding_level` / 99 条绑定 / 64 条参数，审计 0 error 0 warning，见 [`ifc-binding/`](ifc-binding/README.md)）
+* [x] IFC 绑定层 + 工具链开源，并完成 **GB 50222-2017 全册绑定精修**（2026-09-22；49 条 `binding_level` / 99 条绑定 / 64 条参数，审计 0 error 0 warning，见 [`ifc-binding/`](ifc-binding/README.md)）
+* [x] SCHEMA v2.3 升正本 + 全库 IFC 死名清理（2026-09-24；GB 55019 清除 `IfcEntrance` 死名 170 处，词表 forbidden 补齐并升 v0.6，审计器新增未迁移册 CT 死名检查）
 
 * [ ] 完成三册样板全册逐条人工校对
 

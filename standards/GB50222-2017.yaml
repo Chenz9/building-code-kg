@@ -76,7 +76,7 @@ standard:
   - GB 50222-2017#6.0.3
   - GB 50222-2017#6.0.4
   - GB 50222-2017#6.0.5
-  schema_version: v2.2
+  schema_version: v2.3
   last_reviewed_date: '2026-09-10'
 clauses:
 - id: GB 50222-2017#1.0.1
@@ -703,7 +703,6 @@ clauses:
     component_types:
     - IfcCovering
     - IfcWall
-    - IfcCeiling
     - IfcDoor
     model_bindings: []
     activity_types:
@@ -755,7 +754,6 @@ clauses:
     component_types:
     - IfcCovering
     - IfcWall
-    - IfcCeiling
     - IfcDoor
     model_bindings: []
     activity_types:
@@ -3055,7 +3053,6 @@ clauses:
     component_types:
     - IfcCovering
     - IfcWall
-    - IfcCeiling
     - IfcDoor
     model_bindings: []
     activity_types:
@@ -6774,7 +6771,6 @@ clauses:
     component_types:
     - IfcCovering
     - IfcWall
-    - IfcCeiling
     - IfcDoor
     model_bindings: []
     activity_types:
@@ -7225,7 +7221,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '内部装修防火设计'
-  - component_type IN ['IfcCovering', 'IfcWall', 'IfcCeiling', 'IfcDoor']
+  - component_type IN ['IfcCovering', 'IfcWall', 'IfcDoor']
   then:
     parameter: 单位面积质量
     unit: g/m²
@@ -7240,7 +7236,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '内部装修防火设计'
-  - component_type IN ['IfcCovering', 'IfcWall', 'IfcCeiling', 'IfcDoor']
+  - component_type IN ['IfcCovering', 'IfcWall', 'IfcDoor']
   then:
     parameter: 湿涂覆比
     unit: kg/m²
@@ -7255,7 +7251,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '内部装修防火设计'
-  - component_type IN ['IfcCovering', 'IfcWall', 'IfcCeiling', 'IfcDoor']
+  - component_type IN ['IfcCovering', 'IfcWall', 'IfcDoor']
   then:
     parameter: 干膜厚度
     unit: mm
@@ -7270,7 +7266,7 @@ executable_rules:
   rule_type: constraint
   when:
   - activity_type == '内部装修防火设计'
-  - component_type IN ['IfcCovering', 'IfcWall', 'IfcCeiling', 'IfcDoor']
+  - component_type IN ['IfcCovering', 'IfcWall', 'IfcDoor']
   then:
     parameter: 高温部位与装修材料距离
     unit: mm

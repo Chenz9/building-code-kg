@@ -288,7 +288,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -359,7 +358,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -397,7 +395,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -435,7 +432,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -483,7 +479,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -528,7 +523,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -574,7 +568,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -619,7 +612,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -675,7 +667,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -798,7 +789,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -836,7 +826,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -874,7 +863,6 @@ clauses:
   references: []
   related_objects: &id004
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -957,7 +945,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -996,7 +983,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -1034,7 +1020,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -1079,7 +1064,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -1142,7 +1126,6 @@ clauses:
   references: []
   related_objects: &id006
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -1224,7 +1207,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -1268,7 +1250,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -1306,7 +1287,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -1351,7 +1331,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -1401,7 +1380,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -1466,7 +1444,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -1516,7 +1493,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -1576,7 +1552,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -1614,7 +1589,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -1683,7 +1657,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -1721,7 +1694,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -1771,7 +1743,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -1816,7 +1787,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -1854,7 +1824,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -1892,7 +1861,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -1975,7 +1943,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -2013,7 +1980,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -2071,7 +2037,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -2109,7 +2074,6 @@ clauses:
   references: []
   related_objects: &id008
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -2187,7 +2151,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -2225,7 +2188,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -2275,7 +2237,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -2320,7 +2281,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -2374,7 +2334,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -2412,7 +2371,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -2462,7 +2420,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -2507,7 +2464,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -2545,7 +2501,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -2583,7 +2538,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -2628,7 +2582,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -2667,7 +2620,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -2705,7 +2657,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -2743,7 +2694,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -2791,7 +2741,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -2851,7 +2800,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -2932,7 +2880,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -2987,7 +2934,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -3063,7 +3009,6 @@ clauses:
   references: []
   related_objects: &id010
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -3140,7 +3085,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -3221,7 +3165,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -3259,7 +3202,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -3314,7 +3256,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -3357,7 +3298,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -3396,7 +3336,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -3434,7 +3373,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -3472,7 +3410,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -3510,7 +3447,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -3548,7 +3484,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -3591,7 +3526,6 @@ clauses:
   references: []
   related_objects: &id012
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -3662,7 +3596,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -3700,7 +3633,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -3750,7 +3682,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -3788,7 +3719,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -3832,7 +3762,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -3870,7 +3799,6 @@ clauses:
   references: []
   related_objects: &id014
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -3939,7 +3867,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -4012,7 +3939,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -4050,7 +3976,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -4100,7 +4025,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -4138,7 +4062,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -4176,7 +4099,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -4214,7 +4136,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -4252,7 +4173,6 @@ clauses:
   references: []
   related_objects: &id016
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -4323,7 +4243,6 @@ clauses:
   references: []
   related_objects:
     component_types:
-    - IfcEntrance
     - IfcStair
     - IfcRamp
     - IfcDoor
@@ -4539,7 +4458,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 体突出部分
     unit: mm
@@ -4554,7 +4473,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 距地面高度
     unit: m
@@ -4569,7 +4488,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 面高度
     unit: mm
@@ -4584,7 +4503,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 通行净宽
     unit: m
@@ -4599,7 +4518,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 通行净宽
     unit: m
@@ -4614,7 +4533,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 道通行净宽
     unit: mm
@@ -4629,7 +4548,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 直径
     unit: mm
@@ -4644,7 +4563,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 在净高
     unit: m
@@ -4659,7 +4578,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 点的高差
     unit: mm
@@ -4674,7 +4593,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 升高度
     unit: mm
@@ -4689,7 +4608,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 通行净宽
     unit: m
@@ -4704,7 +4623,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 坡道的高度
     unit: mm
@@ -4719,7 +4638,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 通行净宽
     unit: mm
@@ -4734,7 +4653,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 口通行净宽
     unit: mm
@@ -4749,7 +4668,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 高度
     unit: mm
@@ -4764,7 +4683,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 通行净宽
     unit: mm
@@ -4779,7 +4698,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 通行净宽
     unit: mm
@@ -4794,7 +4713,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 地面高度
     unit: m
@@ -4810,7 +4729,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 地面高度
     unit: m
@@ -4826,7 +4745,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 撞提示措施
     unit: m
@@ -4842,7 +4761,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 提示措施m
     unit: m
@@ -4858,7 +4777,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 后的净间距
     unit: m
@@ -4873,7 +4792,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 面高度
     unit: mm
@@ -4888,7 +4807,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 候梯厅深度
     unit: m
@@ -4903,7 +4822,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 处侧墙距离
     unit: mm
@@ -4918,7 +4837,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 厢规格深度
     unit: m
@@ -4933,7 +4852,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 宽轿厢深度
     unit: m
@@ -4948,7 +4867,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 深轿厢深度
     unit: m
@@ -4963,7 +4882,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 通行净宽
     unit: mm
@@ -4978,7 +4897,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 通行净宽
     unit: mm
@@ -4993,7 +4912,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 手的高度
     unit: mm
@@ -5009,7 +4928,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 手的高度
     unit: mm
@@ -5025,7 +4944,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 扶于高度
     unit: mm
@@ -5041,7 +4960,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 扶于高度
     unit: mm
@@ -5057,7 +4976,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 扶手高度
     unit: mm
@@ -5073,7 +4992,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 扶手高度
     unit: mm
@@ -5089,7 +5008,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 伸延伸长度
     unit: mm
@@ -5104,7 +5023,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 伸延伸长度
     unit: mm
@@ -5119,7 +5038,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 面的净距离
     unit: mm
@@ -5134,7 +5053,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 上时应设置
     unit: '%'
@@ -5149,7 +5068,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 车位应设置
     unit: '%'
@@ -5164,7 +5083,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 动车停车位
     unit: m
@@ -5180,7 +5099,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 车停车位m
     unit: m
@@ -5196,7 +5115,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 下口路缘石
     unit: mm
@@ -5212,7 +5131,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 路缘石mm
     unit: mm
@@ -5228,7 +5147,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 面坡道宽度
     unit: m
@@ -5243,7 +5162,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 坡口宽度均
     unit: m
@@ -5258,7 +5177,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 空间的宽度
     unit: mm
@@ -5273,7 +5192,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 桩的净间距
     unit: mm
@@ -5288,7 +5207,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 盲道其宽度
     unit: mm
@@ -5303,7 +5222,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 域通行净宽
     unit: mm
@@ -5318,7 +5237,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 地面高度
     unit: m
@@ -5334,7 +5253,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 地面高度
     unit: m
@@ -5350,7 +5269,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 抓杆直径
     unit: mm
@@ -5366,7 +5285,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 抓杆直径
     unit: mm
@@ -5382,7 +5301,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 面的净距离
     unit: mm
@@ -5397,7 +5316,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 面的净距离
     unit: m
@@ -5412,7 +5331,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 上沿高度
     unit: mm
@@ -5428,7 +5347,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 上沿高度
     unit: mm
@@ -5444,7 +5363,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: mmm长度
     unit: mm
@@ -5459,7 +5378,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 平部分长度
     unit: mm
@@ -5474,7 +5393,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 坐便器前端
     unit: mm
@@ -5490,7 +5409,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 器前端mm
     unit: mm
@@ -5506,7 +5425,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 地面高度
     unit: m
@@ -5522,7 +5441,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 地面高度
     unit: m
@@ -5538,7 +5457,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 面高度
     unit: mm
@@ -5553,7 +5472,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 地面高度
     unit: m
@@ -5569,7 +5488,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 无障碍洗手盆尺寸限值
     unit: mm
@@ -5586,7 +5505,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 部应留出
     unit: mm
@@ -5601,7 +5520,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 部应留出
     unit: mm
@@ -5616,7 +5535,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 距地面高度
     unit: mm
@@ -5632,7 +5551,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 范围内进深
     unit: mm
@@ -5647,7 +5566,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 他部分进深
     unit: mm
@@ -5662,7 +5581,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 间高度
     unit: m
@@ -5677,7 +5596,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 一边的长度
     unit: m
@@ -5692,7 +5611,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 留有直径
     unit: m
@@ -5707,7 +5626,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 手盆设一块
     unit: mm
@@ -5722,7 +5641,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 手盆设一块
     unit: mm
@@ -5737,7 +5656,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 一边的长度
     unit: m
@@ -5752,7 +5671,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 前应设直径
     unit: m
@@ -5767,7 +5686,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 侧通道宽度
     unit: m
@@ -5782,7 +5701,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 轮椅席位尺寸限值
     unit: mm
@@ -5799,7 +5718,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 地面高度
     unit: mm
@@ -5815,7 +5734,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 地面高度
     unit: mm
@@ -5831,7 +5750,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 下部应留出
     unit: mm²
@@ -5846,7 +5765,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 下部应留出
     unit: mm
@@ -5861,7 +5780,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 他部分进深
     unit: mm
@@ -5876,7 +5795,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 范围内进深
     unit: mm
@@ -5891,7 +5810,7 @@ executable_rules:
   rule_type: validation
   when:
   - activity_type == '无障碍设计'
-  - component_type IN ['IfcEntrance', 'IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
+  - component_type IN ['IfcStair', 'IfcRamp', 'IfcDoor', 'IfcSanitaryTerminal']
   then:
     parameter: 范围内进深
     unit: mm

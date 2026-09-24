@@ -1,5 +1,5 @@
 # ============================================================
-# 规范 ↔ IFC 映射词表 v0.3（2026-09-22）
+# 规范 ↔ IFC 映射词表 v0.6（2026-09-24）
 # ============================================================
 # 用途：GB50222 / GB55031 / GB55024 三册黄金样本的模型绑定层唯一词表。
 #       审计脚本（实体白名单校验）、IDS 导出、自研规则引擎共用本文件。
@@ -31,13 +31,14 @@
 # ============================================================
 
 meta:
-  version: v0.5
-  date: "2026-09-22"
+  version: v0.6
+  date: "2026-09-24"
   ifc_baseline: IFC4                # 决策⑥：IFC4 基线
   ifc_extension: IFC4.3             # 仅扩展列可引用，引用时须显式声明
   scope: [GB 50222-2017, GB 55031-2022, GB 55024-2022]
   status: draft
   changelog:
+    - "v0.6（2026-09-24）：forbidden 补死名 IfcEntrance（GB55019 宽匹配残留：CT 81 + 规则 89）；GB50222 剔除 IfcCeiling 残留并升 schema_version v2.3；审计器对未迁移册 CT 命中 forbidden 报 C-BINDING-01。"
     - "v0.5（2026-09-22）：space_map 补 GB50222 第5–6章表格场所类别 18 条（表5.1.1/5.2.1/5.3.1/6.0.1/6.0.5 的『建筑物及场所』行），随批次1d落地。"
     - "v0.4（2026-09-22）：space_map 补 GB50222 第4章特别场所 16 条（中庭/走马廊/开敞楼梯/自动扶梯/消防水泵房/机械加压送风排烟机房/固定灭火系统钢瓶间/配电室/变压器室/发电机房/储油间/通风和空调机房/厨房/库房/贮藏间/阳台），随批次1b落地。"
     - "v0.3（2026-09-22）：space_map 补 湿区（厕所/浴室/公共厨房/垃圾间）+ 安装场所（室外/埋地/水下）；member_alias_map 首次落地。"
@@ -697,5 +698,7 @@ entity_whitelist:
       reason: "IFC4 不存在；顶棚=IfcCovering+CEILING"
     - entity: IfcFloor
       reason: "IFC1.0 旧名，IFC2.0 起并入 IfcSlab；地面=IfcSlab+FLOOR / IfcCovering+FLOORING"
+    - entity: IfcEntrance
+      reason: "IFC4 不存在；入口=IfcDoor（入口空间可用 IfcSpace/IfcZone 表达）"
   building_as_component_restricted: "IfcBuilding 仅 binding_level=building 可用（整栋级指标）"
   system_requires_type: "IfcDistributionSystem/IfcSystem 必须带 predefined_type 或 ObjectType"

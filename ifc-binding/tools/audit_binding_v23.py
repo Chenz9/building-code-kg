@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
-"""绑定层审计器 v2.3（SCHEMA_v2.3_草案 §9.6 的工程化实现）。
+"""绑定层审计器 v2.3（SCHEMA_v2.3 §9.6 的工程化实现）。
 
 检查项（ID 与 schema §9.6 一致）：
   C-BINDING-01 ifc_entity 不在 component 白名单 / 命中 forbidden → error
+               ★ 未迁移册轻量检查：component_types 命中 forbidden（死名宽匹配残留）同报
   C-BINDING-03 同册最大单一 (ifc_entity, predefined_type) 组合占比 > 30% → warning
                ★ 分母 = binding_level∈{element,system} 且非「整条降级」的条文数；
                  条文数 < 20 时跳过（样本不足）
@@ -227,6 +228,19 @@ def run_checks(samples, dict_data):
     return F
 
 
+def ct_forbidden_findings(samples, dict_data):
+    """未迁移册轻量检查：component_types 命中 forbidden（死名宽匹配残留）。"""
+    forbidden = {x["entity"]: x["reason"] for x in dict_data["entity_whitelist"].get("forbidden") or []}
+    F = []
+    for s in samples:
+        cts = (s.get("related_objects") or {}).get("component_types") or []
+        hits = [c for c in cts if c in forbidden]
+        if hits:
+            F.append(("C-BINDING-01", "error",
+                      f"{s['clause_id']}: component_types 死名 {hits}（{'；'.join(forbidden[h] for h in hits)}）"))
+    return F
+
+
 def audit_files(paths):
     dict_data = load_dict()
     all_F, skipped = [], []
@@ -234,7 +248,10 @@ def audit_files(paths):
         doc = yaml.safe_load(open(p, encoding="utf-8"))
         samples, migrated = to_samples(doc)
         if not migrated:
-            skipped.append(f"{os.path.basename(p)}：未迁移（无 binding_level），跳过绑定层检查")
+            F = ct_forbidden_findings(samples, dict_data)
+            all_F += [(os.path.basename(p),) + f for f in F]
+            if not F:
+                skipped.append(f"{os.path.basename(p)}：未迁移（无 binding_level），跳过绑定层检查")
             continue
         for f in run_checks(samples, dict_data):
             all_F.append((os.path.basename(p),) + f)
@@ -333,14 +350,20 @@ def selftest():
     sev4 = {f[1] for f in findings if f[0] == "C-BINDING-04"}
     print(f"   [{'OK ' if 'error' in sev4 else 'MISS'}] C-BINDING-04 (a) 收窄丢失 error")
     print(f"   [{'OK ' if 'warning' in sev4 else 'MISS'}] C-BINDING-04 (c) 值域收窄 warning")
+    # 未迁移册 CT 死名 → C-BINDING-01（ct_forbidden_findings，audit_files 未迁移分支）
+    unmig = [{"clause_id": "GB 99999-2020#2.0.1",
+             "related_objects": {"component_types": ["IfcEntrance", "IfcDoor"]}}]
+    ctF = ct_forbidden_findings(unmig, dict_data)
+    ok_ct = len(ctF) == 1 and ctF[0][0] == "C-BINDING-01"
+    print(f"   [{'OK ' if ok_ct else 'MISS'}] C-BINDING-01(未迁移CT死名): {len(ctF)} 条")
     missing = expect - got
     br_missing = set()
     if "error" not in sev4:
         br_missing.add("04a分支")
     if "warning" not in sev4:
         br_missing.add("04c分支")
-    print(f"== 自证结论：{'全部触发' if not missing and not br_missing else f'未触发 {sorted(missing | br_missing)}'}")
-    return 0 if not missing and not br_missing else 1
+    print(f"== 自证结论：{'全部触发' if not missing and not br_missing and ok_ct else f'未触发 {sorted(missing | br_missing)}'}")
+    return 0 if not missing and not br_missing and ok_ct else 1
 
 
 if __name__ == "__main__":
