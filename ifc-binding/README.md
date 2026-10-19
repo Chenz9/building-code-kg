@@ -1,15 +1,12 @@
-# IFC 绑定层（草案）
+# IFC 绑定层（Schema v2.3）
 
 把标准条文的「对哪些构件生效」，从宽泛的实体名，精修到 **IFC4 实体 + `PredefinedType` + 空间上下文** 的可执行绑定，并可导出 **IDS** 交给 BIM 审查工具消费。
 
-它闭合的是仓库 README 路线图里挂着的那一条：
+**当前状态（2026-09-24）：SCHEMA v2.3 已升正本。**
 
-> `[ ] IFC 映射逐条精修：当前 rules 的 when 中 component_type 为保守宽匹配（四类实体全量覆盖），尚不构成精确的 BIM 构件级映射`
-
-> **状态更新（2026-09-24）：SCHEMA v2.3 已升正本。**
-> - 仓库权威 schema 现为 [`schema/SCHEMA_v2.3.yaml`](../schema/SCHEMA_v2.3.yaml)；本目录的 `SCHEMA_v2.3_draft.yaml` 为升格前草案，仅备查。
-> - **GB 50222-2017 一册**已完成全册绑定并合入 `standards/`（`schema_version` v2.3）；GB 55031 / GB 55024 尚未按本层重映射。
-> - 工具与词表可用、可复跑；`audit_binding_v23.py` 对未迁移册亦做 `component_types` 死名轻量检查（C-BINDING-01）。
+- 仓库权威 schema 为 [`schema/SCHEMA_v2.3.yaml`](../schema/SCHEMA_v2.3.yaml)；本目录的 `SCHEMA_v2.3_draft.yaml` 为升格前草案，仅备查。
+- **GB 50222-2017 一册**已完成全册绑定并合入 `standards/`（`schema_version` v2.3）；GB 55031 / GB 55024 等其余 21 册尚未按本层重映射。
+- 工具与词表可用、可复跑；`audit_binding_v23.py` 对未迁移册亦做 `component_types` 死名轻量检查（C-BINDING-01）。
 
 ***
 
@@ -95,13 +92,13 @@ python ifc-binding/tools/rule_engine.py ifc-binding/samples/golden20_bindings.ya
 
 ## 6. 已知边界
 
-* 其余 20 余册 2014 年后发布的标准尚未按本层重映射（2014 年前 11 册冻结于 v2.2，不迁移）。
+* 2014 年（含）以前发布的 11 册冻结于 v2.2、不迁移；其余 21 册尚未按本层重映射。
 * 几何推导量（如「距 XX 不小于 0.5m」）当前保留参数、不生成规则，待几何引擎接入。
 * `element` 级绑定若不带空间收窄，其规则是**实体全域**的——模型里同类实体的其他用途会被误卷入。批量迁移时要选**最贴切**的实体，而不是最宽的上位实体。
 * ifcopenshell 0.8.5 的两个坑：`unit.assign_unit` 会 `IndexError`（须手工建 `IfcUnitAssignment`）；`IsGroupedBy` 是 `IfcGroup` 侧的**逆属性**，成员侧要走 `IfcObjectDefinition.HasAssignments`——写反了会恒返回 `None`，空间组条件静默失效。
 
 ## 7. 与仓库主体的关系
 
-`standards/GB50222-2017.yaml` 已按本层完成全册绑定（49 条 `binding_level`、99 条绑定、64 条参数、64 条条文级编译规则，审计 0 error / 0 warning）。它是**唯一的落实例子**，可对照 `samples/` 里的黄金样本看同样的写法。
+`standards/GB50222-2017.yaml` 已按本层完成全册绑定（49 条 `binding_level`、99 条绑定、64 条条文级编译规则，审计 0 error / 0 warning）。它是**唯一的落实例子**，可对照 `samples/` 里的黄金样本看同样的写法。
 
 本目录不发布内部决策记录与未定稿的批次报告——那些是过程稿，留在私有工作区。

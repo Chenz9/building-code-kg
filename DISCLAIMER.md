@@ -27,4 +27,4 @@ python tools/strip_text.py standards/GB50222-2017.yaml standards/GB50222-2017_no
 
 ## 关于本仓库的代码与工具
 
-`tools/` 目录下的脚本与阅读器在 MIT 许可证下发布，详见 [LICENSE](LICENSE)。MIT 授权**不覆盖** `standards/` 下的标准文本数据。
+`tools/` 与 `ifc-binding/tools/` 下的脚本、阅读器在 MIT 许可证下发布，详见 [LICENSE](LICENSE)。MIT 授权**不覆盖** `standards/` 下的标准文本数据。
